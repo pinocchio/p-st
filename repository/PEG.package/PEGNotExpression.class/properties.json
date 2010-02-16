@@ -1,0 +1,14 @@
+{
+	"category" : "PEG",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"child" ],
+	"name" : "PEGNotExpression",
+	"pools" : [
+		 ],
+	"super" : "PEGExpression",
+	"type" : "normal" }

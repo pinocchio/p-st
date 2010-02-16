@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"pMethods" : "ToonVerwaest 2/10/2010 14:39" },
+	"instance" : {
+		"setUp" : "ToonVerwaest 2/10/2010 14:40",
+		"testExpression" : "ToonVerwaest 2/10/2010 16:14",
+		"testMemoizeEquals" : "ToonVerwaest 2/12/2010 17:39",
+		"testNotExpression" : "CamilloBruni 2/10/2010 22:30",
+		"testOneOrMoreExpression" : "ToonVerwaest 2/10/2010 16:27",
+		"testOptionalExpression" : "ToonVerwaest 2/10/2010 17:10",
+		"testOrderedChoiceExpression" : "ToonVerwaest 2/10/2010 17:14",
+		"testRange" : "ToonVerwaest 2/12/2010 17:41",
+		"testResultEquals" : "ToonVerwaest 2/12/2010 17:39",
+		"testSeparator" : "ToonVerwaest 2/12/2010 17:30",
+		"testSequenceExpression" : "ToonVerwaest 2/12/2010 17:30",
+		"testSequenceOmit" : "ToonVerwaest 2/12/2010 17:30",
+		"testSingleCharacterParse" : "ToonVerwaest 2/10/2010 14:57",
+		"testZeroOrMoreExpression" : "ToonVerwaest 2/12/2010 17:23" } }

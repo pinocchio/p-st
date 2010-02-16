@@ -1,0 +1,14 @@
+{
+	"category" : "PEG",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"result" ],
+	"name" : "PEGSucceededOptionalResult",
+	"pools" : [
+		 ],
+	"super" : "PEGOptionalResult",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "PEG",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PEGOneOrMoreExpression",
+	"pools" : [
+		 ],
+	"super" : "PEGZeroOrMoreExpression",
+	"type" : "normal" }

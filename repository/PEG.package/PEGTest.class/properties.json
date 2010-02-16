@@ -1,0 +1,14 @@
+{
+	"category" : "PEG",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tv 3/25/2009 17:56",
+	"instvars" : [
+		"exp2" ],
+	"name" : "PEGTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"category" : "PEG",
+	"classinstvars" : [
+		"separators",
+		"separator" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"expression",
+		"semantics",
+		"scopeClass",
+		"separator" ],
+	"name" : "PEGParser",
+	"pools" : [
+		 ],
+	"super" : "PEGExpression",
+	"type" : "normal" }

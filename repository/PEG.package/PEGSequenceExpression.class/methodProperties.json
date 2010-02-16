@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"<&" : "tv 3/27/2009 15:25",
+		"initialize" : "CamilloBruni 12/9/2009 11:35",
+		"initialize:" : "tv 3/26/2009 13:23",
+		"privateMatch:" : "ToonVerwaest 2/10/2010 19:51",
+		"privateOmitMatch:" : "ToonVerwaest 2/10/2010 19:38",
+		"skipWhitespace" : "cb 3/25/2009 22:07",
+		"skipWhitespace:" : "cb 3/25/2009 22:07" } }

@@ -1,0 +1,3 @@
+accessing
+resultIfFailed: alternative
+	self subclassResponsibility

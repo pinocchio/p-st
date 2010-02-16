@@ -1,0 +1,15 @@
+{
+	"category" : "PEG",
+	"classinstvars" : [
+		"indent" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"omit" ],
+	"name" : "PEGExpression",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
