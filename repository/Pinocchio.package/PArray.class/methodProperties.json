@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"asPClass" : "CamilloBruni 2/3/2010 14:48",
+		"newFrom:" : "TestRunner 11/11/2009 16:28",
+		"with:" : "TestRunner 11/11/2009 16:24" },
+	"instance" : {
+		"=" : "ToonVerwaest 2/12/2010 14:44",
+		"add:" : "DavidGurtner 11/11/2009 15:49",
+		"asString" : "CamilloBruni 2/10/2010 22:11",
+		"collect:" : "ToonVerwaest 2/15/2010 16:28",
+		"copyFrom:to:" : "CamilloBruni 2/10/2010 22:26",
+		"do:" : "TestRunner 11/11/2009 16:17",
+		"doWithIndex:" : "DavidGurtner 11/11/2009 15:50",
+		"first" : "CamilloBruni 11/9/2009 17:43",
+		"first:" : "CamilloBruni 11/9/2009 17:43",
+		"hasEqualElements:" : "ToonVerwaest 2/12/2010 14:44",
+		"indexOf:" : "ToonVerwaest 2/9/2010 11:24",
+		"indexOf:ifAbsent:" : "ToonVerwaest 2/9/2010 11:24",
+		"indexOf:startingAt:ifAbsent:" : "ToonVerwaest 2/9/2010 11:25",
+		"initialize" : "CamilloBruni 11/9/2009 17:44",
+		"inject:into:" : "CamilloBruni 11/10/2009 16:16",
+		"isEmpty" : "CamilloBruni 11/10/2009 12:07",
+		"last" : "CamilloBruni 11/10/2009 12:08",
+		"last:" : "CamilloBruni 11/10/2009 12:09",
+		"printOn:" : "CamilloBruni 11/10/2009 18:40",
+		"replaceFrom:to:with:startingAt:" : "CamilloBruni 2/10/2010 22:27",
+		"uid" : "CamilloBruni 2/3/2010 13:49" } }

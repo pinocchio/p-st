@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"asPClass" : "DavidGurtner 2/4/2010 16:27",
+		"streamContents:" : "ToonVerwaest 2/15/2010 09:42" },
+	"instance" : {
+		"=" : "DavidGurtner 2/4/2010 16:32",
+		"asPEG" : "ToonVerwaest 2/8/2010 10:13",
+		"asPEGChoice" : "ToonVerwaest 2/8/2010 10:35",
+		"asPEGRange" : "ToonVerwaest 2/8/2010 13:01",
+		"capitalized" : "DavidGurtner 2/4/2010 16:03",
+		"copy" : "DavidGurtner 2/4/2010 16:13",
+		"copyFrom:to:" : "ToonVerwaest 2/15/2010 10:56",
+		"do:" : "ToonVerwaest 2/8/2010 10:40",
+		"first" : "ToonVerwaest 2/11/2010 01:44",
+		"inject:into:" : "ToonVerwaest 2/11/2010 00:00",
+		"isEmpty" : "DavidGurtner 2/4/2010 16:10",
+		"isPString" : "ToonVerwaest 2/12/2010 12:44",
+		"join:" : "ToonVerwaest 2/15/2010 10:48",
+		"printOn:" : "DavidGurtner 2/4/2010 16:32",
+		"readStream" : "ToonVerwaest 2/9/2010 11:44",
+		"replaceFrom:to:with:startingAt:" : "ToonVerwaest 2/15/2010 10:55",
+		"string" : "DavidGurtner 2/4/2010 16:31",
+		"string:" : "DavidGurtner 2/4/2010 16:31",
+		"writeStream" : "ToonVerwaest 2/15/2010 10:03" } }

@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"asPClass" : "CamilloBruni 2/3/2010 15:25",
+		"pClassInstVarNames" : "CamilloBruni 2/3/2010 14:43",
+		"pInstVarNames" : "CamilloBruni 2/3/2010 14:43",
+		"pMethods" : "CamilloBruni 2/3/2010 14:43",
+		"pinocchioPackage" : "CamilloBruni 2/3/2010 15:30" },
+	"instance" : {
+		"canUnderstand:" : "ToonVerwaest 2/5/2010 10:48",
+		"createInstVariable:" : "CamilloBruni 2/9/2010 23:43",
+		"hasSuperclass" : "CamilloBruni 1/25/2010 15:48",
+		"includesSelector:" : "ToonVerwaest 2/5/2010 10:50",
+		"inheritsFrom:" : "ToonVerwaest 2/12/2010 14:39",
+		"initialize" : "CamilloBruni 2/3/2010 14:39",
+		"instVariables" : "CamilloBruni 2/9/2010 23:43",
+		"layout" : "CamilloBruni 2/3/2010 13:42",
+		"layout:" : "CamilloBruni 2/3/2010 13:43",
+		"methodDict" : "ToonVerwaest 2/5/2010 10:52",
+		"methodProvider" : "CamilloBruni 2/3/2010 17:34",
+		"methods" : "ToonVerwaest 2/5/2010 10:52",
+		"methods:" : "ToonVerwaest 2/5/2010 10:52",
+		"new" : "CamilloBruni 1/11/2010 09:46",
+		"new:" : "CamilloBruni 1/11/2010 09:46",
+		"pInstVarNames" : "CamilloBruni 2/3/2010 13:46",
+		"parentInstVariables" : "CamilloBruni 2/3/2010 14:31",
+		"smetaclass" : "CamilloBruni 2/3/2010 13:45",
+		"superclass" : "CamilloBruni 1/19/2010 20:31",
+		"superclass:" : "CamilloBruni 2/3/2010 13:45" } }

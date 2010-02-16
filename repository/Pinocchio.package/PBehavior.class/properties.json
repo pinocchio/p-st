@@ -1,0 +1,17 @@
+{
+	"category" : "Pinocchio-Class",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"superclass",
+		"layout",
+		"methods",
+		"type" ],
+	"name" : "PBehavior",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "variable" }

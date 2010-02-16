@@ -1,0 +1,3 @@
+visitor
+visitUnaryMessageDefinition: anASTUnaryMessageDefinition 
+	^ PSymbol named: anASTUnaryMessageDefinition selectorSymbol

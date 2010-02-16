@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"clearGlobals" : "TestRunner 11/17/2009 11:54",
+		"globalDefintion" : "CamilloBruni 1/27/2010 23:30",
+		"initialize" : "TestRunner 11/17/2009 11:54",
+		"initializeGlobals" : "CamilloBruni 1/19/2010 11:13",
+		"lookup:" : "CamilloBruni 11/9/2009 15:50",
+		"lookupNamed:" : "CamilloBruni 12/9/2009 11:28" },
+	"instance" : {
+		"declare:" : "CamilloBruni 11/9/2009 15:48",
+		"declare:as:" : "CamilloBruni 11/9/2009 15:49",
+		"declareAll:" : "CamilloBruni 11/10/2009 15:23",
+		"decls" : "DavidGurtner 10/22/2009 17:57",
+		"decls:" : "DavidGurtner 10/22/2009 17:57",
+		"depth" : "CamilloBruni 12/1/2009 17:19",
+		"ensureClassReferenceForName:" : "CamilloBruni 1/19/2010 10:57",
+		"initialize" : "TestRunner 11/4/2009 14:21",
+		"isRootScope" : "CamilloBruni 11/9/2009 17:30",
+		"lookup:" : "TestRunner 11/16/2009 13:51",
+		"parentScope" : "CamilloBruni 11/9/2009 14:56" } }

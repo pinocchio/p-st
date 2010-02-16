@@ -1,0 +1,3 @@
+test-basics
+testString
+	^ 'String'

@@ -1,0 +1,16 @@
+{
+	"category" : "Pinocchio-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"params",
+		"locals",
+		"depth" ],
+	"name" : "PBlock",
+	"pools" : [
+		 ],
+	"super" : "PASTNode",
+	"type" : "variable" }

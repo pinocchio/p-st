@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Organization",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PReference",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

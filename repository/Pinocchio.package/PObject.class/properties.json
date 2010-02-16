@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Type",
+	"classinstvars" : [
+		"uidCounter" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"uid" ],
+	"name" : "PObject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

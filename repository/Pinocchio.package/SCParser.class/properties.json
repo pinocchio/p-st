@@ -1,0 +1,16 @@
+{
+	"category" : "Pinocchio-ST-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TestRunner 11/24/2009 11:49",
+	"instvars" : [
+		"parsers",
+		"id",
+		"symbols" ],
+	"name" : "SCParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

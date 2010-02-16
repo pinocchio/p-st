@@ -1,0 +1,17 @@
+{
+	"category" : "Pinocchio-Class",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CamilloBruni 1/12/2010 15:13",
+	"instvars" : [
+		"name",
+		"package",
+		"pmetaclass",
+		"sclass" ],
+	"name" : "PClass",
+	"pools" : [
+		 ],
+	"super" : "PBehavior",
+	"type" : "variable" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Compiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pinocchioClass" ],
+	"name" : "PClassScope",
+	"pools" : [
+		 ],
+	"super" : "PSubScope",
+	"type" : "normal" }

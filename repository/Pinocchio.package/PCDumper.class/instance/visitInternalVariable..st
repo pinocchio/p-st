@@ -1,0 +1,3 @@
+visitor
+visitInternalVariable: aPinocchioInternalVariable 
+	^ aPinocchioInternalVariable

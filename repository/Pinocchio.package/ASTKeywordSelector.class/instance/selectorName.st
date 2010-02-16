@@ -1,0 +1,3 @@
+accessing
+selectorName
+	^ (keywords joinUsing: ':'), ':'.

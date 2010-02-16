@@ -1,0 +1,23 @@
+{
+	"category" : "Pinocchio-Bridge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"symbolDict",
+		"visitedNodes",
+		"currentClass",
+		"onAssignToBlock",
+		"exportingClasses",
+		"globals",
+		"root",
+		"sortedClasses",
+		"classReferences",
+		"progress" ],
+	"name" : "PCDumper",
+	"pools" : [
+		 ],
+	"super" : "CFileCreator",
+	"type" : "normal" }

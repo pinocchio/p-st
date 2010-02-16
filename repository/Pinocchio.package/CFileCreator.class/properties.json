@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Bridge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream" ],
+	"name" : "CFileCreator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

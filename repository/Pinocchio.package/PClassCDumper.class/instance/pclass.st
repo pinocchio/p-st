@@ -1,0 +1,3 @@
+accessing
+pclass
+	^ self currentClass

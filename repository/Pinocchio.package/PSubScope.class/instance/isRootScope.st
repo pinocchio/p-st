@@ -1,0 +1,3 @@
+accessing
+isRootScope
+	^ false

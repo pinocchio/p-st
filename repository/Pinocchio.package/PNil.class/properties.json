@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Type",
+	"classinstvars" : [
+		"nilInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PNil",
+	"pools" : [
+		 ],
+	"super" : "PType",
+	"type" : "normal" }

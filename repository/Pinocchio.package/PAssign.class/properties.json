@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"variable",
+		"expression" ],
+	"name" : "PAssign",
+	"pools" : [
+		 ],
+	"super" : "PASTNode",
+	"type" : "normal" }

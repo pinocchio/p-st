@@ -1,0 +1,3 @@
+visitor
+visitNil: aPinocchioNil 
+	^ aPinocchioNil 

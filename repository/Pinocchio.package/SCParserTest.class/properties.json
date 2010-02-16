@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-ST-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"scparser" ],
+	"name" : "SCParserTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

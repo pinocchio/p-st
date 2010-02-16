@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"asPClass" : "ToonVerwaest 2/8/2010 15:47",
+		"nil" : "CamilloBruni 2/3/2010 15:00" },
+	"instance" : {
+		"ifNil:" : "ToonVerwaest 2/8/2010 12:59",
+		"ifNil:ifNotNil:" : "ToonVerwaest 2/9/2010 13:13",
+		"ifNotNil:" : "ToonVerwaest 2/8/2010 16:28",
+		"ifNotNil:ifNil:" : "ToonVerwaest 2/9/2010 13:14",
+		"isNil" : "CamilloBruni 2/3/2010 15:00",
+		"uid" : "CamilloBruni 2/3/2010 13:48" } }

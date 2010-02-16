@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Class",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PInternalMetaclass",
+	"pools" : [
+		 ],
+	"super" : "PMetaclass",
+	"type" : "variable" }

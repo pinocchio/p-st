@@ -1,0 +1,46 @@
+tests
+testBlock
+	| parser string result |
+	parser := scparser block.
+	string := PEGStringScanner on: '[]'.
+	result := parser match: string.
+	result class should = ASTBlock.
+	result temporaries size should = 0.
+	result parameters size should = 0.
+	result statements size should = 0.
+	string := PEGStringScanner on: '[||]'.
+	result := parser match: string.
+	result class should = ASTBlock.
+	result temporaries size should = 0.
+	result parameters size should = 0.
+	result statements size should = 0.
+	string := PEGStringScanner on: '[:a :bcd :  e  :f | ]'.
+	result := parser match: string.
+	result class should = ASTBlock.
+	result temporaries size should = 0.
+	result parameters size should = 4.
+	result statements size should = 0.
+	string := PEGStringScanner on: '[ | a   f d| ]'.
+	result := parser match: string.
+	result class should = ASTBlock.
+	result temporaries size should = 3.
+	result parameters size should = 0.
+	result statements size should = 0.
+	string := PEGStringScanner on: '[ || b. d ]'.
+	result := parser match: string.
+	result class should = ASTBlock.
+	result temporaries size should = 0.
+	result parameters size should = 0.
+	result statements size should = 2.
+	string := PEGStringScanner on: '[ || b. ^ d ]'.
+	result := parser match: string.
+	result class should = ASTBlock.
+	result temporaries size should = 0.
+	result parameters size should = 0.
+	result statements size should = 2.
+	string := PEGStringScanner on: '[ || b. d. ]'.
+	result := parser match: string.
+	result class should = ASTBlock.
+	result temporaries size should = 0.
+	result parameters size should = 0.
+	result statements size should = 2

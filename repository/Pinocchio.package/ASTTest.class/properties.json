@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-ST-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"scparser",
+		"parser" ],
+	"name" : "ASTTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+exporting
+exportClassReference: aPClassReference
+	self declareClassReference: aPClassReference.

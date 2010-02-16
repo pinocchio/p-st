@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-ST-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"type" ],
+	"name" : "ASTVariable",
+	"pools" : [
+		 ],
+	"super" : "ASTNode",
+	"type" : "normal" }

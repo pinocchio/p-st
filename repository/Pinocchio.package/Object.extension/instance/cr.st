@@ -1,0 +1,2 @@
+*Pinocchio
+cr

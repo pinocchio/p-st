@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-IO",
+	"classinstvars" : [
+		"stream" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PTranscript",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

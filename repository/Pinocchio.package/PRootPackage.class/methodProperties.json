@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"pTypeName" : "CamilloBruni 2/8/2010 15:01" },
+	"instance" : {
+		"at:" : "CamilloBruni 12/2/2009 13:25",
+		"at:ifAbsent:" : "CamilloBruni 1/19/2010 11:16",
+		"at:ifAbsentPut:" : "CamilloBruni 1/19/2010 12:18",
+		"at:ifPresent:" : "CamilloBruni 1/19/2010 11:16",
+		"at:put:" : "CamilloBruni 1/19/2010 12:18",
+		"ensureClassReference:" : "CamilloBruni 1/19/2010 11:16",
+		"ensurePackageNamed:" : "CamilloBruni 1/19/2010 11:16",
+		"ensurePath:" : "TestRunner 11/16/2009 14:27",
+		"initialize" : "CamilloBruni 12/9/2009 11:35",
+		"lookUp:" : "CamilloBruni 12/2/2009 13:34",
+		"lookUpIn:" : "CamilloBruni 12/2/2009 13:18",
+		"lookUpIn:at:" : "CamilloBruni 12/2/2009 13:35",
+		"members" : "ToonVerwaest 11/4/2009 19:21",
+		"members:" : "ToonVerwaest 11/4/2009 19:21",
+		"packageName" : "ToonVerwaest 11/4/2009 19:22",
+		"size" : "CamilloBruni 1/19/2010 14:23",
+		"storeClassReference:" : "TestRunner 11/12/2009 15:48" } }

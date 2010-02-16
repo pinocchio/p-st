@@ -1,0 +1,3 @@
+*Pinocchio
+pInstVarNames
+	^ OrderedCollection new.

@@ -1,0 +1,3 @@
+*Pinocchio
+pMethods
+	^ Array new.

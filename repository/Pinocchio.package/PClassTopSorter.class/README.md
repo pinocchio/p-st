@@ -1,0 +1,1 @@
+A PClassTopSorter sorts the classes of a Package topologically. Such that they can be easily exported in a linear way.

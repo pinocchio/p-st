@@ -1,0 +1,4 @@
+accessing
+int
+	<preventExport>
+	^ int

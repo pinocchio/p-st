@@ -1,0 +1,3 @@
+pinocchio-export
+instVar
+	^ instVar

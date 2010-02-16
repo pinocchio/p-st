@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"doVisitOn:" : "TestRunner 10/21/2009 14:13",
+		"doVisitOn:withSelector:" : "TestRunner 10/21/2009 14:05",
+		"doesNotUnderstand:" : "TestRunner 10/28/2009 11:30" } }

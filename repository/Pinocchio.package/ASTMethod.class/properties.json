@@ -1,0 +1,17 @@
+{
+	"category" : "Pinocchio-ST-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"message",
+		"annotations",
+		"temporaries",
+		"statements" ],
+	"name" : "ASTMethod",
+	"pools" : [
+		 ],
+	"super" : "ASTNode",
+	"type" : "normal" }

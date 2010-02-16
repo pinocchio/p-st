@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Testing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value",
+		"bool" ],
+	"name" : "PPexMatcher",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

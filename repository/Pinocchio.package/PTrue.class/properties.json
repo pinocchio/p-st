@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Type",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PTrue",
+	"pools" : [
+		 ],
+	"super" : "PBoolean",
+	"type" : "normal" }

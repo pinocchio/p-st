@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-ST-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"keywords" ],
+	"name" : "ASTKeywordSelector",
+	"pools" : [
+		 ],
+	"super" : "ASTSelector",
+	"type" : "normal" }

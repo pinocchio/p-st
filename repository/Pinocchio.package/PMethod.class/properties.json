@@ -1,0 +1,19 @@
+{
+	"category" : "Pinocchio-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"params",
+		"locals",
+		"package",
+		"annotations",
+		"hasReturn" ],
+	"name" : "PMethod",
+	"pools" : [
+		 ],
+	"super" : "PASTNode",
+	"type" : "variable" }

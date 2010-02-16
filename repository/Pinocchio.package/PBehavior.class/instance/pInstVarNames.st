@@ -1,0 +1,3 @@
+exporting
+pInstVarNames 
+	^ OrderedCollection new.

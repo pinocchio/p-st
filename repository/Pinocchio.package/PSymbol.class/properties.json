@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Type",
+	"classinstvars" : [
+		"symbolDictionary" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"symbol" ],
+	"name" : "PSymbol",
+	"pools" : [
+		 ],
+	"super" : "PType",
+	"type" : "normal" }

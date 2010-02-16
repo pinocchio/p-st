@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Compiler",
+	"classinstvars" : [
+		"decls" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"decls" ],
+	"name" : "PRootScope",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

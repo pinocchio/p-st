@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"asPClass" : "DavidGurtner 2/4/2010 16:36",
+		"cr" : "ToonVerwaest 2/8/2010 15:49",
+		"lf" : "ToonVerwaest 2/15/2010 19:59",
+		"pClassMethods" : "CamilloBruni 2/8/2010 16:02",
+		"space" : "ToonVerwaest 2/8/2010 15:49",
+		"tab" : "ToonVerwaest 2/8/2010 15:49" },
+	"instance" : {
+		"<" : "ToonVerwaest 2/8/2010 13:05",
+		"<=" : "ToonVerwaest 2/12/2010 12:11",
+		"=" : "DavidGurtner 2/4/2010 15:58",
+		">" : "ToonVerwaest 2/8/2010 13:06",
+		">=" : "ToonVerwaest 2/12/2010 12:12",
+		"asCharacter" : "ToonVerwaest 2/12/2010 18:43",
+		"asPEG" : "ToonVerwaest 2/8/2010 10:13",
+		"asUppercase" : "ToonVerwaest 2/5/2010 11:43",
+		"char" : "DavidGurtner 2/4/2010 15:58",
+		"char:" : "DavidGurtner 2/4/2010 15:58",
+		"charCode" : "DavidGurtner 2/4/2010 16:38",
+		"max:" : "ToonVerwaest 2/12/2010 12:40",
+		"min:" : "ToonVerwaest 2/12/2010 12:40",
+		"testEqual:" : "ToonVerwaest 2/12/2010 13:09" } }

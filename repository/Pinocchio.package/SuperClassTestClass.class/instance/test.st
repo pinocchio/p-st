@@ -1,0 +1,3 @@
+accessing
+test
+	^ 10

@@ -1,0 +1,17 @@
+{
+	"category" : "Pinocchio-Bridge-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pclass",
+		"currentRoot",
+		"currentClass",
+		"currentExporter" ],
+	"name" : "PharoExporterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

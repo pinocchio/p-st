@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"export:" : "CamilloBruni 2/9/2010 15:38",
+		"pMethods" : "CamilloBruni 1/27/2010 23:30" },
+	"instance" : {
+		"cdumper" : "CamilloBruni 12/8/2009 11:04",
+		"cdumper:" : "CamilloBruni 12/8/2009 11:04",
+		"classASTs" : "CamilloBruni 12/2/2009 13:23",
+		"done" : "ToonVerwaest 11/4/2009 17:18",
+		"done:" : "ToonVerwaest 11/4/2009 17:18",
+		"export" : "CamilloBruni 2/11/2010 00:51",
+		"export:" : "CamilloBruni 2/9/2010 15:39",
+		"fileOutOn:" : "CamilloBruni 12/2/2009 14:50",
+		"initialize" : "CamilloBruni 2/10/2010 13:09",
+		"onAssignTo" : "CamilloBruni 2/9/2010 11:46",
+		"onAssignTo:" : "CamilloBruni 2/9/2010 11:45",
+		"printOn:" : "CamilloBruni 12/2/2009 14:43",
+		"progress" : "CamilloBruni 2/10/2010 12:59",
+		"root" : "ToonVerwaest 11/4/2009 18:01",
+		"root:" : "ToonVerwaest 11/4/2009 18:01",
+		"todo" : "ToonVerwaest 11/4/2009 17:18",
+		"todo:" : "CamilloBruni 2/9/2010 16:42" } }

@@ -1,0 +1,3 @@
+accessing
+scoped
+	scoped := true

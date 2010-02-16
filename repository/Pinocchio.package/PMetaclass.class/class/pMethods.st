@@ -1,0 +1,3 @@
+pharo-exporting
+pMethods
+	^ #all.

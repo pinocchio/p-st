@@ -1,0 +1,21 @@
+{
+	"category" : "Pinocchio-Compiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CamilloBruni 1/19/2010 15:22",
+	"instvars" : [
+		"scope",
+		"rootScope",
+		"pinocchioClass",
+		"currentMethod",
+		"world",
+		"currentBlock",
+		"currentCallecVariable",
+		"currentInfo" ],
+	"name" : "PASTVisitor",
+	"pools" : [
+		 ],
+	"super" : "ASTVisitor",
+	"type" : "normal" }

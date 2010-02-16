@@ -1,0 +1,3 @@
+spaces
+cr
+	stream cr

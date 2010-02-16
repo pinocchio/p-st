@@ -1,0 +1,3 @@
+accessing
+charCode
+	^ self asSmallInt.

@@ -1,0 +1,22 @@
+{
+	"category" : "Pinocchio-Bridge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"todo",
+		"done",
+		"root",
+		"scparser",
+		"pinocchioVisitor",
+		"cdumper",
+		"classASTs",
+		"internalClassDict",
+		"progress" ],
+	"name" : "PharoASTExtractor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

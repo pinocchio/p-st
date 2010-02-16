@@ -1,0 +1,3 @@
+visitor
+visitSelf: anASTSelf
+	^ anASTSelf

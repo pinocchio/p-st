@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-ST-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"expressions" ],
+	"name" : "ASTBraceExpression",
+	"pools" : [
+		 ],
+	"super" : "ASTExpression",
+	"type" : "normal" }

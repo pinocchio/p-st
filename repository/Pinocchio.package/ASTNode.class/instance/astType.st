@@ -1,0 +1,3 @@
+*Pinocchio
+astType
+	^ 'Type'

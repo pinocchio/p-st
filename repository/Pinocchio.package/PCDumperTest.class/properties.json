@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Bridge-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dumper" ],
+	"name" : "PCDumperTest",
+	"pools" : [
+		 ],
+	"super" : "PVisitorTest",
+	"type" : "normal" }

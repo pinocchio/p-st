@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Bridge-Test",
+	"classinstvars" : [
+		"a",
+		"b" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"a" ],
+	"name" : "SuperClassTestClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

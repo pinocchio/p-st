@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"checkBehaviorLayoutMembers:" : "CamilloBruni 2/3/2010 13:42",
+		"checkClassLayoutMembers:" : "CamilloBruni 1/19/2010 15:53",
+		"exportClass:" : "CamilloBruni 1/19/2010 14:16",
+		"testBehaviorLayout" : "CamilloBruni 1/27/2010 15:48",
+		"testChildClassTestClassLayout" : "CamilloBruni 1/27/2010 15:00",
+		"testClassLayout" : "CamilloBruni 1/27/2010 15:00",
+		"testClassSideLayout" : "CamilloBruni 1/20/2010 16:01",
+		"testInternalMetaclassExport" : "CamilloBruni 1/20/2010 15:30",
+		"testMetaclassLayout" : "CamilloBruni 1/27/2010 15:00",
+		"testObjectExport" : "CamilloBruni 1/20/2010 15:30",
+		"testObjectLayout" : "CamilloBruni 1/27/2010 15:00",
+		"testObjectMetaclassExport" : "CamilloBruni 1/20/2010 15:31",
+		"testStandardTestClassLayout" : "CamilloBruni 1/27/2010 15:00",
+		"testStandardVariableTestClassLayout" : "CamilloBruni 1/27/2010 16:25",
+		"testSuperClassTestClassLayout" : "CamilloBruni 1/27/2010 15:00" } }

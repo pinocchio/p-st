@@ -1,0 +1,3 @@
+accessing
+ifNil: aBlock
+	"^ self"

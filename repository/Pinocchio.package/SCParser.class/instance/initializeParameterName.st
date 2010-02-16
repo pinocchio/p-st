@@ -1,0 +1,3 @@
+variable
+initializeParameterName
+	^ self identifier

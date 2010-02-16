@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Type",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PObjectLayout",
+	"pools" : [
+		 ],
+	"super" : "PLayout",
+	"type" : "variable" }

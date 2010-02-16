@@ -1,0 +1,3 @@
+visitor
+visitArray: anArray
+	^ anArray.

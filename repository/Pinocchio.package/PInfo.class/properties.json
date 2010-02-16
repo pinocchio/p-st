@@ -1,0 +1,17 @@
+{
+	"category" : "Pinocchio-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sourceFile",
+		"name",
+		"line",
+		"column" ],
+	"name" : "PInfo",
+	"pools" : [
+		 ],
+	"super" : "PASTNode",
+	"type" : "normal" }

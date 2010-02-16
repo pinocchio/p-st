@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Organization",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parent",
+		"packageName" ],
+	"name" : "PPackage",
+	"pools" : [
+		 ],
+	"super" : "PRootPackage",
+	"type" : "normal" }

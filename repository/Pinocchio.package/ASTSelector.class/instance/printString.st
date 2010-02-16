@@ -1,0 +1,3 @@
+converting
+printString
+	^ self asString.

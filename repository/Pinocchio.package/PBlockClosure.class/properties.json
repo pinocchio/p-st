@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"context" ],
+	"name" : "PBlockClosure",
+	"pools" : [
+		 ],
+	"super" : "PRuntimeObject",
+	"type" : "normal" }

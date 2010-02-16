@@ -1,0 +1,3 @@
+*Pinocchio
+pinocchioPackage
+	^ self category

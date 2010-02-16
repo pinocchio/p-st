@@ -1,0 +1,4 @@
+accessing
+bool
+	<preventExport>
+	^ bool

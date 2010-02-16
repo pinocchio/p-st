@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"asPClass" : "DavidGurtner 2/4/2010 17:03" },
+	"instance" : {
+		"and:" : "DavidGurtner 2/4/2010 17:09",
+		"ifFalse:" : "ToonVerwaest 2/9/2010 11:28",
+		"ifFalse:ifTrue:" : "ToonVerwaest 2/9/2010 11:26",
+		"ifTrue:" : "ToonVerwaest 2/9/2010 11:27",
+		"ifTrue:ifFalse:" : "ToonVerwaest 2/9/2010 11:26",
+		"not" : "CamilloBruni 2/10/2010 21:18",
+		"or:" : "ToonVerwaest 2/11/2010 16:58" } }

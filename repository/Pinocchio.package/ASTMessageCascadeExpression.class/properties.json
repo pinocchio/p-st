@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-ST-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"receiver",
+		"cascades" ],
+	"name" : "ASTMessageCascadeExpression",
+	"pools" : [
+		 ],
+	"super" : "ASTExpression",
+	"type" : "normal" }

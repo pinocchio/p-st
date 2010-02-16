@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Compiler-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PASTVisitorTest",
+	"pools" : [
+		 ],
+	"super" : "PVisitorTest",
+	"type" : "normal" }

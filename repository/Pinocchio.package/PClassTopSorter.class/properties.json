@@ -1,0 +1,16 @@
+{
+	"category" : "Pinocchio-Bridge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CamilloBruni 2/9/2010 11:27",
+	"instvars" : [
+		"classOrder",
+		"sortedClasses",
+		"classReferences" ],
+	"name" : "PClassTopSorter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

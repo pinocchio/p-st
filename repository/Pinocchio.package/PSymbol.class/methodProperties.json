@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"asPClass" : "DavidGurtner 2/4/2010 16:27",
+		"clearSymbolCache" : "CamilloBruni 2/9/2010 17:02",
+		"initialize" : "CamilloBruni 2/3/2010 14:50",
+		"initializeSymbols" : "CamilloBruni 2/3/2010 14:50",
+		"named:" : "CamilloBruni 2/3/2010 14:51",
+		"symbolDefintion" : "CamilloBruni 2/3/2010 14:50",
+		"symbolDictionary" : "CamilloBruni 2/3/2010 14:50" },
+	"instance" : {
+		"=" : "DavidGurtner 2/4/2010 16:31",
+		"asPSymbol" : "DavidGurtner 2/4/2010 16:31",
+		"asString" : "DavidGurtner 2/4/2010 16:32",
+		"asSymbol" : "DavidGurtner 2/4/2010 16:31",
+		"capitalized" : "DavidGurtner 2/4/2010 16:03",
+		"do:" : "ToonVerwaest 2/8/2010 10:39",
+		"inject:into:" : "ToonVerwaest 2/11/2010 00:00",
+		"isPString" : "ToonVerwaest 2/12/2010 12:44",
+		"printOn:" : "DavidGurtner 2/4/2010 16:31",
+		"symbol" : "DavidGurtner 2/4/2010 16:31",
+		"symbol:" : "DavidGurtner 2/4/2010 16:31",
+		"value:" : "ToonVerwaest 2/11/2010 00:07" } }

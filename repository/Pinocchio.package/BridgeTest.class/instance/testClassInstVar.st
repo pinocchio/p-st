@@ -1,0 +1,3 @@
+test-class
+testClassInstVar
+	^ StandardTestClass aClassSideMethodWithInstanceVariables.
