@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"allTestSelectors" : "AdrianKuhn 12/22/2009 06:06" },
+	"instance" : {
+		"setUp" : "AdrianKuhn 12/22/2009 06:21",
+		"shouldExecuteExampleMethod" : "AdrianKuhn 12/22/2009 06:21",
+		"shouldHaveGivenAsResource" : "AdrianKuhn 12/22/2009 06:07",
+		"shouldNotHaveTestsInPhexample" : "AdrianKuhn 12/22/2009 05:49",
+		"tearDown" : "AdrianKuhn 12/22/2009 06:22" } }

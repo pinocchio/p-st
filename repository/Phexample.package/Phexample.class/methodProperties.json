@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"allTestSelectors" : "AdrianKuhn 12/22/2009 06:09",
+		"resources" : "AdrianKuhn 12/22/2009 05:43" },
+	"instance" : {
+		"=" : "AdrianKuhn 12/14/2009 20:13",
+		"cleanUpInstanceVariables" : "JoeExample 11/8/2009 22:34",
+		"given:" : "AdrianKuhn 12/14/2009 20:37",
+		"hash" : "AdrianKuhn 12/14/2009 20:13",
+		"performTest" : "AdrianKuhn 12/22/2009 05:44",
+		"shouldPass" : "JoeExample 11/9/2009 09:24" } }

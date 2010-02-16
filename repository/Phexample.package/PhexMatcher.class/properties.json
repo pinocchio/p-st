@@ -1,0 +1,15 @@
+{
+	"category" : "Phexample-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NikoSchwarz 11/20/2009 17:02",
+	"instvars" : [
+		"value",
+		"state" ],
+	"name" : "PhexMatcher",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

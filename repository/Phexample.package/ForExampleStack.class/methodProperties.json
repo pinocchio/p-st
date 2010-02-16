@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"shouldBeEmpty" : "AdrianKuhn 11/24/2009 20:37",
+		"shouldFailWhenPopEmpty" : "JoeExample 10/27/2009 01:30",
+		"shouldLastInFirstOut" : "AdrianKuhn 11/24/2009 20:37",
+		"shouldPopElement" : "AdrianKuhn 11/24/2009 20:37",
+		"shouldPushElement" : "AdrianKuhn 11/24/2009 20:37",
+		"shouldPushMoreElements" : "AdrianKuhn 11/24/2009 20:38" } }
