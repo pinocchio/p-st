@@ -6,9 +6,7 @@ SystemOrganization addCategory: #'Pinocchio-Type'!
 SystemOrganization addCategory: #'Pinocchio-Runtime'!
 SystemOrganization addCategory: #'Pinocchio-Organization'!
 SystemOrganization addCategory: #'Pinocchio-Bridge'!
-SystemOrganization addCategory: #'Pinocchio-Compiler-Test'!
 SystemOrganization addCategory: #'Pinocchio-Bridge-Test'!
 SystemOrganization addCategory: #'Pinocchio-Class'!
 SystemOrganization addCategory: #'Pinocchio-IO'!
 SystemOrganization addCategory: #'Pinocchio-Testing'!
-SystemOrganization addCategory: #Pinocchio!

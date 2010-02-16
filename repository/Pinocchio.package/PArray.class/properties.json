@@ -10,5 +10,5 @@
 	"name" : "PArray",
 	"pools" : [
 		 ],
-	"super" : "PType",
+	"super" : "PObject",
 	"type" : "variable" }

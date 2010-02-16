@@ -11,5 +11,5 @@
 	"name" : "PBoolean",
 	"pools" : [
 		 ],
-	"super" : "PType",
+	"super" : "PObject",
 	"type" : "normal" }

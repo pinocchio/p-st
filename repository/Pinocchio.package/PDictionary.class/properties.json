@@ -10,5 +10,5 @@
 	"name" : "PDictionary",
 	"pools" : [
 		 ],
-	"super" : "PType",
+	"super" : "PObject",
 	"type" : "normal" }

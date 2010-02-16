@@ -10,5 +10,5 @@
 	"name" : "PLayout",
 	"pools" : [
 		 ],
-	"super" : "PType",
+	"super" : "PObject",
 	"type" : "normal" }

@@ -12,5 +12,5 @@
 	"name" : "PClassReference",
 	"pools" : [
 		 ],
-	"super" : "PReference",
+	"super" : "PObject",
 	"type" : "normal" }

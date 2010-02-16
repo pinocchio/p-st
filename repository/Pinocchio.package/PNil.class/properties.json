@@ -10,5 +10,5 @@
 	"name" : "PNil",
 	"pools" : [
 		 ],
-	"super" : "PType",
+	"super" : "PObject",
 	"type" : "normal" }
