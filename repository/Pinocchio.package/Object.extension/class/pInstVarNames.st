@@ -1,3 +1,3 @@
 *Pinocchio
 pInstVarNames
-	^ OrderedCollection new.
+	^ self instVarNames

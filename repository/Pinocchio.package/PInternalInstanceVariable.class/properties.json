@@ -10,5 +10,5 @@
 	"name" : "PInternalInstanceVariable",
 	"pools" : [
 		 ],
-	"super" : "PInstanceVariable",
+	"super" : "PInstVariable",
 	"type" : "normal" }

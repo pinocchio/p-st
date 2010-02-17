@@ -1,3 +1,3 @@
 convenience
 asPVariable 
-	^PLocalVariable new name: self name
+	^PVariable new name: self name

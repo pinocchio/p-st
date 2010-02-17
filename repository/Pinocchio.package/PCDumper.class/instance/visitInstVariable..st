@@ -1,5 +1,5 @@
 visitor
-visitInstanceVariable: aPInstanceVariable 
+visitInstVariable: aPInstanceVariable 
 	self putRaw: aPInstanceVariable 
 		with: ('new_AST_InstVariable(', aPInstanceVariable localId asString
 										,', L"', aPInstanceVariable name, '")').

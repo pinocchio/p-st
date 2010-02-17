@@ -1,3 +1,3 @@
 accessing
 createInstVariable: name
-	^ PInstanceVariable named: name.
+	^ PInstVariable named: name.

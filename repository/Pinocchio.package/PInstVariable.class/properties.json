@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"key" ],
-	"name" : "PLocalVariable",
+		 ],
+	"name" : "PInstVariable",
 	"pools" : [
 		 ],
 	"super" : "PVariable",

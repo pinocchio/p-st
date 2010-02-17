@@ -3,4 +3,4 @@ newWith: cls
 	<preventExport>
 	^ self new 
 		sclass: cls; 
-		name: cls pinocchioName asPSymbol.
+		name: cls pClassName asPSymbol.

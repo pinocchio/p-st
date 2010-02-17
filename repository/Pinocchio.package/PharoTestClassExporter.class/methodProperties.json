@@ -2,7 +2,6 @@
 	"class" : {
 		"export:" : "CamilloBruni 2/9/2010 16:17" },
 	"instance" : {
-		"addDanglingClassReference:" : "CamilloBruni 2/9/2010 15:47",
 		"assertEmptyStack" : "CamilloBruni 2/9/2010 16:35",
 		"ast:" : "CamilloBruni 2/9/2010 15:47",
 		"createAssertFor:of:" : "CamilloBruni 2/9/2010 17:00",
