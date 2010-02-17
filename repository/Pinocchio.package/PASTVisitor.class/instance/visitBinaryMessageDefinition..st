@@ -1,3 +1,3 @@
 visitor
 visitBinaryMessageDefinition: anASTBinaryMessageDefinition 
-	^ PSymbol named: anASTBinaryMessageDefinition selectorSymbol
+	^ anASTBinaryMessageDefinition selectorSymbol asPSymbol 

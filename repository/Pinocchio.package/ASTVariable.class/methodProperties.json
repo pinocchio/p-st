@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"astSelectors" : "CamilloBruni 1/27/2010 23:35" },
+		"astSelectors" : "CamilloBruni 1/27/2010 23:35",
+		"named:" : "VincentVanGogh 2/17/2010 15:00" },
 	"instance" : {
 		"=" : "TestRunner 10/22/2009 20:01",
 		"asPVariable" : "CamilloBruni 1/19/2010 11:13",

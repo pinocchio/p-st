@@ -1,3 +1,6 @@
 accessing
 keywords: anObject
-	keywords := anObject
+	keywords := anObject.
+	self selector: (anObject inject: '' into: [ :string :each|
+			string, each, ':'
+		]) asPSymbol

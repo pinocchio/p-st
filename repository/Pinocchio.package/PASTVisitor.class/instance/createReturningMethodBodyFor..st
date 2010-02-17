@@ -14,7 +14,7 @@ createReturningMethodBodyFor: aMethod
 	
 	"Now wrap all in a callec"
 	callec := PSend new
-			receiver: (PInternalVariable named: 'AST_Callec_Reference');
+			receiver: (self visitVariable: (ASTVariable named: 'PCallec'));
 			message: #on: asPSymbol;
 			arguments: (self createCallecBodyFor: aMethod) asPArray.
 	
