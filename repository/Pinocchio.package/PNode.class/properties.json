@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"info" ],
-	"name" : "PASTNode",
+	"name" : "PNode",
 	"pools" : [
 		 ],
 	"super" : "PObject",

@@ -12,5 +12,5 @@
 	"name" : "PSuper",
 	"pools" : [
 		 ],
-	"super" : "PASTNode",
+	"super" : "PNode",
 	"type" : "variable" }

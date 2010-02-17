@@ -12,5 +12,5 @@
 	"name" : "PVariable",
 	"pools" : [
 		 ],
-	"super" : "PASTNode",
+	"super" : "PNode",
 	"type" : "normal" }

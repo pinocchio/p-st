@@ -10,5 +10,5 @@
 	"name" : "PCallec",
 	"pools" : [
 		 ],
-	"super" : "PASTNode",
+	"super" : "PNode",
 	"type" : "normal" }

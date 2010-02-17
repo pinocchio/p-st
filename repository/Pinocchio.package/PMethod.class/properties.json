@@ -15,5 +15,5 @@
 	"name" : "PMethod",
 	"pools" : [
 		 ],
-	"super" : "PASTNode",
+	"super" : "PNode",
 	"type" : "variable" }

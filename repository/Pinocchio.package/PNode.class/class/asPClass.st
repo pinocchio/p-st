@@ -1,5 +1,5 @@
 accessing
 asPClass
 	<preventExport>
-	self = PASTNode ifTrue: [ ^ super asPClass ].
+	self = PNode ifTrue: [ ^ super asPClass ].
 	^ PInternalClass newWith: self

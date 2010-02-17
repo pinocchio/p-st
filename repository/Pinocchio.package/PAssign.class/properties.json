@@ -11,5 +11,5 @@
 	"name" : "PAssign",
 	"pools" : [
 		 ],
-	"super" : "PASTNode",
+	"super" : "PNode",
 	"type" : "normal" }

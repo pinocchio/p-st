@@ -12,5 +12,5 @@
 	"name" : "PBlock",
 	"pools" : [
 		 ],
-	"super" : "PASTNode",
+	"super" : "PNode",
 	"type" : "variable" }

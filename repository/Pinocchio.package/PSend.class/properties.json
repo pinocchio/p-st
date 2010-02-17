@@ -12,5 +12,5 @@
 	"name" : "PSend",
 	"pools" : [
 		 ],
-	"super" : "PASTNode",
+	"super" : "PNode",
 	"type" : "variable" }

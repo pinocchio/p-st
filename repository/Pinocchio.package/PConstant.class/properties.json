@@ -10,5 +10,5 @@
 	"name" : "PConstant",
 	"pools" : [
 		 ],
-	"super" : "PASTNode",
+	"super" : "PNode",
 	"type" : "normal" }
