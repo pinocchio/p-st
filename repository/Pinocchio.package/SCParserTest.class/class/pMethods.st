@@ -1,3 +1,0 @@
-exporting
-pMethods
-	^ #all
