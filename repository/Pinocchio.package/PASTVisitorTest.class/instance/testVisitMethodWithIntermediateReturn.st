@@ -14,6 +14,6 @@ testVisitMethodWithIntermediateReturn
 	send class should = PSend.
 	send message asString should = 'on:'.
 	send receiver should beKindOf: PClassReference.
-	callecBody := send arguments first.
+	callecBody := send arguments at: 1.
 	callecBody class should = PBlock.
 	callecBody depth should = 1.

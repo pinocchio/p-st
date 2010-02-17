@@ -9,6 +9,7 @@ initializeKeywordMessageExpression
 			ASTMessageExpression new
 				keywords: keywords;
 				selector: (ASTKeywordSelector new
-							keywords: keywords);
+							keywords: keywords;
+							selector: (self createSymbol: (':' join: keywords), ':'));
 				arguments: (parts collect: #second)
 		]

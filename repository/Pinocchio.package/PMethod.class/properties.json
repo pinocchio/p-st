@@ -6,12 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selector",
 		"params",
 		"locals",
 		"package",
 		"annotations",
-		"hasReturn" ],
+		"hasReturn",
+		"selector" ],
 	"name" : "PMethod",
 	"pools" : [
 		 ],

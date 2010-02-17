@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"receiver",
+		"cache",
 		"message",
-		"arguments" ],
+		"receiver" ],
 	"name" : "PSend",
 	"pools" : [
 		 ],
 	"super" : "PASTNode",
-	"type" : "normal" }
+	"type" : "variable" }

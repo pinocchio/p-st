@@ -1,14 +1,14 @@
 {
-	"category" : "Pinocchio",
+	"category" : "Pinocchio-ST-AST",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "P",
+		"selector2" ],
+	"name" : "ASTArgumentSelectorTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "AnObsoleteASTSelectorTest",
 	"type" : "normal" }

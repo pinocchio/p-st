@@ -7,4 +7,4 @@ testVisitSuperExpression
 	ast message class should = PSymbol.
 	ast message symbol class should = ByteSymbol.
 	ast message symbol asString = 'a:'.
-	ast arguments class should = PArray.
+	ast size = 1.

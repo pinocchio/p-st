@@ -1,7 +1,8 @@
 visitor
 visitMessageExpression: aMessageExpression
-	| message |
+	| message arguments |
 	message := self visit: aMessageExpression selector.
-	^ (self createSendTo: aMessageExpression receiver)
+	arguments := self acceptOnCollection: aMessageExpression arguments.
+	^ (self createSendTo: aMessageExpression receiver sized: arguments size)
 			message: message;
-			arguments: (self acceptOnCollection: aMessageExpression arguments) asPArray
+			arguments: arguments

@@ -6,5 +6,5 @@ testVisitKeywordExpression
 	ast message class should = PSymbol.
 	ast message symbol class should = ByteSymbol.
 	ast message symbol asString should = 'a:'.
-	ast arguments class should = PArray.
+	ast size = 1.
 	ast receiver class should = PInternalVariable.
