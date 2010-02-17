@@ -6,6 +6,7 @@ exportBasicClasses
 		add: Class;
 		add: PMessage;
 		add: PTrue;
+		add: PCallec;
 		add: PFalse;
 		add: PNil;
 		add: PString;
