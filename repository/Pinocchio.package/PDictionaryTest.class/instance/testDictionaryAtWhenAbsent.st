@@ -6,5 +6,5 @@ testDictionaryAtWhenAbsent
 	r should be isNil.
 	r := d at: 4 ifAbsent: nil.
 	r should be isNil.
-	r := d at: d ifAbsent: nil.
+	r := d at: true ifAbsent: nil.
 	r should be isNil.

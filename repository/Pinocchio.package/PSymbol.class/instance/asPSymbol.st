@@ -1,4 +1,3 @@
 converting
 asPSymbol
-	<preventExport>
-	^ self
+	<renameExport: #asSymbol>
