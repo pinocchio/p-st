@@ -1,6 +1,5 @@
 accessing
 keywords: anObject
-	keywords := anObject.
-	self selector: (anObject inject: '' into: [ :string :each|
-			string, each asString, ':'
+	self selector: (anObject inject: '' into: [ :string :each |
+			string, each, ':'
 		]) asSymbol
