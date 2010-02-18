@@ -1,4 +1,3 @@
 instance creation
 named: referenceName
-	referenceName should not = nil.
-	^ super new referenceName: referenceName asPSymbol
+	^ super new referenceName: referenceName asSymbol asPObject

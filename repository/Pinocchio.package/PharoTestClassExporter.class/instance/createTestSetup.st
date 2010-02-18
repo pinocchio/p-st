@@ -6,7 +6,7 @@ createTestSetup
 		
 	send := PSend new
 				receiver: testCaseInstance;
-				message: #setUp asPSymbol;
+				message: #setUp asPObject;
 				arguments: Array new.
 	cdumper stream: stream.
 	cdumper visit: send.

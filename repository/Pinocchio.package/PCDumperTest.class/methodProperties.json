@@ -2,10 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"dumpSourceError:on:" : "TestRunner 11/18/2009 11:06",
 		"extractTestMethods" : "CamilloBruni 2/1/2010 16:36",
 		"generateMethodFor:on:" : "CamilloBruni 12/1/2009 14:41",
-		"generateMethodInstallFor:with:on:" : "CamilloBruni 1/19/2010 14:30",
 		"generateTestHeaderOn:" : "CamilloBruni 1/19/2010 12:18",
 		"generateTestSourcesFor:on:" : "TestRunner 11/18/2009 11:56",
 		"generateTestSuite:on:" : "TestRunner 11/18/2009 11:36",

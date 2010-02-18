@@ -4,7 +4,7 @@ createMethodInstallFor: method withCode: code
 	closure := PMethodClosure new
 			code: code;
 			pclass: testCaseClass;
-			selector: method selector asPSymbol.
+			selector: method selector asPObject.
 	cdumper stream: stream.
 	cdumper visit: closure.
 	stream cr.

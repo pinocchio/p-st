@@ -1,3 +1,3 @@
 *Pinocchio
 asPObject
-	^ PSymbol new symbol: self
+	^ PSymbol named: self

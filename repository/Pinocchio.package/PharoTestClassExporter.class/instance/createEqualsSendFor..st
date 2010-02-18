@@ -2,10 +2,10 @@ exporting
 createEqualsSendFor: anObject
 	| ast |
 	(anObject isKindOf: Symbol) ifTrue: [
-		ast := anObject asPSymbol.
+		ast := anObject asPObject.
 	] ifFalse: [
 		(anObject isKindOf: String) ifTrue: [
-			ast := PString new string: anObject.
+			ast := anObject asPObject.
 		]
 	].
 	

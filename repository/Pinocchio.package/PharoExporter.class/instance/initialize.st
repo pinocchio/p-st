@@ -9,4 +9,4 @@ initialize
 	pinocchioVisitor := PCompiler new.
 	pinocchioVisitor world: self.
 	cdumper := PCDumper new.
-	classASTs := Dictionary new.
+	classASTs := IdentityDictionary new.

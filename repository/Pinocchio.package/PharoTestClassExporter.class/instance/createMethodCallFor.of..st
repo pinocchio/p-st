@@ -5,7 +5,7 @@ createMethodCallFor: anPinocchioASTMethod of: aCompiledMethod
 						collect: [:o | o asPObject asPConstant ]) asPArray.
 	send := (PSend new: arguments size)
 				receiver: testCaseInstance;
-				message: anPinocchioASTMethod selector asPSymbol;
+				message: anPinocchioASTMethod selector asPObject;
 				arguments: arguments.
 	cdumper stream: stream.
 	cdumper visit: send.

@@ -6,7 +6,7 @@ ensureClassReferenceFor: aPinocchioClass
 		^ el 
 	].
 	classReference := aPinocchioClass package ensureClassReference: aPinocchioClass name.
-	classReference referenceName: aPinocchioClass name asPSymbol.
+	classReference referenceName: aPinocchioClass name asPObject.
 	classReference ensurePinocchioClass: aPinocchioClass.
 	
 	pinocchioVisitor rootScope decls 

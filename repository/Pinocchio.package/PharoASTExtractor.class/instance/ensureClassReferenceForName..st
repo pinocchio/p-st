@@ -3,7 +3,7 @@ ensureClassReferenceForName: aString
 	| package cls aClassReference aClassNameSymbol |
 	cls := self sclassForName: aString.
 	package := self ensurePackageFor: cls.
-	aClassNameSymbol := cls pinocchioName asPSymbol.
+	aClassNameSymbol := cls pinocchioName asPObject.
 	package at: aClassNameSymbol ifPresent: [ :el| ^ el].
 	
 	aClassReference := PClassReference named: aClassNameSymbol
