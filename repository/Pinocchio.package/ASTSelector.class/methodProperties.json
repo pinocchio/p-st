@@ -3,6 +3,7 @@
 		"astSelectors" : "CamilloBruni 1/27/2010 23:30" },
 	"instance" : {
 		"asString" : "TestRunner 11/2/2009 15:45",
+		"asSymbol" : "ToonVerwaest 2/18/2010 14:03",
 		"compatibleWith:" : "TestRunner 11/11/2009 14:40",
 		"parameters" : "CamilloBruni 1/27/2010 23:30",
 		"printOn:" : "TestRunner 10/27/2009 17:47",

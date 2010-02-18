@@ -1,3 +1,3 @@
 visitor
 visitKeywordMessageDefinition: anASTKeywordMessageDefinition
-	^ PSymbol named: anASTKeywordMessageDefinition selector symbol.
+	^ anASTKeywordMessageDefinition selector asSymbol asPSymbol.

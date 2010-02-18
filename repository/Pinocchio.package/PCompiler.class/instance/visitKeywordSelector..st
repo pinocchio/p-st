@@ -1,7 +1,3 @@
 visitor
-visitKeywordSelector: anASTKeywordSelector 
-	"TODO maybe create specific class"
+visitKeywordSelector: anASTKeywordSelector
 	^ anASTKeywordSelector selector asPSymbol
-	"^ (anASTKeywordSelector keywords inject: '' into: [ :string :each|
-			string, each, ':'
-		]) asPSymbol "
