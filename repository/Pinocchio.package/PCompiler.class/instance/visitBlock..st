@@ -5,8 +5,8 @@ visitBlock: aBlock
 	scope declareAll: aBlock parameters.
 	scope declareAll: aBlock temporaries.
 	block := self createBlock: aBlock statements size.
-	block params: (self acceptOnCollection: aBlock parameters) asPArray;
-		locals: (self acceptOnCollection: aBlock temporaries) asPArray.
+	block params: (self acceptOnCollection: aBlock parameters) asArray asPObject;
+		locals: (self acceptOnCollection: aBlock temporaries) asArray asPObject.
 	index := 1.
 	aBlock statements do: [:each|
 		block at: index put: (self visit: each).

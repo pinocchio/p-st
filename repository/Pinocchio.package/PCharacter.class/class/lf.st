@@ -1,3 +1,3 @@
-pharo-exporting
+accessing untypable characters
 lf
 	^ 10 asCharacter

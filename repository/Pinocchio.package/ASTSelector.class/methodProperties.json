@@ -3,11 +3,11 @@
 		"astSelectors" : "CamilloBruni 1/27/2010 23:30" },
 	"instance" : {
 		"asString" : "TestRunner 11/2/2009 15:45",
-		"asSymbol" : "ToonVerwaest 2/18/2010 14:03",
 		"compatibleWith:" : "TestRunner 11/11/2009 14:40",
 		"parameters" : "CamilloBruni 1/27/2010 23:30",
 		"printOn:" : "TestRunner 10/27/2009 17:47",
 		"printString" : "ToonVerwaest 2/13/2010 23:57",
 		"selector" : "TestRunner 10/27/2009 16:24",
-		"selector:" : "CamilloBruni 12/15/2009 15:58",
-		"selectorName" : "TestRunner 10/21/2009 08:22" } }
+		"selector:" : "ToonVerwaest 2/18/2010 15:29",
+		"selectorName" : "ToonVerwaest 2/18/2010 15:45",
+		"selectorSymbol" : "ToonVerwaest 2/18/2010 14:58" } }

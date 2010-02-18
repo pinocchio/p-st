@@ -1,3 +1,3 @@
-pharo-exporting
+accessing untypable characters
 tab
 	^ 9 asCharacter

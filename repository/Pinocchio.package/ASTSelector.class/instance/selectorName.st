@@ -1,3 +1,3 @@
 accessing
 selectorName
-	self selector printString
+	self halt.

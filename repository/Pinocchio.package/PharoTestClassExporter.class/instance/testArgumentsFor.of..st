@@ -5,9 +5,9 @@ testArgumentsFor: aPMethod of: aCompileMethod
 		^ Array new.
 	].
 	"make sure that the test methods have the number of args in the first annotation"
-	firstKeyword := aPMethod annotations first keywords first constant asSymbol.
+	"firstKeyword := aPMethod annotations first keywords first constant asSymbol.
 	(firstKeyword  = #arg1 or: [ firstKeyword = #arg])
-		ifFalse: [^ Array new].
+		ifFalse: [^ Array new]."
 	^ (aCompileMethod literals select: [ :each|
 			each isKindOf: AdditionalMethodState
 		]) first pragmas first arguments.

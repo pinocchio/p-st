@@ -1,4 +1,4 @@
 converting
-asString
+asSymbol
 	<preventExport>
-	^ string
+	^ string asSymbol

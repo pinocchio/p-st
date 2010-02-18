@@ -14,5 +14,5 @@ visitMessageCascadeExpression: anASTMessageCascadeExpression
 			receiver: block;
 			arguments: (OrderedCollection with: anASTMessageCascadeExpression receiver);
 			selector: (ASTKeywordSelector new
-							keywords: (OrderedCollection with: #value:)).
+							keywords: (OrderedCollection with: #value)).
 	^ self visit: send.

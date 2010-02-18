@@ -7,7 +7,6 @@ initializeKeywordMessageExpression
 		semantics: [ :parts |
 			keywords := parts collect: #first.
 			ASTMessageExpression new
-				keywords: keywords;
 				selector: (ASTKeywordSelector new
 							keywords: keywords);
 				arguments: (parts collect: #second)

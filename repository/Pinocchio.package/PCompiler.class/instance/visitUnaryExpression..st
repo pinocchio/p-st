@@ -1,5 +1,5 @@
 visitor
 visitUnaryExpression: anASTUnaryExpression
 	^ (self createSendTo: anASTUnaryExpression receiver )
-		message: (anASTUnaryExpression selector asSymbol asPSymbol);
+		message: (anASTUnaryExpression selectorSymbol asPSymbol);
 		arguments: (PArray new: 0)

@@ -1,3 +1,3 @@
 converting
 asString
-	^ self symbol asString
+	^ symbol asString
