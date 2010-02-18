@@ -1,3 +1,3 @@
 visitor
 visitNumber: anASTNumber 
-	^ anASTNumber asPSmallInt asPConstant
+	^ anASTNumber asNumber asPObject asPConstant

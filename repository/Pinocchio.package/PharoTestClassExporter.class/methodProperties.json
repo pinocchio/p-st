@@ -4,7 +4,7 @@
 	"instance" : {
 		"assertEmptyStack" : "CamilloBruni 2/9/2010 16:35",
 		"ast:" : "CamilloBruni 2/9/2010 15:47",
-		"createAssertFor:of:" : "CamilloBruni 2/9/2010 17:00",
+		"createAssertFor:of:" : "ToonVerwaest 2/18/2010 16:37",
 		"createAssertForResult:" : "CamilloBruni 2/9/2010 16:12",
 		"createCFile" : "CamilloBruni 2/11/2010 00:07",
 		"createDeclarationFor:withString:" : "CamilloBruni 2/9/2010 16:35",
@@ -15,13 +15,13 @@
 		"createMethodInstallFor:withCode:" : "CamilloBruni 2/9/2010 16:36",
 		"createMethodSourceStringFor:" : "CamilloBruni 2/9/2010 16:36",
 		"createSelectorFor:" : "CamilloBruni 2/9/2010 15:47",
-		"createTestCaseFor:" : "ToonVerwaest 2/10/2010 15:33",
-		"createTestCases" : "CamilloBruni 2/9/2010 16:33",
+		"createTestCaseFor:" : "ToonVerwaest 2/18/2010 17:01",
+		"createTestCases" : "ToonVerwaest 2/18/2010 16:42",
 		"createTestClassInstance" : "CamilloBruni 2/10/2010 00:12",
 		"createTestSetup" : "CamilloBruni 2/10/2010 14:27",
 		"createTestSuite" : "CamilloBruni 2/10/2010 00:18",
 		"export:" : "CamilloBruni 2/10/2010 18:46",
-		"exportClassSend:compiledMethod:" : "CamilloBruni 2/9/2010 16:59",
+		"exportClassSend:compiledMethod:" : "ToonVerwaest 2/18/2010 16:38",
 		"extractMethod:" : "CamilloBruni 2/9/2010 16:35",
 		"extractTestMethods" : "CamilloBruni 2/10/2010 13:28",
 		"name" : "CamilloBruni 2/9/2010 17:02",
@@ -32,4 +32,4 @@
 		"sclass:" : "CamilloBruni 2/9/2010 16:59",
 		"sclassInstance" : "CamilloBruni 2/9/2010 16:59",
 		"separator" : "CamilloBruni 2/9/2010 16:37",
-		"testArgumentsFor:of:" : "ToonVerwaest 2/18/2010 15:55" } }
+		"testArgumentsFor:of:" : "ToonVerwaest 2/18/2010 17:00" } }

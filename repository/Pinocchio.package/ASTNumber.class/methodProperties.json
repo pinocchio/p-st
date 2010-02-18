@@ -2,8 +2,7 @@
 	"class" : {
 		"astSelectors" : "CamilloBruni 1/27/2010 23:30" },
 	"instance" : {
-		"asInteger" : "DavidGurtner 10/20/2009 17:31",
-		"asPSmallInt" : "ToonVerwaest 2/18/2010 14:22",
+		"asNumber" : "ToonVerwaest 2/18/2010 16:11",
 		"base" : "tv 3/27/2009 16:22",
 		"base:" : "tv 3/27/2009 16:22",
 		"number" : "cb 3/26/2009 15:15",

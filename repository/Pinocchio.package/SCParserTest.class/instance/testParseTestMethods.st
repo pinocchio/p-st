@@ -12,16 +12,12 @@ testParseTestMethods
 			result class should = ASTMethod.
 			annotations := result annotations select:[ :ann | 
 				ann class = ASTKeywordAnnotation 
-					and: [ ann keywords asArray = ((Array new: 3)
-							at: 1 put: #temps;
-							at: 2 put: #annotations;
-							at: 3 put: #statements;
-							yourself) ] ].
+					and: [ ann selectorSymbol = #temps:annotations:statements: ] ].
 			annotations size = 1 ifTrue:
 					[ annotation := annotations first.
-					result temporaries size = annotation arguments first asInteger.
-					result annotations size = (annotation arguments at: 2) asInteger.
-					result statements size = (annotation arguments at: 3) asInteger ].
+					result temporaries size = annotation arguments first asNumber.
+					result annotations size = (annotation arguments at: 2) asNumber.
+					result statements size = (annotation arguments at: 3) asNumber ].
 			"string atEnd should be true."
 			result 
 	]	"inspect"

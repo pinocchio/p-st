@@ -18,5 +18,5 @@ testMessageExpression
  	result := (parser match: string).
 	result class should = ASTUnaryExpression.
 	result receiver class should = ASTNumber.
-	result receiver asInteger should = 2.
+	result receiver asNumber should = 2.
 	
