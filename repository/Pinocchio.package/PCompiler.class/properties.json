@@ -14,7 +14,7 @@
 		"currentBlock",
 		"currentCallecVariable",
 		"currentInfo" ],
-	"name" : "PASTVisitor",
+	"name" : "PCompiler",
 	"pools" : [
 		 ],
 	"super" : "ASTVisitor",

@@ -1,6 +1,6 @@
 running
 setUp
 	super setUp.
-	visitor := PASTVisitor new.
+	visitor := PCompiler new.
 	scparser := SCParser new.
 	parser := scparser expression.

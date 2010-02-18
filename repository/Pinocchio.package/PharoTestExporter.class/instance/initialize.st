@@ -3,7 +3,7 @@ initialize
 	super initialize.
 	scparser := SCParser new.
 	cdumper := PClassCDumper new.
-	visitor := PASTVisitor new.
+	visitor := PCompiler new.
 	testCaseClass := PInternalVariable new.
 	testCaseInstance := PInternalVariable new.
 	self name: 'AutoGenTest'.

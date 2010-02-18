@@ -5,6 +5,6 @@ initialize
 	done := IdentityDictionary new.
 	todo := OrderedCollection new.
 	scparser := SCParser new.
-	pinocchioVisitor := PASTVisitor new.
+	pinocchioVisitor := PCompiler new.
 	pinocchioVisitor world: self.
 	classASTs := Dictionary new.
