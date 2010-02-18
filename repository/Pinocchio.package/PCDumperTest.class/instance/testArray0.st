@@ -1,6 +1,6 @@
 running
 testArray0
 	| array |
-	array := {   } asPArray.
+	array := {   } asPObject.
 	dumper visit: array.
 	dumper printString withBlanksTrimmed should = ''

@@ -19,9 +19,9 @@ visitMethod: aMethod
 
 	method := PMethod withAll: body.
 	method selector: selector;
-		params: (self acceptOnCollection: aMethod message parameters) asPArray;
-		locals: (self acceptOnCollection: aMethod temporaries) asPArray;
-		annotations:  (self acceptOnCollection: aMethod annotations) asPArray;
+		params: (self acceptOnCollection: aMethod message parameters) asArray asPObject;
+		locals: (self acceptOnCollection: aMethod temporaries) asArray asPObject;
+		annotations:  (self acceptOnCollection: aMethod annotations) asArray asPObject;
 		hasReturn: hasReturn;
 		info: self currentInfo.
 	
