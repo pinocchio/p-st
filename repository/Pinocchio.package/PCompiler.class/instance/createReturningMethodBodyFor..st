@@ -8,15 +8,15 @@ createReturningMethodBodyFor: aMethod
 	] ifTrue: [
 		body at: body size put: body last expression.
 		body hasReturnExpression ifFalse: [
-			^ (self acceptOnCollection: body) asPArray
+			^ (self acceptOnCollection: body) asArray asPObject
 		]
 	].
 	
 	"Now wrap all in a callec"
 	callec := (PSend new: 1)
 			receiver: (self visitVariable: (ASTVariable named: 'PCallec'));
-			message: #on: asPSymbol;
+			message: #on: asPObject;
 			at: 1 put: (self createCallecBodyFor: aMethod);
 			yourself.
 	
-	^  callec asPArray.
+	^  PArray with: callec

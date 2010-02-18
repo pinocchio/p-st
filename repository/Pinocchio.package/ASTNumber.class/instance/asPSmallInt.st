@@ -1,3 +1,3 @@
 converting
 asPSmallInt
-	^PSmallInt new int: self asInteger
+	^ self asInteger asPSmallInt

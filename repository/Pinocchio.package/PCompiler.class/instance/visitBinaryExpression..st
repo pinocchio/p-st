@@ -1,6 +1,6 @@
 visitor
 visitBinaryExpression: aBinaryExpression
 	^ (self createSendTo: aBinaryExpression receiver sized: 1)
-			message: (aBinaryExpression selector asSymbol asPSymbol);
+			message: (aBinaryExpression selector asSymbol asPObject);
 			at: 1 put: (self visit: aBinaryExpression argument);
 			yourself

@@ -3,4 +3,4 @@ createNonReturningMethodBodyFor: aMethod
 	| statements |
 	statements := aMethod statements.
 	statements add: ASTSelf new.
-	^ (self acceptOnCollection: statements) asPArray
+	^ (self acceptOnCollection: statements) asArray asPObject

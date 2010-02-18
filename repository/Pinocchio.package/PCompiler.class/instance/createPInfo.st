@@ -2,8 +2,8 @@ convenience
 createPInfo
 	| info |
 	info := PInfo new.
-	info sourceFile: currentMethod sourceObject asPString.
-	info name: currentMethod message asPString.
-	info line: -1 asPSmallInt.
-	info column: -1 asPSmallInt.
+	info sourceFile: currentMethod sourceObject asPObject.
+	info name: currentMethod message asString asPObject.
+	info line: -1 asPObject.
+	info column: -1 asPObject.
 	^ info
