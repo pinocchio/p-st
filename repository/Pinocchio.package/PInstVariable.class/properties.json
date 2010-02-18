@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"name",
+		"index" ],
 	"name" : "PInstVariable",
 	"pools" : [
 		 ],
-	"super" : "PVariable",
+	"super" : "PObject",
 	"type" : "normal" }

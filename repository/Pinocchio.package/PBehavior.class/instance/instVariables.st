@@ -10,7 +10,7 @@ instVariables
 			].
 		].
 		instVar := self createInstVariable: each.
-		instVar localId: instVars size.
+		instVar index: instVars size.
 		instVars add: instVar.
 	].
 	^ instVars.
