@@ -1,3 +1,3 @@
 accessing
 at: index
-	^ members at: index
+	^ members at: index asSymbol

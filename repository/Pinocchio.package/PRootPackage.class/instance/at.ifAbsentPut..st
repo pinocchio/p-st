@@ -1,5 +1,3 @@
 accessing
 at: index ifAbsentPut: block
-	index should beKindOf: PSymbol.
-	self haltIf: [ index printString = 'a PSymbol #PLocalVariable' ].
-	^ members at: index ifAbsentPut: block
+	^ members at: index asSymbol ifAbsentPut: block

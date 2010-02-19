@@ -1,3 +1,3 @@
 instance creation
 named: referenceName
-	^ super new referenceName: referenceName asSymbol asPObject
+	^ super new referenceName: referenceName asSymbol

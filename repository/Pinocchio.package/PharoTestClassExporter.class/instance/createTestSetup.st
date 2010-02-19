@@ -6,12 +6,12 @@ createTestSetup
 		
 	send := PSend new
 				receiver: testCaseInstance;
-				message: #setUp asPObject;
+				message: #setUp;
 				arguments: Array new.
 	cdumper stream: stream.
 	cdumper visit: send.
 	
 	stream nextPutAll: 'Eval((Object)';
-		nextPutAll: send uid asString;
+		nextPutAll: send uid;
 		nextPutAll: ');'; cr;
 		nextPutAll: '}'; cr; cr.

@@ -1,5 +1,5 @@
 accessing
 lookUp: aSymbol
-	^ self lookUpIn: (( '-' split: aSymbol) collect: [ :each| each asSymbol asPObject ]) at: 1
+	^ self lookUpIn: ('-' split: aSymbol) at: 1
 	
 	

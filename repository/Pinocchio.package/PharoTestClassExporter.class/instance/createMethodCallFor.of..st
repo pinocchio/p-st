@@ -2,7 +2,7 @@ exporting
 createMethodCallFor: anPinocchioASTMethod of: aCompiledMethod
 	| send arguments |
 	arguments := ((self testArgumentsFor: anPinocchioASTMethod of: aCompiledMethod)
-						collect: [:o | PConstant new: o asPObject ]) asArray.
+						collect: [:o | PConstant new: o ]) asArray.
 	send := (PSend new: arguments size)
 				receiver: testCaseInstance;
 				message: anPinocchioASTMethod selector asPObject;
