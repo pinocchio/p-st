@@ -5,7 +5,7 @@ visitSend: aPSend
 	self visit: aPSend receiver.
 	self visit: message.
 	self visitCollection: aPSend arguments.
-	self comment: aPSend message asSymbol asString.
+	self comment: aPSend message.
 	self put: aPSend 
 		with: ('new_AST_Send((Object)',aPSend receiver uid,', ',
 							    '(Object)', message uid,', ',

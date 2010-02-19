@@ -1,3 +1,3 @@
 accessing
 referenceName: anObject
-	referenceName := anObject
+	referenceName := anObject asSymbol

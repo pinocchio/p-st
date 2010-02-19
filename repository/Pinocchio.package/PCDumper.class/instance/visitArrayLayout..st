@@ -15,11 +15,11 @@ visitArrayLayout: aPArrayLayout
 		with: 'create_layout_with_vars(Type_ArrayLayout, ',
 				aPArrayLayout size asString ,')'.
 			
-	1 to: aPArrayLayout size do: [ :index|
+	aPArrayLayout withIndexDo: [ :each :index |
 		stream nextPutAll: '((Type_Array)';
 			nextPutAll: aPArrayLayout uid; 
 			nextPutAll: (')->values[', (index - 1) asString, '] = ');
-			nextPutAll: (aPArrayLayout at: index) uid;
+			nextPutAll: each uid;
 			nextPutAll: ';' ; cr.
 	].
 

@@ -1,5 +1,5 @@
 convenience
 comment: aString
 	stream nextPutAll: '// ';
-		nextPutAll: aString; 
+		nextPutAll: aString asString; 
 		nextPutAll: '. '; cr.

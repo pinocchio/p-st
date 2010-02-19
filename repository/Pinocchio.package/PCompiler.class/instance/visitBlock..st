@@ -1,16 +1,14 @@
 visitor
 visitBlock: aBlock 
-	| block index |
+	| block |
 	self pushScope.
 	scope declareAll: aBlock parameters.
 	scope declareAll: aBlock temporaries.
 	block := self createBlock: aBlock statements size.
 	block params: (self acceptOnCollection: aBlock parameters) asArray;
 		locals: (self acceptOnCollection: aBlock temporaries) asArray.
-	index := 1.
-	aBlock statements do: [:each|
-		block at: index put: (self visit: each).
-		index := index + 1.
+	aBlock statements withIndexDo: [ :each :index |
+		block at: index put: (self visit: each)
 	].
 	self popScope.
 	^ block

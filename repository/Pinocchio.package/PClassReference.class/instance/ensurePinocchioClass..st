@@ -1,6 +1,6 @@
 convenience
 ensurePinocchioClass: aPinocchioClass 
-	self assert: aPinocchioClass isNil not.
+	aPinocchioClass should not be isNil.
 	pClass 
 		ifNil: [ pClass := aPinocchioClass ]
 		ifNotNil: [ pClass = aPinocchioClass ifFalse: [ self error ] ].

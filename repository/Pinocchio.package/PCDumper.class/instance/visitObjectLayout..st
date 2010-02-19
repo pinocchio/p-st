@@ -13,15 +13,13 @@ visitObjectLayout: aPObjectLayout
 	self putRaw: aPObjectLayout 
 		with: 'create_layout_with_vars(Type_ObjectLayout, ',
 										 aPObjectLayout size asString ,')'.
-	1 to: aPObjectLayout size do: [ :index|
-		element := aPObjectLayout at: index.
-		self visit: element.
+	aPObjectLayout withIndexDo: [ :each :index |
 		stream nextPutAll: '((Type_Array)';
 			nextPutAll: aPObjectLayout uid; 
 			nextPutAll: (')->values[', (index - 1) asString, '] = ');
-			nextPutAll: element uid;
+			nextPutAll: each uid;
 			nextPutAll: '; // '; 
-			nextPutAll: element name;
+			nextPutAll: each name;
 			nextPutAll: ' '; cr.
 	].
 
