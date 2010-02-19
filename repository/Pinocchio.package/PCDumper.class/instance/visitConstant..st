@@ -1,5 +1,7 @@
 visitor
 visitConstant: aPinocchioConstant
-	self visit: aPinocchioConstant constant.
+	| constant |
+	constant := aPinocchioConstant constant asPObject.
+	self visit: constant.
 	self put: aPinocchioConstant
-		with: ('new_AST_Constant((Object)' , aPinocchioConstant constant uid , ')').
+		with: ('new_AST_Constant((Object)' , constant uid , ')').
