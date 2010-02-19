@@ -8,7 +8,7 @@ createReturningMethodBodyFor: aMethod
 	] ifTrue: [
 		body at: body size put: body last expression.
 		body hasReturnExpression ifFalse: [
-			^ (self acceptOnCollection: body) asArray asPObject
+			^ (self acceptOnCollection: body) asArray
 		]
 	].
 	

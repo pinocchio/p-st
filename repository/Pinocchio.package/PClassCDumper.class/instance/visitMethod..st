@@ -1,5 +1,6 @@
 visitor
 visitMethod: aPMethod
+	| params locals |
 	self newline.
 	stream nextPutAll: 'void init_method_';
 		nextPutAll: aPMethod uid;
@@ -7,13 +8,15 @@ visitMethod: aPMethod
 	
 	self comment: (self currentClass name asString, '>>', aPMethod selector asString).
 	self createMethodSourceCommentFor: aPMethod.
-	self visit: aPMethod params.	
-	self visit: aPMethod locals.
+	params := aPMethod params asPObject.
+	locals := aPMethod locals asPObject.
+	self visit: params.	
+	self visit: locals.
 	self visitCollection: aPMethod.
 	self createSized: aPMethod 
 		with: ('new_AST_Method_with(',
-						'(Type_Array)', aPMethod params uid, ', ',
-						'(Type_Array)', aPMethod locals uid).
+						'(Type_Array)', params uid, ', ',
+						'(Type_Array)', locals uid).
 	self installPInfoOn: aPMethod.
 	self installMethod: aPMethod.
 	

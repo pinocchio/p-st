@@ -1,3 +1,3 @@
 visitor
 visitString: anASTString 
-	^ anASTString asString asPObject asPConstant
+	^ PConstant new: anASTString asString asPObject

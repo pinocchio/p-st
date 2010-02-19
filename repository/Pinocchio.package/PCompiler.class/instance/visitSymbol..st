@@ -1,3 +1,3 @@
 visitor
 visitSymbol: anASTSymbol 
-	^ anASTSymbol asSymbol asPObject asPConstant.
+	^ PConstant new: anASTSymbol asSymbol asPObject.

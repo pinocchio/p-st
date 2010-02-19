@@ -7,12 +7,11 @@ visitMessageCascadeExpression: anASTMessageCascadeExpression
 			message receiver: receiver.
 	].
 	block := ASTBlock new
-		parameters: (OrderedCollection with: receiver);
+		parameters: (Array with: receiver);
 		statements: anASTMessageCascadeExpression cascades.
 	
 	send := ASTMessageExpression new
 			receiver: block;
-			arguments: (OrderedCollection with: anASTMessageCascadeExpression receiver);
-			selector: (ASTKeywordSelector new
-							keywords: (OrderedCollection with: #value)).
+			arguments: (Array with: anASTMessageCascadeExpression receiver);
+			selector: (ASTKeywordSelector new selector: #value:).
 	^ self visit: send.

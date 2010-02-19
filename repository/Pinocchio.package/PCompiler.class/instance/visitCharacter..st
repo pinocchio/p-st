@@ -1,3 +1,3 @@
 visitor
 visitCharacter: anASTCharacter 
-	^ anASTCharacter char asPObject asPConstant
+	^ PConstant new: anASTCharacter char asPObject

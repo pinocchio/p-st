@@ -1,10 +1,13 @@
 visitor
 visitBlock: aPinocchioBlock 
-	self visit: aPinocchioBlock params.
-	self visit: aPinocchioBlock locals.
+	| params locals |
+	params := aPinocchioBlock params asPObject.
+	locals := aPinocchioBlock locals asPObject.
+	self visit: params.
+	self visit: locals.
 	self visitCollection: aPinocchioBlock.
 	self createSized: aPinocchioBlock 
 		with: ('new_AST_Block_with(', 
-			'(Type_Array)', aPinocchioBlock params uid,', ',
-			'(Type_Array)', aPinocchioBlock locals uid,', ',
+			'(Type_Array)', params uid,', ',
+			'(Type_Array)', locals uid,', ',
 			aPinocchioBlock depth asString)
