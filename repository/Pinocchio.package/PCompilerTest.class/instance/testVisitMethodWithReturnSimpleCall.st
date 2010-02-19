@@ -6,7 +6,6 @@ testVisitMethodWithReturnSimpleCall
 	ast class should = PMethod.
 	ast locals size should = 0.
 	ast params size should = 0.
-	ast hasReturn should = true.
 	
 	ast size should = 1. "Just a send: self foo"
 	send := ast first.

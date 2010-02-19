@@ -7,6 +7,5 @@ testVisitMethodWithDirectReturn2
 
 	ast class should = PMethod.
 	ast depth should = 0.
-	ast hasReturn should = true.
 	ast size should = 2.  "1+2. true"
 	ast last class should = PInternalVariable.

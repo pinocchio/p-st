@@ -7,8 +7,6 @@ visitMethod: aMethod
 	scope declareAll: aMethod message parameters.
 	scope declareAll: aMethod temporaries.
 	
-	hasReturn := aMethod hasReturnExpression.
-	
 	aMethod hasReturnExpression ifFalse: [
 		body :=  self createNonReturningMethodBodyFor: aMethod.	
 	] ifTrue: [
@@ -22,7 +20,6 @@ visitMethod: aMethod
 		params: (self acceptOnCollection: aMethod message parameters) asArray;
 		locals: (self acceptOnCollection: aMethod temporaries) asArray;
 		annotations:  (self acceptOnCollection: aMethod annotations) asArray;
-		hasReturn: hasReturn;
 		info: self currentInfo.
 	
 	self popScope.

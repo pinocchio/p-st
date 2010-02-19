@@ -4,7 +4,6 @@ testVisitMethod
 	parser := scparser method.
 	ast := self ast: 'doIt' , String cr , ' 1 + 2.'.
 	ast class should = PMethod.
-	ast hasReturn should  = false.
 	ast selector asSymbol should = #doIt.
 	ast size should = 2. " +; self"
 	ast locals size should = 0.

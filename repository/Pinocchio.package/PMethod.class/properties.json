@@ -10,7 +10,6 @@
 		"locals",
 		"package",
 		"annotations",
-		"hasReturn",
 		"selector" ],
 	"name" : "PMethod",
 	"pools" : [

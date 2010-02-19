@@ -8,7 +8,6 @@ testVisitMethodMultipleArgs
 	ast selector asSymbol should = #doIt:withA:withB:withC:.
 	ast locals size should = 0.
 	ast params size should = 4.
-	ast hasReturn should = false.
 	ast size should = (1+1).
 	(ast params at: 1) class should = PVariable.
 	ast last class should = PSelf.

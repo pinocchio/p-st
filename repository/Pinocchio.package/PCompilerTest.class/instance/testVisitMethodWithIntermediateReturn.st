@@ -5,7 +5,6 @@ testVisitMethodWithIntermediateReturn
 	ast := self ast: 'doIt: a' , String cr , 'a ifTrue: [^ 1].'.
 
 	ast class should = PMethod.
-	ast hasReturn should = true.
 	ast depth should = 0.
 	ast params size should = 1.
 	ast locals size should = 0.

@@ -7,7 +7,6 @@ testVisitMethod1Arg
 	ast selector asSymbol should = #doIt:.
 	ast locals size should = 0.
 	ast params size should = 1.
-	ast hasReturn should = false.
 	ast size should = (1+1).
 	(ast params at: 1) class should = PVariable.
 	
