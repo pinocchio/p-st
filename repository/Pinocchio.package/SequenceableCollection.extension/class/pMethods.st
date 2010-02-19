@@ -9,6 +9,7 @@ pMethods
 		add: #=;
 		add: #reverse;
 		add: #reversed;
+		add: #withIndexDo:;
 		add: #joinUsing:;
 		add: #hasEqualElements:;
 		add: #do:separatedBy:;
