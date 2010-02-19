@@ -2,7 +2,7 @@ visitor
 visitMessageCascadeExpression: anASTMessageCascadeExpression 
 	"TODO: Maybe optimize by adding a tmp to the current block"
 	| receiver block send |
-	receiver := ASTVariable new name: 'receiver'.
+	receiver := ASTVariable new name: #receiver.
 	anASTMessageCascadeExpression cascades do: [ :message |
 			message receiver: receiver.
 	].

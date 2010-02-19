@@ -1,11 +1,16 @@
 visitor
 visitInfo: aPInfo
-	self visit: aPInfo name. 
-	self visit: aPInfo sourceFile.
-	self visit: aPInfo line.
-	self visit: aPInfo column.
+	| name sourceFile line column |
+	name := aPInfo name asPObject.
+	sourceFile := aPInfo sourceFile asPObject.
+	line := aPInfo line asPObject.
+	column := aPInfo column asPObject.
+	self visit: name. 
+	self visit: sourceFile.
+	self visit: line.
+	self visit: column.
 	self put: aPInfo
-		with: 'new_AST_Info((Type_String)', aPInfo sourceFile uid,
-							',(Type_String)', aPInfo name uid,
-							', (Type_SmallInt)', aPInfo line uid,
-							', (Type_SmallInt)', aPInfo column uid, ')' 
+		with: 'new_AST_Info((Type_String)', sourceFile uid,
+							',(Type_String)', name uid,
+							', (Type_SmallInt)', line uid,
+							', (Type_SmallInt)', column uid, ')' 

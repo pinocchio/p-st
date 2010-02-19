@@ -1,7 +1,7 @@
 exporting
 createTestCaseFor: methodSelector
 	| method selector |
-	self pclass methods at: methodSelector asPObject ifPresent: [ :astMethod |
+	self pclass methods at: methodSelector ifPresent: [ :astMethod |
 	
 	method := self extractMethod: methodSelector.
 	

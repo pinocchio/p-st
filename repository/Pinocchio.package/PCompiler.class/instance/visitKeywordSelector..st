@@ -1,3 +1,3 @@
 visitor
 visitKeywordSelector: anASTKeywordSelector
-	^ anASTKeywordSelector selectorSymbol asPObject
+	^ anASTKeywordSelector selectorSymbol
