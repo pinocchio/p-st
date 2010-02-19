@@ -1,3 +1,3 @@
 exporting
 ensurePackageNamed: aPinocchioSymbol
-	^ self at: aPinocchioSymbol asSymbol ifAbsentPut: [ PPackage named: aPinocchioSymbol asSymbol in: self ]
+	^ self at: aPinocchioSymbol ifAbsentPut: [ PPackage named: aPinocchioSymbol in: self ]
