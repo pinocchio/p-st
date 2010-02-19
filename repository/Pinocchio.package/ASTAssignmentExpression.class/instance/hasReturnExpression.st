@@ -1,0 +1,3 @@
+testing
+hasReturnExpression
+	^ expression hasReturnExpression

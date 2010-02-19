@@ -3,5 +3,5 @@ doesNotUnderstand: aMessage
 	| selector |
 	(aMessage selector = #accept:) 
 		ifFalse: [ ^ super doesNotUnderstand: aMessage ].
-	selector := ('visit', (self class name copyFrom: 4 to: (self class name size)), ':') asSymbol.
+	selector := ('visit', self astName, ':') asSymbol.
 	^ (aMessage argument) perform: selector with: self. 

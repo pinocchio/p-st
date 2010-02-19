@@ -1,14 +1,12 @@
 {
 	"category" : "Pinocchio-ST-AST",
 	"classinstvars" : [
-		"uidCounter" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sourceObject",
-		"uid",
-		"id" ],
+		"sourceObject" ],
 	"name" : "ASTNode",
 	"pools" : [
 		 ],

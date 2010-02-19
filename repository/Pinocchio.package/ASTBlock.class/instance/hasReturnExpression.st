@@ -1,5 +1,3 @@
-accessing
+testing
 hasReturnExpression
-	^ self statements anySatisfy: [ :el | 
-		el isReturnExpression 
-			or: [ el hasReturnExpression ]].
+	^ self statements anySatisfy: #hasReturnExpression

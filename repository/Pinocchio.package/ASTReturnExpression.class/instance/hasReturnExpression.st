@@ -1,3 +1,3 @@
 testing
 hasReturnExpression
-	^ false
+	^ true

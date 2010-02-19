@@ -1,3 +1,0 @@
-accessing
-astSelectors
-	^ Array new

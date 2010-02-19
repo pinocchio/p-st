@@ -1,5 +1,6 @@
-accessing
+testing
 hasReturnExpression
-	^ self arguments anySatisfy: [ :el | 
-		el isReturnExpression 
-			or: [ el hasReturnExpression ]].
+	^ (receiver
+			ifNil: [ false ]
+			ifNotNil: [ receiver hasReturnExpression ])
+				or: [ self arguments anySatisfy: #hasReturnExpression ]

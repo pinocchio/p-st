@@ -1,3 +1,4 @@
 *Pinocchio
 astType
-	^ 'Type'
+	<preventExport>
+	^ #'ST-AST'
