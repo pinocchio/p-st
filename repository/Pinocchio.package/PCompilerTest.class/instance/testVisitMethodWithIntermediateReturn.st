@@ -7,12 +7,12 @@ testVisitMethodWithIntermediateReturn
 	ast class should = PMethod.
 	ast hasReturn should = true.
 	ast depth should = 0.
-	ast params class should = PArray.
-	ast locals class should = PArray.
+	ast params size should = 1.
+	ast locals size should = 0.
 	ast size should = 1. "callec on: [return. self]"
 	send := ast first.
 	send class should = PSend.
-	send message asString should = 'on:'.
+	send message should = #on:.
 	send receiver should beKindOf: PClassReference.
 	callecBody := send arguments at: 1.
 	callecBody class should = PBlock.

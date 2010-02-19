@@ -4,8 +4,6 @@ testVisitMethodWithReturnSimpleCall
 	parser := scparser method.
 	ast := self ast: 'doIt' , String cr , ' ^ self foo'.
 	ast class should = PMethod.
-	ast params class should = PArray.
-	ast locals class should = PArray.
 	ast locals size should = 0.
 	ast params size should = 0.
 	ast hasReturn should = true.
