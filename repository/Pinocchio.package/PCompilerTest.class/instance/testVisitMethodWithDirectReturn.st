@@ -4,6 +4,7 @@ testVisitMethodWithDirectReturn
 	parser := scparser method.
 	ast := self ast: 'doIt' , String cr , ' ^ true.'.
 
-	ast class should = PMethod.
+	ast class should = PMethodClosure.
+	ast := ast code.
 	ast size should = 1.  "true"
 	ast first class should = PInternalVariable.

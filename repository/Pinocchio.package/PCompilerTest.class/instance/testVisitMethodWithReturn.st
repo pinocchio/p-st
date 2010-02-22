@@ -3,7 +3,8 @@ testVisitMethodWithReturn
 	| ast block return body send |
 	parser := scparser method.
 	ast := self ast: 'doIt' , String cr , '|a b c|' , String cr , ' ^ self foo: a bar: b baz: c.'.
-	ast class should = PMethod.
+	ast class should = PMethodClosure.
+	ast := ast code.
 	
 	ast size should = 1. "only a send at the last position"
 	ast locals size should = 3.

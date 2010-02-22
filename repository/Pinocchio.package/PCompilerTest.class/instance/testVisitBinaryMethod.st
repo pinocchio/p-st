@@ -4,5 +4,5 @@ testVisitBinaryMethod
 	parser := scparser method.
 	ast := self ast: '= other 
 	^ self name = other name.'.
-	ast class should = PMethod.
+	ast class should = PMethodClosure.
 	

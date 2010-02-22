@@ -8,7 +8,6 @@ testVisitBlock2
 	result locals size should = 2.
 	result params size should = 1.
 	result size should = 1.
-	result depth should = 0.
 	
 	send := result first.
 	send class should = PSend.
