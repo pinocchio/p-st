@@ -7,4 +7,4 @@ testVisitMethodWithDirectReturn
 	ast class should = PMethodClosure.
 	ast := ast code.
 	ast size should = 1.  "true"
-	ast first class should = PInternalVariable.
+	ast first should beKindOf: PVariable.

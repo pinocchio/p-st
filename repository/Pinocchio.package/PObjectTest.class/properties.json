@@ -1,14 +1,14 @@
 {
-	"category" : "Pinocchio-AST",
+	"category" : "Pinocchio-Type",
 	"classinstvars" : [
-		"instance" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "PSelf",
+	"name" : "PObjectTest",
 	"pools" : [
 		 ],
-	"super" : "PNode",
+	"super" : "TestCase",
 	"type" : "normal" }

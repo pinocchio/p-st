@@ -5,4 +5,4 @@ testVisitUnaryExpression
 	ast := self ast: 'true not'.
 	ast message asSymbol should = #not.
 	ast size = 0.
-	ast receiver class should = PInternalVariable.
+	ast receiver should beKindOf: PVariable.

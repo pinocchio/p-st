@@ -1,7 +1,9 @@
 {
 	"class" : {
 		"asPClass" : "DavidGurtner 2/4/2010 16:27",
-		"streamContents:" : "ToonVerwaest 2/15/2010 09:42" },
+		"cr" : "CamilloBrun 2/22/2010 15:45",
+		"streamContents:" : "ToonVerwaest 2/15/2010 09:42",
+		"with:" : "CamilloBrun 2/22/2010 15:46" },
 	"instance" : {
 		"=" : "DavidGurtner 2/4/2010 16:32",
 		"asPEG" : "ToonVerwaest 2/8/2010 10:13",
