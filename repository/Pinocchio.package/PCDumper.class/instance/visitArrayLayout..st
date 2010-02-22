@@ -10,6 +10,7 @@ visitArrayLayout: aPArrayLayout
 	].
 
 	(self currentClass isKindOf: PInternalClass) ifTrue: [ ^ self. ].
+	(self currentClass isKindOf: PInternalMetaclass) ifTrue: [ ^ self. ].
 	
 	self putRaw: aPArrayLayout 
 		with: 'create_layout_with_vars(Type_ArrayLayout, ',
