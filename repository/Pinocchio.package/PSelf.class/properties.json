@@ -10,5 +10,5 @@
 	"name" : "PSelf",
 	"pools" : [
 		 ],
-	"super" : "PNode",
+	"super" : "PObject",
 	"type" : "normal" }

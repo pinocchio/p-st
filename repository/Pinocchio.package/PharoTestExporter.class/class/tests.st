@@ -5,8 +5,8 @@ tests
 	tests
 	"	add: PDictionaryTest;
 		add: PEGTest;
-		add: SCParserTest;"
 		add: BridgeTest;
+		add: SCParserTest;"
 		add: PObjectTest;
 		add: PCompilerTest.
 	^ tests.
