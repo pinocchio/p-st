@@ -16,6 +16,7 @@ testObjectExport
 	package := objectClass package.
 	package packageName asSymbol should = #Objects.
 	package parent packageName asSymbol should = #Kernel. 
-	package size should = 1.
-	package parent size should = 2. "Kernel-Objects and Kernel-Classes"
+	(package includesKey: #Object) should be = true.
+	(package parent includesKey: #Objects) should be = true.
+	(package parent parent includesKey: #Kernel) should be = true.
 	
