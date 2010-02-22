@@ -2,7 +2,9 @@ convenience
 createClass: aPinocchioClass
 	| classLayout |
 	classLayout := aPinocchioClass pmetaclass layout.
+	currentClass := aPinocchioClass pmetaclass.
 	self visit: classLayout.
+	currentClass := aPinocchioClass.
 	stream cr.
 	self visit: aPinocchioClass layout.
 	(self currentClass isKindOf: PInternalClass) ifTrue: [ ^ self. ].
