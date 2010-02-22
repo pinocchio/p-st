@@ -5,7 +5,7 @@ testVisitMethodMultipleArgs
 	ast := self ast: 'doIt: a withA: b withB: c withC: d' , String cr , ' a + 2.'.
 	ast class should = PMethod.
 	ast depth should = 0.
-	ast selector asSymbol should = #doIt:withA:withB:withC:.
+	"ast selector asSymbol should = #doIt:withA:withB:withC:."
 	ast locals size should = 0.
 	ast params size should = 4.
 	ast size should = (1+1).

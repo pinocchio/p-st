@@ -9,5 +9,4 @@ visitBlock: aPinocchioBlock
 	self createSized: aPinocchioBlock 
 		with: ('new_AST_Block_with(', 
 			'(Type_Array)', params uid,', ',
-			'(Type_Array)', locals uid,', ',
-			aPinocchioBlock depth asString)
+			'(Type_Array)', locals uid)

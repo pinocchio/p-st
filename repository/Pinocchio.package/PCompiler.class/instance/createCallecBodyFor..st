@@ -2,7 +2,7 @@ method
 createCallecBodyFor: anASTMethod
 	| body statements statement |
 	self pushScope.
-	self currentCallecVariable: (PVariable named: #return).
+	self currentCallecVariable: (PVariable named: #return at: scope depth).
 	body := self createBlock: anASTMethod statements size.
 	body params: (PArray with: self currentCallecVariable).
 	statements := anASTMethod statements.

@@ -8,7 +8,7 @@ transformClassMethodsFor: aPinocchioClass
 		method := cls class methodDictionary at: selector.
 		Transcript show: ('    ', cls name, ' class>>', method selector); cr.
 		method :=  self transformMethod: method getSource.
-		methodDict at: method selector put: method.
+		methodDict at: (pinocchioVisitor selectorFor: method was: selector) put: method.
 	].
 
 	^ methodDict.

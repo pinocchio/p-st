@@ -1,0 +1,3 @@
+converting
+asPVariableAt: scope
+	" ^ self "

@@ -1,7 +1,9 @@
 running
 testVisitBlock
 	| emptyblock variable result |
-	emptyblock := ASTBlock new.
+	emptyblock := ASTBlock new
+		statements: (Array new: 0);
+		parameters: (Array new: 0).
 	result := visitor visit: emptyblock.
 	result class should = PBlock.
 	

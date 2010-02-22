@@ -16,7 +16,8 @@ visitMethod: aMethod
 	selector := self selectorFor: aMethod.
 
 	method := PMethod withAll: body.
-	method selector: selector;
+	method
+		selector: selector;
 		params: (self acceptOnCollection: aMethod message parameters) asArray;
 		locals: (self acceptOnCollection: aMethod temporaries) asArray;
 		annotations:  (self acceptOnCollection: aMethod annotations) asArray;

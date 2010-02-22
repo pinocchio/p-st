@@ -5,9 +5,8 @@ visitMethod: aPMethod
 	stream nextPutAll: 'void init_method_';
 		nextPutAll: aPMethod uid;
 		nextPutAll: '() {'; cr.
-	
-	self comment: (self currentClass name asString, '>>', aPMethod selector asString).
-	self createMethodSourceCommentFor: aPMethod.
+		
+	"self createMethodSourceCommentFor: aPMethod."
 	params := aPMethod params asPObject.
 	locals := aPMethod locals asPObject.
 	self visit: params.	

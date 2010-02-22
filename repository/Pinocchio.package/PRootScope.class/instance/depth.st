@@ -1,3 +1,3 @@
 accessing
 depth
-	^ 0
+	^ -1
