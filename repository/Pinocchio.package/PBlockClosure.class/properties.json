@@ -10,5 +10,5 @@
 	"name" : "PBlockClosure",
 	"pools" : [
 		 ],
-	"super" : "PRuntimeObject",
+	"super" : "PClosure",
 	"type" : "normal" }

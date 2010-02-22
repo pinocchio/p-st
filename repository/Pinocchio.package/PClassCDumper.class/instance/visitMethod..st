@@ -1,10 +1,6 @@
 visitor
 visitMethod: aPMethod
 	| params locals |
-	self newline.
-	stream nextPutAll: 'void init_method_';
-		nextPutAll: aPMethod uid;
-		nextPutAll: '() {'; cr.
 		
 	"self createMethodSourceCommentFor: aPMethod."
 	params := aPMethod params asPObject.
@@ -17,10 +13,7 @@ visitMethod: aPMethod
 						'(Type_Array)', params uid, ', ',
 						'(Type_Array)', locals uid).
 	self installPInfoOn: aPMethod.
-	self installMethod: aPMethod.
-	
-	stream nextPutAll: '}'; cr; cr.
 		
 	methods add: aPMethod.
-	"reset the node chache"
+	"reset the node cache"
 	visitedNodes removeAll.

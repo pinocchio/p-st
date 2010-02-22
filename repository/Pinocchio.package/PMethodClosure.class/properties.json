@@ -1,5 +1,5 @@
 {
-	"category" : "Pinocchio-Runtime",
+	"category" : "Pinocchio-AST",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -12,5 +12,5 @@
 	"name" : "PMethodClosure",
 	"pools" : [
 		 ],
-	"super" : "PRuntimeObject",
+	"super" : "PClosure",
 	"type" : "normal" }
