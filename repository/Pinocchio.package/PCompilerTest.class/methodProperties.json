@@ -3,7 +3,6 @@
 		 },
 	"instance" : {
 		"assureLastIsReturningSelf:" : "CamilloBruni 1/19/2010 11:13",
-		"setUp" : "TestRunner 10/29/2009 21:50",
 		"testClassReference" : "TestRunner 11/18/2009 13:13",
 		"testVisitAssignementExpression" : "ToonVerwaest 2/19/2010 14:30",
 		"testVisitBinaryMethod" : "ToonVerwaest 2/22/2010 13:07",
