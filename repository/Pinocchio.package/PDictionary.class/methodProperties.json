@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"asPClass" : "ToonVerwaest 2/22/2010 21:41" },
 	"instance" : {
 		"at:ifAbsentPut:" : "DavidGurtner 2/4/2010 14:21",
 		"includesKey:" : "ToonVerwaest 2/5/2010 10:53" } }

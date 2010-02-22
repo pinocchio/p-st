@@ -2,4 +2,5 @@ exporting
 asPClass
 	<preventExport>
 	self = PObject ifFalse: [ ^ super asPClass ].
-	^ Object asPClass.
+	^  PInternalClass newWith: self
+		uid: 'Type_Object_Class'.

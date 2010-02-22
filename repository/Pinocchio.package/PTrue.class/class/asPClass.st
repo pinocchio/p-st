@@ -2,5 +2,5 @@ pharo-exporting
 asPClass 
 	<preventExport>
 	self = PTrue ifFalse: [ ^ super asPClass ].
-	^ PInternalClass newWith: PTrue
+	^ PInternalClass newWith: self
 		uid: 'True_Class'.

@@ -1,3 +1,5 @@
 *Pinocchio
 asPClass
-	^ PMetaclass newWith: self.
+	<preventExport>
+	self = Metaclass ifFalse: [ ^ PMetaclass newWith: self ].
+	^  super asPClass

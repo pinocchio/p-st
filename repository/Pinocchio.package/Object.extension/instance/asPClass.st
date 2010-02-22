@@ -2,25 +2,29 @@
 asPClass
 	"TODO: FIXME mapping to internal classes doesn't work properly''"
 	|dict|
-		dict := Dictionary new.
-		dict at: Object 			put: {PObject. 		'Type_Object_Class'}.
-		dict at: Class 			put: {PClass. 		'Class'}.
-		dict at: Metaclass 		put: {PMetaclass. 	'Metaclass'}.
-		dict at: Behavior 	 	put: {PBehavior. 	'Behavior'}.
-		dict at: UndefinedObject 	put: {PDictionary. 	'Type_Nil_Class'}.
-		dict at: Dictionary  	 	put: {PDictionary. 	'Type_Dictionary_Class'}.
-		dict at: Array 			put: {PArray. 		'Type_Array_Class'}.
-		dict at: Boolean 			put: {PBoolean. 		'Type_Boolean_Class'}.
-		dict at: True 			put: {PTrue. 		'True_Class'}.
-		dict at: False 			put: {PFalse. 		'False_Class'}.
-		dict at: String 			put: {PString. 		'Type_String_Class'}.
-		dict at: Symbol 			put: {PSymbol. 		'Type_Symbol_Class'}.
-		dict at: Character 		put: {PCharacter.	'Type_Character_Class'}.
-		dict at: SmallInteger 	put: {PSmallInt. 		'Type_SmallInt_Class'}.
+	dict := {nil}.
+	(dict at: 1) ifNil: [
+		dict at: 1 put: (
+			Dictionary new
+				at: Object 			put: PObject;
+				at: Class 			put: PClass;
+				at: Metaclass 		put: PMetaclass;
+				at: Behavior 	 	put: PBehavior;
+				at: UndefinedObject 	put: PNil;
+				at: Dictionary  	 	put: PDictionary;
+				at: Array 			put: PArray;
+				at: Boolean 			put: PBoolean;
+				at: True 			put: PTrue;
+				at: False 			put: PFalse;
+				at: String 			put: PString;
+				at: Symbol 			put: PSymbol;
+				at: Character 		put: PCharacter;
+				at: SmallInteger 	put: PSmallInt;
+				yourself) ].
+
+	dict := dict at: 1.
 					
-	dict at: self ifPresent: [ :aTuple|
-		^ PInternalClass newWith: self 
-				exporting: aTuple first
-				uid: aTuple second.
+	dict at: self ifPresent: [ :aClass |
+		^ aClass asPClass.
 	].
 	^ PClass newWith: self.

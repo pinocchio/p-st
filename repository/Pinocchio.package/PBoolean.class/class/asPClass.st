@@ -2,4 +2,5 @@ pharo-exporting
 asPClass
 	<preventExport>
 	self = PBoolean ifFalse: [ ^ super asPClass ].
-	^ Boolean asPClass.
+	^ PInternalClass newWith: self
+		uid: 'Type_Boolean_Class'.

@@ -2,4 +2,5 @@ pharo-exporting
 asPClass
 	<preventExport>
 	self = PMetaclass ifFalse: [ ^ super asPClass ].
-	^ Metaclass  asPClass.
+	^  PInternalClass newWith: self
+		uid: 'Metaclass'.
