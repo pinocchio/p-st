@@ -9,8 +9,7 @@
 		"params",
 		"locals",
 		"package",
-		"annotations",
-		"selector" ],
+		"annotations" ],
 	"name" : "PMethod",
 	"pools" : [
 		 ],
