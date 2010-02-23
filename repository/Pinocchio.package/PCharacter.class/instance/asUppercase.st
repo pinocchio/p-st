@@ -6,5 +6,5 @@ asUppercase
 	| v |
 	v := self charCode.
 	(((97 <= v and: [v <= 122]) or: [224 <= v and: [v <= 246]]) or: [248 <= v and: [v <= 254]])
-		ifTrue: [^ (0 - 32 + self asSmallInt) asCharacter ]
+		ifTrue: [^ ( -32 + self asSmallInt) asCharacter ]
 		ifFalse: [^ self]

@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PBlockTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

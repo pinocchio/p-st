@@ -3,7 +3,7 @@ testVisitNumber
 	| number result constant |
 	number := ASTNumber new base: '10'; number: '-43'.
 	result := visitor visit: number.
-	result class should = PConstant.
+	result should beKindOf: PConstant.
 	constant := result constant asPObject.
-	constant class should = PSmallInt.
-	constant int should = -43.
+	constant should beKindOf: PSmallInt.
+	constant should = -43.

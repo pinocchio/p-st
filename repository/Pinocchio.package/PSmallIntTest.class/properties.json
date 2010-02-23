@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Type",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PSmallIntTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

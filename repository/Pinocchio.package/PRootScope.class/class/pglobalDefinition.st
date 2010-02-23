@@ -1,5 +1,5 @@
 initialize-release
-pglobalDefintion
+pglobalDefinition
 	<renameExport: #globalDefinition>
 	^ (Array new: 4)
 	at: 1 put: (Array with: 'nil' with: (PConstant new: nil));

@@ -7,20 +7,21 @@ createCFile
 	self include: 'lib/lib.h'.
 	
 	globals do: [ :global|
-		stream nextPutAll: 'Object ';
-			nextPutAll: global uid asString;
-			nextPutAll: ';'; cr.
+		stream << 'Object ' << global uid asString << ';' cr.
 	].
 
-	stream cr;
-		nextPutAll: 'void init_lib() {'; cr.
-	
-	stream nextPutAll: codeStream contents; cr.
-	
+	stream cr; << 'void call_initialize() {'; cr.
 	self sortedClasses do: [ :pclass|
-		stream nextPutAll: 'init_';
-			nextPutAll: pclass name asString;
-			nextPutAll: '_methods();'; cr.
+		stream << '    Eval_Send0((Object)' << pclass uid << ', (Type_Symbol)SMB_initialize);'; cr.
 	].
-	stream nextPutAll: '}'.
+	stream << '}'; cr; cr.
+	
+	stream cr; << 'void init_lib() {'; 
+		cr; << codeStream contents; cr.
+	self sortedClasses do: [ :pclass|
+		stream << 'init_' << pclass name asString << '_methods();'; cr.
+	].
+	stream cr; << 'call_initialize();';
+		cr; << '}'.
+		
 	stream close.

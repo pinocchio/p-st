@@ -1,5 +1,5 @@
-test-basics
-testBlock
+tests
+testNumArgs
 	| b |
 	b := [].
 	b numArgs should = 0.

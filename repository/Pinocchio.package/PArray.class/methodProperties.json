@@ -1,8 +1,11 @@
 {
 	"class" : {
 		"asPClass" : "ToonVerwaest 2/22/2010 21:21",
+		"basicPTypeName:" : "CamilloBrun 2/23/2010 14:56",
 		"newFrom:" : "TestRunner 11/11/2009 16:28",
-		"with:" : "TestRunner 11/11/2009 16:24" },
+		"with:" : "TestRunner 11/11/2009 16:24",
+		"with:with:" : "CamilloBrun 2/23/2010 15:19",
+		"with:with:with:" : "CamilloBrun 2/23/2010 15:19" },
 	"instance" : {
 		"=" : "ToonVerwaest 2/12/2010 14:44",
 		"add:" : "DavidGurtner 11/11/2009 15:49",

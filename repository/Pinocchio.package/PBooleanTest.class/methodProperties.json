@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testEquals" : "CamilloBrun 2/23/2010 13:45",
+		"testFalse" : "CamilloBrun 2/23/2010 13:49",
+		"testIfFalse" : "CamilloBrun 2/23/2010 13:53",
+		"testIfTrue" : "CamilloBrun 2/23/2010 13:53",
+		"testIfTrueIfFalse" : "CamilloBrun 2/23/2010 13:54",
+		"testSymbolEquals" : "CamilloBrun 2/23/2010 13:50",
+		"testTrue" : "CamilloBrun 2/23/2010 13:50" } }

@@ -1,0 +1,4 @@
+converting
+asSmallInt
+	<preventExport>
+	^ int

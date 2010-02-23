@@ -1,3 +1,0 @@
-test-basics
-testBooleanTrue
-	^ true

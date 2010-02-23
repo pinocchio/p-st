@@ -3,10 +3,11 @@
 		"asPClass" : "DavidGurtner 2/4/2010 16:55" },
 	"instance" : {
 		"<=" : "DavidGurtner 2/4/2010 16:53",
-		"=" : "DavidGurtner 2/4/2010 16:32",
+		"=" : "CamilloBrun 2/23/2010 15:28",
 		">=" : "ToonVerwaest 2/9/2010 13:11",
 		"@" : "ToonVerwaest 2/9/2010 13:15",
 		"asInteger" : "ToonVerwaest 2/15/2010 11:00",
+		"asSmallInt" : "CamilloBrun 2/23/2010 15:25",
 		"int" : "DavidGurtner 2/4/2010 16:32",
 		"int:" : "DavidGurtner 2/4/2010 16:32",
 		"isNumber" : "ToonVerwaest 2/15/2010 17:23",

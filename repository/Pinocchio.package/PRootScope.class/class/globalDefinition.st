@@ -1,5 +1,5 @@
 initialize-release
-globalDefintion
+globalDefinition
 	<preventExport>
 	^ (Array new: 4)
 	at: 1 put: (Array with: 'nil' with: 'Nil_Const');
