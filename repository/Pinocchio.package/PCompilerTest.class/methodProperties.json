@@ -4,7 +4,7 @@
 	"instance" : {
 		"assureLastIsReturningSelf:" : "CamilloBruni 1/19/2010 11:13",
 		"testClassReference" : "TestRunner 11/18/2009 13:13",
-		"testVisitAssignementExpression" : "ToonVerwaest 2/19/2010 14:30",
+		"testVisitAssignmentExpression" : "ToonVerwaest 2/23/2010 22:20",
 		"testVisitBinaryMethod" : "ToonVerwaest 2/22/2010 13:07",
 		"testVisitBlock" : "ToonVerwaest 2/19/2010 17:04",
 		"testVisitBlock2" : "ToonVerwaest 2/22/2010 13:05",
