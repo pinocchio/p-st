@@ -7,7 +7,12 @@ createClass: aPinocchioClass
 	currentClass := aPinocchioClass.
 	stream cr.
 	self visit: aPinocchioClass layout.
-	(self currentClass isKindOf: PInternalClass) ifTrue: [ ^ self. ].
+	(self currentClass isKindOf: PInternalClass)
+		ifTrue: [
+			self currentClass isPCore ifTrue: [ ^ self ].
+			stream << 'Type_Class_set_superclass(' << aPinocchioClass uid << ', (Object)' << aPinocchioClass superclass uid << ');'.
+			stream cr.
+			^ self ].
 	
 	stream cr.
 	self visit: aPinocchioClass name.
