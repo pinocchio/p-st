@@ -1,0 +1,3 @@
+*Pinocchio
+exportAll
+	^ PharoTestExporter pexportTest.

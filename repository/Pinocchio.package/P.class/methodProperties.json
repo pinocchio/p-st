@@ -1,6 +1,10 @@
 {
 	"class" : {
-		"export" : "VincentVanGogh 2/17/2010 15:54",
-		"export:" : "CamilloBrun 2/23/2010 16:45" },
+		"export" : "CamilloBrun 2/23/2010 18:05",
+		"export:" : "CamilloBrun 2/23/2010 16:45",
+		"exportAll" : "CamilloBrun 2/23/2010 18:16",
+		"initialize" : "CamilloBrun 2/23/2010 18:10",
+		"locallyChangedClasses" : "CamilloBrun 2/23/2010 18:04",
+		"saveLocalChanges" : "CamilloBrun 2/23/2010 18:04" },
 	"instance" : {
 		 } }
