@@ -1,15 +1,20 @@
 exporting
 playChime
-	| soundPrototype midiKey pitch soundPlaying notes |
-	soundPrototype := FMSound brass1 duration: 9.9.
-	notes := #(
-		(50 100)
-		(52 100)
-	).
+	| soundPrototype dur notes sound pitch |
+	SoundPlayer initialize.
+	soundPrototype := FMSound brass1 duration: 0.1.
+	dur := 0.4.
+	notes := {
+		{50. dur/4}.
+		{52. dur/4}.
+		{55. dur/4}.
+		{59. dur/3*2}.
+		{50. dur/4}.
+		{59. dur}.
+	}.
+	sound := SequentialSound new.
 	notes do: [ :note| 
-		pitch := AbstractSound pitchForMIDIKey: note first + 23.
-		soundPlaying := soundPrototype soundForPitch: pitch dur: note second loudness: 0.3.
-		SoundPlayer playSound: soundPlaying.
-		(Delay forMilliseconds: 50) wait.
-		soundPlaying stopGracefully.
-	]
+		pitch := AbstractSound pitchForMIDIKey: note first + 16.
+		sound add: (soundPrototype soundForPitch: pitch dur: note second loudness: 1).
+	].
+	SoundPlayer playSound: sound.
