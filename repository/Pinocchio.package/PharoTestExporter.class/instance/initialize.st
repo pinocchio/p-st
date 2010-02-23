@@ -1,6 +1,7 @@
 initialize-release
 initialize
 	super initialize.
+	restrictionSet := Set new.
 	scparser := SCParser new.
 	cdumper := PClassCDumper new.
 	visitor := PCompiler new.

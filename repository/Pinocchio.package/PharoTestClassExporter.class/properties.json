@@ -8,7 +8,8 @@
 	"instvars" : [
 		"sclass",
 		"pclass",
-		"sclassInstance" ],
+		"sclassInstance",
+		"exportRestriction" ],
 	"name" : "PharoTestClassExporter",
 	"pools" : [
 		 ],

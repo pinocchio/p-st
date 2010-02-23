@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"stream" ],
+		"stream",
+		"restrictionSet" ],
 	"name" : "CFileCreator",
 	"pools" : [
 		 ],

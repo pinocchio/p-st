@@ -14,7 +14,8 @@
 		"cdumper",
 		"classASTs",
 		"internalClassDict",
-		"progress" ],
+		"progress",
+		"restrictionSet" ],
 	"name" : "PharoExporter",
 	"pools" : [
 		 ],

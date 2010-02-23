@@ -1,5 +1,5 @@
 convenience
 clear
 	stream := WriteStream on: (String new: 1000000).
-	globals := OrderedCollection new.
+	globals := IdentitySet new.
 	visitedNodes := IdentitySet new.
