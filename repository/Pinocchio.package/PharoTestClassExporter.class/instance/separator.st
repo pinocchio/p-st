@@ -1,5 +1,5 @@
 convenience
 separator
-	stream cr; cr;
+	stream lf; lf;
 		nextPutAll: '/* ========================================================================= */';
-		cr; cr.
+		cr; lf.

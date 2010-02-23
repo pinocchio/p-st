@@ -22,7 +22,7 @@ visitObjectLayout: aPObjectLayout
 			nextPutAll: each uid;
 			nextPutAll: '; // '; 
 			nextPutAll: each name;
-			nextPutAll: ' '; cr.
+			nextPutAll: ' '; lf.
 	].
 
 	globals add: aPObjectLayout.

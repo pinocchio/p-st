@@ -12,5 +12,5 @@ createMethodCallFor: anPinocchioASTMethod of: aCompiledMethod
 	
 	stream nextPutAll: 'Object result = (Object)Eval((Object)';
 		nextPutAll: send uid asString;
-		nextPutAll: ');'; cr.
+		nextPutAll: ');'; lf.
 	self assertEmptyStack.

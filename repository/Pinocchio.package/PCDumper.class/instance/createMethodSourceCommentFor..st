@@ -5,4 +5,4 @@ createMethodSourceCommentFor: aPMethod
 	method := sclass lookupSelector: aPMethod selector asSymbol.
 	stream nextPutAll: '//';
 			nextPutAll: method getCCommentEscapedSource.
-	stream cr.
+	stream lf.

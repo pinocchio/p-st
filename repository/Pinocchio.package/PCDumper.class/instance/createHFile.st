@@ -6,15 +6,15 @@ createHFile
 	guardName := 'PINOCCHIO_LIB'.
 	self startGuard: guardName.
 	self include: 'pinocchio.h'.
-	stream nextPutAll: 'extern void init_lib();'; cr; cr.
+	stream nextPutAll: 'extern void init_lib();'; lf; lf.
 	
 	self comment: 'GLOBALS ============================================='.
 	globals do: [ :global|
 		stream nextPutAll: 'Object ';
 			nextPutAll: global uid asString;
-			nextPutAll: ';'; cr.
+			nextPutAll: ';'; lf.
 	].
-	stream cr.
+	stream lf.
 	self comment: 'INCLUDES ============================================='.
 	
 	self sortedClasses do: [ :pclass|

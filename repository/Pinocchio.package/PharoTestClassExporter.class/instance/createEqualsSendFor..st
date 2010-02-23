@@ -14,5 +14,5 @@ createEqualsSendFor: anObject
 	cdumper visit: ast.
 	stream nextPutAll: 'result = Eval_Send1(result, SMB__equal, ';
 		nextPutAll: ast uid;
-		nextPutAll: ');'; cr.
+		nextPutAll: ');'; lf.
 	self assertEmptyStack.

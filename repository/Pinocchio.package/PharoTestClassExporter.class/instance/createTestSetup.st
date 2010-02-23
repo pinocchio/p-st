@@ -1,8 +1,8 @@
 exporting
 createTestSetup
 	| send |
-	stream cr;
-		nextPutAll: 'void ', self name, '_setUp() {'; cr.
+	stream lf;
+		nextPutAll: 'void ', self name, '_setUp() {'; lf.
 		
 	send := PSend new
 				receiver: testCaseInstance;
@@ -13,5 +13,5 @@ createTestSetup
 	
 	stream nextPutAll: 'Eval((Object)';
 		nextPutAll: send uid;
-		nextPutAll: ');'; cr;
-		nextPutAll: '}'; cr; cr.
+		nextPutAll: ');'; lf;
+		nextPutAll: '}'; lf; lf.

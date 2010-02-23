@@ -14,5 +14,6 @@ pexportTest
 			[done] whileFalse: [
 				bar value: ((exporter progress min: 1) * 1000) rounded.
 				(Delay forMilliseconds: 2) wait.
-			]
+			].
+		self playChime.
 	]] fork.

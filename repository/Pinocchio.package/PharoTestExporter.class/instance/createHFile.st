@@ -8,7 +8,7 @@ createHFile
 	self include: 'pinocchio.h'.
 	self include: 'lib/lib.h'.
 	
-	stream nextPutAll: 'extern void test_lib();'; cr; cr.
+	stream nextPutAll: 'extern void test_lib();'; lf; lf.
 	
 	self todo do:[ :pClass | 
 		self include: 'test/lib/test/', pClass name asString, '.h'.

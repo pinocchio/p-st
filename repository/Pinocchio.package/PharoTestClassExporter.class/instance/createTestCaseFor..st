@@ -11,7 +11,7 @@ createTestCaseFor: methodSelector
 		nextPutAll: self name;
 		nextPutAll: '_';
 		nextPutAll: selector asString;
-		nextPutAll: ')'; cr.
+		nextPutAll: ')'; lf.
 	self createMethodSourceStringFor: method.
 	self createMethodCallFor: astMethod of: method.
 	self createAssertFor: astMethod of: method.

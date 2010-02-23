@@ -1,4 +1,4 @@
 streaming
 crShow: anObject
 
-	self cr; show: anObject
+	self lf; show: anObject

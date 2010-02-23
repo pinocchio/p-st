@@ -1,8 +1,8 @@
 convenience
 declareClass: aPClass
-	stream cr.
+	stream lf.
 	self comment: aPClass sclass name.
-	stream cr.
+	stream lf.
 	
 	self currentClass: aPClass.
 	self createClass: aPClass.

@@ -12,7 +12,7 @@ createHFile
 	
 	stream nextPutAll: 'extern void test_';
 		nextPutAll: self name; 
-		nextPutAll: '();'; cr; cr.
+		nextPutAll: '();'; lf; lf.
 		
 	self endGuard: guardName.
 	

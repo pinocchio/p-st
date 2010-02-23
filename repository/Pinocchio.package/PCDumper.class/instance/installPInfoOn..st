@@ -7,6 +7,6 @@ installPInfoOn: aPASTObject
 		nextPutAll: aPASTObject uid;
 		nextPutAll: ')->info = (AST_Info)';
 		nextPutAll: aPASTObject info uid;
-		nextPutAll: ';'; cr.
+		nextPutAll: ';'; lf.
 	
 	

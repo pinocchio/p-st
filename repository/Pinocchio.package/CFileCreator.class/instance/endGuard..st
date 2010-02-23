@@ -1,5 +1,5 @@
 exporting
 endGuard: guardName
-	stream cr;
+	stream lf;
 		nextPutAll: '#endif //';
 		nextPutAll: guardName.

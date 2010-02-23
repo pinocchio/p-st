@@ -21,7 +21,7 @@ visitArrayLayout: aPArrayLayout
 			nextPutAll: aPArrayLayout uid; 
 			nextPutAll: (')->values[', (index - 1) asString, '] = ');
 			nextPutAll: each uid;
-			nextPutAll: ';' ; cr.
+			nextPutAll: ';' ; lf.
 	].
 
 	globals add: aPArrayLayout.

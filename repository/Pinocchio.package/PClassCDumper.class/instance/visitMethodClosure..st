@@ -5,7 +5,7 @@ visitMethodClosure: aPMethodClosure
 	
 	stream nextPutAll: 'void init_method_';
 		nextPutAll: aPMethodClosure code uid;
-		nextPutAll: '() {'; cr.
+		nextPutAll: '() {'; lf.
 		
 	selector := aPMethodClosure selector asPObject.
 	self visit: selector.
@@ -22,6 +22,6 @@ visitMethodClosure: aPMethodClosure
 		nextPutAll: selector uid;
 		nextPutAll: ', (Runtime_MethodClosure)';
 		nextPutAll: aPMethodClosure uid;
-		nextPutAll: ');'; cr.
+		nextPutAll: ');'; lf.
 	
-	stream nextPutAll: '}'; cr; cr.
+	stream nextPutAll: '}'; lf; lf.

@@ -7,5 +7,5 @@ createMethodInstallFor: method withCode: code
 			selector: method selector.
 	cdumper stream: stream.
 	cdumper visit: closure.
-	stream cr.
+	stream lf.
 		

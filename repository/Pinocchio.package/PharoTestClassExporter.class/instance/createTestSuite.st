@@ -5,18 +5,18 @@ createTestSuite
 	self createTestSetup.
 	
 	stream nextPutAll: 'TEST_SUITE(';
-		nextPutAll: self name,','; cr;
-		nextPutAll: '{'; cr.
+		nextPutAll: self name,','; lf;
+		nextPutAll: '{'; lf.
 	
 	self createTestClassInstance.
-	stream cr.
+	stream lf.
 	
 	selectorList do: [ :selector|
-		stream nextPutAll: '    ',self name, '_setUp();'; cr;
+		stream nextPutAll: '    ',self name, '_setUp();'; lf;
 			nextPutAll: '    RUN_TEST(';
 			nextPutAll: self name;
 			nextPutAll: '_';
 			nextPutAll: selector asString ;
-			nextPutAll: ');'; cr.
+			nextPutAll: ');'; lf.
 	].
 	stream nextPutAll: '})'

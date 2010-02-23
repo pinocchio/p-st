@@ -1,5 +1,5 @@
 exporting
 createMethodSourceStringFor: method
-	stream nextPutAll: '/*'; cr;
-		nextPutAll: method getCCommentEscapedSource; cr;
-		nextPutAll: '*/'; cr.
+	stream nextPutAll: '/*'; lf;
+		nextPutAll: method getCCommentEscapedSource; lf;
+		nextPutAll: '*/'; lf.
