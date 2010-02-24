@@ -1,5 +1,5 @@
-test-basics
-testDictionaryAtifAbsent
+testing
+testAtifAbsent
 	| d result x |
 	d := Dictionary new.
 	result := d at: #a ifAbsentPut: [ 3 ].

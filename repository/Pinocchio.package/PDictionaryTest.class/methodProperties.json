@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testDictionaryAtPut" : "ToonVerwaest 2/17/2010 11:58",
-		"testDictionaryAtWhenAbsent" : "ToonVerwaest 2/17/2010 12:03" } }
+		"testAtPut" : "CamilloBrun 2/24/2010 08:12",
+		"testAtWhenAbsent" : "CamilloBrun 2/24/2010 08:12",
+		"testAtifAbsent" : "CamilloBrun 2/24/2010 08:18",
+		"testSize" : "CamilloBrun 2/24/2010 08:13" } }

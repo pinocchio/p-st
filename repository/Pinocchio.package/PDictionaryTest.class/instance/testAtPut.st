@@ -1,5 +1,5 @@
 testing
-testDictionaryAtPut
+testAtPut
 	| d r |
 	d := Dictionary new.
 	r := d at: 'a' put: 10.

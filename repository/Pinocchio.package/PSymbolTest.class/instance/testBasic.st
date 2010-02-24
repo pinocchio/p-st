@@ -1,3 +1,3 @@
 test-basics
-testSymbol
+testBasic
 	^ #Symbol

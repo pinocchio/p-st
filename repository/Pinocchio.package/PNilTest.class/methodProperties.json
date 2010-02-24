@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"testIfNil" : "CamilloBrun 2/24/2010 08:17",
+		"testIfNotNil" : "CamilloBrun 2/24/2010 09:00",
+		"testIsNil" : "CamilloBrun 2/24/2010 08:15" } }

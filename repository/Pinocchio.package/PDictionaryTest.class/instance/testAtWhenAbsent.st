@@ -1,5 +1,5 @@
 testing
-testDictionaryAtWhenAbsent
+testAtWhenAbsent
 	| d r |
 	d := Dictionary new.
 	r := d at: 'a' ifAbsent: nil.

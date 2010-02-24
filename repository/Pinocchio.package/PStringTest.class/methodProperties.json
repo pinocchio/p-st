@@ -2,4 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"testAsString" : "CamilloBrun 2/24/2010 08:48",
+		"testAsSymbol" : "CamilloBrun 2/24/2010 08:58",
+		"testAtPut" : "CamilloBrun 2/24/2010 08:55",
+		"testBasic" : "CamilloBrun 2/24/2010 08:38",
+		"testConcat" : "CamilloBrun 2/24/2010 08:48",
+		"testEquals" : "CamilloBrun 2/24/2010 08:39",
+		"testSize" : "CamilloBrun 2/24/2010 08:52" } }

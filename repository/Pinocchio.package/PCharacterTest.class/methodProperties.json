@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"testAsCharacter" : "CamilloBrun 2/24/2010 09:04",
+		"testAsString" : "CamilloBrun 2/24/2010 09:04",
+		"testAsSymbol" : "CamilloBrun 2/24/2010 09:05",
+		"testBasic" : "CamilloBrun 2/24/2010 09:01",
+		"testEquals" : "CamilloBrun 2/24/2010 09:04" } }
