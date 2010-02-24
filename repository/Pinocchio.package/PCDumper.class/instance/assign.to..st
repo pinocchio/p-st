@@ -9,4 +9,4 @@ assign: aString to: aPinocchioObject
 		nextPutAll: ' = ';
 		nextPutAll: aString;
 		nextPutAll: ';';
-		cr.
+		lf.

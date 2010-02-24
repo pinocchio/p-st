@@ -6,7 +6,7 @@ playChime
 	dur := 0.4.
 	notes := {
 		{50. dur/4}.
-		{52. dur/4}.
+		{51. dur/4}.
 		{55. dur/4}.
 		{59. dur/3*2}.
 		{50. dur/4}.

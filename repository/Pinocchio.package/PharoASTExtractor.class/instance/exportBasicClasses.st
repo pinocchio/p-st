@@ -13,4 +13,6 @@ exportBasicClasses
 		add: PSymbol;
 		add: PSmallInt;
 		add: PBlockClosure;
-		add: PCharacter.
+		add: PCharacter;
+		add: PRootPackage;
+		add: PPackage.

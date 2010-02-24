@@ -12,6 +12,7 @@
 		"onAssignToBlock",
 		"exportingClasses",
 		"globals",
+		"packages",
 		"root",
 		"sortedClasses",
 		"classReferences",
