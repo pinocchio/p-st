@@ -1,7 +1,15 @@
 running
 testVisitMethodWithIntermediateReturn
-	| ast block return returningBlock send callecBody |
+	| ast block return returningBlock send callecBody pclass root type classReference |
 	parser := scparser method.
+	parser := scparser method.
+	pclass := PClass new.
+	root := PRootPackage new.
+	type := root ensurePackageNamed: 'Type'.
+	classReference := type ensureClassReference: #PCallec.
+	classReference ensurePinocchioClass: pclass.
+	pclass package: type.
+	visitor pclass: pclass.
 	ast := self ast: 'doIt: a' , String cr , 'a ifTrue: [^ 1].'.
 
 	ast class should = PMethodClosure.

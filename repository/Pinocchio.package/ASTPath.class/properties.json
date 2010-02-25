@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-ST-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"path" ],
+	"name" : "ASTPath",
+	"pools" : [
+		 ],
+	"super" : "ASTNode",
+	"type" : "normal" }

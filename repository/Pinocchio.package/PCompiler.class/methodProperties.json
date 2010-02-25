@@ -38,6 +38,7 @@
 		"visitMessageExpression:" : "ToonVerwaest 2/19/2010 12:39",
 		"visitMethod:" : "ToonVerwaest 2/22/2010 11:52",
 		"visitNumber:" : "ToonVerwaest 2/19/2010 12:58",
+		"visitPath:" : "VincentVanGogh 2/25/2010 16:14",
 		"visitReturnExpression:" : "ToonVerwaest 2/19/2010 12:52",
 		"visitSelf:" : "CamilloBrun 2/22/2010 17:10",
 		"visitString:" : "ToonVerwaest 2/19/2010 12:59",
@@ -45,6 +46,6 @@
 		"visitSymbol:" : "ToonVerwaest 2/19/2010 12:59",
 		"visitUnaryExpression:" : "ToonVerwaest 2/19/2010 12:52",
 		"visitUnaryMessageDefinition:" : "ToonVerwaest 2/19/2010 12:53",
-		"visitVariable:" : "CamilloBruni 2/8/2010 14:35",
+		"visitVariable:" : "VincentVanGogh 2/25/2010 17:08",
 		"world" : "TestRunner 11/16/2009 13:26",
 		"world:" : "TestRunner 11/16/2009 13:26" } }

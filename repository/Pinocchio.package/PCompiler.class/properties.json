@@ -8,9 +8,9 @@
 	"instvars" : [
 		"scope",
 		"rootScope",
+		"world",
 		"pinocchioClass",
 		"currentMethod",
-		"world",
 		"currentBlock",
 		"currentCallecVariable",
 		"currentInfo" ],
