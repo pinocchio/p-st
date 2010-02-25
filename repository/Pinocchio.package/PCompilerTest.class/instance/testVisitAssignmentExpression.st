@@ -8,6 +8,4 @@ testVisitAssignmentExpression
 	result variable class should = PVariable.
 	result variable name should = #a.
 	result expression class should = PConstant.
-	constant := result expression constant asPObject.
-	constant should beKindOf: PSmallInt.
-	constant should = 13.
+	result expression constant = 13.
