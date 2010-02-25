@@ -18,7 +18,7 @@ createCFile
 	stream << '}'; lf; lf.
 	
 	stream lf; << 'void init_lib() {'; 
-		cr; << codeStream contents; lf.
+		lf; << codeStream contents; lf.
 	self sortedClasses do: [ :pclass|
 		stream << 'init_' << pclass name asString << '_methods();'; lf.
 	].
@@ -35,7 +35,8 @@ createCFile
 		 << name uid << ', ' << package parent uid << ');'; lf.
 	].
 
-	stream lf; << 'call_initialize();';
-		cr; << '}'.
+	stream lf; << 'call_initialize();'.
+	
+	stream lf; << '}'.
 		
 	stream close.
