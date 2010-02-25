@@ -2,7 +2,7 @@ extracting
 extract
 	| clsReference |
 	progress := 0.
-	self exportBasicClasses.
+	self todo addAll: P exportBasicClasses.
 	[ todo isEmpty ] whileFalse: [
 		clsReference := self transformNext.
 	].
