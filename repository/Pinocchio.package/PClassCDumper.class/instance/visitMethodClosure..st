@@ -16,12 +16,8 @@ visitMethodClosure: aPMethodClosure
 		with: ('new_Runtime_MethodClosure((AST_Method)', aPMethodClosure code uid, ')').
 	self installPInfoOn: aPMethodClosure.
 		
-	stream nextPutAll: 'store_method((Type_Class)';
-		nextPutAll: currentClass uid; 
-		nextPutAll: ', (Type_Symbol)';
-		nextPutAll: selector uid;
-		nextPutAll: ', (Runtime_MethodClosure)';
-		nextPutAll: aPMethodClosure uid;
-		nextPutAll: ');'; lf.
+	stream << 'store_method((Type_Class)' << currentClass uid 
+		<< ', (Type_Symbol)' << selector uid 
+		<< ', (Runtime_MethodClosure)' << aPMethodClosure uid << ');'; lf.
 	
-	stream nextPutAll: '}'; lf; lf.
+	stream << '}'; lf; lf.

@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-IO",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PWriteFile",
+	"pools" : [
+		 ],
+	"super" : "PFile",
+	"type" : "normal" }
