@@ -1,7 +1,7 @@
-pharo-exporting
+compiling
 compile: aString
 	| method |
 	method := PCompiler compile: aString.
-	self methods 
+	^ self methods 
 		at: method selector 
 		ifAbsentPut: method.

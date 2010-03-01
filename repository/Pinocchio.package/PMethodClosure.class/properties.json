@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selector",
 		"info",
-		"pinocchioClass" ],
+		"selector",
+		"host" ],
 	"name" : "PMethodClosure",
 	"pools" : [
 		 ],
