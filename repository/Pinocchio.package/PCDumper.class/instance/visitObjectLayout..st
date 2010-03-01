@@ -13,7 +13,7 @@ visitObjectLayout: aPObjectLayout
 	(self currentClass isKindOf: PInternalMetaclass) ifTrue: [ ^ self. ].
 	
 	self putRaw: aPObjectLayout 
-		with: 'create_layout_with_vars(Type_ObjectLayout, ',
+		with: 'create_layout_with_vars(Type_ObjectLayout_Class, ',
 										 aPObjectLayout size asString ,')'.
 	aPObjectLayout withIndexDo: [ :each :index |
 		stream nextPutAll: '((Type_Array)';

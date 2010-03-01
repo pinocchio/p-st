@@ -17,4 +17,9 @@ exportBasicClasses
 	add: PCharacter;
 	add: PRootPackage;
 	add: PPackage;
+	add: PLayout;
+	add: PObjectLayout;
+	add: PArrayLayout;
+	add: PIntLayout;
+	add: PWordsLayout;
 	yourself.
