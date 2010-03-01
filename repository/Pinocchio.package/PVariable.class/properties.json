@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
+		"localId",
 		"scopeId",
-		"localId" ],
+		"name" ],
 	"name" : "PVariable",
 	"pools" : [
 		 ],
