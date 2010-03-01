@@ -1,6 +1,8 @@
 {
 	"class" : {
-		 },
+		"compile:" : "CamilloBrun 3/1/2010 16:39",
+		"pClassMethods" : "CamilloBrun 3/1/2010 16:38",
+		"parser" : "CamilloBrun 3/1/2010 16:36" },
 	"instance" : {
 		"createBlock:" : "ToonVerwaest 2/22/2010 11:03",
 		"createCallecBodyFor:" : "ToonVerwaest 2/22/2010 11:38",

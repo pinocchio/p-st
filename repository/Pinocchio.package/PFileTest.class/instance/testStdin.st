@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStdin
 	| char |
 	self preventRun: [ ^ self].

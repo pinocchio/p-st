@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStdout
 	| theSnowman theHammerAndSickle |
 	self preventRun: [ ^ self].
