@@ -16,5 +16,6 @@ tests
 		add: PSmallIntTest;
 		add: PStringTest;
 		add: PSymbolTest;
-		add: PCompilerTest.
+		add: PCompilerTest;
+		add: PFileTest.
 	^ tests.

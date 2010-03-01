@@ -17,7 +17,7 @@ createClass: aPinocchioClass
 	stream lf.
 	self visit: aPinocchioClass name.
 	self putRaw: aPinocchioClass
-		with: 'new_Class_withMeta(' ,
+		with: 'new_Class_withMeta((Type_Class)' ,
 					aPinocchioClass superclass uid , ', ' ,
 					aPinocchioClass layout uid , ', ' ,
 					classLayout uid , ')'.
