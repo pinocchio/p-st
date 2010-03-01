@@ -31,8 +31,8 @@ createCFile
 	globals add: name.
 	self visit: name.
 	stream
-		<< package uid << ' = Eval_Send2((Object)Organize_Package_Class, (Type_Symbol)SMB_named_in_, '
-		 << name uid << ', ' << package parent uid << ');'; lf.
+		<< package uid << ' = Eval_Send1(' << package parent uid << ', (Type_Symbol)SMB_ensurePackageNamed_, '
+		 << name uid << ');'; lf.
 	].
 
 	stream lf; << 'call_initialize();'.

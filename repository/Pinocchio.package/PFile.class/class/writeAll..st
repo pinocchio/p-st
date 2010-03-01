@@ -1,0 +1,3 @@
+accessing
+writeAll: bla
+	<preventExport>
