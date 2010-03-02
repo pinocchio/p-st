@@ -4,7 +4,7 @@ testEvalFile
 	self preventRun: [ ^ self].
 	
 	(PWriteFile open: 'code.p') 
-		<< 'test'; cr;
+		<< 'test'; lf;
 		<< '    IO.File stdout << ''Output''; cr. '; close.
 		
 	file := PReadFile open: 'code.p'.

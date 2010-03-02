@@ -11,4 +11,4 @@ testStdout
 	theHammerAndSickle := 9773 asCharacter.
 	PFile stdout write: theHammerAndSickle. 
 	
-	'' cr.
+	PFile stdout lf.
