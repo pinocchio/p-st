@@ -17,6 +17,7 @@ url: anUrlString username: aUsernameString password: aPasswordString
 			(anUrlString beginsWith: 'file://') 
 				ifTrue: [
 					MCCacheRepository default
+
 				]
 				ifFalse: [
 					MCHttpRepository
