@@ -1,7 +1,7 @@
 tests
 testVariable
 	| parser string result |
-	parser := scparser variableName.
+	parser := scparser primaryVariable.
 	string := PEGStringScanner on: 'a'.
 	result := parser match: string.
 	result should beKindOf: ASTVariable.
@@ -11,3 +11,4 @@ testVariable
 	result should beKindOf: ASTPath.
 	result path size should = 3.
 	result path should = (OrderedCollection with: #Pinocchio with: #Type with: #Object).
+	string atEnd should be true.

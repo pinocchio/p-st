@@ -1,8 +1,10 @@
 {
 	"class" : {
+		"asPClass" : "CamilloBrun 3/3/2010 12:18",
 		"named:" : "ToonVerwaest 2/19/2010 13:18",
 		"named:in:" : "CamilloBruni 12/15/2009 15:58",
-		"new" : "CamilloBruni 11/10/2009 19:01" },
+		"new" : "CamilloBruni 11/10/2009 19:01",
+		"pTypeName" : "CamilloBrun 3/3/2010 12:20" },
 	"instance" : {
 		"ensurePinocchioClass:" : "ToonVerwaest 2/19/2010 13:17",
 		"lookUpIn:at:" : "VincentVanGogh 2/25/2010 17:04",

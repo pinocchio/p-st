@@ -1,7 +1,7 @@
 running
 testVisitPath2
 	| result pclass root type classReference |
-	parser := scparser variableName.
+	parser := scparser primaryVariable.
 	pclass := PClass new.
 	root := PRootPackage new.
 	type := root ensurePackageNamed: 'IO'.

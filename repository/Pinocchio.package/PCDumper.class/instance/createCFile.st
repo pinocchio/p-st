@@ -12,7 +12,9 @@ createCFile
 
 	stream lf; << 'void call_initialize() {'; lf.
 	self sortedClasses do: [ :pclass|
-		stream << '    Eval_Send1((Object)' << pclass uid << ', (Type_Symbol)SMB_package_, ' << pclass package uid << ');'; lf.
+		stream << '    Eval_Send1((Object)' << pclass package uid
+				<< ', (Type_Symbol)SMB_ensureClassReferenceFor_, (Object)'
+				<< pclass uid << ');'; lf.
 		stream << '    Eval_Send0((Object)' << pclass uid << ', (Type_Symbol)SMB_initialize);'; lf.
 	].
 	stream << '}'; lf; lf.

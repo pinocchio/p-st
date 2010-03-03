@@ -5,7 +5,7 @@ testEvalFile
 	
 	(PWriteFile open: 'code.p') 
 		<< 'test'; lf;
-		<< '    IO.File stdout << ''Output''; cr. '; close.
+		<< '    Pinocchio.IO.File stdout << ''Output''; cr. '; close.
 		
 	file := PReadFile open: 'code.p'.
 	code := file readAll.

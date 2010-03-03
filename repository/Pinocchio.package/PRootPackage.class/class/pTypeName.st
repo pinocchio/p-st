@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 pTypeName
 	^ self basicPTypeName: 'Organize'.

@@ -1,3 +1,4 @@
 printing
 lf
-	self write: Character lf.
+	self write: $
+.
