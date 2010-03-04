@@ -1,5 +1,5 @@
 interpretation
 main: args
-	args isEmpty ifFalse: [
-		self load: args first.
-	]
+	args isEmpty
+		ifTrue: [ self shell. ]
+		ifFalse: [ self load: args first. ].

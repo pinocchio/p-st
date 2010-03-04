@@ -8,4 +8,5 @@
 		"ifTrue:" : "ToonVerwaest 2/9/2010 11:28",
 		"ifTrue:ifFalse:" : "ToonVerwaest 2/9/2010 11:27",
 		"not" : "CamilloBruni 2/10/2010 21:18",
-		"or:" : "DavidGurtner 2/4/2010 17:10" } }
+		"or:" : "DavidGurtner 2/4/2010 17:10",
+		"whileFalse:" : "DavidGurtner 3/4/2010 16:39" } }
