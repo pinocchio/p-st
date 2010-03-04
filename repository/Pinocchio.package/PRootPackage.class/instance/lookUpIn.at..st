@@ -6,7 +6,6 @@ lookUpIn: aCollection at: index
 	subPackage ifNil: [
 		first := aCollection removeFirst.
 		self error: 'Unfound identifier: ', (aCollection inject: first into: [ :c :e | c, '.', e ]).  ].
-	PFile stderr writeAll: 'Found subpackage ', (aCollection at: index); cr.
 	^ subPackage lookUpIn: aCollection at: index + 1
 	
 	

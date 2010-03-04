@@ -1,4 +1,4 @@
 runtime
 preventRun: aBlock
-	<preventExport>
+	"<preventExport>"
 	aBlock value.

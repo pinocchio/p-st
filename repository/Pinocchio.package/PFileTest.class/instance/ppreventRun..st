@@ -1,3 +1,4 @@
 runtime
 ppreventRun: aBlock
-	<renameExport: #preventRun:>
+	"<renameExport: #preventRun:>"
+	<preventExport>

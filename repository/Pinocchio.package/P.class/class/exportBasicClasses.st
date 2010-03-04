@@ -22,4 +22,5 @@ exportBasicClasses
 	add: PArrayLayout;
 	add: PIntLayout;
 	add: PWordsLayout;
+	add: PInterpreter;
 	yourself.
