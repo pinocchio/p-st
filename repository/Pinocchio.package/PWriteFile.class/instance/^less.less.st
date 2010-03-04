@@ -1,3 +1,3 @@
 { missing methods }
 << aString
-	self writeAll: aString
+	self writeAll: aString asString

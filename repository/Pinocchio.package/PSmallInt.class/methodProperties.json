@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"asPClass" : "DavidGurtner 2/4/2010 16:55" },
+		"asPClass" : "DavidGurtner 2/4/2010 16:55",
+		"pbasicNew" : "ToonVerwaest 3/4/2010 15:30",
+		"pbasicNew:" : "ToonVerwaest 3/4/2010 15:30" },
 	"instance" : {
 		"<=" : "DavidGurtner 2/4/2010 16:53",
 		"=" : "CamilloBrun 2/23/2010 15:28",
