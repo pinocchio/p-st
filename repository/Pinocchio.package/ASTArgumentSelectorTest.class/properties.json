@@ -1,15 +1,14 @@
 {
-	"category" : "Pinocchio-Type",
+	"category" : "Pinocchio-ST-AST",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"size",
-		"data" ],
-	"name" : "PDictionary",
+		"selector2" ],
+	"name" : "ASTArgumentSelectorTest",
 	"pools" : [
 		 ],
-	"super" : "PObject",
+	"super" : "AnObsoleteASTSelectorTest",
 	"type" : "normal" }
