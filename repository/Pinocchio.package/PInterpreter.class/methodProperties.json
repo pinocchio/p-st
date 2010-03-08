@@ -1,8 +1,14 @@
 {
 	"class" : {
-		"load:" : "ToonVerwaest 3/4/2010 16:19",
-		"main:" : "DavidGurtner 3/4/2010 16:35",
-		"pTypeName" : "VincentVanGogh 3/4/2010 14:41",
-		"shell" : "DavidGurtner 3/4/2010 17:35" },
+		"main:" : "David Gurtner 3/8/2010 00:45",
+		"pTypeName" : "VincentVanGogh 3/4/2010 14:41" },
 	"instance" : {
-		 } }
+		"args" : "David Gurtner 3/8/2010 00:44",
+		"args:" : "David Gurtner 3/8/2010 00:44",
+		"compile:" : "David Gurtner 3/8/2010 00:58",
+		"displayPrompt" : "David Gurtner 3/8/2010 01:17",
+		"interpret:" : "David Gurtner 3/8/2010 01:07",
+		"interpretFile:" : "David Gurtner 3/8/2010 01:07",
+		"interpretFromStdin" : "David Gurtner 3/8/2010 01:07",
+		"run" : "David Gurtner 3/8/2010 01:08",
+		"shell" : "David Gurtner 3/8/2010 01:18" } }
