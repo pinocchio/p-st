@@ -2,9 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAtPut" : "CamilloBrun 2/24/2010 08:12",
-		"testAtWhenAbsent" : "CamilloBrun 2/24/2010 08:12",
-		"testAtifAbsent" : "CamilloBrun 2/24/2010 08:18",
-		"testIncludesKey" : "CamilloBrun 3/8/2010 15:56",
-		"testKeys" : "CamilloBrun 3/8/2010 15:10",
-		"testSize" : "CamilloBrun 2/24/2010 08:13" } }
+		"testAdd" : "CamilloBrun 3/9/2010 09:05",
+		"testAtPut" : "CamilloBrun 3/8/2010 22:18",
+		"testAtWhenAbsent" : "CamilloBrun 3/8/2010 22:18",
+		"testAtifAbsent" : "CamilloBrun 3/8/2010 22:18",
+		"testIncludes" : "CamilloBrun 3/8/2010 22:18",
+		"testIncludesKey" : "CamilloBrun 3/8/2010 22:18",
+		"testKeys" : "CamilloBrun 3/8/2010 22:18",
+		"testSize" : "CamilloBrun 3/8/2010 22:18",
+		"testValues" : "CamilloBrun 3/8/2010 22:18" } }

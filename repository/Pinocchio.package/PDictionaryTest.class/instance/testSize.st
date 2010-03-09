@@ -1,7 +1,7 @@
 testing
 testSize
 	| d |
-	d := Dictionary new.
+	d := PDictionary new.
 	d size should = 0.
 	
 	d at: 'a' put: 1.
