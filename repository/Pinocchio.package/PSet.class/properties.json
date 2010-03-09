@@ -1,0 +1,17 @@
+{
+	"category" : "Pinocchio-Collection",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"size",
+		"maxLinear",
+		"buckets",
+		"ratio" ],
+	"name" : "PSet",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

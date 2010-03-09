@@ -1,7 +1,6 @@
 testing
 testAtPut
-	| d r |
-	d := PDictionary new.
+	| r |
 	r := d at: 'a' put: 10.
 	r should = 10.
 	r := d at: 4 put: 20.

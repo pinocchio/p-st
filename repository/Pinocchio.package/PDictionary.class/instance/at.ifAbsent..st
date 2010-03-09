@@ -1,6 +1,6 @@
 accessing
 at: key ifAbsent: aBlock
-	| value |
-	value := self at: key.
-	value ifNil: [^ aBlock value].
-	^ value.
+	| bucket |
+	bucket := self rawBucketForHash: key hash.
+	bucket ifNil: [ ^ aBlock value ].
+	^ bucket atKey: key ifAbsent: aBlock.

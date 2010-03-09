@@ -1,14 +1,14 @@
 {
-	"category" : "Pinocchio-Type",
+	"category" : "Pinocchio-Collection",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"d" ],
 	"name" : "PDictionaryTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "PSetTest",
 	"type" : "normal" }

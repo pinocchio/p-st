@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "inurBollimaC 3/9/2010 21:49",
+		"testAdd" : "inurBollimaC 3/9/2010 21:51",
+		"testDo" : "inurBollimaC 3/9/2010 22:18",
+		"testIncludes" : "inurBollimaC 3/9/2010 21:56",
+		"testIsEmpty" : "inurBollimaC 3/9/2010 22:14",
+		"testIsFull" : "inurBollimaC 3/9/2010 22:15",
+		"testRemove" : "inurBollimaC 3/9/2010 22:02",
+		"testRemoveIfAbsent" : "inurBollimaC 3/9/2010 22:16",
+		"testValueIndexDo" : "inurBollimaC 3/9/2010 22:20" } }

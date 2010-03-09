@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "inurBollimaC 3/9/2010 21:41",
+		"testAdd" : "inurBollimaC 3/9/2010 17:56",
+		"testAtKey" : "inurBollimaC 3/9/2010 17:24",
+		"testAtKeyIfAbsent" : "inurBollimaC 3/9/2010 17:55",
+		"testIsEmpy" : "inurBollimaC 3/9/2010 17:20",
+		"testIsFull" : "inurBollimaC 3/9/2010 21:41",
+		"testKeys" : "inurBollimaC 3/9/2010 17:19",
+		"testRemoveKey" : "inurBollimaC 3/9/2010 17:28",
+		"testValues" : "inurBollimaC 3/9/2010 17:19",
+		"testValuesDo" : "inurBollimaC 3/9/2010 17:43",
+		"testValuesDo2" : "inurBollimaC 3/9/2010 17:45" } }

@@ -1,7 +1,5 @@
 testing
 testIncludes
-	| d |
-	d := PDictionary new.
 	(d includes: #bla) should = false.
 	
 	d at: #bla put: '1'.

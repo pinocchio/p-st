@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addKey:value:" : "inurBollimaC 3/9/2010 17:57",
+		"atKey:" : "inurBollimaC 3/9/2010 17:58",
+		"atKey:ifAbsent:" : "inurBollimaC 3/9/2010 17:58",
+		"atKey:put:" : "inurBollimaC 3/9/2010 17:58",
+		"elementFrom:do:" : "inurBollimaC 3/9/2010 15:41",
+		"elementIndexFrom:do:" : "inurBollimaC 3/9/2010 16:46",
+		"includes:" : "inurBollimaC 3/9/2010 17:58",
+		"includesKey:" : "inurBollimaC 3/9/2010 17:58",
+		"indexFrom:do:" : "inurBollimaC 3/9/2010 15:40",
+		"initialize" : "inurBollimaC 3/9/2010 16:43",
+		"keyIndex:" : "inurBollimaC 3/9/2010 18:11",
+		"keyIndex:ifAbsent:" : "inurBollimaC 3/9/2010 18:11",
+		"keyIndexDo:" : "inurBollimaC 3/9/2010 15:41",
+		"keyValueDo:" : "inurBollimaC 3/9/2010 15:46",
+		"keyValueIndexDo:" : "inurBollimaC 3/9/2010 16:46",
+		"keys" : "inurBollimaC 3/9/2010 16:56",
+		"keysDo:" : "inurBollimaC 3/9/2010 15:41",
+		"removeAt:" : "inurBollimaC 3/9/2010 16:59",
+		"removeKey:" : "inurBollimaC 3/9/2010 18:12",
+		"removeKey:ifAbsent:" : "inurBollimaC 3/9/2010 18:13",
+		"valueIndex:" : "inurBollimaC 3/9/2010 21:44",
+		"valueIndexDo:" : "inurBollimaC 3/9/2010 15:41",
+		"values" : "inurBollimaC 3/9/2010 21:46",
+		"valuesDo:" : "inurBollimaC 3/9/2010 21:46" } }

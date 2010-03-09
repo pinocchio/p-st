@@ -11,3 +11,4 @@ SystemOrganization addCategory: #'Pinocchio-Class'!
 SystemOrganization addCategory: #'Pinocchio-IO'!
 SystemOrganization addCategory: #'Pinocchio-Testing'!
 SystemOrganization addCategory: #Pinocchio!
+SystemOrganization addCategory: #'Pinocchio-Collection'!

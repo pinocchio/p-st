@@ -2,13 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAdd" : "CamilloBrun 3/9/2010 09:05",
-		"testAtPut" : "CamilloBrun 3/8/2010 22:18",
-		"testAtWhenAbsent" : "CamilloBrun 3/8/2010 22:18",
-		"testAtifAbsent" : "CamilloBrun 3/8/2010 22:18",
-		"testIncludes" : "CamilloBrun 3/8/2010 22:18",
-		"testIncludesKey" : "CamilloBrun 3/8/2010 22:18",
-		"testKeys" : "CamilloBrun 3/8/2010 22:18",
-		"testRemoveKey" : "inurBollimaC 3/9/2010 14:25",
-		"testSize" : "CamilloBrun 3/8/2010 22:18",
-		"testValues" : "CamilloBrun 3/8/2010 22:18" } }
+		"setUp" : "inurBollimaC 3/9/2010 22:08",
+		"testAddRemove" : "inurBollimaC 3/9/2010 22:10",
+		"testAtPut" : "inurBollimaC 3/9/2010 22:08",
+		"testAtWhenAbsent" : "inurBollimaC 3/9/2010 22:09",
+		"testAtifAbsent" : "inurBollimaC 3/9/2010 22:09",
+		"testIncludes" : "inurBollimaC 3/9/2010 22:09",
+		"testIncludesKey" : "inurBollimaC 3/9/2010 22:09",
+		"testIsEmpty" : "inurBollimaC 3/9/2010 22:07",
+		"testKeys" : "inurBollimaC 3/9/2010 22:09",
+		"testRemoveKey" : "inurBollimaC 3/9/2010 22:09",
+		"testSize" : "inurBollimaC 3/9/2010 22:09",
+		"testValues" : "inurBollimaC 3/9/2010 22:09" } }

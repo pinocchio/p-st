@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"bucketClass" : "inurBollimaC 3/9/2010 22:34" },
+	"instance" : {
+		"add:" : "inurBollimaC 3/9/2010 22:43",
+		"bucketForHash:" : "inurBollimaC 3/9/2010 22:42",
+		"bucketIndexForHash:" : "inurBollimaC 3/9/2010 22:31",
+		"grow" : "inurBollimaC 3/9/2010 23:04",
+		"growBucketAt:" : "inurBollimaC 3/9/2010 23:07",
+		"includes:" : "inurBollimaC 3/9/2010 22:23",
+		"initialize" : "inurBollimaC 3/9/2010 22:45",
+		"isEmpty" : "inurBollimaC 3/9/2010 22:31",
+		"maxLinear" : "inurBollimaC 3/9/2010 22:46",
+		"maxLinear:" : "inurBollimaC 3/9/2010 22:46",
+		"newBucketAt:" : "inurBollimaC 3/9/2010 22:34",
+		"ratio" : "inurBollimaC 3/9/2010 22:46",
+		"ratio:" : "inurBollimaC 3/9/2010 22:46",
+		"rawBucketForHash:" : "inurBollimaC 3/9/2010 22:32",
+		"readdBucket:" : "inurBollimaC 3/9/2010 22:28",
+		"remove:" : "inurBollimaC 3/9/2010 22:24",
+		"remove:ifAbsent:" : "inurBollimaC 3/9/2010 22:25",
+		"shouldGrow" : "inurBollimaC 3/9/2010 22:45",
+		"size" : "inurBollimaC 3/9/2010 22:46" } }

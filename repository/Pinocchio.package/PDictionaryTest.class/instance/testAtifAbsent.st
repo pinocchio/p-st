@@ -1,7 +1,6 @@
 testing
 testAtifAbsent
-	| d result x |
-	d := PDictionary new.
+	| result x |
 	result := d at: #a ifAbsentPut: [ 3 ].
 	result should = 3.
 	result := d at: #a ifAbsentPut: [ 5 ].

@@ -1,7 +1,5 @@
 testing
 testIncludesKey
-	| d |
-	d := PDictionary new.
 	(d includesKey: #bla) should = false.
 	
 	d at: #bla put: 'bla'.

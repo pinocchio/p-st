@@ -1,7 +1,6 @@
 testing
 testAtWhenAbsent
-	| d r |
-	d := PDictionary new.
+	| r |
 	r := d at: 'a' ifAbsent: nil.
 	r should be isNil.
 	r := d at: 4 ifAbsent: nil.

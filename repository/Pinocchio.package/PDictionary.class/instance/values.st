@@ -2,7 +2,9 @@ accessing
 values
 	| values index |
 	values := OrderedCollection new: size.
-	buckets do: [ :bucket|
-		self values: values bucket: bucket.
+	self bucketsDo: [ :bucket|
+		bucket valuesDo: [:value|
+			values add: value.
+		].
 	].
 	^ values

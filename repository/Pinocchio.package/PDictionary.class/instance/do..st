@@ -1,6 +1,6 @@
 enumerating
 do: aBlock
-	buckets do: [ :bucket|
-		self do: aBlock bucket: bucket.
+	self bucketsDo: [ :bucket|
+		bucket valuesDo: aBlock.
 	].
 	

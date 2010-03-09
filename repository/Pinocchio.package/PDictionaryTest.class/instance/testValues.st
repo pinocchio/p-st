@@ -1,8 +1,6 @@
 testing
 testValues
-	| d values |
-	d := PDictionary new.
-	
+	| values |
 	values := d values.
 	values size should = 0.
 	

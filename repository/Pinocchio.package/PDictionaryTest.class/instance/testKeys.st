@@ -1,8 +1,6 @@
 testing
 testKeys
-	| d keys |
-	d := PDictionary new.
-	
+	| keys |
 	keys := d keys.
 	keys size should = 0.
 	

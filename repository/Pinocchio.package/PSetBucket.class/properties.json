@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Collection",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bucketSize" ],
+	"name" : "PSetBucket",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "variable" }

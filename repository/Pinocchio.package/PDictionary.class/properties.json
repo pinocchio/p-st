@@ -1,16 +1,14 @@
 {
-	"category" : "Pinocchio-Type",
+	"category" : "Pinocchio-Collection",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"size",
-		"ratio",
-		"buckets" ],
+		 ],
 	"name" : "PDictionary",
 	"pools" : [
 		 ],
-	"super" : "PObject",
+	"super" : "PSet",
 	"type" : "normal" }
