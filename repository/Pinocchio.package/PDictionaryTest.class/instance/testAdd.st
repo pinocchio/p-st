@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testAdd
 	| d value |
 	d := Dictionary new.
