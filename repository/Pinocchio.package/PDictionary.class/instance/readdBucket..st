@@ -1,5 +1,5 @@
 private
-readdBucket: bucket
+reAddBucket: bucket
 	<preventExport>
 	bucket ifNil: [ ^ self].
 	bucket keyValueDo: [ :key :value|

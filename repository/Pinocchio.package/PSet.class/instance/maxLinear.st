@@ -1,3 +1,4 @@
 accessing
 maxLinear
+	<preventExport>
 	^ maxLinear

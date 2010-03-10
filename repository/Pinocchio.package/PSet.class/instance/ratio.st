@@ -1,3 +1,4 @@
 accessing
 ratio
+	<preventExport>
 	^ ratio
