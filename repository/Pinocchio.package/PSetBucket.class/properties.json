@@ -10,5 +10,5 @@
 	"name" : "PSetBucket",
 	"pools" : [
 		 ],
-	"super" : "PArray",
+	"super" : "PObject",
 	"type" : "variable" }

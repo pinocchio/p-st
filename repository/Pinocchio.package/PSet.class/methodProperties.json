@@ -2,13 +2,12 @@
 	"class" : {
 		"bucketClass" : "inurBollimaC 3/9/2010 22:34" },
 	"instance" : {
-		"add:" : "inurBollimaC 3/10/2010 14:49",
-		"addInFirstBucket:" : "inurBollimaC 3/10/2010 14:42",
+		"add:" : "inurBollimaC 3/9/2010 22:43",
 		"bucketForHash:" : "inurBollimaC 3/9/2010 22:42",
 		"bucketIndexForHash:" : "inurBollimaC 3/9/2010 22:31",
 		"grow" : "inurBollimaC 3/9/2010 23:04",
 		"growBucketAt:" : "inurBollimaC 3/9/2010 23:07",
-		"includes:" : "inurBollimaC 3/10/2010 14:19",
+		"includes:" : "inurBollimaC 3/9/2010 22:23",
 		"initialize" : "inurBollimaC 3/9/2010 22:45",
 		"isEmpty" : "inurBollimaC 3/9/2010 22:31",
 		"maxLinear" : "inurBollimaC 3/9/2010 22:46",
