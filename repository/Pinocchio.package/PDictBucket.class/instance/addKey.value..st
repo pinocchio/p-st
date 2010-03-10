@@ -1,6 +1,5 @@
 adding
 addKey: aKey value: anObject
-	self isFull ifTrue: [ self error: 'Bucket is full'].
 	self keyIndexDo:  [ :key :index|
 		key = aKey ifTrue: [
 			^ self at: index + 1 put: anObject.

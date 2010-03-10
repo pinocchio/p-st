@@ -13,5 +13,5 @@
 	"name" : "PSet",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PObject",
 	"type" : "normal" }
