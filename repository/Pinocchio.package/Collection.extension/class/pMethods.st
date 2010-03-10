@@ -8,6 +8,7 @@ pMethods
 		add: #isEmpty;
 		add: #hasReturnExpression;
 		add: #anySatisfy:;
+		add: #allSatisfy:;
 		add: #emptyCheck.
 	^ s ].
 	^ super pMethods

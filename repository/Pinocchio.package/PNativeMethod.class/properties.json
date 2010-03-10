@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PNativeMethod",
+	"pools" : [
+		 ],
+	"super" : "PMethod",
+	"type" : "variable" }

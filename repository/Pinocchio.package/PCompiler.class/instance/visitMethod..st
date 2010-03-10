@@ -1,6 +1,6 @@
 visitor
 visitMethod: aMethod 
-	| block params locals body method hasReturn selector methodClosure |
+	| body method selector methodClosure |
 	currentMethod := aMethod.
 	currentInfo := self createPInfo.
 	self pushScope.
@@ -15,7 +15,7 @@ visitMethod: aMethod
 
 	selector := self selectorFor: aMethod.
 
-	method := PMethod withAll: body.
+	method := self createMethod: aMethod with: body.
 	method
 		params: (self acceptOnCollection: aMethod message parameters) asArray
 		locals: (self acceptOnCollection: aMethod temporaries) asArray;
