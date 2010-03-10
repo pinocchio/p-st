@@ -1,5 +1,6 @@
 accessing
 at: key ifAbsent: aBlock
+	<preventExport>
 	| bucket |
 	buckets size = 1 ifTrue: [
 		^ (buckets at: 1) atKey: key ifAbsent: aBlock.
