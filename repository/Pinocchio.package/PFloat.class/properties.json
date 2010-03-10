@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Type",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"float" ],
+	"name" : "PFloat",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }
