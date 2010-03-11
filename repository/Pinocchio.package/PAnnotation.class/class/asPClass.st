@@ -1,4 +1,5 @@
 exporting
 asPClass
 	<preventExport>
-	^ PClass newWith: self
+	self = PAnnotation ifFalse: [ ^ super asPClass ].
+	^  PInternalClass newWith: self.
