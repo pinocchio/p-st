@@ -5,7 +5,7 @@ visitNativeMethod: aPMethod
 	"self createMethodSourceCommentFor: aPMethod."
 	params := aPMethod params asPObject.
 	locals := aPMethod locals asPObject.
-	annotations := aPMethod annotations asPObject.
+	annotations := (self prepareAnnotations: aPMethod annotations) asPObject.
 	self visit: params.	
 	self visit: locals.
 	self visit: annotations.

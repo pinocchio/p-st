@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selector",
-		"arguments" ],
+		"selector" ],
 	"name" : "PAnnotation",
 	"pools" : [
 		 ],
 	"super" : "PNode",
-	"type" : "normal" }
+	"type" : "variable" }

@@ -1,5 +1,8 @@
 visitor
 visitKeywordAnnotation: anASTKeywordAnnotation 
-	^ PAnnotation new
-			selector:  (self visit: anASTKeywordAnnotation selector);
-			arguments: (self acceptOnCollection: anASTKeywordAnnotation arguments) asArray.
+	| annotation arguments |
+	annotation := PAnnotation new: anASTKeywordAnnotation arguments size.
+	annotation selector: (self visit: anASTKeywordAnnotation selector).
+	arguments := self acceptOnCollection: anASTKeywordAnnotation arguments.
+	arguments withIndexDo: [ :object :index | annotation at: index put: (self unwrapConstant: object) ].
+	^ annotation
