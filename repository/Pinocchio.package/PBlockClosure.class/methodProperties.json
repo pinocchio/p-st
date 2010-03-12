@@ -1,9 +1,17 @@
 {
 	"class" : {
-		"asPClass" : "ToonVerwaest 2/8/2010 10:46" },
+		"asPClass" : "ToonVerwaest 3/12/2010 16:03",
+		"pTypeName" : "ToonVerwaest 3/12/2010 15:54" },
 	"instance" : {
 		"context" : "ToonVerwaest 2/8/2010 10:47",
 		"context:" : "ToonVerwaest 2/8/2010 10:47",
+		"numArgs" : "ToonVerwaest 3/12/2010 15:50",
+		"value" : "ToonVerwaest 3/12/2010 15:52",
+		"value:" : "ToonVerwaest 3/12/2010 15:52",
+		"value:value:" : "ToonVerwaest 3/12/2010 15:52",
+		"value:value:value:" : "ToonVerwaest 3/12/2010 15:53",
+		"value:value:value:value:" : "ToonVerwaest 3/12/2010 15:53",
+		"valueWithArguments:" : "ToonVerwaest 3/12/2010 15:55",
 		"valueWithPossibleArgs:" : "ToonVerwaest 2/11/2010 01:43",
 		"whileFalse" : "ToonVerwaest 2/10/2010 21:29",
 		"whileFalse:" : "ToonVerwaest 2/10/2010 17:09",

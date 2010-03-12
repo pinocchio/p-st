@@ -1,8 +1,6 @@
 accessing
 at: key put: anObject
-	"<preventExport>"
-	<pinocchioPrimitive: #at:put: module: #Dictionary>
-	self shouldNeverHappen.
+	<pinocchioPrimitive: #at:put: module: #'Collection.Dictionary'>
 	size := size + 1.
 	buckets size = 1 ifTrue: [
 		^ self inFirstBucketAt: key put: anObject.

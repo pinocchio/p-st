@@ -1,3 +1,3 @@
 accessing
 stdout
-	<preventExport>
+	<pinocchioPrimitive: #stdout module: 'IO.File'>

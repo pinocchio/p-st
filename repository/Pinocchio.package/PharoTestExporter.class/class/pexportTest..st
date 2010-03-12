@@ -8,7 +8,7 @@ pexportTest: aRestrictingSet
 		done := true.
 	] fork.
 
-	['Exporting Pharo' 
+	['Carving Pinocchio' 
 		displayProgressAt: Display center
 		from: 0 to: 1000
 		during: [:bar ||p|

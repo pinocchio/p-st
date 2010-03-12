@@ -1,3 +1,3 @@
 accessing
 stderr
-	<preventExport>
+	<pinocchioPrimitive: #stderr module: 'IO.File'>

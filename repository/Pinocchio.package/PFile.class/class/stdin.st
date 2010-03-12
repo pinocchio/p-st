@@ -1,3 +1,3 @@
 accessing
 stdin
-	<preventExport>
+	<pinocchioPrimitive: #stdin module: 'IO.File'>

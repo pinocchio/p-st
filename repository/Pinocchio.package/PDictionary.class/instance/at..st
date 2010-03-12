@@ -1,4 +1,4 @@
 accessing
 at: key
-	<preventExport>
+	<pinocchioPrimitive: #at: module: #'Collection.Dictionary'>
 	^ self at: key ifAbsent: [self errorKeyNotFound: key]

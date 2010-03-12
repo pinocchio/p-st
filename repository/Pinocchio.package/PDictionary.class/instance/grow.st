@@ -1,6 +1,6 @@
 private
 grow
-	<preventExport>
+	<pinocchioPrimitive: #grow module: #'Collection.Dictionary'>
 	| oldBuckets |
 	oldBuckets := buckets.
 	buckets := Array new: (oldBuckets size << 1).
