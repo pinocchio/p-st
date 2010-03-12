@@ -23,6 +23,8 @@
 		"indexOf:ifAbsent:" : "ToonVerwaest 2/9/2010 11:24",
 		"indexOf:startingAt:ifAbsent:" : "ToonVerwaest 2/9/2010 11:25",
 		"inject:into:" : "CamilloBruni 11/10/2009 16:16",
+		"instVarAt:" : "ToonVerwaest 3/12/2010 16:12",
+		"instVarAt:put:" : "ToonVerwaest 3/12/2010 16:12",
 		"isEmpty" : "CamilloBruni 11/10/2009 12:07",
 		"last" : "CamilloBruni 11/10/2009 12:08",
 		"last:" : "CamilloBruni 11/10/2009 12:09",
