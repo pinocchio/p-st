@@ -5,6 +5,6 @@ at: key ifAbsent: aBlock
 	buckets size = 1 ifTrue: [
 		^ (buckets at: 1) atKey: key ifAbsent: aBlock.
 	].
-	bucket := self rawBucketForHash: key hash.
+	bucket := buckets at: (key hash \\ buckets size) + 1.
 	bucket ifNil: [ ^ aBlock value ].
 	^ bucket atKey: key ifAbsent: aBlock.

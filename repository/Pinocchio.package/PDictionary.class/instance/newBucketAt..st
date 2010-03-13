@@ -2,6 +2,6 @@ private
 newBucketAt: bucketIndex
 	<preventExport>
 	| bucket |
-	bucket := PSetBucket new.
+	bucket := PDictBucket new.
 	buckets at: bucketIndex put: bucket.
 	^ bucket.

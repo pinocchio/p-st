@@ -1,6 +1,7 @@
 accessing
-atKey: aKey ifAbsent: aBlock 
-	self keyValueDo: [ :key :value|
-		key = aKey ifTrue: [ ^ value ].
+atKey: aKey ifAbsent: aBlock
+	1 to: bucketSize by: 2 do: [ :index |
+		(self at: index) = aKey ifTrue: [ ^ self at: index + 1 ]
 	].
-	^ aBlock value.
+	^ aBlock value
+	

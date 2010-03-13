@@ -1,6 +1,8 @@
 accessing
 inFirstBucketAt: key put: anObject
-	(buckets at: 1) isFull ifTrue: [
-		self growBucketAt: 1.
+	| bucket |
+	bucket := buckets at: 1.
+	bucket isFull ifTrue: [
+		bucket := self growBucketAt: 1.
 	].
-	^ (buckets at: 1) addKey: key value: anObject.
+	^ bucket addKey: key value: anObject.

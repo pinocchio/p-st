@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"pClassName" : "ToonVerwaest 2/17/2010 16:44",
-		"pInstVarNames" : "ToonVerwaest 2/17/2010 17:03" },
+		"pInstVarNames" : "ToonVerwaest 2/17/2010 17:03",
+		"testPerformanceFor:" : "ToonVerwaest 3/13/2010 17:18" },
 	"instance" : {
 		"asPClass" : "ToonVerwaest 2/22/2010 21:17",
 		"cr" : "CamilloBrun 2/23/2010 15:11",

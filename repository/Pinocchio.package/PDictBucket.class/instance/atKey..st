@@ -1,6 +1,3 @@
 accessing
 atKey: aKey
-	self keyValueDo: [ :key :value|
-		key = aKey ifTrue: [ ^ value ].
-	].
-	self keyNotFound: aKey.
+	^ self atKey: aKey ifAbsent: [ self keyNotFound: aKey ]

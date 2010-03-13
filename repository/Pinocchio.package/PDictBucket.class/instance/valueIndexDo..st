@@ -1,4 +1,4 @@
 enumeration
 valueIndexDo: aBlock
-	^ self elementIndexFrom: 2 do: aBlock. 
+	^ 2 to: bucketSize by: 2 do: [:index | aBlock value: (self at: index) value: index ]
 	

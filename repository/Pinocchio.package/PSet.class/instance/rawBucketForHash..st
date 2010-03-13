@@ -1,3 +1,3 @@
 private
 rawBucketForHash: hash
-	^ buckets at: (self bucketIndexForHash: hash).
+	^ buckets at: (hash \\ buckets size) + 1

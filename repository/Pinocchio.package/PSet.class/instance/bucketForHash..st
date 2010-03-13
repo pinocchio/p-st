@@ -1,8 +1,8 @@
 private
 bucketForHash: hash
 	<preventExport>
-	| bucketIndex bucket |
-	bucketIndex := self bucketIndexForHash: hash.
+	| bucket bucketIndex |
+	bucketIndex := (hash \\ buckets size) + 1.
 	bucket :=  buckets at: bucketIndex.
 	bucket ifNil: [ ^ self newBucketAt: bucketIndex. ].
 	bucket isFull ifTrue: [
