@@ -1,6 +1,6 @@
 testing
 includes: anObject
-	self valuesDo: [ :value|
-		value = anObject ifTrue: [ ^ true ].
+	2 to: bucketSize by: 2 do: [ :index |
+		(self at: index) = anObject ifTrue: [ ^ true ].
 	].
 	^ false.
