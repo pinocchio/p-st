@@ -1,6 +1,6 @@
 testing
 includesKey: aKey
-	1 to: bucketSize by: 2 do: [ :index|
-		(self at: index) = aKey ifTrue: [ ^ true ].
+	self keysDo: [ :key|
+		key = aKey ifTrue: [ ^ true ].
 	].
 	^ false.

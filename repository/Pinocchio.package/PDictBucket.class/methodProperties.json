@@ -1,14 +1,15 @@
 {
 	"class" : {
-		"asPClass" : "ToonVerwaest 3/11/2010 14:28" },
+		"asPClass" : "ToonVerwaest 3/11/2010 14:28",
+		"new" : "ToonVerwaest 3/13/2010 22:47" },
 	"instance" : {
 		"addKey:value:" : "ToonVerwaest 3/13/2010 18:14",
 		"atKey:" : "ToonVerwaest 3/13/2010 18:09",
 		"atKey:ifAbsent:" : "ToonVerwaest 3/13/2010 18:18",
 		"atKey:put:" : "ToonVerwaest 3/13/2010 18:13",
 		"atKey:put:ifAbsent:" : "ToonVerwaest 3/13/2010 18:15",
-		"includes:" : "inurBollimaC 3/13/2010 22:48",
-		"includesKey:" : "inurBollimaC 3/13/2010 22:48",
+		"includes:" : "inurBollimaC 3/9/2010 17:58",
+		"includesKey:" : "inurBollimaC 3/9/2010 17:58",
 		"indexFrom:do:" : "inurBollimaC 3/9/2010 15:40",
 		"initialize" : "inurBollimaC 3/9/2010 16:43",
 		"keyIndex:" : "inurBollimaC 3/9/2010 18:11",
@@ -18,6 +19,7 @@
 		"keyValueIndexDo:" : "ToonVerwaest 3/13/2010 17:50",
 		"keys" : "inurBollimaC 3/9/2010 16:56",
 		"keysDo:" : "ToonVerwaest 3/13/2010 18:16",
+		"rehashFor:" : "ToonVerwaest 3/13/2010 22:06",
 		"removeAt:" : "inurBollimaC 3/9/2010 16:59",
 		"removeKey:" : "inurBollimaC 3/9/2010 18:12",
 		"removeKey:ifAbsent:" : "inurBollimaC 3/9/2010 18:13",
