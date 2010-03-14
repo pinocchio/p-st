@@ -1,12 +1,10 @@
 as yet unclassified
 writeTestFor: aDictClass
-	<preventExport>
-	| d r o index |
-	r := Random new.
-	d := aDictClass new.
-	o := Object new.
-	MessageTally spyOn: [
-		1 to: 10000 do: [ :count|
-			d at: r nextValue put: count.
-		].
-	]
+	| results samplings |
+	results := OrderedCollection new.
+	samplings := {5. 10. 20. 30. 50. 100. 200. 500. 1000}.
+	samplings do: [ :amount|
+		results add: (self writeTestFor: aDictClass 
+							elements: amount)
+	].
+	^ results.

@@ -1,4 +1,8 @@
 testing
 includes: anObject
-	self do: [:each | anObject = each ifTrue: [^true]].
+	buckets do: [ :bucket|
+		bucket ifNotNil: [
+			(bucket includes: anObject) ifTrue: [ ^ true].
+		]
+	].
 	^false

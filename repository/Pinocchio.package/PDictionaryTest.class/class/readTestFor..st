@@ -1,8 +1,9 @@
 as yet unclassified
 readTestFor: aDictClass
-	| results |
+	| results samplings |
 	results := OrderedCollection new.
-	100 to: 1000 by: 100 do: [ :amount|
+	samplings := {5. 10. 20. 30. 50. 100. 200. 500. 1000}.
+	samplings do: [ :amount|
 		results add: (self readTestFor: aDictClass 
 							elements: amount 
 							reads: amount * 10)

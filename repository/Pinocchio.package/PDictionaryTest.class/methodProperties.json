@@ -1,9 +1,17 @@
 {
 	"class" : {
-		"readTest" : "inurBollimaC 3/13/2010 23:11",
-		"readTestFor:" : "inurBollimaC 3/13/2010 23:07",
-		"readTestFor:elements:reads:" : "inurBollimaC 3/13/2010 23:05",
-		"writeTestFor:" : "inurBollimaC 3/13/2010 22:50" },
+		"includesKeyTest" : "inurBollimaC 3/14/2010 08:25",
+		"includesKeyTestFor:" : "inurBollimaC 3/14/2010 08:07",
+		"includesKeyTestFor:elements:reads:" : "inurBollimaC 3/14/2010 08:07",
+		"includesTest" : "inurBollimaC 3/14/2010 08:25",
+		"includesTestFor:" : "inurBollimaC 3/14/2010 07:57",
+		"includesTestFor:elements:reads:" : "inurBollimaC 3/14/2010 08:03",
+		"readTest" : "inurBollimaC 3/14/2010 08:27",
+		"readTestFor:" : "inurBollimaC 3/14/2010 07:48",
+		"readTestFor:elements:reads:" : "inurBollimaC 3/13/2010 23:18",
+		"writeTest" : "inurBollimaC 3/14/2010 08:25",
+		"writeTestFor:" : "inurBollimaC 3/14/2010 07:53",
+		"writeTestFor:elements:" : "inurBollimaC 3/13/2010 23:23" },
 	"instance" : {
 		"setUp" : "inurBollimaC 3/9/2010 22:08",
 		"testAddRemove" : "inurBollimaC 3/9/2010 22:10",
