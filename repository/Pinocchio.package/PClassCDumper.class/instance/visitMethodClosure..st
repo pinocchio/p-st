@@ -3,9 +3,11 @@ visitMethodClosure: aPMethodClosure
 	| selector |
 	self newline.
 	
+	self comment: aPMethodClosure selector.
 	stream nextPutAll: 'void init_method_';
 		nextPutAll: aPMethodClosure code uid;
 		nextPutAll: '() {'; lf.
+	self createMethodSourceStringFor: aPMethodClosure.
 		
 	selector := aPMethodClosure selector asPObject.
 	self visit: selector.

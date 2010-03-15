@@ -4,9 +4,11 @@
 	"instance" : {
 		"assureExistenceOfPath:" : "ToonVerwaest 2/10/2010 23:04",
 		"clearDirectory:" : "CamilloBrun 2/23/2010 17:16",
+		"createMethodSourceStringFor:" : "inurBollimaC 3/15/2010 13:24",
 		"createStream:" : "CamilloBrun 2/23/2010 14:36",
 		"endGuard:" : "CamilloBrun 2/23/2010 16:19",
 		"include:" : "CamilloBrun 2/23/2010 16:24",
+		"methodForSelector:inClass:" : "inurBollimaC 3/15/2010 13:23",
 		"restrictExportOn:" : "CamilloBrun 2/23/2010 17:15",
 		"sourcePath" : "CamilloBruni 2/10/2010 18:53",
 		"startGuard:" : "CamilloBruni 2/10/2010 18:59" } }

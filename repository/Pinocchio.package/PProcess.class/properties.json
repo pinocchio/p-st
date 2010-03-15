@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-IO",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"in",
+		"out" ],
+	"name" : "PProcess",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

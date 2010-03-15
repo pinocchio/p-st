@@ -1,5 +1,5 @@
 exporting
-createTestCaseFor: methodSelector
+createTestCaseForSelector: methodSelector
 	| method selector |
 	self pclass methods at: methodSelector ifPresent: [ :astMethod |
 	
