@@ -11,6 +11,8 @@ testPerformanceFor: aDictClass
   d at: count put: count.
  ].
 ].
+ MessageTally spyOn: [
   1 to: 200000 do: [ :count|
    d at: ((count  \\ 100000) +1 ).
- ]
+ ].
+]

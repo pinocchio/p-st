@@ -1,8 +1,7 @@
 removing
 removeAt: anInteger
-	(anInteger+2) to: bucketSize do: [ :index|
-		self at: (index - 2) put: (self at: index).
-	].
-	self at: bucketSize put: nil.
-	self at: (bucketSize - 1) put: nil.
+	self at: anInteger put: (self at: bucketSize - 1).
+	self at: anInteger+1 put: (self at: bucketSize).
 	bucketSize := bucketSize - 2.
+	self at: bucketSize + 1 put: nil.
+	self at: bucketSize + 2 put: nil.
