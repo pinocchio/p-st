@@ -9,6 +9,7 @@ pMethods
 		add: #hasReturnExpression;
 		add: #anySatisfy:;
 		add: #allSatisfy:;
+		add: #includes:;
 		add: #emptyCheck.
 	^ s ].
 	^ super pMethods

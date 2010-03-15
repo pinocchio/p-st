@@ -1,6 +1,5 @@
 testing
 includes: anObject
-	<preventExport>
 	| bucket |
 	buckets size = 1 ifTrue: [
 		^ (buckets at: 1) includes: anObject.

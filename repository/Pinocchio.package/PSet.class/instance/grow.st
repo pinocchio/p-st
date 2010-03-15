@@ -1,6 +1,5 @@
 private
 grow
-	<preventExport>
 	| oldBuckets oldSize |
 	oldBuckets := buckets.
 	buckets := Array new: ((oldBuckets size << 1) max: 32).

@@ -1,6 +1,5 @@
 adding
 add: anObject
-	<preventExport>
 	size := size + 1.
 	buckets size = 1 ifTrue: [
 		self addInFirstBucket: anObject.

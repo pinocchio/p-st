@@ -1,6 +1,5 @@
 adding
 addInFirstBucket: anObject
-	<preventExport>
 	(buckets at: 1) isFull ifTrue: [
 		self growBucketAt: 1.
 	].

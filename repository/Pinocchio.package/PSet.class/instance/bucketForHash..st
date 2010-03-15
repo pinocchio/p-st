@@ -1,6 +1,5 @@
 private
 bucketForHash: hash
-	<preventExport>
 	| bucketIndex bucket |
 	bucketIndex := (hash \\ buckets size) + 1.
 	bucket :=  buckets at: bucketIndex.
