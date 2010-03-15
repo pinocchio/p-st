@@ -1,4 +1,4 @@
 accessing
 ratio: aFloat
 	<preventExport>
-	ratio := aFloat
+	ratio := (aFloat * 100) ceiling
