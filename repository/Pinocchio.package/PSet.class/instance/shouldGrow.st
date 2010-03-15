@@ -1,4 +1,4 @@
 private
 shouldGrow
 	size < maxLinear ifTrue: [ ^ false].
-	^ (size / (buckets size)) > ratio
+	^ (size*100 // (buckets size)) > (ratio*100)
