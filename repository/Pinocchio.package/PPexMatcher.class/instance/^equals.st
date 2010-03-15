@@ -9,7 +9,7 @@ expecting
 	aResult ifFalse: [
 		PFile stderr write: 27 asCharacter; << '[31m';
 			<< ('Expected: ', value asString, ' but got: ', expected asString); 
-			<< '[0m'; lf.
+			write: 27 asCharacter; << '[0m'; lf.
 	].
 	self expect: value = expected.
 	^ nil

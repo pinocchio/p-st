@@ -7,10 +7,6 @@ tests
 		add: BridgeTest;
 		add: SCParserTest;
 		add: PCompilerTest;"
-		add: PSetBucketTest;
-		add: PDictBucketTest;
-		add: PSetTest;
-		add: PDictionaryTest;
 		add: PBlockTest;
 		add: PArrayTest;
 		add: PBooleanTest;
@@ -20,5 +16,9 @@ tests
 		add: PSmallIntTest;
 		add: PStringTest;
 		add: PSymbolTest;
-		add: PFileTest.
+		add: PFileTest;
+		add: PSetBucketTest;
+		add: PDictBucketTest;
+		add: PSetTest;
+		add: PDictionaryTest.
 	^ tests.

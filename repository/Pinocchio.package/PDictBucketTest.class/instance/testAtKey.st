@@ -3,9 +3,11 @@ testAtKey
 	b addKey: #key1 value: 'value1'.
 	b addKey: #key2 value: 'value2'.
 	
-	PFile stdout writeAll: (b atKey: #key1); lf.
+	1 to: b size do: [ :i|
+		PFile stderr writeAll: i asString; writeAll: ' = '; writeAll: (b at: i) asString; lf.
+	].
+	PFile stderr writeAll: (b atKey: #key1) asString.
 	(b atKey: #key1) should = 'value1'.
-	PFile stdout writeAll: (b atKey: #key2); lf.
 	(b atKey: #key2) should = 'value2'.
 	
 	b addKey: #key1 value: 'nil'.
