@@ -1,8 +1,7 @@
 {
 	"class" : {
-		"asPClass" : "ToonVerwaest 3/11/2010 14:27",
-		"bucketClass" : "inurBollimaC 3/9/2010 22:34",
-		"pbasicNew" : "ToonVerwaest 3/12/2010 15:36" },
+		"asPClass" : "inurBollimaC 3/16/2010 11:36",
+		"bucketClass" : "inurBollimaC 3/9/2010 22:34" },
 	"instance" : {
 		"add:" : "ToonVerwaest 3/12/2010 14:58",
 		"at:" : "inurBollimaC 3/14/2010 08:29",
@@ -16,10 +15,12 @@
 		"inFirstBucketAt:put:" : "ToonVerwaest 3/13/2010 18:02",
 		"includes:" : "inurBollimaC 3/13/2010 23:31",
 		"includesKey:" : "inurBollimaC 3/14/2010 08:22",
-		"initialize" : "inurBollimaC 3/15/2010 15:05",
+		"initialize" : "inurBollimaC 3/16/2010 10:07",
 		"keys" : "inurBollimaC 3/9/2010 18:01",
 		"newBucketAt:" : "ToonVerwaest 3/13/2010 18:08",
 		"reAddBucket:at:" : "inurBollimaC 3/15/2010 15:10",
+		"remove:" : "inurBollimaC 3/16/2010 10:25",
+		"remove:ifAbsent:" : "inurBollimaC 3/16/2010 10:25",
 		"removeKey:" : "inurBollimaC 3/9/2010 14:51",
-		"removeKey:ifAbsent:" : "inurBollimaC 3/9/2010 18:24",
+		"removeKey:ifAbsent:" : "inurBollimaC 3/16/2010 11:06",
 		"values" : "inurBollimaC 3/9/2010 17:37" } }

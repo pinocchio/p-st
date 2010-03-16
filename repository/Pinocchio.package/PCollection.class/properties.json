@@ -10,7 +10,7 @@
 		"maxLinear",
 		"ratio",
 		"buckets" ],
-	"name" : "PSet",
+	"name" : "PCollection",
 	"pools" : [
 		 ],
 	"super" : "PObject",
