@@ -29,6 +29,7 @@
 		"ifNotNil:ifNil:" : "ToonVerwaest 2/11/2010 00:41",
 		"ifNotNilDo:" : "CamilloBrun 2/22/2010 16:18",
 		"initialize" : "ToonVerwaest 2/4/2010 13:42",
+		"isCollection" : "CamilloBruni 3/17/2010 16:30",
 		"isKindOf:" : "ToonVerwaest 2/12/2010 14:39",
 		"isNil" : "CamilloBruni 1/27/2010 16:59",
 		"isNumber" : "ToonVerwaest 2/15/2010 17:23",

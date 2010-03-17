@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"clearGlobals" : "TestRunner 11/17/2009 11:54",
+		"clearGlobals" : "CamilloBruni 3/17/2010 16:03",
 		"globalDefinition" : "CamilloBrun 2/23/2010 14:52",
-		"initialize" : "ToonVerwaest 2/23/2010 15:49",
+		"initialize" : "CamilloBruni 3/17/2010 16:03",
 		"initializeGlobals" : "CamilloBrun 2/23/2010 14:52",
 		"lookup:" : "ToonVerwaest 2/23/2010 15:49",
 		"lookupNamed:" : "ToonVerwaest 2/17/2010 16:27",
@@ -15,7 +15,7 @@
 		"decls" : "DavidGurtner 10/22/2009 17:57",
 		"decls:" : "ToonVerwaest 2/23/2010 12:06",
 		"depth" : "ToonVerwaest 2/22/2010 11:37",
-		"initialize" : "ToonVerwaest 2/23/2010 12:06",
+		"initialize" : "CamilloBruni 3/17/2010 16:03",
 		"isRootScope" : "CamilloBruni 11/9/2009 17:30",
 		"lookup:" : "ToonVerwaest 2/23/2010 15:50",
 		"parentScope" : "CamilloBruni 11/9/2009 14:56" } }

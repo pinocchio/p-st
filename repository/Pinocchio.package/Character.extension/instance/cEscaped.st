@@ -4,7 +4,7 @@ cEscaped
 	dictArray := Array with: nil with: #'.'.
 	dict := dictArray at: 1.
 	dict ifNil: [
-		dict := SmallDictionary new.
+		dict := PDictionary new.
 		dict at: Character cr put: '\n'.
 		dict at: Character lf put: '\n'.
 		dict at: Character tab put: '\t'.

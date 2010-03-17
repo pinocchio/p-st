@@ -1,3 +1,3 @@
 accessing
 sortedClasses: aCollection
-	sortedClasses := aCollection.
+	sortedClasses := aCollection

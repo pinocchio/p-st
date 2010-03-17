@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	decls := Dictionary new.
+	decls := PDictionary new.

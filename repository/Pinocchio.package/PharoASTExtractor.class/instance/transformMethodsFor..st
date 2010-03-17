@@ -5,7 +5,7 @@ transformMethodsFor: aPinocchioClass
 	
 	sclass := aPinocchioClass methodProvider.
 	methods := aPinocchioClass pMethods.
-	methodDict := Dictionary new.
+	methodDict := PDictionary new.
 	methods do: [ :selector|
 		method := sclass methodDictionary at: selector.
 		Transcript show: ('    ', sclass name, '>>', method selector); cr.

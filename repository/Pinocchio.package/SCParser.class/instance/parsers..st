@@ -1,3 +1,3 @@
 accessors
-parsers: aDictionary
-	parsers := aDictionary 
+parsers: aPDictionary
+	parsers := aPDictionary 

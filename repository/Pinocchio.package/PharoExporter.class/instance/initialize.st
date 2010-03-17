@@ -2,7 +2,7 @@ initialize-release
 initialize
 	super initialize.
 	progress := [0].
-	restrictionSet := Set new.
+	restrictionSet := PSet new.
 	root := PRootPackage new.
 	done := IdentityDictionary new.
 	todo := OrderedCollection new.

@@ -3,8 +3,8 @@ restrictExportOn: inputSet
 	| aSet |
 	aSet := inputSet.
 	aSet isCollection ifFalse: [
-		restrictionSet := Set new.
+		restrictionSet := PSet new.
 		restrictionSet add: inputSet.
 	] ifTrue: [
-		restrictionSet := Set newFrom: aSet
+		restrictionSet := PSet newFrom: aSet
 	].

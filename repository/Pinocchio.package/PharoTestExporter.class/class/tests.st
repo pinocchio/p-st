@@ -3,7 +3,7 @@ tests
 	| tests |
 	tests := OrderedCollection new.
 	tests
-	"	add: PEGTest;
+		add: PEGTest;
 		add: BridgeTest;
 		add: SCParserTest;
 		add: PCompilerTest;
@@ -16,7 +16,7 @@ tests
 		add: PSmallIntTest;
 		add: PStringTest;
 		add: PSymbolTest;
-		add: PFileTest;"
+		add: PFileTest;
 		add: PSetBucketTest;
 		add: PDictBucketTest;
 		add: PSetTest;

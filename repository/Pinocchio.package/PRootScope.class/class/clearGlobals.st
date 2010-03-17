@@ -1,4 +1,4 @@
 initialize-release
 clearGlobals
-	decls := Dictionary new.
+	decls := PDictionary new.
 	self initializeGlobals.

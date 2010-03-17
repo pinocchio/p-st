@@ -1,6 +1,6 @@
 initialization
 initialize
 	super initialize.
-	parsers := Dictionary new.
-	symbols := Dictionary new.
+	parsers := PDictionary new.
+	symbols := PDictionary new.
 	id := 0

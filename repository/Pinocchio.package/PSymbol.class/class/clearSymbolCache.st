@@ -1,5 +1,5 @@
 pharo-exporting
 clearSymbolCache
 	<preventExport>
-	symbolDictionary := SmallDictionary new.
+	symbolDictionary := PDictionary new.
 	self initializeSymbols.

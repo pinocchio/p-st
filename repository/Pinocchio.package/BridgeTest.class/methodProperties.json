@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assert:" : "ToonVerwaest 12/3/2009 18:28",
+		"assert:" : "CamilloBruni 3/17/2010 16:35",
 		"setUp" : "CamilloBruni 2/2/2010 16:26",
 		"tearDown" : "CamilloBruni 2/3/2010 16:44",
 		"testCascadeSends" : "CamilloBrun 2/22/2010 16:54",
@@ -31,7 +31,6 @@
 		"testSimpleBasicArithmetik" : "CamilloBruni 2/10/2010 13:30",
 		"testSimpleInstanceCreation" : "CamilloBruni 2/10/2010 13:30",
 		"testSimpleReturn" : "CamilloBruni 2/10/2010 13:30",
-		"testSmallDictionary" : "CamilloBruni 2/10/2010 13:30",
 		"testSuperClass" : "CamilloBruni 2/10/2010 13:30",
 		"testSuperClassSuperSend" : "CamilloBrun 2/24/2010 08:27",
 		"testVariableInstanceCreation" : "CamilloBruni 2/10/2010 13:30",

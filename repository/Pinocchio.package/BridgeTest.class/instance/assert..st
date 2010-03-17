@@ -1,5 +1,5 @@
 test-method
 assert: bool
-	<arg: true>
+	<arg: true >
 	^ bool ifFalse: [ self fail. ]
 	
