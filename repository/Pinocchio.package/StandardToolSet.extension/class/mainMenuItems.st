@@ -6,7 +6,10 @@ mainMenuItems
 		('Workspace'				#openWorkspace)
 		('Test Runner'				#openTestRunner)
 		('Monticello Browser'		#openMonticelloBrowser)
+		('File Browser'		          #openFileList)
+		('Process Browser'		     #openProcessBrowser)
 		-
+		('Pinocchio Browser'		     #openPinocchioBrowser)
 		('Pinocchio Changed'		#pinocchioExportChanges)
 		('Pinocchio All'				#pinocchioExportAll)
 	)

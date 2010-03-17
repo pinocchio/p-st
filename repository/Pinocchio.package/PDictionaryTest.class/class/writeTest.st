@@ -1,7 +1,7 @@
 as yet unclassified
 writeTest
 	| pdict sdict dict |
-	MessageTally spyOn: [
+	TimeProfileBrowser spyOn: [
 		pdict := self writeTestFor: PDictionary.
 	].
 	dict := self writeTestFor: Dictionary.

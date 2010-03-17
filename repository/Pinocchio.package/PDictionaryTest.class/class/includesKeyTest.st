@@ -1,7 +1,7 @@
 as yet unclassified
 includesKeyTest
 	| pdict sdict dict |
-	MessageTally spyOn: [
+	TimeProfileBrowser spyOn: [
 		pdict := self includesKeyTestFor: PDictionary.
 	].
 	dict := self includesKeyTestFor: Dictionary.
