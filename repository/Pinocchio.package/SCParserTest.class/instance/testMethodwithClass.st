@@ -6,7 +6,7 @@ testMethodwithClass
 		IO.File stdout writeAll: a
 	'.
 	result := parser parse: string.
-	result hasReturnExpression should be false.
+	result hasReturnExpression should = false.
 	result class should = ASTMethod.
 	result message asString should = 'withA:'.
 	"self halt."
