@@ -6,7 +6,7 @@ tests
 	"	add: PEGTest;
 		add: BridgeTest;
 		add: SCParserTest;
-		add: PCompilerTest;"
+		add: PCompilerTest;
 		add: PBlockTest;
 		add: PArrayTest;
 		add: PBooleanTest;
@@ -16,7 +16,7 @@ tests
 		add: PSmallIntTest;
 		add: PStringTest;
 		add: PSymbolTest;
-		add: PFileTest;
+		add: PFileTest;"
 		add: PSetBucketTest;
 		add: PDictBucketTest;
 		add: PSetTest;

@@ -1,5 +1,6 @@
 testing
 testIncludesKey
+	| buckets |
 	(d includesKey: #bla) should = false.
 	
 	d at: #bla put: 'bla'.
