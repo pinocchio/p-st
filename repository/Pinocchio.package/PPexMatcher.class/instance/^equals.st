@@ -7,9 +7,12 @@ expecting
 	aResult := value = expected.
 	bool ifFalse: [ aResult := aResult not ].
 	aResult ifFalse: [
-		PFile stderr write: 27 asCharacter; << '[31m';
-			<< ('Expected: ', value asString, ' but got: ', expected asString); 
-			write: 27 asCharacter; << '[0m'; lf.
+		PFile stderr write: 27 asCharacter.
+		PFile stderr << '[31m'
+			<< ('Expected: ', value asString, ' but got: ', expected asString).
+		PFile stderr write: 27 asCharacter.
+		PFile stderr << '[0m'.
+		PFile stderr lf.
 	].
 	self expect: value = expected.
 	^ nil

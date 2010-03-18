@@ -1,3 +1,3 @@
 accessing
 stderr
-	<pinocchioPrimitive: #stderr module: 'IO.File'>
+	<pinocchioPrimitive: #stderr module: #'IO.File'>

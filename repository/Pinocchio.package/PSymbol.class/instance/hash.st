@@ -1,4 +1,4 @@
-converting
+comparing
 hash
 	<preventExport>
 	^ symbol hash
