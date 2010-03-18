@@ -7,7 +7,6 @@ exportBasicClasses
 	add: Class;
 	add: PMessage;
 	add: PTrue;
-	add: PCallec;
 	add: PFalse;
 	add: PNil;
 	add: PString;
@@ -23,5 +22,5 @@ exportBasicClasses
 	add: PArrayLayout;
 	add: PIntLayout;
 	add: PWordsLayout;
-	add: PInterpreter;
+	add: PMainInterpreter;
 	yourself.

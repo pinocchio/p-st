@@ -1,14 +1,14 @@
 {
-	"category" : "Pinocchio-AST",
+	"category" : "Pinocchio",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"block" ],
-	"name" : "PCallec",
+		 ],
+	"name" : "PThread",
 	"pools" : [
 		 ],
-	"super" : "PNode",
+	"super" : "PInterpreter",
 	"type" : "normal" }

@@ -14,7 +14,7 @@ createReturningMethodBodyFor: aMethod
 	
 	"Now wrap all in a callec"
 	callec := (PSend new: 1)
-			receiver: (self visitVariable: (ASTVariable named: #PCallec));
+			receiver: (self visitVariable: (ASTVariable named: #PContinue));
 			message: #on:;
 			at: 1 put: (self createCallecBodyFor: aMethod);
 			yourself.
