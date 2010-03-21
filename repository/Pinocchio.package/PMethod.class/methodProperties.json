@@ -2,6 +2,7 @@
 	"class" : {
 		"withAll:" : "CamilloBruni 12/1/2009 14:19" },
 	"instance" : {
+		"accept:on:class:message:boundBy:" : "ToonVerwaest 3/19/2010 11:10",
 		"annotations" : "TestRunner 11/24/2009 10:58",
 		"annotations:" : "TestRunner 11/24/2009 14:10",
 		"depth" : "CamilloBruni 12/1/2009 17:07",

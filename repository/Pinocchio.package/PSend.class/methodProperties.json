@@ -6,8 +6,11 @@
 		"arguments" : "ToonVerwaest 2/17/2010 15:19",
 		"arguments:" : "ToonVerwaest 2/17/2010 15:19",
 		"do:" : "ToonVerwaest 2/17/2010 15:32",
+		"initialize" : "ToonVerwaest 3/21/2010 20:25",
 		"inject:into:" : "ToonVerwaest 2/17/2010 15:32",
+		"inlineCache" : "ToonVerwaest 3/21/2010 20:25",
 		"message" : "DavidGurtner 10/21/2009 15:07",
 		"message:" : "DavidGurtner 10/21/2009 15:07",
 		"receiver" : "DavidGurtner 10/21/2009 15:07",
-		"receiver:" : "DavidGurtner 10/21/2009 15:07" } }
+		"receiver:" : "DavidGurtner 10/21/2009 15:07",
+		"withIndexDo:" : "ToonVerwaest 3/21/2010 20:23" } }

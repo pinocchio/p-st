@@ -1,3 +1,3 @@
 interpreting
 visitInstVariable: anInstVariable
-	^ self currentSelf instVarAt: anInstVariable index.
+	^ self instVarAt: anInstVariable index from: self currentSelf

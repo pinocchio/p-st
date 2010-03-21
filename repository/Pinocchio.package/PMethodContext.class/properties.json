@@ -1,0 +1,21 @@
+{
+	"category" : "Pinocchio-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pc",
+		"scopeId",
+		"captured",
+		"closure",
+		"homeContext",
+		"parent",
+		"receiver",
+		"methodClass" ],
+	"name" : "PMethodContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "variable" }

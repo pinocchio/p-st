@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"class",
+		"method" ],
+	"name" : "PInlineCache",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

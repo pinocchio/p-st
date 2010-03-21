@@ -1,4 +1,4 @@
-interpreting
+sending
 sendDoesNotUnderstandFor: aMessage to: receiver
 	| dnu |
 	aMessage selector = #doesNotUnderstand:
