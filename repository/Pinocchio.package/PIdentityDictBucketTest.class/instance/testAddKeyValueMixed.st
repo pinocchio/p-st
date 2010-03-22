@@ -1,5 +1,5 @@
 tests
-testAddMixed
+testAddKeyValueMixed
 	b bucketSize should = 0.
 	b addKey: 'key' value: 'value1'. 
 	b bucketSize should = 2.

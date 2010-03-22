@@ -3,8 +3,7 @@
 		"shouldInheritSelectors" : "CamilloBruni 3/22/2010 13:46" },
 	"instance" : {
 		"setUp" : "CamilloBruni 3/22/2010 10:44",
-		"testAdd" : "CamilloBruni 3/22/2010 10:46",
-		"testAddMixed" : "CamilloBruni 3/22/2010 15:11",
+		"testAddKeyValueMixed" : "CamilloBruni 3/22/2010 15:14",
 		"testAtKey" : "CamilloBruni 3/22/2010 13:34",
 		"testAtKeyIfAbsent" : "CamilloBruni 3/22/2010 10:50",
 		"testIncludesMixed" : "CamilloBruni 3/22/2010 15:13",

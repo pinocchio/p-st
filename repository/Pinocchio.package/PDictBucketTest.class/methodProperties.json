@@ -4,8 +4,10 @@
 	"instance" : {
 		"setUp" : "inurBollimaC 3/9/2010 21:41",
 		"testAdd" : "CamilloBruni 3/22/2010 11:06",
-		"testAddMixed" : "CamilloBruni 3/22/2010 11:06",
-		"testAddUnique" : "CamilloBruni 3/22/2010 11:06",
+		"testAddKeyValueMixed" : "CamilloBruni 3/22/2010 15:13",
+		"testAddKeyValueUnique" : "CamilloBruni 3/22/2010 15:14",
+		"testAddMixed" : "CamilloBruni 3/22/2010 15:14",
+		"testAddUnique" : "CamilloBruni 3/22/2010 15:14",
 		"testAtKey" : "CamilloBruni 3/22/2010 10:48",
 		"testAtKeyIfAbsent" : "inurBollimaC 3/9/2010 17:55",
 		"testDo" : "CamilloBruni 3/22/2010 15:00",
