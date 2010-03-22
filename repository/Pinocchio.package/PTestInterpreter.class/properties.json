@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PTestInterpreter",
+	"pools" : [
+		 ],
+	"super" : "PInterpreter",
+	"type" : "normal" }

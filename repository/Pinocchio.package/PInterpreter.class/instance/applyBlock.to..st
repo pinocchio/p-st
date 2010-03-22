@@ -9,7 +9,7 @@ applyBlock: aBlockClosure to: args
 				homeContext: aBlockClosure context homeContext.
 	args withIndexDo: [ :value :index | context at: index put: value ].
 	
-	[ pc := context nextPc < block size] whileTrue: [ (block at: pc) accept: self ].
+	[ (pc := context nextPc) < block size] whileTrue: [ (block at: pc) accept: self ].
 	result := (block at: pc) accept: self.
 	context := context returnContext.
 	^ result

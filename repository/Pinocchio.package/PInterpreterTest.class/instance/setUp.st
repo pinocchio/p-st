@@ -1,3 +1,3 @@
 running
 setUp
-	i := PInterpreter new
+	i := PTestInterpreter new

@@ -5,5 +5,4 @@ methodContextFor: closure receiver: receiver class: methodClass message: aMessag
 				receiver: receiver;
 				methodClass: methodClass;
 				closure: closure.
-	context homeContext: context.
 	aMessage withIndexDo: [ :arg :index | context at: index put: arg ]

@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"outerScope",
+		"unused" ],
 	"name" : "PBlockContext",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PContext",
 	"type" : "variable" }

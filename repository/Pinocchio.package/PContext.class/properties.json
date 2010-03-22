@@ -6,10 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"receiver",
-		"methodClass" ],
-	"name" : "PMethodContext",
+		"pc",
+		"scopeId",
+		"captured",
+		"closure",
+		"homeContext",
+		"returnContext" ],
+	"name" : "PContext",
 	"pools" : [
 		 ],
-	"super" : "PContext",
+	"super" : "PObject",
 	"type" : "variable" }

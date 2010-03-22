@@ -7,7 +7,7 @@ invokeMethod: closure on: receiver class: class message: aMessage
 	
 	self methodContextFor: closure receiver: receiver class: class message: aMessage.
 	
-	[ pc := context nextPc < method size] whileTrue: [ (method at: pc) accept: self ].
+	[ (pc := context nextPc) < method size] whileTrue: [ (method at: pc) accept: self ].
 	result := (method at: pc) accept: self.
 	context := context returnContext.
 	^ result
