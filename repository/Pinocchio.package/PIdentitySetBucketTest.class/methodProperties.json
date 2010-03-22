@@ -1,5 +1,7 @@
 {
 	"class" : {
-		 },
+		"shouldInheritSelectors" : "CamilloBruni 3/22/2010 13:46" },
 	"instance" : {
-		 } }
+		"setUp" : "CamilloBruni 3/22/2010 11:01",
+		"testAddMixed" : "CamilloBruni 3/22/2010 15:12",
+		"testIncludesMixed" : "CamilloBruni 3/22/2010 11:03" } }

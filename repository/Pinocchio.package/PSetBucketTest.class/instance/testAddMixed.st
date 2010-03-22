@@ -1,5 +1,5 @@
 tests
-testAdd
+testAddMixed
 	
 	b bucketSize should = 0.
 	b add: #key.

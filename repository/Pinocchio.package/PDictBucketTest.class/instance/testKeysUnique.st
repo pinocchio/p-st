@@ -1,5 +1,5 @@
 tests
-testKeys
+testKeysUnique
 	| keys |
 	b addKey: #key value: 'value'.
 	keys := b keys.

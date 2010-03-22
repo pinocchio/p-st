@@ -1,5 +1,5 @@
 tests
-testRemoveKey
+testRemoveKeyUnique
 
 	b addKey: #key1 value: 'value1'.
 	b bucketSize should = 2.

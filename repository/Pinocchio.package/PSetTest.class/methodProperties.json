@@ -1,8 +1,8 @@
 {
 	"class" : {
-		 },
+		"shouldInheritSelectors" : "CamilloBruni 3/22/2010 13:44" },
 	"instance" : {
 		"setUp" : "inurBollimaC 3/9/2010 21:39",
+		"testAdd" : "CamilloBruni 3/22/2010 11:05",
 		"testIncludes" : "CamilloBruni 3/16/2010 16:41",
-		"testIsEmpty" : "inurBollimaC 3/9/2010 22:13",
-		"testSetAdd" : "ToonVerwaest 3/18/2010 10:56" } }
+		"testIsEmpty" : "inurBollimaC 3/9/2010 22:13" } }

@@ -1,5 +1,5 @@
 tests
-testSetAdd
+testAdd
 	| value |
 	s size should = 0.
 	1 to: 333 do: [ :index|
