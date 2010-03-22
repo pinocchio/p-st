@@ -4,4 +4,5 @@
 		"pTypeName" : "ToonVerwaest 3/22/2010 15:04" },
 	"instance" : {
 		"initialize" : "ToonVerwaest 3/22/2010 23:30",
-		"outerScope:" : "ToonVerwaest 3/22/2010 16:10" } }
+		"lookupAt:in:" : "ToonVerwaest 3/22/2010 23:53",
+		"outerScope:" : "ToonVerwaest 3/22/2010 23:45" } }

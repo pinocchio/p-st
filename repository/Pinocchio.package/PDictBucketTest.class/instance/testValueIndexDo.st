@@ -1,6 +1,7 @@
 tests
 testValueIndexDo
 	| c |
+	[ ^ self ] value.
 	c := OrderedCollection new.
 	b valueIndexDo: [ :value : index|
 		c add: value; add: index.
