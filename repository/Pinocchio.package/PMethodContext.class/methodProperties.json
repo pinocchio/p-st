@@ -3,5 +3,6 @@
 		"asPClass" : "ToonVerwaest 3/22/2010 15:05",
 		"pTypeName" : "ToonVerwaest 3/22/2010 15:04" },
 	"instance" : {
+		"assignAt:in:to:" : "ToonVerwaest 3/23/2010 00:38",
 		"initialize" : "ToonVerwaest 3/22/2010 23:45",
 		"lookupAt:in:" : "ToonVerwaest 3/22/2010 23:53" } }
