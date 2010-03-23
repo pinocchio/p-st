@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"initialize" : "ToonVerwaest 3/23/2010 18:08",
-		"pTypeName" : "ToonVerwaest 3/18/2010 11:35" },
+		"pTypeName" : "ToonVerwaest 3/18/2010 11:35",
+		"pinitialize" : "DavidGurtner 3/23/2010 18:32" },
 	"instance" : {
 		"applyBlock:to:" : "ToonVerwaest 3/22/2010 23:38",
 		"assignInstVariable:to:" : "ToonVerwaest 3/18/2010 21:18",
@@ -20,8 +20,10 @@
 		"sendDoesNotUnderstandFor:to:" : "ToonVerwaest 3/18/2010 12:27",
 		"visitAssign:" : "ToonVerwaest 3/18/2010 13:02",
 		"visitBlock:" : "ToonVerwaest 3/18/2010 13:49",
+		"visitClassReference:" : "DavidGurtner 3/23/2010 16:40",
 		"visitConstant:" : "ToonVerwaest 3/18/2010 12:40",
 		"visitInstVariable:" : "ToonVerwaest 3/19/2010 11:00",
+		"visitSelf:" : "DavidGurtner 3/23/2010 16:27",
 		"visitSend:" : "ToonVerwaest 3/21/2010 20:24",
 		"visitSuper:" : "ToonVerwaest 3/18/2010 14:46",
 		"visitVariable:" : "ToonVerwaest 3/18/2010 15:22" } }
