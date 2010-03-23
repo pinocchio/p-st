@@ -4,7 +4,9 @@
 		"pTypeName" : "ToonVerwaest 3/22/2010 15:04" },
 	"instance" : {
 		"assignAt:in:to:" : "ToonVerwaest 3/23/2010 00:38",
-		"initialize" : "ToonVerwaest 3/22/2010 23:45",
+		"initialize" : "DavidGurtner 3/23/2010 18:52",
 		"lookupAt:in:" : "ToonVerwaest 3/22/2010 23:53",
+		"methodClass" : "DavidGurtner 3/23/2010 18:47",
+		"methodClass:" : "DavidGurtner 3/23/2010 18:47",
 		"receiver" : "ToonVerwaest 3/23/2010 13:16",
 		"receiver:" : "ToonVerwaest 3/23/2010 13:16" } }

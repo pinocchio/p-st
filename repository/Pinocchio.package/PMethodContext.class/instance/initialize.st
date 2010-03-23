@@ -1,5 +1,5 @@
 initialize-release
 initialize
 	homeContext := self.
-	pc := 1.
+	pc := 0.
 	scopeId := 0.

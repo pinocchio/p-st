@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"unused" ],
-	"name" : "PSuper",
+		"cache",
+		"message" ],
+	"name" : "PAbstractSend",
 	"pools" : [
 		 ],
-	"super" : "PAbstractSend",
+	"super" : "PNode",
 	"type" : "variable" }

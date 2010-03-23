@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cache",
-		"message",
 		"receiver" ],
 	"name" : "PSend",
 	"pools" : [
 		 ],
-	"super" : "PNode",
+	"super" : "PAbstractSend",
 	"type" : "variable" }
