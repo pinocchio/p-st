@@ -1,0 +1,16 @@
+{
+	"category" : "Pinocchio-Plugin",
+	"classinstvars" : [
+		"plugins" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"path",
+		"identifier",
+		"natives" ],
+	"name" : "PPlugin",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

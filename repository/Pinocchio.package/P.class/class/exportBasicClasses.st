@@ -23,4 +23,5 @@ exportBasicClasses
 	add: PIntLayout;
 	add: PWordsLayout;
 	add: PMainInterpreter;
+	add: PPlugin;
 	yourself.
