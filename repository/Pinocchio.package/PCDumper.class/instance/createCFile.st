@@ -37,7 +37,7 @@ createCFile
 		 << name uid << ');'; lf.
 	].
 
-	stream lf; << 'call_initialize();'.
+	stream lf; << 'init_plugin();'; lf; << 'call_initialize();'.
 	
 	stream lf; << '}'.
 		

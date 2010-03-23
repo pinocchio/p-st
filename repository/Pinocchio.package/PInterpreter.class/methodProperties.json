@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"initialize" : "ToonVerwaest 3/23/2010 18:08",
 		"pTypeName" : "ToonVerwaest 3/18/2010 11:35" },
 	"instance" : {
 		"applyBlock:to:" : "ToonVerwaest 3/22/2010 23:38",
@@ -13,7 +14,7 @@
 		"invokeNativeMethod:on:class:message:" : "ToonVerwaest 3/18/2010 12:50",
 		"lookupSelector:in:" : "ToonVerwaest 3/19/2010 11:33",
 		"methodContextFor:receiver:class:message:" : "ToonVerwaest 3/22/2010 23:26",
-		"recursiveDoesNotUnderstand:on:" : "ToonVerwaest 3/18/2010 12:33",
+		"recursiveDoesNotUnderstand:on:" : "ToonVerwaest 3/23/2010 00:46",
 		"send:to:class:" : "ToonVerwaest 3/18/2010 14:44",
 		"send:to:class:for:" : "ToonVerwaest 3/18/2010 14:44",
 		"sendDoesNotUnderstandFor:to:" : "ToonVerwaest 3/18/2010 12:27",
