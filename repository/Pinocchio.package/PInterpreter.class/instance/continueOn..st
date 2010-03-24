@@ -6,7 +6,7 @@ continueOn: aBlock
 		message := PMessage new: 1.
 		message selector: #value:.
 		message at: 1 put: metaCont.
-		self send: message to: aBlock class: aBlock class
+		self send: message to: aBlock
 	].
 	context := saveContext.
 	^ result

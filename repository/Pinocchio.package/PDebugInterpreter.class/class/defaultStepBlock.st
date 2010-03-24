@@ -1,0 +1,3 @@
+accessing
+defaultStepBlock
+	^ [:aMessage| ^ true].

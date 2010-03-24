@@ -6,4 +6,4 @@ sendDoesNotUnderstandFor: aMessage to: receiver
 	dnu := PMessage new: 1.
 	dnu selector: #doesNotUnderstand:.
 	dnu at: 1 put: aMessage.
-	^ self send: dnu to: receiver class: receiver class
+	^ self send: dnu to: receiver

@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"interpret:" : "CamilloBruni 3/24/2010 17:41",
 		"pTypeName" : "ToonVerwaest 3/18/2010 11:35",
 		"pinitialize" : "DavidGurtner 3/23/2010 18:32" },
 	"instance" : {
@@ -7,7 +8,7 @@
 		"assignInstVariable:to:" : "ToonVerwaest 3/18/2010 21:18",
 		"assignVariable:to:" : "ToonVerwaest 3/18/2010 15:21",
 		"continue:escape:" : "DavidGurtner 3/24/2010 16:41",
-		"continueOn:" : "ToonVerwaest 3/24/2010 13:30",
+		"continueOn:" : "CamilloBruni 3/24/2010 17:39",
 		"currentClass" : "ToonVerwaest 3/18/2010 14:44",
 		"currentSelf" : "ToonVerwaest 3/18/2010 14:38",
 		"instVarAt:from:" : "ToonVerwaest 3/19/2010 11:01",
@@ -17,9 +18,10 @@
 		"lookupSelector:in:" : "ToonVerwaest 3/19/2010 11:33",
 		"methodContextFor:receiver:class:message:" : "DavidGurtner 3/24/2010 16:38",
 		"recursiveDoesNotUnderstand:on:" : "ToonVerwaest 3/24/2010 13:15",
+		"send:to:" : "CamilloBruni 3/24/2010 17:39",
 		"send:to:class:" : "ToonVerwaest 3/18/2010 14:44",
 		"send:to:class:for:" : "ToonVerwaest 3/18/2010 14:44",
-		"sendDoesNotUnderstandFor:to:" : "ToonVerwaest 3/24/2010 13:14",
+		"sendDoesNotUnderstandFor:to:" : "CamilloBruni 3/24/2010 17:40",
 		"visitAssign:" : "ToonVerwaest 3/18/2010 13:02",
 		"visitBlock:" : "ToonVerwaest 3/18/2010 13:49",
 		"visitClassReference:" : "DavidGurtner 3/23/2010 16:40",

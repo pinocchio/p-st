@@ -10,7 +10,7 @@ createMethodCallFor: anPinocchioASTMethod of: aCompiledMethod
 	cdumper stream: stream.
 	cdumper visit: send.
 	
-	stream nextPutAll: 'Object result = (Object)Eval((Object)';
+	stream nextPutAll: 'Eval((Object)';
 		nextPutAll: send uid asString;
 		nextPutAll: ');'; lf.
 	self assertEmptyStack.

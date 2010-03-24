@@ -13,5 +13,5 @@ createTestCaseForSelector: methodSelector
 		nextPutAll: ')'; lf.
 	self createMethodSourceStringFor: method.
 	self createMethodCallFor: astMethod of: method.
-	self createAssertFor: astMethod of: method.
+	"self createAssertFor: astMethod of: method."
 	stream nextPutAll: '}'.
