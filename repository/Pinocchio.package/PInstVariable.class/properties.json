@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"index",
 		"name",
-		"index" ],
+		"package" ],
 	"name" : "PInstVariable",
 	"pools" : [
 		 ],
