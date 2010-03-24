@@ -1,10 +1,12 @@
 continuations
 continueOn: aBlock
-	| wcont message |
-	^ PContinue on: [ :metaCont |
-		wcont := PWContinue new context: context; metaCont: metaCont.
+	| message saveContext result |
+	saveContext := context.
+	result := PContinue on: [ :metaCont |
 		message := PMessage new: 1.
 		message selector: #value:.
-		message at: 1 put: wcont.
+		message at: 1 put: metaCont.
 		self send: message to: aBlock class: aBlock class
-	]
+	].
+	context := saveContext.
+	^ result
