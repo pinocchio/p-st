@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"context",
+		"metaCont" ],
+	"name" : "PWContinue",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

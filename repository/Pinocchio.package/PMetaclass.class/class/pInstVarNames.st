@@ -1,3 +1,3 @@
 pharo-exporting
 pInstVarNames 
-	^ OrderedCollection new.
+	^ OrderedCollection with: #instance.
