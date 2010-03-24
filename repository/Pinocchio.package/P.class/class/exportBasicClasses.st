@@ -24,4 +24,6 @@ exportBasicClasses
 	add: PWordsLayout;
 	add: PMainInterpreter;
 	add: PPlugin;
+	add: PWriteFile;
+	add: PReadFile;
 	yourself.

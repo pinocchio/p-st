@@ -1,7 +1,6 @@
 {
 	"class" : {
-		"asPClass" : "ToonVerwaest 3/22/2010 15:05",
-		"pTypeName" : "ToonVerwaest 3/22/2010 15:04" },
+		"asPClass" : "ToonVerwaest 3/22/2010 15:05" },
 	"instance" : {
 		"assignAt:in:to:" : "ToonVerwaest 3/23/2010 00:38",
 		"initialize" : "DavidGurtner 3/23/2010 18:52",
