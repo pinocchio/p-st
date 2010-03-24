@@ -1,8 +1,7 @@
 exporting
 createTestCaseForSelector: methodSelector
-	| method selector |
-	self pclass methods at: methodSelector ifPresent: [ :astMethod |
-	
+	| method selector astMethod |
+	astMethod := self extractASTMethod: methodSelector.
 	method := self extractMethod: methodSelector.
 	
 	self separator.
@@ -16,4 +15,3 @@ createTestCaseForSelector: methodSelector
 	self createMethodCallFor: astMethod of: method.
 	self createAssertFor: astMethod of: method.
 	stream nextPutAll: '}'.
-	].
