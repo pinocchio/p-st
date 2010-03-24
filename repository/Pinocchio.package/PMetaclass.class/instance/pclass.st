@@ -1,4 +1,4 @@
 pharo-exporter
 pclass
 	<preventExport>
-	^ pclass
+	^ instance

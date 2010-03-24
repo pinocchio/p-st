@@ -1,3 +1,3 @@
 accessing
 closure
-	closure
+	^ closure

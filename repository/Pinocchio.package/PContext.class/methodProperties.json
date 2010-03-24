@@ -3,12 +3,13 @@
 		"asPClass" : "ToonVerwaest 3/24/2010 22:29",
 		"pTypeName" : "ToonVerwaest 3/24/2010 22:29" },
 	"instance" : {
-		"closure" : "ToonVerwaest 3/22/2010 23:41",
+		"closure" : "ToonVerwaest 3/24/2010 23:57",
 		"closure:" : "ToonVerwaest 3/22/2010 23:40",
 		"homeContext" : "ToonVerwaest 3/22/2010 23:41",
 		"homeContext:" : "ToonVerwaest 3/22/2010 23:40",
 		"lookupAt:in:" : "ToonVerwaest 3/22/2010 23:48",
 		"nextPc" : "ToonVerwaest 3/22/2010 23:33",
+		"printStacktrace" : "ToonVerwaest 3/25/2010 00:03",
 		"returnContext" : "DavidGurtner 3/24/2010 16:41",
 		"returnContext:" : "ToonVerwaest 3/22/2010 23:40",
 		"scopeId" : "ToonVerwaest 3/23/2010 00:09" } }

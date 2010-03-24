@@ -1,6 +1,5 @@
 tests
 testIncludesMixed
-	PDebugInterpreter interpret: [
 	(b includes: #key) should = false.
 	b add: #key.
 	(b includes: #key) should = true.
@@ -12,4 +11,6 @@ testIncludesMixed
 	(b includes: 'key') should = false.
 	(b includes: #key2) should = false.
 	
-	 (b includes: 'key2') should = true ].
+	PDebugInterpreter interpret: [
+	 (b includes: 'key2') should = true.
+	].
