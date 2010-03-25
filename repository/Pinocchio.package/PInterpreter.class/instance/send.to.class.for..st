@@ -7,7 +7,6 @@ send: aMessage to: receiver class: class for: aSend
 			[ ^ method
 				accept: self
 				on: receiver
-				class: class
 				message: aMessage ].
 	method := self lookupSelector: aMessage selector in: class.
 	method ifNil: [ ^ self sendDoesNotUnderstandFor: aMessage to: receiver ].
@@ -15,5 +14,4 @@ send: aMessage to: receiver class: class for: aSend
 	^ method
 		accept: self
 		on: receiver
-		class: class
 		message: aMessage

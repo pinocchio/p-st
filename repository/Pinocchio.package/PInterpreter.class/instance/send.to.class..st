@@ -6,5 +6,4 @@ send: aMessage to: receiver class: class
 	^ method
 		accept: self
 		on: receiver
-		class: class
 		message: aMessage
