@@ -26,4 +26,5 @@ exportBasicClasses
 		add: PPlugin;
 		add: PWriteFile;
 		add: PReadFile;
+		add: PUnsintInstVariable;
 		yourself
