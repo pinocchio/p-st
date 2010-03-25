@@ -1,3 +1,3 @@
 initialize-release
 initialize
-	pc := 0.
+	pc := 0

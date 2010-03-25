@@ -1,3 +1,3 @@
 testing
 setUp
-	d := PDictionary new.
+	d := PDictionary new

@@ -1,5 +1,6 @@
 pharo-exporting
-asPClass 
+asPClass
 	<preventExport>
-	self = PSymbol ifFalse: [ ^ super asPClass ].
+	self = PSymbol
+		ifFalse: [ ^ super asPClass ].
 	^ PInternalClass newWith: PSymbol

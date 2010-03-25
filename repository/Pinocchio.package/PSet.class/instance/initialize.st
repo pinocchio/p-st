@@ -1,3 +1,3 @@
 initialization
 initialize
-	self initialize: 20.
+	self initialize: 20

@@ -1,3 +1,3 @@
 exporting
 extractMethod: methodSelector
-	^ self lookupSelector: methodSelector in: self sclass.
+	^ self lookupSelector: methodSelector in: self sclass

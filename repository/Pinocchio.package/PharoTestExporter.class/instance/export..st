@@ -1,7 +1,4 @@
 exporting
 export: aCollection
 	self todo: aCollection.
-	^ self export.
-	
-
-	
+	^ self export

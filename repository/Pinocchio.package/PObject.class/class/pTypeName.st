@@ -1,3 +1,3 @@
 accessing
 pTypeName
-	^ self basicPTypeName: 'Type'.
+	^ self basicPTypeName: 'Type'

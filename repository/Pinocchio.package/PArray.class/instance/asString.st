@@ -1,3 +1,3 @@
 converting
 asString
-	^ 'an Array()'.
+	^ 'an Array()'

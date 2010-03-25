@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"asPClass" : "ToonVerwaest 3/22/2010 15:05" },
+		"asPClass" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
-		"assignAt:in:to:" : "ToonVerwaest 3/23/2010 00:37",
-		"initialize" : "ToonVerwaest 3/22/2010 23:30",
-		"lookupAt:in:" : "ToonVerwaest 3/22/2010 23:53",
-		"outerScope" : "ToonVerwaest 3/23/2010 00:26",
-		"outerScope:" : "ToonVerwaest 3/22/2010 23:45" } }
+		"assignAt:in:to:" : "ToonVerwaest 3/25/2010 12:39",
+		"initialize" : "ToonVerwaest 3/25/2010 12:39",
+		"lookupAt:in:" : "ToonVerwaest 3/25/2010 12:39",
+		"outerScope" : "ToonVerwaest 3/25/2010 12:39",
+		"outerScope:" : "ToonVerwaest 3/25/2010 12:39" } }

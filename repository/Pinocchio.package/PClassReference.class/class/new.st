@@ -1,3 +1,3 @@
 instance creation
 new
-	self error: 'Don''t'.
+	self error: 'Don''t'

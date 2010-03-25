@@ -9,20 +9,15 @@ testVisitPath2
 	classReference ensurePinocchioClass: pclass.
 	pclass package: type.
 	visitor pclass: pclass.
-	
 	result := self ast: 'Pinocchio.IO.Object'.
 	result should = classReference.
-	
 	result := self ast: 'IO.Object'.
 	result should = classReference.
 	result := self ast: 'Pinocchio.IO'.
 	result should = type.
-	
 	result := self ast: 'Object'.
 	result should = classReference.
 	result := self ast: 'Pinocchio'.
 	result should = root.
-	
 	result := self ast: 'IO'.
-	result should = type.
-	
+	result should = type

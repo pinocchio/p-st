@@ -1,7 +1,9 @@
 convenience
-ensurePinocchioClass: aPinocchioClass 
+ensurePinocchioClass: aPinocchioClass
 	aPinocchioClass should not be isNil.
-	pClass 
+	pClass
 		ifNil: [ pClass := aPinocchioClass ]
-		ifNotNil: [ pClass = aPinocchioClass ifFalse: [ self error ] ].
+		ifNotNil:
+			[ pClass = aPinocchioClass
+				ifFalse: [ self error ] ].
 	^ pClass

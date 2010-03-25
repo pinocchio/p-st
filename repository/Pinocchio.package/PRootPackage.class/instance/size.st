@@ -1,3 +1,3 @@
 accessing
 size
-	^ self members size.
+	^ self members size

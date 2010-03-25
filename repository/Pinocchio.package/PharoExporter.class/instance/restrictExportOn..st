@@ -1,3 +1,3 @@
 accessing
-restrictExportOn: aSet 
-	restrictionSet := aSet.
+restrictExportOn: aSet
+	restrictionSet := aSet

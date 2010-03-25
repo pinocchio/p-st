@@ -1,3 +1,3 @@
 visitor
-visitCharacter: anASTCharacter 
+visitCharacter: anASTCharacter
 	^ PConstant new: anASTCharacter char

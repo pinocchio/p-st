@@ -1,4 +1,5 @@
 private
 shouldShrink
-	"TODO"	
+	"TODO"
+
 	^ false

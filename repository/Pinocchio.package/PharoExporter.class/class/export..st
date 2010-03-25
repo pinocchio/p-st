@@ -1,3 +1,3 @@
 exporting
 export: classes
-	^ self new export: classes asOrderedCollection.
+	^ self new export: classes asOrderedCollection

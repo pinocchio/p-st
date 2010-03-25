@@ -1,3 +1,3 @@
 accessing
 currentInfo: anPInfo
-	currentInfo := anPInfo.
+	currentInfo := anPInfo

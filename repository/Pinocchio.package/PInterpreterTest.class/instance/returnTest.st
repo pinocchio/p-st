@@ -1,4 +1,5 @@
 running
 returnTest
-	true ifTrue: [ ^ 10 ].
+	true
+		ifTrue: [ ^ 10 ].
 	^ 20

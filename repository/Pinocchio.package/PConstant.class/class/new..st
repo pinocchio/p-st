@@ -1,3 +1,3 @@
 instance creation
 new: aConstant
-	^ super new constant: aConstant 
+	^ super new constant: aConstant

@@ -1,4 +1,4 @@
 accessing
 pTypeName
 	<preventExport>
-	^ self basicPTypeName: 'IO'.
+	^ self basicPTypeName: 'IO'

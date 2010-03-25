@@ -1,3 +1,3 @@
 visitor
-visitBoolean: aPinocchioBoolean 
+visitBoolean: aPinocchioBoolean
 	^ aPinocchioBoolean

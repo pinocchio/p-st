@@ -1,4 +1,4 @@
 test-basics
-testMethodArgument: arg 
+testMethodArgument: arg
 	<arg1: 1>
 	^ arg + 1

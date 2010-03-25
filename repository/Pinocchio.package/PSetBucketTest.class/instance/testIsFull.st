@@ -8,5 +8,4 @@ testIsFull
 	b add: #c.
 	b isFull should = true.
 	b remove: #b.
-	b isFull should = false.
-	
+	b isFull should = false

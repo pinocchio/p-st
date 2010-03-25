@@ -1,3 +1,3 @@
 interpreting
 visitClassReference: aClassReference
-	^ aClassReference pclass.
+	^ aClassReference pclass

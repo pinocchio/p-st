@@ -7,13 +7,8 @@ testVisitMethodWithReturnSimpleCall
 	ast := ast code.
 	ast locals size should = 0.
 	ast params size should = 0.
-	
-	ast size should = 1. "Just a send: self foo"
+	ast size should = 1.	"Just a send: self foo"
 	send := ast first.
 	send class should = PSend.
 	send receiver class should = PSelf.
-	send message asSymbol should = #foo 
-	
-	
-	
-	
+	send message asSymbol should = #foo

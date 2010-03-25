@@ -1,3 +1,3 @@
 accessing
 onAssignTo: aBlock
-	onAssignToBlock := aBlock.
+	onAssignToBlock := aBlock

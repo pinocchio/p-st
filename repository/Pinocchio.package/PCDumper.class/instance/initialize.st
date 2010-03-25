@@ -1,4 +1,4 @@
 initialize-release
 initialize
 	self clear.
-	progress := 0.
+	progress := 0

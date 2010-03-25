@@ -1,3 +1,3 @@
 accessing
 stdout: aString
-	self stdout writeAll: aString.
+	self stdout writeAll: aString

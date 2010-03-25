@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"astSelectors" : "CamilloBruni 1/27/2010 23:30" },
+		"astSelectors" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
-		"asNumber" : "ToonVerwaest 2/18/2010 16:11",
-		"base" : "tv 3/27/2009 16:22",
-		"base:" : "tv 3/27/2009 16:22",
-		"number" : "cb 3/26/2009 15:15",
-		"number:" : "cb 3/26/2009 15:15",
-		"printOn:" : "TestRunner 11/3/2009 15:00" } }
+		"asNumber" : "ToonVerwaest 3/25/2010 12:39",
+		"base" : "ToonVerwaest 3/25/2010 12:39",
+		"base:" : "ToonVerwaest 3/25/2010 12:39",
+		"number" : "ToonVerwaest 3/25/2010 12:39",
+		"number:" : "ToonVerwaest 3/25/2010 12:39",
+		"printOn:" : "ToonVerwaest 3/25/2010 12:39" } }

@@ -1,4 +1,4 @@
 exporting
 pTypeName
 	<preventExport>
-	^ self basicPTypeName: 'Collection'.
+	^ self basicPTypeName: 'Collection'

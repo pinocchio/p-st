@@ -1,3 +1,3 @@
 converting
-asString 
+asString
 	^ self string

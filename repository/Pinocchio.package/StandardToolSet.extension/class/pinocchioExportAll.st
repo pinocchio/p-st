@@ -1,3 +1,3 @@
 *Pinocchio
 pinocchioExportAll
-	P exportAll.
+	P exportAll

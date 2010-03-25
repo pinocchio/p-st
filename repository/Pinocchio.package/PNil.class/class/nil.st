@@ -1,5 +1,5 @@
 accessing
 nil
 	<preventExport>
-	nilInstance ifNil: [nilInstance := PNil new].
+	nilInstance ifNil: [ nilInstance := PNil new ].
 	^ nilInstance

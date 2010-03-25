@@ -1,3 +1,3 @@
 accessing
-bucketSize 
-	^ bucketSize.
+bucketSize
+	^ bucketSize

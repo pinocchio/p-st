@@ -1,4 +1,4 @@
 comparing
 testEqual: other
-	<renameExport: #'='>
+	<renameExport: #= >
 	^ other = self asSmallInt

@@ -1,3 +1,3 @@
 accessing
 pclass: aPinocchioClass
-	self declareAll: aPinocchioClass layout.
+	self declareAll: aPinocchioClass layout

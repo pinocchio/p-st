@@ -1,4 +1,4 @@
 initialization
-initialize 
+initialize
 	super initialize.
-	instance := super new.
+	instance := super new

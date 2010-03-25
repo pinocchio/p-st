@@ -5,5 +5,5 @@ generateMethodFor: methodSelector on: outStream
 	methodSourceString := method getSource asString.
 	ast := self ast: methodSourceString.
 	dumper clear.
-	dumper visitCollection: ast. 
-	outStream nextPutAll: dumper asString.
+	dumper visitCollection: ast.
+	outStream nextPutAll: dumper asString

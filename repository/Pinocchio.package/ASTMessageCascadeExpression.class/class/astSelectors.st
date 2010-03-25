@@ -1,3 +1,3 @@
 accessing
-astSelectors 
-	^ Array with: #cascades with: #receivers.
+astSelectors
+	^ Array with: #cascades with: #receivers

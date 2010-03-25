@@ -6,4 +6,4 @@ testIncludesMixed
 	(b includes: #key) should = false.
 	(b includes: 'key') should = false.
 	(b includes: 'value1') should = true.
-	(b includes: 'value2') should = true.
+	(b includes: 'value2') should = true

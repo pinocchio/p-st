@@ -1,4 +1,3 @@
 accessing
 currentClass: aPinocchioClass
-	currentClass := aPinocchioClass.
-	
+	currentClass := aPinocchioClass

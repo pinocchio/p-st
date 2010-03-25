@@ -1,5 +1,6 @@
 pharo-exporting
-asPClass 
+asPClass
 	<preventExport>
-	self = PSmallInt ifFalse: [ ^ super asPClass ].
+	self = PSmallInt
+		ifFalse: [ ^ super asPClass ].
 	^ PInternalClass newWith: PSmallInt

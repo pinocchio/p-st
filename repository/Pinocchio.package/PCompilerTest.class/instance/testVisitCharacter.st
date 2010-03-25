@@ -4,4 +4,4 @@ testVisitCharacter
 	character := ASTCharacter new char: $c.
 	result := visitor visit: character.
 	result class should = PConstant.
-	result constant asCharacter should = $c.
+	result constant asCharacter should = $c

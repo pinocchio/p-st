@@ -1,4 +1,4 @@
 pharo-exporting
-uid 
+uid
 	<preventExport>
 	^ uid

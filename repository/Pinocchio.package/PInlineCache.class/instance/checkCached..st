@@ -1,4 +1,5 @@
 accessing
 checkCached: aClass
-	class = aClass ifTrue: [ ^ method ].
+	class = aClass
+		ifTrue: [ ^ method ].
 	^ nil

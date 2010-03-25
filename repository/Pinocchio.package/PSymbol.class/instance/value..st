@@ -1,3 +1,3 @@
 evaluating
-value: anObject 
-	^anObject perform: self.
+value: anObject
+	^ anObject perform: self

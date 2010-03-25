@@ -1,3 +1,3 @@
 literal
 initializeSpecialCharacter
-	^ ('+*/\~<>=@%?!&`,' asPEGChoice)
+	^ '+*/\~<>=@%?!&`,' asPEGChoice

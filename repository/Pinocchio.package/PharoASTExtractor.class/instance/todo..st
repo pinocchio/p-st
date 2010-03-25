@@ -1,3 +1,3 @@
 accessing
 todo: aCollection
-	todo := aCollection.
+	todo := aCollection

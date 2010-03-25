@@ -1,5 +1,6 @@
 exporting
-asPClass 
+asPClass
 	<preventExport>
-	self = PMethodContext ifFalse: [ ^ super asPClass ].
+	self = PMethodContext
+		ifFalse: [ ^ super asPClass ].
 	^ PInternalClass newWith: self

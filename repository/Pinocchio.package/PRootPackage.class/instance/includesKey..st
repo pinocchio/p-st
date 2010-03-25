@@ -1,3 +1,3 @@
 accessing
 includesKey: aKey
-	^ members includesKey: aKey.
+	^ members includesKey: aKey

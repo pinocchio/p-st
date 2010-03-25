@@ -1,7 +1,6 @@
 *Pinocchio
 pClassMethods
 	<preventExport>
-	self = OrderedCollection ifTrue: [
-	^ #all.
-	].
+	self = OrderedCollection
+		ifTrue: [ ^ #all ].
 	^ super pClassMethods

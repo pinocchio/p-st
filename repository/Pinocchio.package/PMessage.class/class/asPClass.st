@@ -1,5 +1,6 @@
 exporting
-asPClass 
+asPClass
 	<preventExport>
-	self = PMessage ifFalse: [ ^ super asPClass ].
+	self = PMessage
+		ifFalse: [ ^ super asPClass ].
 	^ PInternalClass newWith: self

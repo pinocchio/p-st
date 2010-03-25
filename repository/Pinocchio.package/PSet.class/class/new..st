@@ -1,3 +1,3 @@
 initialize-release
 new: preferredSize
-	^ self basicNew initialize: preferredSize.
+	^ self basicNew initialize: preferredSize

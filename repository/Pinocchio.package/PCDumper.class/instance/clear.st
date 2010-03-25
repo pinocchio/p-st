@@ -3,4 +3,4 @@ clear
 	stream := WriteStream on: (String new: 1000000).
 	globals := IdentitySet new.
 	packages := OrderedCollection new.
-	visitedNodes := IdentitySet new.
+	visitedNodes := IdentitySet new

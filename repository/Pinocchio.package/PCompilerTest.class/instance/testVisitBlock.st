@@ -1,12 +1,11 @@
 running
 testVisitBlock
 	| emptyblock variable result |
-	emptyblock := ASTBlock new
+	emptyblock := (ASTBlock new)
 		statements: (Array new: 0);
 		parameters: (Array new: 0).
 	result := visitor visit: emptyblock.
 	result class should = PBlock.
-	
 	variable := ASTVariable new name: #element.
 	result := self ast: '[:element || temp | element := 1.]'.
 	result class should = PBlock.
@@ -16,4 +15,4 @@ testVisitBlock
 	result first class should = PAssign.
 	result first variable class should = PVariable.
 	result first variable name should = #element.
-	result first variable should == result params first.
+	result first variable should == result params first

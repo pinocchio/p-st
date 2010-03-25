@@ -1,3 +1,3 @@
 interpreting
-visitSelf: aSelf 
-	^ self currentSelf.
+visitSelf: aSelf
+	^ self currentSelf

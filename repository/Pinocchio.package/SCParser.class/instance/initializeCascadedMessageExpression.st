@@ -1,5 +1,4 @@
 expression
 initializeCascadedMessageExpression
-	self expression.
-	" expression will build this parser. "
-	^ self cascadedMessageExpression.
+	self expression.	" expression will build this parser. "
+	^ self cascadedMessageExpression

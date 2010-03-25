@@ -1,4 +1,4 @@
 logical-operations
 whileTrue: aBlock
 	aBlock value.
-	self whileTrue: aBlock.
+	self whileTrue: aBlock

@@ -1,5 +1,5 @@
 accessing
 true
 	<preventExport>
-	trueInstance ifNil: [ trueInstance := PBoolean new bool: true].
-	^ trueInstance.
+	trueInstance ifNil: [ trueInstance := PBoolean new bool: true ].
+	^ trueInstance

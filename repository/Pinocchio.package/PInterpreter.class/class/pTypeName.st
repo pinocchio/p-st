@@ -1,3 +1,3 @@
 exporting
 pTypeName
-	^ self basicPTypeName: 'Interpretation'.
+	^ self basicPTypeName: 'Interpretation'

@@ -1,8 +1,10 @@
 {
 	"class" : {
-		"do:" : "TestRunner 11/11/2009 14:39",
-		"newFrom:" : "CamilloBruni 11/10/2009 15:21" },
+		"do:" : "ToonVerwaest 3/25/2010 12:39",
+		"newFrom:" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
-		"do:" : "TestRunner 11/24/2009 13:38",
-		"printOn:" : "CamilloBruni 11/10/2009 14:39",
-		"withIndexDo:" : "ToonVerwaest 2/19/2010 13:26" } }
+		"do:" : "ToonVerwaest 3/25/2010 12:39",
+		"inspectChildrenFrom:" : "ToonVerwaest 3/25/2010 14:32",
+		"printOn:" : "ToonVerwaest 3/25/2010 12:39",
+		"select:" : "ToonVerwaest 3/25/2010 14:42",
+		"withIndexDo:" : "ToonVerwaest 3/25/2010 12:39" } }

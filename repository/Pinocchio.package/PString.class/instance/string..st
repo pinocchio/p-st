@@ -1,4 +1,4 @@
 accessing
 string: aString
 	<preventExport>
-	string := aString 
+	string := aString

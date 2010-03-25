@@ -1,5 +1,6 @@
 exporting
 asPClass
 	<preventExport>
-	self = PWordsLayout ifFalse: [ ^ super asPClass ].
-	^  PInternalClass newWith: self
+	self = PWordsLayout
+		ifFalse: [ ^ super asPClass ].
+	^ PInternalClass newWith: self

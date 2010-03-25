@@ -1,5 +1,6 @@
 exporting
-asPClass 
+asPClass
 	<preventExport>
-	self = PInlineCache ifFalse: [ ^ super asPClass ].
+	self = PInlineCache
+		ifFalse: [ ^ super asPClass ].
 	^ PInternalClass newWith: self

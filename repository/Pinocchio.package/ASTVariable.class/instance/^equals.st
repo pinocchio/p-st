@@ -1,3 +1,3 @@
 typing
-= other 
-	^ self name = other name. 
+= other
+	^ self name = other name

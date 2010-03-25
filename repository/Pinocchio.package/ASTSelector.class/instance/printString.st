@@ -1,3 +1,3 @@
 converting
 printString
-	^ self asString.
+	^ self asString

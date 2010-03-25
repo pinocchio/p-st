@@ -1,7 +1,7 @@
 initialize-release
 initialize
 	super initialize.
-	progress := [0].
+	progress := [ 0 ].
 	restrictionSet := PSet new.
 	root := PRootPackage new.
 	done := IdentityDictionary new.
@@ -10,4 +10,4 @@ initialize
 	pinocchioVisitor := PCompiler new.
 	pinocchioVisitor world: self.
 	cdumper := PCDumper new.
-	classASTs := IdentityDictionary new.
+	classASTs := IdentityDictionary new

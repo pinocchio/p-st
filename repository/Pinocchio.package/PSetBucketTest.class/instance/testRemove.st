@@ -10,4 +10,4 @@ testRemove
 	b remove: #key1.
 	b bucketSize should = 1.
 	b remove: #key3.
-	b bucketSize should = 0.
+	b bucketSize should = 0

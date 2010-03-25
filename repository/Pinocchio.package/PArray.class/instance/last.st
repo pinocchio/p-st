@@ -1,3 +1,3 @@
 accessing
 last
-	^ self at: self size.
+	^ self at: self size

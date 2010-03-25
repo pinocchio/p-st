@@ -1,4 +1,3 @@
 typing
 compatibleWith: aSelector
-	^ (self selectorName = aSelector selectorName)
-	
+	^ self selectorName = aSelector selectorName

@@ -1,4 +1,4 @@
 pharo-exporter
 createPMetaclass
 	<preventExport>
-	^ PInternalMetaclass newWithPClass: self.
+	^ PInternalMetaclass newWithPClass: self

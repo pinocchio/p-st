@@ -1,6 +1,8 @@
 test-source-output
 putSeparatorOn: outStream
-	outStream lf; lf;
+	outStream
+		lf;
+		lf;
 		nextPutAll: '/* ========================================================================= */';
-		cr; lf.
-	
+		cr;
+		lf

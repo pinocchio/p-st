@@ -1,3 +1,3 @@
 convenience
 initializeLowercase
-	^ ('a-z' asPEGRange)
+	^ 'a-z' asPEGRange

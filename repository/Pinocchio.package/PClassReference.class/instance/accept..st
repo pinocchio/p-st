@@ -1,3 +1,3 @@
 interpreting
 accept: visitor
-	^ visitor visitClassReference: self.
+	^ visitor visitClassReference: self

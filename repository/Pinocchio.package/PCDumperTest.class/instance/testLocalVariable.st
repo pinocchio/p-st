@@ -1,5 +1,5 @@
 test-basics
 testLocalVariable
-	|a|
+	| a |
 	a := 1.
 	^ a

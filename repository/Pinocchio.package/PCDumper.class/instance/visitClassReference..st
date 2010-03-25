@@ -5,5 +5,4 @@ visitClassReference: aPClassReference
 	self currentClass: aPClassReference pclass.
 	self visit: aPClassReference pclass.
 	self currentClass: oldClass.
-	
-	globals add: aPClassReference.
+	globals add: aPClassReference

@@ -1,3 +1,3 @@
 comparing
 isUppercase
-	^ self = self asUppercase.
+	^ self = self asUppercase

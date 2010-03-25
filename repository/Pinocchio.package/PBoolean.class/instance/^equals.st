@@ -1,4 +1,4 @@
 comparing
 = other
 	<preventExport>
-	^self bool = other bool
+	^ self bool = other bool

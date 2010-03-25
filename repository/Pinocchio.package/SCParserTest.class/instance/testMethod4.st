@@ -11,4 +11,4 @@ testMethod4
 	result hasReturnExpression should be true.
 	result class should = ASTMethod.
 	result message asString should = 'withA:withB:withC:'.
-	result statements last hasReturnExpression should be true.
+	result statements last hasReturnExpression should be true

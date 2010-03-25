@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"astSelectors" : "CamilloBruni 1/27/2010 23:30" },
+		"astSelectors" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
-		"expression" : "cb 3/26/2009 13:26",
-		"expression:" : "cb 3/26/2009 13:26",
-		"hasReturnExpression" : "ToonVerwaest 2/19/2010 15:35",
-		"isReturnExpression" : "TestRunner 10/22/2009 18:00" } }
+		"expression" : "ToonVerwaest 3/25/2010 12:39",
+		"expression:" : "ToonVerwaest 3/25/2010 12:39",
+		"hasReturnExpression" : "ToonVerwaest 3/25/2010 12:39",
+		"isReturnExpression" : "ToonVerwaest 3/25/2010 12:39" } }

@@ -1,4 +1,4 @@
 printing
 printOn: aStream
 	<preventExport>
-	self string printOn: aStream.
+	self string printOn: aStream

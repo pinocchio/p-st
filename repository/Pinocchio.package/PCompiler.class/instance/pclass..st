@@ -1,10 +1,8 @@
 accessing
 pclass: aPinocchioClass
-	scope isRootScope ifFalse: [ 
-		self error: ('Current scope is not RootScope but ', scope class name).
-	].
-	
+	scope isRootScope
+		ifFalse: [ self error: 'Current scope is not RootScope but ' , scope class name ].
 	pinocchioClass := aPinocchioClass.
-	scope := PClassScope new 
+	scope := (PClassScope new)
 		pclass: aPinocchioClass;
-		parentScope: scope.
+		parentScope: scope

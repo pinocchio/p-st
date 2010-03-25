@@ -1,4 +1,4 @@
 pharo-exporter
-uid 
+uid
 	<preventExport>
-	^ 'HEADER(', self pclass uid, ')'
+	^ 'HEADER(' , self pclass uid , ')'

@@ -4,4 +4,4 @@ testIsEmpty
 	b add: #v.
 	b isEmpty should = false.
 	b remove: #v.
-	b isEmpty should = true.
+	b isEmpty should = true

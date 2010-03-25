@@ -1,3 +1,3 @@
 visitor
-visitString: anASTString 
+visitString: anASTString
 	^ PConstant new: anASTString asString

@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"index",
-		"name",
-		"package" ],
+		 ],
 	"name" : "PInstVariable",
 	"pools" : [
 		 ],
-	"super" : "PObject",
+	"super" : "PAbstractInstVariable",
 	"type" : "normal" }

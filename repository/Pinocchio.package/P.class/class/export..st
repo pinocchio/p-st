@@ -1,3 +1,3 @@
 *Pinocchio
 export: aRestrictingSet
-	^ PharoTestExporter pexportTest: aRestrictingSet.
+	^ PharoTestExporter pexportTest: aRestrictingSet

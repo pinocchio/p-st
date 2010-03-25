@@ -1,3 +1,3 @@
 pharo-exporting
 pMethods
-	^ #all.
+	^ #all

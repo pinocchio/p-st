@@ -1,3 +1,3 @@
 shelling
 displayPrompt
-	PFile stdout writeAll: 'pidb> '.
+	PFile stdout writeAll: 'pidb> '

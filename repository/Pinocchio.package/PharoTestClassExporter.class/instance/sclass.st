@@ -1,3 +1,3 @@
 accessing
 sclass
-	^ sclass. 
+	^ sclass

@@ -1,3 +1,3 @@
 running
 setUp
-	d := PIdentityDictionary new.
+	d := PIdentityDictionary new

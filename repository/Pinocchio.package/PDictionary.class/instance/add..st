@@ -1,3 +1,3 @@
 adding
 add: anObject
-	self shouldNotCall.
+	self shouldNotCall

@@ -1,5 +1,6 @@
 pharo-exporting
-asPClass 
+asPClass
 	<preventExport>
-	self = PBlockClosure ifFalse: [ ^ super asPClass ].
+	self = PBlockClosure
+		ifFalse: [ ^ super asPClass ].
 	^ PInternalClass newWith: self

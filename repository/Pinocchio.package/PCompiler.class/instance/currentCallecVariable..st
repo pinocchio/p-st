@@ -1,3 +1,3 @@
 accessing
 currentCallecVariable: aPinocchioVariable
-	currentCallecVariable := aPinocchioVariable.
+	currentCallecVariable := aPinocchioVariable

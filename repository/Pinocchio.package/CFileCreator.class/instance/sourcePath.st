@@ -1,3 +1,3 @@
 exporting
 sourcePath
-	^ (FileDirectory dirPathFor: FileDirectory default fullName), '/src/'
+	^ (FileDirectory dirPathFor: FileDirectory default fullName) , '/src/'

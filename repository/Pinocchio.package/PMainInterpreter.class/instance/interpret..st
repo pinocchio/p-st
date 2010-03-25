@@ -1,3 +1,3 @@
 interpretation
-interpret: code 
-	^ nil perform: (self compile: code) selector.
+interpret: code
+	^ nil perform: (self compile: code) selector

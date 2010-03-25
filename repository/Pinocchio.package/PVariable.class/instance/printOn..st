@@ -6,4 +6,4 @@ printOn: aStream
 	aStream nextPutAll: ' '.
 	self scopeId printOn: aStream.
 	aStream nextPutAll: '@'.
-	self localId printOn: aStream.
+	self localId printOn: aStream

@@ -1,5 +1,5 @@
 pharo-exporter
-initialize 
+initialize
 	<preventExport>
 	super initialize.
-	self superclass: PNil nil.
+	self superclass: PNil nil

@@ -1,3 +1,3 @@
 *Pinocchio
 pinocchioExportChanges
-	P export.
+	P export

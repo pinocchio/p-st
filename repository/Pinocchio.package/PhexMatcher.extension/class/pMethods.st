@@ -2,7 +2,6 @@
 pMethods
 	<preventExport>
 	| s |
-	self = PhexMatcher ifTrue: [
-		^ #all.
-	].
+	self = PhexMatcher
+		ifTrue: [ ^ #all ].
 	^ super pMethods

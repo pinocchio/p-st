@@ -1,3 +1,3 @@
 *Pinocchio
 pMethods
-	^ Array new.
+	^ Array new

@@ -1,5 +1,5 @@
 visitor
-visitKeywordAnnotation: anASTKeywordAnnotation 
+visitKeywordAnnotation: anASTKeywordAnnotation
 	| annotation arguments |
 	annotation := PAnnotation new: anASTKeywordAnnotation arguments size.
 	annotation selector: (self visit: anASTKeywordAnnotation selector).

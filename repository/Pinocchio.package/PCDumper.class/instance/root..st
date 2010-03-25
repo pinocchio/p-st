@@ -1,3 +1,3 @@
 accessing
 root: aPRootPackage
-	root := aPRootPackage.
+	root := aPRootPackage

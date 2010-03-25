@@ -2,6 +2,4 @@ compiling
 compile: aString
 	| method |
 	method := PCompiler compile: aString on: self.
-	^ self methods 
-		at: method selector 
-		put: method.
+	^ self methods at: method selector put: method

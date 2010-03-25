@@ -1,5 +1,5 @@
 instance creation
 localId: localId scopeId: scopeId
-	^ self new
+	^ (self new)
 		localId: localId;
 		scopeId: scopeId

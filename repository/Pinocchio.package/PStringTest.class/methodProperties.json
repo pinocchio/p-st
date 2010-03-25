@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAsString" : "CamilloBrun 2/24/2010 08:48",
-		"testAsSymbol" : "CamilloBrun 2/24/2010 08:58",
-		"testAtPut" : "VincentVanGogh 2/24/2010 13:50",
-		"testBasic" : "CamilloBrun 2/24/2010 08:38",
-		"testConcat" : "CamilloBrun 2/24/2010 08:48",
-		"testEquals" : "CamilloBruni 3/24/2010 17:14",
-		"testSize" : "CamilloBrun 2/24/2010 08:52" } }
+		"testAsString" : "ToonVerwaest 3/25/2010 12:44",
+		"testAsSymbol" : "ToonVerwaest 3/25/2010 12:44",
+		"testAtPut" : "ToonVerwaest 3/25/2010 12:44",
+		"testBasic" : "ToonVerwaest 3/25/2010 12:44",
+		"testConcat" : "ToonVerwaest 3/25/2010 12:44",
+		"testEquals" : "ToonVerwaest 3/25/2010 12:44",
+		"testSize" : "ToonVerwaest 3/25/2010 12:44" } }

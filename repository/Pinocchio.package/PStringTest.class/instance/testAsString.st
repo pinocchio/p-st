@@ -1,3 +1,3 @@
 testing
 testAsString
-	'asdfasdf' asString should = 'asdfasdf'.
+	'asdfasdf' asString should = 'asdfasdf'

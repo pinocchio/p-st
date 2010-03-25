@@ -6,4 +6,4 @@ testAtWhenAbsent
 	r := d at: 4 ifAbsent: nil.
 	r should be isNil.
 	r := d at: true ifAbsent: nil.
-	r should be isNil.
+	r should be isNil

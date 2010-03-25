@@ -1,3 +1,3 @@
 visiting
 visitPackage: aPPackage
-	self visitCollection: aPPackage members.
+	self visitCollection: aPPackage members

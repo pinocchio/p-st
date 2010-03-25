@@ -1,3 +1,3 @@
 private
 bucketIndexForHash: hash
-	^ (hash \\ buckets size) + 1
+	^ hash \\ buckets size + 1

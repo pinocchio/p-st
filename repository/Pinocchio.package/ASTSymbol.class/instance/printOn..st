@@ -1,3 +1,3 @@
 printing
 printOn: aStream
-	aStream nextPutAll: symbol.
+	aStream nextPutAll: symbol

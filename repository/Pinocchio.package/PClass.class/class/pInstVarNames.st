@@ -1,4 +1,4 @@
 pharo-exporting
-pInstVarNames 
+pInstVarNames
 	<preventExport>
 	^ OrderedCollection with: #name with: #package

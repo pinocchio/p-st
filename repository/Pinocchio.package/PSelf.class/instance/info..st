@@ -1,3 +1,3 @@
 as yet unclassified
-info: black 
-	self halt.
+info: black
+	self halt

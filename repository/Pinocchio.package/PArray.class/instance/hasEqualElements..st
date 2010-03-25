@@ -6,9 +6,12 @@ hasEqualElements: otherCollection
 	This should probably replace the current definition of #= ."
 
 	| size |
-	(otherCollection isKindOf: PArray) ifFalse: [^ false].
-	(size := self size) = otherCollection size ifFalse: [^ false].
+	(otherCollection isKindOf: PArray)
+		ifFalse: [ ^ false ].
+	(size := self size) = otherCollection size
+		ifFalse: [ ^ false ].
 	1 to: size do:
-		[:index |
-		(self at: index) = (otherCollection at: index) ifFalse: [^ false]].
+			[ :index | 
+			(self at: index) = (otherCollection at: index)
+				ifFalse: [ ^ false ] ].
 	^ true

@@ -8,4 +8,4 @@ testVisitAssignmentExpression
 	result variable class should = PVariable.
 	result variable name should = #a.
 	result expression class should = PConstant.
-	result expression constant = 13.
+	result expression constant = 13

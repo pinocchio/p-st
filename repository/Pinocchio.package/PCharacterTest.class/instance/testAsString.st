@@ -1,3 +1,3 @@
 test-basics
 testAsString
-	$c  asString = 'c'.
+	$c asString = 'c'

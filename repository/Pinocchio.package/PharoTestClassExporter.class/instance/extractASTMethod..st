@@ -1,3 +1,3 @@
 exporting
 extractASTMethod: methodSelector
-	^ self lookupSelector: methodSelector in: self pclass.
+	^ self lookupSelector: methodSelector in: self pclass

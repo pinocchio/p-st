@@ -1,5 +1,5 @@
 convenience
 createSymbol: anObject
-	anObject isString 
+	anObject isString
 		ifFalse: [ ^ anObject ].
 	^ ASTSymbol named: anObject

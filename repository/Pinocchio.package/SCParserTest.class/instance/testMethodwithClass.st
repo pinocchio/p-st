@@ -8,5 +8,4 @@ testMethodwithClass
 	result := parser parse: string.
 	result hasReturnExpression should = false.
 	result class should = ASTMethod.
-	result message asString should = 'withA:'.
-	"self halt."
+	result message asString should = 'withA:'	"self halt."

@@ -1,3 +1,3 @@
 exporting
 pexportTest
-	self pexportTest: PSet new. 
+	self pexportTest: PSet new

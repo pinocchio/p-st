@@ -1,3 +1,3 @@
 accessing
 parameters
-	^ OrderedCollection with: self parameter.
+	^ OrderedCollection with: self parameter

@@ -1,3 +1,3 @@
 accessing
 stderr: aString
-	self stderr writeAll: aString.
+	self stderr writeAll: aString

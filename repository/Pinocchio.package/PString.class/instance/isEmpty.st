@@ -1,3 +1,3 @@
 converting
-isEmpty 
-	^ self size = 0.
+isEmpty
+	^ self size = 0

@@ -1,3 +1,3 @@
 test-basics
 testClassReferenceReturn
-	^ Metaclass name.
+	^ Metaclass name

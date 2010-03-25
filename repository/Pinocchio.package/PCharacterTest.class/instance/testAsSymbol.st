@@ -1,3 +1,3 @@
 test-basics
 testAsSymbol
-	$c asSymbol should == #c.
+	$c asSymbol should == #c

@@ -1,3 +1,3 @@
 exporting
 assureExistenceOfPath: dirPath
-	(FileDirectory on: dirPath) assureExistence.
+	(FileDirectory on: dirPath) assureExistence

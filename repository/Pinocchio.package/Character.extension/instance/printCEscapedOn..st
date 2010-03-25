@@ -1,3 +1,3 @@
 *Pinocchio
 printCEscapedOn: aStream
-	aStream nextPutAll: self cEscaped.
+	aStream nextPutAll: self cEscaped

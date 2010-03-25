@@ -5,6 +5,7 @@ indexOf: anElement startingAt: start ifAbsent: exceptionBlock
 	answer the 	result of evaluating the argument, exceptionBlock."
 
 	start to: self size do:
-		[:index |
-		(self at: index) = anElement ifTrue: [^ index]].
+			[ :index | 
+			(self at: index) = anElement
+				ifTrue: [ ^ index ] ].
 	^ exceptionBlock value

@@ -1,3 +1,3 @@
 instance creation
 new
-	^ self new: 8.
+	^ self new: 8

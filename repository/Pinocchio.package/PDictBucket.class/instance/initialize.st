@@ -1,3 +1,3 @@
 initialization
 initialize
-	bucketSize := 0.
+	bucketSize := 0

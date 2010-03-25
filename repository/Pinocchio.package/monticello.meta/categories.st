@@ -14,3 +14,4 @@ SystemOrganization addCategory: #Pinocchio!
 SystemOrganization addCategory: #'Pinocchio-Collection'!
 SystemOrganization addCategory: #'Pinocchio-Plugin'!
 SystemOrganization addCategory: #'Pinocchio-Interpreter'!
+SystemOrganization addCategory: #'Pinocchio-Inspector'!

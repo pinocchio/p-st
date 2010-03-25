@@ -1,3 +1,3 @@
 accessing
 includes: anElement
-	^ members includes: anElement.
+	^ members includes: anElement

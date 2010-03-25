@@ -1,3 +1,3 @@
 as yet unclassified
 setUp
-	s := PIdentitySet new.
+	s := PIdentitySet new

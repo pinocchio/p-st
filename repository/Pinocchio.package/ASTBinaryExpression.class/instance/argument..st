@@ -1,3 +1,3 @@
 accessing
-argument: anObject 
+argument: anObject
 	argument := anObject

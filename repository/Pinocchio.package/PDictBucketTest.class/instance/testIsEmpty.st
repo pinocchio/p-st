@@ -4,4 +4,4 @@ testIsEmpty
 	b addKey: #v value: 'v1'.
 	b isEmpty should = false.
 	b removeKey: #v.
-	b isEmpty should = true.
+	b isEmpty should = true

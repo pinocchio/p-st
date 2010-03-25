@@ -1,3 +1,3 @@
 accessing
 isCollection
-	 ^ true
+	^ true

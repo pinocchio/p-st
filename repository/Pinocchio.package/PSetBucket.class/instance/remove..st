@@ -1,5 +1,3 @@
 removing
 remove: anObject
-	^ self remove: anObject ifAbsent: [ self valueNotFound: anObject ].
-	
-	
+	^ self remove: anObject ifAbsent: [ self valueNotFound: anObject ]

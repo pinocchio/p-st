@@ -1,3 +1,3 @@
 pinocchio-export
 ~= anObject
-	^ (self = anObject) not.
+	^ (self = anObject) not

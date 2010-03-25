@@ -1,3 +1,3 @@
 accessing
 done: aCollection
-	done := aCollection.
+	done := aCollection

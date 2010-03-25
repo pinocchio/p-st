@@ -1,4 +1,6 @@
 converting
 pasString
-	<renameExport: #asString>
 	"^ self"
+
+	<renameExport: #asString>
+	

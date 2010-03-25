@@ -1,5 +1,6 @@
 exporting
-asPClass 
+asPClass
 	<preventExport>
-	self = PClosure  ifTrue: [ ^ super asPClass ].
+	self = PClosure
+		ifTrue: [ ^ super asPClass ].
 	^ PInternalClass newWith: self

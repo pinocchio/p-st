@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"asPClass" : "ToonVerwaest 2/22/2010 21:20" },
+		"asPClass" : "ToonVerwaest 3/25/2010 12:44" },
 	"instance" : {
-		"and:" : "DavidGurtner 2/4/2010 17:09",
-		"asString" : "CamilloBruni 3/17/2010 14:07",
-		"ifFalse:" : "ToonVerwaest 2/9/2010 11:28",
-		"ifFalse:ifTrue:" : "ToonVerwaest 2/9/2010 11:26",
-		"ifTrue:" : "ToonVerwaest 2/9/2010 11:27",
-		"ifTrue:ifFalse:" : "ToonVerwaest 2/9/2010 11:26",
-		"not" : "CamilloBruni 2/10/2010 21:18",
-		"or:" : "ToonVerwaest 2/11/2010 16:58",
-		"whileTrue:" : "DavidGurtner 3/4/2010 16:39" } }
+		"and:" : "ToonVerwaest 3/25/2010 12:44",
+		"asString" : "ToonVerwaest 3/25/2010 12:44",
+		"ifFalse:" : "ToonVerwaest 3/25/2010 12:44",
+		"ifFalse:ifTrue:" : "ToonVerwaest 3/25/2010 12:44",
+		"ifTrue:" : "ToonVerwaest 3/25/2010 12:44",
+		"ifTrue:ifFalse:" : "ToonVerwaest 3/25/2010 12:44",
+		"not" : "ToonVerwaest 3/25/2010 12:44",
+		"or:" : "ToonVerwaest 3/25/2010 12:44",
+		"whileTrue:" : "ToonVerwaest 3/25/2010 12:44" } }

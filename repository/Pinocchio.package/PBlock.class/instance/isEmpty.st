@@ -1,3 +1,3 @@
 accessing
-isEmpty 
-	self body isEmpty 
+isEmpty
+	self body isEmpty

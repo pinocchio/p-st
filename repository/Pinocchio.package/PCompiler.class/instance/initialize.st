@@ -1,6 +1,6 @@
 initialize-release
-initialize 
+initialize
 	super initialize.
 	scope := PRootScope new.
 	rootScope := scope.
-	self world: self rootScope.
+	self world: self rootScope

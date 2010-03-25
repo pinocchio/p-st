@@ -1,3 +1,3 @@
 accessing
 classReferences: aCollection
-	classReferences := aCollection.
+	classReferences := aCollection

@@ -1,14 +1,7 @@
 {
 	"class" : {
-		"asPClass" : "DavidGurtner 3/24/2010 16:44",
-		"named:" : "ToonVerwaest 2/18/2010 11:32",
-		"pTypeName" : "DavidGurtner 3/24/2010 16:44" },
+		"asPClass" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
-		"accept:" : "ToonVerwaest 3/18/2010 14:06",
-		"asPVariableAt:" : "ToonVerwaest 2/22/2010 11:01",
-		"assignFor:to:" : "ToonVerwaest 3/18/2010 14:35",
-		"index" : "ToonVerwaest 2/18/2010 11:33",
-		"index:" : "ToonVerwaest 2/18/2010 11:33",
-		"name" : "ToonVerwaest 2/18/2010 11:31",
-		"name:" : "ToonVerwaest 2/18/2010 11:31",
-		"uid" : "CamilloBrun 2/23/2010 17:59" } }
+		"accept:" : "ToonVerwaest 3/25/2010 12:39",
+		"assignFor:to:" : "ToonVerwaest 3/25/2010 12:39",
+		"uid" : "ToonVerwaest 3/25/2010 12:39" } }

@@ -5,7 +5,7 @@ testMetaMetaInterpretation
 	mci := PTestInterpreter new.
 	send := PSend new: 0.
 	send receiver: (PConstant new: self).
- 	messages := OrderedCollection new
+	messages := (OrderedCollection new)
 		add: #testClassReference;
 		add: #testClosure;
 		add: #testInstVariable;
@@ -17,8 +17,9 @@ testMetaMetaInterpretation
 		add: #testVariable;
 		add: #testVariableAssign;
 		yourself.
-	messages do: [ :msg |
-		send inlineCache flush.
-		send message: msg.
-		send accept: mci.
-	]
+	messages
+		do:
+			[ :msg | 
+			send inlineCache flush.
+			send message: msg.
+			send accept: mci ]

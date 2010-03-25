@@ -1,3 +1,3 @@
 accessing
 sortedClasses
-	^ sortedClasses.
+	^ sortedClasses

@@ -4,4 +4,4 @@ printOn: aStream
 	aStream nextPutAll: String space.
 	super printOn: aStream.
 	aStream nextPutAll: String space.
-	self argument printOn: aStream.
+	self argument printOn: aStream

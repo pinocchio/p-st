@@ -1,7 +1,8 @@
 pharo-exporting
 newWith: cls exporting: aPinocchioObject uid: uid
-	^ self new sclass: cls; 
+	^ (self new)
+		sclass: cls;
 		name: cls pinocchioName asPObject;
 		methodProvider: aPinocchioObject;
 		pclass: aPinocchioObject;
-		uid: uid.
+		uid: uid

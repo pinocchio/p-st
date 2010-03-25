@@ -1,3 +1,3 @@
 test-class
 testClassInstVar
-	^ StandardTestClass aClassSideMethodWithInstanceVariables.
+	^ StandardTestClass aClassSideMethodWithInstanceVariables

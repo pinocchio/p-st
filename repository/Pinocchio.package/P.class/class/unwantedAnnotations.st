@@ -1,7 +1,7 @@
 as yet unclassified
 unwantedAnnotations
-	^ IdentitySet new
+	^ (IdentitySet new)
 		add: #primitive:;
 		add: #primitive:module:;
 		add: #renameExport:;
-		yourself.
+		yourself

@@ -1,4 +1,4 @@
 pharo-exporting
-pClassMethods 
+pClassMethods
 	<preventExport>
 	^ #all

@@ -1,5 +1,5 @@
 pharo-exporting
 uid
 	<preventExport>
-	uid ifNil: [ uid := self class uidFor: self].
-	^ uid.
+	uid ifNil: [ uid := self class uidFor: self ].
+	^ uid

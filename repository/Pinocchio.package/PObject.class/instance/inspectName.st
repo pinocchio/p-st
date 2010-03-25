@@ -1,0 +1,3 @@
+inspecting
+inspectName
+	^ self asString

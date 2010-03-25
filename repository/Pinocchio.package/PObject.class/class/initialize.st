@@ -1,4 +1,4 @@
 initialize-release
-initialize 
+initialize
 	<preventExport>
-	uidCounter := 0.
+	uidCounter := 0

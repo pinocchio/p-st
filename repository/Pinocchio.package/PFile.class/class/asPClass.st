@@ -1,4 +1,4 @@
 accessing
-asPClass 
+asPClass
 	<preventExport>
 	^ PInternalClass newWith: self

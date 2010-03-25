@@ -1,3 +1,3 @@
 accessing
 stepBlock: aBlock
-	stepBlock := aBlock.
+	stepBlock := aBlock

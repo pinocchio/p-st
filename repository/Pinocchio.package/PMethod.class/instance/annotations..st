@@ -1,4 +1,3 @@
 accessing
 annotations: aPinocchioArray
-	annotations := aPinocchioArray.
-		
+	annotations := aPinocchioArray

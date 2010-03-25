@@ -1,3 +1,4 @@
 pinocchio-export
 assert: bool
-	^ bool ifFalse: [ self fail. ]
+	^ bool
+		ifFalse: [ self fail ]

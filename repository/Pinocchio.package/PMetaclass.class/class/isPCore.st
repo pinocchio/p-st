@@ -1,4 +1,5 @@
 *Pinocchio
 isPCore
-	self = PMetaclass ifFalse: [ ^ super isPCore ].
+	self = PMetaclass
+		ifFalse: [ ^ super isPCore ].
 	^ true

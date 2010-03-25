@@ -10,5 +10,10 @@ testVariable
 	result := parser match: string.
 	result should beKindOf: ASTPath.
 	result path size should = 3.
-	result path should = (OrderedCollection with: #Pinocchio with: #Type with: #Object).
-	string atEnd should be true.
+	result path should
+		=
+			(OrderedCollection
+				with: #Pinocchio
+				with: #Type
+				with: #Object).
+	string atEnd should be true

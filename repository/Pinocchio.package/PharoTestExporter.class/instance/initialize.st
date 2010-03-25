@@ -8,4 +8,4 @@ initialize
 	testCaseClass := PInternalVariable new.
 	testCaseInstance := PInternalVariable new.
 	self name: 'AutoGenTest'.
-	self clear.
+	self clear

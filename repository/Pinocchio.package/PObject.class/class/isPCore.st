@@ -1,4 +1,5 @@
 *Pinocchio
 isPCore
-	self = PObject ifFalse: [ ^ false ].
+	self = PObject
+		ifFalse: [ ^ false ].
 	^ true

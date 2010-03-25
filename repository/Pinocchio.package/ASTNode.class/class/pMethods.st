@@ -1,4 +1,4 @@
 accessing
 pMethods
 	<preventExport>
-	^ #all.
+	^ #all

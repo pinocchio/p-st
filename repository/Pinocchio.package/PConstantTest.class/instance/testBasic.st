@@ -3,5 +3,4 @@ testBasic
 	| const |
 	""
 	const := PConstant new: self.
-	const constant should be = self.
-	
+	const constant should be = self

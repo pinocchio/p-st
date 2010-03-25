@@ -3,4 +3,4 @@ printOn: aStream
 	super printOn: aStream.
 	aStream nextPutAll: '('.
 	self message printOn: aStream.
-	aStream nextPutAll: ')'.
+	aStream nextPutAll: ')'

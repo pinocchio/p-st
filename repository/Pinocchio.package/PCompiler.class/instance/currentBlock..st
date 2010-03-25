@@ -1,3 +1,3 @@
 accessing
 currentBlock: aPinocchioBlock
-	 currentBlock := aPinocchioBlock.
+	currentBlock := aPinocchioBlock

@@ -1,3 +1,3 @@
 running
 setUp
-	b := PIdentitySetBucket new.
+	b := PIdentitySetBucket new

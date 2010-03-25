@@ -1,3 +1,3 @@
 extracting
-sclassForName: aString 
+sclassForName: aString
 	^ (Smalltalk at: aString asSymbol) asPClass sclass

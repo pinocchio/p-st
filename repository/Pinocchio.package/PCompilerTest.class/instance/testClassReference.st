@@ -9,4 +9,4 @@ testClassReference
 	classReference ensurePinocchioClass: pclass.
 	pclass package: type.
 	visitor pclass: pclass.
-	ast := self ast: ('method', String cr, '|a|', String cr, 'a := Metaclass new.').
+	ast := self ast: 'method' , String cr , '|a|' , String cr , 'a := Metaclass new.'

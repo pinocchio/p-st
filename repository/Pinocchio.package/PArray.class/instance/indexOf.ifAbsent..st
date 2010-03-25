@@ -4,4 +4,7 @@ indexOf: anElement ifAbsent: exceptionBlock
 	receiver. If the receiver does not contain anElement, answer the 
 	result of evaluating the argument, exceptionBlock."
 
-	^ self indexOf: anElement startingAt: 1 ifAbsent: exceptionBlock
+	^ self
+		indexOf: anElement
+		startingAt: 1
+		ifAbsent: exceptionBlock

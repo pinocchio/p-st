@@ -1,3 +1,3 @@
 accessing
-pclass: aPClass 
-	self currentClass: aPClass.
+pclass: aPClass
+	self currentClass: aPClass

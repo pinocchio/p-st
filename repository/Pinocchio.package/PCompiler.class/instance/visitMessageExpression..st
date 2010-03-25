@@ -4,5 +4,5 @@ visitMessageExpression: aMessageExpression
 	message := self visit: aMessageExpression selector.
 	arguments := self acceptOnCollection: aMessageExpression arguments.
 	^ (self createSendTo: aMessageExpression receiver sized: arguments size)
-			message: message;
-			arguments: arguments
+		message: message;
+		arguments: arguments

@@ -1,4 +1,6 @@
 comparing
 phash
-	<renameExport: #hash>
 	"^ self"
+
+	<renameExport: #hash>
+	

@@ -1,3 +1,3 @@
 *Pinocchio
 exportAll
-	^ PharoTestExporter pexportTest.
+	^ PharoTestExporter pexportTest

@@ -1,3 +1,3 @@
 pharo-exporting
-pInstVarNames 
-	^ OrderedCollection with: #instance.
+pInstVarNames
+	^ OrderedCollection with: #instance

@@ -1,5 +1,7 @@
 cfile
 include: file
-	stream nextPutAll: '#include <';
+	stream
+		nextPutAll: '#include <';
 		nextPutAll: file asString;
-		nextPutAll: '>'; lf.
+		nextPutAll: '>';
+		lf

@@ -1,6 +1,5 @@
 *Pinocchio
 pMethods
-	self = SmallDictionary ifTrue: [
-		^ #all.
-	].
-	^ super pMethods.
+	self = SmallDictionary
+		ifTrue: [ ^ #all ].
+	^ super pMethods

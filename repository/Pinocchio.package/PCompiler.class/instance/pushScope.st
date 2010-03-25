@@ -1,3 +1,3 @@
 scope
 pushScope
-	scope := PSubScope new: scope.
+	scope := PSubScope new: scope

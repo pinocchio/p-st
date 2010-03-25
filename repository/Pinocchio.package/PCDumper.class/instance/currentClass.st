@@ -1,4 +1,3 @@
 accessing
 currentClass
-	 ^ currentClass
-	
+	^ currentClass

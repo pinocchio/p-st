@@ -1,3 +1,3 @@
 running
 setUp
-	b := PDictBucket new: 16.
+	b := PDictBucket new: 16

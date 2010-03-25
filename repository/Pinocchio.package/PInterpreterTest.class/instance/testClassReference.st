@@ -4,6 +4,5 @@ testClassReference
 	self preventRun: [ ^ self ].
 	exp := PClassReference named: 'test'.
 	exp ensurePinocchioClass: ChildClassTestClass.
-	
 	result := exp accept: i.
-	result should = ChildClassTestClass.
+	result should = ChildClassTestClass

@@ -1,4 +1,4 @@
 pharo-exporter
 parentInstVariables
 	<preventExport>
-	^ OrderedCollection new.
+	^ OrderedCollection new

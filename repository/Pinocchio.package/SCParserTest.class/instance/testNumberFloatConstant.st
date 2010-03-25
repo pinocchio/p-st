@@ -1,6 +1,5 @@
 tests
 testNumberFloatConstant
-
 	| parser string result |
 	parser := scparser numberConstant.
 	string := '71742 8'.

@@ -4,4 +4,4 @@ pInstVarNames
 	^ OrderedCollection
 		with: #layout
 		with: #superclass
-		with: #methods.
+		with: #methods

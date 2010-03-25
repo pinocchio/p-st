@@ -1,3 +1,3 @@
 accessing
-uid 
-	^ ('package_', self packageName)
+uid
+	^ 'package_' , self packageName

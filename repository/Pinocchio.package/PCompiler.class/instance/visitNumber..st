@@ -1,3 +1,3 @@
 visitor
-visitNumber: anASTNumber 
+visitNumber: anASTNumber
 	^ PConstant new: anASTNumber asNumber

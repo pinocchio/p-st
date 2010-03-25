@@ -4,5 +4,4 @@ testObjectMetaclassExport
 	object := self exportClass: Object.
 	object class should = PInternalClass.
 	metaclass := object pmetaclass.
-	metaclass class should = PInternalMetaclass.
-	
+	metaclass class should = PInternalMetaclass

@@ -1,4 +1,3 @@
 instance creation
 named: aSymbol
-	^ self new
-		uid: aSymbol.
+	^ self new uid: aSymbol

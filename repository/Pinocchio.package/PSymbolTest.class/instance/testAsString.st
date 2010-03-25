@@ -1,4 +1,4 @@
 test-basics
-testAsString 
+testAsString
 	#symbol asString should beKindOf: String.
-	#symbol asString should = 'symbol'.
+	#symbol asString should = 'symbol'

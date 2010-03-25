@@ -1,5 +1,5 @@
 accessing
 pinstVarAt: index
-	<renameExport: #instVarAt: >
+	<renameExport: #instVarAt:>
 	<pinocchioPrimitive: #instVarAt: module: #'Type.Object'>
 	self pinocchioPrimitiveFailed

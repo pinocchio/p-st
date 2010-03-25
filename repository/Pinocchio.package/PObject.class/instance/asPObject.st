@@ -1,4 +1,6 @@
 converting
 asPObject
-	<preventExport>
 	"^ self"
+
+	<preventExport>
+	

@@ -1,5 +1,5 @@
 pharo-exporting
 symbolDictionary
 	<preventExport>
-	symbolDictionary ifNil: [symbolDictionary := PDictionary new].
-	^ symbolDictionary. 
+	symbolDictionary ifNil: [ symbolDictionary := PDictionary new ].
+	^ symbolDictionary

@@ -1,3 +1,3 @@
 convenience
 initializeUppercase
-	^ ('A-Z' asPEGRange)
+	^ 'A-Z' asPEGRange

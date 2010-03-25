@@ -1,5 +1,5 @@
 interpreting
 visitBlock: aBlock
-	^ PBlockClosure new
+	^ (PBlockClosure new)
 		context: context;
 		code: aBlock

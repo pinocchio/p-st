@@ -1,3 +1,3 @@
 *Pinocchio
-pClassMethods 
-	^ #all.
+pClassMethods
+	^ #all

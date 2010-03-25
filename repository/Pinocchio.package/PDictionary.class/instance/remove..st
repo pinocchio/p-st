@@ -1,3 +1,3 @@
 removing
 remove: anObject
-	self shouldNotCall.
+	self shouldNotCall

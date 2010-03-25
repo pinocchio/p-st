@@ -1,7 +1,6 @@
 pharo-exporting
-asPClass 
+asPClass
 	<preventExport>
-	self = PArray ifFalse: [ ^ super asPClass ].
-	^  PInternalClass newWith: self
-		uid: 'Type_Array_Class'.
-	
+	self = PArray
+		ifFalse: [ ^ super asPClass ].
+	^ PInternalClass newWith: self uid: 'Type_Array_Class'

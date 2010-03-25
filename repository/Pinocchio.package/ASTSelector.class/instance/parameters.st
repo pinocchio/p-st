@@ -1,3 +1,3 @@
 accessing
 parameters
-	^ Array new.
+	^ Array new

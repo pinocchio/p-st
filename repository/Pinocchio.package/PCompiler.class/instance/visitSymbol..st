@@ -1,3 +1,3 @@
 visitor
-visitSymbol: anASTSymbol 
+visitSymbol: anASTSymbol
 	^ PConstant new: anASTSymbol asSymbol

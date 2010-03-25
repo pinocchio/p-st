@@ -10,18 +10,11 @@ testVisitPathNegsativeTest
 	classReference ensurePinocchioClass: pclass.
 	pclass package: type.
 	visitor pclass: pclass.
-	
 	[ self ast: 'Pinocchio.Type.Object' ] should signal: Error.
-	
 	[ self ast: 'Type.Object' ] should signal: Error.
-	
 	[ self ast: 'Pinocchio.Type' ] should signal: Error.
-	
 	result := self ast: 'Object'.
 	result should = classReference.
 	result := self ast: 'Pinocchio'.
-	result should = root.
-	
-	"These examples declare a new class"
-	[ self ast: 'Type'] should signal: Halt.
-	
+	result should = root.	"These examples declare a new class"
+	[ self ast: 'Type' ] should signal: Halt

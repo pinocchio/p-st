@@ -1,3 +1,3 @@
 accessing
-pclass: aPClass 
+pclass: aPClass
 	pclass := aPClass

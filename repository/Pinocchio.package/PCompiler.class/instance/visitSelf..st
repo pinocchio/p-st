@@ -1,3 +1,3 @@
 visitor
-visitSelf: aSelf 
-	^ PSelf new.
+visitSelf: aSelf
+	^ PSelf new

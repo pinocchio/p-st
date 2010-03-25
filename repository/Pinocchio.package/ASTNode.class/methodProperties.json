@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"pClassMethods" : "ToonVerwaest 2/11/2010 02:00",
-		"pMethods" : "ToonVerwaest 2/11/2010 02:00" },
+		"pClassMethods" : "ToonVerwaest 3/25/2010 12:39",
+		"pMethods" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
-		"argumentOfBinary:" : "tv 3/28/2009 16:22",
-		"astName" : "ToonVerwaest 2/19/2010 15:13",
-		"astType" : "ToonVerwaest 2/19/2010 15:29",
-		"doesNotUnderstand:" : "ToonVerwaest 2/19/2010 15:11",
-		"hasReturnExpression" : "TestRunner 10/22/2009 18:01",
-		"isReturnExpression" : "TestRunner 10/22/2009 18:00",
-		"scoped" : "ToonVerwaest 2/13/2010 23:50",
-		"sourceObject" : "cb 3/26/2009 15:42",
-		"sourceObject:" : "cb 3/26/2009 15:42" } }
+		"argumentOfBinary:" : "ToonVerwaest 3/25/2010 12:39",
+		"astName" : "ToonVerwaest 3/25/2010 12:39",
+		"astType" : "ToonVerwaest 3/25/2010 12:39",
+		"doesNotUnderstand:" : "ToonVerwaest 3/25/2010 12:39",
+		"hasReturnExpression" : "ToonVerwaest 3/25/2010 12:39",
+		"isReturnExpression" : "ToonVerwaest 3/25/2010 12:39",
+		"scoped" : "ToonVerwaest 3/25/2010 12:39",
+		"sourceObject" : "ToonVerwaest 3/25/2010 12:39",
+		"sourceObject:" : "ToonVerwaest 3/25/2010 12:39" } }

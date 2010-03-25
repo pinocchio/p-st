@@ -1,16 +1,17 @@
 exporting
 createMethodCallFor: anPinocchioASTMethod of: aCompiledMethod
 	| send arguments |
-	arguments := ((self testArgumentsFor: anPinocchioASTMethod of: aCompiledMethod)
-						collect: [:o | PConstant new: o ]) asArray.
+	arguments := ((self testArgumentsFor: anPinocchioASTMethod of: aCompiledMethod) collect: [ :o | PConstant new: o ])
+		asArray.
 	send := (PSend new: arguments size)
-				receiver: testCaseInstance;
-				message: anPinocchioASTMethod selector asPObject;
-				arguments: arguments.
+		receiver: testCaseInstance;
+		message: anPinocchioASTMethod selector asPObject;
+		arguments: arguments.
 	cdumper stream: stream.
 	cdumper visit: send.
-	
-	stream nextPutAll: 'Eval((Object)';
+	stream
+		nextPutAll: 'Eval((Object)';
 		nextPutAll: send uid asString;
-		nextPutAll: ');'; lf.
-	self assertEmptyStack.
+		nextPutAll: ');';
+		lf.
+	self assertEmptyStack

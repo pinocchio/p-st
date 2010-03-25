@@ -1,7 +1,7 @@
 as yet unclassified
-pClassInstVarNames 
+pClassInstVarNames
 	<preventExport>
 	| variables |
-	variables :=  OrderedCollection withAll: super pClassInstVarNames.
+	variables := OrderedCollection withAll: super pClassInstVarNames.
 	variables add: #instance.
-	^ variables.
+	^ variables

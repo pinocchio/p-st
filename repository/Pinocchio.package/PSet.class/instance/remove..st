@@ -1,3 +1,3 @@
 removing
-remove: anObject 
-	^ self remove: anObject ifAbsent: [ self errorKeyNotFound: anObject ].
+remove: anObject
+	^ self remove: anObject ifAbsent: [ self errorKeyNotFound: anObject ]

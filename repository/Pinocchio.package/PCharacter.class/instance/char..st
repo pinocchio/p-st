@@ -1,4 +1,4 @@
 accessing
 char: anObject
 	<preventExport>
-	char := anObject reallyAsCharacter.
+	char := anObject reallyAsCharacter

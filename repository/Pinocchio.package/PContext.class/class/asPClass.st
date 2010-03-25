@@ -1,5 +1,6 @@
 exporting
-asPClass 
+asPClass
 	<preventExport>
-	self = PContext ifFalse: [ ^ super asPClass ].
+	self = PContext
+		ifFalse: [ ^ super asPClass ].
 	^ PInternalClass newWith: self

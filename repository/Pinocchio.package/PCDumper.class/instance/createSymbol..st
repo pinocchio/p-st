@@ -1,3 +1,4 @@
 convenience
 createSymbol: selector
-	(symbolDict includesKey: selector) ifTrue: [ ^ self].
+	(symbolDict includesKey: selector)
+		ifTrue: [ ^ self ]

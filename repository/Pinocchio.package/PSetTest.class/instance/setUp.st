@@ -1,3 +1,3 @@
 running
 setUp
-	s := PSet new.
+	s := PSet new

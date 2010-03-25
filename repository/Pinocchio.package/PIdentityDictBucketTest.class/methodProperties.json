@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"shouldInheritSelectors" : "CamilloBruni 3/22/2010 13:46" },
+		"shouldInheritSelectors" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
-		"setUp" : "CamilloBruni 3/22/2010 10:44",
-		"testAddKeyValueMixed" : "CamilloBruni 3/22/2010 15:14",
-		"testAtKey" : "CamilloBruni 3/22/2010 13:34",
-		"testAtKeyIfAbsent" : "CamilloBruni 3/22/2010 10:50",
-		"testIncludesMixed" : "CamilloBruni 3/22/2010 15:13",
-		"testKeysMixed" : "CamilloBruni 3/22/2010 10:55",
-		"testRemoveKeyMixed" : "CamilloBruni 3/22/2010 10:53" } }
+		"setUp" : "ToonVerwaest 3/25/2010 12:39",
+		"testAddKeyValueMixed" : "ToonVerwaest 3/25/2010 12:39",
+		"testAtKey" : "ToonVerwaest 3/25/2010 12:39",
+		"testAtKeyIfAbsent" : "ToonVerwaest 3/25/2010 12:39",
+		"testIncludesMixed" : "ToonVerwaest 3/25/2010 12:39",
+		"testKeysMixed" : "ToonVerwaest 3/25/2010 12:39",
+		"testRemoveKeyMixed" : "ToonVerwaest 3/25/2010 12:39" } }

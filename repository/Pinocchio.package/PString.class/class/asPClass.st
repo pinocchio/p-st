@@ -1,5 +1,6 @@
 pharo-exporting
-asPClass 
+asPClass
 	<preventExport>
-	self = PString ifFalse: [ ^ super asPClass ].
+	self = PString
+		ifFalse: [ ^ super asPClass ].
 	^ PInternalClass newWith: PString

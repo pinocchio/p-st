@@ -2,4 +2,4 @@
 pInstVarNames
 	^ OrderedCollection
 		with: #name;
-		with: #package.
+		with: #package

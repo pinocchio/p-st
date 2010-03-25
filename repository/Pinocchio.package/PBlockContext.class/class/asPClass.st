@@ -1,5 +1,6 @@
 exporting
-asPClass 
+asPClass
 	<preventExport>
-	self = PBlockContext ifFalse: [ ^ super asPClass ].
+	self = PBlockContext
+		ifFalse: [ ^ super asPClass ].
 	^ PInternalClass newWith: self

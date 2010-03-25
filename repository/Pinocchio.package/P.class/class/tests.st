@@ -3,7 +3,16 @@ tests
 	| tests |
 	tests := OrderedCollection new.
 	tests
-		"add: PEGTest;
+		add: PStringTest;
+		add: PSymbolTest;
+		add: PSetBucketTest;
+		add: PIdentitySetBucketTest;
+		add: PDictBucketTest;
+		add: PIdentityDictBucketTest;
+		add: PSetTest;
+		add: PIdentitySetTest;
+		add: PDictionaryTest;
+		add: PIdentityDictionaryTest.	"add: PEGTest;
 		add: BridgeTest;
 		add: SCParserTest;
 		add: PCompilerTest;
@@ -16,14 +25,4 @@ tests
 		add: PSmallIntTest;
 		add: PFileTest;
 		add: PInterpreterTest;"
-		add: PStringTest;
-		add: PSymbolTest;
-		add: PSetBucketTest;
-		add: PIdentitySetBucketTest;
-		add: PDictBucketTest;
-		add: PIdentityDictBucketTest;
-		add: PSetTest;
-		add: PIdentitySetTest;
-		add: PDictionaryTest;
-		add: PIdentityDictionaryTest.
-	^ tests.
+	^ tests

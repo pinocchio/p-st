@@ -1,5 +1,5 @@
 instance creation
 named: aSymbol at: scopeId
-	^ self new
+	^ (self new)
 		name: aSymbol;
 		scopeId: scopeId

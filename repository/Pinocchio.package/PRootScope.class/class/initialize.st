@@ -1,6 +1,6 @@
 initialize-release
-initialize 
+initialize
 	super initialize.
 	self clearGlobals.
 	decls := PDictionary new.
-	self initializeGlobals.
+	self initializeGlobals

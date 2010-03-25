@@ -1,3 +1,3 @@
 accessing
 isClosed
-	^ out isNil and: [ in isNil ].
+	^ out isNil and: [ in isNil ]

@@ -1,3 +1,3 @@
 accessing
-astSelectors 
-	^ Array with: #expression.
+astSelectors
+	^ Array with: #expression

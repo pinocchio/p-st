@@ -1,3 +1,5 @@
 visitor
-visitInternalInstanceVariable: aPInternalInstanceVariable 
+visitInternalInstanceVariable: aPInternalInstanceVariable
 	"Ignore here"
+
+	

@@ -1,3 +1,3 @@
 stepping
 skipStepBlock
-	^ [ :receiver :aMessage | false ].
+	^ [ :receiver :aMessage | false ]

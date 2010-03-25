@@ -1,6 +1,6 @@
 pharo-exporting
-asPClass 
+asPClass
 	<preventExport>
-	self = PFalse ifFalse: [ ^ super asPClass ].
-	^ PInternalClass newWith: self
-		uid: 'False_Class'.
+	self = PFalse
+		ifFalse: [ ^ super asPClass ].
+	^ PInternalClass newWith: self uid: 'False_Class'

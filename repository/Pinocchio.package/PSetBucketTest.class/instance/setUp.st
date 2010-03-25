@@ -1,3 +1,3 @@
 running
 setUp
-	b := PSetBucket new.
+	b := PSetBucket new

@@ -1,4 +1,3 @@
 comparing
->= aCharacter 
-
-	^  aCharacter <= self asSmallInt
+>= aCharacter
+	^ aCharacter <= self asSmallInt

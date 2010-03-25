@@ -1,5 +1,6 @@
 exporting
-asPClass 
+asPClass
 	<preventExport>
-	self = PClassReference ifFalse: [ ^ super asPClass ].
+	self = PClassReference
+		ifFalse: [ ^ super asPClass ].
 	^ PInternalClass newWith: self

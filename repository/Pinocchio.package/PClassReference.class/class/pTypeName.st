@@ -1,3 +1,3 @@
 exporting
 pTypeName
-	^ self basicPTypeName: 'Organization'.
+	^ self basicPTypeName: 'Organization'

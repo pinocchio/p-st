@@ -1,3 +1,3 @@
 debugging
 printStacktrace
-	context printStacktrace.
+	context printStacktrace

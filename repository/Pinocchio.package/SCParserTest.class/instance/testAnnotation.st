@@ -23,4 +23,4 @@ testAnnotation
 	result := parser match: string.
 	result class should = ASTKeywordAnnotation.
 	result selectorSymbol should = #temps:annotations:statements:.
-	string atEnd should be true.
+	string atEnd should be true

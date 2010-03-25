@@ -1,3 +1,5 @@
 visitor
-visitInternalClass: aPinocchioInternalClass 
+visitInternalClass: aPinocchioInternalClass
 	"Ignore here"
+
+	

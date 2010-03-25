@@ -1,3 +1,3 @@
 running
 setUp
-	b := PIdentityDictBucket new: 16.
+	b := PIdentityDictBucket new: 16

@@ -1,3 +1,3 @@
 visiting
 visitInternalClass: anInternalClass
-	self visitClass: anInternalClass.
+	self visitClass: anInternalClass

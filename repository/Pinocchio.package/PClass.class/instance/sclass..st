@@ -1,4 +1,4 @@
 pharo-exporter
 sclass: anObject
 	<preventExport>
-	sclass := anObject.
+	sclass := anObject

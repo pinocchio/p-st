@@ -1,3 +1,3 @@
 comparing
 >= aSmallInt
-	^ (self < aSmallInt) not.
+	^ (self < aSmallInt) not

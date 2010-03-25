@@ -1,3 +1,3 @@
 initialize-release
 initialize
-	super initialize.
+	super initialize

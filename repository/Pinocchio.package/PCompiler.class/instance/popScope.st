@@ -1,3 +1,3 @@
 scope
 popScope
-	scope := scope parentScope.
+	scope := scope parentScope

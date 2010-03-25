@@ -1,4 +1,4 @@
 pharo-exporting
 pTypeName
 	<preventExport>
-	^ self basicPTypeName: 'Runtime'.
+	^ self basicPTypeName: 'Runtime'

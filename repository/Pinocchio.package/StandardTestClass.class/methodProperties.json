@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"aClassSideMethod" : "CamilloBruni 12/15/2009 13:47",
-		"aClassSideMethodWithInstanceVariables" : "CamilloBruni 12/15/2009 17:28",
-		"instVar" : "CamilloBruni 12/16/2009 18:43",
-		"instVar:" : "CamilloBruni 12/16/2009 18:43",
-		"pClassMethods" : "ToonVerwaest 2/8/2010 11:09",
-		"pMethods" : "CamilloBruni 1/19/2010 14:31" },
+		"aClassSideMethod" : "ToonVerwaest 3/25/2010 12:44",
+		"aClassSideMethodWithInstanceVariables" : "ToonVerwaest 3/25/2010 12:44",
+		"instVar" : "ToonVerwaest 3/25/2010 12:44",
+		"instVar:" : "ToonVerwaest 3/25/2010 12:44",
+		"pClassMethods" : "ToonVerwaest 3/25/2010 12:44",
+		"pMethods" : "ToonVerwaest 3/25/2010 12:44" },
 	"instance" : {
-		"a" : "CamilloBruni 12/2/2009 10:34",
-		"a:" : "CamilloBruni 12/2/2009 10:34",
-		"b" : "CamilloBruni 12/2/2009 10:34",
-		"b:" : "CamilloBruni 12/2/2009 10:34",
-		"c" : "CamilloBruni 12/2/2009 10:34",
-		"c:" : "CamilloBruni 12/2/2009 10:34",
-		"doesNotUnderstand:" : "ToonVerwaest 2/8/2010 14:20" } }
+		"a" : "ToonVerwaest 3/25/2010 12:44",
+		"a:" : "ToonVerwaest 3/25/2010 12:44",
+		"b" : "ToonVerwaest 3/25/2010 12:44",
+		"b:" : "ToonVerwaest 3/25/2010 12:44",
+		"c" : "ToonVerwaest 3/25/2010 12:44",
+		"c:" : "ToonVerwaest 3/25/2010 12:44",
+		"doesNotUnderstand:" : "ToonVerwaest 3/25/2010 12:44" } }

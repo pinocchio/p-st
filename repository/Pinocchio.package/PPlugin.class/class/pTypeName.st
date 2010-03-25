@@ -1,4 +1,4 @@
 exporting
 pTypeName
 	<preventExport>
-	^ self basicPTypeName: 'Plugin'.
+	^ self basicPTypeName: 'Plugin'

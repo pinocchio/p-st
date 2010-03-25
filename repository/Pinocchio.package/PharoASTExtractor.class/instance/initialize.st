@@ -7,4 +7,4 @@ initialize
 	scparser := SCParser new.
 	pinocchioVisitor := PCompiler new.
 	pinocchioVisitor world: self.
-	classASTs := Dictionary new.
+	classASTs := Dictionary new

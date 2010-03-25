@@ -1,3 +1,3 @@
 *Pinocchio
 stdout
-	Transcript show: self.
+	Transcript show: self

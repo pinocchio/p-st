@@ -1,5 +1,5 @@
 collection
-inject: thisValue into: binaryBlock 
+inject: thisValue into: binaryBlock
 	"Accumulate a running value associated with evaluating the argument, 
 	binaryBlock, with the current value of the argument, thisValue, and the 
 	receiver as block arguments. For instance, to sum the numeric elements 
@@ -8,5 +8,5 @@ inject: thisValue into: binaryBlock
 
 	| nextValue |
 	nextValue := thisValue.
-	self do: [:each | nextValue := binaryBlock value: nextValue value: each].
-	^nextValue
+	self do: [ :each | nextValue := binaryBlock value: nextValue value: each ].
+	^ nextValue

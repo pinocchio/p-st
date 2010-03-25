@@ -1,5 +1,4 @@
 running
 setUp
 	scparser := SCParser new.
-	parser := scparser expression.
-	
+	parser := scparser expression

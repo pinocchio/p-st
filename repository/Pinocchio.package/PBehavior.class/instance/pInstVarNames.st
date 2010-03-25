@@ -1,3 +1,3 @@
 exporting
-pInstVarNames 
-	^ OrderedCollection new.
+pInstVarNames
+	^ OrderedCollection new

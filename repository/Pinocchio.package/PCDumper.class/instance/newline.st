@@ -1,3 +1,3 @@
 convenience
 newline
-	stream nextPutAll: String lf.
+	stream nextPutAll: String lf

@@ -1,3 +1,3 @@
 visitor
-visitInternalSymbol: aPInternalSymbol 
+visitInternalSymbol: aPInternalSymbol
 	^ aPInternalSymbol

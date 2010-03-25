@@ -4,5 +4,5 @@ pinocchio-export
 	(do not have the same object pointer)."
 
 	self == anObject
-		ifTrue: [^ false]
-		ifFalse: [^ true]
+		ifTrue: [ ^ false ]
+		ifFalse: [ ^ true ]

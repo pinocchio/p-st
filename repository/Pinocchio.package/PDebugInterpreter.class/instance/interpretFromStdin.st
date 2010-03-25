@@ -1,3 +1,3 @@
 shelling
 interpretFromStdin
-	^ self interpret: PFile stdin readLine.
+	^ self interpret: PFile stdin readLine

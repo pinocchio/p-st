@@ -1,5 +1,3 @@
 testing
 hasReturnExpression
-	^ receiver
-		ifNil: [ false ]
-		ifNotNil: [ receiver hasReturnExpression ]
+	^ receiver ifNil: [ false ] ifNotNil: [ receiver hasReturnExpression ]

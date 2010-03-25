@@ -1,3 +1,3 @@
 *Pinocchio
 cEscaped
-	^ String streamContents: [:aStream| self printCEscapedOn: aStream. ].
+	^ String streamContents: [ :aStream | self printCEscapedOn: aStream ]

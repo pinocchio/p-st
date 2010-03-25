@@ -1,3 +1,3 @@
 accessing
-named: aName 
-	^ self new name: aName.
+named: aName
+	^ self new name: aName

@@ -1,3 +1,3 @@
 convenience
 initializeLetter
-	^ (self lowercase | self uppercase)
+	^ self lowercase | self uppercase
