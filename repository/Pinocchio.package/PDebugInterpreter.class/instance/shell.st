@@ -1,6 +1,6 @@
 shelling
 shell
-	escapeShell := [^ self].
+	escapeShell := [ :input | ^ input ].
 	true whileTrue: [
 		self displayPrompt.
 		self interpretFromStdin.

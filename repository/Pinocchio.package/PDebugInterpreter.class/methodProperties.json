@@ -1,22 +1,21 @@
 {
 	"class" : {
-		"defaultStepBlock" : "ToonVerwaest 3/25/2010 00:49" },
+		"defaultStepBlock" : "ToonVerwaest 3/25/2010 11:24",
+		"skipStepBlock" : "ToonVerwaest 3/25/2010 11:24" },
 	"instance" : {
-		"checkStep:message:" : "ToonVerwaest 3/25/2010 00:59",
+		"checkStep:message:do:" : "ToonVerwaest 3/25/2010 11:25",
 		"compile:" : "CamilloBruni 3/24/2010 17:36",
 		"displayPrompt" : "CamilloBruni 3/24/2010 17:35",
 		"indent" : "ToonVerwaest 3/25/2010 00:50",
-		"initialize" : "CamilloBruni 3/24/2010 17:27",
-		"interpret:" : "CamilloBruni 3/24/2010 17:46",
+		"initialize" : "ToonVerwaest 3/25/2010 11:25",
+		"interpret:" : "ToonVerwaest 3/25/2010 11:21",
 		"interpretFile:" : "CamilloBruni 3/24/2010 17:36",
 		"interpretFromStdin" : "CamilloBruni 3/24/2010 17:36",
 		"perror:" : "ToonVerwaest 3/25/2010 00:04",
 		"printStacktrace" : "ToonVerwaest 3/25/2010 00:04",
-		"send:to:class:" : "ToonVerwaest 3/25/2010 00:48",
-		"send:to:class:for:" : "ToonVerwaest 3/25/2010 00:48",
-		"shell" : "CamilloBruni 3/24/2010 17:44",
-		"step:" : "CamilloBruni 3/24/2010 17:34",
+		"send:to:class:" : "ToonVerwaest 3/25/2010 11:11",
+		"send:to:class:for:" : "ToonVerwaest 3/25/2010 11:11",
+		"shell" : "ToonVerwaest 3/25/2010 11:20",
+		"step:" : "ToonVerwaest 3/25/2010 11:23",
 		"stepBlock" : "CamilloBruni 3/24/2010 17:26",
-		"stepBlock:" : "CamilloBruni 3/24/2010 17:27",
-		"stepMode" : "CamilloBruni 3/24/2010 17:26",
-		"stepMode:" : "CamilloBruni 3/24/2010 17:26" } }
+		"stepBlock:" : "CamilloBruni 3/24/2010 17:27" } }

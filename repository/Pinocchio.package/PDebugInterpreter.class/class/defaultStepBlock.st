@@ -1,3 +1,3 @@
-accessing
+stepping
 defaultStepBlock
-	^ [:receiver :aMessage| true ].
+	^ [ :receiver :aMessage | true ].
