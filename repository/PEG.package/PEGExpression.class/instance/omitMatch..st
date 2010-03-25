@@ -4,6 +4,5 @@ omitMatch: input
 	"self debug: input."
 	position := input position.
 	match := self privateOmitMatch: input.
-	match ifNil: [input position: position].
-	"self debugEnd: input."
+	match ifNil: [ input position: position ].	"self debugEnd: input."
 	^ match

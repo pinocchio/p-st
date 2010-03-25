@@ -2,4 +2,4 @@ initialization
 initialize: aString
 	super initialize.
 	string := aString.
-	self name: '''', string, ''''
+	self name: '''' , string , ''''

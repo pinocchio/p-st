@@ -1,7 +1,9 @@
 comparing
-beginsWith: subCollection 
+beginsWith: subCollection
 	| pattern |
-	subCollection do: [ :each |
-		each = self next ifFalse: [ ^ false ]
-	].
+	subCollection
+		do:
+			[ :each | 
+			each = self next
+				ifFalse: [ ^ false ] ].
 	^ true

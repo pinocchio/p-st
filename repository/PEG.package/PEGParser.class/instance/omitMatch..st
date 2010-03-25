@@ -1,3 +1,3 @@
 matching
 omitMatch: input
-	^ expression omitMatch: input.
+	^ expression omitMatch: input

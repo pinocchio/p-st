@@ -1,3 +1,3 @@
 printing
 printString
-	^ '[', start asCharacter asString, '-', stop asCharacter asString, ']'
+	^ '[' , start asCharacter asString , '-' , stop asCharacter asString , ']'

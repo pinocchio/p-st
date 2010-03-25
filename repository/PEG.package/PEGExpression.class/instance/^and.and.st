@@ -1,3 +1,3 @@
 logical operations
 && other
-	^ (self & other) skipWhitespace: false
+	^ self & other skipWhitespace: false

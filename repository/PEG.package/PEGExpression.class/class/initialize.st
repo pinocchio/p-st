@@ -1,3 +1,3 @@
 accessing
 initialize
-	indent := 0.
+	indent := 0

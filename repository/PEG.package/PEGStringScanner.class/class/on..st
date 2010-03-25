@@ -1,3 +1,3 @@
 instance creation
 on: aString
-	^ self on: aString separator: PEGParser separator.
+	^ self on: aString separator: PEGParser separator

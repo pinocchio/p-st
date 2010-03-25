@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize:" : "tv 3/26/2009 13:23",
-		"optional" : "tv 3/26/2009 13:18",
-		"privateMatch:" : "tv 3/26/2009 11:45",
-		"privateMatch:on:" : "tv 3/26/2009 11:52",
-		"privateOmitMatch:" : "ToonVerwaest 2/10/2010 19:48",
-		"skipWhitespace" : "cb 3/25/2009 22:07",
-		"skipWhitespace:" : "cb 3/25/2009 22:07" } }
+		"initialize:" : "ToonVerwaest 3/25/2010 12:44",
+		"optional" : "ToonVerwaest 3/25/2010 12:44",
+		"privateMatch:" : "ToonVerwaest 3/25/2010 12:44",
+		"privateMatch:on:" : "ToonVerwaest 3/25/2010 12:44",
+		"privateOmitMatch:" : "ToonVerwaest 3/25/2010 12:44",
+		"skipWhitespace" : "ToonVerwaest 3/25/2010 12:44",
+		"skipWhitespace:" : "ToonVerwaest 3/25/2010 12:44" } }

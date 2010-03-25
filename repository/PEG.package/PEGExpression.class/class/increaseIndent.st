@@ -1,3 +1,3 @@
 accessing
-increaseIndent 
+increaseIndent
 	indent := indent + 1

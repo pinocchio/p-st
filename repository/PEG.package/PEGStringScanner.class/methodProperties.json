@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"on:" : "tv 3/26/2009 13:34",
-		"on:separator:" : "tv 3/26/2009 13:34" },
+		"on:" : "ToonVerwaest 3/25/2010 12:44",
+		"on:separator:" : "ToonVerwaest 3/25/2010 12:44" },
 	"instance" : {
-		"beginsWith:" : "ToonVerwaest 2/10/2010 15:52",
-		"bucket" : "CamilloBruni 11/10/2009 18:06",
-		"memoizeMatch:" : "ToonVerwaest 2/10/2010 20:32",
-		"on:separator:" : "CamilloBruni 11/10/2009 17:43",
-		"sample" : "ToonVerwaest 2/12/2010 18:05",
-		"scan:" : "tv 3/25/2009 18:59",
-		"skipWhitespace" : "ToonVerwaest 2/10/2010 19:52" } }
+		"beginsWith:" : "ToonVerwaest 3/25/2010 12:44",
+		"bucket" : "ToonVerwaest 3/25/2010 12:44",
+		"memoizeMatch:" : "ToonVerwaest 3/25/2010 12:44",
+		"on:separator:" : "ToonVerwaest 3/25/2010 12:44",
+		"sample" : "ToonVerwaest 3/25/2010 12:44",
+		"scan:" : "ToonVerwaest 3/25/2010 12:44",
+		"skipWhitespace" : "ToonVerwaest 3/25/2010 12:44" } }

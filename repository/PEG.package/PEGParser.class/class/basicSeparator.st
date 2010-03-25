@@ -1,6 +1,4 @@
 instance creation
 basicSeparator
-	separator ifNil: [
-		separator := self basicSeparators strongTimes.
-	].
+	separator ifNil: [ separator := self basicSeparators strongTimes ].
 	^ separator

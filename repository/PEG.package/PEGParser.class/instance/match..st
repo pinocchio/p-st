@@ -6,4 +6,5 @@ match: input
 		ifNotNil: [
 			semantics ifNil: [ ^ match ].
 			semantics value: match ]"
-	^ input memoizeMatch: self.
+
+	^ input memoizeMatch: self
