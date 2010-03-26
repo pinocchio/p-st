@@ -5,7 +5,7 @@ continueOn: class message: message
 	aBlock := message at: 1.
 	result := PContinue
 		on:
-			[ :metaCont | 
+			[ :metaCont |
 			message selector: #value:.
 			message at: 1 put: metaCont.
 			self send: message to: aBlock ].
