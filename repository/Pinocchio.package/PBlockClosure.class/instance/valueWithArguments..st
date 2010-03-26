@@ -1,4 +1,4 @@
 evaluating
 valueWithArguments: arguments
-	<pinocchioPrimitive: #valueWithArguments: module: #'Runtime.BlockClosure'>
+	<pinocchioReflective: #valueWithArguments: module: #'Runtime.BlockClosure'>
 	self pinocchioPrimitiveFailed

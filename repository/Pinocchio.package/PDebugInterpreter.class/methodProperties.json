@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"defaultStepBlock" : "ToonVerwaest 3/25/2010 12:39",
+		"skipStepBlock" : "ToonVerwaest 3/25/2010 12:39" },
+	"instance" : {
+		"checkStep:message:do:" : "ToonVerwaest 3/25/2010 12:39",
+		"compile:" : "ToonVerwaest 3/25/2010 12:39",
+		"displayPrompt" : "ToonVerwaest 3/25/2010 12:39",
+		"indent" : "ToonVerwaest 3/25/2010 12:39",
+		"initialize" : "ToonVerwaest 3/25/2010 12:39",
+		"interpret:" : "ToonVerwaest 3/25/2010 15:33",
+		"interpretFile:" : "ToonVerwaest 3/25/2010 12:39",
+		"interpretFromStdin" : "ToonVerwaest 3/25/2010 12:39",
+		"perror:" : "ToonVerwaest 3/25/2010 12:39",
+		"printStacktrace" : "ToonVerwaest 3/25/2010 12:39",
+		"send:to:class:" : "ToonVerwaest 3/25/2010 12:39",
+		"send:to:class:for:" : "ToonVerwaest 3/25/2010 12:39",
+		"shell" : "ToonVerwaest 3/25/2010 12:39",
+		"step:" : "ToonVerwaest 3/25/2010 15:58",
+		"stepBlock" : "ToonVerwaest 3/25/2010 12:39",
+		"stepBlock:" : "ToonVerwaest 3/25/2010 12:39" } }

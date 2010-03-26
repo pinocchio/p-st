@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"asPClass" : "ToonVerwaest 3/26/2010 15:22",
+		"withAll:" : "ToonVerwaest 3/26/2010 15:14" },
+	"instance" : {
+		"accept:on:message:boundBy:" : "ToonVerwaest 3/26/2010 14:45",
+		"annotations" : "ToonVerwaest 3/26/2010 14:45",
+		"annotations:" : "ToonVerwaest 3/26/2010 14:45",
+		"depth" : "ToonVerwaest 3/26/2010 14:45",
+		"do:" : "ToonVerwaest 3/26/2010 15:13",
+		"first" : "ToonVerwaest 3/26/2010 15:13",
+		"first:" : "ToonVerwaest 3/26/2010 15:13",
+		"inject:into:" : "ToonVerwaest 3/26/2010 15:13",
+		"last" : "ToonVerwaest 3/26/2010 15:13",
+		"last:" : "ToonVerwaest 3/26/2010 15:13",
+		"locals" : "ToonVerwaest 3/26/2010 14:45",
+		"numArgs" : "ToonVerwaest 3/26/2010 14:45",
+		"package" : "ToonVerwaest 3/26/2010 14:45",
+		"package:" : "ToonVerwaest 3/26/2010 14:45",
+		"params" : "ToonVerwaest 3/26/2010 14:45",
+		"params:locals:" : "ToonVerwaest 3/26/2010 14:45" } }

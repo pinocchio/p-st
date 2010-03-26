@@ -8,7 +8,7 @@ step: action
 		ifTrue:
 			[ | oldBlock result |
 			oldBlock := stepBlock.
-			stepBlock := self skipStepBlock.
+			stepBlock := self class skipStepBlock.
 			result := action value.
 			stepBlock := oldBlock.
 			^ result ].

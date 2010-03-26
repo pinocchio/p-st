@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"stepBlock" ],
-	"name" : "PSteppingInterpreter",
+		"stepBlock",
+		"escapeShell" ],
+	"name" : "PDebugInterpreter",
 	"pools" : [
 		 ],
 	"super" : "PInterpreter",

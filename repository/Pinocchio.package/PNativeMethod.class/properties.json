@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"code" ],
 	"name" : "PNativeMethod",
 	"pools" : [
 		 ],
-	"super" : "PMethod",
+	"super" : "PAbstractMethod",
 	"type" : "variable" }

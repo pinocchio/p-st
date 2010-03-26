@@ -1,20 +1,5 @@
 {
 	"class" : {
-		"withAll:" : "ToonVerwaest 3/25/2010 12:39" },
+		 },
 	"instance" : {
-		"accept:on:message:boundBy:" : "ToonVerwaest 3/25/2010 16:34",
-		"annotations" : "ToonVerwaest 3/25/2010 12:39",
-		"annotations:" : "ToonVerwaest 3/25/2010 12:39",
-		"depth" : "ToonVerwaest 3/25/2010 12:39",
-		"do:" : "ToonVerwaest 3/25/2010 12:39",
-		"first" : "ToonVerwaest 3/25/2010 12:39",
-		"first:" : "ToonVerwaest 3/25/2010 12:39",
-		"inject:into:" : "ToonVerwaest 3/25/2010 12:39",
-		"last" : "ToonVerwaest 3/25/2010 12:39",
-		"last:" : "ToonVerwaest 3/25/2010 12:39",
-		"locals" : "ToonVerwaest 3/25/2010 12:39",
-		"numArgs" : "ToonVerwaest 3/25/2010 12:39",
-		"package" : "ToonVerwaest 3/25/2010 12:39",
-		"package:" : "ToonVerwaest 3/25/2010 12:39",
-		"params" : "ToonVerwaest 3/25/2010 12:39",
-		"params:locals:" : "ToonVerwaest 3/25/2010 12:39" } }
+		"accept:on:message:boundBy:" : "ToonVerwaest 3/25/2010 16:34" } }

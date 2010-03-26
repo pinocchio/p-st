@@ -1,5 +1,7 @@
 convenience
 createMethod: aMethod with: body
-	(aMethod annotations anySatisfy: [ :annotation | annotation selectorSymbol = #pinocchioPrimitive:module: ])
-		ifTrue: [ ^ PNativeMethod withAll: body ]
-		ifFalse: [ ^ PMethod withAll: body ]
+	(aMethod annotatedWith: #pinocchioPrimitive:module:)
+		ifTrue: [ ^ PNativeMethod withAll: body ].
+	(aMethod annotatedWith: #pinocchioReflective:module:)
+		ifTrue: [ ^ PReflectionMethod withAll: body ].
+	^ PMethod withAll: body

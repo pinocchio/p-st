@@ -10,5 +10,5 @@ testIncludesMixed
 	(b includes: 'key') should = false.
 	(b includes: #key2) should = false.
 	PInterpreter interpret: [
-		PDebugger interpret: [ (b includes: 'key2') should = true ]
+		PDebugInterpreter interpret: [ (b includes: 'key2') should = true ]
 	]

@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"unused" ],
-	"name" : "PMethod",
+		"params",
+		"locals",
+		"package",
+		"annotations" ],
+	"name" : "PAbstractMethod",
 	"pools" : [
 		 ],
-	"super" : "PAbstractMethod",
+	"super" : "PNode",
 	"type" : "variable" }
