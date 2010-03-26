@@ -1,3 +1,3 @@
 stepping
 defaultStepBlock
-	^ [ :receiver :aMessage :action | ^ self step: action ]
+	^ [ :receiver :aMessage :action | self step: action ]

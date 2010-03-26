@@ -8,8 +8,8 @@ testIncludesMixed
 	b add: 'key2'.
 	(b includes: #key) should = true.
 	(b includes: 'key') should = false.
-	"(b includes: #key2) should = false."
-	"PDebugger interpret: ["
+	(b includes: #key2) should = false.
+	PInterpreter interpret: [
 		PDebugger interpret:
 			[ (b includes: 'key2') should = true ].
-	"]"
+	]
