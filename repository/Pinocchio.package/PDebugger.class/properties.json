@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Interpreter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"escapeShell" ],
+	"name" : "PDebugger",
+	"pools" : [
+		 ],
+	"super" : "PSteppingInterpreter",
+	"type" : "normal" }

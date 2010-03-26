@@ -1,4 +1,4 @@
 evaluating
 valueWithArguments: arguments
-	<pinocchioReflective: #valueWithArguments:>
+	<pinocchioReflective: #blockclosureValueWithArguments:message:>
 	self pinocchioPrimitiveFailed

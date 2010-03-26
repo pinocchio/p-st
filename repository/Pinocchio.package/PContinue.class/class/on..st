@@ -1,4 +1,4 @@
 instance creation
 on: aBlock
-	<pinocchioReflective: #on:>
+	<pinocchioReflective: #continueOn:message:>
 	self pinocchioPrimitiveFailed

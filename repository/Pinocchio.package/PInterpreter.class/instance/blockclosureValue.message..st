@@ -1,5 +1,5 @@
 application
-applyBlock: aBlockClosure to: args
+blockclosureValue: aBlockClosure message: args
 	| block pc result |
 	PFile stderr: 'Applying block at level: ', self class name.
 	PFile stderr lf.

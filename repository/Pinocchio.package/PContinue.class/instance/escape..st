@@ -1,4 +1,4 @@
 escaping
 escape: value
-	<pinocchioReflective: #escape:>
+	<pinocchioReflective: #continueEscape:message:>
 	self pinocchioPrimitiveFailed

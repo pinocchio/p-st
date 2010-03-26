@@ -1,4 +1,4 @@
 accessing
 value
-	<pinocchioReflective: #value>
+	<pinocchioReflective: #blockclosureValue:message:>
 	^ self valueWithArguments: (PArray new: 0)

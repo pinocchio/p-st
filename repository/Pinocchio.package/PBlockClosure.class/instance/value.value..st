@@ -1,4 +1,4 @@
 accessing
 value: anArg value: otherArg
-	<pinocchioReflective: #value:value:>
+	<pinocchioReflective: #blockclosureValue:message:>
 	^ self valueWithArguments: (Array with: anArg with: otherArg)
