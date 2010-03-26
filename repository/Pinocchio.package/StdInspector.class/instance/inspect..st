@@ -5,6 +5,9 @@ inspect: anObject
 	self shallowInspect: anObject.
 	self increaseIndent.
 	children do: [ :child |
-		self shallowInspect: child
+		self indent.
+		self write: child x name.
+		self write: ': '.
+		self shallowInspect: child y
 	].
 	self decreaseIndent.
