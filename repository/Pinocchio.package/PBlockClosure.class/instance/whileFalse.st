@@ -1,4 +1,3 @@
 testing
 whileFalse
-	self value
-		ifFalse: [ self whileFalse ]
+	self value ifFalse: [ self whileFalse ]

@@ -1,4 +1,4 @@
 accessing
 numArgs
 	<pinocchioPrimitive: #numArgs module: #'Runtime.BlockClosure'>
-	self pinocchioPrimitiveFailed
+	^ code params size

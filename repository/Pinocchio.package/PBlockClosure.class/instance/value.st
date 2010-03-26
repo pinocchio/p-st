@@ -1,4 +1,4 @@
 accessing
 value
-	<pinocchioReflective: #value module: #'Runtime.BlockClosure'>
-	self pinocchioPrimitiveFailed
+	<pinocchioReflective: #value>
+	^ self valueWithArguments: (PArray new: 0)

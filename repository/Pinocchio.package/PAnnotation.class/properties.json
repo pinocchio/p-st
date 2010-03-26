@@ -10,5 +10,5 @@
 	"name" : "PAnnotation",
 	"pools" : [
 		 ],
-	"super" : "PNode",
+	"super" : "PObject",
 	"type" : "variable" }

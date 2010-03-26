@@ -14,6 +14,7 @@
 		"currentSelf" : "ToonVerwaest 3/25/2010 12:39",
 		"invokeMethod:on:message:" : "ToonVerwaest 3/25/2010 17:57",
 		"invokeNativeMethod:on:message:" : "ToonVerwaest 3/25/2010 16:35",
+		"invokeReflectionMethod:on:message:" : "ToonVerwaest 3/26/2010 19:36",
 		"lookupSelector:in:" : "ToonVerwaest 3/25/2010 12:39",
 		"methodContextFor:receiver:class:message:" : "ToonVerwaest 3/25/2010 12:39",
 		"recursiveDoesNotUnderstand:on:" : "ToonVerwaest 3/25/2010 16:53",

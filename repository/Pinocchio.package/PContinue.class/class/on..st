@@ -1,4 +1,4 @@
 instance creation
 on: aBlock
-	<pinocchioPrimitive: #on: module: #'Runtime.Continue'>
+	<pinocchioReflective: #on:>
 	self pinocchioPrimitiveFailed

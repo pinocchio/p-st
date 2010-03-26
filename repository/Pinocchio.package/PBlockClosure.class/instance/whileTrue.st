@@ -1,4 +1,3 @@
 testing
 whileTrue
-	self value
-		ifTrue: [ self whileTrue ]
+	self value ifTrue: [ self whileTrue ]

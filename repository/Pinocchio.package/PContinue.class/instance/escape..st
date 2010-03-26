@@ -1,4 +1,4 @@
 escaping
 escape: value
-	<pinocchioPrimitive: #escape: module: #'Runtime.Continue'>
+	<pinocchioReflective: #escape:>
 	self pinocchioPrimitiveFailed

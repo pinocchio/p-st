@@ -1,4 +1,4 @@
 accessing
 value: anArg value: otherArg
-	<pinocchioReflective: #value module: #'Runtime.BlockClosure'>
-	self pinocchioPrimitiveFailed
+	<pinocchioReflective: #value:value:>
+	^ self valueWithArguments: (Array with: anArg with: otherArg)

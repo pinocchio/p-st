@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"asPClass" : "ToonVerwaest 3/25/2010 12:39" },
+		"asPClass" : "ToonVerwaest 3/25/2010 12:39",
+		"pTypeName" : "ToonVerwaest 3/26/2010 19:30" },
 	"instance" : {
 		"do:" : "ToonVerwaest 3/25/2010 12:39",
 		"inject:into:" : "ToonVerwaest 3/25/2010 12:39",
