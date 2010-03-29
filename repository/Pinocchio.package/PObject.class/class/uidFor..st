@@ -1,4 +1,4 @@
-accessing
+exporting
 uidFor: anObject
 	<preventExport>
 	self UIDCounter: self uidCounter + 1.

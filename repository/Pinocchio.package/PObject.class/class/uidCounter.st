@@ -1,4 +1,4 @@
-accessing
+exporting
 uidCounter
 	<preventExport>
 	uidCounter ifNil: [ uidCounter := 0 ].

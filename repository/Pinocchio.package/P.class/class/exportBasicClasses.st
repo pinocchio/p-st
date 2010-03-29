@@ -27,4 +27,5 @@ exportBasicClasses
 		add: PWriteFile;
 		add: PReadFile;
 		add: PUnsintInstVariable;
+		add: PLink;
 		yourself

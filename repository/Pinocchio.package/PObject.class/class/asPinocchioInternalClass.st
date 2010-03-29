@@ -1,4 +1,4 @@
-accessing
+exporting
 asPinocchioInternalClass
 	<preventExport>
 	^ self

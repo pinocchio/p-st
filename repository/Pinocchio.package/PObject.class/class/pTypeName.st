@@ -1,3 +1,3 @@
-accessing
+exporting
 pTypeName
 	^ self basicPTypeName: 'Type'
