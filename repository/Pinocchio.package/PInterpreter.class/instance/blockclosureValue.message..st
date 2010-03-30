@@ -1,8 +1,6 @@
 application
 blockclosureValue: aBlockClosure message: args
 	| block pc result |
-	PFile stderr: 'Applying block at level: ', self class name.
-	PFile stderr lf.
 	block := aBlockClosure code.
 	context := (PBlockContext new: block params size + block locals size)
 		returnContext: context;

@@ -1,7 +1,7 @@
 sending
 send: aMessage to: receiver class: class for: aSend
 	| method |
-	self class = PInterpreter ifTrue: [ PFile stderr: 'At interpreter level: ', aMessage selector. PFile stderr lf. ].
+	"PFile stderr: 'At ',self class name,' level: ', aMessage selector, ' #', receiver hash asString. PFile stderr lf."
 	method := aSend inlineCache checkCached: class.
 	method ifNotNil: [ ^ method accept: self on: receiver message: aMessage ].
 	
