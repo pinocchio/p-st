@@ -1,3 +1,3 @@
 accessing
-mext: anObject 
+next: anObject 
 	next := anObject

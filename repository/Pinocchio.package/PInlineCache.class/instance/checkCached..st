@@ -1,5 +1,4 @@
 accessing
 checkCached: aClass
-	class = aClass
-		ifTrue: [ ^ method ].
+	<pinocchioPrimitive: #checkCached module: #'Runtime.InlineCache'>
 	^ nil

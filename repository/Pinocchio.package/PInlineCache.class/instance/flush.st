@@ -1,3 +1,3 @@
 accessing
 flush
-	class := nil
+	cachedClass := nil

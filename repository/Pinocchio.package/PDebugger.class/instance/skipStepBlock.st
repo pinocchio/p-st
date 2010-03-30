@@ -1,3 +1,3 @@
 stepping
 skipStepBlock
-	^ [ :receiver :aMessage :action | ^ action value ]
+	^ [ :receiver :class :aMessage :action | ^ action value ]

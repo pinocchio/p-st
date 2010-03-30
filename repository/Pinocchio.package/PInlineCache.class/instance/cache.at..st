@@ -1,4 +1,3 @@
 accessing
 cache: aMethod at: aClass
-	class := aClass.
-	method := aMethod
+	<pinocchioPrimitive: #cache:at: module: #'Runtime.InlineCache'>
