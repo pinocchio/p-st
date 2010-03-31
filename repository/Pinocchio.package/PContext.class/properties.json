@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"pc",
 		"scopeId",
 		"captured",
 		"closure",

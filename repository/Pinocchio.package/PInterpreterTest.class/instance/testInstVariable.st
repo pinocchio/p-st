@@ -1,7 +1,6 @@
 running
 testInstVariable
 	| exp result closure |
-	self preventRun: [ ^ self ].
 	i context: (PMethodContext new: 1).
 	i context receiver: ChildClassTestClass new.
 	i context receiver a: 42.

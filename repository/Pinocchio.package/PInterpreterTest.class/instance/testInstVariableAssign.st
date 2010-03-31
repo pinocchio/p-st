@@ -1,7 +1,6 @@
 running
 testInstVariableAssign
 	| exp result closure |
-	self preventRun: [ ^ self ].
 	i context: (PMethodContext new: 1).
 	i context receiver: ChildClassTestClass new.
 	exp := (PAssign new)

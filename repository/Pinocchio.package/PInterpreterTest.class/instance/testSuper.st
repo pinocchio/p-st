@@ -1,7 +1,6 @@
 running
 testSuper
 	| exp result |
-	self preventRun: [ ^ self ].
 	exp := PSend new: 0.
 	exp message: #testSuper.
 	exp receiver: (PConstant new: ChildClassTestClass new).

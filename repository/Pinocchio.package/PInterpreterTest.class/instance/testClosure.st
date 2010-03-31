@@ -1,7 +1,6 @@
 running
 testClosure
 	| exp result closure |
-	self preventRun: [ ^ self ].
 	i context: PMethodContext new.
 	exp := (PBlock new: 1) params: Array new locals: Array new.
 	exp at: 1 put: (PConstant new: 42).

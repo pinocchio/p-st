@@ -1,7 +1,6 @@
 running
 testMetaMetaInterpretation
 	| mci send messages |
-	self preventRun: [ ^ self ].
 	mci := PTestInterpreter new.
 	send := PSend new: 0.
 	send receiver: (PConstant new: self).

@@ -6,7 +6,7 @@ tests
 		"add: PStringTest;
 		add: PSymbolTest;
 		add: PSetBucketTest;"
-		add: PIdentitySetBucketTest";
+	"	add: PIdentitySetBucketTest;
 		add: PDictBucketTest;
 		add: PIdentityDictBucketTest;
 		add: PSetTest;
@@ -24,7 +24,7 @@ tests
 		add: PNilTest;
 		add: PObjectTest;
 		add: PSmallIntTest;
-		add: PFileTest;
-		add: PInterpreterTest;"
+		add: PFileTest;"
+		add: PInterpreterTest
 		.
 	^ tests

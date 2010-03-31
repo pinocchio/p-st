@@ -1,7 +1,6 @@
 running
 testVariableAssign
 	| exp result closure |
-	self preventRun: [ ^ self ].
 	i context: (PMethodContext new: 1).
 	exp := (PAssign new)
 		variable: (PVariable localId: 0 scopeId: 0);

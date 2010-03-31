@@ -1,7 +1,6 @@
 running
 testReturn
 	| exp result |
-	self preventRun: [ ^ self ].
 	exp := PSend new: 0.
 	exp message: #returnTest.
 	exp receiver: (PConstant new: self).
