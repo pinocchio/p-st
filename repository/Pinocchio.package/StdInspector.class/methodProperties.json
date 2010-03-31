@@ -2,11 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addLine:" : "ToonVerwaest 3/30/2010 22:08",
 		"decreaseIndent" : "ToonVerwaest 3/25/2010 14:49",
 		"increaseIndent" : "ToonVerwaest 3/25/2010 14:49",
-		"indent" : "ToonVerwaest 3/25/2010 14:49",
+		"indent" : "ToonVerwaest 3/31/2010 13:45",
 		"initialize" : "ToonVerwaest 3/25/2010 15:48",
-		"inspect:" : "ToonVerwaest 3/26/2010 21:15",
-		"shallowInspect:" : "ToonVerwaest 3/26/2010 21:50",
-		"write:" : "ToonVerwaest 3/25/2010 12:53",
-		"writeln:" : "ToonVerwaest 3/25/2010 12:53" } }
+		"inspectChild:" : "ToonVerwaest 3/31/2010 13:45",
+		"inspectChildren:" : "ToonVerwaest 3/30/2010 22:07" } }

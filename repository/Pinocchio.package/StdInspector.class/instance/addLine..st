@@ -1,4 +1,4 @@
 private
-writeln: aString
+addLine: aString
 	PFile stderr: aString.
 	PFile stderr lf.

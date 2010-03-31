@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"indent" ],
-	"name" : "StdInspector",
+		 ],
+	"name" : "PInspector",
 	"pools" : [
 		 ],
-	"super" : "PInspector",
+	"super" : "PObject",
 	"type" : "normal" }
