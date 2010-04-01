@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PContinuation",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

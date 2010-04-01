@@ -6,6 +6,7 @@ tests
 		"add: PStringTest;
 		add: PSymbolTest;
 		add: PSetBucketTest;"
+		add: PContinuationTest;
 	"	add: PIdentitySetBucketTest;
 		add: PDictBucketTest;
 		add: PIdentityDictBucketTest;
