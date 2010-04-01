@@ -11,7 +11,7 @@ expecting
 	aResult
 		ifFalse:
 			[ PFile stderr write: 27 asCharacter.
-			PFile stderr << '[31m' << ('Expected: ' , value asString , ' but got: ' , expected asString).
+			PFile stderr << '[31m' << ('Expected: ' , expected asString , ' but got: ' , value asString).
 			PFile stderr write: 27 asCharacter.
 			PFile stderr << '[0m'.
 			PFile stderr lf ].

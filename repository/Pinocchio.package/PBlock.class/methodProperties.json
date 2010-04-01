@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"=" : "ToonVerwaest 4/1/2010 15:39",
 		"accept:" : "ToonVerwaest 3/25/2010 12:39",
 		"do:" : "ToonVerwaest 3/25/2010 12:39",
 		"first" : "ToonVerwaest 3/25/2010 12:39",
@@ -14,4 +15,5 @@
 		"locals" : "ToonVerwaest 3/25/2010 12:39",
 		"numArgs" : "ToonVerwaest 3/25/2010 12:39",
 		"params" : "ToonVerwaest 3/25/2010 12:39",
-		"params:locals:" : "ToonVerwaest 3/25/2010 12:39" } }
+		"params:locals:" : "ToonVerwaest 3/25/2010 12:39",
+		"withIndexDo:" : "ToonVerwaest 4/1/2010 15:48" } }

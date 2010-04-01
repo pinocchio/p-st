@@ -7,6 +7,7 @@ tests
 		add: PSymbolTest;
 		add: PSetBucketTest;"
 		add: PContinuationTest;
+		add: PParallelDebuggerTest;
 	"	add: PIdentitySetBucketTest;
 		add: PDictBucketTest;
 		add: PIdentityDictBucketTest;

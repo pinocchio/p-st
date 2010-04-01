@@ -8,6 +8,8 @@ pMethods
 			s
 				add: #x;
 				add: #y;
+				add: #=;
+				add: #asString;
 				add: #setX:setY:.
 			^ s ].
 	^ super pMethods

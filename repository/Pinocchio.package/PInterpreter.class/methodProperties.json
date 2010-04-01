@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"interpret:" : "ToonVerwaest 3/26/2010 22:41",
+		"interpret:" : "ToonVerwaest 4/1/2010 12:18",
 		"pTypeName" : "ToonVerwaest 3/25/2010 12:39",
 		"pinitialize" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
@@ -12,6 +12,7 @@
 		"continueOn:message:" : "ToonVerwaest 3/30/2010 16:45",
 		"currentClass" : "ToonVerwaest 3/25/2010 12:39",
 		"currentSelf" : "ToonVerwaest 3/25/2010 12:39",
+		"interpret:" : "ToonVerwaest 4/1/2010 12:18",
 		"invokeMethod:on:message:" : "ToonVerwaest 3/31/2010 17:02",
 		"invokeNativeMethod:on:message:" : "ToonVerwaest 3/25/2010 16:35",
 		"invokeReflectionMethod:on:message:" : "ToonVerwaest 3/30/2010 16:45",

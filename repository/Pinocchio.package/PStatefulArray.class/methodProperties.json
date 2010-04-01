@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"current" : "ToonVerwaest 4/1/2010 14:28",
+		"doRest:" : "ToonVerwaest 4/1/2010 15:33",
+		"first" : "ToonVerwaest 4/1/2010 14:28",
+		"ifAtEnd:" : "ToonVerwaest 4/1/2010 14:57",
+		"initialize" : "ToonVerwaest 4/1/2010 14:28",
+		"next" : "ToonVerwaest 4/1/2010 14:54",
+		"nextPut:" : "ToonVerwaest 4/1/2010 14:30",
+		"position" : "ToonVerwaest 4/1/2010 15:13",
+		"put:" : "ToonVerwaest 4/1/2010 14:28" } }
