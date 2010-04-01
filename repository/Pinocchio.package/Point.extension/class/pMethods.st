@@ -9,7 +9,7 @@ pMethods
 				add: #x;
 				add: #y;
 				add: #=;
-				add: #asString;
+				add: #printString;
 				add: #setX:setY:.
 			^ s ].
 	^ super pMethods
