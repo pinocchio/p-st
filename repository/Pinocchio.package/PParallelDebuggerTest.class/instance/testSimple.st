@@ -25,4 +25,5 @@ testSimple
 	PParallelDebugger interpret:
 		(Array
 			with: [1+2+3]
+			with: [1+2+3]
 			with: [1+2+3] ).

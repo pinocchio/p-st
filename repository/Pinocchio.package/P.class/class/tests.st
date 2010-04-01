@@ -8,8 +8,8 @@ tests
 		add: PSetBucketTest;"
 		add: PContinuationTest;
 		add: PParallelDebuggerTest;
-	"	add: PIdentitySetBucketTest;
-		add: PDictBucketTest;
+		add: PIdentitySetBucketTest;
+	"	add: PDictBucketTest;
 		add: PIdentityDictBucketTest;
 		add: PSetTest;
 		add: PIdentitySetTest;
