@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"command",
-		"mode",
-		"in",
-		"out",
-		"returnStatus" ],
-	"name" : "PProcess",
+		"p" ],
+	"name" : "PProcessTest",
 	"pools" : [
 		 ],
-	"super" : "PObject",
+	"super" : "TestCase",
 	"type" : "normal" }

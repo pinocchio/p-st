@@ -1,8 +1,24 @@
 {
 	"class" : {
-		"open:" : "ToonVerwaest 3/25/2010 12:44" },
+		"open:" : "inurBollimaC 4/1/2010 18:23",
+		"open:withMode:" : "inurBollimaC 4/1/2010 18:24",
+		"pTypeName" : "inurBollimaC 4/2/2010 12:36" },
 	"instance" : {
-		"close" : "ToonVerwaest 3/25/2010 12:44",
+		"canRead" : "inurBollimaC 4/1/2010 18:27",
+		"canReadAndWrite" : "inurBollimaC 4/1/2010 18:27",
+		"canWrite" : "inurBollimaC 4/1/2010 18:27",
+		"close" : "inurBollimaC 4/2/2010 12:47",
+		"command" : "inurBollimaC 4/1/2010 18:16",
+		"command:" : "inurBollimaC 4/1/2010 18:18",
 		"in" : "ToonVerwaest 3/25/2010 12:44",
+		"initialize" : "inurBollimaC 4/2/2010 12:45",
 		"isClosed" : "ToonVerwaest 3/25/2010 12:44",
-		"out" : "ToonVerwaest 3/25/2010 12:44" } }
+		"isOpened" : "inurBollimaC 4/1/2010 18:17",
+		"isValidMode:" : "inurBollimaC 4/1/2010 18:32",
+		"mode" : "inurBollimaC 4/1/2010 18:24",
+		"mode:" : "inurBollimaC 4/1/2010 18:30",
+		"open" : "inurBollimaC 4/2/2010 12:47",
+		"out" : "ToonVerwaest 3/25/2010 12:44",
+		"pclose" : "inurBollimaC 4/1/2010 18:36",
+		"popen" : "inurBollimaC 4/1/2010 18:20",
+		"returnStatus" : "inurBollimaC 4/2/2010 12:47" } }

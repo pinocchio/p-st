@@ -28,4 +28,5 @@ exportBasicClasses
 		add: PReadFile;
 		add: PUnsintInstVariable;
 		add: PLink;
+		add: PProcess;
 		yourself
