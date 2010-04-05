@@ -8,4 +8,5 @@ writePlugin
 	].
 	stream << '}'; lf; lf;
 		<< 'void unload_plugin() {
-}'
+}'.
+	self writeAutoGenFileFooter.

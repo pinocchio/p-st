@@ -1,4 +1,4 @@
-sourceCreation
+convenience
 expandArgumentsIn: strippedLine fromArgs: aCollection
 	| editedLine |
 	editedLine := strippedLine.

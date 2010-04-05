@@ -1,4 +1,4 @@
-sourceCreation
+convenience
 expandSourceReturn: strippedLine
 	| rawLine |
 	strippedLine isEmpty ifTrue: [ ^ strippedLine].

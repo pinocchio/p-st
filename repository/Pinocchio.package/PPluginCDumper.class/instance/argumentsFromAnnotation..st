@@ -1,4 +1,4 @@
-sourceCreation
+convenience
 argumentsFromAnnotation: aPAnnotation
 	| args |
 	args := SortedCollection new.
