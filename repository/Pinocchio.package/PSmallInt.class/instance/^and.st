@@ -1,4 +1,4 @@
 bit manipulation
 & other
-	<pinocchioPrimitive: #& module: #'Type.SmallInt'>
+	<pPrimitive: #& plugin: #'Type.SmallInt'>
 	self pinocchioPrimitiveFailed

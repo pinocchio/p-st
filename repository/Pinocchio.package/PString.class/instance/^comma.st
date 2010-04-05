@@ -1,4 +1,4 @@
 composition
 , other
-	<pinocchioPrimitive: #, module: #'Type.String'>
+	<pPrimitive: #, plugin: #'Type.String'>
 	self pinocchioPrimitiveFailed

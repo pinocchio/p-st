@@ -1,6 +1,6 @@
 sending
 invokeNativeMethod: aClosure on: receiver message: aMessage
-	<pinocchioPrimitive: #invokeNativeMethod:on:message: module: #'Interpretation.Interpreter'>
+	<pPrimitive: #invokeNativeMethod:on:message: plugin: #'Interpretation.Interpreter'>
 	^ self
 		invokeMethod: aClosure
 		on: receiver

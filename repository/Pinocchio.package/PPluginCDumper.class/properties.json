@@ -1,0 +1,18 @@
+{
+	"category" : "Pinocchio-Bridge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"module",
+		"pluginSourcePath",
+		"pluginPath",
+		"pluginName",
+		"annotations" ],
+	"name" : "PPluginCDumper",
+	"pools" : [
+		 ],
+	"super" : "CFileCreator",
+	"type" : "normal" }

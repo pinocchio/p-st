@@ -1,5 +1,5 @@
 comparing
 phash
 	<renameExport: #hash>
-	<pinocchioPrimitive: #hash module: #'Type.Object'>
+	<pPrimitive: #hash plugin: #'Type.Object'>
 	self pinocchioPrimitiveFailed

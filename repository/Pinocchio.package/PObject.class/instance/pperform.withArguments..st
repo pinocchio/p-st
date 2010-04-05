@@ -1,5 +1,5 @@
 message handling
 pperform: aSymbol withArguments: arguments
 	<renameExport: #perform:withArguments:>
-	<pinocchioPrimitive: #perform:withArguments: module: #'Type.Object'>
+	<pPrimitive: #perform:withArguments: plugin: #'Type.Object'>
 	self pinocchioPrimitiveFailed

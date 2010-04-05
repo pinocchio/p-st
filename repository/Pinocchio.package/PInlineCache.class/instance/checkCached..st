@@ -1,4 +1,4 @@
 accessing
 checkCached: aClass
-	<pinocchioPrimitive: #checkCached: module: #'Runtime.InlineCache'>
+	<pPrimitive: #checkCached: plugin: #'Runtime.InlineCache'>
 	^ nil

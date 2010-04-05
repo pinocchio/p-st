@@ -1,4 +1,4 @@
 converting
 asSmallInt
-	<pinocchioPrimitive: #asSmallInt module: #'Type.Character'>
+	<pPrimitive: #asSmallInt plugin: #'Type.Character'>
 	^ super asSmallInt

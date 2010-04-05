@@ -1,5 +1,5 @@
 accessing
 pat: index put: character
 	<renameExport: #at:put:>
-	<pinocchioPrimitive: #at:put: module: #'Type.String'>
+	<pPrimitive: #at:put: plugin: #'Type.String'>
 	self pinocchioPrimitiveFailed

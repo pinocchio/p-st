@@ -1,4 +1,4 @@
 private
 pclose
-	<pinocchioPrimitive: #pclose module: 'IO.Process'>
-	self pinocchioPrimitiveFailed
+	<pPrimitive: #pclose plugin: #'IO.Process'>
+	self pinocchioPrimitiveFailed.

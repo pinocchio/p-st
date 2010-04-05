@@ -1,4 +1,4 @@
 interpreting
 assign: value on: anObject
-	<pinocchioPrimitive: #assign:on: module: #'AST.UnsintInstVariable'>
+	<pPrimitive: #assign:on: plugin: #'AST.UnsintInstVariable'>
 	self pinocchioPrimitiveFailed

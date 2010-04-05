@@ -1,4 +1,4 @@
 writing
 write: aCharacter
-	<pinocchioPrimitive: #write: module: 'IO.File'>
+	<pPrimitive: #write: plugin: #'IO.File'>
 	self pinocchioPrimitiveFailed

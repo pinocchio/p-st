@@ -1,5 +1,5 @@
 converting
 pasSymbol
 	<renameExport: #asSymbol>
-	<pinocchioPrimitive: #asSymbol module: #'Type.String'>
+	<pPrimitive: #asSymbol plugin: #'Type.String'>
 	self pinocchioPrimitiveFailed

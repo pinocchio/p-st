@@ -1,4 +1,4 @@
 instance creation
 open: filename
-	<pinocchioPrimitive: #readOpen: module: 'IO.File'>
+	<pPrimitive: #readOpen: plugin: #'IO.File'>
 	self pinocchioPrimitiveFailed

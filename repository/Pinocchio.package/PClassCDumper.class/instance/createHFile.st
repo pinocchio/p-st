@@ -9,8 +9,7 @@ createHFile
 		nextPutAll: 'extern void init_';
 		nextPutAll: self pclass name asString;
 		nextPutAll: '_methods();';
-		lf;
-		lf.
+		lf; lf.
 	self include: 'lib/lib.h'.
 	self endGuard: guardName.
 	stream close

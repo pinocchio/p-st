@@ -1,5 +1,5 @@
 accessing
 pinstVarAt: index put: value
 	<renameExport: #instVarAt:put:>
-	<pinocchioPrimitive: #instVarAt:put: module: #'Type.Object'>
+	<pPrimitive: #instVarAt:put: plugin: #'Type.Object'>
 	self pinocchioPrimitiveFailed

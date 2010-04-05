@@ -1,5 +1,5 @@
 accessing
 psize
 	<renameExport: #size>
-	<pinocchioPrimitive: #size module: #'Type.Object'>
+	<pPrimitive: #size plugin: #'Type.Object'>
 	self pinocchioPrimitiveFailed

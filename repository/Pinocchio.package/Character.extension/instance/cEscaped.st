@@ -3,9 +3,7 @@ cEscaped
 	| dictArray dict |
 	dictArray := Array with: nil with: #'.'.
 	dict := dictArray at: 1.
-	dict
-		ifNil:
-			[ dict := PDictionary new.
+	dict ifNil: [ dict := PDictionary new.
 			dict at: Character cr put: '\n'.
 			dict at: Character lf put: '\n'.
 			dict at: Character tab put: '\t'.

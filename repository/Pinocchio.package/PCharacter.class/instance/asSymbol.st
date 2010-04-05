@@ -1,4 +1,4 @@
 converting
 asSymbol
-	<pinocchioPrimitive: #asSymbol module: #'Type.Character'>
+	<pPrimitive: #asSymbol plugin: #'Type.Character'>
 	^ super asSymbol

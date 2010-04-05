@@ -1,6 +1,6 @@
 private
 grow
-	<pinocchioPrimitive: #grow module: #'Collection.Dictionary'>
+	<pPrimitive: #grow plugin: #'Collection.Dictionary'>
 	| oldBuckets |
 	oldBuckets := buckets.
 	buckets := Array new: (oldBuckets size << 1 max: 32).

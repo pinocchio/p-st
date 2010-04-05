@@ -1,6 +1,6 @@
 accessing
 at: key put: anObject
-	<pinocchioPrimitive: #at:put: module: #'Collection.Dictionary'>
+	<pPrimitive: #at:put: plugin: #'Collection.Dictionary'>
 	self shouldGrow
 		ifTrue: [ self grow ].
 	buckets size = 1

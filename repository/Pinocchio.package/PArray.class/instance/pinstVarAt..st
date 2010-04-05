@@ -1,5 +1,5 @@
 accessing
 pinstVarAt: index
 	<renameExport: #instVarAt:>
-	<pinocchioPrimitive: #instVarAt: module: #'Collection.Array'>
+	<pPrimitive: #instVarAt: plugin: #'Collection.Array'>
 	self pinocchioPrimitiveFailed

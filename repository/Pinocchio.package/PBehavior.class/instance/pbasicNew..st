@@ -1,5 +1,5 @@
 instance creation
 pbasicNew: sizeRequested
 	<renameExport: #basicNew:>
-	<pinocchioPrimitive: #basicNew: module: #'Type.Object'>
+	<pPrimitive: #basicNew: plugin: #'Type.Object'>
 	self pinocchioPrimitiveFailed

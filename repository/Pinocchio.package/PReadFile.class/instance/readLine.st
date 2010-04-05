@@ -1,4 +1,4 @@
 reading
 readLine
-	<pinocchioPrimitive: #readLine module: 'IO.File'>
+	<pPrimitive: #readLine plugin: #'IO.File'>
 	self pinocchioPrimitiveFailed

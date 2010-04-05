@@ -1,4 +1,4 @@
 private
 load: aPath
-	<pinocchioPrimitive: #load: module: #'Plugin.Plugin'>
+	<pPrimitive: #load: plugin: #'Plugin.Plugin'>
 	self pinocchioPrimitiveFailed

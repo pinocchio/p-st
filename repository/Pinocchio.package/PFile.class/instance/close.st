@@ -1,4 +1,4 @@
 open/close
 close
-	<pinocchioPrimitive: #close module: 'IO.File'>
+	<pPrimitive: #close plugin: #'IO.File'>
 	self pinocchioPrimitiveFailed

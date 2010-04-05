@@ -1,5 +1,5 @@
 accessing
 pat: index
 	<renameExport: #at:>
-	<pinocchioPrimitive: #at: module: #'Type.Symbol'>
+	<pPrimitive: #at: plugin: #'Type.Symbol'>
 	self pinocchioPrimitiveFailed

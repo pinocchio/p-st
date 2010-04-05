@@ -1,4 +1,4 @@
 converting
 asString
-	<pinocchioPrimitive: #asString module: #'Type.Character'>
+	<pPrimitive: #asString plugin: #'Type.Character'>
 	^ super asString

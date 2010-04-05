@@ -1,4 +1,4 @@
 reading
 readAll
-	<pinocchioPrimitive: #readAll module: 'IO.File'>
+	<pPrimitive: #readAll plugin: #'IO.File'>
 	self pinocchioPrimitiveFailed

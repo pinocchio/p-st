@@ -1,4 +1,4 @@
 instance creation
 run: aBlock
-	<pinocchioPrimitive: #run: module: #'Interpretation.Thread'>
+	<pPrimitive: #run: plugin: #'Interpretation.Thread'>
 	self pinocchioPrimitiveFailed

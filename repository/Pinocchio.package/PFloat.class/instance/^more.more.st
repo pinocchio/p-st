@@ -1,4 +1,4 @@
 bit manipulation
 >> other
-	<pinocchioPrimitive: #>> module: #'Type.Float'>
+	<pPrimitive: #>> plugin: #'Type.Float'>
 	self pinocchioPrimitiveFailed

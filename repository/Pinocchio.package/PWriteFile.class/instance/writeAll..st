@@ -1,4 +1,4 @@
 writing
 writeAll: aString
-	<pinocchioPrimitive: #writeAll: module: 'IO.File'>
+	<pPrimitive: #writeAll: plugin: #'IO.File'>
 	self pinocchioPrimitiveFailed

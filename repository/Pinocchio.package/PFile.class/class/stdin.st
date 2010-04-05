@@ -1,4 +1,4 @@
 accessing
 stdin
-	<pinocchioPrimitive: #stdin module: 'IO.File'>
+	<pPrimitive: #stdin plugin: #'IO.File'>
 	

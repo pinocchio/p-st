@@ -1,4 +1,4 @@
 stream access
 atEnd
-	<pinocchioPrimitive: #atEnd module: 'IO.File'>
+	<pPrimitive: #atEnd plugin: #'IO.File'>
 	self pinocchioPrimitiveFailed

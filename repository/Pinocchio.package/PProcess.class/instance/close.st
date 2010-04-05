@@ -1,6 +1,6 @@
 processing
 close
-	self isOpened ifFalse: [ ^ self ].
+	self isClosed ifTrue: [ ^ self ].
 	returnStatus := self pclose.
 	in := nil.
 	out := nil.

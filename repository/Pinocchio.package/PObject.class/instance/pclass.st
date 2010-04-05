@@ -1,5 +1,5 @@
 accessing
 pclass
 	<renameExport: #class>
-	<pinocchioPrimitive: #class module: #'Type.Object'>
+	<pPrimitive: #class plugin: #'Type.Object'>
 	self pinocchioPrimitiveFailed

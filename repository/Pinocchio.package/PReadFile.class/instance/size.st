@@ -1,4 +1,4 @@
 accessing
 size
-	<pinocchioPrimitive: #size module: 'IO.File'>
+	<pPrimitive: #size plugin: #'IO.File'>
 	self pinocchioPrimitiveFailed

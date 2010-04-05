@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"export:withAnnotations:" : "CamilloBruni 4/5/2010 14:44" },
+	"instance" : {
+		"annotations" : "CamilloBruni 4/5/2010 14:23",
+		"annotations:" : "CamilloBruni 4/5/2010 14:24",
+		"argumentsFromAnnotation:" : "CamilloBruni 4/5/2010 14:54",
+		"autoGenHeader" : "CamilloBruni 4/5/2010 11:36",
+		"expandArgumentsIn:fromArgs:" : "CamilloBruni 4/5/2010 15:04",
+		"expandSourceReturn:" : "CamilloBruni 4/5/2010 13:44",
+		"export" : "CamilloBruni 4/5/2010 13:43",
+		"module" : "CamilloBruni 4/5/2010 11:11",
+		"module:" : "CamilloBruni 4/5/2010 12:55",
+		"nativeNameFromAnnotation:" : "CamilloBruni 4/5/2010 15:02",
+		"openSourceStream" : "CamilloBruni 4/5/2010 12:40",
+		"prepareStream" : "CamilloBruni 4/5/2010 13:27",
+		"sourceLinesFromaAnnotation:" : "CamilloBruni 4/5/2010 14:56",
+		"sourcePath" : "CamilloBruni 4/5/2010 12:18",
+		"sourceStringForAnnotation:" : "CamilloBruni 4/5/2010 14:43",
+		"writeAutoGenFileHeader" : "CamilloBruni 4/5/2010 12:47",
+		"writePlugin" : "CamilloBruni 4/5/2010 14:43",
+		"writePluginExportForAnnotation:" : "CamilloBruni 4/5/2010 15:03",
+		"writePrimitiveForAnnotation:" : "CamilloBruni 4/5/2010 15:07",
+		"writePrimitives" : "CamilloBruni 4/5/2010 14:40" } }

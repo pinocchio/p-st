@@ -1,4 +1,4 @@
 accessing
 stdout
-	<pinocchioPrimitive: #stdout module: 'IO.File'>
+	<pPrimitive: #stdout plugin: #'IO.File'>
 	

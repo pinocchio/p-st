@@ -1,4 +1,5 @@
 private
 popen
-	<pinocchioPrimitive: #popen module: 'IO.Process'>
+	<pPrimitive: #popen plugin: #'IO.Process'>
 	self pinocchioPrimitiveFailed
+	

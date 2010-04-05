@@ -1,4 +1,4 @@
 arithmetic
 // other
-	<pinocchioPrimitive: #// module: #'Type.Float'>
+	<pPrimitive: #// plugin: #'Type.Float'>
 	self pinocchioPrimitiveFailed

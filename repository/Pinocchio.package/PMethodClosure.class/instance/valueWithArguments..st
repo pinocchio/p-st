@@ -1,4 +1,4 @@
 evaluating
 valueWithArguments: arguments
-	<pinocchioPrimitive: #valueWithArguments: module: #'AST.MethodClosure'>
+	<pPrimitive: #valueWithArguments: plugin: #'AST.MethodClosure'>
 	self pinocchioPrimitiveFailed

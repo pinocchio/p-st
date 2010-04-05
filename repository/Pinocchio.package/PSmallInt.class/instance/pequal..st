@@ -1,5 +1,5 @@
 comparing
 pequal: other
 	<renameExport: #'='>
-	<pinocchioPrimitive: #= module: #'Type.SmallInt'>
+	<pPrimitive: #= plugin: #'Type.SmallInt'>
 	self pinocchioPrimitiveFailed

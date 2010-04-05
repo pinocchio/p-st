@@ -1,5 +1,5 @@
 comparing
 ppequal: other
 	<renameExport: #== >
-	<pinocchioPrimitive: #== module: #'Type.Object'>
+	<pPrimitive: #== plugin: #'Type.Object'>
 	self pinocchioPrimitiveFailed

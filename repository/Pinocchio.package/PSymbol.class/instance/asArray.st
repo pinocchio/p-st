@@ -1,4 +1,4 @@
 converting
 asArray
-	<pinocchioPrimitive: #asArray module: #'Type.Symbol'>
+	<pPrimitive: #asArray plugin: #'Type.Symbol'>
 	self pinocchioPrimitiveFailed

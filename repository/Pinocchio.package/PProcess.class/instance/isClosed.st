@@ -1,3 +1,3 @@
 accessing
 isClosed
-	^ out isNil and: [ in isNil ]
+	^ self isOpened not. 

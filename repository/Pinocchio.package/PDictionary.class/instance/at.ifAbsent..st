@@ -1,6 +1,6 @@
 accessing
 at: key ifAbsent: aBlock
-	<pinocchioPrimitive: #at:ifAbsent: module: #'Collection.Dictionary'>
+	<pPrimitive: #at:ifAbsent: plugin: #'Collection.Dictionary'>
 	| bucket |
 	buckets size = 1
 		ifTrue: [ ^ (buckets at: 1) atKey: key ifAbsent: aBlock ].	"TODO make sure hash is always positive"

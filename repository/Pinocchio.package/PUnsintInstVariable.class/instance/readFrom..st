@@ -1,4 +1,4 @@
 interpreting
 readFrom: anObject
-	<pinocchioPrimitive: #readFrom: module: #'AST.UnsintInstVariable'>
+	<pPrimitive: #readFrom: plugin: #'AST.UnsintInstVariable'>
 	self pinocchioPrimitiveFailed

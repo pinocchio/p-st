@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"export:" : "CamilloBruni 4/5/2010 09:40" },
+	"instance" : {
+		"classes" : "CamilloBruni 4/5/2010 09:29",
+		"classes:" : "CamilloBruni 4/5/2010 09:29",
+		"collectPluginFromClass:" : "CamilloBruni 4/5/2010 14:14",
+		"collectPluginFromMethod:" : "CamilloBruni 4/5/2010 15:10",
+		"export" : "CamilloBruni 4/5/2010 09:42",
+		"export:" : "CamilloBruni 4/5/2010 09:29",
+		"exportPlugin:withPragmas:" : "CamilloBruni 4/5/2010 14:22",
+		"exportPlugins" : "CamilloBruni 4/5/2010 10:12",
+		"registerPluginMethod:with:" : "CamilloBruni 4/5/2010 14:39",
+		"reset" : "CamilloBruni 4/5/2010 09:41" } }

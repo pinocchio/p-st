@@ -1,4 +1,4 @@
 interpreting
 assign: value on: anObject
-	<pinocchioPrimitive: #assign:on: module: #'AST.InstVariable'>
+	<pPrimitive: #assign:on: plugin: #'AST.InstVariable'>
 	self pinocchioPrimitiveFailed

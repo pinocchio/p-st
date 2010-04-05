@@ -1,5 +1,5 @@
 *Pinocchio
-getCCommentEscapedSource
+asCCommentEscapedSource
 	| source |
 	source := self getSource asString asString.
 	source := source

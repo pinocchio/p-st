@@ -1,4 +1,4 @@
 accessing
 stderr
-	<pinocchioPrimitive: #stderr module: #'IO.File'>
+	<pPrimitive: #stderr plugin: #'IO.File'>
 	

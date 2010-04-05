@@ -1,4 +1,4 @@
 printing
 lf
-	<pinocchioPrimitive: #lf module: 'IO.File'>
+	<pPrimitive: #lf plugin: #'IO.File'>
 	self write: Character lf

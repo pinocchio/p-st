@@ -1,4 +1,4 @@
 plugging
 unload
-	<pinocchioPrimitive: #unload module: #'Plugin.Plugin'>
+	<pPrimitive: #unload plugin: #'Plugin.Plugin'>
 	
