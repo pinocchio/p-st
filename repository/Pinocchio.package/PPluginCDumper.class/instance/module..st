@@ -6,5 +6,6 @@ module: aModuleName
 	parts := module collect: [ :each|
 		each asLowercase.
 	].
-	pluginPath := self sourcePath, ('/' join: (parts copyFrom: 1 to: module size - 1)).
+	pluginIncludePrefix := '/' join: (parts copyFrom: 1 to: module size - 1).
+	pluginPath := self sourcePath, pluginIncludePrefix.
 	pluginSourcePath := pluginPath, '/', pluginName.
