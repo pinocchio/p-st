@@ -24,6 +24,6 @@ testInstanceCreation
 	
 	result := result origin.
 	result should beKindOf: PAllocationAlias.
-	result context should beKindOf: PMethodContext.
-	result context homeContext closure selector should be: #new. "here basicNew was called"
+	result context should beKindOf: PNativeMethodContext.
+	result context message selector should be: #basicNew.
 	result origin should be: nil.
