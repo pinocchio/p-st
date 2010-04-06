@@ -1,5 +1,5 @@
 running
-testLocalVariableAssign
+testFieldWriteTest
 	| result |
 	result := PAliasInterpreter interpret: [ |c|
 		c := ChildClassTestClass new.
@@ -10,7 +10,7 @@ testLocalVariableAssign
 	result should beKindOf: PReturnAlias.
 	result value should beKindOf: ChildClassTestClass.
 	result context should beKindOf: PBlockContext.
-	result context homeContext closure selector should be: #testLocalVariableAssign.
+	result context homeContext closure selector should be: #testFieldWriteTest.
 	
 	result := result value.
 	result a should beKindOf: PFieldWriteAlias.
