@@ -6,11 +6,12 @@ tests
 		"add: PStringTest;
 		add: PSymbolTest;
 		add: PSetBucketTest;"
+		add: PAliasInterpreterTest;"
 		add: PContinuationTest;
 		add: PContinueTest;
 		add: PParallelDebuggerTest;
 		add: PIdentitySetBucketTest;
-	"	add: PDictBucketTest;
+		add: PDictBucketTest;
 		add: PIdentityDictBucketTest;
 		add: PSetTest;
 		add: PIdentitySetTest;

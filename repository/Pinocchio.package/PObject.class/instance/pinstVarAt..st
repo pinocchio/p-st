@@ -1,5 +1,4 @@
 accessing
 pinstVarAt: index
 	<renameExport: #instVarAt:>
-	<pPrimitive: #instVarAt: plugin: #'Type.Object'>
-	self pinocchioPrimitiveFailed
+	^ (self class layout at: index) readFrom: self

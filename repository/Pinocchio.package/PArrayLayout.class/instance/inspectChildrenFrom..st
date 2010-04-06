@@ -1,3 +1,6 @@
 inspecting
 inspectChildrenFrom: anObject
-	^ (self select: #isInspectable) collect: [ :anInstVariable | anInstVariable @ (anInstVariable readFrom: anObject) ]
+	| children |
+	children := super inspectChildrenFrom: anObject.
+	1 to: anObject size do: [ :index | children add: index@(anObject at: index) ].
+	^ children

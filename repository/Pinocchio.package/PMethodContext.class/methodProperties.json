@@ -2,11 +2,11 @@
 	"class" : {
 		"asPClass" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
+		"asAliased" : "ToonVerwaest 4/6/2010 17:16",
 		"assignAt:in:to:" : "ToonVerwaest 3/25/2010 12:39",
-		"initialize" : "ToonVerwaest 3/31/2010 17:05",
+		"initialize" : "ToonVerwaest 4/6/2010 15:18",
 		"lookupAt:in:" : "ToonVerwaest 3/25/2010 12:39",
-		"methodClass" : "ToonVerwaest 3/25/2010 12:39",
-		"methodClass:" : "ToonVerwaest 3/25/2010 12:39",
+		"methodClass" : "ToonVerwaest 4/6/2010 13:42",
 		"printStacktrace" : "ToonVerwaest 3/25/2010 12:39",
 		"receiver" : "ToonVerwaest 3/25/2010 12:39",
 		"receiver:" : "ToonVerwaest 3/25/2010 12:39" } }

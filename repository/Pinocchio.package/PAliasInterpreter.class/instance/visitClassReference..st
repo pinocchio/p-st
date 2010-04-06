@@ -1,3 +1,5 @@
 interpreting
 visitClassReference: aClassReference
-	^ PLiteralAlias new value: aClassReference pclass
+	^ PLiteralAlias new
+		value: aClassReference pclass;
+		context: context

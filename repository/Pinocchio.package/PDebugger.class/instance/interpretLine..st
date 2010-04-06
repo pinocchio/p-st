@@ -1,5 +1,5 @@
 shelling
-interpret: code
+interpretLine: code
 	(code = 's' or: [ code = 'o' or: [ code = 'i' ]])
 		ifTrue: [ ^ escapeShell value: code ].
 	code = ''

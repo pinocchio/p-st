@@ -1,3 +1,4 @@
 aliasing
 aliasArguments: aMessage
-	aMessage withIndexDo: [ :arg :index | aMessage at: index put: (PParameterAlias alias: arg) ]
+	aMessage withIndexDo: [ :arg :index |
+		aMessage at: index put: ((PParameterAlias alias: arg) context: context) ]

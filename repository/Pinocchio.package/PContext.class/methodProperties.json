@@ -3,6 +3,9 @@
 		"asPClass" : "ToonVerwaest 3/25/2010 12:39",
 		"pTypeName" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
+		"asAliased" : "ToonVerwaest 4/6/2010 17:16",
+		"captured" : "ToonVerwaest 4/6/2010 16:40",
+		"captured:" : "ToonVerwaest 4/6/2010 16:40",
 		"closure" : "ToonVerwaest 3/25/2010 12:39",
 		"closure:" : "ToonVerwaest 3/25/2010 12:39",
 		"homeContext" : "ToonVerwaest 3/25/2010 12:39",
@@ -11,4 +14,5 @@
 		"printStacktrace" : "ToonVerwaest 3/25/2010 12:39",
 		"returnContext" : "ToonVerwaest 3/25/2010 12:39",
 		"returnContext:" : "ToonVerwaest 3/25/2010 12:39",
-		"scopeId" : "ToonVerwaest 3/25/2010 12:39" } }
+		"scopeId" : "ToonVerwaest 3/25/2010 12:39",
+		"withIndexDo:" : "ToonVerwaest 4/6/2010 16:40" } }

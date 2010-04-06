@@ -10,5 +10,5 @@
 	"name" : "PArrayLayout",
 	"pools" : [
 		 ],
-	"super" : "PLayout",
+	"super" : "PObjectLayout",
 	"type" : "variable" }

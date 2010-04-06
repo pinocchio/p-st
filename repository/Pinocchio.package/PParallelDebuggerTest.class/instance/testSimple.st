@@ -1,6 +1,5 @@
 testing
 testSimple
-
 	self warn: 'Test1'.
 	PParallelDebugger interpret:
 		(Array

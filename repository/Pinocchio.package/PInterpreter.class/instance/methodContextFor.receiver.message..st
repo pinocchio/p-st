@@ -1,8 +1,7 @@
 sending
-methodContextFor: closure receiver: receiver class: methodClass message: aMessage
+methodContextFor: closure receiver: receiver message: aMessage
 	context := (PMethodContext new: closure code params size + closure code locals size)
 		returnContext: context;
 		receiver: receiver;
-		methodClass: methodClass;
 		closure: closure.
 	aMessage withIndexDo: [ :arg :index | context at: index put: arg ]

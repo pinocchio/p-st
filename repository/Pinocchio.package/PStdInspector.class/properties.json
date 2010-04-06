@@ -1,14 +1,14 @@
 {
-	"category" : "Pinocchio-Type",
+	"category" : "Pinocchio-Inspector",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "PFileLayout",
+		"indent" ],
+	"name" : "PStdInspector",
 	"pools" : [
 		 ],
-	"super" : "PLayout",
+	"super" : "PInspector",
 	"type" : "normal" }

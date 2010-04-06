@@ -1,14 +1,14 @@
 {
-	"category" : "Pinocchio-Inspector",
+	"category" : "Pinocchio-Interpreter",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"indent" ],
-	"name" : "StdInspector",
+		"i" ],
+	"name" : "PAliasInterpreterTest",
 	"pools" : [
 		 ],
-	"super" : "PInspector",
+	"super" : "TestCase",
 	"type" : "normal" }

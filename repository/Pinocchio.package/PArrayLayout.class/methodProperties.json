@@ -2,4 +2,5 @@
 	"class" : {
 		"asPClass" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
-		"inspectChildrenFrom:" : "ToonVerwaest 3/26/2010 21:13" } }
+		"aliasChildrenFrom:to:in:" : "ToonVerwaest 4/6/2010 16:27",
+		"inspectChildrenFrom:" : "ToonVerwaest 4/6/2010 15:33" } }

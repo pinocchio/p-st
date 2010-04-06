@@ -1,5 +1,7 @@
 interpreting
 visitInstVariable: anInstVariable
 	| result |
-	result := super visitInstVariable: anInstVariable.
-	^ PFieldReadAlias alias: result
+	result := anInstVariable readFrom: self currentUnwrappedSelf.
+	PStdInspector inspect: anInstVariable.
+	^ (PFieldReadAlias alias: result)
+		context: context

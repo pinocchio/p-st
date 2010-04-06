@@ -14,4 +14,4 @@ step: action
 			^ result ].
 	input = 'i'
 		ifTrue:
-			[ StdInspector new inspect: self currentSelf. ^ self step: action ]
+			[ PStdInspector inspect: self currentSelf. ^ self step: action ]

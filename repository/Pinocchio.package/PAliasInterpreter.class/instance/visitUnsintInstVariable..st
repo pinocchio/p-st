@@ -1,5 +1,5 @@
 interpreting
 visitUnsintInstVariable: anUnsintInstVariable
 	| result |
-	result := super visitUnsintInstVariable: anUnsintInstVariable.
-	^ PAllocationAlias new value: result
+	result := anUnsintInstVariable readFrom: self currentUnwrappedSelf.
+	^ result asAllocationAlias: context

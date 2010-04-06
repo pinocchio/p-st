@@ -1,3 +1,5 @@
 interpreting
 visitConstant: aConstant
-	^ PLiteralAlias new value: aConstant constant
+	^ PLiteralAlias new
+		value: aConstant constant;
+		context: context

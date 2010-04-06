@@ -1,3 +1,3 @@
 private
 inspectChild: child
-	self addLine: child x name, ': ', (self shallowInspect: child y)
+	self addLine: child x inspectLabel, ': ', (self shallowInspect: child y)

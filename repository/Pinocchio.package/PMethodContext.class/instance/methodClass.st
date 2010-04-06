@@ -1,3 +1,3 @@
 accessing
 methodClass
-	^ methodClass
+	^ closure host
