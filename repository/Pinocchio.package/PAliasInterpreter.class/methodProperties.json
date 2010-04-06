@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"aliasArguments:" : "ToonVerwaest 4/6/2010 11:05",
+		"assignInstVariable:to:" : "ToonVerwaest 4/6/2010 12:04",
+		"assignUnsintInstVariable:to:" : "ToonVerwaest 4/6/2010 12:04",
+		"classOf:" : "ToonVerwaest 4/6/2010 11:52",
+		"currentUnwrappedSelf" : "ToonVerwaest 4/6/2010 12:06",
+		"invokeNativeMethod:on:message:" : "ToonVerwaest 4/6/2010 12:11",
+		"recursiveDoesNotUnderstand:on:" : "ToonVerwaest 4/6/2010 12:06",
+		"send:to:class:" : "ToonVerwaest 4/6/2010 11:41",
+		"send:to:class:for:" : "ToonVerwaest 4/6/2010 11:58",
+		"visitBlock:" : "ToonVerwaest 4/6/2010 12:13",
+		"visitClassReference:" : "ToonVerwaest 4/6/2010 12:01",
+		"visitConstant:" : "ToonVerwaest 4/6/2010 11:40",
+		"visitInstVariable:" : "ToonVerwaest 4/6/2010 11:43",
+		"visitUnsintInstVariable:" : "ToonVerwaest 4/6/2010 11:47" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Alias",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PReadAlias",
+	"pools" : [
+		 ],
+	"super" : "PAlias",
+	"type" : "normal" }

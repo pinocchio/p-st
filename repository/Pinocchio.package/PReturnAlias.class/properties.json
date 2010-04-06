@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Alias",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PReturnAlias",
+	"pools" : [
+		 ],
+	"super" : "PMethodAlias",
+	"type" : "normal" }

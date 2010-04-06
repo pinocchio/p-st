@@ -1,0 +1,16 @@
+{
+	"category" : "Pinocchio-Alias",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"origin",
+		"context",
+		"value" ],
+	"name" : "PAlias",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

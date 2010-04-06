@@ -1,4 +1,4 @@
-as yet unclassified
+running
 testIsValidMode 
 	p isValidMode: #r should = true.
 	p isValidMode: 'r' should = true.

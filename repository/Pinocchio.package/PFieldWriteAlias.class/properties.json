@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Alias",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PFieldWriteAlias",
+	"pools" : [
+		 ],
+	"super" : "PWriteAlias",
+	"type" : "normal" }

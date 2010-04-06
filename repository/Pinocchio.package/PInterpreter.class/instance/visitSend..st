@@ -8,5 +8,5 @@ visitSend: aSend
 	^ self
 		send: message
 		to: receiver
-		class: receiver class
+		class: (self classOf: receiver)
 		for: aSend
