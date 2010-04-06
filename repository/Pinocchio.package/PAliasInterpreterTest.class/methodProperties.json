@@ -4,4 +4,5 @@
 	"instance" : {
 		"setUp" : "ToonVerwaest 4/6/2010 16:35",
 		"testConstant" : "ToonVerwaest 4/6/2010 17:28",
-		"testInstanceCreation" : "ToonVerwaest 4/6/2010 18:35" } }
+		"testInstanceCreation" : "ToonVerwaest 4/6/2010 18:35",
+		"testLocalVariableAssign" : "ToonVerwaest 4/6/2010 18:49" } }
