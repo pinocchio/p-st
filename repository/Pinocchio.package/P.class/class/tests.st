@@ -9,8 +9,8 @@ tests
 		add: PAliasInterpreterTest;"
 		add: PContinuationTest;
 		add: PContinueTest;
-		add: PParallelDebuggerTest;
-		add: PIdentitySetBucketTest;
+		add: PParallelDebuggerTest;"
+		add: PIdentitySetBucketTest;"
 		add: PDictBucketTest;
 		add: PIdentityDictBucketTest;
 		add: PSetTest;
