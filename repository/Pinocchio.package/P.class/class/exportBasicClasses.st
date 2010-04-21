@@ -29,4 +29,5 @@ exportBasicClasses
 		add: PUnsintInstVariable;
 		add: PLink;
 		add: PProcess;
+		add: PMessageTally;
 		yourself

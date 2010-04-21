@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Interpreter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tally" ],
+	"name" : "PMessageTally",
+	"pools" : [
+		 ],
+	"super" : "PSteppingInterpreter",
+	"type" : "normal" }
