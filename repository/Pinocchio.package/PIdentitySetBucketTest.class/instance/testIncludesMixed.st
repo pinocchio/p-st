@@ -11,4 +11,7 @@ testIncludesMixed
 	(b includes: #key2) should = false.
 	b add: #key2.
 	
-	PDebugger interpret: [ (b includes: 'key2') should be: true ]
+	PParallelDebugger interpret:
+    		(Array
+        		with: [b includes: #key ]
+        		with: [b includes: 'key'])

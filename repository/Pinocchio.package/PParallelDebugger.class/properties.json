@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"results",
-		"continuations",
-		"localIndent" ],
+		"localIndent",
+		"threads",
+		"states" ],
 	"name" : "PParallelDebugger",
 	"pools" : [
 		 ],

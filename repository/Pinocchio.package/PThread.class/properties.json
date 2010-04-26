@@ -1,14 +1,15 @@
 {
-	"category" : "Pinocchio-Interpreter",
+	"category" : "Pinocchio-Runtime",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"continuation",
+		"context" ],
 	"name" : "PThread",
 	"pools" : [
 		 ],
-	"super" : "PInterpreter",
+	"super" : "PObject",
 	"type" : "normal" }

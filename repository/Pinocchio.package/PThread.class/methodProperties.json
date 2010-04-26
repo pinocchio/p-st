@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"new:" : "ToonVerwaest 3/25/2010 12:44",
-		"run:" : "CamilloBruni 4/5/2010 15:56" },
+		 },
 	"instance" : {
-		 } }
+		"context" : "DavidGurtner 4/26/2010 15:41",
+		"context:" : "DavidGurtner 4/26/2010 15:41",
+		"continuation" : "DavidGurtner 4/26/2010 15:41",
+		"continuation:" : "DavidGurtner 4/26/2010 15:41" } }

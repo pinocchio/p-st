@@ -2,9 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"defaultStepBlock" : "DavidGurtner 4/26/2010 15:43",
 		"indent" : "ToonVerwaest 4/1/2010 16:09",
 		"initialize" : "ToonVerwaest 4/1/2010 16:11",
-		"interpret:" : "ToonVerwaest 4/1/2010 16:14",
-		"interpretNext" : "ToonVerwaest 4/1/2010 15:26",
+		"initialize:" : "DavidGurtner 4/26/2010 16:16",
+		"interpret:" : "DavidGurtner 4/26/2010 15:36",
 		"show:" : "ToonVerwaest 4/1/2010 15:11",
-		"visitSend:" : "ToonVerwaest 4/1/2010 16:14" } }
+		"showInvocation" : "DavidGurtner 4/26/2010 15:58",
+		"showReturn" : "DavidGurtner 4/26/2010 15:59",
+		"switchThread" : "DavidGurtner 4/26/2010 15:47",
+		"visitSend:" : "DavidGurtner 4/26/2010 16:06" } }
