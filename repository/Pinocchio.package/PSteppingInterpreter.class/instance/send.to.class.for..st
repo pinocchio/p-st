@@ -1,12 +1,12 @@
 sending
-send: aMessage to: receiver class: class for: aSend
+send: message to: receiver class: class for: send
 	^ self
 		checkStep: receiver
 		class: class
-		message: aMessage
+		message: message
 		do:
 			[ super
-				send: aMessage
+				send: message
 				to: receiver
 				class: class
-				for: aSend ]
+				for: send ]

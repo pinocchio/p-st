@@ -29,5 +29,7 @@ exportBasicClasses
 		add: PUnsintInstVariable;
 		add: PLink;
 		add: PProcess;
+		add: PDebugger;
+		add: PParallelDebugger;
 		add: PMessageTally;
 		yourself

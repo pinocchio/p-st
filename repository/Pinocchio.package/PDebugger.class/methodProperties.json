@@ -3,14 +3,16 @@
 		 },
 	"instance" : {
 		"compile:" : "DavidGurtner 3/25/2010 23:51",
-		"defaultStepBlock" : "CamilloBruni 3/30/2010 17:15",
+		"debugShellWithAction:" : "DavidGurtner 4/28/2010 14:22",
+		"defaultStepBlock" : "DavidGurtner 4/28/2010 13:27",
 		"displayPrompt" : "DavidGurtner 3/25/2010 23:52",
+		"executeAction:" : "DavidGurtner 4/28/2010 14:05",
 		"indent" : "DavidGurtner 3/26/2010 00:07",
-		"interpretFile:" : "DavidGurtner 3/25/2010 23:52",
 		"interpretFromStdin" : "ToonVerwaest 4/6/2010 17:11",
-		"interpretLine:" : "ToonVerwaest 4/6/2010 17:11",
+		"interpretLine:" : "DavidGurtner 4/28/2010 14:02",
 		"perror:" : "DavidGurtner 3/25/2010 23:58",
+		"print:" : "DavidGurtner 4/28/2010 14:26",
 		"printStacktrace" : "DavidGurtner 3/26/2010 00:00",
 		"shell" : "CamilloBruni 3/29/2010 13:58",
-		"skipStepBlock" : "DavidGurtner 4/12/2010 17:36",
-		"step:" : "ToonVerwaest 4/6/2010 17:04" } }
+		"skipBlock:" : "DavidGurtner 4/28/2010 14:32",
+		"skipStepBlock" : "DavidGurtner 4/28/2010 13:45" } }

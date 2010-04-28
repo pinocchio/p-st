@@ -1,5 +1,5 @@
 stepping
-step: action
+debugShellWithAction: action
 	| input |
 	input := self shell.
 	input = 's'
@@ -14,4 +14,7 @@ step: action
 			^ result ].
 	input = 'i'
 		ifTrue:
-			[ PStdInspector inspect: self currentSelf. ^ self step: action ]
+			[ PStdInspector inspect: self currentSelf. ^ self debugShellWithAction: action ].
+	input = 'j'
+		ifTrue:
+			[ stepBlock := self skipBlock: 2. ^ action value ]

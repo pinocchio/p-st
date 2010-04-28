@@ -1,7 +1,5 @@
 stepping
 defaultStepBlock
-	^ [ :receiver :class :aMessage :action | 
-		self indent.
-		PFile stderr: receiver class name, '@', class name , '>>' , aMessage asString.
-		PFile stderr lf.
-		self step: action ]
+    ^ [ :receiver :class :message :action |
+        self print: receiver class name, '>>', message.
+        self debugShellWithAction: action ].
