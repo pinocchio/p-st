@@ -4,8 +4,8 @@
 		"pTypeName" : "ToonVerwaest 3/25/2010 12:39",
 		"pinitialize" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
-		"assignInstVariable:to:" : "ToonVerwaest 3/25/2010 16:59",
-		"assignUnsintInstVariable:to:" : "ToonVerwaest 3/25/2010 17:56",
+		"assignSlot:to:" : "CamilloBruni 5/4/2010 12:02",
+		"assignUnsintSlot:to:" : "CamilloBruni 5/4/2010 12:02",
 		"assignVariable:to:" : "ToonVerwaest 3/25/2010 12:39",
 		"blockContextFor:message:" : "ToonVerwaest 4/6/2010 11:16",
 		"blockclosureValue:message:" : "ToonVerwaest 4/6/2010 18:03",
@@ -33,9 +33,9 @@
 		"visitBlock:" : "ToonVerwaest 4/6/2010 12:12",
 		"visitClassReference:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitConstant:" : "ToonVerwaest 3/30/2010 16:48",
-		"visitInstVariable:" : "ToonVerwaest 3/25/2010 16:58",
 		"visitSelf:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitSend:" : "ToonVerwaest 4/6/2010 11:51",
+		"visitSlot:" : "CamilloBruni 5/4/2010 12:02",
 		"visitSuper:" : "ToonVerwaest 3/25/2010 15:45",
-		"visitUnsintInstVariable:" : "ToonVerwaest 3/25/2010 17:56",
+		"visitUnsintSlot:" : "CamilloBruni 5/4/2010 12:02",
 		"visitVariable:" : "ToonVerwaest 3/30/2010 14:06" } }

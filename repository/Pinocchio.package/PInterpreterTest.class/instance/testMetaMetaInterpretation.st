@@ -7,8 +7,8 @@ testMetaMetaInterpretation
 	messages := (OrderedCollection new)
 		add: #testClassReference;
 		add: #testClosure;
-		add: #testInstVariable;
-		add: #testInstVariableAssign;
+		add: #testSlot;
+		add: #testSlotAssign;
 		add: #testReturn;
 		add: #testSelf;
 		add: #testSend;

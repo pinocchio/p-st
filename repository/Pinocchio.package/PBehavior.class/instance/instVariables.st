@@ -1,7 +1,7 @@
 accessing
 instVariables
 	| instVarNames instVars instVar |
-	instVars := self parentInstVariables.
+	instVars := self parentSlots.
 	self pInstVarNames
 		do:
 			[ :each | 
@@ -10,7 +10,7 @@ instVariables
 					[ :var | 
 					var name = each
 						ifTrue: [ self error: 'Double Declaration of "' , each , '"' ] ].
-			instVar := self createInstVariable: each.
+			instVar := self createSlot: each.
 			instVar index: instVars size.
 			instVars add: instVar ].
 	^ instVars

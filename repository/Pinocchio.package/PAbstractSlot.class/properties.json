@@ -1,14 +1,16 @@
 {
-	"category" : "Pinocchio-Bridge",
+	"category" : "Pinocchio-AST",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "PInternalInstanceVariable",
+		"index",
+		"name",
+		"package" ],
+	"name" : "PAbstractSlot",
 	"pools" : [
 		 ],
-	"super" : "PSlot",
+	"super" : "PObject",
 	"type" : "normal" }

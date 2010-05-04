@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"aliasArguments:" : "ToonVerwaest 4/6/2010 17:41",
-		"assignInstVariable:to:" : "ToonVerwaest 4/6/2010 12:04",
-		"assignUnsintInstVariable:to:" : "ToonVerwaest 4/6/2010 12:04",
+		"assignSlot:to:" : "CamilloBruni 5/4/2010 12:02",
+		"assignUnsintSlot:to:" : "CamilloBruni 5/4/2010 12:02",
 		"blockclosureValue:message:" : "ToonVerwaest 4/6/2010 17:24",
 		"classOf:" : "ToonVerwaest 4/6/2010 11:52",
 		"continueEscape:message:" : "ToonVerwaest 4/6/2010 17:26",
@@ -20,5 +20,5 @@
 		"visitBlock:" : "ToonVerwaest 4/6/2010 16:30",
 		"visitClassReference:" : "ToonVerwaest 4/6/2010 16:30",
 		"visitConstant:" : "ToonVerwaest 4/6/2010 16:31",
-		"visitInstVariable:" : "ToonVerwaest 4/6/2010 16:58",
-		"visitUnsintInstVariable:" : "ToonVerwaest 4/6/2010 16:58" } }
+		"visitSlot:" : "CamilloBruni 5/4/2010 12:02",
+		"visitUnsintSlot:" : "CamilloBruni 5/4/2010 12:02" } }

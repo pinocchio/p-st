@@ -26,7 +26,7 @@ exportBasicClasses
 		add: PPlugin;
 		add: PWriteFile;
 		add: PReadFile;
-		add: PUnsintInstVariable;
+		add: PUIntSlot;
 		add: PLink;
 		add: PProcess;
 		add: PDebugger;

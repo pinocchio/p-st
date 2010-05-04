@@ -46,7 +46,6 @@
 		"visitClassReference:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitCollection:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitConstant:" : "ToonVerwaest 3/25/2010 12:39",
-		"visitInstVariable:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitInternalClass:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitInternalConstant:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitInternalInstanceVariable:" : "ToonVerwaest 3/25/2010 12:39",
@@ -58,6 +57,7 @@
 		"visitPackage:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitRootPackage:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitSend:" : "ToonVerwaest 3/25/2010 12:39",
+		"visitSlot:" : "CamilloBruni 5/4/2010 12:02",
 		"visitSmallInt:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitString:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitSymbol:" : "ToonVerwaest 3/25/2010 12:39" } }
