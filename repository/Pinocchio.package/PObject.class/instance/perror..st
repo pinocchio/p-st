@@ -6,6 +6,6 @@ perror: msg
 		<< '[31m';
 		<< msg;
 		write: 27 asCharacter;
-		<< '[0m';
+		<< '[m';
 		lf.
 	self halt

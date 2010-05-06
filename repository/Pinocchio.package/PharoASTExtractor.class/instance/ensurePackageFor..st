@@ -2,6 +2,5 @@ extracting
 ensurePackageFor: sclass
 	| path |
 	Transcript show: sclass pinocchioPackage.
-	path := '-' split: sclass pinocchioPackage.
-	path removeFirst.
+	path := sclass splitCategory.
 	^ root ensurePath: path

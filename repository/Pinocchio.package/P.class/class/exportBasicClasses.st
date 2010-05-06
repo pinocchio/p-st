@@ -29,5 +29,6 @@ exportBasicClasses
 		add: PLink;
 		add: PProcess;
 		add: PAssertionFailure;
+		add: PRecursiveDoesNotUnderstand;
 		add: PMainInterpreter;
 		yourself

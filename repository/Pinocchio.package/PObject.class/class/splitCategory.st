@@ -1,3 +1,6 @@
 exporting
 splitCategory
-	^ super splitCategory copyWithout: 'Pinocchio'
+	| splitcategory |
+	splitcategory := super splitCategory.
+	splitcategory removeFirst.
+	^ splitcategory

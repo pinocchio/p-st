@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"instance",
+		"cls",
 		"message" ],
-	"name" : "PAssertionFailure",
+	"name" : "PRecursiveDoesNotUnderstand",
 	"pools" : [
 		 ],
 	"super" : "PException",

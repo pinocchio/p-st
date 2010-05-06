@@ -5,8 +5,8 @@ popen
     char * mode         = unicode_to_ascii(((Type_Symbol)${mode})->value);
     FILE * stream       = popen(command, mode);
     assert(stream,
-        fprintf(StandardError->file,
-            "%s (program: ''%s'', mode: ''%s'')\n",
+        fwprintf(stderr,
+            L"%s (program: ''%s'', mode: ''%s'')\n",
             strerror(errno), command, mode););
     ${out}  = (Object)new_IO_ReadFile_from(stream);
     ${in}   = (Object)new_IO_WriteFile_from(stream);

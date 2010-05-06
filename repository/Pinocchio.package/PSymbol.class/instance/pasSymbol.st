@@ -1,4 +1,4 @@
 converting
-asPSymbol
+pasSymbol
 	<renameExport: #asSymbol>
 	

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"message" ],
-	"name" : "PAssertionFailure",
+		"environment" ],
+	"name" : "PException",
 	"pools" : [
 		 ],
-	"super" : "PException",
+	"super" : "PObject",
 	"type" : "normal" }

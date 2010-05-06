@@ -4,7 +4,7 @@ transformClass: sclassIn
 	sclass := self shortcutSClass: sclassIn.
 	sclass ifNil: [ ^ nil ].
 	aPinocchioClass := sclass asPClass.
-	self done at: aPinocchioClass name ifPresent: [ :present | ^ present ].	"Transcript show: aPinocchioClass."
+	self done at: aPinocchioClass name ifPresent: [ :present | ^ present ].
 	self haltIf: (pinocchioVisitor rootScope isKindOf: PRootScope) not.
 	Transcript
 		show: 'Transforming ';
