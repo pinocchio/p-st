@@ -22,14 +22,12 @@ exportBasicClasses
 		add: PArrayLayout;
 		add: PIntLayout;
 		add: PWordsLayout;
-		add: PMainInterpreter;
 		add: PPlugin;
 		add: PWriteFile;
 		add: PReadFile;
 		add: PUIntSlot;
 		add: PLink;
 		add: PProcess;
-		add: PDebugger;
-		add: PParallelDebugger;
-		add: PMessageTally;
+		add: PAssertionFailure;
+		add: PMainInterpreter;
 		yourself

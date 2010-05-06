@@ -2,7 +2,11 @@
 	"class" : {
 		"pInstVarNames" : "ToonVerwaest 3/25/2010 12:44" },
 	"instance" : {
+		"basicPTypeName:" : "ToonVerwaest 5/6/2010 16:06",
 		"pClassMethods" : "ToonVerwaest 3/25/2010 12:44",
+		"pClassName" : "ToonVerwaest 5/6/2010 16:04",
 		"pMethods" : "ToonVerwaest 3/25/2010 12:44",
+		"pTypeName" : "ToonVerwaest 5/6/2010 16:15",
 		"pinocchioName" : "ToonVerwaest 3/25/2010 12:44",
-		"pinocchioPackage" : "ToonVerwaest 3/25/2010 12:44" } }
+		"pinocchioPackage" : "ToonVerwaest 5/6/2010 16:08",
+		"splitCategory" : "ToonVerwaest 5/6/2010 16:09" } }

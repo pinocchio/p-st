@@ -1,3 +1,0 @@
-*Pinocchio
-pClassName
-	^ self pinocchioName

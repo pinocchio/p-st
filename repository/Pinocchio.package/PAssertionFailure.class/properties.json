@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Exception",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"message",
+		"environment" ],
+	"name" : "PAssertionFailure",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

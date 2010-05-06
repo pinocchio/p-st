@@ -1,3 +1,3 @@
 *Pinocchio
 pinocchioPackage
-	^ self category
+	^  '_' join: self splitCategory
