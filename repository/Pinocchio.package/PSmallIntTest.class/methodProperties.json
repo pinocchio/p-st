@@ -1,5 +1,9 @@
 {
 	"class" : {
-		 },
+		"shouldInheritSelectors" : "DavidGurtner 5/5/2010 16:43" },
 	"instance" : {
-		 } }
+		"className" : "DavidGurtner 5/5/2010 15:39",
+		"instanceClass" : "DavidGurtner 5/5/2010 15:38",
+		"psuperclass" : "DavidGurtner 5/5/2010 15:35",
+		"setUp" : "DavidGurtner 5/5/2010 15:46",
+		"testEquals" : "DavidGurtner 5/5/2010 16:02" } }

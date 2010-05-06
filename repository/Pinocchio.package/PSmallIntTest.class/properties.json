@@ -10,5 +10,5 @@
 	"name" : "PSmallIntTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "PObjectTest",
 	"type" : "normal" }

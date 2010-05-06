@@ -5,19 +5,19 @@ tests
 	tests
 		"add: PStringTest;
 		add: PSymbolTest;
-		add: PSetBucketTest;"
-		add: PAliasInterpreterTest;"
+		add: PSetBucketTest;
+		add: PAliasInterpreterTest;
 		add: PContinuationTest;
 		add: PContinueTest;
-		add: PParallelDebuggerTest;"
-		add: PIdentitySetBucketTest;"
+		add: PParallelDebuggerTest;
+		add: PIdentitySetBucketTest;
 		add: PDictBucketTest;
 		add: PIdentityDictBucketTest;
 		add: PSetTest;
 		add: PIdentitySetTest;
 		add: PDictionaryTest;
-		add: PIdentityDictionaryTest.	"
-		"add: PEGTest;
+		add: PIdentityDictionaryTest;
+		add: PEGTest;
 		add: BridgeTest;
 		add: SCParserTest;
 		add: PCompilerTest;
@@ -28,7 +28,11 @@ tests
 		add: PNilTest;
 		add: PObjectTest;
 		add: PSmallIntTest;
-		add: PFileTest;"
-		add: PInterpreterTest
+		add: PFileTest;
+		add: PInterpreterTest"
+		add: PObjectTest;
+		add: PSmallIntTest;
+		add: PStringTest;
+		add: PSymbolTest
 		.
 	^ tests

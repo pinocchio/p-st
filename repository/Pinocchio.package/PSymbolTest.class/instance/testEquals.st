@@ -1,4 +1,4 @@
-test-basics
+testing
 testEquals
 	#Symbol should = #Symbol.
 	#Symbol should = 'Symbol'.

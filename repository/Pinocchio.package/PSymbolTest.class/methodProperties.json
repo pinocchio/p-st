@@ -1,7 +1,11 @@
 {
 	"class" : {
-		 },
+		"shouldInheritSelectors" : "DavidGurtner 5/5/2010 16:43" },
 	"instance" : {
+		"className" : "DavidGurtner 5/5/2010 15:53",
+		"instanceClass" : "DavidGurtner 5/5/2010 15:53",
+		"psuperclass" : "DavidGurtner 5/5/2010 15:54",
+		"setUp" : "DavidGurtner 5/5/2010 16:36",
 		"testAsString" : "ToonVerwaest 3/25/2010 12:44",
 		"testAsSymbol" : "ToonVerwaest 3/25/2010 12:44",
 		"testAt" : "ToonVerwaest 3/25/2010 12:44",
