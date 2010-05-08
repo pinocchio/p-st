@@ -30,5 +30,6 @@ exportBasicClasses
 		add: PProcess;
 		add: PAssertionFailure;
 		add: PRecursiveDoesNotUnderstand;
+		add: PUndefinedClassReference;
 		add: PMainInterpreter;
 		yourself

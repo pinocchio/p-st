@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Exception",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"reference" ],
+	"name" : "PUndefinedClassReference",
+	"pools" : [
+		 ],
+	"super" : "PException",
+	"type" : "normal" }
