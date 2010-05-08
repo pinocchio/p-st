@@ -7,4 +7,4 @@ visitVariable: anASTVariable
 		declare: anASTVariable
 		as:
 			((pinocchioClass package findName: anASTVariable name)
-				ifNil: [ self world ensureClassReferenceForName: anASTVariable name ]) asNode
+				ifNil: [ self world ensureClassReference: anASTVariable name ]) asNode

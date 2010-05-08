@@ -1,5 +1,5 @@
 convenience
-ensureClassReferenceForName: aString
+ensureClassReference: aString
 	| package cls aClassReference aClassNameSymbol |
 	cls := self sclassForName: aString.
 	package := self ensurePackageFor: cls.
