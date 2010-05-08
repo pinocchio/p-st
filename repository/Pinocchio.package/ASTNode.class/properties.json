@@ -1,5 +1,5 @@
 {
-	"category" : "Pinocchio-ST-AST",
+	"category" : "Pinocchio-ST",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -10,5 +10,5 @@
 	"name" : "ASTNode",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PObject",
 	"type" : "normal" }

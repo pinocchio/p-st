@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Compiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PScope",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

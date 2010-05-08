@@ -1,0 +1,3 @@
+accessing
+lookup: anASTVariable
+	self subclassResponsibility

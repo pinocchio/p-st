@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"parentScope",
+		"layout" ],
 	"name" : "PClassScope",
 	"pools" : [
 		 ],
-	"super" : "PSubScope",
+	"super" : "PScope",
 	"type" : "normal" }

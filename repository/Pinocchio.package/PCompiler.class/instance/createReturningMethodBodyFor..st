@@ -10,7 +10,8 @@ createReturningMethodBodyFor: aMethod
 			body hasReturnExpression
 				ifFalse: [ ^ (self acceptOnCollection: body) asArray ] ].	"Now wrap all in a callec"
 	callec := (PSend new: 1)
-		receiver: (self visitVariable: (ASTVariable named: #PContinue));
+		receiver: ((self world ensurePackageNamed: #Runtime)
+						ensureClassReference: #Continue);
 		message: #on:;
 		at: 1 put: (self createCallecBodyFor: aMethod);
 		yourself.

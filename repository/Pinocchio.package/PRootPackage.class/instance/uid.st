@@ -1,3 +1,3 @@
 accessing
 uid
-	^ #rootpackage
+	^ 'rootpackage'

@@ -1,3 +1,3 @@
 visitor
 visitPath: aPath
-	^ pinocchioClass package lookup: aPath path
+	^ (pinocchioClass package lookup: aPath path) asNode

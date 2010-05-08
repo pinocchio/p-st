@@ -2,14 +2,15 @@
 	"class" : {
 		"pTypeName" : "ToonVerwaest 3/25/2010 12:44" },
 	"instance" : {
+		"asNode" : "ToonVerwaest 5/8/2010 01:28",
 		"at:" : "ToonVerwaest 3/25/2010 12:44",
 		"at:ifAbsent:" : "ToonVerwaest 3/25/2010 12:44",
 		"at:ifAbsentPut:" : "ToonVerwaest 3/25/2010 12:44",
 		"at:ifPresent:" : "ToonVerwaest 3/25/2010 12:44",
 		"at:put:" : "ToonVerwaest 3/25/2010 12:44",
-		"ensureClassReference:" : "ToonVerwaest 3/25/2010 12:44",
-		"ensureClassReferenceFor:" : "ToonVerwaest 3/25/2010 12:44",
-		"ensurePackageNamed:" : "ToonVerwaest 3/25/2010 12:44",
+		"ensureClassReference:" : "ToonVerwaest 5/8/2010 02:16",
+		"ensureClassReferenceFor:" : "ToonVerwaest 5/8/2010 02:28",
+		"ensurePackageNamed:" : "ToonVerwaest 5/8/2010 02:12",
 		"ensurePath:" : "ToonVerwaest 3/25/2010 12:44",
 		"findName:" : "ToonVerwaest 3/25/2010 12:44",
 		"includes:" : "ToonVerwaest 3/25/2010 12:44",
@@ -23,4 +24,4 @@
 		"members:" : "ToonVerwaest 3/25/2010 12:44",
 		"packageName" : "ToonVerwaest 3/25/2010 12:44",
 		"size" : "ToonVerwaest 3/25/2010 12:44",
-		"uid" : "ToonVerwaest 3/25/2010 12:44" } }
+		"uid" : "ToonVerwaest 5/8/2010 02:40" } }

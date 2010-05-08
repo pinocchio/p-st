@@ -1,3 +1,3 @@
 accessing
 uid
-	^ 'package_' , self packageName
+	^ parent uid, '_', self packageName

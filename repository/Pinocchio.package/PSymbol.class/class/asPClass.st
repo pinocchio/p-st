@@ -3,4 +3,4 @@ asPClass
 	<preventExport>
 	self = PSymbol
 		ifFalse: [ ^ super asPClass ].
-	^ PInternalClass newWith: PSymbol
+	^ PInternalClass newWith: self

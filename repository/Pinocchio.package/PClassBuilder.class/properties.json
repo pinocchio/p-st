@@ -1,0 +1,18 @@
+{
+	"category" : "Pinocchio-Compiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"layout",
+		"slots",
+		"methods",
+		"classSlots",
+		"classMethods" ],
+	"name" : "PClassBuilder",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }
