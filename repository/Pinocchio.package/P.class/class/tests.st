@@ -15,7 +15,7 @@ tests
 		add: PIdentityDictBucketTest;
 		add: PSetTest;
 		add: PIdentitySetTest;
-		add: PDictionaryTest;
+	"	add: PDictionaryTest;	"
 		add: PIdentityDictionaryTest;
 		add: PEGTest;
 		add: BridgeTest;

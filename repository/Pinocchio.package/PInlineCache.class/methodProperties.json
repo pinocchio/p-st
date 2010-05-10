@@ -1,8 +1,6 @@
 {
 	"class" : {
-		"asPClass" : "ToonVerwaest 3/25/2010 12:39",
-		"pTypeName" : "ToonVerwaest 3/25/2010 12:39" },
+		"new" : "ToonVerwaest 5/10/2010 22:29" },
 	"instance" : {
 		"cache:at:" : "CamilloBruni 4/5/2010 15:56",
-		"checkCached:" : "CamilloBruni 4/5/2010 15:56",
-		"flush" : "ToonVerwaest 3/30/2010 16:22" } }
+		"checkCached:" : "CamilloBruni 4/5/2010 15:56" } }

@@ -1,7 +1,7 @@
 testing
 testAtPutMixed
 	| r |
-	r := d at: 'a' put: 10.
+	r := d at: 'a' put: 5.
 	d size should = 1.
 	r := d at: #a put: 10.
 	d size should = 1.

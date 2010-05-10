@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cachedClass",
-		"method" ],
+		 ],
 	"name" : "PInlineCache",
 	"pools" : [
 		 ],
 	"super" : "PObject",
-	"type" : "normal" }
+	"type" : "variable" }

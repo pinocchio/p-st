@@ -19,6 +19,6 @@ testMetaMetaInterpretation
 	messages
 		do:
 			[ :msg | 
-			send inlineCache flush.
+			"send inlineCache flush."
 			send message: msg.
 			send accept: mci ]
