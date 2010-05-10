@@ -3,4 +3,4 @@ shell
 	true
 		whileTrue:
 			[ self displayPrompt.
-			self interpretFromStdin ]
+				self interpretFromStdin inspect. ]

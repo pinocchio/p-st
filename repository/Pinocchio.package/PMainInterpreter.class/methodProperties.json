@@ -4,7 +4,7 @@
 	"instance" : {
 		"args" : "ToonVerwaest 3/25/2010 12:39",
 		"args:" : "ToonVerwaest 3/25/2010 12:39",
-		"compile:" : "ToonVerwaest 5/8/2010 00:10",
+		"compile:" : "CamilloBruni 5/10/2010 15:31",
 		"displayPrompt" : "ToonVerwaest 3/25/2010 12:39",
 		"interpret:" : "ToonVerwaest 3/25/2010 12:39",
 		"interpretFile:" : "ToonVerwaest 3/25/2010 12:39",
@@ -12,5 +12,5 @@
 		"layout" : "ToonVerwaest 5/8/2010 00:12",
 		"package" : "ToonVerwaest 5/8/2010 00:41",
 		"run" : "ToonVerwaest 3/25/2010 12:39",
-		"shell" : "ToonVerwaest 3/25/2010 12:39",
+		"shell" : "CamilloBruni 5/10/2010 13:35",
 		"slotAt:ifAbsent:" : "ToonVerwaest 5/8/2010 02:45" } }

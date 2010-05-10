@@ -31,5 +31,7 @@ exportBasicClasses
 		add: PAssertionFailure;
 		add: PRecursiveDoesNotUnderstand;
 		add: PUndefinedClassReference;
+		add: PDebugger;
+		add: PParallelDebugger;
 		add: PMainInterpreter;
 		yourself

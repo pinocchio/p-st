@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-AST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PPointerSlot",
+	"pools" : [
+		 ],
+	"super" : "PAbstractSlot",
+	"type" : "normal" }
