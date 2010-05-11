@@ -1,6 +1,6 @@
 initialize-release
 initialize
-	methods := Dictionary new.
-	classMethods := Dictionary new.
-	slots := OrderedCollection new.
-	classSlots := OrderedCollection new.
+	methods := PMethodBuilder new.
+	classMethods := PMethodBuilder new.
+	slots := PSlotBuilder new.
+	classSlots := PSlotBuilder new.

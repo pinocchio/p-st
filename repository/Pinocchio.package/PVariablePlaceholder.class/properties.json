@@ -7,14 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"name",
-		"slots",
-		"methods",
-		"classSlots",
-		"classMethods",
-		"superclass",
-		"depth" ],
-	"name" : "PClassBuilder",
+		"slot" ],
+	"name" : "PVariablePlaceholder",
 	"pools" : [
 		 ],
-	"super" : "PInterpreter",
+	"super" : "PObject",
 	"type" : "normal" }

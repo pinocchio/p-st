@@ -1,4 +1,8 @@
 accessing
 slotAt: name ifAbsent: block
-	name first isUppercase ifFalse: [ ^ PSlotPlaceholder for: name ].
-	^ block value
+	| result |
+	result := block value.
+	result ifNil: [
+		name first isUppercase ifFalse: [ ^ PVariablePlaceholder for: name ].
+	].
+	^ result

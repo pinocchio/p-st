@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
-		"slot" ],
-	"name" : "PSlotPlaceholder",
+		"scopeId" ],
+	"name" : "PBuilderContext",
 	"pools" : [
 		 ],
 	"super" : "PObject",
-	"type" : "normal" }
+	"type" : "variable" }

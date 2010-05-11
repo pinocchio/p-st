@@ -1,3 +1,3 @@
 sending
 recursiveDoesNotUnderstand: aMessage on: receiver
-	self error: 'Recursive doesNotUnderstand: ' , self currentSelf class name , '>>' , aMessage asString, ' in ', self class name
+	self error: 'Recursive doesNotUnderstand: ' , receiver class name , '>>' , aMessage asString, ' in ', self class name

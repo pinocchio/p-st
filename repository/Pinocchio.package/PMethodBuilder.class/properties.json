@@ -6,15 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
-		"slots",
-		"methods",
-		"classSlots",
-		"classMethods",
-		"superclass",
-		"depth" ],
-	"name" : "PClassBuilder",
+		"methods" ],
+	"name" : "PMethodBuilder",
 	"pools" : [
 		 ],
-	"super" : "PInterpreter",
+	"super" : "PObject",
 	"type" : "normal" }
