@@ -5,7 +5,7 @@ to: stop do: aBlock
 
 	| nextValue |
 	nextValue := self.
-	[ nextValue <= stop ]
+	^ [ nextValue <= stop ]
 		whileTrue:
 			[ aBlock value: nextValue.
 			nextValue := nextValue + 1 ]

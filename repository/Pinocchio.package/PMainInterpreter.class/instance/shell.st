@@ -1,6 +1,6 @@
 interpretation
 shell
-	true
+	^ true
 		whileTrue:
 			[ self displayPrompt.
 				self interpretFromStdin inspect. ]

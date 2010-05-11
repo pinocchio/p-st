@@ -1,6 +1,7 @@
 testing
 whileTrue: aBlock
-	self value
+	<pPrimitive: #'whileTrue:' plugin: #'Runtime.BlockClosure'>
+	^ self value
 		ifTrue:
 			[ aBlock value.
 			self whileTrue: aBlock ]
