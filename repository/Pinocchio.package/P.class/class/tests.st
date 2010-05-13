@@ -15,7 +15,7 @@ tests
 		add: PIdentityDictBucketTest;
 		add: PSetTest;
 		add: PIdentitySetTest;
-	"	add: PDictionaryTest;	"
+		add: PDictionaryTest;
 		add: PIdentityDictionaryTest;
 		add: PEGTest;
 		add: BridgeTest;
@@ -29,10 +29,10 @@ tests
 		add: PObjectTest;
 		add: PSmallIntTest;
 		add: PFileTest;
-		add: PInterpreterTest"
+		add: PInterpreterTest
 		add: PObjectTest;
 		add: PSmallIntTest;
 		add: PStringTest;
-		add: PSymbolTest
+		add: PSymbolTest;"
 		.
 	^ tests
