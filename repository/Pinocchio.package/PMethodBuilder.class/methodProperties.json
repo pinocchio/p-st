@@ -2,4 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"host:" : "ToonVerwaest 5/17/2010 22:23",
+		"initialize" : "ToonVerwaest 5/17/2010 22:28",
+		"reset" : "ToonVerwaest 5/17/2010 22:00",
+		"slotAt:" : "ToonVerwaest 5/17/2010 22:24",
+		"transform:" : "ToonVerwaest 5/17/2010 22:02",
+		"transform:as:" : "ToonVerwaest 5/17/2010 22:20",
+		"visitAssign:" : "ToonVerwaest 5/17/2010 22:15",
+		"visitBlock:" : "ToonVerwaest 5/17/2010 22:09",
+		"visitBlockClosure:" : "ToonVerwaest 5/17/2010 22:36",
+		"visitConstant:" : "ToonVerwaest 5/17/2010 22:10",
+		"visitSelf:" : "ToonVerwaest 5/17/2010 22:10",
+		"visitSend:" : "ToonVerwaest 5/17/2010 22:11",
+		"visitSuper:" : "ToonVerwaest 5/17/2010 22:12",
+		"visitVariable:" : "ToonVerwaest 5/17/2010 22:10",
+		"visitVariablePlaceholder:" : "ToonVerwaest 5/17/2010 22:13" } }

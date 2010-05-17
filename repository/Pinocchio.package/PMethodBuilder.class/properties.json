@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"methods" ],
+		"locals",
+		"depth",
+		"selector",
+		"host" ],
 	"name" : "PMethodBuilder",
 	"pools" : [
 		 ],

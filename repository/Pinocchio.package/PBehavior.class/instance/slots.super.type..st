@@ -7,6 +7,7 @@ slots: slots super: superclass type: type
 	slots keysAndValuesDo: [ :name :slot |
 		(superclass definesSlot: name) ifTrue: [ self raiseDuplicateSlot: slot ].
 		layout at: index put: slot.
+		slot index: index - 1.
 		index := index + 1
 	].
 	^ self new

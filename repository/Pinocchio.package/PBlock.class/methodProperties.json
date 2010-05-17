@@ -4,6 +4,7 @@
 	"instance" : {
 		"=" : "ToonVerwaest 4/1/2010 15:39",
 		"accept:" : "ToonVerwaest 3/25/2010 12:39",
+		"asMethod" : "ToonVerwaest 5/17/2010 22:37",
 		"do:" : "ToonVerwaest 5/11/2010 18:42",
 		"first" : "ToonVerwaest 3/25/2010 12:39",
 		"first:" : "ToonVerwaest 3/25/2010 12:39",
@@ -13,7 +14,9 @@
 		"last" : "ToonVerwaest 3/25/2010 12:39",
 		"last:" : "ToonVerwaest 3/25/2010 12:39",
 		"locals" : "ToonVerwaest 3/25/2010 12:39",
+		"locals:" : "ToonVerwaest 5/17/2010 22:27",
 		"numArgs" : "ToonVerwaest 3/25/2010 12:39",
 		"params" : "ToonVerwaest 3/25/2010 12:39",
+		"params:" : "ToonVerwaest 5/17/2010 22:27",
 		"params:locals:" : "ToonVerwaest 3/25/2010 12:39",
 		"withIndexDo:" : "ToonVerwaest 4/1/2010 15:48" } }

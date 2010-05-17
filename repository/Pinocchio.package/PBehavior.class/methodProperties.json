@@ -7,8 +7,9 @@
 		"pMethods" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
 		"canUnderstand:" : "ToonVerwaest 3/25/2010 12:39",
-		"compile:" : "ToonVerwaest 3/25/2010 12:39",
+		"compile:" : "ToonVerwaest 5/17/2010 22:26",
 		"createSlot:" : "CamilloBruni 5/4/2010 12:02",
+		"define:as:" : "ToonVerwaest 5/17/2010 22:26",
 		"definesSlot:" : "ToonVerwaest 5/17/2010 19:32",
 		"hasSuperclass" : "ToonVerwaest 3/25/2010 12:39",
 		"includesSelector:" : "ToonVerwaest 3/25/2010 12:39",
@@ -28,7 +29,7 @@
 		"pbasicNew" : "CamilloBruni 4/5/2010 15:56",
 		"pbasicNew:" : "CamilloBruni 4/5/2010 15:56",
 		"slots:super:" : "ToonVerwaest 5/17/2010 19:28",
-		"slots:super:type:" : "ToonVerwaest 5/17/2010 19:48",
+		"slots:super:type:" : "ToonVerwaest 5/17/2010 22:31",
 		"smetaclass" : "ToonVerwaest 3/25/2010 12:39",
 		"superclass" : "ToonVerwaest 3/25/2010 12:39",
 		"superclass:" : "ToonVerwaest 5/17/2010 19:18" } }

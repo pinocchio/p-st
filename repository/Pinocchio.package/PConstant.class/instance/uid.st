@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 uid
 	<preventExport>
 	^ super uid
