@@ -1,7 +1,7 @@
 plugging
 require: identifier at: aPath
 	| newPlugin |
-	(plugins at: identifier) ifNotNil: [ :plugin | ^ plugin ].
+	plugins at: identifier ifPresent: [ :plugin | ^ plugin ].
 	newPlugin := self load: aPath.
 	newPlugin path: aPath.
 	newPlugin identifier: identifier.
