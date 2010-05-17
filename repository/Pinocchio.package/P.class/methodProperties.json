@@ -1,8 +1,10 @@
 {
 	"class" : {
+		"commit" : "CamilloBruni 5/17/2010 11:00",
 		"export" : "ToonVerwaest 3/25/2010 12:39",
 		"export:" : "ToonVerwaest 3/25/2010 12:39",
 		"exportAll" : "ToonVerwaest 3/25/2010 12:39",
+		"exportAllHeadless" : "CamilloBruni 5/17/2010 11:35",
 		"exportBasicClasses" : "CamilloBruni 5/10/2010 13:30",
 		"gofer" : "CamilloBruni 5/17/2010 10:55",
 		"initialize" : "ToonVerwaest 3/25/2010 12:39",
@@ -10,6 +12,7 @@
 		"saveLocalChanges" : "ToonVerwaest 3/25/2010 12:39",
 		"tests" : "DavidGurtner 5/13/2010 14:59",
 		"unwantedAnnotations" : "ToonVerwaest 3/25/2010 12:39",
-		"update" : "CamilloBruni 5/17/2010 10:57" },
+		"upgrade" : "CamilloBruni 5/17/2010 11:10",
+		"upgradeMerged" : "CamilloBruni 5/17/2010 11:10" },
 	"instance" : {
 		 } }

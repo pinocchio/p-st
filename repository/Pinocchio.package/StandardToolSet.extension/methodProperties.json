@@ -1,9 +1,11 @@
 {
 	"class" : {
-		"mainMenuItems" : "CamilloBruni 5/17/2010 10:54",
+		"mainMenuItems" : "CamilloBruni 5/17/2010 11:31",
 		"openPinocchioBrowser" : "ToonVerwaest 3/25/2010 12:44",
+		"pinocchioCommit" : "CamilloBruni 5/17/2010 11:01",
 		"pinocchioExportAll" : "ToonVerwaest 3/25/2010 12:44",
 		"pinocchioExportChanges" : "ToonVerwaest 3/25/2010 12:44",
-		"pinocchioUpdate" : "CamilloBruni 5/17/2010 10:54" },
+		"pinocchioUgrade" : "CamilloBruni 5/17/2010 11:09",
+		"pinocchioUgradeMerged" : "CamilloBruni 5/17/2010 11:09" },
 	"instance" : {
 		 } }

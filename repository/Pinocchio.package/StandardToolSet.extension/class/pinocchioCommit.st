@@ -1,0 +1,3 @@
+*Pinocchio
+pinocchioCommit
+	P commit
