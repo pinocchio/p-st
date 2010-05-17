@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 locallyChangedClasses
 	^ self gofer localChanges operations
 		collect: [ :operation | operation targetClass ifNil: [ false ] ifNotNil: [ :cls | cls instanceSide ] ]

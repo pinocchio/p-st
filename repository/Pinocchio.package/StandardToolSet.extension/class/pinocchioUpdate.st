@@ -1,0 +1,3 @@
+*Pinocchio
+pinocchioUpdate
+	P update

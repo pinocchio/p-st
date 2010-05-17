@@ -2,5 +2,5 @@ pharo-exporting
 uid
 	<preventExport>
 	self isEmpty
-		ifTrue: [ ^ 'empty_Type_Array' ].
+		ifTrue: [ ^ 'empty_Collection_Array' ].
 	^ super uid

@@ -12,7 +12,7 @@ visitNativeMethod: aPMethod
 	self
 		createSized: aPMethod
 		with:
-			'new_AST_NativeMethod_with(' , '(Type_Array)' , params uid , ', ' , '(Type_Array)' , locals uid , ', ' , '(Type_Array)'
+			'new_AST_NativeMethod_with(' , '(Collection_Array)' , params uid , ', ' , '(Collection_Array)' , locals uid , ', ' , '(Collection_Array)'
 				, annotations uid.
 	self installPInfoOn: aPMethod.
 	methods add: aPMethod.	"reset the node cache"

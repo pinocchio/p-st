@@ -2,8 +2,9 @@
 	"class" : {
 		"shouldInheritSelectors" : "DavidGurtner 5/5/2010 16:43" },
 	"instance" : {
-		"className" : "DavidGurtner 5/5/2010 15:49",
+		"className" : "CamilloBruni 5/12/2010 16:22",
 		"instanceClass" : "DavidGurtner 5/5/2010 15:49",
+		"pclassName" : "CamilloBruni 5/12/2010 16:21",
 		"psuperclass" : "DavidGurtner 5/5/2010 15:50",
 		"setUp" : "DavidGurtner 5/5/2010 16:35",
 		"testAsString" : "ToonVerwaest 3/25/2010 12:44",

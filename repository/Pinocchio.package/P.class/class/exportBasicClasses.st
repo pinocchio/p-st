@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 exportBasicClasses
 	^ (OrderedCollection new)
 		add: Object;

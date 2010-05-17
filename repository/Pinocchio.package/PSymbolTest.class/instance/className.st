@@ -1,3 +1,4 @@
 accessing
 className
-	^ #Symbol
+	<preventExport>
+	^ #PSymbol

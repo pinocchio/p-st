@@ -16,3 +16,5 @@ SystemOrganization addCategory: #'Pinocchio-Inspector'!
 SystemOrganization addCategory: #'Pinocchio-Alias'!
 SystemOrganization addCategory: #'Pinocchio-Exception'!
 SystemOrganization addCategory: #'Pinocchio-Interpretation'!
+SystemOrganization addCategory: #'Pinocchio-Slot'!
+SystemOrganization addCategory: #'Pinocchio-Number'!

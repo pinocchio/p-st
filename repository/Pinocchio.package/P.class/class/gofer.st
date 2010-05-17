@@ -1,8 +1,7 @@
-as yet unclassified
+accessing
 gofer
 	| g |
 	g := Gofer new.
-	g
-		package: 'Pinocchio';
+	g package: 'Pinocchio';
 		package: 'PEG'.
 	^ g

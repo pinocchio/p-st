@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 tests
 	| tests |
 	tests := OrderedCollection new.

@@ -15,7 +15,7 @@ visitObjectLayout: aPObjectLayout
 		withIndexDo:
 			[ :each :index | 
 			stream
-				nextPutAll: '((Type_Array)';
+				nextPutAll: '((Collection_Array)';
 				nextPutAll: aPObjectLayout uid;
 				nextPutAll: ')->values[' , (index - 1) asString , '] = ';
 				nextPutAll: each uid;

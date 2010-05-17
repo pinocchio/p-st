@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 	(TheWorldMenu respondsTo: #registerOpenCommand:)
 		ifTrue:

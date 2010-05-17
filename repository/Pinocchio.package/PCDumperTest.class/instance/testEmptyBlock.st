@@ -5,5 +5,5 @@ testEmptyBlock
 	dumper visit: ast.
 	dumper printString withBlanksTrimmed should
 		=
-			('Object ' , ast uid , ' = (Object)new_AST_Block_with(' , '(Type_Array)empty_Type_Array, '
-				, '(Type_Array)empty_Type_Array, 0, 0);')
+			('Object ' , ast uid , ' = (Object)new_AST_Block_with(' , '(Collection_Array)empty_Collection_Array, '
+				, '(Collection_Array)empty_Collection_Array, 0, 0);')

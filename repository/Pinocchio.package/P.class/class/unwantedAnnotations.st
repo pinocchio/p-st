@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 unwantedAnnotations
 	^ (IdentitySet new)
 		add: #primitive:;

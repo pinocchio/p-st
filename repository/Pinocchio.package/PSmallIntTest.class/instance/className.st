@@ -1,3 +1,4 @@
 accessing
 className
-	^ #SmallInt
+	<preventExport>
+	^ #PSmallInt

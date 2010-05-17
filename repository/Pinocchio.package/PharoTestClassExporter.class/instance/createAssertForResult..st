@@ -7,7 +7,7 @@ createAssertForResult: anObject
 	(anObject isKindOf: Boolean)
 		ifTrue: [ ^ self putAssert: 'result == (Object)' , anObject asString capitalized ].
 	(anObject isKindOf: Integer)
-		ifTrue: [ ^ self putAssert: '((Type_SmallInt)result)->value == ' , anObject asString ].
+		ifTrue: [ ^ self putAssert: '((Number_SmallInt)result)->value == ' , anObject asString ].
 	(anObject isKindOf: Character)
 		ifTrue: [ ^ self putAssert: '((Type_Character)result)->value == ''' , anObject asString , '''' ].
 	self error: 'Incompatible layout given'
