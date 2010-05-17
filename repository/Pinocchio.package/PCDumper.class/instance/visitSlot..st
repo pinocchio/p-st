@@ -6,4 +6,4 @@ visitSlot: aPInstanceVariable
 			globals add: aPInstanceVariable ].
 	self
 		putRaw: aPInstanceVariable
-		with: 'new_AST_Slot(' , aPInstanceVariable index asString , ', L"' , aPInstanceVariable name , '")'
+		with: 'new_Slot_Slot(' , aPInstanceVariable index asString , ', L"' , aPInstanceVariable name , '")'

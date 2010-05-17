@@ -8,7 +8,7 @@ visitArrayLayout: aPArrayLayout
 		ifTrue: [ ^ self ].
 	(self currentClass isKindOf: PInternalMetaclass)
 		ifTrue: [ ^ self ].
-	self putRaw: aPArrayLayout with: 'create_layout_with_vars(Collection_ArrayLayout_Class, ' , aPArrayLayout size asString , ')'.
+	self putRaw: aPArrayLayout with: 'create_layout_with_vars(Type_ArrayLayout_Class, ' , aPArrayLayout size asString , ')'.
 	aPArrayLayout
 		withIndexDo:
 			[ :each :index | 
