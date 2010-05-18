@@ -62,5 +62,10 @@ createCFile
 		<< 'call_initialize();'.
 	stream
 		lf;
-		<< '}'.
+		<< '}';
+		lf.
+	stream close.
+	
+	stream := self createStream: '/lib/VERSION'.
+	stream << P currentVersionNumber; lf.
 	stream close
