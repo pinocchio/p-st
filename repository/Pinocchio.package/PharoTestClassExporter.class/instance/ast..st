@@ -1,6 +1,6 @@
 converting
 ast: aString
 	| ast |
-	ast := parser match: (PEGStringScanner on: aString).
+	ast := parser fullmatch: (PEGStringScanner on: aString separator: scparser separator).
 	ast should not be isNil.
 	^ visitor visit: ast
