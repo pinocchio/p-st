@@ -1,4 +1,4 @@
 accessing
 parser
-	parser ifNil: [ parser := SCParser new method ].
+	parser ifNil: [ parser := SCParser new ].
 	^ parser
