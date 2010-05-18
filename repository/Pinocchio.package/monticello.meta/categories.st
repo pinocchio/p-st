@@ -18,3 +18,4 @@ SystemOrganization addCategory: #'Pinocchio-Exception'!
 SystemOrganization addCategory: #'Pinocchio-Interpretation'!
 SystemOrganization addCategory: #'Pinocchio-Slot'!
 SystemOrganization addCategory: #'Pinocchio-Number'!
+SystemOrganization addCategory: #'Pinocchio-Relationship'!

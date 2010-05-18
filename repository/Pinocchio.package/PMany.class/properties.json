@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Relationship",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"opposite" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PMany",
+	"pools" : [
+		 ],
+	"super" : "OrderedCollection",
+	"type" : "normal" }

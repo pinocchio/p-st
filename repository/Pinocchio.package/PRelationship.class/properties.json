@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Relationship",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"opposite" ],
+	"name" : "PRelationship",
+	"pools" : [
+		 ],
+	"super" : "PSlot",
+	"type" : "normal" }

@@ -1,3 +1,3 @@
 expecting
 true
-	self expect: true
+	^ self be: true

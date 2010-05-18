@@ -1,3 +1,3 @@
 expecting-reflection
-beSameAs: result
-	self expect: value == result
+beSameAs: expected
+	^ self check: value == expected ifFail: [ ' pointer-equal value to: ', expected ].
