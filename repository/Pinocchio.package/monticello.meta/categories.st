@@ -1,4 +1,5 @@
-SystemOrganization addCategory: #'Pinocchio-ST'!
+SystemOrganization addCategory: #'Pinocchio-ST-AST'!
+SystemOrganization addCategory: #'Pinocchio-ST-Parser'!
 SystemOrganization addCategory: #'Pinocchio-Compiler'!
 SystemOrganization addCategory: #'Pinocchio-AST'!
 SystemOrganization addCategory: #'Pinocchio-Type'!
@@ -12,10 +13,12 @@ SystemOrganization addCategory: #'Pinocchio-Testing'!
 SystemOrganization addCategory: #Pinocchio!
 SystemOrganization addCategory: #'Pinocchio-Collection'!
 SystemOrganization addCategory: #'Pinocchio-Plugin'!
+SystemOrganization addCategory: #'Pinocchio-Interpreter'!
 SystemOrganization addCategory: #'Pinocchio-Inspector'!
+SystemOrganization addCategory: #'Pinocchio-ST'!
+SystemOrganization addCategory: #'Pinocchio-Interpretation'!
+SystemOrganization addCategory: #'Pinocchio-Number'!
+SystemOrganization addCategory: #'Pinocchio-Slot'!
+SystemOrganization addCategory: #'Pinocchio-Relationship'!
 SystemOrganization addCategory: #'Pinocchio-Alias'!
 SystemOrganization addCategory: #'Pinocchio-Exception'!
-SystemOrganization addCategory: #'Pinocchio-Interpretation'!
-SystemOrganization addCategory: #'Pinocchio-Slot'!
-SystemOrganization addCategory: #'Pinocchio-Number'!
-SystemOrganization addCategory: #'Pinocchio-Relationship'!
