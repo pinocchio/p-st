@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"symbolDict",
 		"visitedNodes",
 		"currentClass",
 		"onAssignToBlock",

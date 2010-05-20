@@ -4,9 +4,4 @@ assign: aString to: aPinocchioObject
 		ifNotNil:
 			[ stream nextPutAll: (self onAssignTo value: aString value: aPinocchioObject).
 			^ self ].
-	stream
-		nextPutAll: aPinocchioObject uid;
-		nextPutAll: ' = (',aPinocchioObject type,')';
-		nextPutAll: aString;
-		nextPutAll: ';';
-		lf
+	stream << aPinocchioObject uid << ' = (' << aPinocchioObject type << ')' << aString << ';'; lf

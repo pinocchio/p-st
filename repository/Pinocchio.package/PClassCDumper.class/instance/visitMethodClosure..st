@@ -1,7 +1,7 @@
 visitor
 visitMethodClosure: aPMethodClosure
 	| selector |
-	self newline.
+	stream lf.
 	self comment: aPMethodClosure selector.
 	stream
 		nextPutAll: 'void init_method_';
@@ -12,7 +12,7 @@ visitMethodClosure: aPMethodClosure
 	selector := aPMethodClosure selector asPObject.
 	self visit: selector.
 	self visit: aPMethodClosure code.
-	self newline.
+	stream lf.
 	self put: aPMethodClosure 
 		with: 'new_Runtime_MethodClosure((AST_Method)' , aPMethodClosure code uid , ', (Type_Class)', aPMethodClosure host uid,')'.
 	self installPInfoOn: aPMethodClosure.
@@ -20,7 +20,4 @@ visitMethodClosure: aPMethodClosure
 		<< ', (Runtime_MethodClosure)' << aPMethodClosure uid)
 		<< ');';
 		lf.
-	stream
-		<< '}';
-		lf;
-		lf
+	stream << '}'; lf; lf

@@ -5,10 +5,7 @@ createHFile
 	guardName := 'PINOCCHIO_LIB'.
 	self startGuard: guardName.
 	self include: 'pinocchio.h'.
-	stream
-		nextPutAll: 'extern void init_lib();';
-		lf;
-		lf.
+	stream << 'extern void init_lib();'; lf; lf.
 	self comment: 'GLOBALS ============================================='.
 	globals do: [ :global | stream << 'extern ' << global type << ' '<< global uid asString << ';'; lf ].
 	stream lf.
