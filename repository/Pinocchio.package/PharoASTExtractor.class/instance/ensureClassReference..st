@@ -7,5 +7,5 @@ ensureClassReference: aString
 	package at: aClassNameSymbol ifPresent: [ :el | ^ el ].
 	aClassReference := package ensureClassReference: aClassNameSymbol.
 	(self todo includes: cls)
-		ifFalse: [ self todo add: cls ].
+		ifFalse: [ todo add: cls ].
 	^ aClassReference

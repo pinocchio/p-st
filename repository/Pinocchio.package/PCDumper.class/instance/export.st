@@ -1,7 +1,6 @@
 exporting
 export
 	| sorter |
-	self clear.
 	self clearDirectory: self sourcePath , 'lib/class'.
 	
 	sorter := PClassTopSorter new.
@@ -14,4 +13,6 @@ export
 	self createCFile.
 	self createHFile.
 	
+	(visitedNodes select: [ :el | el isKindOf: PSlot ]) inspect.
+
 	self exportPlugins.

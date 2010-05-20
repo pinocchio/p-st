@@ -1,3 +1,0 @@
-accessing
-onAssignTo
-	^ cdumper onAssignTo

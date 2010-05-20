@@ -1,16 +1,13 @@
 extracting
 ensureClassReferenceFor: aPinocchioClass
 	| classReference |
-	aPinocchioClass package
-		at: aPinocchioClass name
-		ifPresent:
-			[ :el | 
-			el ensurePinocchioClass: aPinocchioClass.
-			^ el ].
+	aPinocchioClass package at: aPinocchioClass name ifPresent: [ :el |
+		el ensurePinocchioClass: aPinocchioClass.
+		^ el ].
 	classReference := aPinocchioClass package ensureClassReference: aPinocchioClass name.
 	classReference referenceName: aPinocchioClass name asPObject.
 	classReference ensurePinocchioClass: aPinocchioClass.
-	pinocchioVisitor rootScope decls at: classReference referenceName ifPresent: [ :el | el becomeForward: classReference ].
+	pcompiler rootScope decls at: classReference referenceName ifPresent: [ :el | el becomeForward: classReference ].
 	self checkClassReference: classReference.
 	self assert: classReference isNil not.
 	^ classReference

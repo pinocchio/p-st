@@ -1,3 +1,3 @@
 exporting
-export: classes
-	^ self new export: classes asOrderedCollection
+export: aRestrictingSet
+	self new exportWithProgress: aRestrictingSet

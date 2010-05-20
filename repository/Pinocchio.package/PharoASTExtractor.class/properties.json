@@ -10,11 +10,9 @@
 		"done",
 		"root",
 		"scparser",
-		"pinocchioVisitor",
-		"cdumper",
 		"classASTs",
-		"internalClassDict",
-		"progress" ],
+		"progress",
+		"pcompiler" ],
 	"name" : "PharoASTExtractor",
 	"pools" : [
 		 ],

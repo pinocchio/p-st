@@ -1,4 +1,8 @@
 initialize-release
 initialize
-	self clear.
-	progress := 0
+	progress  := 0.
+	stream := WriteStream on: (String new: 1000000).
+	globals := IdentitySet new.
+	packages := OrderedCollection new.
+	visitedNodes := IdentitySet new.
+	progress := 0.

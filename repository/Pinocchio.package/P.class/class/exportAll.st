@@ -1,3 +1,3 @@
 exporting
 exportAll
-	^ PharoTestExporter pexportTest
+	^ PharoExporter export
