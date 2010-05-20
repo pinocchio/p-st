@@ -1,3 +1,3 @@
 exporting
 upgrade
-	self gofer load.
+	self gofer update.

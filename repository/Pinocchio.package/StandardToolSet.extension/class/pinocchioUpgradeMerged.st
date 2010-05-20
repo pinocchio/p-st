@@ -1,3 +1,3 @@
 *Pinocchio
-pinocchioUgradeMerged
+pinocchioUpgradeMerged
 	P upgradeMerged

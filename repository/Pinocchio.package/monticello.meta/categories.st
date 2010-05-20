@@ -1,5 +1,3 @@
-SystemOrganization addCategory: #'Pinocchio-ST-AST'!
-SystemOrganization addCategory: #'Pinocchio-ST-Parser'!
 SystemOrganization addCategory: #'Pinocchio-Compiler'!
 SystemOrganization addCategory: #'Pinocchio-AST'!
 SystemOrganization addCategory: #'Pinocchio-Type'!
