@@ -1,4 +1,4 @@
 pharo-exporting
 uid: anObject
 	<preventExport>
-	^ uid := anObject
+	uid := anObject

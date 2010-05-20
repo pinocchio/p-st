@@ -1,16 +1,16 @@
 accessing
 instVariables
-	| instVarNames instVars instVar |
-	instVars := self parentSlots.
+	<preventExport>
+	| instVar |
+	layout ifNotNil: [ :l | ^ l ].
+	layout := self parentSlots.
 	self pInstVarNames
-		do:
-			[ :each | 
-			instVars
-				do:
-					[ :var | 
+		do: [ :each | 
+			layout
+				do: [ :var | 
 					var name = each
 						ifTrue: [ self error: 'Double Declaration of "' , each , '"' ] ].
 			instVar := self createSlot: each.
-			instVar index: instVars size.
-			instVars add: instVar ].
-	^ instVars
+			instVar index: layout size.
+			layout add: instVar ].
+	^ layout

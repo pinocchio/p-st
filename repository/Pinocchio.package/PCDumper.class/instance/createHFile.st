@@ -10,14 +10,7 @@ createHFile
 		lf;
 		lf.
 	self comment: 'GLOBALS ============================================='.
-	globals
-		do:
-			[ :global | 
-			stream
-				nextPutAll: global type, ' ';
-				nextPutAll: global uid asString;
-				nextPutAll: ';';
-				lf ].
+	globals do: [ :global | stream << 'extern ' << global type << ' '<< global uid asString << ';'; lf ].
 	stream lf.
 	self comment: 'INCLUDES ============================================='.
 	self sortedClasses do: [ :pclass | self include: 'lib/class/' , pclass name asString , '.h' ].

@@ -3,6 +3,6 @@ parentSlots
 	| instVars |
 	instVars := OrderedCollection new.
 	self hasSuperclass
-		ifTrue: [ instVars addAll: self superclass layout ]
+		ifTrue: [ instVars addAll: superclass layout ]
 		ifFalse: [ ].
 	^ instVars

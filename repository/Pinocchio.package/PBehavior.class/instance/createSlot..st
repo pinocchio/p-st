@@ -1,3 +1,5 @@
 accessing
 createSlot: name
-	^ PSlot named: name
+	<preventExport>
+	^ (PSlot named: name)
+		uid: ('instvar_' , self name asSymbol, '_' , name)
