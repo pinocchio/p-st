@@ -1,13 +1,13 @@
 convenience
-declare: aString to: aPinocchioObject
+declare: aString to: aPinocchioObject type: type
 	self onAssignTo
 		ifNotNil:
 			[ stream nextPutAll: (self onAssignTo value: aString value: aPinocchioObject).
 			^ self ].
 	stream
-		nextPutAll: 'Object ';
+		nextPutAll: type,' ';
 		nextPutAll: aPinocchioObject uid;
-		nextPutAll: ' = ';
+		nextPutAll: ' = (',type,')';
 		nextPutAll: aString;
 		nextPutAll: ';';
 		cr

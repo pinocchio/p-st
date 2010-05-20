@@ -1,4 +1,5 @@
 exporting
 asPClass
 	<preventExport>
-	^ PInternalClass newWith: self
+	^ super asPClass."
+	^ PInternalClass newWith: self"

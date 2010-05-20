@@ -14,7 +14,7 @@ createHFile
 		do:
 			[ :global | 
 			stream
-				nextPutAll: 'Object ';
+				nextPutAll: global type, ' ';
 				nextPutAll: global uid asString;
 				nextPutAll: ';';
 				lf ].

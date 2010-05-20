@@ -6,7 +6,7 @@ assign: aString to: aPinocchioObject
 			^ self ].
 	stream
 		nextPutAll: aPinocchioObject uid;
-		nextPutAll: ' = ';
+		nextPutAll: ' = (',aPinocchioObject type,')';
 		nextPutAll: aString;
 		nextPutAll: ';';
 		lf

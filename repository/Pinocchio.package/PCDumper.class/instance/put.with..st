@@ -1,3 +1,3 @@
 convenience
 put: aPinocchioObject with: newInstanceString
-	self declare: '(Object)' , newInstanceString to: aPinocchioObject
+	self declare: newInstanceString to: aPinocchioObject type: 'Object'
