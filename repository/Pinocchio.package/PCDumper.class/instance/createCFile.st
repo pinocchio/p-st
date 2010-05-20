@@ -4,7 +4,7 @@ createCFile
 	codeStream := stream.
 	stream := self createStream: '/lib/lib.c'.
 	self include: 'lib/lib.h'.
-	packages do: [ :package | 
+	root packagesDo: [ :package | 
 			name := package packageName asPObject.
 			globals add: name ].
 	globals do: [ :global | stream << global type << ' ' << global uid asString << ';'; lf ].
@@ -23,7 +23,7 @@ createCFile
 	
 	self sortedClasses do: [ :pclass | stream << 'init_' << pclass name asString << '_methods();'; lf ].
 	stream lf; << self root uid; << ' = Eval_Send0((Object)Organize_RootPackage_Class, (Type_Symbol)SMB_new);'; lf.
-	packages do: [ :package | 
+	root packagesDo: [ :package | 
 			name := package packageName asPObject.
 			self visit: name.
 			(stream << package uid << ' = Eval_Send1(' << package parent uid << ', (Type_Symbol)SMB_ensurePackageNamed_, '
