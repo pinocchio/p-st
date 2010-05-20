@@ -11,7 +11,7 @@ transformClass: sclassIn
 	
 	Transcript show: 'Transforming '; show: aPinocchioClass name; cr.
 	
-	self done at: aPinocchioClass name put: aPinocchioClass.
+	done at: aPinocchioClass name put: aPinocchioClass.
 	classASTs at: aPinocchioClass name asSymbol put: aPinocchioClass.
 	aPinocchioClass package: (self ensurePackageFor: aPinocchioClass sclass).
 	self declareClassReference: (self ensureClassReferenceFor: aPinocchioClass) as: aPinocchioClass name asSymbol.

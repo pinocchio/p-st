@@ -5,11 +5,7 @@ createHFile
 	guardName := 'PINOCCHIO_LIB_' , self pclass name asString asUppercase.
 	self startGuard: guardName.
 	self include: 'pinocchio.h'.
-	stream
-		nextPutAll: 'extern void init_';
-		nextPutAll: self pclass name asString;
-		nextPutAll: '_methods();';
-		lf; lf.
+	stream<< 'extern void init_' << self pclass name asString << '_methods();'; lf; lf.
 	self include: 'lib/lib.h'.
 	self endGuard: guardName.
 	stream close

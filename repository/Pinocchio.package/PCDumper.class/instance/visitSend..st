@@ -6,8 +6,7 @@ visitSend: aPSend
 	self visit: message.
 	self visitCollection: aPSend arguments.
 	self comment: aPSend message.
-	self
-		put: aPSend
+	self put: aPSend
 		with:
 			'new_AST_Send((Object)' , aPSend receiver uid , ', ' , '(Object)' , message uid , ', '
 				, (self multiArgFor: aPSend arguments) , ')'.
