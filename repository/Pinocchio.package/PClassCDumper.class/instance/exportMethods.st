@@ -1,3 +1,3 @@
 exporting
 exportMethods
-	self visitCollection: self pclass methods
+	self visitCollection: currentClass methods

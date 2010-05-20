@@ -1,8 +1,8 @@
 visitor
 visitClassReference: aPClassReference
 	| oldClass |
-	oldClass := self currentClass.
-	self currentClass: aPClassReference pclass.
+	oldClass := currentClass.
+	currentClass := aPClassReference pclass.
 	self visit: aPClassReference pclass.
-	self currentClass: oldClass.
+	currentClass := oldClass.
 	globals add: aPClassReference

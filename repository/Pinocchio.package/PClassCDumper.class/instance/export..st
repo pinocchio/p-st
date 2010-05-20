@@ -2,6 +2,6 @@ exporting
 export: aPClass
 	(aPClass isKindOf: PClass)
 		ifFalse: [ self error: 'PClassCDumper can only export PClass' ].
-	self pclass: aPClass.
+	currentClass := aPClass.
 	self createCFile.
 	self createHFile
