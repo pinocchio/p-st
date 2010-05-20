@@ -1,3 +1,3 @@
 *Pinocchio
-pinocchioUpgrade
+pinocchioUgrade
 	P upgrade
