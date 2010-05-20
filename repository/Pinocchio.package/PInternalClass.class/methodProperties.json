@@ -5,9 +5,9 @@
 		"newWith:uid:" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
 		"createPMetaclass" : "ToonVerwaest 3/25/2010 12:39",
-		"createSlot:" : "ToonVerwaest 5/8/2010 02:18",
-		"initialize" : "ToonVerwaest 3/25/2010 12:39",
-		"isPCore" : "ToonVerwaest 3/25/2010 12:39",
+		"customLayout" : "ToonVerwaest 5/19/2010 16:25",
+		"customLayout:" : "ToonVerwaest 5/19/2010 16:25",
+		"initialize" : "ToonVerwaest 5/19/2010 16:25",
 		"methodProvider" : "ToonVerwaest 3/25/2010 12:39",
 		"methodProvider:" : "ToonVerwaest 3/25/2010 12:39",
 		"pInstVarNames" : "ToonVerwaest 3/25/2010 12:39",

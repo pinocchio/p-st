@@ -1,14 +1,13 @@
 {
 	"class" : {
 		"asPClass" : "ToonVerwaest 3/25/2010 12:39",
-		"isPCore" : "ToonVerwaest 3/25/2010 12:39",
-		"pClassInstVarNames" : "ToonVerwaest 3/25/2010 12:39",
-		"pInstVarNames" : "ToonVerwaest 3/25/2010 12:39",
+		"pInstVarNames" : "ToonVerwaest 5/20/2010 01:50",
 		"pMethods" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
 		"canUnderstand:" : "ToonVerwaest 3/25/2010 12:39",
 		"compile:" : "ToonVerwaest 5/17/2010 22:26",
 		"createSlot:" : "CamilloBruni 5/4/2010 12:02",
+		"customLayout" : "ToonVerwaest 5/19/2010 16:29",
 		"define:as:" : "ToonVerwaest 5/17/2010 22:26",
 		"definesSlot:" : "ToonVerwaest 5/17/2010 19:32",
 		"hasSuperclass" : "ToonVerwaest 3/25/2010 12:39",

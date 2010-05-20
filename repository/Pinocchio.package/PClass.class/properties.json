@@ -14,4 +14,4 @@
 	"pools" : [
 		 ],
 	"super" : "PBehavior",
-	"type" : "variable" }
+	"type" : "normal" }

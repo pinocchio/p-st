@@ -1,7 +1,7 @@
-pharo-exporting
+exporting
 asPClass
 	<preventExport>
-	self = PSymbol
+	self = PFloat
 		ifFalse: [ ^ super asPClass ].
 	^ (PInternalClass newWith: self)
 			customLayout: true

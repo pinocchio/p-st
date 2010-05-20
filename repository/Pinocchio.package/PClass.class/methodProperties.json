@@ -1,20 +1,20 @@
 {
 	"class" : {
 		"asPClass" : "ToonVerwaest 3/25/2010 12:39",
-		"isPCore" : "ToonVerwaest 3/25/2010 12:39",
 		"newWith:" : "ToonVerwaest 3/25/2010 12:39",
-		"pInstVarNames" : "ToonVerwaest 3/25/2010 12:39" },
+		"pInstVarNames" : "ToonVerwaest 5/20/2010 01:49" },
 	"instance" : {
 		"=" : "ToonVerwaest 3/25/2010 12:39",
 		"createPMetaclass" : "ToonVerwaest 3/25/2010 12:39",
 		"name" : "ToonVerwaest 3/25/2010 12:39",
-		"name:" : "ToonVerwaest 5/17/2010 19:12",
+		"name:" : "ToonVerwaest 5/18/2010 16:27",
 		"pClassMethods" : "ToonVerwaest 3/25/2010 12:39",
 		"pInstVarNames" : "ToonVerwaest 3/25/2010 12:39",
 		"pMethods" : "ToonVerwaest 3/25/2010 12:39",
 		"package" : "ToonVerwaest 3/25/2010 12:39",
 		"package:" : "ToonVerwaest 3/25/2010 12:39",
 		"pmetaclass" : "ToonVerwaest 3/25/2010 12:39",
+		"pname:" : "ToonVerwaest 5/18/2010 16:27",
 		"printOn:" : "ToonVerwaest 3/25/2010 12:39",
 		"printString" : "CamilloBruni 5/4/2010 15:24",
 		"sclass" : "ToonVerwaest 3/25/2010 12:39",

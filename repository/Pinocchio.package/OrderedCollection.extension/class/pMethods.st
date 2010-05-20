@@ -8,6 +8,7 @@ pMethods
 			s
 				add: #add:;
 				add: #removeFirst;
+				add: #removeLast;
 				add: #addLast:;
 				add: #makeRoomAtLast;
 				add: #addFirst:;

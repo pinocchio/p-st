@@ -3,4 +3,5 @@ asPClass
 	<preventExport>
 	self = PSmallInt
 		ifFalse: [ ^ super asPClass ].
-	^ PInternalClass newWith: self
+	^ (PInternalClass newWith: self)
+			customLayout: true

@@ -13,6 +13,7 @@ pMethods
 				add: #reversed;
 				add: #withIndexDo:;
 				add: #joinUsing:;
+				add: #split:;
 				add: #hasEqualElements:;
 				add: #do:separatedBy:;
 				add: #last.

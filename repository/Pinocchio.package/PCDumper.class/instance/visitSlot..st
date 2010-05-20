@@ -1,9 +1,9 @@
 visitor
-visitSlot: aPInstanceVariable
-	aPInstanceVariable uid
+visitSlot: aSlot
+	aSlot uid
 		ifNil:
-			[ aPInstanceVariable uid: 'instvar_' , currentClass name asString , '_' , aPInstanceVariable name.
-			globals add: aPInstanceVariable ].
+			[ aSlot uid: 'instvar_' , currentClass name asString , '_' , aSlot name.
+			globals add: aSlot ].
 	self
-		putRaw: aPInstanceVariable
-		with: 'new_Slot_Slot(' , aPInstanceVariable index asString , ', L"' , aPInstanceVariable name , '")'
+		putRaw: aSlot
+		with: 'new_Slot_Slot(' , aSlot index asString , ', L"' , aSlot name , '")'

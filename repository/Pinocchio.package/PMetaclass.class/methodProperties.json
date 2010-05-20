@@ -1,19 +1,19 @@
 {
 	"class" : {
 		"asPClass" : "ToonVerwaest 3/25/2010 12:39",
-		"isPCore" : "ToonVerwaest 3/25/2010 12:39",
 		"isPinocchioInternalClass" : "ToonVerwaest 3/25/2010 12:39",
 		"newWithPClass:" : "ToonVerwaest 3/25/2010 12:39",
-		"pInstVarNames" : "ToonVerwaest 3/25/2010 12:39",
+		"pInstVarNames" : "ToonVerwaest 5/20/2010 01:44",
 		"pMethods" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
 		"initialize" : "ToonVerwaest 3/25/2010 12:39",
 		"instance" : "ToonVerwaest 3/25/2010 12:39",
+		"name" : "ToonVerwaest 5/20/2010 01:52",
 		"pClassInstVarNames" : "ToonVerwaest 3/25/2010 12:39",
 		"pInstVarNames" : "ToonVerwaest 3/25/2010 12:39",
 		"package" : "ToonVerwaest 3/25/2010 12:39",
 		"pclass" : "ToonVerwaest 3/25/2010 12:39",
-		"pclass:" : "ToonVerwaest 3/25/2010 12:39",
+		"pclass:" : "ToonVerwaest 5/20/2010 01:33",
 		"pname" : "ToonVerwaest 3/25/2010 12:39",
 		"pprintString" : "CamilloBruni 5/4/2010 15:31",
 		"printOn:" : "CamilloBruni 5/4/2010 15:24",

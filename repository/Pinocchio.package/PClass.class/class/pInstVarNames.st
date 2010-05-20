@@ -1,4 +1,7 @@
 pharo-exporting
 pInstVarNames
 	<preventExport>
-	^ OrderedCollection with: #name with: #package
+	" these variables are used in Object class (and defined in PObject class' pClassVariables) "
+	^ OrderedCollection
+		with: #name
+		with: #package

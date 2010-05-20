@@ -6,12 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"superclass",
 		"layout",
-		"methods",
-		"type" ],
+		"superclass",
+		"methods" ],
 	"name" : "PBehavior",
 	"pools" : [
 		 ],
 	"super" : "PObject",
-	"type" : "variable" }
+	"type" : "normal" }
