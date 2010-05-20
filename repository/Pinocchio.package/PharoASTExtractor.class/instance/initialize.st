@@ -3,8 +3,7 @@ initialize
 	super initialize.
 	root := PRootPackage new.
 	done := IdentityDictionary new.
-	todo := OrderedCollection new.
-	scparser := SCParser new.
+	todo := Set new.
 	pcompiler := PCompiler new.
 	pcompiler world: self.
 	classASTs := Dictionary new

@@ -2,4 +2,4 @@ compiling
 compile: aString on: aClass
 	^ (self new)
 		pclass: aClass;
-		visit: (self parser method fullmatch: (PEGStringScanner on: aString separator: self parser separator))
+		compile: aString

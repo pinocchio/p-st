@@ -6,6 +6,5 @@ ensureClassReference: aString
 	aClassNameSymbol := cls pinocchioName asPObject.
 	package at: aClassNameSymbol ifPresent: [ :el | ^ el ].
 	aClassReference := package ensureClassReference: aClassNameSymbol.
-	(self todo includes: cls)
-		ifFalse: [ todo add: cls ].
+	todo add: cls.
 	^ aClassReference

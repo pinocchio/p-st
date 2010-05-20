@@ -1,4 +1,4 @@
 extracting
-extract: todo
-	self todo: todo.
+extract: classes
+	todo := classes.
 	^ self extract

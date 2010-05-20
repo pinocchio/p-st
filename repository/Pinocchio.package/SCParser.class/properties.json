@@ -1,7 +1,7 @@
 {
 	"category" : "Pinocchio-ST",
 	"classinstvars" : [
-		 ],
+		"instance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "TestRunner 11/24/2009 11:49",
