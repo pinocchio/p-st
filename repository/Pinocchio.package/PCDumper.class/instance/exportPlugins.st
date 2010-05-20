@@ -1,3 +1,3 @@
 exporting
 exportPlugins
-	PPluginExporter export: self sortedClasses.
+	PPluginExporter export: sortedClasses.

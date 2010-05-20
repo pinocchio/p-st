@@ -1,3 +1,3 @@
 as yet unclassified
 new
-	self halt.
+	self shouldNeverHappen.

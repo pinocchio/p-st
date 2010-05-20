@@ -4,12 +4,12 @@ export
 	self clearDirectory: self sourcePath , 'lib/class'.
 	
 	sorter := PClassTopSorter new.
-	sorter visitRootPackage: self root.
-	self sortedClasses: sorter sortedClasses.
-	self classReferences: sorter classReferences.
+	sorter visitRootPackage: root.
+	sortedClasses := sorter sortedClasses.
+	classReferences := sorter classReferences.
 	
 	self exportClasses.
-	self visit: self root.
+	self visit: root.
 	self createCFile.
 	self createHFile.
 	

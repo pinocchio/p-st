@@ -9,7 +9,7 @@ createCFile
 			globals add: name ].
 	globals do: [ :global | stream << global type << ' ' << global uid asString << ';'; lf ].
 	stream lf; << 'void call_initialize() {'; lf.
-	self sortedClasses do: [ :pclass | 
+	sortedClasses do: [ :pclass | 
 			(stream << '    Eval_Send1((Object)' << pclass package uid << ', (Type_Symbol)SMB_ensureClassReferenceFor_, (Object)'
 				<< pclass uid) << ');'; lf.
 			(stream << '    Eval_Send0((Object)' << pclass uid)
@@ -21,8 +21,8 @@ createCFile
 	
 	stream lf; << 'pinocchio_post_init();'; lf; lf.
 	
-	self sortedClasses do: [ :pclass | stream << 'init_' << pclass name asString << '_methods();'; lf ].
-	stream lf; << self root uid; << ' = Eval_Send0((Object)Organize_RootPackage_Class, (Type_Symbol)SMB_new);'; lf.
+	sortedClasses do: [ :pclass | stream << 'init_' << pclass name asString << '_methods();'; lf ].
+	stream lf; << root uid; << ' = Eval_Send0((Object)Organize_RootPackage_Class, (Type_Symbol)SMB_new);'; lf.
 	root packagesDo: [ :package | 
 			name := package packageName asPObject.
 			self visit: name.
