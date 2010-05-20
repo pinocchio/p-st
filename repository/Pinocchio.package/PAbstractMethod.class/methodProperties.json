@@ -1,6 +1,5 @@
 {
 	"class" : {
-		"asPClass" : "ToonVerwaest 3/26/2010 15:22",
 		"withAll:" : "ToonVerwaest 3/26/2010 15:14" },
 	"instance" : {
 		"accept:on:message:boundBy:" : "ToonVerwaest 3/26/2010 14:45",
