@@ -9,6 +9,6 @@ reAddBucket: bucket at: index
 			bucketIndex := key hash \\ buckets size + 1.
 			bucketIndex = index
 				ifTrue: [ c := c + 2 ]
-				ifFalse:[ 
+				ifFalse: [ 
 					(self bucketForIndex: bucketIndex) newKey: key value: (bucket at: c + 1).
 					bucket removeAt: c ] ]

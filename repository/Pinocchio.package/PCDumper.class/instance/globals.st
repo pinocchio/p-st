@@ -1,0 +1,3 @@
+visitor
+globals
+	^ globals

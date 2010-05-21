@@ -12,7 +12,5 @@ export
 	self visit: root.
 	self createCFile.
 	self createHFile.
-	
-	(visitedNodes select: [ :el | el isKindOf: PSlot ]) inspect.
 
 	self exportPlugins.

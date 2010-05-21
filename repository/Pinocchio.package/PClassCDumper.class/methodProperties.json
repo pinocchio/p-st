@@ -2,7 +2,7 @@
 	"class" : {
 		"export:for:" : "ToonVerwaest 5/20/2010 16:13",
 		"new" : "ToonVerwaest 5/20/2010 20:24",
-		"new:" : "ToonVerwaest 5/20/2010 16:08" },
+		"new:" : "ToonVerwaest 5/21/2010 16:48" },
 	"instance" : {
 		"createCFile" : "ToonVerwaest 5/20/2010 20:34",
 		"createFooter" : "ToonVerwaest 5/20/2010 20:34",
@@ -28,7 +28,7 @@
 		"visitInternalInstanceVariable:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitInternalMetaclass:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitMethod:" : "CamilloBruni 5/12/2010 17:28",
-		"visitMethodClosure:" : "ToonVerwaest 5/20/2010 18:31",
+		"visitMethodClosure:" : "ToonVerwaest 5/20/2010 20:46",
 		"visitNativeMethod:" : "CamilloBruni 5/12/2010 17:28",
 		"visitObjectLayout:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitPackage:" : "ToonVerwaest 3/25/2010 12:39",

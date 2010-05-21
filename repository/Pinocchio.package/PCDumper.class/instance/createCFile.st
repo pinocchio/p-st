@@ -25,7 +25,7 @@ createCFile
 	stream lf; << root uid; << ' = Eval_Send0((Object)Organize_RootPackage_Class, (Type_Symbol)SMB_new);'; lf.
 	root packagesDo: [ :package | 
 			name := package packageName asPObject.
-			self visit: name.
+			name accept: self. " Force evaluation since we added it to the globals before. "
 			(stream << package uid << ' = Eval_Send1(' << package parent uid << ', (Type_Symbol)SMB_ensurePackageNamed_, '
 				<< name uid) << ');'; lf ].
 	stream lf; << 'init_plugin();'; lf; << 'call_initialize();'; lf; << '}'; lf.
