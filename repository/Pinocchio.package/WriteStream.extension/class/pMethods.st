@@ -6,6 +6,7 @@ pMethods
 			[ | s |
 			s := OrderedCollection new.
 			s
+				add: #<<;
 				add: #nextPut:;
 				add: #nextPutAll:;
 				add: #on:;
