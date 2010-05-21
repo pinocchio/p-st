@@ -1,3 +1,3 @@
 exporting
 export: aRestrictingSet
-	^ PharoTestExporter pexportTest: aRestrictingSet
+	^ PharoExporter export: aRestrictingSet

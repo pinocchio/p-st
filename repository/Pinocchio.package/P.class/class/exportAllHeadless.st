@@ -1,3 +1,3 @@
 exporting
 exportAllHeadless
-	^ PharoTestExporter pexportTestHeadless
+	^ PharoExporter exportHeadless

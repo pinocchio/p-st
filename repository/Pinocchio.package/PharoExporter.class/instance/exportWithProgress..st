@@ -3,7 +3,7 @@ exportWithProgress: restrictionSet
 	| done exportProcess |
 	done := false.
 	exportProcess := [ 
-		self export: P tests restrict: restrictionSet.
+		self export: restrictionSet.
 		done := true 
 	] fork.
 
