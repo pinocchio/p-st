@@ -6,4 +6,4 @@ initialize
 	todo := IdentitySet new.
 	pcompiler := PCompiler new.
 	pcompiler world: self.
-	classASTs := Dictionary new
+	classASTs := PDictionary new
