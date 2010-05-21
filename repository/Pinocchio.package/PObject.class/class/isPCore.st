@@ -1,3 +1,4 @@
 *Pinocchio
 isPCore
+	<preventExport>
 	^ false

@@ -1,5 +1,6 @@
 exporting
 splitCategory
+	<preventExport>
 	| splitcategory |
 	splitcategory := super splitCategory.
 	splitcategory removeFirst.
