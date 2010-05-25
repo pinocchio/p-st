@@ -1,4 +1,4 @@
 pharo-exporter
 pClassInstVarNames
 	<preventExport>
-	^ self sclass instVarNames
+	^ self instance sclass pClassInstVarNames

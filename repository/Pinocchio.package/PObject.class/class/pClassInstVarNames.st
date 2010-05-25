@@ -10,5 +10,4 @@ pClassInstVarNames
 				add: #name;
 				add: #package;
 				yourself ]
-		ifFalse: [
-			OrderedCollection new ]
+		ifFalse: [ super pClassInstVarNames ]
