@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Type",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PCharacterTable",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "variable" }

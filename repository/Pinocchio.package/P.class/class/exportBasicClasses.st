@@ -15,6 +15,7 @@ exportBasicClasses
 		add: PBlockClosure;
 		add: PContinue;
 		add: PCharacter;
+		add: PCharacterTable;
 		add: PRootPackage;
 		add: PPackage;
 		add: PLayout;
