@@ -26,6 +26,7 @@ exportBasicClasses
 		add: PWriteFile;
 		add: PReadFile;
 		add: PUIntSlot;
+		add: PPointerSlot;
 		add: PLink;
 		add: PProcess;
 		add: PAssertionFailure;
