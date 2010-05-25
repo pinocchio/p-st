@@ -19,6 +19,6 @@ createClass: aPinocchioClass
 	self
 		putRaw: aPinocchioClass
 		with:
-			'new_Class_withMeta((Type_Class)' , aPinocchioClass superclass uid , ', ' , classLayout uid , ')'.
+			'new_Class((Type_Class)' , aPinocchioClass superclass uid , ', ' , classLayout uid , ')'.
 	stream << '((Type_Class)' << aPinocchioClass uid << ')->layout = ' << aPinocchioClass layout uid << ';'; lf.
 	stream << '((Type_Class)' << aPinocchioClass uid << ')->name = (Type_Symbol)' << aPinocchioClass name uid << ';'; lf
