@@ -3,4 +3,4 @@ asPClass
 	<preventExport>
 	self = PFalse
 		ifFalse: [ ^ super asPClass ].
-	^ PInternalClass newWith: self uid: 'False_Class'
+	^ (PClass newWith: self) uid: 'False_Class'
