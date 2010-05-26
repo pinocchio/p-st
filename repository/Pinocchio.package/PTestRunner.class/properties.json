@@ -1,0 +1,20 @@
+{
+	"category" : "Pinocchio-Testing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"testCases",
+		"result",
+		"failedList",
+		"errorList",
+		"classesSelected",
+		"failedSelected",
+		"errorSelected" ],
+	"name" : "PTestRunner",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

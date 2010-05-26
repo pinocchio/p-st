@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Testing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PCLITestRunner",
+	"pools" : [
+		 ],
+	"super" : "PTestRunner",
+	"type" : "normal" }
