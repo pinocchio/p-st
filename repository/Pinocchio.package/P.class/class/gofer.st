@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 gofer
 	| g |
 	g := Gofer new.
