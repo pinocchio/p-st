@@ -1,9 +1,24 @@
 {
 	"class" : {
+		"arrowDown" : "CamilloBruni 5/31/2010 23:07",
+		"arrowLeft" : "CamilloBruni 5/31/2010 23:06",
+		"arrowRight" : "CamilloBruni 5/31/2010 23:06",
+		"arrowUp" : "CamilloBruni 5/31/2010 23:06",
+		"backspace" : "CamilloBruni 5/31/2010 23:06",
 		"cr" : "ToonVerwaest 3/25/2010 12:39",
+		"delete" : "CamilloBruni 5/31/2010 23:05",
+		"end" : "CamilloBruni 5/31/2010 23:05",
+		"enter" : "CamilloBruni 5/31/2010 23:05",
+		"escape" : "CamilloBruni 5/31/2010 23:05",
+		"home" : "CamilloBruni 5/31/2010 23:05",
+		"insert" : "CamilloBruni 5/31/2010 23:04",
 		"lf" : "ToonVerwaest 3/25/2010 12:39",
+		"nbsp" : "CamilloBruni 5/31/2010 23:04",
+		"newPage" : "CamilloBruni 5/31/2010 23:04",
 		"pClassMethods" : "ToonVerwaest 3/25/2010 12:39",
 		"pInstVarNames" : "ToonVerwaest 5/25/2010 22:24",
+		"pageDown" : "CamilloBruni 5/31/2010 23:04",
+		"pageUp" : "CamilloBruni 5/31/2010 23:03",
 		"space" : "ToonVerwaest 3/25/2010 12:39",
 		"tab" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
@@ -24,5 +39,6 @@
 		"isUppercase" : "ToonVerwaest 3/25/2010 12:39",
 		"max:" : "ToonVerwaest 3/25/2010 12:39",
 		"min:" : "ToonVerwaest 3/25/2010 12:39",
+		"printOn:" : "CamilloBruni 5/31/2010 23:23",
 		"split:" : "ToonVerwaest 5/18/2010 16:18",
 		"testEqual:" : "ToonVerwaest 3/25/2010 12:39" } }

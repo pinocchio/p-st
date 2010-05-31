@@ -1,0 +1,20 @@
+{
+	"category" : "Pinocchio-IO",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"outStream",
+		"currentBackground",
+		"currentColor",
+		"bold",
+		"light",
+		"blink",
+		"underline" ],
+	"name" : "PTerminal",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }
