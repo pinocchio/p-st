@@ -1,4 +1,4 @@
 opening
 open: aCommandString
-	^ self open: aCommandString withMode: #rw
+	^ self open: aCommandString withMode: #r
 	
