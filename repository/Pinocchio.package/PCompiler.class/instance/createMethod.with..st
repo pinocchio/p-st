@@ -9,5 +9,7 @@ createMethod: aMethod with: body
 		
 	(aMethod annotatedWith: #pinocchioReflective:)
 		ifTrue: [ ^ PReflectionMethod withAll: body ].
+	(aMethod annotatedWith: #pThreaded)
+		ifTrue: [ ^ PThreadedMethod withAll: body ].
 		
 	^ PMethod withAll: body

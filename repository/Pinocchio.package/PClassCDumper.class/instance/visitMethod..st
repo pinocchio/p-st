@@ -12,7 +12,7 @@ visitMethod: aPMethod
 	self
 		createSized: aPMethod
 		with:
-			'new_AST_Method_with(' , '(Collection_Array)' , params uid , ', ' , '(Collection_Array)' , locals uid , ', ' , '(Collection_Array)'
+			'new_', aPMethod class pTypeName,'_with(' , '(Collection_Array)' , params uid , ', ' , '(Collection_Array)' , locals uid , ', ' , '(Collection_Array)'
 				, annotations uid.
 	self installPInfoOn: aPMethod.
 	methods add: aPMethod.	"reset the node cache"

@@ -1,3 +1,3 @@
 visitor
-visitNativeMethod: aPMethod
+visitThreadedMethod: aPMethod
 	^ self visitMethod: aPMethod
