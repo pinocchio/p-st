@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"pClassMethods" : "CamilloBruni 6/1/2010 17:40",
+		"pMethods" : "CamilloBruni 6/1/2010 17:39" },
 	"instance" : {
 		"resetErrors" : "CamilloBruni 5/25/2010 20:26",
 		"resetFailures" : "CamilloBruni 5/25/2010 20:24" } }

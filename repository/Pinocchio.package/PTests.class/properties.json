@@ -1,15 +1,15 @@
 {
-	"category" : "Pinocchio-Interpretation",
+	"category" : "Pinocchio",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"args",
-		"homeContext" ],
-	"name" : "PMainInterpreter",
+		"tests",
+		"testRunner" ],
+	"name" : "PTests",
 	"pools" : [
 		 ],
-	"super" : "PInterpreter",
+	"super" : "Object",
 	"type" : "normal" }

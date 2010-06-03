@@ -1,3 +1,3 @@
 exporting
 export: restrictionSet
-	self export: P tests restrict: restrictionSet
+	self export: OrderedCollection new restrict: restrictionSet

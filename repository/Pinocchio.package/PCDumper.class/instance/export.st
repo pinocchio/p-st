@@ -12,5 +12,7 @@ export
 	self visit: root.
 	self createCFile.
 	self createHFile.
+	
+	self createAutoCompletionFile.
 
 	self exportPlugins.

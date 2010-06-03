@@ -1,9 +1,9 @@
-accessing
+as yet unclassified
 tests
 	| tests |
 	tests := OrderedCollection new.
 	tests
-		"add: PStringTest;
+		add: PStringTest;
 		add: PSymbolTest;
 		add: PSetBucketTest;
 		add: PAliasInterpreterTest;
@@ -34,7 +34,5 @@ tests
 		add: PSmallIntTest;
 		add: PStringTest;
 		add: PSymbolTest;
-		add: PACInterpreterCoreTest;
-		add: PACInterpreterAdvancedTest"
-		.
+		yourself.
 	^ tests

@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Runtime",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"variables" ],
+	"name" : "PDictContext",
+	"pools" : [
+		 ],
+	"super" : "PContext",
+	"type" : "variable" }

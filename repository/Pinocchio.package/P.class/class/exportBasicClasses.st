@@ -37,5 +37,6 @@ exportBasicClasses
 		add: PParallelDebugger;
 		add: PMainInterpreter;
 		add: PTerminal;
+		add: PTests;
 		"add: PACContextInterpreter;"
 		yourself
