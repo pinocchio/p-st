@@ -4,4 +4,4 @@ visitConstant: aConst
 		^ self append: instruction.
 	].
 	self append: #pushNext.
-	self append: aConst.
+	self append: aConst constant.

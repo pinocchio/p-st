@@ -3,4 +3,4 @@ ast: aString
 	| ast |
 	ast := super ast: aString.
 	ast := threadedCompiler visit: ast.
-	^ ast
+	^ PStatefulArray newFrom: ast

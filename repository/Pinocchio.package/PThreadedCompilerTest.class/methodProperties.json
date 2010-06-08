@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"ast:" : "CamilloBruni 6/8/2010 13:16",
+		"ast:" : "CamilloBruni 6/8/2010 14:27",
 		"initialize" : "CamilloBruni 6/8/2010 13:14",
 		"setUp" : "CamilloBruni 6/8/2010 13:17",
 		"testReturn0" : "CamilloBruni 6/8/2010 13:38",
@@ -10,4 +10,10 @@
 		"testReturnFalse" : "CamilloBruni 6/8/2010 13:38",
 		"testReturnNil" : "CamilloBruni 6/8/2010 13:38",
 		"testReturnSelf" : "CamilloBruni 6/8/2010 13:35",
-		"testReturnTrue" : "CamilloBruni 6/8/2010 13:45" } }
+		"testReturnTrue" : "CamilloBruni 6/8/2010 13:45",
+		"testSend" : "CamilloBruni 6/8/2010 14:23",
+		"testSendArg1" : "CamilloBruni 6/8/2010 14:24",
+		"testSendArg2" : "CamilloBruni 6/8/2010 14:25",
+		"testSendArg4" : "CamilloBruni 6/8/2010 14:30",
+		"testSendArg5" : "CamilloBruni 6/8/2010 14:35",
+		"testSendArg6" : "CamilloBruni 6/8/2010 14:36" } }
