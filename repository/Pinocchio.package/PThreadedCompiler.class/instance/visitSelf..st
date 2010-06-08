@@ -1,3 +1,3 @@
 visiting
 visitSelf: aSelf
-	self append: #pushSelf.
+	self append: #'push_self'.

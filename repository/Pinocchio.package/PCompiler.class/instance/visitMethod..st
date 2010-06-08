@@ -21,4 +21,5 @@ visitMethod: aMethod
 		host: pinocchioClass;
 		selector: selector.
 	self popScope.
+	self compileThreadedMethod: method.
 	^ methodClosure

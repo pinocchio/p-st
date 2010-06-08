@@ -13,7 +13,8 @@
 		"currentMethod",
 		"currentBlock",
 		"currentCallecVariable",
-		"currentInfo" ],
+		"currentInfo",
+		"threadedCompiler" ],
 	"name" : "PCompiler",
 	"pools" : [
 		 ],

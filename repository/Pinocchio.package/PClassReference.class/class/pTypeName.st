@@ -1,3 +1,4 @@
 exporting
 pTypeName
-	^ self basicPTypeName: 'Organization'
+	<preventExport>
+	^ self pinocchioName.

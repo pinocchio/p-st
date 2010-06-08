@@ -1,4 +1,3 @@
-as yet unclassified
+convenience
 append: aNode
-	code add: aNode.
-	
+	code add: (self class lookup: aNode).

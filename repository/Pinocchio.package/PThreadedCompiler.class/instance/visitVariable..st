@@ -1,4 +1,3 @@
 visiting
 visitVariable: aVariable
-	self append: #pushVariable.
-	self append: aVariable.
+	self append: #'push_variable' with: aVariable.

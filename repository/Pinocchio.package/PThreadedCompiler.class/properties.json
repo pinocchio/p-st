@@ -1,13 +1,14 @@
 {
 	"category" : "Pinocchio-Compiler",
 	"classinstvars" : [
-		 ],
+		"functionPointers" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		"code",
-		"internalConstantCode" ],
+		"internalConstantCode",
+		"scopes" ],
 	"name" : "PThreadedCompiler",
 	"pools" : [
 		 ],
