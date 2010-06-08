@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"unused" ],
+		"code" ],
 	"name" : "PMethod",
 	"pools" : [
 		 ],

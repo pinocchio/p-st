@@ -1,4 +1,4 @@
-as yet unclassified
+convenience
 ast: aString
 	| ast |
 	ast := super ast: aString.

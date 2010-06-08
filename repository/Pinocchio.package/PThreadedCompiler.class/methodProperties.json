@@ -11,4 +11,5 @@
 		"visitInternalConstant:" : "CamilloBruni 6/8/2010 13:45",
 		"visitMethodClosure:" : "CamilloBruni 6/8/2010 13:36",
 		"visitSelf:" : "CamilloBruni 6/8/2010 13:32",
-		"visitSend:" : "CamilloBruni 6/8/2010 14:33" } }
+		"visitSend:" : "CamilloBruni 6/8/2010 14:33",
+		"visitVariable:" : "CamilloBruni 6/8/2010 15:58" } }
