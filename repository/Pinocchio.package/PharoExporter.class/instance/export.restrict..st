@@ -1,6 +1,7 @@
 exporting
 export: todo restrict: restrictionSet
 	| astExtractor cdumper root |
+	P reset.
 	cdumper := PCDumper new restrictExportOn: restrictionSet.
 	astExtractor := PharoASTExtractor new.
 	progress := [ astExtractor progress / 3 ].
