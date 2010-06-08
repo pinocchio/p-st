@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"nil" : "ToonVerwaest 3/25/2010 12:39" },
+		"nil" : "ToonVerwaest 3/25/2010 12:39",
+		"pTypeName" : "CamilloBruni 6/8/2010 09:46" },
 	"instance" : {
 		"asString" : "ToonVerwaest 3/25/2010 12:39",
 		"ifNil:" : "ToonVerwaest 3/25/2010 12:39",
@@ -11,4 +12,4 @@
 		"isNil" : "ToonVerwaest 3/25/2010 12:39",
 		"isNotNil" : "ToonVerwaest 3/25/2010 12:39",
 		"name" : "ToonVerwaest 3/30/2010 16:29",
-		"uid" : "ToonVerwaest 3/25/2010 12:39" } }
+		"uid" : "CamilloBruni 6/8/2010 00:22" } }

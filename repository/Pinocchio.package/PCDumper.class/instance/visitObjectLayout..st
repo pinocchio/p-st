@@ -7,11 +7,11 @@ visitObjectLayout: aPObjectLayout
 	currentClass customLayout ifTrue: [ ^ self ].
 	self
 		putRaw: aPObjectLayout
-		with: 'create_layout_with_vars(Type_ObjectLayout_Class, ' , aPObjectLayout size asString , ')'.
+		with: 'create_layout_with_vars(ObjectLayout_Class, ' , aPObjectLayout size asString , ')'.
 	aPObjectLayout
 		withIndexDo:
 			[ :each :index | 
 			stream
-				<< '((Collection_Array)' << aPObjectLayout uid << ')->values[' << (index - 1) asString << '] = ' << each asPObject uid
+				<< '((Array)' << aPObjectLayout uid << ')->values[' << (index - 1) asString << '] = ' << each asPObject uid
 				<< '; // ' << each name << ' '; lf ].
 	globals add: aPObjectLayout

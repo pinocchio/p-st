@@ -1,3 +1,3 @@
 accessing
 new
-	^ instance
+	self shouldNotCall.

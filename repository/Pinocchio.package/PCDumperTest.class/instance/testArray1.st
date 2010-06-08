@@ -6,5 +6,5 @@ testArray1
 	dumper visit: array.
 	dumper printString withBlanksTrimmed should
 		=
-			('Object ' , string uid , ' = (Object)new_Type_String(L"abc");' , String cr , 'Object ' , array uid
-				, ' = (Object)new_Collection_Array_with(1, (Object)' , string uid , ');')
+			('Object ' , string uid , ' = (Optr)new_Type_String(L"abc");' , String cr , 'Object ' , array uid
+				, ' = (Optr)new_Collection_Array_with(1, (Optr)' , string uid , ');')

@@ -4,6 +4,7 @@
 		"bucketClass" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
 		"add:" : "ToonVerwaest 3/25/2010 12:39",
+		"addAll:" : "CamilloBruni 6/5/2010 15:24",
 		"at:" : "ToonVerwaest 5/17/2010 17:52",
 		"at:ifAbsent:" : "ToonVerwaest 5/17/2010 17:52",
 		"at:ifAbsentPut:" : "ToonVerwaest 3/25/2010 12:39",

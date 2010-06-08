@@ -3,4 +3,4 @@ visitArray: aPinocchioArray
 	aPinocchioArray isEmpty
 		ifTrue: [ ^ aPinocchioArray ].
 	self visitCollection: aPinocchioArray.
-	self put: aPinocchioArray with: 'new_Collection_Array_with(' , (self multiArgFor: aPinocchioArray) , ')'
+	self put: aPinocchioArray with: 'new_Array_with(' , (self multiArgFor: aPinocchioArray) , ')'

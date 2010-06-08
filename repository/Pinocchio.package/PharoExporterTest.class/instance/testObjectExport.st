@@ -5,7 +5,7 @@ testObjectExport
 	objectClass class should = PInternalClass.
 	objectClass sclass should = Object.
 	objectClass superclass should = PNil nil.
-	objectClass uid should = 'Type_Object_Class'.
+	objectClass uid should = 'Object_Class'.
 	objectClass name asSymbol should = #Object.
 	objectClass layout class should = PObjectLayout.
 	objectClass pmetaclass class should = PInternalMetaclass.

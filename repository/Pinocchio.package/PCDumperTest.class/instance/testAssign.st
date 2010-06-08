@@ -7,8 +7,8 @@ testAssign
 	dumper visit: result.
 	dumper printString withBlanksTrimmed should
 		=
-			('Object ' , result variable uid , ' = (Object)new_AST_Variable_named(L"a");' , String cr , 'Object '
-				, result expression constant uid , ' = (Object)new_Number_SmallInt(13);' , String cr , 'Object '
-				, result expression uid , ' = (Object)new_AST_Constant((Object)' , result expression constant uid , ');' , String cr
-				, 'Object ' , result uid , ' = (Object)new_AST_Assign((Object)' , result variable uid , ', (Object)'
+			('Object ' , result variable uid , ' = (Optr)new_Variable_named(L"a");' , String cr , 'Object '
+				, result expression constant uid , ' = (Optr)new_Number_SmallInt(13);' , String cr , 'Object '
+				, result expression uid , ' = (Optr)new_Constant((Optr)' , result expression constant uid , ');' , String cr
+				, 'Object ' , result uid , ' = (Optr)new_Assign((Optr)' , result variable uid , ', (Optr)'
 				, result expression uid , ');')

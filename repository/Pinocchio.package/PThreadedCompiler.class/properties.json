@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Compiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"code",
+		"internalConstantCode" ],
+	"name" : "PThreadedCompiler",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

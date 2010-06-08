@@ -10,8 +10,8 @@ visitMethodClosure: aPMethodClosure
 	self visit: aPMethodClosure code.
 	stream lf.
 	self put: aPMethodClosure 
-		with: 'new_Runtime_MethodClosure((AST_Method)' , aPMethodClosure code uid , ', (Type_Class)', aPMethodClosure host uid,')'.
+		with: 'new_Runtime_MethodClosure((Method)' , aPMethodClosure code uid , ', (Class)', aPMethodClosure host uid,')'.
 	self installPInfoOn: aPMethodClosure.
-	stream << 'store_method((Type_Class)' << currentClass uid << ', (Type_Symbol)' << selector uid
+	stream << 'store_method((Class)' << currentClass uid << ', (Symbol)' << selector uid
 		<< ', (Runtime_MethodClosure)' << aPMethodClosure uid << ');'; lf.
 	stream << '}'; lf; lf

@@ -1,0 +1,3 @@
+interpretation
+currentLineLabel
+	^ ' ', currentLine asString

@@ -1,4 +1,0 @@
-accessing
-bool
-	<preventExport>
-	^ bool

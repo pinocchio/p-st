@@ -8,6 +8,6 @@ visitSend: aPSend
 	self comment: aPSend message.
 	self put: aPSend
 		with:
-			'new_AST_Send((Object)' , aPSend receiver uid , ', ' , '(Object)' , message uid , ', '
+			'new_Send((Optr)' , aPSend receiver uid , ', ' , '(Optr)' , message uid , ', '
 				, (self multiArgFor: aPSend arguments) , ')'.
 	self installPInfoOn: aPSend

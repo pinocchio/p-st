@@ -9,10 +9,9 @@ visitMethod: aPMethod
 	self visit: locals.
 	self visit: annotations.
 	self visitCollection: aPMethod.
-	self
-		createSized: aPMethod
+	self createSized: aPMethod
 		with:
-			'new_', aPMethod class pTypeName,'_with(' , '(Collection_Array)' , params uid , ', ' , '(Collection_Array)' , locals uid , ', ' , '(Collection_Array)'
+			'new_', aPMethod class pTypeName,'_with(' , '(Array)' , params uid , ', ' , '(Array)' , locals uid , ', ' , '(Array)'
 				, annotations uid.
 	self installPInfoOn: aPMethod.
 	methods add: aPMethod.	"reset the node cache"

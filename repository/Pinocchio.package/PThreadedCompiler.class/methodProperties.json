@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"append:" : "CamilloBruni 6/8/2010 13:34",
+		"initialize" : "CamilloBruni 6/8/2010 13:49",
+		"reset" : "CamilloBruni 6/8/2010 13:37",
+		"visit:" : "CamilloBruni 6/8/2010 13:36",
+		"visitCollection:" : "CamilloBruni 6/8/2010 13:22",
+		"visitConstant:" : "CamilloBruni 6/8/2010 13:45",
+		"visitInternalConstant:" : "CamilloBruni 6/8/2010 13:45",
+		"visitMethodClosure:" : "CamilloBruni 6/8/2010 13:36",
+		"visitSelf:" : "CamilloBruni 6/8/2010 13:32" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Compiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"threadedCompiler" ],
+	"name" : "PThreadedCompilerTest",
+	"pools" : [
+		 ],
+	"super" : "PVisitorTest",
+	"type" : "normal" }

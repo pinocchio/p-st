@@ -4,11 +4,8 @@ asPClass
 
 	| dict |
 	dict := {nil}.
-	(dict at: 1)
-		ifNil:
-			[ dict
-				at: 1
-				put:
+	(dict at: 1) ifNil: [ 
+		dict at: 1 put:
 					((Dictionary new)
 						at: Object put: PObject;
 						at: Class put: PClass;

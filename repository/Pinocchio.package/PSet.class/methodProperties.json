@@ -2,7 +2,8 @@
 	"class" : {
 		"bucketClass" : "ToonVerwaest 3/25/2010 12:44",
 		"new:" : "ToonVerwaest 3/25/2010 12:44",
-		"newFrom:" : "ToonVerwaest 3/25/2010 12:44" },
+		"newFrom:" : "ToonVerwaest 3/25/2010 12:44",
+		"pTypeName" : "CamilloBruni 6/7/2010 21:50" },
 	"instance" : {
 		"add:" : "ToonVerwaest 3/25/2010 12:44",
 		"addAll:" : "ToonVerwaest 3/25/2010 12:44",
@@ -13,7 +14,7 @@
 		"bucketIndexForHash:" : "ToonVerwaest 3/25/2010 12:44",
 		"bucketsDo:" : "ToonVerwaest 3/25/2010 12:44",
 		"do:" : "ToonVerwaest 5/11/2010 18:42",
-		"errorKeyNotFound:" : "ToonVerwaest 5/21/2010 18:19",
+		"errorKeyNotFound:" : "CamilloBruni 6/8/2010 13:45",
 		"grow" : "ToonVerwaest 3/25/2010 12:44",
 		"growBucketAt:" : "ToonVerwaest 3/25/2010 12:44",
 		"includes:" : "ToonVerwaest 3/25/2010 12:44",

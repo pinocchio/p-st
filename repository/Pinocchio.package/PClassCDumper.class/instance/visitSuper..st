@@ -6,4 +6,4 @@ visitSuper: aPinocchioSuper
 	self visitCollection: aPinocchioSuper arguments.
 	self
 		put: aPinocchioSuper
-		with: 'new_AST_Super((Object)' , message uid , ', ' , (self multiArgFor: aPinocchioSuper arguments) , ')'
+		with: 'new_Super((Optr)' , message uid , ', ' , (self multiArgFor: aPinocchioSuper arguments) , ')'

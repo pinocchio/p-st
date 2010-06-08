@@ -1,7 +1,8 @@
 {
-	"category" : "Pinocchio-IO",
+	"category" : "Pinocchio-IO-Term",
 	"classinstvars" : [
-		 ],
+		"stdinTerminalInstance",
+		"stderrTerminalInstance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

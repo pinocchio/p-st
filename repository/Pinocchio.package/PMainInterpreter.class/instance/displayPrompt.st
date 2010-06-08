@@ -1,3 +1,3 @@
 interpretation
 displayPrompt
-	PFile stdout writeAll: 'Pinocchio> '
+	PFile stdout writeAll: 'P', self currentLineLabel,'> '

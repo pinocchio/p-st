@@ -1,4 +1,4 @@
 pharo-exporting
 type
 	<preventExport>
-	^ #Object
+	^ #Optr

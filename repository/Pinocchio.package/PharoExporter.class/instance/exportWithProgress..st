@@ -1,6 +1,6 @@
 exporting
 exportWithProgress: restrictionSet
-	| done exportProcess |
+	| done exportProcess value |
 	done := false.
 	exportProcess := [ 
 		self export: restrictionSet.
@@ -13,7 +13,10 @@ exportWithProgress: restrictionSet
 		to: 1000
 		during: [ :bar | 
 			[ done or: [exportProcess isTerminated]] whileFalse: [ 
-				bar value: ((progress value min: 1) * 1000) rounded.
+				value := progress value.
+				value ifNotNil: [
+					bar value: ((value min: 1) * 1000) rounded.
+				].
 				(Delay forMilliseconds: 2) wait 
 			] ] 
-	] fork
+	] fork.

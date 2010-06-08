@@ -7,5 +7,5 @@ visitInternalInstanceVariable: aPInternalInstanceVariable
 	self
 		putRaw: aPInternalInstanceVariable
 		with:
-			'((Collection_Array)((Type_Class)' , currentClass uid , ')->layout)->values[' , aPInternalInstanceVariable index asString
+			'((Array)((Class)' , currentClass uid , ')->layout)->values[' , aPInternalInstanceVariable index asString
 				, ']'

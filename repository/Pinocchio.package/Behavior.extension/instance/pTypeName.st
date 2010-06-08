@@ -1,3 +1,8 @@
 *Pinocchio
 pTypeName
-	^ self pinocchioPackage, '_', self pinocchioName
+	| pinocchioPackage |
+	pinocchioPackage := self pinocchioPackage.
+	pinocchioPackage size == 0 ifTrue: [
+		^ self pinocchioName.
+	].
+	^ pinocchioPackage, '_', self pinocchioName.

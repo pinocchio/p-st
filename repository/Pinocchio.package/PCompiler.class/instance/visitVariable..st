@@ -5,6 +5,5 @@ visitVariable: anASTVariable
 		ifFalse: [ self error: 'Lookup failed. Undefined Variable: ''' , anASTVariable name , '''' ].
 	^ self scope
 		declare: anASTVariable
-		as:
-			((pinocchioClass package findName: anASTVariable name)
+		as: ((pinocchioClass package findName: anASTVariable name)
 				ifNil: [ self world ensureClassReference: anASTVariable name ]) asNode

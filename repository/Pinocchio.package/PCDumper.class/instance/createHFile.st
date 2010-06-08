@@ -7,7 +7,9 @@ createHFile
 	self include: 'pinocchio.h'.
 	stream << 'extern void init_lib();'; lf; lf.
 	self comment: 'GLOBALS ============================================='.
-	globals do: [ :global | stream << 'extern ' << global type << ' '<< global uid asString << ';'; lf ].
+	globals do: [ :global | 
+		stream << 'extern ' << global type << ' '<< global uid asString << ';'; lf 
+	].
 	stream lf.
 	self comment: 'INCLUDES ============================================='.
 	sortedClasses do: [ :pclass | self include: 'lib/class/' , pclass name asString , '.h' ].

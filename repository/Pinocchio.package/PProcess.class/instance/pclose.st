@@ -6,6 +6,6 @@ pclose
         stream = (IO_File)${out};	
     }
     int returnValue = pclose(stream->file);
-    ^ new_Number_SmallInt(returnValue);
+    ^ new_SmallInt(returnValue);
 	'>
 	self pinocchioPrimitiveFailed.

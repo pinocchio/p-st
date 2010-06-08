@@ -12,5 +12,5 @@ visitInfo: aPInfo
 	self
 		put: aPInfo
 		with:
-			'new_AST_Info((Type_String)' , sourceFile uid , ',(Type_String)' , name uid , ', (Number_SmallInt)' , line uid
-				, ', (Number_SmallInt)' , column uid , ')'
+			'new_AST_Info((String)' , sourceFile uid , ',(String)' , name uid , ', (SmallInt)' , line uid
+				, ', (SmallInt)' , column uid , ')'

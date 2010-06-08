@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"pinitialize" : "CamilloBruni 6/7/2010 20:57" },
+	"instance" : {
+		"endwin" : "CamilloBruni 6/7/2010 22:41",
+		"getch" : "CamilloBruni 6/8/2010 00:03",
+		"initscr" : "CamilloBruni 6/7/2010 20:27",
+		"noecho" : "CamilloBruni 6/7/2010 20:27",
+		"raw" : "CamilloBruni 6/7/2010 20:27",
+		"refresh" : "CamilloBruni 6/7/2010 20:52" } }

@@ -1,12 +1,15 @@
 exporting
 createAutoCompletionFile	
-	| completion fullName |
+	| completion fullName methodDict |
 	completion := self createStream: '/completion.txt'.
+	methodDict := PDictionary new.
 	classReferences do: [ :classReference|
 		fullName := classReference fullName.
 		completion << fullName; cr.
-		classReference pclass pmetaclass methods do: [:method|
-			completion << fullName; << ' '; << method selector; cr.
-		]
+		methodDict addAll: classReference pclass methods.
+		methodDict addAll: classReference pclass pmetaclass methods.
+	].	
+	methodDict do: [ :method|
+		completion << method selector; cr.
 	].
 	completion close.

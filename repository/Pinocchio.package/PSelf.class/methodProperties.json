@@ -1,10 +1,11 @@
 {
 	"class" : {
-		"initialize" : "ToonVerwaest 5/19/2010 16:33",
+		"initialize" : "CamilloBruni 6/8/2010 13:56",
 		"instance" : "ToonVerwaest 5/19/2010 16:33",
-		"new" : "ToonVerwaest 3/25/2010 12:44" },
+		"new" : "CamilloBruni 6/8/2010 13:56",
+		"pTypeName" : "CamilloBruni 6/8/2010 09:55" },
 	"instance" : {
 		"=" : "ToonVerwaest 4/1/2010 15:46",
 		"accept:" : "ToonVerwaest 3/25/2010 12:44",
 		"info:" : "ToonVerwaest 3/25/2010 12:44",
-		"uid" : "ToonVerwaest 3/25/2010 12:44" } }
+		"uid" : "CamilloBruni 6/8/2010 10:06" } }

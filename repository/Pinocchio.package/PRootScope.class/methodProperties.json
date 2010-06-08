@@ -1,12 +1,12 @@
 {
 	"class" : {
 		"clearGlobals" : "ToonVerwaest 3/25/2010 12:44",
-		"globalDefinition" : "ToonVerwaest 3/25/2010 12:44",
+		"globalDefinition" : "CamilloBruni 6/8/2010 13:53",
 		"initialize" : "ToonVerwaest 3/25/2010 12:44",
-		"initializeGlobals" : "ToonVerwaest 3/25/2010 12:44",
+		"initializeGlobals" : "CamilloBruni 6/8/2010 13:52",
 		"lookup:" : "ToonVerwaest 3/25/2010 12:44",
 		"lookupNamed:" : "ToonVerwaest 3/25/2010 12:44",
-		"pglobalDefinition" : "ToonVerwaest 3/25/2010 12:44",
+		"pglobalDefinition" : "CamilloBruni 6/8/2010 13:55",
 		"pinitializeGlobals" : "ToonVerwaest 3/25/2010 12:44" },
 	"instance" : {
 		"declare:" : "ToonVerwaest 3/25/2010 13:56",

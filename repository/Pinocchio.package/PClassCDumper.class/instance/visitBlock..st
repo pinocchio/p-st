@@ -8,4 +8,4 @@ visitBlock: aPinocchioBlock
 	self visitCollection: aPinocchioBlock.
 	self
 		createSized: aPinocchioBlock
-		with: 'new_AST_Block_with(' , '(Collection_Array)' , params uid , ', ' , '(Collection_Array)' , locals uid
+		with: 'new_Block_with(' , '(Array)' , params uid , ', ' , '(Array)' , locals uid
