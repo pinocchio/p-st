@@ -1,3 +1,0 @@
-interpretation
-currentLineLabel
-	^ ' ', currentLine asString
