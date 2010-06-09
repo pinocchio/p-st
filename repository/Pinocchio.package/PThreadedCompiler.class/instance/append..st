@@ -1,3 +1,3 @@
 convenience
-append: aNode
-	code add: (self class lookup: aNode).
+append: aSymbol
+	code add: (PFunctionPointer named: aSymbol).

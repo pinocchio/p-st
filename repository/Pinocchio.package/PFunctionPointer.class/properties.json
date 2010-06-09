@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Compiler-Threaded",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name" ],
+	"name" : "PFunctionPointer",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

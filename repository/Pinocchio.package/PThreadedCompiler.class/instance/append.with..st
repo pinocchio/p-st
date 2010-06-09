@@ -1,5 +1,5 @@
 convenience
-append: aNode with: aValue
-	self append: aNode.
+append: aSymbol with: aValue
+	self append: aSymbol.
 	code add: aValue.
 	
