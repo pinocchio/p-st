@@ -6,5 +6,5 @@ testSendArg1
 	(code at: 1) should be: #'push1'.
 	(code at: 2) class should be: PSend.
 	(code at: 3) should be: #'push_self'.
-	(code at: 4) should be: #push1.
-	(code at: 5) should be: #send1.
+	(code at: 4) should be: #'push_1'.
+	(code at: 5) should be: #'send1'.

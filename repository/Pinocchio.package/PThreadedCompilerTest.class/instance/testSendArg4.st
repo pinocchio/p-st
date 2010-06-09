@@ -6,8 +6,8 @@ testSendArg4
 	code first should be: #'push1'.
 	code next class should be: PSend.
 	code next should be: #'push_self'.
-	code next should be: #push1.
-	code next should be: #push2.
+	code next should be: #'push_1'.
+	code next should be: #'push_2'.
 	code next should be: #'push1'.
 	code next should be: 3.
 	code next should be: #'push1'.
