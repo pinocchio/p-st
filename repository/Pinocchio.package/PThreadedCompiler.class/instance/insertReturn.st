@@ -1,6 +1,7 @@
 convenience
 insertReturn
 	| last |
+	code removeLast. " remove final pop "
 	last := code removeLast.
 	last = #'push_true' ifTrue: [ ^ self append: #'return_true' ].
 	last = #'push_false' ifTrue: [ ^ self append: #'return_false' ].
