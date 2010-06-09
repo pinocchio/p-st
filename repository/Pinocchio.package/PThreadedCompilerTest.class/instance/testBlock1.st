@@ -6,6 +6,7 @@ testBlock1
 	code first should be: #'push_closure'.
 	block := code next.
 	block class should be: PBlock.
+	code next should be: #return.
 	
 	block threaded size should be: 1.
 	block threaded first should be: #push1.
