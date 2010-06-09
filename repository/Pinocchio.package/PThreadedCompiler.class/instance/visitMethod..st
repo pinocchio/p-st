@@ -1,5 +1,5 @@
 visiting
 visitMethod: aMethod
-	self visitCollection: aMethod.
+	self visitStatements: aMethod.
 	self insertReturn.
 	aMethod threaded: code asArray.
