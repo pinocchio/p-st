@@ -1,6 +1,6 @@
 visiting
 visitSend: aSend
-	self append: #'push_next' with: aSend.
+	self append: #'push1' with: aSend.
 	aSend receiver accept: self.
 	self visitCollection: aSend.
 	aSend size <= 5 ifTrue: [
