@@ -1,7 +1,7 @@
 tests
 testSendArg1
 	| code |
-	code := self ast: 'test',String cr,' ^ self test: 1'.
+	code := self ast: '^ self test: 1'.
 	code size should be: 6.
 	code first should be: #'push1'.
 	code next class should be: PSend.

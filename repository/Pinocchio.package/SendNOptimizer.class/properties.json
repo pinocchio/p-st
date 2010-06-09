@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Compiler-Threaded",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SendNOptimizer",
+	"pools" : [
+		 ],
+	"super" : "PThreadedForwardOptimizer",
+	"type" : "normal" }

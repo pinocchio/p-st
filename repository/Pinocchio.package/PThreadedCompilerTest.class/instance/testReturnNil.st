@@ -1,7 +1,7 @@
 tests
 testReturnNil
 	| code |
-	code := self ast: 'test',String cr,' ^ nil'.
+	code := self ast: '^ nil'.
 	code size should be: 1.
 	code first should be: #'return_nil'.
 	

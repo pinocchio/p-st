@@ -7,13 +7,13 @@ createCFile
 	root packagesDo: [ :package | 
 			name := package packageName asPObject.
 			globals add: name ].
-	globals do: [ :global | stream << global type << ' ' << global uid asString << ';'; lf ].
+	globals do: [ :global | stream << global ctype << ' ' << global uid asString << ';'; lf ].
 	stream lf; << 'void call_initialize() {'; lf.
 	sortedClasses do: [ :pclass | 
-			(stream << '    Eval_Send1((Optr)' << pclass package uid << ', (Symbol)SMB_ensureClassReferenceFor_, (Optr)'
+			(stream << '    Eval_Send1((Optr)' << pclass package uid << ', SMB_ensureClassReferenceFor_, (Optr)'
 				<< pclass uid) << ');'; lf.
 			(stream << '    Eval_Send0((Optr)' << pclass uid)
-				<< ', (Symbol)SMB_initialize);'; lf ].
+				<< ', SMB_initialize);'; lf ].
 	stream << '}'; lf; lf.
 	stream lf; << 'void init_lib() {'; lf;
 		<< codeStream contents;
@@ -22,11 +22,11 @@ createCFile
 	stream lf; << 'pinocchio_post_init();'; lf; lf.
 	
 	sortedClasses do: [ :pclass | stream << 'init_' << pclass name asString << '_methods();'; lf ].
-	stream lf; << root uid; << ' = Eval_Send0((Optr)Organize_RootPackage_Class, (Symbol)SMB_new);'; lf.
+	stream lf; << root uid; << ' = Eval_Send0((Optr)Organize_RootPackage_Class, SMB_new);'; lf.
 	root packagesDo: [ :package | 
 			name := package packageName asPObject.
 			name accept: self. " Force evaluation since we added it to the globals before. "
-			(stream << package uid << ' = Eval_Send1(' << package parent uid << ', (Symbol)SMB_ensurePackageNamed_, '
+			(stream << package uid << ' = Eval_Send1((Optr)' << package parent uid << ', SMB_ensurePackageNamed_, (Optr)'
 				<< name uid) << ');'; lf ].
 	stream lf; << 'init_plugin();'; lf; << 'call_initialize();'; lf; << '}'; lf.
 	stream close.

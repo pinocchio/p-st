@@ -1,4 +1,4 @@
 pharo-exporting
-type
+ctype
 	<preventExport>
-	^ #Optr
+	^ #MethodClosure

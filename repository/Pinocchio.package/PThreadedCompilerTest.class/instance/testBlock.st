@@ -1,7 +1,7 @@
 tests
 testBlock
 	| code block |
-	code := self ast: 'test',String cr,'^ []'.
+	code := self ast: '^ []'.
 	code size should be: 3.
 	code first should be: #'push_closure'.
 	

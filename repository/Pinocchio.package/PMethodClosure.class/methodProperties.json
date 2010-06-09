@@ -1,10 +1,11 @@
 {
 	"class" : {
-		 },
+		"pTypeName" : "CamilloBruni 6/9/2010 16:22" },
 	"instance" : {
 		"accept:on:message:" : "ToonVerwaest 3/25/2010 16:34",
 		"annotationAt:" : "ToonVerwaest 3/26/2010 18:34",
 		"annotations" : "ToonVerwaest 3/25/2010 12:39",
+		"ctype" : "CamilloBruni 6/9/2010 16:15",
 		"host" : "ToonVerwaest 3/25/2010 16:17",
 		"host:" : "ToonVerwaest 3/25/2010 16:16",
 		"info" : "ToonVerwaest 3/25/2010 12:39",

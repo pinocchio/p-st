@@ -4,6 +4,5 @@ visitSuper: aPinocchioSuper
 	message := aPinocchioSuper message asPObject.
 	self visit: message.
 	self visitCollection: aPinocchioSuper arguments.
-	self
-		put: aPinocchioSuper
-		with: 'new_Super((Optr)' , message uid , ', ' , (self multiArgFor: aPinocchioSuper arguments) , ')'
+	self put: aPinocchioSuper
+		with: 'new_Super(',message uid,', ',(self multiArgFor: aPinocchioSuper arguments),')'

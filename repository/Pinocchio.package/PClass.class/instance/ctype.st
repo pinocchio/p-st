@@ -1,4 +1,4 @@
-accessing
-type
+pharo-exporter
+ctype
 	<preventExport>
 	^ #'Class'

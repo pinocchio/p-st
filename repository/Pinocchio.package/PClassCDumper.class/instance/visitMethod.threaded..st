@@ -18,10 +18,10 @@ visitMethod: aPMethod threaded: aBool
 	self visitCollection: aPMethod.
 	
 	self createSized: aPMethod with: 'new_',aPMethod class pTypeName,
-			'_with(','(Array)',params uid,', ',
-					  '(Array)',locals uid,', ',
-					  '(Array)',annotations uid,', ',
-					  '(Array)',threaded uid.
+			'_with(',params uid,', ',
+					  locals uid,', ',
+					  annotations uid,', ',
+					  threaded uid.
 	self installPInfoOn: aPMethod.
 	
 	methods add: aPMethod.	"reset the node cache"

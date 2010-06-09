@@ -1,12 +1,13 @@
 {
 	"class" : {
-		 },
+		"pTypeName" : "CamilloBruni 6/9/2010 16:22" },
 	"instance" : {
 		"=" : "ToonVerwaest 4/1/2010 15:36",
 		"accept:" : "ToonVerwaest 5/17/2010 22:21",
 		"asAliased" : "ToonVerwaest 4/6/2010 16:30",
 		"context" : "ToonVerwaest 3/25/2010 12:39",
 		"context:" : "ToonVerwaest 3/26/2010 22:47",
+		"ctype" : "CamilloBruni 6/9/2010 16:15",
 		"errorHandler" : "CamilloBruni 6/7/2010 14:47",
 		"errorHandler:" : "CamilloBruni 6/7/2010 14:47",
 		"numArgs" : "CamilloBruni 4/5/2010 15:56",

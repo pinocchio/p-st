@@ -9,8 +9,5 @@ visitInfo: aPInfo
 	self visit: sourceFile.
 	self visit: line.
 	self visit: column.
-	self
-		put: aPInfo
-		with:
-			'new_Info((String)' , sourceFile uid , ',(String)' , name uid , ', (SmallInt)' , line uid
-				, ', (SmallInt)' , column uid , ')'
+	self put: aPInfo
+		with: 'new_Info(',sourceFile uid,',',name uid,', ',line uid,', ',column uid,')'
