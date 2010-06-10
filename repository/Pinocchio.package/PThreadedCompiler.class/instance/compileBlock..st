@@ -4,8 +4,7 @@ compileBlock: aBlock
 	
 	self visitStatements: aBlock.
 	self insertBlockReturn.
-	
-	aBlock threaded: code asArray.
+	aBlock threaded: (self compileNatively: code asArray).
 	
 	self popScope.
 	
