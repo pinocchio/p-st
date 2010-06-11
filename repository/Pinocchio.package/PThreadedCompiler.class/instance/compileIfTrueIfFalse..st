@@ -3,7 +3,7 @@ compileIfTrueIfFalse: aSend
 	|  block1 block2 |
 	block1 := aSend at: 1.
 	block2 := aSend at: 2.
-	(block1 isUnscoped and: [ block2 isUnscoped])
+	((self isUnscopedBlock: block1) and: [ self isUnscopedBlock: block2 ])
 			ifFalse: [ ^ self compileSend: aSend ].
 	aSend receiver accept: self.
 	self append: #'send_ifTrue_ifFalse_' with: aSend.
