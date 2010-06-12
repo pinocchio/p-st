@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Compiler-Threaded",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PThreadedCode",
+	"pools" : [
+		 ],
+	"super" : "PArray",
+	"type" : "variable" }
