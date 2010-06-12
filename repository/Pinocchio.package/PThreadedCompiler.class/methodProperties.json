@@ -10,7 +10,7 @@
 		"compileIfTrue:" : "ToonVerwaest 6/10/2010 18:29",
 		"compileIfTrueIfFalse:" : "ToonVerwaest 6/10/2010 18:33",
 		"compileNatively:" : "CamilloBruni 6/9/2010 21:48",
-		"compileSend:" : "ToonVerwaest 6/10/2010 16:09",
+		"compileSend:" : "ToonVerwaest 6/12/2010 16:03",
 		"initialize" : "CamilloBruni 6/8/2010 19:44",
 		"insertBlockReturn" : "ToonVerwaest 6/9/2010 16:24",
 		"insertReturn" : "ToonVerwaest 6/10/2010 16:33",
@@ -35,5 +35,5 @@
 		"visitSend:" : "ToonVerwaest 6/10/2010 18:32",
 		"visitSlot:" : "CamilloBruni 6/8/2010 19:15",
 		"visitStatements:" : "ToonVerwaest 6/11/2010 17:20",
-		"visitSuper:" : "CamilloBruni 6/9/2010 17:17",
+		"visitSuper:" : "ToonVerwaest 6/12/2010 15:46",
 		"visitVariable:" : "CamilloBruni 6/8/2010 19:15" } }
