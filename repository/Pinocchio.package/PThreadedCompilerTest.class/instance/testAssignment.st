@@ -9,6 +9,6 @@ testAssignment
 	code next should be: #push1.
 	code next should be: 10.
 	code next should be: #assign.
-	code next should be: #pop.
+	code next should be: #zap.
 	code next should be: #'return_self'.
 	

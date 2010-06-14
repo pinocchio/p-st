@@ -7,9 +7,8 @@ testBlock1
 	
 	block := code next.
 	block class should be: PBlock.
-	block threaded size should be: 2.
-	block threaded first should be: #'push_1'.
-	block threaded second should be: #pop.
+	block threaded size should be: 1.
+	block threaded first should be: #'return_1'.
 	
 	code next should be: #return.
 	

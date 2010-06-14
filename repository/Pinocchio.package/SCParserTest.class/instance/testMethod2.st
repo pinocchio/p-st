@@ -12,9 +12,9 @@ testMethod2
 			1 + [ |a| a ] value: "mmh" 3.
 			^ 7 "biep". "bla" '.
 	result := parser parse: string.
-	result hasReturnExpression should be true.
-	result class should = ASTMethod.
-	result message class should = ASTKeywordMessageDefinition.
 	result temporaries size should = 3.
 	result annotations size should = 3.
 	result statements size should = 2
+	result hasReturnExpression should be true.
+	result class should = ASTMethod.
+	result message class should = ASTKeywordMessageDefinition.

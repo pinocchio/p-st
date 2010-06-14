@@ -9,7 +9,7 @@ testAssignment2Return
 	code next class should be: PAssign.
 	code next should be: #'push_self'.
 	code next should be: #assign.
-	code next should be: #pop.
+	code next should be: #zap.
 	code next should be: #push1.
 	code next class should be: PAssign.
 	code next should be: #push1.

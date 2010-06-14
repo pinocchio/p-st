@@ -1,3 +1,3 @@
 accessing
 isOpened
-	^ self in isNotNil or: [ self out isNotNil ].
+	^ self in isNil not or: [ self out isNil not ].

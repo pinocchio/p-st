@@ -3,7 +3,8 @@ testVisitBlock
 	| emptyblock variable result |
 	emptyblock := (ASTBlock new)
 		statements: (Array new: 0);
-		parameters: (Array new: 0).
+		parameters: (Array new: 0);
+		temporaries: (Array new: 0).
 	result := visitor visit: emptyblock.
 	result class should = PBlock.
 	variable := ASTVariable new name: #element.

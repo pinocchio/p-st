@@ -1,5 +1,5 @@
 running
-testVisitPathNegsativeTest
+testVisitPathNegativeTest
 	<preventExport>
 	| result pclass root type classReference |
 	parser := scparser variableName.
