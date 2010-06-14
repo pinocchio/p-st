@@ -6,5 +6,5 @@ visitSend: aSend
 	aSend message = #ifFalse: ifTrue: [ ^ self compileIfFalse: aSend ].
 	aSend message = #ifTrue:ifFalse: ifTrue: [ ^ self compileIfTrueIfFalse: aSend ].
 	aSend message = #hash ifTrue: [ ^ self compileHash: aSend ].
-	aSend message = #value ifTrue: [ ^ self compileValue: aSend ].
+	"aSend message = #value ifTrue: [ ^ self compileValue: aSend ]."
 	self compileSend: aSend.
