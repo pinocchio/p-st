@@ -6,6 +6,11 @@ compileToDo: aSend
 		ifFalse: [ ^ self compileSend: aSend ].
 	aSend receiver accept: self.
 	(aSend at: 1) accept: self.
-	self append: #'send_to_do_' with: aSend.
+	
 	self compileBlock: aBlock.
-	self code addLast: aBlock.
+	self append: #'send_to_do_'.
+	self append: #'continue_to_do_' with: aBlock.
+	self append: #'zap'.
+	self append: #'jump_back3'.
+	
+	self code add: aSend.
