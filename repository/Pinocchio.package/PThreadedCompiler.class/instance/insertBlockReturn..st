@@ -2,7 +2,7 @@ convenience
 insertBlockReturn: aBlock
 	| last |
 	code size = 0 ifTrue: [ self append: #'push_nil'; append: #pop. ].	
-	aBlock isScoped ifFalse: [ ^ self insertReturn. ].
+	aBlock isScoped ifTrue: [ ^ self insertReturn. ].
 	code removeLast. " remove final pop "
 	last := code removeLast.
 	(last isKindOf: PFunctionPointer) ifTrue: [
