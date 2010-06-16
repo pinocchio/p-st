@@ -1,5 +1,18 @@
 convenience
 insertBlockReturn
+	| last |
 	code size = 0 ifTrue: [ ^ self append: #'return_nil' ].
-	self insertReturn
+	code removeLast. " remove final pop "
+	last := code removeLast.
+	(last isKindOf: PFunctionPointer) ifTrue: [
+		last = #'push_true' 	 	ifTrue: [ ^ self append: #'return_true' ].
+		last = #'push_false' 	ifTrue: [ ^ self append: #'return_false' ].
+		last = #'push_nil' 		ifTrue: [ ^ self append: #'return_nil' ].
+		last = #'push_0' 			ifTrue: [ ^ self append: #'return_0' ].
+		last = #'push_1' 			ifTrue: [ ^ self append: #'return_1' ].
+		last = #'push_2' 			ifTrue: [ ^ self append: #'return_2' ].
+		last = #'push_self' 		ifTrue: [ ^ self append: #'return_self'].
+	].
+	code add: last.
+	self append: #return.
 	
