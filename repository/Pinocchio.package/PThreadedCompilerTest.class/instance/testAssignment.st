@@ -10,5 +10,5 @@ testAssignment
 	code next should be: 10.
 	code next should be: #assign.
 	code next should be: #zap.
-	code next should be: #'return_self'.
+	code next should be: #'method_return_self'.
 	

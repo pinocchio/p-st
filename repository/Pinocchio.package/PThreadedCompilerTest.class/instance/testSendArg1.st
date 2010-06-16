@@ -7,4 +7,4 @@ testSendArg1
 	code next should be: #'push_1'.
 	code next should be: #send1.
 	code next class should be: PSend.
-	code next should be: #return.
+	code next should be: #'method_return'.

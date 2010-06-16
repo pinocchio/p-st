@@ -8,4 +8,4 @@ testSendArg2
 	code next should be: #'push_2'.
 	code next should be: #send2.
 	code next class should be: PSend.
-	code next should be: #return.
+	code next should be: #'method_return'.

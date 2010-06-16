@@ -1,5 +1,5 @@
 special
-compileIfTrueIfFalse: aSend
+compileSendIfTrueIfFalse: aSend
 	|  block1 block2 |
 	block1 := aSend at: 1.
 	block2 := aSend at: 2.

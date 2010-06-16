@@ -13,7 +13,8 @@
 		"bold",
 		"light",
 		"blink",
-		"underline" ],
+		"underline",
+		"shouldEcho" ],
 	"name" : "PTerminal",
 	"pools" : [
 		 ],

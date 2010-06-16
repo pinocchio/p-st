@@ -1,5 +1,5 @@
 special
-compileIfTrue: aSend
+compileSendIfTrue: aSend
 	| aBlock |
 	aBlock := aSend at: 1.
 	aBlock isScoped ifTrue:  [ ^ self compileSend: aSend ].

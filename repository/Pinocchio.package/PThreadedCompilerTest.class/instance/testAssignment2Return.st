@@ -15,5 +15,5 @@ testAssignment2Return
 	code next should be: #push1.
 	code next should be: 10.
 	code next should be: #assign.
-	code next should be: #return.
+	code next should be: #'method_return'.
 	

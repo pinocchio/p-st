@@ -12,4 +12,4 @@ testSendArg4
 	code next should be: 4.
 	code next should be: #send4.
 	code next class should be: PSend.
-	code next should be: #return.
+	code next should be: #'method_return'.

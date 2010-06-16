@@ -11,4 +11,4 @@ testSend2
 	code next should be: #'push_self'.
 	code next should be: #send0.
 	code next class should be: PSend.
-	code next should be: #return.
+	code next should be: #'method_return'.

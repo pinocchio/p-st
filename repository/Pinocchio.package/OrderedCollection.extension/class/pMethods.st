@@ -5,8 +5,7 @@ pMethods
 		ifTrue:
 			[ | s |
 			s := OrderedCollection new.
-			s
-				add: #add:;
+			s add: #add:;
 				add: #removeFirst;
 				add: #removeLast;
 				add: #addLast:;

@@ -8,7 +8,7 @@ testBlock
 	block := code next.
 	block class should be: PBlock.
 	block threaded size should be: 1.
-	block threaded first should be: #'return_nil'.
+	block threaded first should be: #'block_return_nil'.
 	
-	code next should be: #return
+	code next should be: #'method_return'
 	
