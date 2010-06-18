@@ -7,5 +7,5 @@ visitSend: aSend
 	aSend message = #ifTrue:ifFalse: ifTrue: [ ^ self compileSendIfTrueIfFalse: aSend ].
 	aSend message = #hash ifTrue: [ ^ self compileSendHash: aSend ].
 	"aSend message = #value ifTrue: [ ^ self compileValue: aSend ]."
-	aSend message = #to:do: ifTrue: [ ^ self compileSendToDo: aSend ].
+	"aSend message = #to:do: ifTrue: [ ^ self compileSendToDo: aSend ]."
 	self compileSend: aSend.
