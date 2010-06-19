@@ -1,9 +1,9 @@
 expression
-initializeBracketMessageExpression
+initializeBracketAssignExpression
 	| keywords arguments |
 	^ PEGParser
 		named: 'BRACKET-MESSAGE-EXPRESSION'
-		parsing: (('[' asPEG omit: true) & self binaryObjectDescription & (']' asPEG omit: true) & ('=' asPEG omit: true) & self binaryObjectDescription )
+		parsing: (('[' asPEG omit: true) & self binaryObjectDescription & (']' asPEG omit: true) & (':=' asPEG omit: true) & self binaryObjectDescription )
 		semantics: [ :parts | 
 			keywords := Array with: #at with: #put.
 			arguments := parts asArray.
