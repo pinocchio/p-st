@@ -1,3 +1,3 @@
 special
 compileSendIfFalseIfTrue: aSend
-	self compileSendIfElse: aSend named: #'send_ifFalse_IfTrue_' .
+	self compileSendIfElse: aSend named: #'send_ifFalse_ifTrue_' .
