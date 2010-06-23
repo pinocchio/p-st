@@ -17,11 +17,11 @@ visitMethod: aPMethod threaded: aBool
 	self visit: (self preprocessThreadedArray: threaded).
 	self visitCollection: aPMethod.
 	
-	self createSized: aPMethod with: 'new_',aPMethod class pTypeName,
-			'_with(',params uid,', ',
-					  locals uid,', ',
-					  annotations uid,', ',
-					  threaded uid.
+	self createSized: aPMethod with: [ :s| s << 'new_' << aPMethod class pTypeName
+			<< '_with(' << params uid << ', '
+					 <<  locals uid << ', '
+					 <<  annotations uid << ', '
+					 <<  threaded uid].
 	self installPInfoOn: aPMethod.
 	
 	methods add: aPMethod.	"reset the node cache"

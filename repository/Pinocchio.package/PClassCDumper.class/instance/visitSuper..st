@@ -5,4 +5,7 @@ visitSuper: aPinocchioSuper
 	self visit: message.
 	self visitCollection: aPinocchioSuper arguments.
 	self put: aPinocchioSuper
-		with: 'new_Super(',message uid,', ',(self multiArgFor: aPinocchioSuper arguments),')'
+		with: [ :s| 
+			s << 'new_Super(' << message uid << ', '.
+			self multiArgFor: aPinocchioSuper arguments on: s.
+			s << $) ].

@@ -1,6 +1,9 @@
 convenience
 createSized: arrayedObject with: aString
 	self put: arrayedObject
-		with: (arrayedObject
-				inject: aString , ', ' , arrayedObject size asString
-				into: [ :str :element | str , ', ' , element uid asString ]) , ')'
+		with: [ :s| 
+			self putStringOrBlock: aString.
+			s << ', '  << arrayedObject size asString.
+			arrayedObject do: [ :each |
+				s << ', ' << each uid asString ].
+			 s << $). ].

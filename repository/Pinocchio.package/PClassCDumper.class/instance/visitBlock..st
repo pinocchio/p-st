@@ -8,8 +8,7 @@ visitBlock: aPinocchioBlock
 	self visit: locals.
 	self visit: (self preprocessThreadedArray: threaded).
 	self visitCollection: aPinocchioBlock.
-	self
-		createSized: aPinocchioBlock
-		with: 'new_Block_with(', params uid , ', ',
-								     locals uid, ', ',
-									 threaded uid.
+	self createSized: aPinocchioBlock
+		with: [ :s| s << 'new_Block_with(' << params uid << ', '
+								      << locals uid << ', '
+									<< threaded uid].

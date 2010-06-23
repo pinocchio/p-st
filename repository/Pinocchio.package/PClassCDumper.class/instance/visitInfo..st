@@ -10,4 +10,4 @@ visitInfo: aPInfo
 	self visit: line.
 	self visit: column.
 	self put: aPInfo
-		with: 'new_Info(',sourceFile uid,',',name uid,', ',line uid,', ',column uid,')'
+		with: [ :s| s << 'new_Info(' << sourceFile uid << ', ' << name uid << ', ' << line uid << ', ' << column uid << $)].

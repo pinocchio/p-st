@@ -7,6 +7,8 @@ visitSend: aPSend
 	self visitCollection: aPSend arguments.
 	self comment: aPSend message.
 	self put: aPSend
-		with: 'new_Send((Optr)', aPSend receiver uid,', ',message uid,', '
-				,(self multiArgFor: aPSend arguments) , ')'.
+		with: [ :s| 
+			s << 'new_Send((Optr)' << aPSend receiver uid << ', ' << message uid << ', '.
+			self multiArgFor: aPSend arguments on: s.
+			s << $)].
 	self installPInfoOn: aPSend

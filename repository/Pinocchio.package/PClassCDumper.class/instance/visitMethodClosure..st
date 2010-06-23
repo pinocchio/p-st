@@ -10,8 +10,9 @@ visitMethodClosure: aPMethodClosure
 	self visit: aPMethodClosure code.
 	stream lf.
 	self put: aPMethodClosure 
-		with: 'new_MethodClosure((Method)',aPMethodClosure code uid,', ',aPMethodClosure host uid,')'.
+		with: [ :s| s << 'new_MethodClosure((Method)' <<  aPMethodClosure code uid 
+				   << $, << aPMethodClosure host uid << $)].
 	self installPInfoOn: aPMethodClosure.
 	stream << 'store_method(' << currentClass uid << ', ' << selector uid
 		<< ', ' << aPMethodClosure uid << ');'; lf.
-	stream << '}'; lf; lf
+	stream << $}; lf; lf

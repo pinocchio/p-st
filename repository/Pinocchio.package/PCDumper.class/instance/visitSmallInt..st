@@ -1,3 +1,4 @@
 visitor
 visitSmallInt: aPinocchioSmallInt
-	self put: aPinocchioSmallInt with: 'new_SmallInt(' , aPinocchioSmallInt int asString , ')'
+	self put: aPinocchioSmallInt with: [ :s| 
+		s << 'new_SmallInt(' << aPinocchioSmallInt int asString << $)].

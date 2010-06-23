@@ -7,4 +7,7 @@ visitAnnotation: aPinocchioAnnotation
 	aPinocchioAnnotation do: [ :annotation | annotation ifNotNil: [ annotations add: annotation asPObject ] ].
 	self visitCollection: annotations.
 	self put: aPinocchioAnnotation
-		with: 'new_Annotation((Optr)' , selector uid , ', ' , (self multiArgFor: annotations) , ')'
+		with: [ :s| 
+			s << 'new_Annotation((Optr)' << selector uid << ', '.
+			self multiArgFor: annotations on: s.
+			s << $)].
