@@ -3,7 +3,6 @@ initializeScopedExpression
 	^ PEGParser
 		named: 'SCOPED-EXPRESSION'
 		parsing: (('(' asPEG omit: true) & self expression) <& (')' asPEG omit: true)
-		semantics:
-			[ :result | 
+		semantics: [ :result | 
 			result scoped.
 			result ]

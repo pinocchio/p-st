@@ -1,3 +1,5 @@
 typing
-= other
-	^ self name = other name
+= other 
+	super = other ifFalse: [^ false].
+	self name = other name ifFalse: [^ false].
+	^ true.

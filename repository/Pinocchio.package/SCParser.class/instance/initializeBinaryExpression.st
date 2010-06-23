@@ -1,14 +1,11 @@
 expression
 initializeBinaryExpression
 	self preStoreBinaryObjectDescription.
-	parsers
-		at: #binaryExpression
-		ifAbsentPut:
+	parsers at: #binaryExpression ifAbsentPut:
 			(PEGParser
 				named: 'BINARY-EXPRESSION'
 				parsing: (self unaryObjectDescription & self binarySelector) <& self binaryObjectDescription
-				semantics:
-					[ :parts | 
+				semantics: [ :parts | 
 					(parts at: 3)
 						argumentOfBinary:
 							((ASTBinaryExpression new)

@@ -1,3 +1,3 @@
 expression
 injectMessageExpression
-	^ self messageExpression <= ((self keywordExpression | self binaryExpression) <= self unaryExpression)
+	^ self messageExpression <= (( self keywordExpression | self bracketIndexExpression | self binaryExpression ) <= self unaryExpression)

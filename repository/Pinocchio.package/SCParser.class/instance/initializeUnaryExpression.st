@@ -4,12 +4,9 @@ initializeUnaryExpression
 	^ PEGParser
 		named: 'UNARY-EXPRESSION'
 		parsing: self primary & self unarySelector plus
-		semantics:
-			[ :parts | 
+		semantics: [ :parts | 
 			result := parts first.
-			(parts at: 2)
-				do:
-					[ :selector | 
+			(parts at: 2) do: [ :selector | 
 					result := (ASTUnaryExpression new)
 						receiver: result;
 						selector: selector ].

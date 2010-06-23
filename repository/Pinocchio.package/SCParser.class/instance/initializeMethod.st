@@ -4,8 +4,7 @@ initializeMethod
 		named: 'METHOD'
 		parsing:
 			(self messagePattern & self annotation times) <& self temporaries optional <& self statements <& self separator
-		semantics:
-			[ :parts | 
+		semantics: [ :parts | 
 			(ASTMethod new)
 				message: parts first;
 				annotations: (parts at: 2);

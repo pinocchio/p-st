@@ -6,5 +6,4 @@ initializeFloat
 		parsing: self floatFormat
 		semantics: [ :result | 
 			(ASTFloat new)
-				number: result.
-		].
+				number: result.].
