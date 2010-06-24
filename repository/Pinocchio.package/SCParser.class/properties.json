@@ -7,7 +7,8 @@
 	"commentStamp" : "TestRunner 11/24/2009 11:49",
 	"instvars" : [
 		"parsers",
-		"id" ],
+		"id",
+		"stream" ],
 	"name" : "SCParser",
 	"pools" : [
 		 ],

@@ -6,8 +6,8 @@ testMethod
 	parser := scparser method.
 	string := 'a: b c: d
 			|x y z|
-			<abc: 1 def: (2+2) ghi: (3 b)>
-			<a: 4>
+			<abc: 1 "bla"def: (2+2) ghi: (3 b)>
+			<a: 4> "test"
 			<boe>
 			1 + [ |a| a ] value: 3.
 			^ 7 '.

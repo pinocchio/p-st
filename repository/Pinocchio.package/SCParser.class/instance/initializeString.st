@@ -10,5 +10,6 @@ initializeString
 		semantics:
 			[ :result | 
 			first := result removeFirst.
-			first := first inject: '' into: [ :c :e | c , e ].
-			result inject: first into: [ :c :e | c , '''' , (e inject: '' into: [ :ic :ie | ic , ie ]) ] ]
+			first := first inject: (stream with: '') into: [ :c :e | c << e ].
+			result inject: first into: [ :c :e | c << ''''. e do: [ :ie | c << ie ]. c ].
+			stream contents ]

@@ -8,7 +8,7 @@ initializeRadix
 		semantics: [ :result | 
 			base := result at: 1.
 			sign := (result at: 2) resultIfFailed: [ '' ].
-			number := (result at: 3) inject: '' into: [ :c :n | c , n ].
+			number := (result at: 3) inject: (stream with: sign) into: [ :c :n | c << n ].
 			(ASTNumber new)
-				number: sign , number;
+				number: number contents;
 				base: base ]

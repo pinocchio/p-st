@@ -7,4 +7,7 @@ initializeBinarySelector
 			[ :result | 
 			result isString
 				ifTrue: [ self createSymbol: result ]
-				ifFalse: [ self createSymbol: (result second inject: result first into: [ :c :e | c , e ]) ] ]
+				ifFalse: [ self createSymbol:
+							(result second
+								inject: (stream with: result first)
+								into: [ :c :e | c << e ]) contents ] ]

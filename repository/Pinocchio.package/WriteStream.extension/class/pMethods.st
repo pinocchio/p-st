@@ -11,6 +11,7 @@ pMethods
 				add: #nextPutAll:;
 				add: #on:;
 				add: #reset;
+				add: #with:;
 				add: #position:;
 				add: #contents;
 				add: #growTo:.
