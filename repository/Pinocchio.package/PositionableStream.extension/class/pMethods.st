@@ -11,6 +11,7 @@ pMethods
 				add: #position;
 				add: #positionError;
 				add: #atEnd;
+				add: #back;
 				add: #contents;
 				add: #reset.
 			^ s ].

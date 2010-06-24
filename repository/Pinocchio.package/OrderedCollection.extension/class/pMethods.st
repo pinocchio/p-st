@@ -16,6 +16,8 @@ pMethods
 				add: #growSize;
 				add: #setCollection:;
 				add: #size;
+				add: #addAll:;
+				add: #addAllLast:;
 				add: #do:;
 				add: #at:;
 				add: #collect:;

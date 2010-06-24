@@ -1,3 +1,3 @@
 basic-block
 initializeTemporaries
-	^ PEGParser named: 'TEMPORARIES' parsing: (self bar & self variableName times) <& self bar
+	^ self bar & self variableName times <& self bar name: 'TEMPORARIES'
