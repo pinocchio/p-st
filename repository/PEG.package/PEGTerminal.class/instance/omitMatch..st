@@ -1,3 +1,3 @@
 matching
-privateMatch: input
+omitMatch: input
 	^ input scan: string

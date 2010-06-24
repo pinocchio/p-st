@@ -3,10 +3,11 @@
 		"on:" : "ToonVerwaest 3/25/2010 12:44",
 		"on:separator:" : "ToonVerwaest 3/25/2010 12:44" },
 	"instance" : {
-		"beginsWith:" : "ToonVerwaest 3/25/2010 12:44",
-		"bucket" : "ToonVerwaest 5/21/2010 18:37",
+		"backward" : "ToonVerwaest 6/24/2010 15:08",
+		"bucket" : "ToonVerwaest 6/24/2010 15:15",
+		"forward" : "ToonVerwaest 6/24/2010 15:08",
 		"memoizeMatch:" : "ToonVerwaest 3/25/2010 12:44",
-		"on:separator:" : "ToonVerwaest 3/25/2010 12:44",
+		"on:separator:" : "ToonVerwaest 6/24/2010 15:15",
 		"sample" : "ToonVerwaest 3/25/2010 12:44",
-		"scan:" : "ToonVerwaest 3/25/2010 12:44",
+		"scan:" : "ToonVerwaest 6/24/2010 14:46",
 		"skipWhitespace" : "ToonVerwaest 3/25/2010 12:44" } }

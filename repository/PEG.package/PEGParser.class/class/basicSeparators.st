@@ -1,4 +1,4 @@
 instance creation
 basicSeparators
-	separators ifNil: [ separators := (Character space asPEG | Character tab) <= Character cr <= Character lf ].
-	^ separators	" Separators := nil "
+	separators ifNil: [ separators := (String space, String tab, String cr, String lf) asPEGChoice ].
+	^ separators	" separators := nil "

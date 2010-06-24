@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"match:" : "ToonVerwaest 6/24/2010 14:29",
+		"not" : "ToonVerwaest 6/24/2010 13:48",
+		"omitMatch:" : "ToonVerwaest 6/24/2010 15:43",
+		"privateMatch:" : "ToonVerwaest 6/24/2010 13:58" } }

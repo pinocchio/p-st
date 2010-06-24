@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 resultIfFailed: alternative
 	^ alternative value

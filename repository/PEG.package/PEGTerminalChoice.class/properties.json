@@ -1,0 +1,14 @@
+{
+	"category" : "PEG",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PEGTerminalChoice",
+	"pools" : [
+		 ],
+	"super" : "PEGTerminal",
+	"type" : "normal" }

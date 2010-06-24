@@ -2,8 +2,8 @@ tests
 testNotExpression
 	| string exp1 exp2 exp exp3 |
 	string := PEGStringScanner on: 'teesest'.
-	exp1 := PEGTerminal new: 'te'.
-	exp2 := PEGTerminal new: 'es'.
+	exp1 := PEGTerminal new: 't'.
+	exp2 := PEGTerminal new: 'e'.
 	exp := PEGNotExpression new: exp1.
 	(exp match: string) should be isNil.
 	string position should = 0.

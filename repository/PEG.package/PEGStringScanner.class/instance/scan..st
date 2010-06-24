@@ -1,7 +1,9 @@
-initialization
-scan: otherString
-	" Maybe we should use other objects to mark... "
-
-	^ (self beginsWith: otherString)
-		ifTrue: [ otherString ]
-		ifFalse: [ nil ]
+matching
+scan: subCollection
+	(readLimit - position) >= subCollection size
+		ifFalse: [ ^ nil ].
+	1 to: subCollection size do:  [ :i |
+		(collection at: (position + i)) = (subCollection at: i)
+			ifFalse: [ ^ nil ] ].
+	position := position + subCollection size.
+	^ subCollection

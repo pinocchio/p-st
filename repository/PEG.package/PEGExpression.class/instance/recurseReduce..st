@@ -1,0 +1,2 @@
+optimizing
+recurseReduce: nodes
