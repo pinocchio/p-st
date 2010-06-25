@@ -5,7 +5,7 @@ initializeString
 	stringBorder := '''' asPEG omit: true.
 	segment := PEGMultiParser named: 'STRING-SEGMENT'
 		parsing: stringBorder && stringBorder not strongTimes <& stringBorder
-		semantics: [ :result | result ].
+		semantics: [ :result | result asString ].
 	^ PEGMultiParser
 		named: 'STRING'
 		parsing: segment strongPlus

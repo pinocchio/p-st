@@ -5,4 +5,4 @@ injectCascadedMessageExpression
 		semantics: [ :parts | 
 					(ASTMessageCascadeExpression new)
 						receiver: parts first receiver;
-						cascades: parts ]
+						cascades: parts asArray ]

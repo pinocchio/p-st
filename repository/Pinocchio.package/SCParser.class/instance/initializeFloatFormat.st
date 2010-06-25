@@ -4,4 +4,4 @@ initializeFloatFormat
 	^ PEGMultiParser
 		named: 'FLOAT-FORMAT'
 		parsing: self numberFormat & '.' & (self decimalDigit strongPlus)
-		semantics: [ :result | String newFrom: result ].
+		semantics: [ :result | result asString ].

@@ -5,7 +5,6 @@ initializeStatements
 		parsing: self subExpression times & (self return | self finalExpression) optional
 		semantics: [ :result | 
 			(result last)
-				ifMatched: [ :exp |
-					result at: (result size) put: exp. result ]
-				ifFailed: [
-					result copyFrom: 1 to: (result size - 1) ] ]
+				ifMatched: [ :exp | result at: (result size) put: exp ]
+				ifFailed: [ result removeLast ].
+			result asOrderedCollection ]

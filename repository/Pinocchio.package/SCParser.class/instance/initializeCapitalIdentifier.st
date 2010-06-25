@@ -3,4 +3,4 @@ initializeCapitalIdentifier
 	^ PEGMultiParser
 		named: 'CAPITAL-IDENTIFIER'
 		parsing: self uppercase && (self letter | self decimalDigit) strongTimes
-		semantics: [ :result | String newFrom: result ]
+		semantics: [ :result | result asString ]

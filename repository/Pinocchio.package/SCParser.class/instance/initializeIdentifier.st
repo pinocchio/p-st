@@ -3,4 +3,4 @@ initializeIdentifier
 	^ PEGMultiParser
 		named: 'IDENTIFIER'
 		parsing: self letter && (self letter | self decimalDigit | '!?' asPEGChoice) strongTimes
-		semantics: [ :result | String newFrom: result ]
+		semantics: [ :result | result asString ]

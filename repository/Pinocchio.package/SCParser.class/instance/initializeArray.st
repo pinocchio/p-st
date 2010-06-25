@@ -8,5 +8,5 @@ initializeArray
 				&
 					((self numberConstant | self stringConstant) <= self symbolInArray <= self symbolConstant <= self characterConstant
 						<= array) times) <& (')' asPEG omit: true)).
-	array semantics: [ :result | ASTArray new literals: result ].
+	array semantics: [ :result | ASTArray new literals: result asArray ].
 	^ array
