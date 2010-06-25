@@ -1,3 +1,5 @@
-as yet unclassified
+stack operations
 pushAll: o
-	self addAllLast: o
+	self grow: o size.
+	o withIndexDo: [ :el :i | array at: position + i put: el ].
+	position := position + o size.

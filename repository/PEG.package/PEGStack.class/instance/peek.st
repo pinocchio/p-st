@@ -1,3 +1,4 @@
-as yet unclassified
+stack operations
 peek
-	^ self last
+	position > 0 ifFalse: [ self stackUnderflow ].
+	^ array at: position

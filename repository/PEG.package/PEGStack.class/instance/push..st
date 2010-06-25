@@ -1,3 +1,5 @@
-as yet unclassified
+stack operations
 push: o
-	self addLast: o
+	self grow: 1.
+	position := position + 1.
+	array at: position put: o

@@ -1,7 +1,9 @@
-as yet unclassified
+stack operations
 popTo: index
 	| result |
-	result := OrderedCollection new: lastIndex - index.
-	index + 1 to: lastIndex do: [ :i | result add: (array at: i) ].
-	lastIndex := index.
+	index >= 0 ifFalse: [ self popUnderflow: index ].
+	position < index ifTrue: [ self popOverflow: index ].
+	result := OrderedCollection new: position - index.
+	index + 1 to: position do: [ :i | result add: (array at: i) ].
+	position := index.
 	^ result

@@ -1,6 +1,6 @@
 matching
 performMatch: input to: stream
-	| outputPosition inputPosition |
+	| outputPosition inputPosition result |
 	inputPosition := input position.
 	outputPosition := stream position.
 	expression match: input to: stream fail: [
@@ -8,4 +8,6 @@ performMatch: input to: stream
 		input position: inputPosition.
 		^ nil ].
 	" todo optimize "
-	^ semantics value: (stream popTo: outputPosition).
+	result := semantics value: (stream mark: outputPosition).
+	stream zapTo: outputPosition.
+	^ result

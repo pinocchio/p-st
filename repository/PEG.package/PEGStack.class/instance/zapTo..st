@@ -1,3 +1,3 @@
-as yet unclassified
+stack operations
 zapTo: index
-	lastIndex := index
+	position := index

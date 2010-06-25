@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"array",
+		"position",
+		"mark" ],
 	"name" : "PEGStack",
 	"pools" : [
 		 ],
-	"super" : "OrderedCollection",
+	"super" : "Object",
 	"type" : "normal" }
