@@ -1,7 +1,7 @@
 literal
 initializeArray
 	| array |
-	array := PEGParser named: 'ARRAY'.
+	array := PEGMultiParser named: 'ARRAY'.
 	array
 		<=
 			((('(' asPEG omit: true)

@@ -1,6 +1,6 @@
 variable
 initializeCapitalIdentifier
-	^ PEGParser
+	^ PEGMultiParser
 		named: 'CAPITAL-IDENTIFIER'
 		parsing: self uppercase && (self letter | self decimalDigit) strongTimes
-		semantics: [ :result | (result second inject: (stream with: result first) into: [ :c :e | c << e ]) contents ]
+		semantics: [ :result | String newFrom: result ]

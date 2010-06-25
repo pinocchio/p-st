@@ -3,7 +3,7 @@ lookUpIn: aCollection at: index
 	| subPackage first |
 	index > aCollection size
 		ifTrue: [ ^ self ].
-	subPackage := self at: (aCollection at: index).
+	subPackage := self at: (aCollection at: index) asSymbol.
 	subPackage
 		ifNil:
 			[ first := aCollection removeFirst.

@@ -1,3 +1,3 @@
 expression
 preStoreCascadedMessageExpression
-	^ parsers at: #cascadedMessageExpression ifAbsentPut: [ PEGParser named: 'CASCADED-MESSAGE-EXPRESSION' ]
+	^ parsers at: #cascadedMessageExpression ifAbsentPut: [ PEGMultiParser named: 'CASCADED-MESSAGE-EXPRESSION' ]

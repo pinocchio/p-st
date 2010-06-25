@@ -1,3 +1,6 @@
 basic-block
 initializeTemporaries
-	^ self bar & self variableName times <& self bar name: 'TEMPORARIES'
+	^ PEGMultiParser
+		named: 'TEMPORARIES'
+		parsing: (self bar & self variableName times <& self bar)
+		semantics: [ :result | result ]

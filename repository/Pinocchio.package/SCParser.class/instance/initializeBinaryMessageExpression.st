@@ -1,6 +1,6 @@
 expression
 initializeBinaryMessageExpression
-	^ PEGParser
+	^ PEGMultiParser
 		named: 'BINARY-MESSAGE-EXPRESSION'
 		parsing: self binarySelector & self unaryObjectDescription
 		semantics:

@@ -6,8 +6,7 @@ testTemporaries
 	result := parser match: string.
 	result collect: #yourself.
 	(result collect: #name) asArray should
-		=
-			((Array new: 3)
+		= ((Array new: 3)
 				at: 1 put: 'a';
 				at: 2 put: 'b';
 				at: 3 put: 'c';

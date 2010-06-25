@@ -1,22 +1,23 @@
 expression
 initializeExpression
-	| variables expression |
+	| vars expression |
 	" Prestoring required parsers to handle circular references. "
 	self preStorePrimary.
 	self preStoreMessageExpression.
 	self preStoreCascadedMessageExpression.
 	parsers
 		at: #expression
-		put: (PEGParser
+		put: (PEGMultiParser
 				named: 'EXPRESSION'
-				parsing: self assignmentExpressions & ((self cascadedMessageExpression | self messageExpression) <= self primary)
+				parsing: self assignmentExpressions optional & ((self cascadedMessageExpression | self messageExpression) <= self primary)
 				semantics: [ :result | 
-					variables := result first.
+					vars := result first.
 					expression := result at: 2.
-					variables reverse do: [ :variable | 
+					vars ifMatched: [ :variables |
+						variables reverse do: [ :variable | 
 							expression := (ASTAssignmentExpression new)
 								expression: expression;
-								variable: variable].
+								variable: variable ] ].
 					expression ]).	
 	" After having built the expression parser, we inject the parsers into their stubs. "
 	self injectPrimary.

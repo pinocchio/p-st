@@ -1,13 +1,13 @@
 expression
 initializeUnaryExpression
 	| result |
-	^ PEGParser
+	^ PEGMultiParser
 		named: 'UNARY-EXPRESSION'
 		parsing: self primary & self unarySelector plus
 		semantics: [ :parts | 
 			result := parts first.
-			(parts at: 2) do: [ :selector | 
+			2 to: parts size do: [ :i | 
 					result := (ASTUnaryExpression new)
 						receiver: result;
-						selector: selector ].
+						selector: (parts at: i) ].
 			result ]

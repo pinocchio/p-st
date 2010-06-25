@@ -1,13 +1,10 @@
 selector
 initializeBinarySelector
-	^ PEGParser
+	^ PEGMultiParser
 		named: 'BINARY-SELECTOR'
 		parsing: self specialCharacter | '-' && self specialCharacter strongTimes | '|'
 		semantics:
 			[ :result | 
 			result isString
 				ifTrue: [ self createSymbol: result ]
-				ifFalse: [ self createSymbol:
-							(result second
-								inject: (stream with: result first)
-								into: [ :c :e | c << e ]) contents ] ]
+				ifFalse: [ self createSymbol: (String newFrom: result) ] ]

@@ -1,9 +1,11 @@
 basic-block
 initializeStatements
-	^ PEGParser
+	^ PEGMultiParser
 		named: 'STATEMENTS'
 		parsing: self subExpression times & (self return | self finalExpression) optional
-		semantics:
-			[ :result | 
-			(result at: 2) ifMatched: [ :exp | result first add: exp ].
-			result first ]
+		semantics: [ :result | 
+			(result last)
+				ifMatched: [ :exp |
+					result at: (result size) put: exp. result ]
+				ifFailed: [
+					result copyFrom: 1 to: (result size - 1) ] ]

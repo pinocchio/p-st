@@ -1,7 +1,7 @@
 literal
 initializeRadix
 	| number base sign |
-	^ PEGParser
+	^ PEGMultiParser
 		named: 'RADIX-NUMBER'
 		parsing:
 			(self numberFormat & ('r' asPEG omit: true)) <& '-' asPEG optional <& (self decimalDigit | self uppercase) strongTimes

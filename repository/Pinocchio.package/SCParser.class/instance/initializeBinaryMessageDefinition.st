@@ -1,6 +1,6 @@
 selector
 initializeBinaryMessageDefinition
-	^ PEGParser
+	^ PEGMultiParser
 		named: 'BINARY-ARGUMENT'
 		parsing: self binarySelector & self parameterName
 		semantics:

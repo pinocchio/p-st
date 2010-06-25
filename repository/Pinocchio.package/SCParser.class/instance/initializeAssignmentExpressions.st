@@ -1,3 +1,5 @@
 assignment
 initializeAssignmentExpressions
-	^ (self variableName & self assignmentOp) times
+	^ PEGMultiParser
+		named: 'ASSIGNMENT'
+		parsing: (self variableName & self assignmentOp) plus
