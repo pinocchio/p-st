@@ -2,8 +2,8 @@
 	"class" : {
 		"between:and:" : "ToonVerwaest 3/25/2010 12:44" },
 	"instance" : {
+		"match:fail:" : "ToonVerwaest 6/25/2010 17:56",
+		"match:to:fail:" : "ToonVerwaest 6/25/2010 17:55",
 		"printString" : "ToonVerwaest 3/25/2010 12:44",
-		"privateMatch:" : "ToonVerwaest 3/25/2010 12:44",
-		"privateOmitMatch:" : "ToonVerwaest 3/25/2010 12:44",
 		"start:" : "ToonVerwaest 3/25/2010 12:44",
 		"stop:" : "ToonVerwaest 3/25/2010 12:44" } }

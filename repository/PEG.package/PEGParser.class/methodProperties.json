@@ -11,12 +11,10 @@
 	"instance" : {
 		"<=" : "ToonVerwaest 3/25/2010 12:44",
 		"fullmatch:" : "ToonVerwaest 5/18/2010 10:46",
-		"initialize" : "ToonVerwaest 3/25/2010 12:44",
-		"match:" : "ToonVerwaest 3/25/2010 12:44",
-		"omitMatch:" : "ToonVerwaest 3/25/2010 12:44",
-		"parse:" : "ToonVerwaest 3/25/2010 12:44",
-		"performMatch:" : "ToonVerwaest 3/25/2010 12:44",
-		"recurseReduce:" : "ToonVerwaest 6/24/2010 13:45",
-		"reduced" : "ToonVerwaest 6/24/2010 13:44",
+		"initialize" : "ToonVerwaest 6/25/2010 18:58",
+		"match:fail:" : "ToonVerwaest 6/25/2010 16:45",
+		"match:to:fail:" : "ToonVerwaest 6/25/2010 16:44",
+		"parse:" : "ToonVerwaest 6/25/2010 18:03",
+		"performMatch:to:" : "ToonVerwaest 6/25/2010 18:53",
 		"semantics:" : "ToonVerwaest 3/25/2010 12:44",
 		"separator:" : "ToonVerwaest 3/25/2010 12:44" } }

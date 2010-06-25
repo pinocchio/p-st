@@ -2,7 +2,8 @@
 	"class" : {
 		"new:" : "ToonVerwaest 3/25/2010 12:44" },
 	"instance" : {
-		"ifMatched:" : "ToonVerwaest 3/25/2010 12:44",
+		"ifMatched:" : "ToonVerwaest 6/25/2010 22:19",
+		"ifMatched:ifFailed:" : "ToonVerwaest 6/25/2010 23:01",
 		"result" : "CamilloBruni 6/23/2010 21:07",
 		"result:" : "ToonVerwaest 3/25/2010 12:44",
 		"resultIfFailed:" : "ToonVerwaest 3/25/2010 12:44" } }

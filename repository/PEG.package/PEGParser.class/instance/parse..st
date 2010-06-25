@@ -1,6 +1,7 @@
 parse
 parse: input
-	| memoizingString result |
+	| memoizingString result stack |
 	memoizingString := PEGStringScanner on: input separator: separator.
-	result := self match: memoizingString.
-	^ result
+	stack := PEGStack new.
+	self match: memoizingString to: stack fail: [ ^ false ].
+	^ stack pop

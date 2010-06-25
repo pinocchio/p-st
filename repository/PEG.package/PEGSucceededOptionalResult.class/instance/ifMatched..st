@@ -1,3 +1,3 @@
 accessing
 ifMatched: block
-	block value: result
+	^ block value: result

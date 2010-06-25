@@ -1,9 +1,8 @@
 matching
 scan: subCollection
-	(readLimit - position) >= subCollection size
-		ifFalse: [ ^ nil ].
+	position + subCollection size > readLimit ifTrue: [ ^ false ].
 	1 to: subCollection size do:  [ :i |
 		(collection at: (position + i)) = (subCollection at: i)
-			ifFalse: [ ^ nil ] ].
+			ifFalse: [ ^ false ] ].
 	position := position + subCollection size.
-	^ subCollection
+	^ true

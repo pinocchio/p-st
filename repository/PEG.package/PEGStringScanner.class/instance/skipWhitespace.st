@@ -1,3 +1,3 @@
 accessing
 skipWhitespace
-	^ separator omitMatch: self
+	^ separator match: self fail: [ ^ nil ]

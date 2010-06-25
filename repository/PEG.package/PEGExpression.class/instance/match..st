@@ -1,8 +1,7 @@
 matching
 match: input
-	| position match |
-	"self debug: input."
-	position := input position.
-	match := self privateMatch: input.
-	match ifNil: [ input position: position ].	"self debugEnd: input result: match."
-	^ match
+	|  stack |
+	stack := PEGStack new.
+	self match: input to: stack fail: [ ^ nil ].
+	stack isEmpty ifTrue: [ ^ true ].
+	^ stack pop
