@@ -8,8 +8,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"miss",
-		"hit",
 		"expression",
 		"semantics",
 		"scopeClass",
