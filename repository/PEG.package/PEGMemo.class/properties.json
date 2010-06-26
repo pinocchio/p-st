@@ -1,20 +1,13 @@
 {
 	"category" : "PEG",
 	"classinstvars" : [
-		"separator",
-		"separators",
-		"stream" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"miss",
-		"hit",
-		"expression",
-		"semantics",
-		"scopeClass",
-		"separator" ],
-	"name" : "PEGParser",
+		"parser" ],
+	"name" : "PEGMemo",
 	"pools" : [
 		 ],
 	"super" : "PEGExpression",

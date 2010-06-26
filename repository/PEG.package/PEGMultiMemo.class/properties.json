@@ -1,0 +1,14 @@
+{
+	"category" : "PEG",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PEGMultiMemo",
+	"pools" : [
+		 ],
+	"super" : "PEGMemo",
+	"type" : "normal" }
