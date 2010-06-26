@@ -1,3 +1,6 @@
 selector
 initializeKeyword
-	^ self identifier && (':' asPEG omit: true)
+	^ PEGMultiParser
+		named: 'KEYWORD'
+		parsing: self identifierBody && ':'
+		semantics: [ :result | result asString ]

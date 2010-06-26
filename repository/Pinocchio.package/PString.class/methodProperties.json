@@ -3,6 +3,7 @@
 		"cr" : "ToonVerwaest 3/25/2010 12:44",
 		"lf" : "ToonVerwaest 3/25/2010 12:44",
 		"newFrom:" : "ToonVerwaest 5/18/2010 16:22",
+		"newFromAll:" : "ToonVerwaest 6/26/2010 01:41",
 		"pInstVarNames" : "ToonVerwaest 5/19/2010 16:40",
 		"pTypeName" : "CamilloBruni 6/7/2010 21:54",
 		"pbasicNew:" : "CamilloBruni 4/5/2010 15:56",
@@ -44,4 +45,5 @@
 		"replaceFrom:to:with:startingAt:" : "ToonVerwaest 3/25/2010 12:44",
 		"string" : "ToonVerwaest 3/25/2010 12:44",
 		"string:" : "ToonVerwaest 3/25/2010 12:44",
+		"withIndexDo:" : "ToonVerwaest 6/26/2010 01:48",
 		"writeStream" : "ToonVerwaest 5/21/2010 18:56" } }

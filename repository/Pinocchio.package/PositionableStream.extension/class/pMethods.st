@@ -12,6 +12,7 @@ pMethods
 				add: #positionError;
 				add: #atEnd;
 				add: #back;
+				add: #peek;
 				add: #contents;
 				add: #reset.
 			^ s ].
