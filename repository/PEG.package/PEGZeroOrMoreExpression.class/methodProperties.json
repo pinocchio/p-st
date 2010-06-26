@@ -4,9 +4,7 @@
 	"instance" : {
 		"child" : "ToonVerwaest 6/24/2010 13:30",
 		"initialize:" : "ToonVerwaest 3/25/2010 12:44",
-		"match:fail:" : "ToonVerwaest 6/25/2010 17:55",
 		"match:to:" : "ToonVerwaest 6/26/2010 00:52",
-		"match:to:fail:" : "ToonVerwaest 6/25/2010 21:27",
 		"omitMatch:" : "ToonVerwaest 6/26/2010 00:57",
 		"optional" : "ToonVerwaest 3/25/2010 12:44",
 		"skipWhitespace" : "ToonVerwaest 3/25/2010 12:44",

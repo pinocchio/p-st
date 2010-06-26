@@ -2,8 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"match:fail:" : "ToonVerwaest 6/25/2010 17:56",
 		"match:to:" : "ToonVerwaest 6/26/2010 00:52",
-		"match:to:fail:" : "ToonVerwaest 6/25/2010 17:57",
 		"not" : "ToonVerwaest 6/24/2010 13:48",
 		"omitMatch:" : "ToonVerwaest 6/26/2010 00:56" } }

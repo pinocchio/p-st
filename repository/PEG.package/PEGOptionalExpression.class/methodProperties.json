@@ -3,8 +3,6 @@
 		 },
 	"instance" : {
 		"initialize:" : "ToonVerwaest 3/25/2010 12:44",
-		"match:fail:" : "ToonVerwaest 6/25/2010 16:26",
 		"match:to:" : "ToonVerwaest 6/26/2010 00:45",
-		"match:to:fail:" : "ToonVerwaest 6/25/2010 22:46",
 		"omitMatch:" : "ToonVerwaest 6/26/2010 00:58",
 		"optional" : "ToonVerwaest 3/25/2010 12:44" } }
