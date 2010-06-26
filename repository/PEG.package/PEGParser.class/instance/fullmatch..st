@@ -1,12 +1,8 @@
 matching
 fullmatch: input
 	| result |
-	"| match |
-	match := expression match: input.
-	^ match ifNil: [ match ]
-		ifNotNil: [
-			semantics ifNil: [ ^ match ].
-			semantics value: match ]"
-	result := self match: input.
+	result := PEGStack new.
+	(self match: input to: result) ifFalse: [ self parsingFailed ].
 	input should be atEnd.
-	^ result
+	result position should = 1.
+	^ result pop
