@@ -10,6 +10,9 @@ initializeString
 		named: 'STRING'
 		parsing: segment strongPlus
 		semantics: [ :result |
-			result inject: (stream on: '') into: [ :s :i | s << i << '''' ].
-			stream position = 0 ifFalse: [ stream position: stream position - 1].
-			stream contents ]
+			result size = 0
+				ifTrue: [ '' ]
+				ifFalse: [
+					result inject: (stream on: '') into: [ :s :i | s << i << '''' ].
+					stream position: stream position - 1.
+					stream contents ] ]
