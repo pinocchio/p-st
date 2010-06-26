@@ -5,7 +5,7 @@ writePrimitiveForAnnotation: anAnnotation
 	source := self sourceStringForAnnotation: anAnnotation.
 	sourceLine := pmethod host name asString, ' >> ', pmethod selector.
 	stream lf;
-		<< '#line 3 '' '; << sourceLine; <<'"'; lf;
+		<< '#line 3 "'; << sourceLine; <<'"'; lf;
 		<< 'NATIVE('; << (self nativeNameFromAnnotation: anAnnotation); << ')'; lf;
 		<< '    ASSERT_ARG_SIZE('; << anAnnotation x code params size asString; <<');'; lf;
 		<< source; lf.

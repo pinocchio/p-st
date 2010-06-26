@@ -1,3 +1,3 @@
 expression
 preStorePrimary
-	^ parsers at: #primary ifAbsentPut: [ PEGParser named: 'PRIMARY' ]
+	^ parsers at: #primary ifAbsentPut: [ PEGMemo named: 'PRIMARY' ]

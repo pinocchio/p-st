@@ -1,7 +1,5 @@
 literal
 initializeNumberFormat
-	| sign number |
-	"TODO clean the semantics! "
 	^ PEGMultiParser
 		named: 'NUMBER-FORMAT'
 		parsing: '-' asPEG optional & (self decimalDigit | self uppercase) strongPlus

@@ -1,10 +1,9 @@
 expression
 initializeUnaryExpression
-	| result |
-	^ PEGMultiParser
+	^ PEGMultiMemo
 		named: 'UNARY-EXPRESSION'
 		parsing: self primary & self unarySelector plus
-		semantics: [ :parts | 
+		semantics: [ :parts | |result|
 			result := parts first.
 			2 to: parts size do: [ :i | 
 					result := (ASTUnaryExpression new)

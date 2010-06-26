@@ -1,6 +1,5 @@
 literal
 initializeNumber
-	| sign number |
 	^ PEGParser
 		named: 'NUMBER'
 		parsing: self numberFormat
