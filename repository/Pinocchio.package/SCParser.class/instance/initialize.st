@@ -2,5 +2,6 @@ initialization
 initialize
 	super initialize.
 	parsers := PDictionary new.
-	id := 0.
 	stream := WriteStream on: ''.
+	stack := PEGStack new.
+	id := 0.
