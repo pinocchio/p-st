@@ -1,3 +1,3 @@
 expression
 injectPrimary
-	^ self primary <=  (self literal | self block <=  self scopedExpression <= self primaryVariable <= self braceExpression)
+	^ self primary <=  (self primaryVariable | self literal <= self block <=  self scopedExpression <= self braceExpression)
