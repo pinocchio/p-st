@@ -1,6 +1,6 @@
 expression
 initializeUnaryObjectDescription
-	^ PEGMultiParser
+	^ PEGMultiMemo
 		named: 'UNARY-OBJECT-DESCRIPTION'
 		parsing: self primary & self unarySelector times
 		semantics: [ :parts | |result|
