@@ -1,14 +1,15 @@
 literal
 initializeRadix
-	| number base sign |
+	| number base |
 	^ PEGMultiParser
 		named: 'RADIX-NUMBER'
 		parsing:
 			(self numberFormat & ('r' asPEG omit: true)) <& '-' asPEG optional <& (self decimalDigit | self uppercase) strongTimes
 		semantics: [ :result | 
-			base := result at: 1.
-			sign := (result at: 2) resultIfFailed: [ '' ].
-			number := (result at: 3) inject: (stream with: sign) into: [ :c :n | c << n ].
+			base := result removeFirst.
+			result first
+				ifMatched: [ :sign | result at: 1 put: sign ]
+				ifFailed: [ result removeFirst ].
 			(ASTNumber new)
-				number: number contents;
+				number: result asString;
 				base: base ]

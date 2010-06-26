@@ -11,6 +11,6 @@ initializeMethod
 			(ASTMethod new)
 				message: parts first;
 				annotations: (parts at: 2);
-				temporaries: ((parts at: 3) resultIfFailed: [ OrderedCollection new ]);
+				temporaries: ((parts at: 3) resultIfFailed: [ Array new ]);
 				statements: (parts at: 4);
 				yourself ]) separator: self separator	" Allow comment/whitespace at the end of a method. "
