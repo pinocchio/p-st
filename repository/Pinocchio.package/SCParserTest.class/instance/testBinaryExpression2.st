@@ -20,4 +20,4 @@ testBinaryExpression2
 	result receiver name should = 'a'.
 	result argument class should = ASTVariable.
 	result argument name should = 'ghi'.
-	string position should = 24
+	string position should = 25

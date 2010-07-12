@@ -7,4 +7,3 @@ testSymbolKeywords
 	string position should = 9.
 	string := PEGStringScanner on: 'abcd '.
 	(parser match: string) should be isNil.
-	string position should = 0

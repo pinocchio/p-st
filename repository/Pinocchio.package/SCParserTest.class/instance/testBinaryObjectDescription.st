@@ -32,4 +32,4 @@ testBinaryObjectDescription
 	result receiver name should = 'abc'.
 	result argument class should = ASTVariable.
 	result argument name should = 'ghi'.
-	string position should = 13
+	string position should = 14

@@ -11,7 +11,6 @@ testKeywordsArguments
 	string position should = 8.
 	string := PEGStringScanner on: 'bla a'.
 	(parser match: string) should be isNil.
-	string position should = 0.
 	string := PEGStringScanner on: 'test: d bla: c boe'.
 	result := parser match: string.
 	result class should = ASTKeywordMessageDefinition.

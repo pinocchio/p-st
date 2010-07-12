@@ -3,6 +3,7 @@ exportBasicClasses
 	^ (OrderedCollection new)
 		add: Object;
 		add: Behavior;
+		add: PThread;
 		add: Metaclass;
 		add: Class;
 		add: PMessage;

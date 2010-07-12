@@ -19,4 +19,4 @@ testBinaryExpression3
 	result receiver name should = 'a'.
 	result argument class should = ASTVariable.
 	result argument name should = 'ghi'.
-	string position should = 26
+	string position should = 27

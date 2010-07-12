@@ -6,15 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"env",
-		"exp",
-		"storage",
-		"handler",
-		"cnt",
-		"exit",
-		"continue" ],
-	"name" : "PThread",
+		"continuation",
+		"context" ],
+	"name" : "PFakeThread",
 	"pools" : [
 		 ],
 	"super" : "PObject",
-	"type" : "variable" }
+	"type" : "normal" }

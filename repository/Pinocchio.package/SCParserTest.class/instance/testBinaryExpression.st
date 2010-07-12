@@ -10,7 +10,7 @@ testBinaryExpression
 	result receiver name should = 'abc'.
 	result argument class should = ASTVariable.
 	result argument name should = 'ghi'.
-	string position should = 9.	" becomes ((abc + ghi) * c) "
+	string position should = 10.	" becomes ((abc + ghi) * c) "
 	string := PEGStringScanner on: 'abc + ghi * c '.
 	result := parser match: string.
 	result class should = ASTBinaryExpression.
@@ -24,4 +24,4 @@ testBinaryExpression
 	result receiver name should = 'abc'.
 	result argument class should = ASTVariable.
 	result argument name should = 'ghi'.
-	string position should = 13
+	string position should = 14
