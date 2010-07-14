@@ -1,8 +1,7 @@
 error handling
-doesNotUnderstand: aMessage
-	<preventExport>
-	| selector |
-	aMessage selector = #accept:
-		ifFalse: [ ^ super doesNotUnderstand: aMessage ].
-	selector := ('visit' , self objectName , ':') asSymbol.
-	^ aMessage argument perform: selector with: self
+doesNotUnderstand: message
+	^ PDoesNotUnderstand new
+		message: message;
+		receiver: self;
+		signal
+		

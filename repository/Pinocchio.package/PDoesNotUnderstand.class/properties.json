@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "PRecursiveDoesNotUnderstand",
+		"cls",
+		"message",
+		"receiver" ],
+	"name" : "PDoesNotUnderstand",
 	"pools" : [
 		 ],
-	"super" : "PDoesNotUnderstand",
+	"super" : "PException",
 	"type" : "normal" }
