@@ -1,0 +1,3 @@
+*Pinocchio
+reset
+	instance := nil

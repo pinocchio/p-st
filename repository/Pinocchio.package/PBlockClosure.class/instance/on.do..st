@@ -1,14 +1,14 @@
 accessing
 on: errorClass do: aBlock
-	| previousErrorHandler result |
-	previousErrorHandler := self errorHandler.
+	| previousExceptionHandler result |
+	previousExceptionHandler := PException handler.
 	result := PContinue on: [ :return | |error|
 		error := PContinue on: [ :escape |
-			self errorHandler: escape.
+			PException handler: escape.
 			return escape: self value ].
-		self errorHandler: previousErrorHandler.
+		PException handler: previousExceptionHandler.
 		(error isKindOf: errorClass) ifTrue:  [ ^ aBlock value: error ].
-		previousErrorHandler escape: error
+		previousExceptionHandler escape: error
 	].
-	self errorHandler: previousErrorHandler.
+	PException handler: previousExceptionHandler.
 	^ result
