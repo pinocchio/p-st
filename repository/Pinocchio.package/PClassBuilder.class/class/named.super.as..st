@@ -1,6 +1,6 @@
 instance creation
-named: name super: aClass as: block
+named: className super: aClass as: block
 	^ self new
-		name: name;
+		name: className;
 		superclass: aClass;
 		as: block
