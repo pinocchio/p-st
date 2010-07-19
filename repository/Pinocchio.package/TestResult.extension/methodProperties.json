@@ -1,7 +1,10 @@
 {
 	"class" : {
 		"pClassMethods" : "CamilloBruni 6/1/2010 17:40",
-		"pMethods" : "CamilloBruni 6/1/2010 17:39" },
+		"pMethods" : "CamilloBruni 6/1/2010 17:39",
+		"removeFromTestHistory:in:" : "CamilloBruni 7/19/2010 11:42" },
 	"instance" : {
+		"diff:" : "CamilloBruni 7/19/2010 11:43",
 		"resetErrors" : "CamilloBruni 5/25/2010 20:26",
-		"resetFailures" : "CamilloBruni 5/25/2010 20:24" } }
+		"resetFailures" : "CamilloBruni 5/25/2010 20:24",
+		"updateResultsInHistory" : "CamilloBruni 7/19/2010 11:47" } }

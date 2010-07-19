@@ -4,8 +4,5 @@ lookUpIn: aCollection at: index
 	index > aCollection size
 		ifTrue: [ ^ self ].
 	subPackage := self at: (aCollection at: index) asSymbol.
-	subPackage
-		ifNil:
-			[ first := aCollection removeFirst.
-			self error: 'Unfound identifier: ' , (aCollection inject: first into: [ :c :e | c , '.' , e ]) ].
+	subPackage ifNil: [ self error: 'Identifier not found: ' , ('.' join: aCollection) ].
 	^ subPackage lookUpIn: aCollection at: index + 1

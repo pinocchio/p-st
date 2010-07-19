@@ -39,6 +39,7 @@ exportBasicClasses
 		add: PMainInterpreter;
 		add: PTerminal;
 		add: PTests;
-		add: NCurses;
+		add: PCLITestRunner;
+		add: PPexMatcher;
 		"add: PACContextInterpreter;"
 		yourself

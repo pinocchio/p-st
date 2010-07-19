@@ -1,7 +1,6 @@
 stream creation
 streamContents: blockWithArg
-	<preventExport>
 	| stream |
-	stream := (self new: 100) writeStream.
+	stream := WriteStream  on: (self new: 100) .
 	blockWithArg value: stream.
 	^ stream contents

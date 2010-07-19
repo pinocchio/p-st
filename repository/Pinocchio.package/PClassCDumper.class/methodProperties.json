@@ -31,7 +31,7 @@
 		"visitInternalInstanceVariable:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitInternalMetaclass:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitMethod:" : "CamilloBruni 6/8/2010 19:30",
-		"visitMethod:threaded:" : "CamilloBruni 6/23/2010 18:18",
+		"visitMethod:threaded:" : "CamilloBruni 7/19/2010 13:16",
 		"visitMethodClosure:" : "CamilloBruni 6/23/2010 18:11",
 		"visitNativeMethod:" : "CamilloBruni 6/8/2010 19:33",
 		"visitObjectLayout:" : "ToonVerwaest 3/25/2010 12:39",
@@ -42,5 +42,4 @@
 		"visitSelf:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitSuper:" : "CamilloBruni 6/23/2010 18:22",
 		"visitSymbol:" : "CamilloBruni 6/23/2010 18:10",
-		"visitThreadedCode:" : "ToonVerwaest 6/12/2010 16:44",
 		"visitVariable:" : "CamilloBruni 6/23/2010 18:10" } }

@@ -8,8 +8,7 @@
 	"instvars" : [
 		"parsers",
 		"id",
-		"stream",
-		"stack" ],
+		"stream" ],
 	"name" : "SCParser",
 	"pools" : [
 		 ],

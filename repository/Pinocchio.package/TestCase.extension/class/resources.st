@@ -1,0 +1,5 @@
+*Pinocchio
+resources
+
+	^Array new
+			
