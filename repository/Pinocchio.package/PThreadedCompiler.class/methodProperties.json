@@ -32,6 +32,7 @@
 		"visitClassReference:" : "CamilloBruni 6/8/2010 19:16",
 		"visitCollection:" : "ToonVerwaest 6/9/2010 14:50",
 		"visitConstant:" : "ToonVerwaest 6/9/2010 13:39",
+		"visitDirectVariable:" : "CamilloBruni 7/20/2010 16:09",
 		"visitInternalConstant:" : "CamilloBruni 6/8/2010 13:45",
 		"visitMethod:" : "ToonVerwaest 6/12/2010 16:30",
 		"visitNativeMethod:" : "ToonVerwaest 6/9/2010 16:18",
@@ -41,4 +42,5 @@
 		"visitSlot:" : "CamilloBruni 6/8/2010 19:15",
 		"visitStatements:" : "ToonVerwaest 6/11/2010 17:20",
 		"visitSuper:" : "ToonVerwaest 6/12/2010 16:09",
+		"visitThisContext:" : "CamilloBruni 7/20/2010 15:40",
 		"visitVariable:" : "CamilloBruni 6/8/2010 19:15" } }

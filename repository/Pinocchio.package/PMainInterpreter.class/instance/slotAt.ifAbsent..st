@@ -1,11 +1,9 @@
 accessing
 slotAt: name ifAbsent: block
-	| result |
-	self halt.
-	result := block value.
-	result ifNil: [
-		name first isUppercase ifFalse: [ 
-			^ self homeContext nextSlot.
-		].
+	self warn: ('slotAt: ', name,' ifAbsent: block').
+	"Avoid class names"
+	name first isUppercase ifFalse: [ 
+		^ scope at: name ifAbsent:  [ 
+			scope at: name put: (PDirectVariable named: name) ].
 	].
-	^ result
+	^ block value.

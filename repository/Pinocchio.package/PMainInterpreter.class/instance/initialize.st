@@ -1,4 +1,5 @@
 initialize-release
 initialize 
-	context := PDictContext new.
+	scope := PDictionary new.
+	exceptions := OrderedCollection new.
 	homeContext := context.

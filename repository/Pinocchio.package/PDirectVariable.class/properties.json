@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"localId",
-		"scopeId" ],
-	"name" : "PVariable",
+		"value" ],
+	"name" : "PDirectVariable",
 	"pools" : [
 		 ],
 	"super" : "PAbstractVariable",

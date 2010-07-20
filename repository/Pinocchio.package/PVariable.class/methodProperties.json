@@ -4,14 +4,12 @@
 		"named:at:" : "ToonVerwaest 3/25/2010 12:44" },
 	"instance" : {
 		"=" : "ToonVerwaest 4/1/2010 15:46",
-		"accept:" : "ToonVerwaest 3/25/2010 12:44",
-		"assignFor:to:" : "ToonVerwaest 3/25/2010 12:44",
+		"accept:" : "CamilloBruni 7/20/2010 11:44",
+		"assign:on:" : "CamilloBruni 7/20/2010 14:34",
 		"cloneAt:" : "ToonVerwaest 5/17/2010 21:55",
 		"ctype" : "CamilloBruni 6/9/2010 16:04",
 		"localId" : "ToonVerwaest 3/25/2010 12:44",
 		"localId:" : "ToonVerwaest 3/25/2010 12:44",
-		"name" : "ToonVerwaest 3/25/2010 12:44",
-		"name:" : "ToonVerwaest 3/25/2010 12:44",
-		"printOn:" : "ToonVerwaest 3/25/2010 12:44",
+		"readFrom:" : "CamilloBruni 7/20/2010 15:21",
 		"scopeId" : "ToonVerwaest 3/25/2010 12:44",
 		"scopeId:" : "ToonVerwaest 3/25/2010 12:44" } }

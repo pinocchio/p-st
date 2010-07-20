@@ -1,15 +1,14 @@
 {
 	"category" : "Pinocchio-AST",
 	"classinstvars" : [
-		 ],
+		"instance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"localId",
-		"scopeId" ],
-	"name" : "PVariable",
+		 ],
+	"name" : "PThisContext",
 	"pools" : [
 		 ],
-	"super" : "PAbstractVariable",
+	"super" : "PObject",
 	"type" : "normal" }
