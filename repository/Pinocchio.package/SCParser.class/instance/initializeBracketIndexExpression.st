@@ -1,6 +1,7 @@
 expression
 initializeBracketIndexExpression
 	| keywords arguments isAssignment args optionalAssignment |
+	self halt.
 	^ PEGMultiParser
 		named: 'BRACKET-INDEX-EXPRESSION'
 		parsing: ('[' asPEG omit: true) & self expression & (']' asPEG omit: true) & (( self assignmentOp & self expression ) optional)
