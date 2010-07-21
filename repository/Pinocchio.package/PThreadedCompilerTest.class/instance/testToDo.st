@@ -2,7 +2,6 @@ tests
 testToDo
 	| code block |
 	code := self ast: '1 to: 3 do: [ :a| a]'.
-	code size should be: 11.
 	code first should be: #'push_1'.
 	code next should be: #'push1'.
 	code next should be: 3.
@@ -15,3 +14,4 @@ testToDo
 	code next class should be: PSend.
 	code next should be: #zap.
 	code next should be: #'method_return_self'.
+	code size should be: 11.

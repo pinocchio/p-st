@@ -1,6 +1,6 @@
 interpretation
 interpret: code
-	[ ^ nil perform: (self compile: code) selector ] 
+	[ ^ self perform: (self compile: code) selector ] 
 		on: Object 
 		do: [ :ex | 
 			self exceptions add: ex.

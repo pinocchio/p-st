@@ -1,3 +1,3 @@
-instance creation
+as yet unclassified
 new
 	self shouldNotCall.

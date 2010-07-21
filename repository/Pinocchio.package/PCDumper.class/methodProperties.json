@@ -4,7 +4,7 @@
 	"instance" : {
 		"assign:to:" : "CamilloBruni 6/23/2010 18:25",
 		"createAutoCompletionFile" : "CamilloBruni 6/5/2010 15:25",
-		"createCFile" : "CamilloBruni 6/9/2010 16:30",
+		"createCFile" : "CamilloBruni 7/21/2010 13:17",
 		"createClass:" : "CamilloBruni 6/23/2010 18:26",
 		"createHFile" : "CamilloBruni 6/9/2010 16:02",
 		"createSized:with:" : "CamilloBruni 6/23/2010 18:18",
@@ -50,4 +50,4 @@
 		"visitSlot:" : "CamilloBruni 6/23/2010 18:25",
 		"visitSmallInt:" : "CamilloBruni 6/23/2010 18:24",
 		"visitString:" : "CamilloBruni 6/23/2010 18:06",
-		"visitSymbol:" : "CamilloBruni 6/23/2010 18:06" } }
+		"visitSymbol:" : "CamilloBruni 7/21/2010 10:59" } }
