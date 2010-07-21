@@ -14,7 +14,7 @@ initializeExpression
 					vars := result first.
 					expression := result at: 2.
 					vars ifMatched: [ :variables |
-						variables reverse do: [ :variable | 
+						variables reverseDo: [ :variable | 
 							expression := (ASTAssignmentExpression new)
 								expression: expression;
 								variable: variable ] ].

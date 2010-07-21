@@ -5,26 +5,26 @@ pMethods
 		ifTrue:
 			[ | s |
 			s := OrderedCollection new.
-			s add: #add:;
-				add: #removeFirst;
-				add: #removeLast;
-				add: #addLast:;
-				add: #makeRoomAtLast;
-				add: #addFirst:;
-				add: #makeRoomAtFirst;
-				add: #grow;
-				add: #growSize;
-				add: #setCollection:;
-				add: #size;
+			s    add: #add:;
 				add: #addAll:;
 				add: #addAllLast:;
-				add: #do:;
+				add: #addFirst:;
+				add: #addLast:;
+				add: #asArray;
 				add: #at:;
-				add: #collect:;
 				add: #at:put:;
+				add: #collect:;
+				add: #do:;
+				add: #grow;
+				add: #growSize;
+				add: #makeRoomAtFirst;
+				add: #makeRoomAtLast;
+				add: #removeFirst;
+				add: #removeLast;
+				add: #reset;
 				add: #reverseDo:;
 				add: #reversed;
-				add: #asArray;
-				add: #reset.
+				add: #setCollection:;
+				add: #size.
 			^ s ].
 	^ super pMethods
