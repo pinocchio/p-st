@@ -4,7 +4,7 @@ injectBracketIndexExpression
 	^ PEGParser
 		named: 'BRACKET-INDEX-EXPRESSION'
 		parsing: ('[' asPEG omit: true) & self expression & (']' asPEG omit: true)
-		semantics: [ :parts | self halt.
+		semantics: [ :parts |
 			keywords := Array with: #at.
 			arguments := parts asArray.
 			(ASTMessageExpression new)
