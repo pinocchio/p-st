@@ -41,5 +41,6 @@ exportBasicClasses
 		add: PTests;
 		add: PCLITestRunner;
 		add: PPexMatcher;
+		add: PSocket;
 		"add: PACContextInterpreter;"
 		yourself
