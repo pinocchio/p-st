@@ -9,7 +9,4 @@ writePrimitiveForAnnotation: anAnnotation
 		<< 'NATIVE('; << (self nativeNameFromAnnotation: anAnnotation); << ')'; lf;
 		<< '    ASSERT_ARG_SIZE('; << anAnnotation x code params size asString; <<');'; lf;
 		<< source; lf.
-	(source includes: $^) ifFalse: [
-		stream << '    RETURN_FROM_NATIVE(self);'; lf.
-	].
 	stream << '}'; lf.

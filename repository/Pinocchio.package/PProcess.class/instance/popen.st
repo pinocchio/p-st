@@ -9,6 +9,7 @@ popen
             				strerror(errno), command, mode););
     ${out}  = (Optr)new_IO_ReadFile_from(stream);
     ${in}   = (Optr)new_IO_WriteFile_from(stream);
+	^self;
 	'>
 	self pinocchioPrimitiveFailed
 	
