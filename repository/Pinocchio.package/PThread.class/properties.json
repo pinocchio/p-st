@@ -1,11 +1,12 @@
 {
 	"category" : "Pinocchio-Runtime",
 	"classinstvars" : [
-		 ],
+		"threads" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"backupPc",
 		"env",
 		"exp",
 		"storage",
