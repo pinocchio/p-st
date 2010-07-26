@@ -1,3 +1,3 @@
 as yet unclassified
 new: aValue
-	^ super basicNew initialize: aValue
+	^ super new initialize: aValue

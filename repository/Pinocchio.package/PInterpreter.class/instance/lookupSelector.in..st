@@ -1,6 +1,6 @@
 sending
 lookupSelector: selector in: class
-	<pPrimitive: #'lookupSelector:in:' plugin: #'Interpretation.Interpreter'>
+	"<pPrimitive: #'lookupSelector:in:' plugin: #'Interpretation.Interpreter'>"
 	| currentClass |
 	currentClass := class.
 	[ currentClass isNil ] whileFalse: [ 

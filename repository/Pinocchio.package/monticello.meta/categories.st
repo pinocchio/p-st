@@ -13,6 +13,7 @@ SystemOrganization addCategory: #'Pinocchio-IO'!
 SystemOrganization addCategory: #'Pinocchio-IO-Term'!
 SystemOrganization addCategory: #'Pinocchio-Interpretation'!
 SystemOrganization addCategory: #'Pinocchio-Number'!
+SystemOrganization addCategory: #'Pinocchio-Layout'!
 SystemOrganization addCategory: #'Pinocchio-Organization'!
 SystemOrganization addCategory: #'Pinocchio-Plugin'!
 SystemOrganization addCategory: #'Pinocchio-Relationship'!

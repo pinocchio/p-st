@@ -5,9 +5,14 @@
 		"pTypeName" : "CamilloBruni 6/7/2010 22:20" },
 	"instance" : {
 		"alias:in:" : "ToonVerwaest 4/6/2010 16:10",
+		"basicInstantiate:" : "ToonVerwaest 7/26/2010 16:51",
+		"basicInstantiate:sized:" : "ToonVerwaest 7/26/2010 18:30",
 		"do:" : "ToonVerwaest 5/11/2010 18:42",
 		"includesSlot:" : "ToonVerwaest 5/17/2010 19:31",
+		"initialize:" : "ToonVerwaest 7/26/2010 18:46",
 		"inspectChildrenFrom:" : "ToonVerwaest 3/25/2010 14:32",
+		"instantiate:" : "ToonVerwaest 7/26/2010 15:44",
+		"instantiate:sized:" : "ToonVerwaest 7/26/2010 18:30",
 		"printOn:" : "ToonVerwaest 3/25/2010 12:39",
 		"select:" : "ToonVerwaest 3/26/2010 21:04",
 		"withIndexDo:" : "ToonVerwaest 3/25/2010 12:39" } }
