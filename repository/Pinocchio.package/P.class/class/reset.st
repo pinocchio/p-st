@@ -5,3 +5,5 @@ reset
 		cls UIDCounter: 0.
 	].
 	PSymbol clearSymbolCache.
+	SCParser reset.
+	
