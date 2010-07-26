@@ -6,11 +6,12 @@
 		"pTypeName" : "ToonVerwaest 7/12/2010 14:36",
 		"pinitialize" : "ewe 7/21/2010 13:44",
 		"removeThread:" : "ewe 7/21/2010 13:51",
-		"resumeNext" : "ewe 7/21/2010 14:48",
+		"resumeNext" : "ewe 7/26/2010 13:36",
 		"threads" : "ewe 7/19/2010 16:06",
 		"yield:" : "ewe 7/21/2010 14:48" },
 	"instance" : {
 		"evaluate:" : "ewe 7/21/2010 14:01",
+		"primYield" : "ewe 7/26/2010 12:04",
 		"resume" : "ewe 7/21/2010 14:47",
 		"sleep" : "ewe 7/22/2010 14:31",
 		"sleep:" : "ewe 7/22/2010 14:31",

@@ -7,7 +7,7 @@ primReceive
         fwprintf(stderr, L"Socket failed to initialize"););
 		
     fwprintf(stdout, L"Read: %s\n", dir);
-    ^ self;
+    ^ new_String_from_charp(&dir[0]);
 	'>
 	self pinocchioPrimitiveFailed.
 	

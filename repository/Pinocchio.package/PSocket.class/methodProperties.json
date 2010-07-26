@@ -1,11 +1,20 @@
 {
 	"class" : {
-		"pinitialize" : "ewe 6/30/2010 11:47" },
+		"pinitialize" : "ewe 6/30/2010 11:47",
+		"testOn:" : "ewe 7/26/2010 16:09",
+		"testServer:" : "ewe 7/26/2010 16:28" },
 	"instance" : {
-		"primAccept" : "DavidGurtner 7/21/2010 13:52",
+		"accept" : "ewe 7/26/2010 13:34",
+		"primAccept" : "ewe 7/26/2010 11:06",
+		"primClose" : "ewe 7/26/2010 16:11",
 		"primConnectTo:port:" : "DavidGurtner 7/21/2010 13:52",
-		"primInit" : "DavidGurtner 7/5/2010 13:48",
+		"primInit" : "ewe 7/26/2010 11:04",
 		"primListenOn:" : "DavidGurtner 7/21/2010 13:53",
 		"primRead" : "DavidGurtner 7/6/2010 13:43",
-		"primReceive" : "DavidGurtner 7/5/2010 15:41",
-		"primWrite:" : "DavidGurtner 7/21/2010 13:53" } }
+		"primReadyToAccept" : "ewe 7/26/2010 11:52",
+		"primReadyToReceive" : "ewe 7/26/2010 16:33",
+		"primReadyToWrite" : "ewe 7/26/2010 16:33",
+		"primReceive" : "ewe 7/26/2010 15:55",
+		"primWrite:" : "DavidGurtner 7/21/2010 13:53",
+		"receive" : "ewe 7/26/2010 13:34",
+		"write:" : "ewe 7/26/2010 13:35" } }

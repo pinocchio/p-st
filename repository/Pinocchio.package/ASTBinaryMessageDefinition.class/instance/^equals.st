@@ -1,4 +1,4 @@
-comparing
+as yet unclassified
 = other 
 	super = other ifFalse: [^ false].
 	self parameter = other parameter ifFalse: [^ false].

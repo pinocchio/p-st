@@ -1,4 +1,7 @@
 as yet unclassified
 resumeNext
+	| t |
 	threads isEmpty ifTrue: [ PMainInterpreter quit ].
-	^ threads removeLast resume
+	t := threads removeLast.
+	"self warn: ( 'Resume thread ', t hash )."
+	t resume

@@ -5,6 +5,8 @@ primInit
     assert(!((handle = socket(AF_INET, SOCK_STREAM, 0)) == -1),
         fwprintf(stderr, L"Socket failed to initialize"););
 		
+    make_nonblocking(handle);
+		
     ${handle} = wrap_int(handle);
     ^ self;
 	'>
