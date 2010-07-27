@@ -1,6 +1,6 @@
 tests
 testMemoizeEquals
-	| string exp1 result |
+	| string exp1 result exp2 |
 	string := PEGStringScanner on: 'te'.
 	exp1 := PEGTerminal new: 'te'.
 	exp2 := PEGParser named: '' parsing: (PEGZeroOrMoreExpression new: exp1).

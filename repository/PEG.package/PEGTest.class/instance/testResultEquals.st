@@ -1,6 +1,6 @@
 tests
 testResultEquals
-	| string exp1 result |
+	| string exp1 result exp2 |
 	string := PEGStringScanner on: 'te'.
 	exp1 := PEGTerminal new: 'te'.
 	exp2 := PEGZeroOrMoreExpression new: exp1.

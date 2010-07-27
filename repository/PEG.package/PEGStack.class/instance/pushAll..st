@@ -1,5 +1,5 @@
 stack operations
 pushAll: o
-	self grow: o size.
-	o withIndexDo: [ :el :i | array at: position + i put: el ].
+	(size < (position + o size)) ifTrue: [ self grow: o size ].
+	1 to: o size do: [ :i | array at: position + i put: (o at: i) ].
 	position := position + o size.

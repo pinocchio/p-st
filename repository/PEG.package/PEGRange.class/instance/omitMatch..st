@@ -1,8 +1,9 @@
 matching
 omitMatch: input
-	| char |
-	char := input peek.
+	| char charValue |
+	char := input next.
 	char ifNil: [ ^ false ].
-	(char >= start and: [ char <= stop ])
-		ifTrue: [ input forward. ^ true ].
-	^ false
+	charValue := char asInteger.
+	(charValue < start or: [ charValue > stop ])
+		ifTrue: [ ^ false ].
+	^ true

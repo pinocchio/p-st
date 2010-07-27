@@ -1,3 +1,3 @@
 accessing
 start: int
-	start := int
+	start := int asInteger

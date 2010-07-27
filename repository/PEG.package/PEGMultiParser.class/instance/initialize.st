@@ -2,4 +2,4 @@ initialization
 initialize
 	super initialize.
 	separator := self class separator.
-	semantics := #asArray
+	semantics := [ :result | result asArray ]

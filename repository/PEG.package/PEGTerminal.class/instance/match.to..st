@@ -1,5 +1,5 @@
 matching
-match: input to: stream
-	(input scan: string) ifFalse: [ ^ false ].
-	stream pushAll: string.
+match: input to: stack
+	(input scan: stringValue) ifFalse: [ ^ false ].
+	stack pushAll: string.
 	^ true

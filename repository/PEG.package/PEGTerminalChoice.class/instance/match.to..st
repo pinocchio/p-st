@@ -1,8 +1,8 @@
 matching
 match: input to: stream
-	| char |
-	char := input peek.
-	(string includes: char) ifFalse: [ ^ false ].
-	stream push: char.
-	input forward.
+	| char index |
+	char := input next.
+	index := string indexOf: char.
+	index = 0 ifTrue: [ ^ false ].
+	stream push: (string at: index).
 	^ true

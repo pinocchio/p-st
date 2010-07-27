@@ -1,3 +1,3 @@
 accessing
 backward
-	position := position - 1
+	position := position -1

@@ -1,3 +1,0 @@
-hasing
-hash
-	^ name hash

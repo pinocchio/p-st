@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"string" ],
+		"string",
+		"stringValue" ],
 	"name" : "PEGTerminal",
 	"pools" : [
 		 ],

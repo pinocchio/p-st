@@ -1,0 +1,14 @@
+{
+	"category" : "PEG",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PEGStrongSequenceExpression",
+	"pools" : [
+		 ],
+	"super" : "PEGSequenceExpression",
+	"type" : "normal" }

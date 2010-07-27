@@ -1,10 +1,9 @@
 matching
-match: input to: stream
-	| outputPosition inputPosition result |
-	inputPosition := input position.
-	outputPosition := stream position.
-	(expression match: input to: stream) ifFalse: [ ^ false ].
-	result := semantics value: (stream mark: outputPosition).
-	stream zapTo: outputPosition + 1.
-	stream poke: result.
+match: input to: stack
+	| outputPosition result |
+	outputPosition := stack position.
+	(expression match: input to: stack) ifFalse: [ ^ false ].
+	result := semantics value: (stack mark: outputPosition).
+	stack zapTo: outputPosition + 1.
+	stack poke: result.
 	^ true

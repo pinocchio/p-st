@@ -1,7 +1,6 @@
 matching
 omitMatch: input
 	| char |
-	char := input peek.
+	char := input next.
 	(string includes: char) ifFalse: [ ^ false ].
-	input forward.
 	^ true

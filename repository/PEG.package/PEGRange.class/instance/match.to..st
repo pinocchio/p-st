@@ -1,8 +1,9 @@
 matching
 match: input to: stream
-	| char |
-	char := input peek.
+	| char charValue |
+	char := input next.
 	char ifNil: [ ^ false ].
-	(char >= start and: [ char <= stop ])
-		ifTrue: [ stream push: char. input forward. ^ true ].
-	^ false
+	charValue := char asInteger.
+	(charValue < start or: [ charValue > stop ]) ifTrue: [ ^ false ].
+	stream push: char.
+	^ true

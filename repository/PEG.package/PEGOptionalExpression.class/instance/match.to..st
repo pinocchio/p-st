@@ -5,9 +5,8 @@ match: input to: stream
 	outputPosition := stream position.
 	(child match: input to: stream) ifFalse: [
 		input position: position.
-		stream zapTo: outputPosition.
-		stream push: PEGFailedOptionalResult.
+		stream zapTo: outputPosition + 1.
+		stream poke: PEGFailedOptionalResult.
 		^ true ].
-	(stream position - outputPosition) should = 1.
 	stream poke: (PEGSucceededOptionalResult new: (stream peek)).
 	^ true

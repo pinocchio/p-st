@@ -1,3 +1,3 @@
 logical operations
 strongPlus
-	^ self plus skipWhitespace: false
+	^ PEGStrongOneOrMoreExpression new: self

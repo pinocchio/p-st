@@ -1,3 +1,3 @@
-accessing
-omit
-	^ omit
+omitting
+omit 
+	^ PEGOmit on: self

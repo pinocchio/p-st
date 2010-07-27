@@ -1,6 +1,6 @@
 matching
 omitMatch: input
-	children do: [ :child | 
-		skipWhitespace ifTrue: [ input skipWhitespace ].
-		(child omitMatch: input) ifFalse: [ ^ false ]].
+	1 to: children size do: [ :index | 
+		input skipWhitespace.
+		((children at: index) omitMatch: input) ifFalse: [ ^ false ]].
 	^ true

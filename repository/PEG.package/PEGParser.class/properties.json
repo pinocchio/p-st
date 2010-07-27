@@ -11,7 +11,8 @@
 		"expression",
 		"semantics",
 		"scopeClass",
-		"separator" ],
+		"separator",
+		"name" ],
 	"name" : "PEGParser",
 	"pools" : [
 		 ],

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"on:" : "ToonVerwaest 7/27/2010 13:14" },
+	"instance" : {
+		"match:to:" : "ToonVerwaest 7/27/2010 13:14",
+		"not" : "ToonVerwaest 7/27/2010 13:16",
+		"omit" : "ToonVerwaest 7/27/2010 14:21",
+		"omitMatch:" : "ToonVerwaest 7/27/2010 13:14",
+		"parser:" : "ToonVerwaest 7/27/2010 13:14",
+		"withoutOmit" : "ToonVerwaest 7/27/2010 14:21" } }

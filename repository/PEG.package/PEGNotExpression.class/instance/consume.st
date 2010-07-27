@@ -1,3 +1,3 @@
-accessing
+converting
 consume
-	^ omit not
+	^ PEGConsumingNotExpression on: child

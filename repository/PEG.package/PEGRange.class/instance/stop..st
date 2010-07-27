@@ -1,3 +1,3 @@
 accessing
 stop: int
-	stop := int
+	stop := int asInteger

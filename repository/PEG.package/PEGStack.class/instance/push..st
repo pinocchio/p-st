@@ -1,5 +1,4 @@
 stack operations
 push: o
-	self grow: 1.
-	position := position + 1.
+	size < (position := position + 1) ifTrue: [ self grow: 1 ].
 	array at: position put: o

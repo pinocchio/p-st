@@ -3,5 +3,5 @@ adding
 	| new |
 	new := child asPEG.
 	new class = self class
-		ifTrue: [ children addAll: new children ]
-		ifFalse: [ children add: new ].
+		ifTrue: [ new children do: [ :c | children add: c asChildParser ] ]
+		ifFalse: [ children add: new asChildParser ].

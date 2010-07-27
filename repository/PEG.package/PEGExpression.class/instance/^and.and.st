@@ -1,3 +1,3 @@
 logical operations
-&& other
-	^ self & other skipWhitespace: false
+&& expression
+	^ PEGStrongSequenceExpression new <& self <& expression

@@ -1,13 +1,16 @@
 matching
-memoizeMatch: parser to: stream
-	| bucket old |
+memoizeMatch: parser to: stack
+	| result bucket |
 	bucket := self bucket.
-	bucket at: parser ifPresent: [ :result |
-		position := result x.
-		^ result y
-			ifNil: [ false ]
-			ifNotNil: [ :r | stream push: r. true ]].
-	old := position.
-	^ (parser match: self to: stream)
-		ifTrue: [ bucket at: parser put: position@(stream peek). true ]
-		ifFalse: [ position := old. bucket at: parser put: old@nil. false ]
+	result := bucket at: parser ifAbsent: [ |old|
+		old := position.
+		(parser match: self to: stack)
+			ifTrue: [ bucket at: parser put: position@(stack peek). ^ true ]
+			ifFalse: [ position := old. bucket at: parser put: old@nil. ^ false ].
+		].
+	
+	position := result x.
+	result y ifNil: [ ^ false ].
+	stack push: result y.
+	^ true
+	

@@ -4,16 +4,16 @@ testNotExpression
 	string := PEGStringScanner on: 'teesest'.
 	exp1 := PEGTerminal new: 't'.
 	exp2 := PEGTerminal new: 'e'.
-	exp := PEGNotExpression new: exp1.
+	exp := PEGConsumingNotExpression new: exp1.
 	(exp match: string) should be isNil.
 	string position should = 0.
-	exp := PEGNotExpression new: exp2.
+	exp := PEGConsumingNotExpression new: exp2.
 	(exp match: string) should = 't'.
 	string position should = 1.	" Fail on end of string. "
 	string := PEGStringScanner on: ''.
 	(exp match: string) should be isNil.
 	string := PEGStringScanner on: 'test'.
-	exp3 := 'x' asPEG not consume: false.
+	exp3 := 'x' asPEG not omit.
 	(exp3 match: string) should not be isNil.
 	string position should = 0.
 	exp3 := 'x' asPEG not.

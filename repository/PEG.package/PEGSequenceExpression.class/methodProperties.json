@@ -2,11 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"<&" : "ToonVerwaest 6/24/2010 14:15",
+		"<&" : "ToonVerwaest 7/27/2010 11:26",
+		"asChildParser" : "ToonVerwaest 7/27/2010 11:50",
 		"children" : "ToonVerwaest 6/24/2010 13:30",
 		"initialize" : "ToonVerwaest 3/25/2010 12:44",
-		"initialize:" : "ToonVerwaest 3/25/2010 12:44",
-		"match:to:" : "ToonVerwaest 6/26/2010 00:57",
-		"omitMatch:" : "ToonVerwaest 6/26/2010 00:57",
-		"skipWhitespace" : "ToonVerwaest 3/25/2010 12:44",
-		"skipWhitespace:" : "ToonVerwaest 3/25/2010 12:44" } }
+		"initialize:" : "ToonVerwaest 7/27/2010 12:02",
+		"match:to:" : "ToonVerwaest 7/27/2010 15:50",
+		"omitMatch:" : "ToonVerwaest 7/27/2010 12:03" } }
