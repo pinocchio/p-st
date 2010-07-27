@@ -1,4 +1,4 @@
-pharo-exporting
+accessing
 pTypeName
 	<preventExport>
 	^ self pinocchioName.

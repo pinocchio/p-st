@@ -1,5 +1,4 @@
 sourceCreation
 writePrimitives
 	annotations do: [ :annotation|
-		self writePrimitiveForAnnotation: annotation.
-	].
+		self writePrimitiveForAnnotation: annotation.].

@@ -1,4 +1,4 @@
-testing
+as yet unclassified
 anySatisfy: aBlock
 	"Evaluate aBlock with the elements of the receiver.
 	If aBlock returns true for any element return true.

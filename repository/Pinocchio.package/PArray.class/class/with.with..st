@@ -1,4 +1,4 @@
-instance creation
+as yet unclassified
 with: firstObject with: secondObject
 	"Answer a new instance of me, containing firstObject and secondObject."
 

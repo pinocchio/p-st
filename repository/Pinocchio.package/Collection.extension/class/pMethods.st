@@ -12,6 +12,9 @@ pMethods
 				add: #anySatisfy:;
 				add: #allSatisfy:;
 				add: #includes:;
-				add: #emptyCheck.
+				add: #emptyCheck;
+				add: #reject:;
+				add: #select:;
+				add: #collect:.
 			^ s ].
 	^ super pMethods

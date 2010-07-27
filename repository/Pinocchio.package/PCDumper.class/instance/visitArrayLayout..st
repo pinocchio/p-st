@@ -1,12 +1,13 @@
 visitor
 visitArrayLayout: aPArrayLayout
 	| element |
-	aPArrayLayout size = 0
-		ifTrue: [ ^ aPArrayLayout uid: 'empty_array_layout' ].
-	1 to: aPArrayLayout size do: [ :index | self visit: (aPArrayLayout at: index) ].
+	aPArrayLayout size = 0 ifTrue: [ ^ aPArrayLayout ].
+	1 to: aPArrayLayout size do: [ :index | 
+			self visit: (aPArrayLayout at: index) ].
 	currentClass customLayout ifTrue: [ ^ self ].
-	self putRaw: aPArrayLayout 
-		with: [ :s| s << 'create_layout_with_vars(ArrayLayout_Class, ' << aPArrayLayout size asString << ')'].
+	self putRaw: aPArrayLayout with: [ :s| 
+			s << 'create_layout_with_vars(ArrayLayout_Class, ' << aPArrayLayout size asString << ')'].
 	aPArrayLayout withIndexDo: [ :each :index | 
-			stream << '((Array)' << aPArrayLayout uid << ')->values[' << (index - 1) asString << '] = ' << each uid <<';'; lf ].
+			stream << '((Array)' << (self idFor: aPArrayLayout) << ')->values[' 
+					<< (index - 1) asString << '] = ' << (self idFor: each) <<';'; lf ].
 	globals add: aPArrayLayout

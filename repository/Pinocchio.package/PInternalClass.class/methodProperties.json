@@ -1,17 +1,19 @@
 {
 	"class" : {
-		"newWith:" : "ToonVerwaest 3/25/2010 12:39",
-		"newWith:exporting:uid:" : "ToonVerwaest 3/25/2010 12:39",
-		"newWith:uid:" : "ToonVerwaest 3/25/2010 12:39" },
+		"newWith:" : "CamilloBruni 7/27/2010 10:40",
+		"newWith:exporting:uid:" : "CamilloBruni 7/27/2010 09:17",
+		"newWith:uid:" : "CamilloBruni 7/27/2010 09:17" },
 	"instance" : {
+		"accept:" : "CamilloBruni 7/27/2010 15:39",
 		"createPMetaclass" : "ToonVerwaest 3/25/2010 12:39",
 		"customLayout" : "ToonVerwaest 5/19/2010 16:25",
 		"customLayout:" : "ToonVerwaest 5/19/2010 16:25",
-		"initialize" : "ToonVerwaest 5/19/2010 16:25",
+		"initialize" : "CamilloBruni 7/27/2010 09:14",
 		"methodProvider" : "ToonVerwaest 3/25/2010 12:39",
 		"methodProvider:" : "ToonVerwaest 3/25/2010 12:39",
 		"pInstVarNames" : "ToonVerwaest 3/25/2010 12:39",
 		"pMethods" : "ToonVerwaest 3/25/2010 12:39",
 		"pclass" : "ToonVerwaest 3/25/2010 12:39",
 		"pclass:" : "ToonVerwaest 3/25/2010 12:39",
-		"uid" : "ToonVerwaest 3/25/2010 12:39" } }
+		"uid" : "CamilloBruni 7/27/2010 09:18",
+		"uid:" : "CamilloBruni 7/27/2010 09:19" } }

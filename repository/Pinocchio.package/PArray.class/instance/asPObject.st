@@ -1,0 +1,4 @@
+pharo-exporter
+asPObject
+	<preventExport>
+	

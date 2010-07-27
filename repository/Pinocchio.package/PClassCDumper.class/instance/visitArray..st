@@ -1,7 +1,6 @@
 visitor
 visitArray: aPinocchioArray
-	aPinocchioArray isEmpty
-		ifTrue: [ ^ aPinocchioArray ].
+	aPinocchioArray isEmpty ifTrue: [ ^ aPinocchioArray ].
 	self visitCollection: aPinocchioArray.
 	self put: aPinocchioArray with: [ :s| 
 		s << 'new_Array_with('.

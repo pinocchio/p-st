@@ -1,6 +1,6 @@
 pharo-exporting
-newWith: cls uid: uid
+newWith: cls uid: id
 	^ self
 		newWith: cls
 		exporting: cls
-		uid: uid
+		uid: id.

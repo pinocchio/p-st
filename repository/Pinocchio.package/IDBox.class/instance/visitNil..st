@@ -1,0 +1,3 @@
+visiting
+visitNil: aNil
+	^ #nil

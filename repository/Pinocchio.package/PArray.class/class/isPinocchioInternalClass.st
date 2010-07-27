@@ -1,0 +1,4 @@
+accessing
+isPinocchioInternalClass
+	<preventExport>
+	^ true

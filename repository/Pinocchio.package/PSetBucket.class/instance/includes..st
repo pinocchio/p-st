@@ -1,8 +1,5 @@
 accessing
 includes: anObject
-	self
-		do:
-			[ :each | 
-			each = anObject
-				ifTrue: [ ^ true ] ].
+	self do: [ :each | 
+			each = anObject ifTrue: [ ^ true ] ].
 	^ false

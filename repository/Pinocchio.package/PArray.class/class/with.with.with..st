@@ -1,4 +1,4 @@
-instance creation
+as yet unclassified
 with: firstObject with: secondObject with: thirdObject
 	"Answer a new instance of me, containing only the three arguments as
 	elements."

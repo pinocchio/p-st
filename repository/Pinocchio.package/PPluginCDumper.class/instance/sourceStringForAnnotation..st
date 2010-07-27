@@ -10,6 +10,5 @@ sourceStringForAnnotation: anAnnotation
 		strippedLine := self expandSourceReturn: strippedLine.
 		strippedLine := self expandArgumentsIn: strippedLine fromArgs: args.
 		strippedLine := self expandInstVarsIn: strippedLine withClass: pClass.
-		indentation, strippedLine.
-	].
+		indentation, strippedLine.].
 	^ Character lf join: source

@@ -1,3 +1,3 @@
 printing
 lf
-	self nextPutAll: String lf
+	self <<Character lf; << indentionString.

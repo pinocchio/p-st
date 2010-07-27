@@ -7,9 +7,7 @@ createAutoCompletionFile
 		fullName := classReference fullName.
 		completion << fullName; cr.
 		methodDict addAll: classReference pclass methods.
-		methodDict addAll: classReference pclass pmetaclass methods.
-	].	
+		methodDict addAll: classReference pclass pmetaclass methods.].	
 	methodDict do: [ :method|
-		completion << method selector; cr.
-	].
+		completion << method selector; cr.].
 	completion close.

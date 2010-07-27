@@ -8,10 +8,10 @@ createHFile
 	stream << 'extern void init_lib();'; lf; lf.
 	self comment: 'GLOBALS ============================================='.
 	globals do: [ :global | 
-		stream << 'extern ' << global ctype << ' '<< global uid asString << ';'; lf 
-	].
+			stream << 'extern ' << global ctype << ' '<< (self idFor: global) << ';'; lf ].
 	stream lf.
 	self comment: 'INCLUDES ============================================='.
-	sortedClasses do: [ :pclass | self include: 'lib/class/' , pclass name asString , '.h' ].
+	sortedClasses do: [ :pclass | 
+		self include: 'lib/class/' , pclass name asString , '.h' ].
 	self endGuard: guardName.
 	stream close

@@ -1,0 +1,4 @@
+converting
+asNumber
+	<preventExport>
+	^ int

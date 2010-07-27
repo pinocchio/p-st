@@ -5,10 +5,9 @@ visitMethod: aPMethod threaded: aBool
 	params := aPMethod params asPObject.
 	locals := aPMethod locals asPObject.
 	aBool ifTrue: [
-		threaded :=  aPMethod threaded asPObject.
-	] ifFalse: [
-		threaded := PArray new: 0.
-	].
+		threaded :=  aPMethod threaded asPObject.] 
+	ifFalse: [
+		threaded := PArray new: 0. ].
 	
 	annotations := (self prepareAnnotations: aPMethod annotations) asPObject.
 	self visit: params.
@@ -17,11 +16,12 @@ visitMethod: aPMethod threaded: aBool
 	self visit: (self preprocessThreadedArray: threaded).
 	self visitCollection: aPMethod.
 	
-	self createSized: aPMethod with: [ :s| s << 'new_' << aPMethod class pTypeName
-			<< '_with(' << params uid << ', '
-					 <<  locals uid << ', '
-					 <<  annotations uid << ', '
-					 <<  threaded uid].
+	self createSized: aPMethod with: [ :s|
+			 s << 'new_' << aPMethod class pTypeName
+				<< '_with(' << (self idFor: params) << ', '
+					 	<< (self idFor: locals) << ', '
+						<< (self idFor: annotations) << ', '
+						<< (self idFor:  threaded)].
 	self installPInfoOn: aPMethod.
 	
 	methods add: aPMethod.	"reset the node cache"

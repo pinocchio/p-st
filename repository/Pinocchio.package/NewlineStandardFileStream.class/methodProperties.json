@@ -1,6 +1,10 @@
 {
 	"class" : {
-		 },
+		"new" : "CamilloBruni 7/27/2010 14:07" },
 	"instance" : {
 		"cr" : "ToonVerwaest 3/25/2010 12:39",
-		"lf" : "ToonVerwaest 3/25/2010 12:39" } }
+		"indent" : "CamilloBruni 7/27/2010 14:01",
+		"initialize" : "CamilloBruni 7/27/2010 14:07",
+		"lf" : "CamilloBruni 7/27/2010 14:02",
+		"outdent" : "CamilloBruni 7/27/2010 14:01",
+		"updateIndentionString" : "CamilloBruni 7/27/2010 14:16" } }

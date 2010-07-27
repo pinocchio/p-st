@@ -1,6 +1,7 @@
-pharo-exporting
+accessing
 uid
 	<preventExport>
 	self isEmpty
 		ifTrue: [ ^ 'empty_Array' ].
-	^ super uid
+	uid ifNil: [ uid := self class uidFor: self ].
+	^ uid

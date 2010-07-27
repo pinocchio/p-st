@@ -1,9 +1,8 @@
 convenience
 createSized: arrayedObject with: aString
-	self put: arrayedObject
-		with: [ :s| 
+	self put: arrayedObject with: [ :s| 
 			self putStringOrBlock: aString.
 			s << ', '  << arrayedObject size asString.
 			arrayedObject do: [ :each |
-				s << ', ' << each uid asString ].
+				s << ', ' << (self idFor: each) ].
 			 s << $). ].

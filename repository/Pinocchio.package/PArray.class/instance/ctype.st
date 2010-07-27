@@ -1,4 +1,4 @@
-pharo-exporting
+accessing
 ctype
 	<preventExport>
 	self class == PArray ifTrue: [ ^ #Array ].

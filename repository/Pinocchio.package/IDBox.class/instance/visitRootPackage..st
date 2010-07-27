@@ -1,0 +1,3 @@
+visiting
+visitRootPackage: aRootPackage
+	^ #rootpackage

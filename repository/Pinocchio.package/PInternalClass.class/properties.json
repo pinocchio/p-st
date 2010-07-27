@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "CamilloBruni 1/12/2010 15:14",
 	"instvars" : [
+		"uid",
 		"methodProvider",
 		"pclass",
 		"customLayout" ],

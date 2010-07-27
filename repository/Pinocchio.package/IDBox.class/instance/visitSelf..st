@@ -1,0 +1,3 @@
+visiting
+visitSelf: aSelf
+	^ #self

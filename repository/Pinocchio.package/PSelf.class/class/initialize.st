@@ -2,4 +2,4 @@ initialization
 initialize
 	<preventExport>
 	super initialize.
-	instance := self new.
+	instance := super new.

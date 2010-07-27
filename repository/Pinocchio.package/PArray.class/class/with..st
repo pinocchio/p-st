@@ -1,4 +1,4 @@
-instance creation
+as yet unclassified
 with: anObject
 	| result |
 	result := self new: 1.

@@ -1,4 +1,4 @@
-testing
+as yet unclassified
 includes: anObject
 	"Answer whether anObject is one of the receiver's elements."
 
