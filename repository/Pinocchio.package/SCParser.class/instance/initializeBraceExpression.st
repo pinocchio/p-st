@@ -1,8 +1,8 @@
 basic-block
 initializeBraceExpression
-	^ PEGParser
+	^ PEGMultiParser
 		named: 'BRACE-EXPRESSION'
-		parsing: ('{' asPEG omit: true) & self subExpression times <& self expression <& ('}' asPEG omit: true)
+		parsing: ('{' asPEG omit) & self subExpression times <& self expression <& ('}' asPEG omit)
 		semantics: [ :result | 
 			ASTBraceExpression new
-				expressions: ((result first) add: (result at: 2)) ]
+				expressions: result asArray ]

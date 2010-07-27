@@ -1,3 +1,0 @@
-converting
-printString
-	^ self asString

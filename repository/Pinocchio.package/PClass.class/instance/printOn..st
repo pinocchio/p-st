@@ -1,5 +1,5 @@
 printing
 printOn: aStream
-	super printOn: aStream.
-	aStream nextPutAll: ' '.
-	self name printOn: aStream
+	package printOn: aStream.
+	aStream nextPut: $..
+	name printOn: aStream

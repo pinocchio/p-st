@@ -1,3 +1,3 @@
 printing
-printOn: aStream
-	aStream nextPutAll: symbol
+printOn: stream
+	stream << self asString

@@ -1,3 +1,3 @@
 literal
 initializeArrayConstant
-	^ ('#' asPEG omit: true) & self array
+	^ ('#' asPEG omit) & self array

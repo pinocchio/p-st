@@ -1,3 +1,3 @@
-printing
-printOn: aStream
-	self selector printOn: aStream
+converting
+printOn: stream
+	stream << self asString

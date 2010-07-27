@@ -1,3 +1,3 @@
 convenience
 initializeBar
-	^ '|' asPEG omit: true
+	^ '|' asPEG omit

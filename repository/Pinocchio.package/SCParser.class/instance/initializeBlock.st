@@ -2,11 +2,11 @@ block
 initializeBlock
 	^ PEGMultiParser
 		named: 'BLOCK'
-		parsing: (('[' asPEG omit: true)
+		parsing: (('[' asPEG omit)
 				& (self blockArguments & self bar) optional)
 				<& self temporaries optional
 				<& self statements
-				<& (']' asPEG omit: true)
+				<& (']' asPEG omit)
 		semantics: [ :result | 
 			(ASTBlock new)
 				parameters: (result first resultIfFailed: [ Array new ]);

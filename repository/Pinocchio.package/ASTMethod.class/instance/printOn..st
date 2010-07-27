@@ -1,6 +1,6 @@
 printing
 printOn: aStream
 	super printOn: aStream.
-	aStream nextPutAll: '('.
+	aStream << '('.
 	self message printOn: aStream.
-	aStream nextPutAll: ')'
+	^ aStream << ')'

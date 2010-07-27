@@ -4,9 +4,9 @@ initializeArray
 	array := PEGMultiParser named: 'ARRAY'.
 	array
 		<=
-			((('(' asPEG omit: true)
+			((('(' asPEG omit)
 				&
 					((self numberConstant | self stringConstant) <= self symbolInArray <= self symbolConstant <= self characterConstant
-						<= array) times) <& (')' asPEG omit: true)).
+						<= array) times) <& (')' asPEG omit)).
 	array semantics: [ :result | ASTArray new literals: result asArray ].
 	^ array

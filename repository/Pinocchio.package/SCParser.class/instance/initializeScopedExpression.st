@@ -2,7 +2,7 @@ basic-block
 initializeScopedExpression
 	^ PEGParser
 		named: 'SCOPED-EXPRESSION'
-		parsing: (('(' asPEG omit: true) & self expression) <& (')' asPEG omit: true)
+		parsing: (('(' asPEG omit) & self expression) <& (')' asPEG omit)
 		semantics: [ :result | 
 			result scoped.
 			result ]

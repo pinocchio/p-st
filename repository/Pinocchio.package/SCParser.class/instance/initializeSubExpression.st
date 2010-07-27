@@ -1,3 +1,3 @@
 basic-block
 initializeSubExpression
-	^ self expression & ('.' asPEG omit: true)
+	^ self expression & ('.' asPEG omit)

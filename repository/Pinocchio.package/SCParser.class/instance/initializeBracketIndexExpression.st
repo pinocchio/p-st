@@ -3,7 +3,7 @@ initializeBracketIndexExpression
 	| keywords arguments isAssignment args optionalAssignment |
 	^ PEGMultiParser
 		named: 'BRACKET-INDEX-EXPRESSION'
-		parsing: ('[' asPEG omit: true) & self expression & (']' asPEG omit: true) & (( self assignmentOp & self expression ) optional)
+		parsing: ('[' asPEG omit) & self expression & (']' asPEG omit) & (( self assignmentOp & self expression ) optional)
 		semantics: [ :parts | 
 			optionalAssignment :=  parts second.
 			isAssignment := optionalAssignment class == PEGSucceededOptionalResult.

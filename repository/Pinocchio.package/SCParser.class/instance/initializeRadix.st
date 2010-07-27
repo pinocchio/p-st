@@ -4,7 +4,7 @@ initializeRadix
 	^ PEGMultiParser
 		named: 'RADIX-NUMBER'
 		parsing:
-			(self numberFormat & ('r' asPEG omit: true)) <& '-' asPEG optional <& (self decimalDigit | self uppercase) strongTimes
+			(self numberFormat & ('r' asPEG omit)) <& '-' asPEG optional <& (self decimalDigit | self uppercase) strongTimes
 		semantics: [ :result | 
 			base := result removeFirst.
 			result first

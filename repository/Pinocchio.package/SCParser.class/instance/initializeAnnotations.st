@@ -2,6 +2,6 @@ annotations
 initializeAnnotations
 	^ PEGMultiParser
 		named: 'ANNOTATIONS'
-		parsing: ((('<' asPEG omit: true)
+		parsing: ((('<' asPEG omit)
 			& (self keywordAnnotation | self unaryAnnotation))
-			<& ('>' asPEG omit: true)) times
+			<& ('>' asPEG omit)) times

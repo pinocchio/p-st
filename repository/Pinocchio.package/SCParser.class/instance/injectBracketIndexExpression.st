@@ -3,7 +3,7 @@ injectBracketIndexExpression
 	| keywords arguments |
 	^ PEGParser
 		named: 'BRACKET-INDEX-EXPRESSION'
-		parsing: ('[' asPEG omit: true) & self expression & (']' asPEG omit: true)
+		parsing: ('[' asPEG omit) & self expression & (']' asPEG omit)
 		semantics: [ :parts |
 			keywords := Array with: #at.
 			arguments := parts asArray.

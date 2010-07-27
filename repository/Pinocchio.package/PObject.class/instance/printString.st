@@ -1,3 +1,6 @@
 printing
 printString
-	^ self class name
+	| stream |
+	stream := WriteStream on: ''.
+	self printOn: stream.
+	^ stream contents
