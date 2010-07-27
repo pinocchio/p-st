@@ -2,6 +2,7 @@ matching
 match: input
 	|  stack |
 	stack := PEGStack new.
-	(self match: input to: stack) ifFalse: [ ^ nil ].
+	input stack: stack.
+	(self parseOn: input) ifFalse: [ ^ nil ].
 	stack isEmpty ifTrue: [ ^ true ].
 	^ stack pop

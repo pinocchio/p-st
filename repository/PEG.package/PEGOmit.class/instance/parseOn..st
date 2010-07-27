@@ -1,3 +1,3 @@
 matching
-match: input to: stream
+parseOn: input
 	^ parser omitMatch: input

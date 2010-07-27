@@ -4,5 +4,5 @@
 	"instance" : {
 		"consume" : "ToonVerwaest 7/27/2010 16:20",
 		"initialize:" : "ToonVerwaest 7/27/2010 16:20",
-		"match:to:" : "ToonVerwaest 7/27/2010 16:59",
-		"omitMatch:" : "ToonVerwaest 7/27/2010 16:59" } }
+		"omitMatch:" : "ToonVerwaest 7/27/2010 16:59",
+		"parseOn:" : "ToonVerwaest 7/28/2010 00:38" } }

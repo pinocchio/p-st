@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"separator",
-		"cache" ],
+		"cache",
+		"stack" ],
 	"name" : "PEGStringScanner",
 	"pools" : [
 		 ],
