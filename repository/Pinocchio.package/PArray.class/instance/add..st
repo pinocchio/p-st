@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 add: anElement
 	| result |
 	result := self class new: self size + 1.

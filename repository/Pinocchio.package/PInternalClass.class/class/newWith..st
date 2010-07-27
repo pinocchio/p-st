@@ -1,4 +1,4 @@
-as yet unclassified
+pharo-exporting
 newWith: cls
 	<preventExport>
 	^ (super newWith: cls)

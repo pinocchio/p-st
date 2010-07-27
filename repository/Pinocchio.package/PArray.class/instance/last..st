@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 last: aNode
 	^ self at: self size put: aNode

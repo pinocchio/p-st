@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 withIndexDo: elementAndIndexBlock
 	"Just like with:do: except that the iteration index supplies the second argument to the block."
 

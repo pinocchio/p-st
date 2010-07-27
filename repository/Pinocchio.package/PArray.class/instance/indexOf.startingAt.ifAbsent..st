@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 indexOf: anElement startingAt: start ifAbsent: exceptionBlock
 	"Answer the index of the first occurence of anElement after start
 	within the receiver. If the receiver does not contain anElement, 

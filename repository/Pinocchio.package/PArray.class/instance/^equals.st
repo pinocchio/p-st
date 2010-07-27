@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 = otherCollection
 	"Answer true if the receiver is equivalent to the otherCollection.
 	First test for identity, then rule out different species and sizes of

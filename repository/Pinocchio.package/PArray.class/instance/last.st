@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 last
 	^ self at: self size

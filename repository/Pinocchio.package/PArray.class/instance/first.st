@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 first
 	^ self at: 1

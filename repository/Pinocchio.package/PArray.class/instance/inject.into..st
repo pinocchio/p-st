@@ -1,4 +1,4 @@
-as yet unclassified
+enumeration
 inject: thisValue into: binaryBlock
 	"Accumulate a running value associated with evaluating the argument, 
 	binaryBlock, with the current value of the argument, thisValue, and the 
