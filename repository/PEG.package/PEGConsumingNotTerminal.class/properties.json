@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "PEGConsumingNotExpression",
+	"name" : "PEGConsumingNotTerminal",
 	"pools" : [
 		 ],
-	"super" : "PEGNotExpression",
+	"super" : "PEGNotTerminal",
 	"type" : "normal" }

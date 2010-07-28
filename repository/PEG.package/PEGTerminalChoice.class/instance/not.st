@@ -1,3 +1,3 @@
 initialization
 not
-	^ PEGNotExpression new: self
+	self halt
