@@ -1,6 +1,5 @@
 convenience
 putStringOrBlock: aStringOrBlock
 	aStringOrBlock class == BlockClosure ifTrue: [
-		^ aStringOrBlock value: stream.
-	].
+		^ aStringOrBlock value: stream.].
 	stream << aStringOrBlock.

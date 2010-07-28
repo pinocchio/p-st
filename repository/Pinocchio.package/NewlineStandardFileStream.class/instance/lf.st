@@ -1,3 +1,4 @@
 printing
 lf
-	self <<Character lf; << indentionString.
+	self nextPut: Character lf;
+		nextPutAll: indentionString.

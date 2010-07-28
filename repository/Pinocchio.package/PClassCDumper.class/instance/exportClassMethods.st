@@ -2,6 +2,6 @@ exporting
 exportClassMethods
 	| oldClass |
 	oldClass := currentClass.
-	currentClass := currentClass pmetaclass.
+	self currentClass: currentClass pmetaclass.
 	currentClass methods do: [ :each | self visit: each ].
-	currentClass := oldClass
+	self currentClass: oldClass

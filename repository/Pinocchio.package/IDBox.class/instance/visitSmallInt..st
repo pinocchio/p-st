@@ -1,3 +1,3 @@
 visiting
 visitSmallInt: aSmallint
-	^ self visitSTSmallInt: aSmallint int
+	^ self idFor: aSmallint int

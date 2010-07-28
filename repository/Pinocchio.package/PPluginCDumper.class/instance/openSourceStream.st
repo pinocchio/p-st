@@ -1,5 +1,5 @@
 sourceCreation
 openSourceStream
 	| streamPath |
-	stream := CrLfFileStream forceNewFileNamed: (pluginSourcePath, '.c').
+	stream := NewlineStandardFileStream forceNewFileNamed: (pluginSourcePath, '.c').
 	self writeAutoGenFileHeader.

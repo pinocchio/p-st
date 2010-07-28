@@ -8,7 +8,7 @@ visitSTSymbol: aSymbol
 	uid := uid replaceAll: $. with: $-.
 	knownSymbolNames do: [ :pair|
 		uid := uid copyReplaceAll: pair first with: pair second].
-	uid :=  uid asSymbol.
+	uid :=  'SMB_', uid asSymbol.
 	"fallback for other strange characters, just use the numbered uid from PObject"
 	(uid matchesRegex: '.*[^_a-zA-Z0-9].*') ifTrue: [ ^ self rawDefaultIdFor: aSymbol ].
 	(uid size > 50) ifTrue: [ ^ self rawDefaultIdFor:  aSymbol ].
