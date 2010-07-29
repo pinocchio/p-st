@@ -1,3 +1,3 @@
 logical operations
 strongTimes
-	^ PEGStrongZeroOrMoreExpression new: self
+	^ PEGStrongZeroOrMoreExpression on: self

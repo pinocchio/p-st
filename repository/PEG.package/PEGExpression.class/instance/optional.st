@@ -1,3 +1,3 @@
 logical operations
 optional
-	^ PEGOptionalExpression new: self
+	^ PEGOptionalExpression on: self

@@ -1,3 +1,3 @@
 *PEG
 asPEG
-	^ PEGTerminal new: self
+	^ PEGTerminal on: self

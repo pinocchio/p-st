@@ -1,3 +1,3 @@
 logical operations
 times
-	^ PEGZeroOrMoreExpression new: self
+	^ PEGZeroOrMoreExpression on: self

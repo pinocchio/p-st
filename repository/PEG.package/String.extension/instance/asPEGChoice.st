@@ -1,3 +1,3 @@
 *PEG
 asPEGChoice
-	^ PEGTerminalChoice new: self.
+	^ PEGTerminalChoice on: self.

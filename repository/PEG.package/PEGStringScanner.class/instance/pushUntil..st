@@ -1,7 +1,10 @@
 matching
 pushUntil: char
-	position + 1 to: collection size do: [ :index |
+	| s |
+	s := collection size.
+	position + 1 to: s do: [ :index |
 		char = (collection basicAt: index)
-			ifTrue: [ stack push: collection from:  position to: index - 1. position := index - 1. ^ self ]].
-	stack push: collection from:  position to: collection size.
-	position := collection size
+			ifTrue: [ stack push: collection from:  position to: index - 1. position := index - 1. ^ true ]].
+	stack push: collection from:  position to: s.
+	position := s.
+	^ true

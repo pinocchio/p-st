@@ -1,19 +1,18 @@
 {
 	"class" : {
-		"new:" : "ToonVerwaest 7/26/2010 18:50",
-		"on:" : "ToonVerwaest 7/27/2010 16:20" },
+		"on:" : "ToonVerwaest 7/29/2010 23:18" },
 	"instance" : {
 		"&" : "ToonVerwaest 7/27/2010 11:17",
 		"&&" : "ToonVerwaest 7/27/2010 12:03",
 		"asChildParser" : "ToonVerwaest 7/27/2010 11:27",
 		"asPEG" : "ToonVerwaest 3/25/2010 12:44",
-		"match:" : "ToonVerwaest 7/29/2010 14:11",
+		"match:" : "ToonVerwaest 7/28/2010 00:37",
 		"omit" : "ToonVerwaest 7/27/2010 13:15",
 		"optimize" : "ToonVerwaest 6/24/2010 13:13",
-		"optional" : "ToonVerwaest 3/25/2010 12:44",
-		"plus" : "ToonVerwaest 3/25/2010 12:44",
-		"strongPlus" : "ToonVerwaest 7/27/2010 11:54",
-		"strongTimes" : "ToonVerwaest 7/27/2010 11:55",
-		"times" : "ToonVerwaest 3/25/2010 12:44",
+		"optional" : "ToonVerwaest 7/29/2010 23:17",
+		"plus" : "ToonVerwaest 7/29/2010 23:17",
+		"strongPlus" : "ToonVerwaest 7/29/2010 23:17",
+		"strongTimes" : "ToonVerwaest 7/29/2010 23:16",
+		"times" : "ToonVerwaest 7/29/2010 23:17",
 		"withoutOmit" : "ToonVerwaest 7/27/2010 14:21",
 		"|" : "ToonVerwaest 3/25/2010 12:44" } }

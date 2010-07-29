@@ -1,3 +1,3 @@
 instance creation
 on: argument
-	^ super new initialize: argument
+	^ super basicNew initialize: argument

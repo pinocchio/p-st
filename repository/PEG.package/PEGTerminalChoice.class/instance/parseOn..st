@@ -1,8 +1,9 @@
 matching
 parseOn: input
-	| char |
+	| char index |
 	char := input peek.
-	(string indexOf: char) = 0 ifTrue: [ ^ false ].
-	input stack push: char.
+	index := string indexOf: char.
+	index = 0 ifTrue: [ ^ false ].
+	input stack push: (string at: index).
 	input forward.
 	^ true

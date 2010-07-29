@@ -1,3 +1,3 @@
 logical operations
 strongPlus
-	^ PEGStrongOneOrMoreExpression new: self
+	^ PEGStrongOneOrMoreExpression on: self
