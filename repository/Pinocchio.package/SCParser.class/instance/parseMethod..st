@@ -1,5 +1,7 @@
 parsing
 parseMethod: aString
-	| input |
+	| input result |
 	input := PEGStringScanner on: aString separator: self separator.
-	^ (self method match: input)
+	result := self method match: input.
+	input should be atEnd.
+	^ result
