@@ -1,3 +1,3 @@
 consuming
 consume
-	^ PEGConsumingNotTerminal new char: char
+	^ PEGConsumingNotTerminal on: char

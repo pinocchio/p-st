@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"char:" : "ToonVerwaest 7/28/2010 09:41",
-		"consume" : "ToonVerwaest 7/28/2010 09:44",
-		"omitMatch:" : "ToonVerwaest 7/28/2010 09:46",
-		"parseOn:" : "ToonVerwaest 7/28/2010 09:45" } }
+		"consume" : "ToonVerwaest 7/29/2010 11:02",
+		"initialize:" : "ToonVerwaest 7/29/2010 11:35",
+		"omitMatch:" : "ToonVerwaest 7/29/2010 11:38",
+		"parseOn:" : "ToonVerwaest 7/29/2010 11:39" } }

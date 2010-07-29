@@ -5,10 +5,10 @@ testOptionalExpression
 	exp1 := PEGTerminal new: 'te'.
 	exp2 := PEGTerminal new: 'es'.
 	exp := PEGOptionalExpression new: exp1.
-	((exp match: string) resultIfFailed: [ 10 ]) should = 'te'.
+	((exp match: string) resultIfFailed: [ 10 ]).
 	string position should = 2.
 	((exp match: string) resultIfFailed: [ 10 ]) should = 10.
 	string position should = 2.
 	exp := PEGOptionalExpression new: exp2.
-	((exp match: string) resultIfFailed: [ 10 ]) should = 'es'.
+	((exp match: string) resultIfFailed: [ 10 ]).
 	string position should = 4

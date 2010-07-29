@@ -2,9 +2,9 @@
 	"class" : {
 		"pMethods" : "ToonVerwaest 6/26/2010 01:46" },
 	"instance" : {
-		"asArray" : "ToonVerwaest 6/26/2010 00:23",
-		"asOrderedCollection" : "ToonVerwaest 6/26/2010 00:32",
-		"asString" : "ToonVerwaest 6/26/2010 00:23",
+		"asArray" : "ToonVerwaest 7/29/2010 12:43",
+		"asOrderedCollection" : "ToonVerwaest 7/29/2010 12:44",
+		"asString" : "ToonVerwaest 7/29/2010 12:43",
 		"at:" : "ToonVerwaest 6/25/2010 23:55",
 		"at:put:" : "ToonVerwaest 6/25/2010 23:58",
 		"collect:" : "ToonVerwaest 6/26/2010 00:29",

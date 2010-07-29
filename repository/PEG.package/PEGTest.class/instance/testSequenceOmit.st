@@ -5,5 +5,5 @@ testSequenceOmit
 	exp1 := 'a' asPEG omit.
 	exp2 := 'b' asPEG.
 	seq1 := exp1 && exp2.
-	(seq1 match: string) should = 'b'.
+	(seq1 match: string) should = $b.
 	string position should = 2

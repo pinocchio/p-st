@@ -1,3 +1,3 @@
 accessing
-char: aCharacter
+initialize: aCharacter
 	char := aCharacter asInteger

@@ -7,15 +7,15 @@ testExpression
 	exp3 := PEGTerminal new: 't'.	" test string which occurs later on. "
 	nil should = (exp2 match: string).
 	string position should = 0.
-	'te' should = (exp1 match: string).
+	(exp1 match: string).
 	string position should = 2.
 	nil should = (exp1 match: string).
 	string position should = 2.
-	'es' should = (exp2 match: string).
+	(exp2 match: string).
 	string position should = 4.
 	nil should = (exp2 match: string).
 	string position should = 4.
-	't' should = (exp3 match: string).
+	(exp3 match: string).
 	string position should = 5.
 	nil should = (exp3 match: string).
 	string position should = 5

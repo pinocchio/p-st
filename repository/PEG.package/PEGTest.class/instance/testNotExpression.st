@@ -1,14 +1,12 @@
 tests
 testNotExpression
-	| string exp1 exp2 exp exp3 |
+	| string exp exp3 |
 	string := PEGStringScanner on: 'teesest'.
-	exp1 := PEGTerminal new: 't'.
-	exp2 := PEGTerminal new: 'e'.
-	exp := PEGConsumingNotExpression new: exp1.
+	exp := PEGConsumingNotTerminal on: $t.
 	(exp match: string) should be isNil.
 	string position should = 0.
-	exp := PEGConsumingNotExpression new: exp2.
-	(exp match: string) should = 't'.
+	exp := PEGConsumingNotTerminal on: $e.
+	(exp match: string) should = $t.
 	string position should = 1.	" Fail on end of string. "
 	string := PEGStringScanner on: ''.
 	(exp match: string) should be isNil.
@@ -16,10 +14,10 @@ testNotExpression
 	exp3 := 'x' asPEG not omit.
 	(exp3 match: string) should not be isNil.
 	string position should = 0.
-	exp3 := 'x' asPEG not.
-	(exp3 match: string) should = 't'.
+	exp3 := 'x' asPEG not consume.
+	(exp3 match: string) should = $t.
 	string position should = 1.
 	string := PEGStringScanner on: ''.
-	exp3 := 'x' asPEG not consume: false.
+	exp3 := 'x' asPEG not.
 	(exp3 match: string) should not be isNil.
 	string position should = 0

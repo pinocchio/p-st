@@ -1,3 +1,3 @@
 logical operations
 strongTimes
-	^ PEGConsumingNotTerminalStrongTimes new char: char
+	^ PEGConsumingNotTerminalStrongTimes on: char
