@@ -1,4 +1,5 @@
 matching
 omitMatch: input
 	(child omitMatch: input) ifFalse: [ ^ false ].
-	^ super omitMatch: input
+	[ input skipWhitespace. child omitMatch: input ] whileTrue.
+	^ true

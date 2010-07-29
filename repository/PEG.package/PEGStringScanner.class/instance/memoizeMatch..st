@@ -2,15 +2,14 @@ matching
 memoizeMatch: parser
 	| result bucket |
 	bucket := self bucket.
-	result := bucket at: parser ifAbsent: [ |old|
-		old := position.
+	result := bucket at: parser ifAbsent: [
 		(parser parseOn: self)
-			ifTrue: [ bucket at: parser put: position@(stack peek). ^ true ]
-			ifFalse: [ position := old. bucket at: parser put: old@nil. ^ false ].
-		].
+			ifTrue: [ bucket at: parser put: position@stack peek. ^ true ].
+		bucket at: parser put: position@nil.
+		^ false ].
 	
-	position := result x.
 	result y ifNil: [ ^ false ].
+	position := result x.
 	stack push: result y.
 	^ true
 	
