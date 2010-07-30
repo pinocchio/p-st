@@ -1,0 +1,15 @@
+{
+	"category" : "PEG",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"position",
+		"result" ],
+	"name" : "PEGParseResult",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
