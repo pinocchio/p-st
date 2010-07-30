@@ -1,7 +1,5 @@
 matching
 parseOn: input
-	| stack |
-	stack := input stack.
 	(expression parseOn: input) ifFalse: [ ^ false ].
-	stack poke: (semantics value: stack peek).
+	input stack poke: (semantics value: input stack peek).
 	^ true
