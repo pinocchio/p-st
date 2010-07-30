@@ -10,6 +10,6 @@ visitSTSymbol: aSymbol
 		uid := uid copyReplaceAll: pair first with: pair second].
 	uid :=  'SMB_', uid asSymbol.
 	"fallback for other strange characters, just use the numbered uid from PObject"
-	(uid matchesRegex: '.*[^_a-zA-Z0-9].*') ifTrue: [ ^ self rawDefaultIdFor: aSymbol ].
+	(uidRegex matches: uid) ifTrue: [ ^ self rawDefaultIdFor: aSymbol ].
 	(uid size > 50) ifTrue: [ ^ self rawDefaultIdFor:  aSymbol ].
 	^ uid

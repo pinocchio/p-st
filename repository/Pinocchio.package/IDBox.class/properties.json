@@ -9,7 +9,8 @@
 		"ids",
 		"uidCounter",
 		"knownSymbolNames",
-		"currentClass" ],
+		"currentClass",
+		"uidRegex" ],
 	"name" : "IDBox",
 	"pools" : [
 		 ],

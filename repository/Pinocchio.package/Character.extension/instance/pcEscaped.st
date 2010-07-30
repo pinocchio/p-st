@@ -1,8 +1,8 @@
 *Pinocchio
-cEscaped
-	<preventExport>
+pcEscaped
+	<renameExport: #cEscaped>
 	| dictArray dict |
-	dictArray := #( nil ).
+	dictArray := Array with: nil with: #'.'.
 	dict := dictArray at: 1.
 	dict ifNil: [ dict := PDictionary new.
 			dict at: Character cr put: '\n'.
