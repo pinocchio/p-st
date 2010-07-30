@@ -1,3 +1,3 @@
 visiting
 visitVariable: aVariable 
-	^ 'var_', aVariable name
+	^ 'VAR_', aVariable name
