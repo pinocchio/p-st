@@ -1,6 +1,6 @@
 matching
 omitMatch: input
-	| next charValue |
+	| next |
 	next := input peek.
 	next isNil ifTrue: [ ^ false ].
 	char = next ifTrue: [ ^ false ].

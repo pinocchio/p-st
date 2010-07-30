@@ -4,5 +4,6 @@ parseOn: input
 	next := input peek.
 	next isNil ifTrue: [ ^ false ].
 	char = next ifTrue: [ ^ false ].
+	input push: char.
 	input forward.
 	^ true
