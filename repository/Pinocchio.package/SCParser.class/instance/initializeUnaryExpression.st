@@ -1,6 +1,6 @@
 expression
 initializeUnaryExpression
-	^ PEGMultiMemo
+	^ (PEGMultiParser
 		named: 'UNARY-EXPRESSION'
 		parsing: self primary & self unarySelector plus
 		semantics: [ :parts | |result|
@@ -9,4 +9,4 @@ initializeUnaryExpression
 					result := (ASTUnaryExpression new)
 						receiver: result;
 						selector: (parts at: i) ].
-			result ]
+			result ]) memo
