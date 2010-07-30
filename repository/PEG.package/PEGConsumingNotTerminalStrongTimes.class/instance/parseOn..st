@@ -1,4 +1,4 @@
 matching
 parseOn: input
-	input scanUntil: char.
+	input pushUntil: char.
 	^ true
