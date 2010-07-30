@@ -1,7 +1,4 @@
 matching
 parseOn: input
-	| next charValue |
-	next := input peek.
-	next isNil ifTrue: [ ^ true ].
-	char = next asInteger ifTrue: [ ^ false ].
+	input peek = char ifTrue: [ ^ false ].
 	^ true

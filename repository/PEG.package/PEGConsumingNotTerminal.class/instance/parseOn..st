@@ -1,9 +1,8 @@
 matching
 parseOn: input
-	| next charValue |
+	| next |
 	next := input peek.
 	next isNil ifTrue: [ ^ false ].
-	char = next asInteger ifTrue: [ ^ false ].
-	input stack push: next.
+	char = next ifTrue: [ ^ false ].
 	input forward.
 	^ true

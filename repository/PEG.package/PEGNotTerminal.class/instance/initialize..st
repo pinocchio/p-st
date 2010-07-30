@@ -1,3 +1,3 @@
 accessing
 initialize: aCharacter
-	char := aCharacter asInteger
+	char := aCharacter
