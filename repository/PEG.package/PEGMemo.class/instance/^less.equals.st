@@ -1,3 +1,3 @@
 accessing
-<= parsing
-	parser <= parsing asChildParser
+<= child
+	parser <= child

@@ -1,3 +1,3 @@
 accessing
-skipWhitespace
+omitSkipWhitespace
 	separator omitMatch: self
