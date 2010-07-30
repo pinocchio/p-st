@@ -3,7 +3,8 @@ parseOn: input
 	| position outputPosition |
 	position := input position.
 	outputPosition := input stack position.
-	1 to: children size do: [ :index | 
+	((children at: 1) parseOn: input) ifFalse: [ ^ false ].
+	2 to: children size do: [ :index | 
 		input skipWhitespace.
 		((children at: index) parseOn: input)
 			ifFalse: [
