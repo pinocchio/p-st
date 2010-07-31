@@ -2,9 +2,8 @@ literal
 initializeRadix
 	^ PEGMultiParser
 		named: 'RADIX-NUMBER'
-		parsing:
-			(self numberFormat & ('r' asPEG omit)) <& (('-' asPEG & (self decimalDigit | self uppercase) strongTimes) | (self decimalDigit | self uppercase) strongTimes)
+		parsing: self numberFormat & ('r' asPEG omit) <& self numberFormat
 		semantics: [ :result | 
 			(ASTNumber new)
-				base: result removeFirst;
-				number: result asString ]
+				base: result first;
+				number: result second ]
