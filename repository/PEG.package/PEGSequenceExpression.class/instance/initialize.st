@@ -1,3 +1,3 @@
 initialization
 initialize
-	self initialize: OrderedCollection new
+	children := OrderedCollection new
