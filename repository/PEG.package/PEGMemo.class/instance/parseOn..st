@@ -1,3 +1,3 @@
 matching
 parseOn: input
-	^ input memoizeMatch: parser
+	^ input memoizeMatch: parser "for: self"

@@ -1,3 +1,3 @@
 adding
 <= theExpression
-	expression := theExpression asPEG asChildParser
+	expression := theExpression asChildParser
