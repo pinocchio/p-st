@@ -1,9 +1,7 @@
 pharo-exporter
 pMethods
+	"instead of returning the cls's methods I return my methods for exporting"
+
 	<preventExport>
-	methods := sclass pMethods.
-	methods = #all
-		ifTrue: [ methods := sclass methods collect: #selector ].
-	methods isSymbol
-		ifTrue: [ methods := sclass organization listAtCategoryNamed: methods ].
-	^ sclass filterExportMethodSelectors: methods
+	methods := self extractMethods.
+	^ self filterExportMethodSelectors: methods from: self methodProvider

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"receiver",
 		"cls",
-		"message" ],
+		"message",
+		"receiver" ],
 	"name" : "PDoesNotUnderstand",
 	"pools" : [
 		 ],
