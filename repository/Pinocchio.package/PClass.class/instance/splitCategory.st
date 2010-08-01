@@ -1,4 +1,4 @@
 accessing
 splitCategory
 	<preventExport>
-	^  '-' split: self sclass category
+	^  self sclass splitCategory

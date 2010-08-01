@@ -6,8 +6,6 @@ transformClass: sclassIn
 	
 	aPinocchioClass := sclass asPClass.
 	done at: aPinocchioClass name ifPresent: [ :present | ^ present ].
-	self haltIf: sclassIn = PObject.
-	self haltIf: sclassIn = Object.
 	self haltIf: (pcompiler rootScope isKindOf: PRootScope) not.
 	
 	"Transcript show: 'Transforming '; show: aPinocchioClass name; cr."

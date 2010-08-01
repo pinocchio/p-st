@@ -1,16 +1,18 @@
 {
 	"class" : {
 		"newWith:" : "CamilloBruni 7/27/2010 10:40",
-		"newWith:exporting:uid:" : "CamilloBruni 8/1/2010 10:34",
+		"newWith:exporting:uid:" : "CamilloBruni 8/1/2010 23:00",
 		"newWith:uid:" : "CamilloBruni 7/27/2010 09:17" },
 	"instance" : {
 		"accept:" : "CamilloBruni 7/27/2010 15:39",
 		"createPMetaclass" : "ToonVerwaest 3/25/2010 12:39",
 		"customLayout" : "ToonVerwaest 5/19/2010 16:25",
 		"customLayout:" : "ToonVerwaest 5/19/2010 16:25",
+		"declareClass" : "CamilloBruni 8/1/2010 23:13",
+		"declareClass:" : "CamilloBruni 8/1/2010 23:13",
 		"extractClassMethods" : "CamilloBruni 8/1/2010 11:31",
 		"extractMethods" : "CamilloBruni 8/1/2010 11:32",
-		"initialize" : "CamilloBruni 7/27/2010 09:14",
+		"initialize" : "CamilloBruni 8/1/2010 23:13",
 		"methodProvider" : "ToonVerwaest 3/25/2010 12:39",
 		"methodProvider:" : "ToonVerwaest 3/25/2010 12:39",
 		"pInstVarNames" : "ToonVerwaest 3/25/2010 12:39",

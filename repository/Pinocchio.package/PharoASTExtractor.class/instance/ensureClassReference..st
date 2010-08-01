@@ -1,12 +1,11 @@
 convenience
 ensureClassReference: aString
-	| package cls aClassReference aClassNameSymbol |
-	self haltIf: aString aString = 'Object'.
-	self haltIf: aString aString = 'PObject'.
-	cls := self sclassForName: aString.
-	package := self ensurePackageFor: cls.
-	aClassNameSymbol := cls pinocchioName asPObject.
+	| package pclass aClassReference aClassNameSymbol|
+	pclass := self pclassForName: aString.
+	package := self ensurePackageFor: pclass.
+	aClassNameSymbol := pclass name asPObject.
 	package at: aClassNameSymbol ifPresent: [ :el | ^ el ].
 	aClassReference := package ensureClassReference: aClassNameSymbol.
-	todo add: cls.
+	"TODO cleanup duplicated work here, could store directly the PClass"
+	todo add: pclass methodProvider.
 	^ aClassReference

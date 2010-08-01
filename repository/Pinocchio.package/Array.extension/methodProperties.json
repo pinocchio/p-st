@@ -3,6 +3,7 @@
 		"pMethods" : "CamilloBruni 8/1/2010 08:38" },
 	"instance" : {
 		"asPObject" : "ToonVerwaest 3/25/2010 12:44",
+		"copyWithDependent:" : "CamilloBruni 8/1/2010 20:41",
 		"elementsExchangeIdentityWith:" : "CamilloBruni 8/1/2010 12:13",
 		"elementsForwardIdentityTo:" : "CamilloBruni 8/1/2010 12:14",
 		"elementsForwardIdentityTo:copyHash:" : "CamilloBruni 8/1/2010 12:14",
