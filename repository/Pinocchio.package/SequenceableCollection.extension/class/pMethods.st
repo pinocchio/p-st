@@ -22,6 +22,7 @@ pMethods
 				add: #withIndexDo:;
 				add: #joinUsing:;
 				add: #split:;
+				add: #copyWith:;
 				add: #do:separatedBy:;
 				add: #select:;
 				add: #collect:;
