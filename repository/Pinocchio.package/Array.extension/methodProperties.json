@@ -1,5 +1,11 @@
 {
 	"class" : {
+		"braceStream:" : "CamilloBruni 8/1/2010 08:40",
+		"braceWith:" : "CamilloBruni 8/1/2010 08:40",
+		"braceWith:with:" : "CamilloBruni 8/1/2010 08:40",
+		"braceWith:with:with:" : "CamilloBruni 8/1/2010 08:40",
+		"braceWith:with:with:with:" : "CamilloBruni 8/1/2010 08:40",
+		"braceWithNone" : "CamilloBruni 8/1/2010 08:39",
 		"pMethods" : "CamilloBruni 8/1/2010 08:38" },
 	"instance" : {
 		"asPObject" : "ToonVerwaest 3/25/2010 12:44",
