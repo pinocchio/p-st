@@ -2,7 +2,7 @@ accessing
 instVariables
 	<preventExport>
 	| instVar |
-	layout ifNotNil: [ :l | ^ l ].
+	layout ifNotNilDo: [ :l | ^ l ].
 	layout := self parentSlots.
 	self pInstVarNames do: [ :each | 
 			layout do: [ :var | 

@@ -1,3 +1,3 @@
 converting
 asPEG
-	^ PEGTerminal new: self
+	^ PEGTerminal on: self

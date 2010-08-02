@@ -1,3 +1,3 @@
 printing
 putOn: stream
-	^ stream nextPutAll: self
+	^ stream nextPutAll: self symbol
