@@ -1,3 +1,7 @@
 parse
 parse: input
-	^ self match: (PEGStringScanner on: input separator: separator)
+	| result string |
+	string := PEGStringScanner on: input separator: separator.
+	result := self match: string.
+	string should be atEnd.
+	^ result
