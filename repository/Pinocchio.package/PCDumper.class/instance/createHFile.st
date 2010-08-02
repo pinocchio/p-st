@@ -12,8 +12,6 @@ createHFile
 	stream lf.
 	self comment: 'INCLUDES ============================================='.
 	sortedClasses do: [ :pclass | 
-		self include: ('lib/class/', 
-						(pclass package fullName copyReplaceAll: '.' with: '/'), '/' , 
-						pclass name asString , '.h') ].
+		self include: 'lib/class/' , pclass name asString , '.h' ].
 	self endGuard: guardName.
 	stream close

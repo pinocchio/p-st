@@ -1,7 +1,9 @@
 parsing
 parseMethod: aString
-	| input result |
+	| input stack |
+	stack := PEGStack new.
 	input := PEGStringScanner on: aString separator: self separator.
-	result := self method match: input.
+	(self method match: input to: stack) ifFalse: [ self parsingFailed ].
 	input should be atEnd.
-	^ result
+	stack position should = 1.
+	^ stack pop

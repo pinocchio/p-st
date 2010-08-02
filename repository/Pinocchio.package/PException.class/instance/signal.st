@@ -1,4 +1,3 @@
 throwing
 signal
-	<preventExport>
-	self error: 'Pinocchio exception thrown!'
+	^ PException throw: self
