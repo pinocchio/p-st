@@ -1,3 +1,3 @@
 throwing
 signal
-	^ PException throw: self
+	self error: 'Pinocchio exception thrown!'
