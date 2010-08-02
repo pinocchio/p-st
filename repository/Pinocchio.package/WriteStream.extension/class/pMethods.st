@@ -14,7 +14,6 @@ pMethods
 				add: #with:;
 				add: #position:;
 				add: #contents;
-				add: #growTo:;
-				add: #pastEndPut:.
+				add: #growTo:.
 			^ s ].
 	^ super pMethods
