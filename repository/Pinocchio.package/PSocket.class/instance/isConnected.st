@@ -1,3 +1,0 @@
-primitives
-isConnected
-^ connected

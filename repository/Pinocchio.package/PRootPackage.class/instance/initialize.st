@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	members := PDictionary new
+	members := Dictionary new

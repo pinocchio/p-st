@@ -3,7 +3,7 @@ testServer: aPort
 
 	| sock data |
 	sock := self new.
-	sock primListenOn: aPort. 
+	sock primInit primListenOn: aPort. 
 	[ 2>1 ] whileTrue: [
 		| conn |
 		conn := sock accept.
