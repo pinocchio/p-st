@@ -1,0 +1,14 @@
+{
+	"category" : "PEG",
+	"classinstvars" : [
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PEGAtEnd",
+	"pools" : [
+		 ],
+	"super" : "PEGExpression",
+	"type" : "normal" }
