@@ -1,5 +1,5 @@
 as yet unclassified
 initialize 
 	super initialize.
-	classes := PDictionary new.
+	classes := PIdentityDictionary new.
 	self initializeLinks.
