@@ -1,6 +1,5 @@
 *Pinocchio
 pClassMethods
 	<preventExport>
-	| s |
-	self = Stream ifTrue: [ ^#all ].
-	^ OrderedCollection new.
+	self == Stream ifTrue: [ ^#all ].
+	^ {}
