@@ -1,6 +1,6 @@
 as yet unclassified
 initialize 
 	super initialize.
-	pclasses := Dictionary new.
-	sclasses := Dictionary new.
+	pclasses := PDictionary new.
+	sclasses := PDictionary new.
 	self initializeLinks.

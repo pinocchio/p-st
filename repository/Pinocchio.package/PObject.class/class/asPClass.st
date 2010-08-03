@@ -9,7 +9,7 @@ asPClass
 	dict := #( nil ).
 	(dict at: 1) ifNil: [ 
 		dict at: 1 put:
-			((Dictionary new)
+			((PDictionary new)
 				at: PWordsLayout put: nil;
 				yourself) ].
 	dict := dict at: 1.

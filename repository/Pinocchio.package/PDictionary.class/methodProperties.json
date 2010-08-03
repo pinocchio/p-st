@@ -10,6 +10,7 @@
 		"at:ifAbsentPut:" : "ToonVerwaest 3/25/2010 12:39",
 		"at:ifPresent:" : "ToonVerwaest 3/25/2010 12:39",
 		"at:put:" : "CamilloBruni 4/5/2010 15:56",
+		"copyEmpty" : "ToonVerwaest 8/3/2010 14:00",
 		"do:" : "ToonVerwaest 5/11/2010 18:42",
 		"grow" : "ToonVerwaest 5/21/2010 15:59",
 		"inFirstBucketAt:put:" : "ToonVerwaest 3/25/2010 12:39",
@@ -26,5 +27,6 @@
 		"remove:ifAbsent:" : "ToonVerwaest 3/25/2010 12:39",
 		"removeKey:" : "ToonVerwaest 3/25/2010 12:39",
 		"removeKey:ifAbsent:" : "ToonVerwaest 3/25/2010 12:39",
+		"select:" : "ToonVerwaest 8/3/2010 13:51",
 		"values" : "ToonVerwaest 3/25/2010 12:39",
 		"valuesDo:" : "ToonVerwaest 5/20/2010 20:19" } }
