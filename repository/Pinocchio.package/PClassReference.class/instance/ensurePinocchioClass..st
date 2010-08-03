@@ -1,9 +1,7 @@
 convenience
 ensurePinocchioClass: aPinocchioClass
-	aPinocchioClass should not be isNil.
+	aPinocchioClass ifNil: [ self shouldNotHappen ].
 	pClass
 		ifNil: [ pClass := aPinocchioClass ]
-		ifNotNil:
-			[ pClass = aPinocchioClass
-				ifFalse: [ self error ] ].
+		ifNotNil: [ pClass == aPinocchioClass ifFalse: [ self error ] ].
 	^ pClass

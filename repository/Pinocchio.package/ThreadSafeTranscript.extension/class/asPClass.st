@@ -1,3 +1,0 @@
-*Pinocchio
-asPClass
-	^ PTranscript asPClass

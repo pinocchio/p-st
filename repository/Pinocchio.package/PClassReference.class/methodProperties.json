@@ -1,14 +1,13 @@
 {
 	"class" : {
-		"asPClass" : "ToonVerwaest 5/20/2010 04:05",
-		"named:" : "ToonVerwaest 3/25/2010 12:39",
+		"named:" : "CamilloBruni 8/1/2010 12:25",
 		"named:in:" : "ToonVerwaest 3/25/2010 12:39",
 		"new" : "ToonVerwaest 3/25/2010 12:39",
 		"pTypeName" : "CamilloBruni 6/8/2010 18:55" },
 	"instance" : {
 		"accept:" : "ToonVerwaest 3/25/2010 12:39",
 		"asNode" : "ToonVerwaest 5/8/2010 01:27",
-		"ensurePinocchioClass:" : "ToonVerwaest 3/25/2010 12:39",
+		"ensurePinocchioClass:" : "ToonVerwaest 8/3/2010 16:28",
 		"fullName" : "CamilloBruni 6/3/2010 10:24",
 		"lookUpIn:at:" : "ToonVerwaest 3/25/2010 12:39",
 		"package" : "ToonVerwaest 3/25/2010 12:39",
@@ -16,5 +15,5 @@
 		"packagesDo:" : "ToonVerwaest 5/20/2010 20:18",
 		"pclass" : "ToonVerwaest 3/25/2010 12:39",
 		"referenceName" : "ToonVerwaest 3/25/2010 12:39",
-		"referenceName:" : "ToonVerwaest 3/25/2010 12:39",
+		"referenceName:" : "CamilloBruni 8/1/2010 12:54",
 		"uid" : "ToonVerwaest 3/25/2010 12:39" } }
