@@ -4,7 +4,7 @@ initializeLinks
 	self link: Class to: PClass uid: #class.
 	self link: Metaclass to: PMetaclass uid: #metaclass.
 	(self linkAll: {Behavior. ClassDescription} to: PBehavior) uid: #behavior.
-	(self link: UndefinedObject to: PNil) name: #Nil asPObject; declareClass: true. 
+	(self link: UndefinedObject to: PNil) declareClass: true. 
 	self link: Dictionary to: PDictionary.
 	self link: Array to: PArray.
 	(self link: Set to: PSet) declareClass: true.
