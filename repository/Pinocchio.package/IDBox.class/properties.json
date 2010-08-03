@@ -1,0 +1,17 @@
+{
+	"category" : "Pinocchio-Bridge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ids",
+		"uidCounter",
+		"knownSymbolNames",
+		"currentClass" ],
+	"name" : "IDBox",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

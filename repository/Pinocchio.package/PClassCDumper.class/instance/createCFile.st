@@ -1,7 +1,7 @@
 exporting
 createCFile
-	self assureExistenceOfPath: self sourcePath, self outputFileBase.
-	stream := self createStream: '/', self outputFileBase, currentClass name asString , '.c'.
+	self assureExistenceOfPath: self sourcePath , '/lib/class'.
+	stream := self createStream: '/lib/class/' , currentClass name asString , '.c'.
 	self createHeader.
 	self exportMethods.
 	self exportClassMethods.
