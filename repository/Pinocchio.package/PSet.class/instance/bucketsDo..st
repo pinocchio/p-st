@@ -1,4 +1,3 @@
 enumerating
 bucketsDo: aBlock
-	1 to: buckets size do: [ :index |
-		(buckets at: index) ifNotNil: [ :bucket | aBlock value: bucket ] ]
+	buckets do: [ :bucket | bucket ifNotNil: [ aBlock value: bucket ] ]

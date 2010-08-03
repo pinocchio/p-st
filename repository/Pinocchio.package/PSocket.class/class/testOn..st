@@ -3,7 +3,7 @@ testOn: aPort
 
 	| sock conn data |
 	sock := self new.
-	sock primInit primListenOn: aPort.
+	sock primListenOn: aPort.
 	conn := sock accept.
 	data := conn receive.
 	self warn: ('* read from ', data).

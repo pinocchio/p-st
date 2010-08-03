@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Collection",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value",
+		"next" ],
+	"name" : "PLink",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

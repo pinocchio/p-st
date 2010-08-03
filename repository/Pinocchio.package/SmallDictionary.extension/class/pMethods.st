@@ -1,3 +1,5 @@
 *Pinocchio
 pMethods
-	self shouldNotHappen
+	self = SmallDictionary
+		ifTrue: [ ^ #all ].
+	^ super pMethods

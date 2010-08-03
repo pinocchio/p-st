@@ -1,4 +1,4 @@
 accessing
 locallyChangedClasses
 	^ self gofer localChanges operations
-		collect: [ :operation | operation targetClass ifNil: [ false ] ifNotNilDo: [ :cls | cls instanceSide ] ]
+		collect: [ :operation | operation targetClass ifNil: [ false ] ifNotNil: [ :cls | cls instanceSide ] ]

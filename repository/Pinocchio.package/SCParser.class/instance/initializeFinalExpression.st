@@ -1,3 +1,3 @@
 basic-block
 initializeFinalExpression
-	^ self expression
+	^ self expression & ('.' asPEG optional omit)
