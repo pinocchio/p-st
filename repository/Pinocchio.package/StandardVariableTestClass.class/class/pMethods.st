@@ -1,3 +1,4 @@
 exporting
 pMethods
+	<preventExport>
 	^ #all

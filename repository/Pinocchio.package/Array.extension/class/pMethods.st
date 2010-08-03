@@ -1,5 +1,5 @@
 *Pinocchio
 pMethods 
 	<preventExport>
-	self == Array ifFalse: [^ OrderedCollection new].
-	^ #all
+	self == Array ifTrue: [^{#asArray.}].
+	^ super pMethods
