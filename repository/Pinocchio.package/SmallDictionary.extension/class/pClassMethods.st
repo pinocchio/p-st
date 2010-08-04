@@ -1,5 +1,5 @@
 *Pinocchio
 pClassMethods
-	self = SmallDictionary
+	self == SmallDictionary
 		ifTrue: [ ^ #all ].
 	^ super pClassMethods

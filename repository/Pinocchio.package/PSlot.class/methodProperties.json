@@ -1,10 +1,9 @@
 {
 	"class" : {
-		"asPClass" : "CamilloBruni 5/4/2010 11:55" },
+		 },
 	"instance" : {
 		"accept:" : "CamilloBruni 5/4/2010 12:02",
 		"aliasFrom:to:in:" : "ToonVerwaest 4/6/2010 16:25",
 		"assign:on:" : "ToonVerwaest 5/18/2010 08:47",
 		"assignFor:to:" : "CamilloBruni 7/20/2010 12:01",
-		"readFrom:" : "ToonVerwaest 5/18/2010 08:46",
-		"uid" : "ToonVerwaest 3/25/2010 12:39" } }
+		"readFrom:" : "ToonVerwaest 5/18/2010 08:46" } }
