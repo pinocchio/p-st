@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"atKey:ifAbsent:" : "CamilloBruni 7/27/2010 22:19",
-		"atKey:put:ifAbsent:" : "ToonVerwaest 3/25/2010 12:39",
-		"keyIndex:ifAbsent:" : "ToonVerwaest 3/25/2010 12:39" } }
+		"assign:to:" : "ToonVerwaest 8/4/2010 11:41",
+		"at:ifAbsent:" : "ToonVerwaest 8/4/2010 11:41",
+		"includesKey:" : "ToonVerwaest 8/4/2010 11:42",
+		"remove:ifAbsent:" : "ToonVerwaest 8/4/2010 11:42" } }

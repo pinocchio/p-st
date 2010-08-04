@@ -19,8 +19,8 @@
 	"instance" : {
 		"setUp" : "ToonVerwaest 3/25/2010 12:39",
 		"testAdd" : "ToonVerwaest 3/25/2010 12:39",
-		"testAddRemove" : "ToonVerwaest 3/25/2010 12:39",
-		"testAtPutMixed" : "ToonVerwaest 5/10/2010 15:33",
+		"testAddRemove" : "ToonVerwaest 8/4/2010 11:52",
+		"testAtPutMixed" : "ToonVerwaest 8/4/2010 08:59",
 		"testAtPutUnique" : "ToonVerwaest 3/25/2010 12:39",
 		"testAtWhenAbsent" : "ToonVerwaest 3/25/2010 12:39",
 		"testAtifAbsent" : "ToonVerwaest 3/25/2010 12:39",

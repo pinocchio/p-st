@@ -1,4 +1,4 @@
 private
 addLine: aString
-	PFile stderr: aString.
-	PFile stderr lf.
+	PFile stdout: aString.
+	PFile stdout lf.

@@ -10,5 +10,5 @@
 	"name" : "PDictBucket",
 	"pools" : [
 		 ],
-	"super" : "PSetBucket",
+	"super" : "PAbstractBucket",
 	"type" : "variable" }

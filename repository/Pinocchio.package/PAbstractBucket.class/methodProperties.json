@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"new" : "ToonVerwaest 8/4/2010 11:40",
+		"new:" : "ToonVerwaest 8/4/2010 11:39",
+		"pClassMethods" : "ToonVerwaest 8/4/2010 11:40",
+		"pMethods" : "ToonVerwaest 8/4/2010 11:40",
+		"pTypeName" : "ToonVerwaest 8/4/2010 11:40",
+		"pinocchioName" : "ToonVerwaest 8/4/2010 11:40",
+		"splitCategory" : "ToonVerwaest 8/4/2010 11:40" },
+	"instance" : {
+		"bucketSize" : "ToonVerwaest 8/4/2010 11:36",
+		"copyFrom:" : "ToonVerwaest 8/4/2010 11:36",
+		"initialize" : "ToonVerwaest 8/4/2010 11:37",
+		"isFull" : "ToonVerwaest 8/4/2010 11:36" } }
