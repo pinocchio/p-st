@@ -1,0 +1,3 @@
+primitives
+isOtherEndClosed
+^ connected not.

@@ -1,13 +1,5 @@
 adding
-addInFirstBucket: value
-	| bucket |
-	bucket := buckets at: 1.
-	(bucket includes: value) ifTrue: [ ^ value ].
-	bucket isFull ifTrue: [
-		size < maxLinear ifFalse: [
-			self grow.
-			^ self add: value ].
-		bucket := self growBucketAt: 1 ].
-	bucket addNew: value.
-	size := size + 1.
-	^ value
+addInFirstBucket: anObject
+	(buckets at: 1) isFull
+		ifTrue: [ self growBucketAt: 1 ].
+	^ (buckets at: 1) add: anObject
