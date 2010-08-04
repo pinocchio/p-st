@@ -1,6 +1,6 @@
 accessing
 unwantedAnnotations
-	^ (IdentitySet new)
+	^ (PIdentitySet new)
 		add: #primitive:;
 		add: #primitive:module:;
 		add: #renameExport:;

@@ -1,7 +1,7 @@
 visitor
 visitMethodClosure: aPMethodClosure
 	| selector |
-	methodScope := IdentitySet new.
+	methodScope := IdentitySet  new.
 	stream lf.
 	selector := aPMethodClosure selector.
 	stream << 'static void init_'.

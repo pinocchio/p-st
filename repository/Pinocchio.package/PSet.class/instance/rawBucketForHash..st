@@ -1,3 +1,5 @@
 private
 rawBucketForHash: hash
-	^ buckets at: (hash \\ buckets size) + 1
+	"TODO make sure hash is always positive"
+
+	^ buckets at: (hash \\ buckets size + buckets size) \\ buckets size + 1

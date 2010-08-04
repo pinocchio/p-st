@@ -1,0 +1,17 @@
+{
+	"category" : "Pinocchio-Compiler",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"locals",
+		"depth",
+		"selector",
+		"host" ],
+	"name" : "PMethodBuilder",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }
