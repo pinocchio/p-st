@@ -1,6 +1,6 @@
 expression
 initializeUnaryObjectDescription
-	^ PEGMultiMemo
+	^ (PEGMultiParser
 		named: 'UNARY-OBJECT-DESCRIPTION'
 		parsing: self primary & self unarySelector times
 		semantics: [ :parts | |result|
@@ -9,4 +9,4 @@ initializeUnaryObjectDescription
 					result := (ASTUnaryExpression new)
 						receiver: result;
 						selector: (parts at: i) ].
-			result ]
+			result ]) memo

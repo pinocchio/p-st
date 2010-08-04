@@ -1,13 +1,9 @@
 *Pinocchio
 pClassMethods
 	<preventExport>
-	| s |
-	self = Collection ifTrue: [ 
-		s := OrderedCollection new.
-			s
-				add: #with:;
-				add: #with:with:;
-				add: #with:with:with:;
-				add: #withAll:.
-			^ s ].
+	self == Collection ifTrue: [ 
+		^ {#with:.
+			#with:with:.
+			#with:with:with:.
+			#withAll:.}].
 	^ super pClassMethods

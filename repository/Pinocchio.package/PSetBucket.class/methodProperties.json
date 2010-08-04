@@ -1,18 +1,10 @@
 {
 	"class" : {
-		"new" : "ToonVerwaest 3/25/2010 12:44" },
+		 },
 	"instance" : {
-		"add:" : "CamilloBruni 7/27/2010 22:28",
-		"bucketSize" : "ToonVerwaest 3/25/2010 12:44",
-		"copyFrom:" : "ToonVerwaest 3/25/2010 12:44",
-		"do:" : "ToonVerwaest 5/11/2010 18:42",
+		"addNew:" : "ToonVerwaest 8/4/2010 11:16",
+		"do:" : "ToonVerwaest 8/4/2010 11:02",
 		"includes:" : "CamilloBruni 7/27/2010 22:30",
-		"indexOf:ifAbsent:" : "CamilloBruni 7/27/2010 22:30",
-		"initialize" : "CamilloBruni 7/27/2010 22:21",
-		"isEmpty" : "ToonVerwaest 3/25/2010 12:44",
-		"isFull" : "ToonVerwaest 3/25/2010 12:44",
-		"remove:" : "ToonVerwaest 3/25/2010 12:44",
-		"remove:ifAbsent:" : "ToonVerwaest 3/25/2010 12:44",
-		"removeAll" : "CamilloBruni 7/27/2010 22:31",
-		"removeAt:" : "ToonVerwaest 3/25/2010 12:44",
-		"valueIndexDo:" : "ToonVerwaest 3/25/2010 12:44" } }
+		"remove:ifAbsent:" : "ToonVerwaest 8/4/2010 11:09",
+		"removeAll" : "ToonVerwaest 8/4/2010 11:09",
+		"removeAt:" : "ToonVerwaest 8/4/2010 11:10" } }

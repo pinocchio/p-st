@@ -1,6 +1,3 @@
 private
 newBucketAt: bucketIndex
-	| bucket |
-	bucket := PSetBucket new.
-	buckets at: bucketIndex put: bucket.
-	^ bucket
+	^ buckets at: bucketIndex put: (self newBucket: 4)
