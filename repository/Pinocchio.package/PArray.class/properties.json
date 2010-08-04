@@ -10,5 +10,5 @@
 	"name" : "PArray",
 	"pools" : [
 		 ],
-	"super" : "ArrayedCollection",
+	"super" : "PObject",
 	"type" : "variable" }

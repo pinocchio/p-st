@@ -1,0 +1,3 @@
+visiting
+visitConstant: constant
+	^ constant

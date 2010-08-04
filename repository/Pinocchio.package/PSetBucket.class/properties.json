@@ -10,5 +10,5 @@
 	"name" : "PSetBucket",
 	"pools" : [
 		 ],
-	"super" : "Array",
+	"super" : "PArray",
 	"type" : "variable" }
