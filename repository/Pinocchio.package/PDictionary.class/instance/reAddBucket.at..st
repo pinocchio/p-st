@@ -10,5 +10,5 @@ reAddBucket: bucket at: index
 			bucketIndex = index
 				ifTrue: [ c := c + 2 ]
 				ifFalse: [ 
-					(self bucketWithRoomAt: bucketIndex) newKey: key value: (bucket at: c + 1).
+					(self bucketForIndex: bucketIndex) newKey: key value: (bucket at: c + 1).
 					bucket removeAt: c ] ]

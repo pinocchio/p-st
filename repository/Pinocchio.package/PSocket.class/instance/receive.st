@@ -6,4 +6,4 @@ receive
 		PThread current primYield.
 	].
 	self warn: 'received'.
-	^ self primReceive.
+	^ self primReceive: 8000.

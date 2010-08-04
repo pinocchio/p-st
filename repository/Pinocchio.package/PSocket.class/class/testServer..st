@@ -3,7 +3,7 @@ testServer: aPort
 
 	| sock data |
 	sock := self new.
-	sock primInit primListenOn: aPort. 
+	sock primListenOn: aPort. 
 	[ 2>1 ] whileTrue: [
 		| conn |
 		conn := sock accept.
@@ -11,6 +11,7 @@ testServer: aPort
 			data := conn receive.
 			
 			[data first = $! ] whileFalse: [
+				self warn: ('Status ', conn isConnected ).
 				self warn: ('Received ', data , ', handle=', conn hash ).
 				self warn: ( 'Received ', data size, ' bytes' , ', handle=', conn hash ).
 				conn write: ( 'Received ', data size, ' bytes' ).
@@ -18,7 +19,8 @@ testServer: aPort
 			].
 		
 			self warn:  ('Will now close connection, handle=', conn hash ).
-			conn primClose.
+			conn closeAndDestroy: 0.
+			self warn: ('Status ', conn isConnected ).
 			
 		] fork.
 	].

@@ -1,3 +1,8 @@
 testing
 includes: anObject
-	^ self anySatisfy: [ :value | value = anObject ]
+	buckets do: [ :bucket | 
+		bucket ifNotNil: [ 
+			(bucket includes: anObject) ifTrue: [ ^ true ] 
+		]
+	].
+	^ false
