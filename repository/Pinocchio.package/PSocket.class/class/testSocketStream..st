@@ -13,7 +13,7 @@ testSocketStream: aPort
 			data := stream nextAllInBuffer.
 			
 			
-			[ ( data indexOf: $! ) > 0 ] whileFalse: [
+			[ data first = $!] whileFalse: [
 				self warn: ('Status ', conn isConnected ).
 				self warn: ('Received ', data , ', handle=', conn hash ).
 				self warn: ( 'Received ', data size, ' bytes' , ', handle=', conn hash ).
