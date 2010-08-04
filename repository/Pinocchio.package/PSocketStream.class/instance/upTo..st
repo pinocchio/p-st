@@ -28,6 +28,7 @@ upTo: aCharacterOrByte
 				index := 0]].
 		index = 0]]
 				whileTrue: [
+					self warn: ('Buffer: ', inBuffer copyFrom: 1 to: 200 ).
 					recentlyRead = 0
 						ifTrue: ["blocking call for now, we don't want to poll"
 							self receiveData]
