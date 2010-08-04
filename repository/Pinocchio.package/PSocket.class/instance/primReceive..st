@@ -9,7 +9,7 @@ primReceive: max
 
 	fwprintf(stdout, L"Size: %i\n", s);	
     fwprintf(stdout, L"Read: %s\n", dir);
-	dir[s - 1]      = L''\0'';
+	dir[s]      = L''\0'';
     ^ new_String_from_charp(&dir[0]);
 	'>
 	self pinocchioPrimitiveFailed.
