@@ -1,11 +1,12 @@
 {
 	"class" : {
-		"clearSymbolCache" : "CamilloBruni 7/27/2010 09:38",
+		"clearSymbolCache" : "ToonVerwaest 8/5/2010 19:44",
 		"initialize" : "ToonVerwaest 3/25/2010 12:44",
-		"named:" : "ToonVerwaest 3/25/2010 12:44",
-		"pInstVarNames" : "ToonVerwaest 5/19/2010 16:41",
+		"named:" : "ToonVerwaest 8/5/2010 19:45",
+		"pClassInstVarNames" : "ToonVerwaest 8/5/2010 19:46",
+		"pInstVarNames" : "ToonVerwaest 8/5/2010 19:35",
 		"pTypeName" : "CamilloBruni 6/7/2010 21:54",
-		"symbolDictionary" : "ToonVerwaest 3/25/2010 12:44",
+		"symboltable" : "ToonVerwaest 8/5/2010 19:45",
 		"uidFor:" : "CamilloBruni 7/21/2010 13:25" },
 	"instance" : {
 		"," : "ToonVerwaest 3/25/2010 12:44",

@@ -1,4 +1,4 @@
 pharo-exporting
-pInstVarNames
+symboltable
 	<preventExport>
-	^ {#instance}
+	^ symboltable
