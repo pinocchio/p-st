@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"width:" : "CamilloBruni 8/5/2010 13:37" },
+	"instance" : {
+		"initialize" : "CamilloBruni 8/5/2010 13:26",
+		"next" : "CamilloBruni 8/5/2010 13:27",
+		"nextInt:" : "CamilloBruni 8/5/2010 13:34",
+		"p" : "CamilloBruni 8/5/2010 13:27",
+		"p:" : "CamilloBruni 8/5/2010 13:27",
+		"primeSampleAt:" : "CamilloBruni 8/5/2010 13:28",
+		"reset" : "CamilloBruni 8/5/2010 13:30",
+		"sampleCount" : "CamilloBruni 8/5/2010 13:28",
+		"sampleCount:" : "CamilloBruni 8/5/2010 13:28",
+		"updateSamples" : "CamilloBruni 8/5/2010 13:28" } }
