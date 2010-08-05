@@ -10,5 +10,5 @@
 	"name" : "PDictBucketTest",
 	"pools" : [
 		 ],
-	"super" : "PSetBucketTest",
+	"super" : "AnObsoletePSetBucketTest",
 	"type" : "variable" }
