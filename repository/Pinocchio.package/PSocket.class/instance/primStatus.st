@@ -14,7 +14,7 @@ primStatus
 	to.tv_sec = 0;
 	to.tv_usec = 1000*10 ;
 
-	if((sval = select(sock + 1,&check_set,0,0,&to)) < 0)
+	if(  (sval = select(sock + 1,&check_set,0,0,&to)) < 0)
 	{
 		 fwprintf(stdout, L"Select returned %d %d",sval,errno);
 		ret_val = -1;

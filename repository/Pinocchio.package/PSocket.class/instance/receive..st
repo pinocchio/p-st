@@ -9,7 +9,7 @@ receive: max
 	self isConnected  ifFalse: [
 		self warn: 'Connection lost'.
 		^ nil.
-	].
+	] ifTrue: [ self warn: 'Connection is ok'].
 
 	self warn: 'received'.
 	^ self primReceive: max.
