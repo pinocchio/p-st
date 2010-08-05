@@ -1,7 +1,6 @@
 private
 reAddBucket: bucket at: index
 	| c key bucketIndex |
-	bucket ifNil: [ ^ self ].
 	c := 1.
 	buckets at: index put: bucket.
 	[ c <= bucket bucketSize ] whileTrue: [ 

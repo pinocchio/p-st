@@ -1,7 +1,7 @@
 adding
 add: value
 	| bucketIndex bucket |
-	buckets size = 1 ifTrue: [ ^ self addInFirstBucket: value ].
+	linear ifTrue: [ ^ self addInFirstBucket: value ].
 	bucketIndex := (value hash \\ buckets size) + 1.
 	bucket := buckets at: bucketIndex.
 	bucket ifNil: [

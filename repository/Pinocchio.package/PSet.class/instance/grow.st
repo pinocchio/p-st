@@ -1,7 +1,8 @@
 private
 grow
-	| oldBuckets oldSize |
+	| oldBuckets |
 	oldBuckets := buckets.
 	buckets := Array new: oldBuckets size * 2.
-	oldBuckets withIndexDo: [ :bucket :index |
-		bucket isNil ifFalse: [ self reAddBucket: bucket at: index]].
+	1 to: oldBuckets size do: [ :index |
+		(oldBuckets at: index) ifNotNil: [ :bucket |
+			self reAddBucket: bucket at: index]].

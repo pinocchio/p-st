@@ -1,7 +1,7 @@
 private
 bucketWithRoomAt: index
-	| bucket |
-	bucket := buckets at: index.
-	bucket ifNil: [ ^ self newBucketAt: index ].
-	bucket isFull ifTrue: [ ^ self growBucketAt: index ].
-	^ bucket
+	^ (buckets at: index)
+		ifNil: [ self newBucketAt: index ]
+		ifNotNil: [ :bucket |
+			bucket isFull ifTrue: [ ^ self growBucketAt: index ].
+			bucket ]
