@@ -28,8 +28,8 @@ exportBasicClasses
 		add: PWriteFile;
 		add: PReadFile;
 		add: PUIntSlot;
+		add: PSlot;
 		add: PPointerSlot;
-		add: PLink;
 		add: PProcess;
 		add: PAssertionFailure;
 		add: PRecursiveDoesNotUnderstand;

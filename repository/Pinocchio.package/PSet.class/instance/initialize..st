@@ -1,10 +1,9 @@
 initialization
 initialize: preferredSize
 	size := 0.
-	ratio := 500.
+	ratio := 300.
 	maxLinear := 20.
-	preferredSize < maxLinear
-		ifTrue: [ buckets := PArray with: (self class bucketClass new: maxLinear) ]
-		ifFalse:
-			[ "TODO calculate proper size here"
-			buckets := PArray new: 32 ]
+	(linear := preferredSize <= maxLinear)
+		ifTrue: [ buckets := Array with: (self newBucket: maxLinear) ]
+		ifFalse: [ "TODO calculate proper size here"
+			buckets := Array new: 32 ]

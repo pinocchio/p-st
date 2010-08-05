@@ -1,4 +1,0 @@
-accessing
-pMethods
-	<preventExport>
-	^ #all
