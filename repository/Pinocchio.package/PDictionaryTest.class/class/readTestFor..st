@@ -2,15 +2,15 @@ as yet unclassified
 readTestFor: aDictClass
 	| results samplings |
 	results := OrderedCollection new.
-	samplings := {5.
-	10.
-	20.
-	30.
-	50.
+	samplings := {50.
 	100.
 	200.
+	300.
 	500.
-	1000}.
+	1000.
+	2000.
+	5000.
+	10000}.
 	samplings
 		do:
 			[ :amount | 

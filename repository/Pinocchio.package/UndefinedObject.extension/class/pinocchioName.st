@@ -1,0 +1,4 @@
+*Pinocchio
+pinocchioName
+	<preventExport>
+	^ #Nil

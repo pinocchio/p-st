@@ -1,15 +1,11 @@
 *Pinocchio
 pMethods
 	<preventExport>
-	| s |
-	self = Point
+	self == Point
 		ifTrue:
-			[ s := OrderedCollection new.
-			s
-				add: #x;
-				add: #y;
-				add: #=;
-				add: #printString;
-				add: #setX:setY:.
-			^ s ].
+			[^{#x.
+				#y.
+				#=.
+				#printString.
+				#setX:setY:.}].
 	^ super pMethods

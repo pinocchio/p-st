@@ -2,4 +2,8 @@
 	"class" : {
 		"bucketClass" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
-		 } }
+		"add:" : "ToonVerwaest 8/5/2010 15:52",
+		"includes:" : "ToonVerwaest 8/5/2010 15:53",
+		"newBucket:" : "ToonVerwaest 8/5/2010 15:54",
+		"reAddBucket:at:" : "ToonVerwaest 8/5/2010 15:54",
+		"remove:ifAbsent:" : "ToonVerwaest 8/5/2010 15:55" } }
