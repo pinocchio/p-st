@@ -1,3 +1,3 @@
 *Pinocchio
 pMethods
-	^ self shouldNotHappen
+	^ Array new

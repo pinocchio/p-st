@@ -1,11 +1,5 @@
 {
 	"class" : {
-		 },
+		"bucketClass" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
-		"at:ifAbsent:" : "ToonVerwaest 8/5/2010 15:36",
-		"at:ifAbsentPut:" : "ToonVerwaest 8/5/2010 12:28",
-		"at:put:" : "ToonVerwaest 8/5/2010 12:28",
-		"includesKey:" : "ToonVerwaest 8/5/2010 15:38",
-		"newBucket:" : "ToonVerwaest 7/29/2010 12:55",
-		"reAddBucket:at:" : "ToonVerwaest 8/4/2010 14:45",
-		"removeKey:ifAbsent:" : "ToonVerwaest 8/5/2010 14:00" } }
+		 } }

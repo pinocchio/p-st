@@ -1,7 +1,11 @@
 inspecting
 inspectChildren
 	| children index |
-	children := Array new: size.
+	children := OrderedCollection new.
 	index := 0.
-	self valuesDo: [ :value | children at: (index := index + 1) put: index@value ].
+	buckets do: [ :bucket |
+		bucket ifNotNil:
+			[ 1 to: bucket bucketSize do: [ :i |
+				index := index + 1.
+				 children add: index@(bucket at: i)  ] ] ].
 	^ children

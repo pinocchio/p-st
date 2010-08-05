@@ -1,5 +1,8 @@
 *Pinocchio
 pMethods
-	<preventExport>
-	self == TestCase ifFalse: [ ^ #all ].
-	^ {#setUp.}
+	| s |
+	self = TestCase
+		ifFalse: [ ^ #all ].
+	s := OrderedCollection new.
+	s add: #setUp.
+	^ s

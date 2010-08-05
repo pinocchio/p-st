@@ -1,14 +1,19 @@
 *Pinocchio
 pMethods
 	<preventExport>
-	self == PositionableStream ifTrue: [ 
-		^ {#on:.
-			#position:.
-			#position.
-			#positionError.
-			#atEnd.
-			#back.
-			#peek.
-			#contents.
-			#reset}].
+	| s |
+	self = PositionableStream
+		ifTrue:
+			[ s := OrderedCollection new.
+			s
+				add: #on:;
+				add: #position:;
+				add: #position;
+				add: #positionError;
+				add: #atEnd;
+				add: #back;
+				add: #peek;
+				add: #contents;
+				add: #reset.
+			^ s ].
 	^ super pMethods
