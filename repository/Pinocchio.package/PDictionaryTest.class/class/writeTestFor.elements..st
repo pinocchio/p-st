@@ -6,9 +6,7 @@ writeTestFor: aDictClass elements: elements
 	d := aDictClass new: elements.
 	o := Object new.
 	results := OrderedCollection new.
-	1 to: 16 do:
-			[ :testCount | 
-			s := Time primMillisecondClock.
-			1 to: elements do: [ :count | d at: (r nextInt: elements) put: count ].
-			results add: Time primMillisecondClock - s ].
-	^ results average asFloat
+	s := Time primMillisecondClock.
+	1 to: 20 do: [ :testCount | 
+			1 to: elements do: [ :count | d at: r nextValue put: count ]. ].
+	^ (Time primMillisecondClock - s) / 20.0

@@ -2,13 +2,10 @@ as yet unclassified
 includesKeyTestFor: aDictClass elements: elements reads: reads
 	<preventExport>
 	| d r o index s results |
-	r := HamersleySequence with: 1001.
+	r := Random new seed: 1.
 	d := aDictClass new.
-	o := Object new.
-	results := OrderedCollection new.
+	1 to: elements do: [ :count | d at: count put: count ].
+	s := Time primMillisecondClock.
 	1 to: 200 do: [ :testCount | 
-			1 to: elements do: [ :count | d at: count put: count ].
-			s := Time primMillisecondClock.
-			1 to: reads do: [ :count | d includesKey: (r nextInt: elements) ].
-			results add: Time primMillisecondClock - s ].
-	^ results average asFloat
+			1 to: reads do: [ :count | d includesKey: (r nextInt: elements) ].].
+	^ (Time primMillisecondClock - s) / 200 asFloat

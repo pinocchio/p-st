@@ -2,14 +2,12 @@ as yet unclassified
 includesTestFor: aDictClass elements: elements reads: reads
 	<preventExport>
 	| d r o index s results |
-	r := HamersleySequence with: 1001.
+	r := Random new seed: 1.
 	d := aDictClass new.
 	o := Object new.
 	results := OrderedCollection new.
-	1 to: 20 do:
-			[ :testCount | 
-			1 to: elements do: [ :count | d at: count put: count ].
-			s := Time primMillisecondClock.
-			1 to: reads do: [ :count | d includes: (r nextInt: elements) ].
-			results add: Time primMillisecondClock - s ].
-	^ results average asFloat
+	1 to: elements do: [ :count | d at: count put: count ].
+	s := Time primMillisecondClock.
+	1 to: 20 do: [ :testCount | 
+			1 to: reads do: [ :count | d includes: (r nextInt: 10000) ] ].
+	^ (Time primMillisecondClock - s) / 20.0
