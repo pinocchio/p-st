@@ -1,4 +1,0 @@
-accessing
-uid
-	<preventExport>
-	^ uid

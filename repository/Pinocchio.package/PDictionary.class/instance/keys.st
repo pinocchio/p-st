@@ -1,6 +1,7 @@
 accessing
 keys
 	| keys index |
-	keys := PSet new: size.
-	self bucketsDo: [ :bucket | bucket keysDo: [ :key | keys add: key ] ].
+	keys := Array new: size.
+	index := 0.
+	self keysDo: [ :key | keys at: (index := index + 1) put: key ].
 	^ keys

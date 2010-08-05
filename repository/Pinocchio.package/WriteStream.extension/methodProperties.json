@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"pClassMethods" : "ToonVerwaest 6/24/2010 16:44",
-		"pMethods" : "ToonVerwaest 6/24/2010 16:45" },
+		"pClassMethods" : "ToonVerwaest 8/3/2010 14:15",
+		"pMethods" : "ToonVerwaest 8/3/2010 12:23" },
 	"instance" : {
-		"lf" : "ToonVerwaest 5/21/2010 18:55" } }
+		"lf" : "ToonVerwaest 5/21/2010 18:55",
+		"nextPut:" : "CamilloBruni 8/1/2010 21:51" } }

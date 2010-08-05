@@ -1,6 +1,5 @@
 {
 	"class" : {
-		"asPClass" : "ToonVerwaest 5/19/2010 16:26",
 		"clearSymbolCache" : "CamilloBruni 7/27/2010 09:38",
 		"initialize" : "ToonVerwaest 3/25/2010 12:44",
 		"named:" : "ToonVerwaest 3/25/2010 12:44",
@@ -27,11 +26,13 @@
 		"pasString" : "CamilloBruni 4/5/2010 15:56",
 		"pasSymbol" : "ToonVerwaest 5/6/2010 20:26",
 		"pat:" : "CamilloBruni 4/5/2010 15:56",
+		"pbasicAt:" : "CamilloBruni 8/1/2010 08:22",
 		"pequal:" : "CamilloBruni 4/5/2010 16:12",
 		"phash" : "CamilloBruni 4/5/2010 15:56",
+		"pputOn:" : "CamilloBruni 8/1/2010 11:38",
 		"printOn:" : "ToonVerwaest 7/28/2010 00:07",
 		"psize" : "CamilloBruni 4/5/2010 15:56",
-		"putOn:" : "ToonVerwaest 7/28/2010 00:07",
+		"putOn:" : "CamilloBruni 8/1/2010 11:38",
 		"species" : "ToonVerwaest 3/25/2010 12:44",
 		"symbol" : "ToonVerwaest 3/25/2010 12:44",
 		"symbol:" : "ToonVerwaest 3/25/2010 12:44",

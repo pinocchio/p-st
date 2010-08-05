@@ -1,7 +1,7 @@
 as yet unclassified
 includesTest
 	| pdict sdict dict |
-	TimeProfileBrowser spyOn: [ pdict := self includesTestFor: PDictionary ].
+	pdict := self includesTestFor: PDictionary.
 	dict := self includesTestFor: Dictionary.
 	sdict := self includesTestFor: SmallDictionary.
 	(CodeHolder new

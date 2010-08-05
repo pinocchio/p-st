@@ -1,0 +1,18 @@
+{
+	"category" : "Pinocchio-Collection",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"size",
+		"maxLinear",
+		"ratio",
+		"buckets",
+		"linear" ],
+	"name" : "PHashedCollection",
+	"pools" : [
+		 ],
+	"super" : "Collection",
+	"type" : "normal" }
