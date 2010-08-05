@@ -16,17 +16,17 @@ primStatus
 
 	if((sval = select(sock + 1,&check_set,0,0,&to)) < 0)
 	{
-		 fwprintf(stderr, L"Select returned %d %d",sval,errno);
+		 fwprintf(stdout, L"Select returned %d %d",sval,errno);
 		ret_val = -1;
 	}
 	if(sval == 0)
 	{
-		 fwprintf(stderr, L"Select timed out.");
+		 fwprintf(stdout, L"Select timed out.");
 		ret_val = 0;
 	}
 	else if(sval > 0)
 	{
-		 fwprintf(stderr, L"Select shows %d as return val.",sval);
+		 fwprintf(stdout, L"Select shows %d as return val.",sval);
 	}
 	
 	return( wrap_int(ret_val) );
