@@ -1,6 +1,6 @@
 primitives
 primStatus
-	<pPrimitive: #primWrite: plugin: #'IO.Socket' code: '	
+	<pPrimitive: #primStatus plugin: #'IO.Socket' code: '	
 	int sval;
 	int ret_val = 1;
 	fd_set check_set;
