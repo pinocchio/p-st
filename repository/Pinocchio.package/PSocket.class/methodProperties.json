@@ -8,10 +8,11 @@
 		"testSocketStream:" : "ewe 8/4/2010 16:09" },
 	"instance" : {
 		"accept" : "ewe 7/26/2010 13:34",
+		"checkConnected" : "ewe 8/5/2010 15:08",
 		"closeAndDestroy:" : "ewe 8/3/2010 15:01",
 		"dataAvailable" : "ewe 8/2/2010 16:24",
-		"isConnected" : "ewe 8/2/2010 16:24",
-		"isOtherEndClosed" : "ewe 8/2/2010 16:38",
+		"isConnected" : "ewe 8/5/2010 15:12",
+		"isOtherEndClosed" : "ewe 8/5/2010 15:12",
 		"pinitialize" : "ewe 8/3/2010 17:13",
 		"primAccept" : "ewe 7/26/2010 11:06",
 		"primClose" : "ewe 7/26/2010 16:11",
