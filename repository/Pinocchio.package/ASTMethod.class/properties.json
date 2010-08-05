@@ -9,7 +9,8 @@
 		"message",
 		"annotations",
 		"temporaries",
-		"statements" ],
+		"statements",
+		"sourceObject" ],
 	"name" : "ASTMethod",
 	"pools" : [
 		 ],

@@ -1,7 +1,6 @@
 private
 reAddBucket: bucket at: index
 	| c key bucketIndex |
-	bucket ifNil: [ ^ self ].
 	c := 1.
 	buckets at: index put: bucket.
 	[ c <= bucket bucketSize ] whileTrue: [ 
@@ -10,5 +9,5 @@ reAddBucket: bucket at: index
 			bucketIndex = index
 				ifTrue: [ c := c + 2 ]
 				ifFalse: [ 
-					(self bucketForIndex: bucketIndex) newKey: key value: (bucket at: c + 1).
+					(self bucketWithRoomAt: bucketIndex) newKey: key value: (bucket at: c + 1).
 					bucket removeAt: c ] ]

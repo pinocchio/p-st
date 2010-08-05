@@ -1,8 +1,5 @@
 as yet unclassified
 includes: anObject
-	self
-		do:
-			[ :each | 
-			each == anObject
-				ifTrue: [ ^ true ] ].
+	1 to: bucketSize do: [ :index | 
+			(self at: index) == anObject ifTrue: [ ^ true ] ].
 	^ false

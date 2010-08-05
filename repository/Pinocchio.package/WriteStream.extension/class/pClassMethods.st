@@ -1,10 +1,7 @@
 *Pinocchio
 pClassMethods
 	<preventExport>
-	self = WriteStream
+	self == WriteStream
 		ifTrue:
-			[ | s |
-			s := OrderedCollection new.
-			s add: #with:.
-			^ s ].
+			[ ^{#with:.} ].
 	^ super pMethods
