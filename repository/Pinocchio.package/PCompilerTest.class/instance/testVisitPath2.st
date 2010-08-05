@@ -14,7 +14,7 @@ testVisitPath2
 	result := self ast: 'IO.Object'.
 	result should = classReference.
 	result := self ast: 'Pinocchio.IO'.
-	result should = type.
+	result constant should = type.
 	result := self ast: 'Object'.
 	result should = classReference.
 	result := self ast: 'Pinocchio'.

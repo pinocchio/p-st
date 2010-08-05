@@ -3,4 +3,4 @@ newWith: cls
 	<preventExport>
 	^ (self new)
 		sclass: cls;
-		name: cls pinocchioName asPObject
+		name: cls pinocchioName
