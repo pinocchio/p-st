@@ -2,7 +2,7 @@ as yet unclassified
 readTestFor: aDictClass elements: elements reads: reads
 	<preventExport>
 	| d r o index s results |
-	r := HamersleySequence with: 10001.
+	r := PHamersleySequence with: elements.
 	d := aDictClass new.
 	1 to: elements do: [ :count | d at: count put: count ].
 	o := Object new.

@@ -2,7 +2,7 @@ as yet unclassified
 includesKeyTestFor: aDictClass elements: elements reads: reads
 	<preventExport>
 	| d r o index s results |
-	r := Random new seed: 1.
+	r := PHamersleySequence with: elements.
 	d := aDictClass new.
 	1 to: elements do: [ :count | d at: count put: count ].
 	s := Time primMillisecondClock.

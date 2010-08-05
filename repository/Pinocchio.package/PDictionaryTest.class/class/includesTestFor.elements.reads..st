@@ -2,7 +2,7 @@ as yet unclassified
 includesTestFor: aDictClass elements: elements reads: reads
 	<preventExport>
 	| d r o index s results |
-	r := Random new seed: 1.
+	r := PHamersleySequence with: elements.
 	d := aDictClass new.
 	o := Object new.
 	results := OrderedCollection new.

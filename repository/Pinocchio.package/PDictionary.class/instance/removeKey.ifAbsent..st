@@ -1,11 +1,12 @@
 removing
 removeKey: key ifAbsent: aBlock
 	| value bucket |
-	linear
-		ifTrue: [ bucket := buckets at: 1 ]
-		ifFalse: [
-			bucket := buckets at: key hash \\ buckets size + 1.
-			bucket ifNil: [ ^ aBlock value ]].
+	linear ifTrue: [
+		value := (buckets at: 1) removeKey: key ifAbsent: [ ^ aBlock value ].
+		self checkShrink.
+		^ value ].
+	bucket := buckets at: key hash \\ buckets size + 1.
+	bucket ifNil: [ ^ aBlock value ].
 	value := bucket remove: key ifAbsent: [ ^ aBlock value ].
 	self checkShrink.
 	^ value

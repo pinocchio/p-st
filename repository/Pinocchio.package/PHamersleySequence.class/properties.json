@@ -10,7 +10,7 @@
 		"p",
 		"m",
 		"sampleCount" ],
-	"name" : "HamersleySequence",
+	"name" : "PHamersleySequence",
 	"pools" : [
 		 ],
 	"super" : "PObject",
