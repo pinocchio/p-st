@@ -2,8 +2,8 @@ as yet unclassified
 writeTestFor: aDictClass elements: elements
 	<preventExport>
 	| d r o index s results |
-	r := HamersleySequence with: 10001.
-	d := aDictClass new: elements.
+	r := Random new.
+	d := aDictClass new.
 	o := Object new.
 	results := OrderedCollection new.
 	1 to: 16 do:

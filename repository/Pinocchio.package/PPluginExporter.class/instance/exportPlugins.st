@@ -1,5 +1,5 @@
 exporting
 exportPlugins
-	plugins keysAndValuesDo: [ :key :aCollection|
+	plugins keyValueDo: [ :key :aCollection|
 		self exportPlugin: key withPragmas: aCollection.
 	].

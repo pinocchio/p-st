@@ -1,3 +1,3 @@
 expression
 preStoreMessageExpression
-	^ parsers at: #messageExpression ifAbsentPut: [ (PEGParser named: 'MESSAGE-EXPRESSION') memo ]
+	^ parsers at: #messageExpression ifAbsentPut: [ PEGMemo named: 'MESSAGE-EXPRESSION' ]

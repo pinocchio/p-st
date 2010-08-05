@@ -1,6 +1,7 @@
 removing
 remove: anObject ifAbsent: aBlock
-	1 to: bucketSize do: [ :index |
-		(self at: index) = anObject
-			ifTrue: [ self removeAt: index. ^ anObject ]].
-	^ aBlock value
+	| index value |
+	index := self indexOf: anObject ifAbsent: [ ^ aBlock value ].
+	value := self at: index.
+	self removeAt: index.
+	^ value
