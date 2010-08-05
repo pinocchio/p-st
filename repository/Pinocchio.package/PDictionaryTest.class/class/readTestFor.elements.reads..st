@@ -2,7 +2,7 @@ as yet unclassified
 readTestFor: aDictClass elements: elements reads: reads
 	<preventExport>
 	| d r o index s results |
-	r := HamersleySequence with: 10001.
+	r := Random new.
 	d := aDictClass new.
 	o := Object new.
 	results := OrderedCollection new.

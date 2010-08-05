@@ -1,3 +1,3 @@
 private
 indent
-	0 to: indent do: [ :i | PFile stdout: PString tab ]
+	0 to: indent do: [ :i | PFile stderr: PString tab ]

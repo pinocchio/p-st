@@ -1,0 +1,4 @@
+accessing
+pMethods
+	<preventExport>
+	^ #all

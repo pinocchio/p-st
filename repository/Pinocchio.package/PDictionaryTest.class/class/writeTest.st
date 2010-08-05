@@ -1,7 +1,7 @@
 as yet unclassified
 writeTest
 	| pdict sdict dict |
-	pdict := self writeTestFor: PDictionary.
+	TimeProfileBrowser spyOn: [ pdict := self writeTestFor: PDictionary ].
 	dict := self writeTestFor: Dictionary.
 	sdict := self writeTestFor: SmallDictionary.
 	(CodeHolder new

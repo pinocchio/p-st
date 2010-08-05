@@ -1,6 +1,8 @@
 {
 	"class" : {
+		"asPClass" : "CamilloBruni 6/7/2010 23:55",
 		"pInstVarNames" : "ToonVerwaest 5/20/2010 01:50",
+		"pMethods" : "ToonVerwaest 3/25/2010 12:39",
 		"pTypeName" : "CamilloBruni 6/7/2010 23:28" },
 	"instance" : {
 		"accept:" : "CamilloBruni 7/27/2010 10:47",
@@ -14,7 +16,7 @@
 		"includesSelector:" : "ToonVerwaest 3/25/2010 12:39",
 		"inheritsFrom:" : "ToonVerwaest 3/25/2010 12:39",
 		"initialize" : "ToonVerwaest 3/25/2010 12:39",
-		"instVariables" : "ToonVerwaest 8/4/2010 15:33",
+		"instVariables" : "CamilloBruni 7/27/2010 09:20",
 		"layout" : "ToonVerwaest 3/25/2010 12:39",
 		"layout:" : "ToonVerwaest 5/17/2010 19:18",
 		"methodDict" : "ToonVerwaest 3/25/2010 12:39",

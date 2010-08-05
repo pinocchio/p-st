@@ -1,6 +1,8 @@
 testing
 includes: anObject
-	linear ifTrue: [ ^ (buckets at: 1) includes: anObject ].
-	^ (buckets at: anObject hash \\ buckets size + 1)
-		ifNil: [ false ]
-		ifNotNil: [ :bucket | bucket includes: anObject ]
+	| bucket |
+	buckets size = 1
+		ifTrue: [ ^ (buckets at: 1) includes: anObject ].
+	bucket := self rawBucketForHash: anObject hash.
+	bucket ifNil: [ ^ false ].
+	^ bucket includes: anObject
