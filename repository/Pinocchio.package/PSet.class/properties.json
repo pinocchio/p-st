@@ -9,10 +9,9 @@
 		"size",
 		"maxLinear",
 		"ratio",
-		"buckets",
-		"linear" ],
+		"buckets" ],
 	"name" : "PSet",
 	"pools" : [
 		 ],
-	"super" : "Collection",
+	"super" : "PObject",
 	"type" : "normal" }

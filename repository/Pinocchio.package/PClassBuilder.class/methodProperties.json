@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"forLayout:" : "ToonVerwaest 5/7/2010 23:00",
+		"named:as:" : "CamilloBruni 7/19/2010 13:25",
+		"named:super:as:" : "CamilloBruni 7/19/2010 13:25" },
+	"instance" : {
+		"as:" : "ToonVerwaest 5/18/2010 16:19",
+		"classMethod:as:" : "ToonVerwaest 5/11/2010 01:02",
+		"initialize" : "ToonVerwaest 5/17/2010 18:58",
+		"method:as:" : "ToonVerwaest 5/17/2010 18:57",
+		"name" : "ToonVerwaest 5/11/2010 00:44",
+		"name:" : "ToonVerwaest 5/11/2010 00:44",
+		"raiseDuplicateMethod:" : "ToonVerwaest 5/11/2010 01:03",
+		"slot:" : "ToonVerwaest 5/17/2010 18:58",
+		"slot:type:" : "ToonVerwaest 5/17/2010 19:00",
+		"superclass" : "ToonVerwaest 5/11/2010 00:49",
+		"superclass:" : "ToonVerwaest 5/11/2010 00:49" } }

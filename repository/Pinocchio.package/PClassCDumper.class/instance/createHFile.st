@@ -1,7 +1,7 @@
 exporting
 createHFile
 	| guardName |
-	stream := self createStream:  '/', self outputFileBase , currentClass name asString , '.h'.
+	stream := self createStream: '/lib/class/' , currentClass name asString , '.h'.
 	guardName := 'PINOCCHIO_LIB_' , currentClass name asString asUppercase.
 	self startGuard: guardName.
 	self include: 'pinocchio.h'.
