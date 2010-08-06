@@ -1,3 +1,3 @@
 printing
 putOn: aStream
-	aStream nextPutAll: self asString
+	aStream << self asString

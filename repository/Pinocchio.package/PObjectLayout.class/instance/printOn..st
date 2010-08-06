@@ -1,8 +1,8 @@
 printing
 printOn: aStream
 	super printOn: aStream.
-	aStream nextPutAll: ' size: '.
+	aStream << ' size: '.
 	self size printOn: aStream.
-	aStream nextPutAll: ' values: #('.
+	aStream << ' values: #('.
 	self do: [ :each | each printOn: aStream ].
-	aStream nextPutAll: ')'
+	aStream << $)
