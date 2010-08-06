@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"indent" ],
-	"name" : "PStdInspector",
+		"indent",
+		"stream" ],
+	"name" : "PStreamInspector",
 	"pools" : [
 		 ],
 	"super" : "PInspector",

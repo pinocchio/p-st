@@ -4,5 +4,7 @@ interpret: code
 		on: Object 
 		do: [ :ex | 
 			self exceptions add: ex.
-			ex warnOn: PFile stderr.
+			PTerminal stderr red.
+			ex warnOn: PTerminal stderr.
+			PTerminal stderr clear.
 			^ PVoid ].
