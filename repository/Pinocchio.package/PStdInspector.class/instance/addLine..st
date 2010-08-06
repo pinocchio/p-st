@@ -1,4 +1,5 @@
 private
 addLine: aString
-	PFile stdout: aString.
 	PFile stdout lf.
+	self indent.
+	PFile stdout: aString.

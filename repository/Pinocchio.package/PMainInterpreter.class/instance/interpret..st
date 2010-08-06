@@ -4,4 +4,5 @@ interpret: code
 		on: Object 
 		do: [ :ex | 
 			self exceptions add: ex.
-			self warn: ex asString. ^ ex].
+			ex warnOn: PFile stderr.
+			^ PVoid ].

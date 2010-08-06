@@ -10,6 +10,8 @@ pMethods
 				#reset.
 				#with:.
 				#lf.
+				#space.
+				#tab.
 				#position:.
 				#contents.
 				#growTo:.
