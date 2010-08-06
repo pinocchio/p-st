@@ -1,3 +1,3 @@
 printing
 lf
-	self nextPut: Character lf
+	self write: Character lf

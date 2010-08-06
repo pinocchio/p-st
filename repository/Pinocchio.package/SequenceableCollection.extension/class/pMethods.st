@@ -23,7 +23,6 @@ pMethods
 			#split:.
 			#copyWith:.
 			#do:separatedBy:.
-			#select:.
 			#collect:.
 			#last. }].
 	^ super pMethods

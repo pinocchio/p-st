@@ -1,5 +1,11 @@
 *Pinocchio
 pMethods
 	<preventExport>
-	self == Stream ifTrue: [ ^ #all ].
-	^ OrderedCollection new
+	self == Stream ifTrue: [
+		^ {#<<.
+			#atEnd.
+			#contents.
+			#flush.
+			#next.
+			} ].
+	^ super pMethods

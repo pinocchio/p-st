@@ -2,4 +2,4 @@ stop conditions
 tab
 	"Append a tab character to the receiver."
 
-	self nextPut: Character tab
+	self write: Character tab
