@@ -24,6 +24,7 @@ exportBasicClasses
 		add: PArrayLayout;
 		add: PIntLayout;
 		add: PWordsLayout;
+		add: PCharacterLayout;
 		add: PPlugin;
 		add: PWriteFile;
 		add: PReadFile;

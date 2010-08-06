@@ -14,13 +14,14 @@ initializeLinks
 	(self link: False to: PFalse) declareClass: true.
 	(self linkAll: {String. ByteString. WideString} to: PString) customLayout: true; declareClass: true.
 	(self linkAll: {Symbol. ByteSymbol. WideSymbol} to: PSymbol) customLayout: true.
-	(self link: Character to: PCharacter) declareClass: true.
+	(self link: Character to: PCharacter) customLayout: true; declareClass: true.
 	(self link: SmallInteger to: PSmallInt) customLayout: true.
 	self link: ProtoObject to: nil.
 	
 	self pInternalClassFrom: PDictBucket.
 	self pInternalClassFrom: PBytesLayout.
 	self pInternalClassFrom: PWordsLayout.
+	self pInternalClassFrom: PCharacterLayout.
 	self pInternalClassFrom: PIntLayout.
 	self pInternalClassFrom: PObjectLayout.
 	self pInternalClassFrom: PArrayLayout.
