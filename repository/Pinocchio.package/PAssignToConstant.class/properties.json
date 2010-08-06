@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Exception",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"constant",
+		"object" ],
+	"name" : "PAssignToConstant",
+	"pools" : [
+		 ],
+	"super" : "PException",
+	"type" : "normal" }
