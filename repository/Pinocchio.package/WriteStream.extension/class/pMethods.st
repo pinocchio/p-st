@@ -9,6 +9,7 @@ pMethods
 				#on:.
 				#reset.
 				#with:.
+				#lf.
 				#position:.
 				#contents.
 				#growTo:.
