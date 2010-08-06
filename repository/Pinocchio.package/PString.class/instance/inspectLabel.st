@@ -1,0 +1,3 @@
+inspecting
+inspectLabel
+	^ self
