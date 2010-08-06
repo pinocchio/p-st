@@ -1,8 +1,7 @@
 printing
 printOn: aStream
-	super printOn: aStream.
-	aStream << ' size: '.
-	self size printOn: aStream.
-	aStream << ' values: #('.
-	self do: [ :each | each printOn: aStream ].
+	aStream << self class name asString << ' ('.
+	self
+		do: [ :each | each printOn: aStream ]
+		separatedBy: [ aStream << ', ' ].
 	aStream << $)
