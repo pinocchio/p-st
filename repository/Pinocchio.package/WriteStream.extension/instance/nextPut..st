@@ -1,6 +1,5 @@
 *Pinocchio
 nextPut: anObject 
-	<renameExport: #nextPut:>
 	"Primitive. Insert the argument at the next position in the Stream
 	represented by the receiver. Fail if the collection of this stream is not an
 	Array or a String. Fail if the stream is positioned at its end, or if the

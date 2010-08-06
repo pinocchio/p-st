@@ -1,5 +1,5 @@
 *Pinocchio
-cEscaped
+cStringEscaped
 	<preventExport>
 	| dictArray dict |
 	dictArray := #( nil ).
@@ -9,6 +9,6 @@ cEscaped
 			dict at: Character lf put: '\n'.
 			dict at: Character tab put: '\t'.
 			dict at: $\ put: '\\'.
-			dict at: $' put: '\'''.
+			dict at: $" put: '\"'.
 			dictArray at: 1 put: dict ].
 	^ dict at: self ifAbsent: [ ^ self asString ]

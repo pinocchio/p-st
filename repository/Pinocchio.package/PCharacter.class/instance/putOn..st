@@ -1,5 +1,4 @@
 printing
 putOn: aStream 
-	aStream nextPutAll: '$'''.
+	aStream nextPut: $$.
 	aStream nextPut: self.
-	aStream nextPut: ''''.
