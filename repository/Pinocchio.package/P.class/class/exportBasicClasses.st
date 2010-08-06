@@ -43,6 +43,7 @@ exportBasicClasses
 		add: PCLITestRunner;
 		add: PPexMatcher;
 		add: PSocket;
+		add: PWriteStream;
 		"add: PSmallIntTest;"
 		"add: PACContextInterpreter;"
 		yourself

@@ -17,6 +17,7 @@ initializeLinks
 	(self link: Character to: PCharacter) customLayout: true; declareClass: true.
 	(self link: SmallInteger to: PSmallInt) customLayout: true.
 	self link: ProtoObject to: nil.
+	(self link: WriteStream to: PWriteStream) declareClass: true.
 	
 	self pInternalClassFrom: PDictBucket.
 	self pInternalClassFrom: PBytesLayout.

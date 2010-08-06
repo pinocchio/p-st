@@ -1,3 +1,3 @@
 printing
 putOn: aStream
-	aStream << self asString
+	^ aStream writeAll: self asString

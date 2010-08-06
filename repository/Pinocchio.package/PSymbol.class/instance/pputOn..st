@@ -1,4 +1,4 @@
 printing
 pputOn: stream
 	<renameExport: #putOn:>
-	^ stream nextPutAll: self
+	^ stream writeAll: self
