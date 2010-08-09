@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"bucketSize" ],
+		 ],
 	"name" : "PSetBucket",
 	"pools" : [
 		 ],
-	"super" : "PArray",
+	"super" : "PAbstractBucket",
 	"type" : "variable" }

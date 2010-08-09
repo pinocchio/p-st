@@ -1,3 +1,0 @@
-primitives
-dataAvailable
-^ self primReadyToReceive

@@ -1,3 +1,3 @@
 writing
 flush
-	self outStream flush.
+	outStream flush.

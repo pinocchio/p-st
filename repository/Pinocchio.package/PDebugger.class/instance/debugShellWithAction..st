@@ -14,7 +14,7 @@ debugShellWithAction: action
 			^ result ].
 	input = 'i'
 		ifTrue:
-			[ PStdInspector inspect: self currentSelf. ^ self debugShellWithAction: action ].
+			[ PStreamInspector inspect: self currentSelf. ^ self debugShellWithAction: action ].
 	input = 'j'
 		ifTrue:
 			[ stepBlock := self skipBlock: 2. ^ action value ]
