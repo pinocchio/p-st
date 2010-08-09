@@ -8,7 +8,7 @@ primReceiveInto: aString
 	fwprintf(stdout, L"Buffer size ->: %i\n", alloc );	
 	
     assert(!(  ( s =recv(unwrap_int(${handle}), buffer, alloc, 0)) == -1),
-        fwprintf(stderr, L"Socket failed to initialize"););
+        fwprintf(stderr, L"Socket failed to initialize, errono %i", errno););
 
 	if( s > 0 )
 	{
