@@ -2,7 +2,7 @@ primitives
 primReceiveInto: aString 
 	<pPrimitive: #primReceiveInto: plugin: #'IO.Socket' code: '
      char * buffer = unicode_to_ascii(((String)#{aString})->value);
-
+	int alloc = ((Symbol)aString)->size;
 	int s;
 
 	fwprintf(stdout, L"Buffer size ->: %i\n", strlen(buffer));	
