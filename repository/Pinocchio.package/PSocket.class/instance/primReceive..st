@@ -9,9 +9,10 @@ primReceive: max
 
 	if( s > 0 )
 	{
-	    fwprintf(stdout, L"Size: %i\n", s);	
- 	   fwprintf(stdout, L"Read: %s\n", dir);
+	    fwprintf(stdout, L"Size ->: %i\n", s);	
+ 	   fwprintf(stdout, L"Read -> : %s\n", dir);
 		dir[s]      = L''\0'';
+		 fwprintf(stdout, L"Before new string\n", s);
  	   ^ new_String_from_charp(&dir[0]);
 	}
 	if( s == 0 )
