@@ -32,7 +32,7 @@ primReceiveInto: aString
 		}
 	}
 	
-	^ s.
+	^ wrap_int( s ).
 	'>
 	self pinocchioPrimitiveFailed.
 	
