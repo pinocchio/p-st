@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"handle" ],
+		"handle",
+		"connected" ],
 	"name" : "PSocket",
 	"pools" : [
 		 ],

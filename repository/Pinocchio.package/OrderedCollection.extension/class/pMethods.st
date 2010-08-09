@@ -1,28 +1,30 @@
 *Pinocchio
 pMethods
 	<preventExport>
-	self == OrderedCollection
+	self = OrderedCollection
 		ifTrue:
-			[ ^{#add:.
-				#addAll:.
-				#addAllLast:.
-				#addFirst:.
-				#addLast:.
-				#asArray.
-				#at:.
-				#at:put:.
-				#collect:.
-				#do:.
-				#grow.
-				#growSize.
-				#makeRoomAtFirst.
-				#makeRoomAtLast.
-				#removeFirst.
-				#removeLast.
-				#reset.
-				#reverseDo:.
-				#reversed.
-				#inspectChildren.
-				#setCollection:.
-				#size.}].
+			[ | s |
+			s := OrderedCollection new.
+			s    add: #add:;
+				add: #addAll:;
+				add: #addAllLast:;
+				add: #addFirst:;
+				add: #addLast:;
+				add: #asArray;
+				add: #at:;
+				add: #at:put:;
+				add: #collect:;
+				add: #do:;
+				add: #grow;
+				add: #growSize;
+				add: #makeRoomAtFirst;
+				add: #makeRoomAtLast;
+				add: #removeFirst;
+				add: #removeLast;
+				add: #reset;
+				add: #reverseDo:;
+				add: #reversed;
+				add: #setCollection:;
+				add: #size.
+			^ s ].
 	^ super pMethods

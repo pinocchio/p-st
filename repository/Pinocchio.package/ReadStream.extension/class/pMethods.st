@@ -1,5 +1,10 @@
 *Pinocchio
 pMethods
 	<preventExport>
-	self == ReadStream ifTrue: [^{#next.}].
+	| s |
+	self = ReadStream
+		ifTrue:
+			[ s := OrderedCollection new.
+			s add: #next.
+			^ s ].
 	^ super pMethods

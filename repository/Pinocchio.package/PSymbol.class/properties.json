@@ -1,7 +1,7 @@
 {
-	"category" : "Pinocchio-String",
+	"category" : "Pinocchio-Type",
 	"classinstvars" : [
-		"symboltable" ],
+		"symbolDictionary" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

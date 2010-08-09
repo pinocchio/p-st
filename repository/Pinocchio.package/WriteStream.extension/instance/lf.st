@@ -1,3 +1,3 @@
 *Pinocchio
 lf
-	self nextPut: Character lf
+	self nextPutAll: String lf

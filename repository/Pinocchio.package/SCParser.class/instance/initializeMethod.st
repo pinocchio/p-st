@@ -2,12 +2,11 @@ method
 initializeMethod
 	^ (PEGMultiParser
 		named: 'METHOD'
-		parsing: (self separator
-			& self messagePattern
-			<& self annotations
+		parsing: self messagePattern
+			& self annotations
 			<& self temporaries optional
 			<& self statements
-			<& self separator) end
+			<& self separator
 		semantics: [ :parts | 
 			(ASTMethod new)
 				message: parts first;

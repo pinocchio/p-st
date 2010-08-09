@@ -1,3 +1,7 @@
 *Pinocchio
 pMethods
-	self shouldNotHappen
+	<preventExport>
+	| s |
+	self = PhexMatcher
+		ifTrue: [ ^ #all ].
+	^ super pMethods

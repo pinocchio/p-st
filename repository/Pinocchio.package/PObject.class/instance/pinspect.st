@@ -1,4 +1,4 @@
 inspecting
 pinspect
 	<renameExport: #inspect>
-	^ PStreamInspector inspect: self
+	^ PStdInspector inspect: self

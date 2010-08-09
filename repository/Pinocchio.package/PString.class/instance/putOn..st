@@ -1,3 +1,3 @@
 printing
 putOn:aStream
-	^ aStream writeAll: self.
+	^ aStream nextPutAll: self.
