@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Kernel-Exception",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"constant",
+		"object" ],
+	"name" : "PAssignmentFailure",
+	"pools" : [
+		 ],
+	"super" : "PException",
+	"type" : "normal" }

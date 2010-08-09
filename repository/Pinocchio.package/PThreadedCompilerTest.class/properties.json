@@ -1,5 +1,5 @@
 {
-	"category" : "Pinocchio-Compiler-Threaded",
+	"category" : "Pinocchio-Smalltalk-Threading",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -10,5 +10,5 @@
 	"name" : "PThreadedCompilerTest",
 	"pools" : [
 		 ],
-	"super" : "PVisitorTest",
+	"super" : "AnObsoletePVisitorTest",
 	"type" : "normal" }

@@ -1,0 +1,3 @@
+interpretation
+displayPrompt
+	output << '> '

@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"size",
-		"maxLinear",
-		"ratio",
-		"buckets" ],
+		 ],
 	"name" : "PSet",
 	"pools" : [
 		 ],
-	"super" : "PObject",
+	"super" : "PHashedCollection",
 	"type" : "normal" }

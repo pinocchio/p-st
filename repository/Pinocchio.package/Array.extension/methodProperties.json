@@ -1,5 +1,17 @@
 {
 	"class" : {
-		 },
+		"braceStream:" : "CamilloBruni 8/1/2010 08:40",
+		"braceWith:" : "CamilloBruni 8/1/2010 08:40",
+		"braceWith:with:" : "CamilloBruni 8/1/2010 08:40",
+		"braceWith:with:with:" : "CamilloBruni 8/1/2010 08:40",
+		"braceWith:with:with:with:" : "CamilloBruni 8/1/2010 08:40",
+		"braceWithNone" : "CamilloBruni 8/1/2010 08:39",
+		"pMethods" : "ToonVerwaest 8/3/2010 12:28" },
 	"instance" : {
-		"asPObject" : "ToonVerwaest 3/25/2010 12:44" } }
+		"asPObject" : "ToonVerwaest 3/25/2010 12:44",
+		"copyWithDependent:" : "CamilloBruni 8/1/2010 20:41",
+		"elementsExchangeIdentityWith:" : "CamilloBruni 8/1/2010 12:13",
+		"elementsForwardIdentityTo:" : "CamilloBruni 8/1/2010 12:14",
+		"elementsForwardIdentityTo:copyHash:" : "CamilloBruni 8/1/2010 12:14",
+		"evalStrings" : "CamilloBruni 8/1/2010 12:14",
+		"objectForDataStream:" : "CamilloBruni 8/1/2010 12:14" } }

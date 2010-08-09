@@ -2,4 +2,5 @@
 	"class" : {
 		"shouldInheritSelectors" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
-		"setUp" : "ToonVerwaest 3/25/2010 12:39" } }
+		"setUp" : "ToonVerwaest 8/3/2010 22:04",
+		"testAtPutMixed" : "ToonVerwaest 8/4/2010 11:53" } }

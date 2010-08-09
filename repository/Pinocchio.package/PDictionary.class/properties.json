@@ -10,5 +10,5 @@
 	"name" : "PDictionary",
 	"pools" : [
 		 ],
-	"super" : "PSet",
+	"super" : "PHashedCollection",
 	"type" : "normal" }

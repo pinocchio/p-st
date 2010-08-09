@@ -1,5 +1,5 @@
 convenience
 checkClassReference: classReference
-	classReference pclass should not = nil.
-	classReference package should not = nil.
-	classReference referenceName should not = nil
+	classReference ifNil: [ self shouldNotHappen ].
+	classReference pclass ifNil: [ self shouldNotHappen ].
+	classReference package ifNil: [ self shouldNotHappen ]

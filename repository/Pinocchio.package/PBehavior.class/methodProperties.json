@@ -1,8 +1,6 @@
 {
 	"class" : {
-		"asPClass" : "CamilloBruni 6/7/2010 23:55",
-		"pInstVarNames" : "ToonVerwaest 5/20/2010 01:50",
-		"pMethods" : "ToonVerwaest 3/25/2010 12:39",
+		"pInstVarNames" : "ToonVerwaest 8/5/2010 19:32",
 		"pTypeName" : "CamilloBruni 6/7/2010 23:28" },
 	"instance" : {
 		"accept:" : "CamilloBruni 7/27/2010 10:47",
@@ -16,14 +14,14 @@
 		"includesSelector:" : "ToonVerwaest 3/25/2010 12:39",
 		"inheritsFrom:" : "ToonVerwaest 3/25/2010 12:39",
 		"initialize" : "ToonVerwaest 3/25/2010 12:39",
-		"instVariables" : "CamilloBruni 7/27/2010 09:20",
+		"instVariables" : "ToonVerwaest 8/4/2010 15:33",
 		"layout" : "ToonVerwaest 3/25/2010 12:39",
 		"layout:" : "ToonVerwaest 5/17/2010 19:18",
 		"methodDict" : "ToonVerwaest 3/25/2010 12:39",
 		"methodProvider" : "ToonVerwaest 3/25/2010 12:39",
 		"methods" : "ToonVerwaest 3/25/2010 12:39",
 		"methods:" : "ToonVerwaest 3/25/2010 12:39",
-		"pInstVarNames" : "ToonVerwaest 5/21/2010 18:11",
+		"pInstVarNames" : "ToonVerwaest 8/5/2010 19:33",
 		"parentSlots" : "ToonVerwaest 5/20/2010 14:58",
 		"pbasicNew" : "ToonVerwaest 7/26/2010 18:54",
 		"pbasicNew:" : "ToonVerwaest 7/26/2010 18:54",

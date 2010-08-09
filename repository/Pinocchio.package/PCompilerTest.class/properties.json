@@ -1,5 +1,5 @@
 {
-	"category" : "Pinocchio-Compiler",
+	"category" : "Pinocchio-Smalltalk-Compiler",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -10,5 +10,5 @@
 	"name" : "PCompilerTest",
 	"pools" : [
 		 ],
-	"super" : "PVisitorTest",
+	"super" : "AnObsoletePVisitorTest",
 	"type" : "normal" }

@@ -1,7 +1,9 @@
 interpretation
 interpret: code
-	[ ^ self perform: (self compile: code) selector ] 
+	^ [ self perform: (self compile: code) selector ] 
 		on: Object 
-		do: [ :ex | 
-			self exceptions add: ex.
-			self warn: ex asString. ^ ex].
+		do: [ :ex |
+			PFile stderr red.
+			ex warnOn: PFile stderr.
+			PFile stderr clear.
+			PVoid ].

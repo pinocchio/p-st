@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Collection",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bucketSize" ],
+	"name" : "PAbstractBucket",
+	"pools" : [
+		 ],
+	"super" : "Array",
+	"type" : "variable" }

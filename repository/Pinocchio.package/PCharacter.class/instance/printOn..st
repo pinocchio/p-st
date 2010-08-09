@@ -1,3 +1,3 @@
 printing
 printOn: aStream 
-	aStream write: self.
+	aStream << $$ << self.
