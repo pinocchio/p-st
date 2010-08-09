@@ -1,3 +1,6 @@
 converting
 asPEGChoice
-	^ PEGTerminalChoice on: self.
+	| result |
+	result := PEGOrderedChoiceExpression new.
+	self do: [ :char | result <= char asPEG ].
+	^ result

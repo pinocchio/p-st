@@ -1,3 +1,3 @@
 visiting
 readFrom: context
-	^ value
+	^ self value

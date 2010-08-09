@@ -1,5 +1,5 @@
 {
-	"category" : "Pinocchio-Smalltalk-AST",
+	"category" : "Pinocchio-ST",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -9,8 +9,7 @@
 		"message",
 		"annotations",
 		"temporaries",
-		"statements",
-		"sourceObject" ],
+		"statements" ],
 	"name" : "ASTMethod",
 	"pools" : [
 		 ],

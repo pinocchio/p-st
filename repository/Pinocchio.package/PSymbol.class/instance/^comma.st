@@ -1,3 +1,3 @@
 composition
 , other
-	^ self asString, other
+	^ self asString , other

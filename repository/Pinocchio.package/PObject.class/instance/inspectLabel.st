@@ -1,3 +1,3 @@
 inspecting
 inspectLabel
-	^ self printString
+	^ self asString
