@@ -13,9 +13,9 @@ testBlockArguments
 	var := result at: 2.
 	var class should = ASTVariable.
 	var name should = 'def'.
-	string := PEGStringScanner on: ' :  abcd:   def '.
+	string := PEGStringScanner on: ':  abcd:   def '.
 	result := parser match: string.
-	string position should = 16.
+	string position should = 15.
 	result class should isCollection.
 	result size should = 2.
 	var := result first.

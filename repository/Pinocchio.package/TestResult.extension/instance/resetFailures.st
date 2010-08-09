@@ -1,3 +1,3 @@
 *Pinocchio-Testing
 resetFailures
-	failures := PSet new.
+	failures := Set new.
