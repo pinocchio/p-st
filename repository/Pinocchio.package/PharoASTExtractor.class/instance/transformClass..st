@@ -5,8 +5,6 @@ transformClass: sclass
 	done at: aPinocchioClass name ifPresent: [ :present | ^ present ].
 	self haltIf: (pcompiler rootScope isKindOf: PRootScope) not.
 	
-	"Transcript show: 'Transforming '; show: aPinocchioClass name; cr."
-	
 	done at: aPinocchioClass name put: aPinocchioClass.
 	classASTs at: aPinocchioClass name asSymbol put: aPinocchioClass.
 	aPinocchioClass package: (self ensurePackageFor: aPinocchioClass).

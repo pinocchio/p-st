@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"at:" : "ToonVerwaest 8/3/2010 15:17",
+		"at:" : "CamilloBruni 8/9/2010 18:08",
 		"currentClass:" : "CamilloBruni 7/27/2010 23:01",
 		"currentClassName" : "CamilloBruni 7/28/2010 01:10",
 		"idFor:" : "CamilloBruni 7/27/2010 09:36",
@@ -11,6 +11,7 @@
 		"initialize" : "ToonVerwaest 8/4/2010 15:08",
 		"rawDefaultIdFor:" : "ToonVerwaest 8/3/2010 15:20",
 		"rawIdFor:" : "ToonVerwaest 8/3/2010 15:18",
+		"rawSymbolIdFor:" : "CamilloBruni 8/9/2010 18:07",
 		"visitArray:" : "CamilloBruni 7/27/2010 09:53",
 		"visitArrayLayout:" : "CamilloBruni 7/28/2010 00:03",
 		"visitBoolean:" : "ToonVerwaest 8/3/2010 15:19",
@@ -32,9 +33,9 @@
 		"visitSTCharacter:" : "CamilloBruni 7/28/2010 00:53",
 		"visitSTSmallInt:" : "CamilloBruni 7/27/2010 13:38",
 		"visitSTString:" : "CamilloBruni 7/28/2010 00:51",
-		"visitSTSymbol:" : "ToonVerwaest 8/6/2010 15:47",
+		"visitSTSymbol:" : "CamilloBruni 8/9/2010 18:06",
 		"visitSelf:" : "CamilloBruni 7/27/2010 00:12",
-		"visitSlot:" : "CamilloBruni 7/27/2010 23:03",
+		"visitSlot:" : "CamilloBruni 8/9/2010 18:08",
 		"visitSmallInt:" : "CamilloBruni 7/28/2010 00:51",
 		"visitString:" : "CamilloBruni 7/28/2010 00:51",
 		"visitSymbol:" : "CamilloBruni 7/28/2010 00:52",

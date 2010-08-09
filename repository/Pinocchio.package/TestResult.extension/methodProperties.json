@@ -5,6 +5,8 @@
 		"removeFromTestHistory:in:" : "CamilloBruni 7/19/2010 11:42" },
 	"instance" : {
 		"diff:" : "CamilloBruni 7/19/2010 11:43",
+		"initialize" : "CamilloBruni 8/8/2010 16:14",
+		"pinitialize" : "CamilloBruni 8/8/2010 16:14",
 		"resetErrors" : "CamilloBruni 5/25/2010 20:26",
 		"resetFailures" : "ToonVerwaest 8/4/2010 09:30",
 		"updateResultsInHistory" : "CamilloBruni 7/19/2010 11:47" } }
