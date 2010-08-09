@@ -12,7 +12,6 @@ primReceiveInto: aString
 	{
 	    fwprintf(stdout, L"Size ->: %i\n", s);	
  	   fwprintf(stdout, L"Read -> : %s\n", buffer);
-		dir[s]      = L''\0'';
 		 fwprintf(stdout, L"Before new string\n", s);
 	}
 	if( s == 0 )
