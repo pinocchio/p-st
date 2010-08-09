@@ -9,8 +9,7 @@
 		"uid",
 		"methodProvider",
 		"pclass",
-		"customLayout",
-		"declareClass" ],
+		"customLayout" ],
 	"name" : "PInternalClass",
 	"pools" : [
 		 ],

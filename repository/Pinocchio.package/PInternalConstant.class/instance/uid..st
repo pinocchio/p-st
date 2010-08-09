@@ -1,3 +1,4 @@
 pharo-exporting
 uid: id
-	uid := id
+	<preventExport>
+	uid := id.

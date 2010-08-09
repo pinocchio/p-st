@@ -1,4 +1,5 @@
 printing
 printOn: stream
-	stream << $#.
-	super printOn: stream
+	stream << '#'''.
+	stream << self.
+	stream << ''''
