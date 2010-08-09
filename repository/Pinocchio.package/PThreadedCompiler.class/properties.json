@@ -1,5 +1,5 @@
 {
-	"category" : "Pinocchio-Smalltalk-Threading",
+	"category" : "Pinocchio-Kernel-Threading",
 	"classinstvars" : [
 		"functionPointers" ],
 	"classvars" : [
