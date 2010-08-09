@@ -1,3 +1,3 @@
 writing
 << aString
-	outStream << aString
+	aString printOn: self outStream.

@@ -1,5 +1,5 @@
 printing
 printOn: aStream
 	self receiver printOn: aStream.
-	aStream space.
+	aStream nextPutAll: String space.
 	super printOn: aStream

@@ -1,3 +1,3 @@
 private
 title: aTitle
-	self subclassResponsibility
+	self addLine: aTitle

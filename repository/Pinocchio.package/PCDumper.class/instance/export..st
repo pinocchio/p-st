@@ -1,6 +1,6 @@
 exporting
 export: aPRootPackage
 	(aPRootPackage isKindOf: PRootPackage)
-		ifFalse: [ self error: 'Can only export root packages' ].
+		ifFalse: [ self error: 'Can Only Export Root Packages' ].
 	self root: aPRootPackage.
 	self export.

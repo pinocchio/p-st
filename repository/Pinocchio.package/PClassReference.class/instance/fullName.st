@@ -1,3 +1,3 @@
 accessing
 fullName
-	^ self package fullName, '.', pClass name.
+	^ self package fullName, '.', self referenceName.

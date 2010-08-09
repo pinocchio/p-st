@@ -1,3 +1,3 @@
 copying
 copy
-	^ self species newFrom: self
+	^ self asSymbol asString

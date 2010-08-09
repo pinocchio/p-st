@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Collection",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"b" ],
+	"name" : "PSetBucketTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

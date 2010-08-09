@@ -6,7 +6,6 @@ SystemOrganization addCategory: #'Pinocchio-Bridge-Test'!
 SystemOrganization addCategory: #'Pinocchio-Class'!
 SystemOrganization addCategory: #'Pinocchio-Class-Layout'!
 SystemOrganization addCategory: #'Pinocchio-Collection'!
-SystemOrganization addCategory: #'Pinocchio-Collection-Stream'!
 SystemOrganization addCategory: #'Pinocchio-Compiler'!
 SystemOrganization addCategory: #'Pinocchio-Compiler-Threaded'!
 SystemOrganization addCategory: #'Pinocchio-Exception'!
@@ -15,12 +14,11 @@ SystemOrganization addCategory: #'Pinocchio-IO'!
 SystemOrganization addCategory: #'Pinocchio-IO-Term'!
 SystemOrganization addCategory: #'Pinocchio-Interpretation'!
 SystemOrganization addCategory: #'Pinocchio-Number'!
-SystemOrganization addCategory: #'Pinocchio-Object'!
 SystemOrganization addCategory: #'Pinocchio-Organization'!
 SystemOrganization addCategory: #'Pinocchio-Plugin'!
 SystemOrganization addCategory: #'Pinocchio-Relationship'!
 SystemOrganization addCategory: #'Pinocchio-Runtime'!
 SystemOrganization addCategory: #'Pinocchio-Slot'!
 SystemOrganization addCategory: #'Pinocchio-ST'!
-SystemOrganization addCategory: #'Pinocchio-String'!
 SystemOrganization addCategory: #'Pinocchio-Testing'!
+SystemOrganization addCategory: #'Pinocchio-Type'!
