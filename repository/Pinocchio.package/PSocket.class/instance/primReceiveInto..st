@@ -20,7 +20,7 @@ primReceiveInto: aString
 	{
 		// socket closed
 		fwprintf(stdout, L"Socket closed\n");
-		fail(ConnectionClosed_Class, 0);
+		fail(Network_Kernel_ConnectionClosed_Class, 0);
 	}
 	if( s < 0 )
 	{
