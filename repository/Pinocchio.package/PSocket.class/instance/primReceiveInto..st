@@ -1,6 +1,6 @@
 primitives
 primReceiveInto: aString 
-	<pPrimitive: #primReceive: plugin: #'IO.Socket' code: '
+	<pPrimitive: #primReceiveInto: plugin: #'IO.Socket' code: '
      char * buffer = unicode_to_ascii(((String)#{aString})->value);
 
 	int s;
@@ -11,18 +11,18 @@ primReceiveInto: aString
 	if( s > 0 )
 	{
 	    fwprintf(stdout, L"Size ->: %i\n", s);	
- 	   fwprintf(stdout, L"Read -> : %s\n", dir);
+ 	   fwprintf(stdout, L"Read -> : %s\n", buffer);
 		dir[s]      = L''\0'';
 		 fwprintf(stdout, L"Before new string\n", s);
 	}
 	if( s == 0 )
 	{
 		// socket closed
-		fwprintf(stdout, L"Socket closed\n", dir);
+		fwprintf(stdout, L"Socket closed\n");
 	}
 	if( s < 0 )
 	{
-		fwprintf(stdout, L"Error\n", dir);
+		fwprintf(stdout, L"Error\n");
 		if( errno == EAGAIN )
 		{ 	// no data availalbe in non-blocking mode, try again later
 		}
