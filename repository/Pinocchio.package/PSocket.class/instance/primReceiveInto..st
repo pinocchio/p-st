@@ -13,13 +13,14 @@ primReceiveInto: aString
 	if( s > 0 )
 	{
 	    fwprintf(stdout, L"Size ->: %i\n", s);	
- 	   fwprintf(stdout, L"Read -> : %s\n", buffer);
-		 fwprintf(stdout, L"Before new string\n", s);
+ 	    fwprintf(stdout, L"Read -> : %s\n", buffer);
+	    fwprintf(stdout, L"Before new string\n", s);
 	}
 	if( s == 0 )
 	{
 		// socket closed
 		fwprintf(stdout, L"Socket closed\n");
+		fail(IO_ConnectionClosed_Class, 0);
 	}
 	if( s < 0 )
 	{

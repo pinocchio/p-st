@@ -5,7 +5,7 @@
 		"test" : "ewe 8/3/2010 16:56",
 		"testOn:" : "ewe 8/2/2010 16:28",
 		"testServer:" : "ewe 8/3/2010 15:02",
-		"testSocketStream:" : "ewe 8/4/2010 16:09" },
+		"testSocketStream:" : "ewe 8/9/2010 15:21" },
 	"instance" : {
 		"accept" : "ewe 7/26/2010 13:34",
 		"checkConnected" : "ewe 8/5/2010 15:08",
@@ -25,7 +25,7 @@
 		"primReadyToWrite" : "ewe 7/26/2010 16:33",
 		"primReceive" : "ewe 8/9/2010 10:43",
 		"primReceive:" : "ewe 8/9/2010 11:13",
-		"primReceiveInto:" : "ewe 8/9/2010 14:58",
+		"primReceiveInto:" : "ewe 8/9/2010 15:17",
 		"primStatus" : "ewe 8/5/2010 16:39",
 		"primWrite:" : "DavidGurtner 7/21/2010 13:53",
 		"receive" : "ewe 8/9/2010 14:43",
@@ -36,7 +36,7 @@
 		"receiveDataSignallingClosedInto:startingAt:" : "ewe 8/3/2010 15:34",
 		"receiveDataSignallingTimeout:into:startingAt:" : "ewe 8/3/2010 15:34",
 		"receiveDataTimeout:into:startingAt:" : "ewe 8/3/2010 15:34",
-		"receiveInto:" : "ewe 8/9/2010 11:50",
+		"receiveInto:" : "ewe 8/9/2010 15:14",
 		"receiveSomeDataInto:startingAt:" : "ewe 8/3/2010 15:34",
 		"sendData:count:" : "ewe 8/3/2010 15:35",
 		"write:" : "ewe 7/26/2010 13:35" } }
