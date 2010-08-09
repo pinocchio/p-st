@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"pClassMethods" : "CamilloBruni 6/1/2010 17:40",
-		"pMethods" : "CamilloBruni 6/1/2010 17:39",
+		"pClassMethods" : "ToonVerwaest 8/3/2010 14:16",
+		"pMethods" : "ToonVerwaest 8/3/2010 12:24",
 		"removeFromTestHistory:in:" : "CamilloBruni 7/19/2010 11:42" },
 	"instance" : {
 		"diff:" : "CamilloBruni 7/19/2010 11:43",
 		"resetErrors" : "CamilloBruni 5/25/2010 20:26",
-		"resetFailures" : "CamilloBruni 5/25/2010 20:24",
+		"resetFailures" : "ToonVerwaest 8/4/2010 09:30",
 		"updateResultsInHistory" : "CamilloBruni 7/19/2010 11:47" } }

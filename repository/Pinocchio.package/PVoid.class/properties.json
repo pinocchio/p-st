@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Inspector",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PVoid",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

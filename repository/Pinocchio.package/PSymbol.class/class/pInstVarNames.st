@@ -1,6 +1,5 @@
 pharo-exporting
 pInstVarNames
 	<preventExport>
-	self = PSymbol
-		ifFalse: [ ^ super pInstVarNames ].
-	^ OrderedCollection new
+	self == PSymbol ifFalse: [ ^ super pInstVarNames ].
+	^ {}

@@ -1,5 +1,5 @@
 {
-	"category" : "Pinocchio-Type",
+	"category" : "Pinocchio-Object",
 	"classinstvars" : [
 		"nilInstance" ],
 	"classvars" : [

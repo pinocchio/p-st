@@ -1,0 +1,17 @@
+{
+	"category" : "Pinocchio-Collection",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"samples",
+		"p",
+		"m",
+		"sampleCount" ],
+	"name" : "PHamersleySequence",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "variable" }

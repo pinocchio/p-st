@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Collection-Stream",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"writeLimit" ],
+	"name" : "PWriteStream",
+	"pools" : [
+		 ],
+	"super" : "PositionableStream",
+	"type" : "normal" }

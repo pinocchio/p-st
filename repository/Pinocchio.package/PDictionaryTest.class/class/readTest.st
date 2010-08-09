@@ -1,7 +1,7 @@
 as yet unclassified
 readTest
-	| pdict sdict dict |
-	TimeProfileBrowser spyOn: [ pdict := self readTestFor: PDictionary ].
+	| pdict dict |
+	pdict := self readTestFor: PDictionary.
 	dict := self readTestFor: Dictionary.
 	(CodeHolder new contents: 'PDict: ' , pdict asString , String cr , 'Dict:  ' , dict asString)
 		openLabel: 'Read Test Results'

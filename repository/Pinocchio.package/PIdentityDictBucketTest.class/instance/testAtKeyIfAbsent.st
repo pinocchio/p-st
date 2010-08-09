@@ -1,3 +1,0 @@
-tests
-testAtKeyIfAbsent
-	super testAtKeyIfAbsent

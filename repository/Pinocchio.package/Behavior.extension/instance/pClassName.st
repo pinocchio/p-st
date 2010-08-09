@@ -1,3 +1,3 @@
 *Pinocchio
 pClassName
-	^ self pTypeName , '_Class'
+	^ (self pTypeName , '_Class') asSymbol
