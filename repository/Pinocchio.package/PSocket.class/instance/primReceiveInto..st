@@ -5,9 +5,9 @@ primReceiveInto: aString
 	int alloc = ((Symbol)aString)->size;
 	int s;
 
-	fwprintf(stdout, L"Buffer size ->: %i\n", strlen(buffer));	
+	fwprintf(stdout, L"Buffer size ->: %i\n", alloc );	
 	
-    assert(!(  ( s =recv(unwrap_int(${handle}), buffer, strlen(buffer), 0)) == -1),
+    assert(!(  ( s =recv(unwrap_int(${handle}), buffer, alloc, 0)) == -1),
         fwprintf(stderr, L"Socket failed to initialize"););
 
 	if( s > 0 )
