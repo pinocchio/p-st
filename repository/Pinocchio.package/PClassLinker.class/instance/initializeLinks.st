@@ -1,29 +1,25 @@
 as yet unclassified
 initializeLinks
-	self link: Object to: PObject.
-	self link: Class to: PClass uid: #class.
-	self link: Metaclass to: PMetaclass uid: #metaclass.
-	(self linkAll: {Behavior. ClassDescription} to: PBehavior) uid: #behavior.
-	(self link: UndefinedObject to: PNil) declareClass: true. 
-	self link: Dictionary to: PDictionary.
-	self link: Array to: PArray.
-	(self link: Set to: PSet) declareClass: true.
-	self link: Dictionary to: PDictionary.
-	(self link: Boolean to: PBoolean) declareClass: true.
-	(self link: True to: PTrue) declareClass: true.
-	(self link: False to: PFalse) declareClass: true.
-	(self linkAll: {String. ByteString. WideString} to: PString) customLayout: true; declareClass: true.
-	(self linkAll: {Symbol. ByteSymbol. WideSymbol} to: PSymbol) customLayout: true.
-	(self link: Character to: PCharacter) customLayout: true; declareClass: true.
-	(self link: SmallInteger to: PSmallInt) customLayout: true.
 	self link: ProtoObject to: nil.
-	(self link: WriteStream to: PWriteStream) declareClass: true.
+	(self link: Object to: PObject) declareClass: false.
+	(self link: Class to: PClass uid: #class) declareClass: false.
+	(self link: Metaclass to: PMetaclass uid: #metaclass) declareClass: false.
+	(self linkAll: {Behavior. ClassDescription} to: PBehavior) uid: #behavior; declareClass: false.
+	(self link: Dictionary to: PDictionary) declareClass: false.
+	(self link: Array to: PArray) declareClass: false.
+	(self link: SmallInteger to: PSmallInt) customLayout: true; declareClass: false.
+	(self linkAll: {String. ByteString. WideString} to: PString) customLayout: true.
+	(self linkAll: {Symbol. ByteSymbol. WideSymbol} to: PSymbol) customLayout: true; declareClass: false.
+	(self link: Character to: PCharacter) customLayout: true.
+	(self pInternalClassFrom: PSlot) declareClass: false.
+	self link: UndefinedObject to: PNil. 
+	self link: Set to: PSet.
+	self link: Boolean to: PBoolean.
+	self link: True to: PTrue.
+	self link: False to: PFalse.
+	self link: WriteStream to: PWriteStream.
 	
 	self pInternalClassFrom: PDictBucket.
-	self pInternalClassFrom: PBytesLayout.
-	self pInternalClassFrom: PWordsLayout.
-	self pInternalClassFrom: PCharacterLayout.
-	self pInternalClassFrom: PIntLayout.
-	self pInternalClassFrom: PObjectLayout.
-	self pInternalClassFrom: PArrayLayout.
-	self pInternalClassFrom: PSlot.
+	
+	self initializeLayoutLinks.
+	self initilizeTestingLinks.

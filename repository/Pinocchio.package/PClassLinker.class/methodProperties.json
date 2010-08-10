@@ -4,11 +4,13 @@
 		"pClassFrom:" : "CamilloBruni 8/1/2010 22:02" },
 	"instance" : {
 		"initialize" : "ToonVerwaest 8/4/2010 15:27",
-		"initializeLinks" : "ToonVerwaest 8/10/2010 14:28",
+		"initializeLayoutLinks" : "CamilloBruni 8/10/2010 15:17",
+		"initializeLinks" : "CamilloBruni 8/10/2010 15:19",
+		"initilizeTestingLinks" : "CamilloBruni 8/10/2010 13:48",
 		"link:to:" : "CamilloBruni 8/1/2010 23:43",
 		"link:to:uid:" : "ToonVerwaest 8/3/2010 18:00",
 		"linkAll:to:" : "ToonVerwaest 8/3/2010 18:02",
 		"pClassFrom:" : "ToonVerwaest 8/3/2010 18:03",
-		"pInternalClassFrom:" : "ToonVerwaest 8/3/2010 18:03",
+		"pInternalClassFrom:" : "CamilloBruni 8/10/2010 14:05",
 		"pinocchioNameFor:" : "ToonVerwaest 8/3/2010 15:21",
 		"uidFor:" : "CamilloBruni 8/2/2010 00:06" } }
