@@ -1,0 +1,22 @@
+{
+	"category" : "Pinocchio-Chronology",
+	"classinstvars" : [
+		"squeakEpoch",
+		"secondsInDay",
+		"secondsInHour",
+		"secondsInMinute",
+		"nanosInSecond",
+		"nanosInMillisecond",
+		"dayNames",
+		"monthNames",
+		"daysInMonth" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PChronologyConstants",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

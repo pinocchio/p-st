@@ -1,6 +1,6 @@
 *Pinocchio
 pClassMethods
 	<preventExport>
-	self = TestSuite
+	self == TestSuite
 		ifTrue: [ ^ #all ].
 	^ super pClassMethods

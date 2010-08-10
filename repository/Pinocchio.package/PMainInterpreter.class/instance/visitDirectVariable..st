@@ -1,3 +1,3 @@
 visiting
 visitDirectVariable: aVariable 
-	^ aVariable readFrom: context.
+	^ aVariable readFrom: nil.

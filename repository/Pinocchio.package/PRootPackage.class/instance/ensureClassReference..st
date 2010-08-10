@@ -1,3 +1,3 @@
 exporting
 ensureClassReference: aNameSymbol
-	^ self at: aNameSymbol ifAbsentPut: [ PClassReference named: aNameSymbol in: self ]
+	^ self at: aNameSymbol ifAbsentPut: [ PClassReference in: self ]

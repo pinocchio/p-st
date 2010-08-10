@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"new:" : "ToonVerwaest 8/5/2010 15:59",
+		"newFrom:" : "ToonVerwaest 8/5/2010 15:59",
+		"pClassMethods" : "ToonVerwaest 8/5/2010 15:59",
+		"pMethods" : "ToonVerwaest 8/5/2010 15:59",
+		"pTypeName" : "ToonVerwaest 8/5/2010 15:59",
+		"pinocchioName" : "ToonVerwaest 8/5/2010 15:59",
+		"splitCategory" : "ToonVerwaest 8/5/2010 15:59" },
+	"instance" : {
+		"bucketWithRoomAt:" : "ToonVerwaest 8/5/2010 15:48",
+		"bucketsDo:" : "ToonVerwaest 8/5/2010 15:49",
+		"checkGrow" : "ToonVerwaest 8/5/2010 15:49",
+		"checkShrink" : "ToonVerwaest 8/5/2010 15:49",
+		"copyEmpty" : "ToonVerwaest 8/5/2010 15:56",
+		"do:" : "ToonVerwaest 8/5/2010 15:53",
+		"grow" : "ToonVerwaest 8/5/2010 15:55",
+		"growBucketAt:" : "ToonVerwaest 8/5/2010 15:57",
+		"initialize" : "ToonVerwaest 8/5/2010 15:49",
+		"initialize:" : "ToonVerwaest 8/5/2010 15:49",
+		"maxLinear:" : "ToonVerwaest 8/5/2010 15:56",
+		"newBucketAt:" : "ToonVerwaest 8/5/2010 15:56",
+		"ratio:" : "ToonVerwaest 8/5/2010 15:55",
+		"removeAll" : "ToonVerwaest 8/5/2010 15:55",
+		"shrink" : "ToonVerwaest 8/5/2010 15:55",
+		"size" : "ToonVerwaest 8/5/2010 15:56" } }

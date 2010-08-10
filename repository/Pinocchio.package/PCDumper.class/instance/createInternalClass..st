@@ -1,5 +1,9 @@
 convenience
 createInternalClass: aPinocchioClass
+	aPinocchioClass declareClass ifTrue: [ 
+		self putRaw: aPinocchioClass with: [ :s | 
+			s << 'new_Class(' << (self idFor: aPinocchioClass superclass) << ', ' 
+				<< (self idFor: aPinocchioClass pmetaclass layout) << $) ]].
 	stream << 'Class_set_superclass(' << (self idFor: aPinocchioClass) << ', ' 
 		<< (self idFor: aPinocchioClass superclass); << ');'; lf.
 	aPinocchioClass customLayout ifFalse: [ 
