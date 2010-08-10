@@ -1,7 +1,9 @@
 {
 	"class" : {
+		"newTestDictionary" : "CamilloBruni 8/9/2010 11:41",
 		"pClassMethods" : "ToonVerwaest 8/3/2010 14:16",
 		"pMethods" : "ToonVerwaest 8/3/2010 12:24",
+		"pnewTestDictionary" : "CamilloBruni 8/9/2010 11:40",
 		"removeFromTestHistory:in:" : "CamilloBruni 7/19/2010 11:42" },
 	"instance" : {
 		"diff:" : "CamilloBruni 7/19/2010 11:43",
