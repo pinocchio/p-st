@@ -1,7 +1,6 @@
 accessing
 values
 	| values index |
-	values := Array new: size.
-	index := 0.
-	self valuesDo: [ :value | values at: (index := index + 1) put: value ].
+	values := OrderedCollection new: size.
+	self bucketsDo: [ :bucket | bucket valuesDo: [ :value | values add: value ] ].
 	^ values

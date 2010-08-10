@@ -24,13 +24,12 @@ exportBasicClasses
 		add: PArrayLayout;
 		add: PIntLayout;
 		add: PWordsLayout;
-		add: PCharacterLayout;
 		add: PPlugin;
 		add: PWriteFile;
 		add: PReadFile;
 		add: PUIntSlot;
-		add: PSlot;
 		add: PPointerSlot;
+		add: PLink;
 		add: PProcess;
 		add: PAssertionFailure;
 		add: PRecursiveDoesNotUnderstand;
@@ -43,7 +42,10 @@ exportBasicClasses
 		add: PCLITestRunner;
 		add: PPexMatcher;
 		add: PSocket;
-		add: PWriteStream;
+		add: ConnectionClosed ;
+		add: NetworkError ;
+		add: PConnectionClosed2 ;
+		add: PNetworkError2 ;
 		"add: PSmallIntTest;"
 		"add: PACContextInterpreter;"
 		yourself

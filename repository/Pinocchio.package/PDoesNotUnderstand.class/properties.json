@@ -1,14 +1,14 @@
 {
-	"category" : "Pinocchio-Kernel-Exception",
+	"category" : "Pinocchio-Exception",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"receiver",
 		"cls",
-		"message" ],
+		"message",
+		"receiver" ],
 	"name" : "PDoesNotUnderstand",
 	"pools" : [
 		 ],

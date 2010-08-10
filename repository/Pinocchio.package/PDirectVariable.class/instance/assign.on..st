@@ -1,3 +1,4 @@
 visiting
 assign: aValue on: anObject
-	^ value := aValue
+	self value: aValue.
+	^ aValue

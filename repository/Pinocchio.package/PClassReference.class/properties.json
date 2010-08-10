@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"referenceName",
 		"package",
 		"pClass" ],
 	"name" : "PClassReference",

@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"shouldInheritSelectors" : "ToonVerwaest 3/25/2010 12:44" },
+	"instance" : {
+		"setUp" : "ToonVerwaest 3/25/2010 12:44",
+		"testAddMixed" : "ToonVerwaest 3/25/2010 12:44",
+		"testAddUnique" : "ToonVerwaest 3/25/2010 12:44",
+		"testDo" : "ToonVerwaest 3/25/2010 12:44",
+		"testIncludesMixed" : "ToonVerwaest 3/25/2010 12:44",
+		"testIncludesUnique" : "ToonVerwaest 3/25/2010 12:44",
+		"testIsEmpty" : "ToonVerwaest 3/25/2010 12:44",
+		"testIsFull" : "ToonVerwaest 3/25/2010 12:44",
+		"testRemove" : "ToonVerwaest 3/25/2010 12:44",
+		"testRemoveIfAbsent" : "ToonVerwaest 3/25/2010 12:44",
+		"testValueIndexDo" : "ToonVerwaest 3/25/2010 12:44" } }

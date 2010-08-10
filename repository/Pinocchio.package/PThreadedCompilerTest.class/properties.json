@@ -10,5 +10,5 @@
 	"name" : "PThreadedCompilerTest",
 	"pools" : [
 		 ],
-	"super" : "AnObsoletePVisitorTest",
+	"super" : "PVisitorTest",
 	"type" : "normal" }

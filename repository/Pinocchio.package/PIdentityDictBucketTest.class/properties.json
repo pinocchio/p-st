@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Collection",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PIdentityDictBucketTest",
+	"pools" : [
+		 ],
+	"super" : "PDictBucketTest",
+	"type" : "variable" }
