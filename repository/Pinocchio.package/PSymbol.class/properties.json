@@ -1,7 +1,7 @@
 {
-	"category" : "Pinocchio-Type",
+	"category" : "Pinocchio-Kernel-String",
 	"classinstvars" : [
-		"symbolDictionary" ],
+		"symboltable" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -10,5 +10,5 @@
 	"name" : "PSymbol",
 	"pools" : [
 		 ],
-	"super" : "PObject",
+	"super" : "PString",
 	"type" : "normal" }

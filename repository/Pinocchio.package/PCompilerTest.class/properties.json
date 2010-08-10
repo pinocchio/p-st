@@ -10,5 +10,5 @@
 	"name" : "PCompilerTest",
 	"pools" : [
 		 ],
-	"super" : "PVisitorTest",
+	"super" : "AnObsoletePVisitorTest",
 	"type" : "normal" }

@@ -1,5 +1,0 @@
-tests
-testAdd
-	"skip"
-
-	

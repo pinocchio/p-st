@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"new" : "CamilloBruni 8/9/2010 22:05",
+		"on:" : "CamilloBruni 8/9/2010 22:06" },
+	"instance" : {
+		"<<" : "CamilloBruni 8/9/2010 22:03",
+		"cr" : "CamilloBruni 8/9/2010 22:03",
+		"indent" : "CamilloBruni 8/9/2010 22:04",
+		"initialize" : "CamilloBruni 8/9/2010 22:07",
+		"lf" : "CamilloBruni 8/9/2010 22:04",
+		"outdent" : "CamilloBruni 8/9/2010 22:04",
+		"updateIndentionString" : "CamilloBruni 8/9/2010 22:04" } }

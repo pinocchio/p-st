@@ -1,7 +1,5 @@
 interpretation
 interpretFile: filename
-	| file code |
-	file := PReadFile open: filename.
-	code := file readAll.
-	file close.
+	| code |
+	code := PReadFile readAllFrom: filename.
 	self interpret: code

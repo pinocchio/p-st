@@ -1,8 +1,7 @@
 {
 	"class" : {
-		 },
+		"pTypeName" : "ToonVerwaest 8/9/2010 18:19" },
 	"instance" : {
-		"environment" : "ToonVerwaest 5/6/2010 16:03",
-		"environment:" : "ToonVerwaest 5/6/2010 16:03",
 		"message" : "ToonVerwaest 5/6/2010 16:03",
-		"message:" : "ToonVerwaest 5/6/2010 16:03" } }
+		"message:" : "ToonVerwaest 5/6/2010 16:03",
+		"warnOn:" : "ToonVerwaest 8/6/2010 18:47" } }

@@ -1,5 +1,0 @@
-private
-shouldShrink
-	"TODO"
-
-	^ false

@@ -1,5 +1,5 @@
 {
-	"category" : "Pinocchio-AST",
+	"category" : "Pinocchio-Kernel-AST",
 	"classinstvars" : [
 		"instance" ],
 	"classvars" : [
