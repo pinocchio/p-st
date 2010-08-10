@@ -10,5 +10,5 @@
 	"name" : "PCompilerTest",
 	"pools" : [
 		 ],
-	"super" : "AnObsoletePVisitorTest",
+	"super" : "TestCase",
 	"type" : "normal" }

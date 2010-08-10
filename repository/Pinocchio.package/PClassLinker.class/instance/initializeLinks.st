@@ -19,7 +19,7 @@ initializeLinks
 	self link: False to: PFalse.
 	self link: WriteStream to: PWriteStream.
 	
-	self pInternalClassFrom: PDictBucket.
+	(self pInternalClassFrom: PDictBucket) declareClass: false.
 	
 	self initializeLayoutLinks.
 	self initilizeTestingLinks.
