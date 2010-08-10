@@ -1,7 +1,7 @@
 exporting
 createHFile
 	| guardName fileStream |
-	stream := IndentableWriteStream on: (String new: 500).
+	stream := PIndentableWriteStream on: (String new: 500).
 	guardName := 'PINOCCHIO_LIB_' , currentClass name asString asUppercase.
 	self startGuard: guardName.
 	self include: 'pinocchio.h'.

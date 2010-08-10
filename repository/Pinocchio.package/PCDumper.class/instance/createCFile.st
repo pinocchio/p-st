@@ -2,7 +2,7 @@ exporting
 createCFile
 	| codeStream new name namedin ensureClass ensurePackage initialize fileStream |
 	codeStream := stream.
-	stream := IndentableWriteStream on: (String new: 10000).
+	stream := PIndentableWriteStream on: (String new: 10000).
 	self include: 'lib/lib.h'.
 	
 	root packagesDo: [ :package | 
@@ -46,6 +46,6 @@ createCFile
 	fileStream << stream.
 	fileStream close.
 	
-	stream := self createStream: '/lib/VERSION'.
+	"stream := self createStream: '/lib/VERSION'.
 	stream << P currentVersionNumber; lf.
-	stream close
+	stream close"

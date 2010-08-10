@@ -2,13 +2,6 @@
 	"class" : {
 		"new" : "CamilloBruni 7/27/2010 14:07" },
 	"instance" : {
-		"<<" : "ToonVerwaest 8/2/2010 15:32",
-		"cr" : "CamilloBruni 7/27/2010 22:48",
-		"indent" : "CamilloBruni 7/27/2010 14:01",
-		"initialize" : "CamilloBruni 7/27/2010 14:07",
-		"lf" : "CamilloBruni 7/27/2010 22:48",
-		"nextPut:" : "CamilloBruni 7/27/2010 22:49",
-		"nextPutAll:" : "CamilloBruni 7/27/2010 22:50",
-		"nextPutAll:until:" : "CamilloBruni 8/10/2010 12:01",
-		"outdent" : "CamilloBruni 7/27/2010 14:01",
-		"updateIndentionString" : "CamilloBruni 7/27/2010 14:16" } }
+		"nextPut:" : "ToonVerwaest 8/10/2010 13:52",
+		"nextPutAll:" : "ToonVerwaest 8/10/2010 13:52",
+		"writeAll:until:" : "ToonVerwaest 8/10/2010 13:52" } }

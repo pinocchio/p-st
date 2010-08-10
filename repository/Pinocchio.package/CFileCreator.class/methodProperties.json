@@ -4,7 +4,7 @@
 	"instance" : {
 		"assureExistenceOfPath:" : "ToonVerwaest 3/25/2010 12:39",
 		"clearDirectory:" : "ToonVerwaest 3/25/2010 12:39",
-		"comment:" : "CamilloBruni 4/5/2010 11:29",
+		"comment:" : "ToonVerwaest 8/10/2010 14:34",
 		"createMethodSourceStringFor:" : "CamilloBruni 7/26/2010 23:22",
 		"createStream:" : "ToonVerwaest 8/3/2010 21:23",
 		"endGuard:" : "ToonVerwaest 3/25/2010 12:39",
@@ -15,4 +15,4 @@
 		"methodForSelector:inClass:" : "ToonVerwaest 3/25/2010 12:39",
 		"restrictExportOn:" : "ToonVerwaest 8/4/2010 11:28",
 		"sourcePath" : "ToonVerwaest 3/25/2010 12:39",
-		"startGuard:" : "CamilloBruni 7/26/2010 23:24" } }
+		"startGuard:" : "ToonVerwaest 8/10/2010 13:56" } }

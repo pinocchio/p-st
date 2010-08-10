@@ -2,7 +2,7 @@ exporting
 createCFile
 	| layout fileStream |
 	self assureExistenceOfPath: self sourcePath, self outputFileBase.
-	stream := IndentableWriteStream on: (String new: 1500 * currentClass methods size).
+	stream := PIndentableWriteStream on: (String new: 1500 * currentClass methods size).
 	"visit the layout first to create all the globals"
 	layout := self exportLayout.
 	

@@ -1,5 +1,5 @@
 sourceCreation
-prepareStream
+fileStream
 	| sourcePath |
 	self assureExistenceOfPath: pluginPath.
 	^ self openSourceStream.

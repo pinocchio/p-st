@@ -1,5 +1,5 @@
 {
-	"category" : "Pinocchio-Bridge",
+	"category" : "Pinocchio-Collection-Stream",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -8,8 +8,8 @@
 	"instvars" : [
 		"indentionString",
 		"indent" ],
-	"name" : "IndentableWriteStream",
+	"name" : "PIndentableWriteStream",
 	"pools" : [
 		 ],
-	"super" : "WriteStream",
+	"super" : "PWriteStream",
 	"type" : "normal" }
