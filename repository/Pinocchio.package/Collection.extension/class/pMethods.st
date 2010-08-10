@@ -4,6 +4,7 @@ pMethods
 	self == Collection
 		ifTrue:
 			[^{#inject:into:.
+				#addAll:.
 				#isEmpty.
 				#hasReturnExpression.
 				#anySatisfy:.
