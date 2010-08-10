@@ -1,3 +1,3 @@
 visitor
 visitClass: aPClass
-	self addGlobal: aPClass
+	globals add: aPClass

@@ -1,0 +1,5 @@
+converting
+asArray
+	"^ self"
+
+	

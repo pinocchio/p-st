@@ -1,4 +1,7 @@
 parsing
 fullmatch: aString
-	^ self fullmatch: aString withParser: self method.
-	
+	| input result |
+	input := PEGStringScanner on: aString separator: self separator.
+	result := (self method match: input) ifNil: [ self parsingFailed ].
+	input should be atEnd.
+	^ result

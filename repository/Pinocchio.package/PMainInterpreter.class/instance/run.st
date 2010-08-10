@@ -1,5 +1,5 @@
 interpretation
 run
 	args isEmpty
-		ifTrue: [ PShell runWith: self ]
+		ifTrue: [ self shell ]
 		ifFalse: [ self interpretFile: args first ]

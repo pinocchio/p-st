@@ -13,6 +13,6 @@ export
 	self createCFile.
 	self createHFile.
 	
-	"self createAutoCompletionFile."
+	self createAutoCompletionFile.
 
 	self exportPlugins.

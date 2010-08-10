@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"args",
-		"homeContext" ],
+		"homeContext",
+		"scope",
+		"exceptions" ],
 	"name" : "PMainInterpreter",
 	"pools" : [
 		 ],

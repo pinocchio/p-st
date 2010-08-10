@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"pInstVarNames" : "ToonVerwaest 8/5/2010 19:35",
+		"asPClass" : "ToonVerwaest 5/26/2010 18:23",
+		"pInstVarNames" : "ToonVerwaest 5/19/2010 16:42",
 		"pTypeName" : "CamilloBruni 6/7/2010 21:52" },
 	"instance" : {
 		"&" : "CamilloBruni 4/5/2010 16:12",
@@ -36,7 +37,6 @@
 		"pequal:" : "CamilloBruni 4/5/2010 16:12",
 		"phash" : "ToonVerwaest 3/25/2010 12:44",
 		"printOn:" : "ToonVerwaest 7/27/2010 09:30",
-		"putOn:" : "ToonVerwaest 8/6/2010 18:18",
 		"timesRepeat:" : "ToonVerwaest 3/25/2010 12:44",
 		"to:by:do:" : "CamilloBruni 7/26/2010 16:50",
 		"to:do:" : "CamilloBruni 6/11/2010 22:17",

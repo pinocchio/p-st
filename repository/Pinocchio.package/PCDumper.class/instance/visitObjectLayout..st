@@ -12,4 +12,4 @@ visitObjectLayout: aPObjectLayout
 				<< '((Array)' << (self idFor: aPObjectLayout ) << ')->values[' 
 				<< (index - 1) asString << '] = ' << (self idFor: each asPObject)
 				<< '; // ' << each name << ' '; lf ].
-	self addGlobal: aPObjectLayout
+	globals add: aPObjectLayout
