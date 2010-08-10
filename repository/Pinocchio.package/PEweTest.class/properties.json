@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-IO",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PEweTest",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }
