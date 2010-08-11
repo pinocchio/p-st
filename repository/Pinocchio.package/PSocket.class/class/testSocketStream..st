@@ -23,7 +23,7 @@ testSocketStream: aPort
 				].
 			] 
 			on: PConnectionClosed2 
-			do: [ self warn: 'Error: Connection closed' ].
+			do: [ :error | self warn: 'Error: Connection closed' ].
 			
 			self warn:  ('Will now close connection, handle=', conn hash ).
 			conn closeAndDestroy: 0.
