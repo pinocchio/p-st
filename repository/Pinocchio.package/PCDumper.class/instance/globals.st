@@ -1,3 +1,3 @@
-visitor
+accessing
 globals
 	^ globals

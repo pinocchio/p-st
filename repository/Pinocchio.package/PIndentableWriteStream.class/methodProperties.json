@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"new" : "CamilloBruni 8/9/2010 22:05",
+		"on:" : "CamilloBruni 8/9/2010 22:06" },
+	"instance" : {
+		"cr" : "ToonVerwaest 8/10/2010 14:12",
+		"indent" : "ToonVerwaest 8/10/2010 13:47",
+		"initialize" : "ToonVerwaest 8/10/2010 13:51",
+		"lf" : "ToonVerwaest 8/10/2010 14:54",
+		"nextPut:" : "ToonVerwaest 8/10/2010 13:54",
+		"nextPutAll:" : "ToonVerwaest 8/10/2010 13:54",
+		"outdent" : "ToonVerwaest 8/10/2010 13:47",
+		"putOn:" : "ToonVerwaest 8/10/2010 13:43",
+		"spaceString:" : "ToonVerwaest 8/10/2010 13:51",
+		"updateIndentionString" : "ToonVerwaest 8/10/2010 14:48",
+		"writeAll:until:" : "ToonVerwaest 8/10/2010 14:50",
+		"writeIndent" : "ToonVerwaest 8/10/2010 14:13" } }

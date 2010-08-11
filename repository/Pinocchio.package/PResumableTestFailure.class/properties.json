@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Testing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PResumableTestFailure",
+	"pools" : [
+		 ],
+	"super" : "PTestFailure",
+	"type" : "normal" }

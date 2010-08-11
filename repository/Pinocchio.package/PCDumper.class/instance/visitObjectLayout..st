@@ -11,5 +11,6 @@ visitObjectLayout: aPObjectLayout
 			stream
 				<< '((Array)' << (self idFor: aPObjectLayout ) << ')->values[' 
 				<< (index - 1) asString << '] = ' << (self idFor: each asPObject)
-				<< '; // ' << each name << ' '; lf ].
-	globals add: aPObjectLayout
+				<< '; // ' << each name << ' '.
+			stream lf ].
+	self addGlobal: aPObjectLayout

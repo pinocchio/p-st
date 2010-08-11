@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"current" : "CamilloBruni 8/10/2010 11:35",
+		"current:" : "CamilloBruni 8/10/2010 11:35",
+		"isAbstract" : "CamilloBruni 8/10/2010 11:35",
+		"isAvailable" : "CamilloBruni 8/10/2010 11:35",
+		"isUnavailable" : "CamilloBruni 8/10/2010 11:35",
+		"reset" : "CamilloBruni 8/10/2010 11:35",
+		"resources" : "CamilloBruni 8/10/2010 11:35",
+		"signalInitializationError" : "CamilloBruni 8/10/2010 11:35" },
+	"instance" : {
+		"description" : "CamilloBruni 8/10/2010 11:35",
+		"description:" : "CamilloBruni 8/10/2010 11:35",
+		"initialize" : "CamilloBruni 8/10/2010 11:35",
+		"isAvailable" : "CamilloBruni 8/10/2010 11:35",
+		"isUnavailable" : "CamilloBruni 8/10/2010 11:35",
+		"name" : "CamilloBruni 8/10/2010 11:35",
+		"name:" : "CamilloBruni 8/10/2010 11:35",
+		"printOn:" : "CamilloBruni 8/10/2010 11:35",
+		"resources" : "CamilloBruni 8/10/2010 11:35",
+		"setUp" : "CamilloBruni 8/10/2010 11:35",
+		"signalInitializationError" : "CamilloBruni 8/10/2010 11:35",
+		"tearDown" : "CamilloBruni 8/10/2010 11:35" } }

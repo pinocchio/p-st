@@ -1,4 +1,4 @@
 visitor
 visitRootPackage: aPRootPackage
 	self visitCollection: aPRootPackage members.
-	globals add: aPRootPackage
+	self addGlobal: aPRootPackage

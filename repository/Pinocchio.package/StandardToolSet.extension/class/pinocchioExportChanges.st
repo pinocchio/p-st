@@ -1,3 +1,0 @@
-*Pinocchio
-pinocchioExportChanges
-	P export

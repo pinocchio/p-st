@@ -1,8 +1,3 @@
 convenience
 declareClass: aPClass
-	stream lf.
-	self comment: aPClass sclass name.
-	stream lf.
-	self currentClass: aPClass.
-	self createClass: aPClass.
-	self currentClass: nil.
+	stream << 'init_'; << aPClass name asString; << '_layout();'; lf.

@@ -2,8 +2,8 @@ initialize-release
 initialize
 	super initialize.
 	root := PRootPackage new.
-	done := IdentityDictionary new.
-	todo := IdentitySet new.
+	done := PIdentityDictionary new.
+	todo := PIdentitySet new.
 	pcompiler := PCompiler new.
 	pcompiler world: self.
 	classASTs := PDictionary new

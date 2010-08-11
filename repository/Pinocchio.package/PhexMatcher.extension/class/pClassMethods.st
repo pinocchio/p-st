@@ -1,10 +1,7 @@
 *Pinocchio
 pClassMethods
 	<preventExport>
-	| s |
-	self = PhexMatcher
+	self == PhexMatcher
 		ifTrue:
-			[ s := OrderedCollection new.
-			s add: #with:.
-			^ s ].
+			[ ^ {#with:.}].
 	^ super pMethods

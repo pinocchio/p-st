@@ -1,6 +1,13 @@
 exporting
 export
-	self prepareStream.
+	| fileStream |
+	stream := PIndentableWriteStream on: (String new: 500).
+	
+	self writeAutoGenFileHeader.
 	self writePrimitives.
 	self writePlugin.
-	stream close.
+	
+	fileStream := self fileStream.
+	fileStream << stream.
+	fileStream close.
+	

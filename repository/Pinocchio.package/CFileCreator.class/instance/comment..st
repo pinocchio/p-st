@@ -1,7 +1,4 @@
 convenience
 comment: aString
-	stream
-		nextPutAll: '// ';
-		nextPutAll: aString asString;
-		nextPutAll: '. ';
-		lf
+	stream << '// ' << aString asString << '. '.
+	stream lf
