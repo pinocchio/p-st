@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"compile:on:" : "ToonVerwaest 5/20/2010 18:06",
-		"pClassMethods" : "ToonVerwaest 8/3/2010 14:14" },
+		"pClassMethods" : "ToonVerwaest 3/25/2010 12:39" },
 	"instance" : {
 		"compile:" : "ToonVerwaest 6/26/2010 02:16",
 		"compileThreadedMethod:" : "CamilloBruni 6/8/2010 18:51",
@@ -58,6 +58,6 @@
 		"visitUnaryExpression:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitUnaryMessageDefinition:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitUnarySelector:" : "ToonVerwaest 6/1/2010 13:33",
-		"visitVariable:" : "ToonVerwaest 8/4/2010 15:33",
+		"visitVariable:" : "CamilloBruni 6/8/2010 09:40",
 		"world" : "ToonVerwaest 5/8/2010 01:11",
 		"world:" : "ToonVerwaest 3/25/2010 12:39" } }

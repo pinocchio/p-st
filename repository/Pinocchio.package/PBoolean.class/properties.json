@@ -1,5 +1,5 @@
 {
-	"category" : "Pinocchio-Kernel-Object",
+	"category" : "Pinocchio-Type",
 	"classinstvars" : [
 		"trueInstance",
 		"falseInstance" ],

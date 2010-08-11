@@ -1,16 +1,10 @@
 {
 	"class" : {
-		"newTestDictionary" : "CamilloBruni 8/9/2010 11:41",
-		"pClassMethods" : "ToonVerwaest 8/3/2010 14:16",
-		"pMethods" : "ToonVerwaest 8/3/2010 12:24",
-		"pnewTestDictionary" : "CamilloBruni 8/9/2010 11:40",
+		"pClassMethods" : "CamilloBruni 6/1/2010 17:40",
+		"pMethods" : "CamilloBruni 6/1/2010 17:39",
 		"removeFromTestHistory:in:" : "CamilloBruni 7/19/2010 11:42" },
 	"instance" : {
 		"diff:" : "CamilloBruni 7/19/2010 11:43",
-		"failures" : "CamilloBruni 8/9/2010 23:13",
-		"initialize" : "CamilloBruni 8/8/2010 16:14",
-		"pinitialize" : "CamilloBruni 8/8/2010 16:14",
-		"printOn:" : "CamilloBruni 8/9/2010 23:25",
 		"resetErrors" : "CamilloBruni 5/25/2010 20:26",
-		"resetFailures" : "ToonVerwaest 8/4/2010 09:30",
+		"resetFailures" : "CamilloBruni 5/25/2010 20:24",
 		"updateResultsInHistory" : "CamilloBruni 7/19/2010 11:47" } }

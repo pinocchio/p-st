@@ -2,6 +2,11 @@
 	"class" : {
 		"new" : "CamilloBruni 7/27/2010 14:07" },
 	"instance" : {
-		"nextPut:" : "ToonVerwaest 8/10/2010 13:52",
-		"nextPutAll:" : "ToonVerwaest 8/10/2010 13:52",
-		"writeAll:until:" : "ToonVerwaest 8/10/2010 13:52" } }
+		"cr" : "CamilloBruni 7/27/2010 22:48",
+		"indent" : "CamilloBruni 7/27/2010 14:01",
+		"initialize" : "CamilloBruni 7/27/2010 14:07",
+		"lf" : "CamilloBruni 7/27/2010 22:48",
+		"nextPut:" : "CamilloBruni 7/27/2010 22:49",
+		"nextPutAll:" : "CamilloBruni 7/27/2010 22:50",
+		"outdent" : "CamilloBruni 7/27/2010 14:01",
+		"updateIndentionString" : "CamilloBruni 7/27/2010 14:16" } }

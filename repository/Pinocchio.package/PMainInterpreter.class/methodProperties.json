@@ -4,8 +4,16 @@
 	"instance" : {
 		"args" : "ToonVerwaest 3/25/2010 12:39",
 		"args:" : "ToonVerwaest 3/25/2010 12:39",
-		"compile:" : "ToonVerwaest 8/9/2010 13:58",
-		"interpret:" : "ToonVerwaest 8/9/2010 14:53",
-		"interpretFile:" : "ToonVerwaest 8/9/2010 14:51",
-		"run" : "ToonVerwaest 8/9/2010 13:43",
-		"visitDirectVariable:" : "ToonVerwaest 8/9/2010 13:42" } }
+		"compile:" : "CamilloBruni 7/20/2010 16:45",
+		"displayPrompt" : "ToonVerwaest 6/8/2010 16:56",
+		"exceptions" : "CamilloBruni 7/19/2010 14:44",
+		"initialize" : "CamilloBruni 7/20/2010 14:52",
+		"interpret:" : "CamilloBruni 7/20/2010 16:46",
+		"interpretFile:" : "ToonVerwaest 3/25/2010 12:39",
+		"interpretFromStdin" : "ToonVerwaest 3/25/2010 12:39",
+		"layout" : "ToonVerwaest 5/8/2010 00:12",
+		"package" : "ToonVerwaest 5/8/2010 00:41",
+		"run" : "ToonVerwaest 3/25/2010 12:39",
+		"shell" : "CamilloBruni 6/1/2010 15:29",
+		"slotAt:ifAbsent:" : "CamilloBruni 7/21/2010 16:30",
+		"visitDirectVariable:" : "CamilloBruni 7/20/2010 15:22" } }

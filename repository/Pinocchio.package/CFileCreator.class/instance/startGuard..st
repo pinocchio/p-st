@@ -1,5 +1,5 @@
 exporting
 startGuard: guardName
 	stream
-		<< '#ifndef '; << guardName; lf;
-		<< '#define '; << guardName; << ' '; lf; lf
+		<< '#ifndef '; << guardName; cr;
+		<< '#define '; << guardName; << ' '; cr; cr

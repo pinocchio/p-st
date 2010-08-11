@@ -1,4 +1,6 @@
 pharo-exporter
 pInstVarNames
 	<preventExport>
-	^ self pclass pInstVarNames
+	(self pclass respondsTo: #pInstVarNames)
+		ifTrue: [ ^ self pclass pInstVarNames ].
+	^ OrderedCollection new

@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-ST",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PVisitorTestWorld",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

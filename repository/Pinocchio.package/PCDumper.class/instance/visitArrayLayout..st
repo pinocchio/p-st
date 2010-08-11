@@ -10,4 +10,4 @@ visitArrayLayout: aPArrayLayout
 	aPArrayLayout withIndexDo: [ :each :index | 
 			stream << '((Array)' << (self idFor: aPArrayLayout) << ')->values[' 
 					<< (index - 1) asString << '] = ' << (self idFor: each) <<';'; lf ].
-	self addGlobal: aPArrayLayout
+	globals add: aPArrayLayout
