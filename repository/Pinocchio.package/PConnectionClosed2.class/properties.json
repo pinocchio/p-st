@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-IO",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PConnectionClosed2",
+	"pools" : [
+		 ],
+	"super" : "PNetworkError2",
+	"type" : "normal" }

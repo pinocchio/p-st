@@ -1,12 +1,11 @@
 exporting
 export: todo restrict: restrictionSet
-	| astExtractor cdumper root astProgressRatio |
+	| astExtractor cdumper root |
 	restrictionSet isEmpty ifTrue: [ P reset. ].
 	cdumper := PCDumper new restrictExportOn: restrictionSet.
-	cdumper idBox: PIDBox new.
+	cdumper idBox: IDBox new.
 	astExtractor := PharoASTExtractor new.
-	astProgressRatio := 40.0.
-	progress := [ astExtractor progress / astProgressRatio ].
+	progress := [ astExtractor progress / 3 ].
 	root := astExtractor extract: todo.
-	progress := [ cdumper progress * ((astProgressRatio-1) / astProgressRatio) + (1 / astProgressRatio) ].
+	progress := [ cdumper progress * (2 / 3) + (1 / 3) ].
 	cdumper export: root

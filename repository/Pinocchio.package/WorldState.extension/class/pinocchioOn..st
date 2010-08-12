@@ -6,6 +6,7 @@ pinocchioOn: aBuilder
 		icon: MenuIcons smallPinocchioIcon;
 		with: [
 			(aBuilder item: # 'Browser') action: [P browser]; icon: Browser taskbarIcon.
+			(aBuilder item: # 'Export Changes') action: [P export.].
 			(aBuilder item: # 'Export All') action: [P exportAll.].
 			(aBuilder item: # 'Update') action: [P upgrade.].
 			(aBuilder item: # 'Update Merged') action: [P upgradeMerged.].

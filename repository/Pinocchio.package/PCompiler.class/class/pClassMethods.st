@@ -1,4 +1,3 @@
 *Pinocchio
 pClassMethods
-	<preventExport>
 	^ #all

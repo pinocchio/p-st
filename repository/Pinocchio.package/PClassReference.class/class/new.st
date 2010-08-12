@@ -1,3 +1,3 @@
 instance creation
 new
-	self shouldNotCall
+	self error: 'Don''t'

@@ -1,3 +1,0 @@
-*Pinocchio
-pClassMethods
-	^ #all

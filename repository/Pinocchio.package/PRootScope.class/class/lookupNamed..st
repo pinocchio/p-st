@@ -1,3 +1,4 @@
 accessing
 lookupNamed: aSymbol
-	^ self lookupNamed: aSymbol ifAbsent: [ aSymbol variableNotFound ]
+	self halt.	"For now return nil for easier exporting"
+	^ decls at: aSymbol ifAbsent: [ ^ nil ]

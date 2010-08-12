@@ -1,4 +1,4 @@
 pharo-exporting
 pInstVarNames
 	<preventExport>
-	^ {#instance}
+	^ OrderedCollection with: #instance

@@ -1,0 +1,3 @@
+visiting
+visitSelf: self
+	^ self

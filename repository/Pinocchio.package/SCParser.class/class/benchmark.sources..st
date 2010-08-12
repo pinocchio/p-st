@@ -1,6 +1,5 @@
 as yet unclassified
 benchmark: aParser sources: aCollection
-	<preventExport>
 	<ignoreForCoverage>
 	| start count end |
 	start := Time millisecondClockValue.
