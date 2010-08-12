@@ -1,4 +1,4 @@
 enumerating
 keysAndValuesDo: aBlock
-	self bucketsDo: [ :bucket | bucket keyValueDo: aBlock ]
+	self bucketsDo: [ :bucket | bucket keysAndValuesDo: aBlock ]
 	

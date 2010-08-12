@@ -1,6 +1,3 @@
 printing
 printString
-	| stream |
-	stream := WriteStream on: ''.
-	self printOn: stream.
-	^ stream contents
+	^ String streamContents: [ :stream | self printOn: stream ]

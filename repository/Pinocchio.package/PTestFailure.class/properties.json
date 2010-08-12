@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Testing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PTestFailure",
+	"pools" : [
+		 ],
+	"super" : "PException",
+	"type" : "normal" }

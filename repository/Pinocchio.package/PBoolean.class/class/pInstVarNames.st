@@ -1,6 +1,5 @@
 pharo-exporting
 pInstVarNames
 	<preventExport>
-	self = PBoolean
-		ifFalse: [ ^ super pInstVarNames ].
-	^ OrderedCollection new
+	self == PBoolean ifFalse: [ ^ super pInstVarNames ].
+	^ {}

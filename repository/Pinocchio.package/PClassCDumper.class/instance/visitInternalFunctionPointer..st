@@ -1,2 +1,3 @@
 visitor
 visitInternalFunctionPointer: aPInternalFunctionPointer 
+	self shouldNotCall.

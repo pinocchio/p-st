@@ -1,4 +1,4 @@
-read-write
+primitives
 write: aString
 
 	[ self primReadyToWrite ] whileFalse: [

@@ -1,4 +1,4 @@
 pharo-exporting
 clearSymbolCache
 	<preventExport>
-	symbolDictionary := PDictionary new.
+	symboltable := PDictionary new.

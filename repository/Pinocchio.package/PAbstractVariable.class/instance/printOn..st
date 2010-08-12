@@ -1,9 +1,9 @@
 printing
 printOn: aStream
 	super printOn: aStream.
-	aStream nextPutAll: ' '.
+	aStream << $ .
 	self name printOn: aStream.
-	aStream nextPutAll: ' '.
+	aStream << $ .
 	self scopeId printOn: aStream.
-	aStream nextPutAll: '@'.
+	aStream << $@.
 	self localId printOn: aStream
