@@ -23,7 +23,7 @@ primReceiveInto: aString
 	if( s < 0 )
 	{
 		// error
-        	fwprintf(stderr, L"Socket failed to initialize, errono %i", errno););
+        	fwprintf(stderr, L"Socket failed to initialize, errono %i", errno);
 		fail(Network_Kernel_NetworkError_Class, 0);
 	}
 	
