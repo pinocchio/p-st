@@ -44,8 +44,6 @@ exportBasicClasses
 		add: PSocket;
 		add: ConnectionClosed ;
 		add: NetworkError ;
-		add: PConnectionClosed2 ;
-		add: PNetworkError2 ;
 		"add: PSmallIntTest;"
 		"add: PACContextInterpreter;"
 		yourself
