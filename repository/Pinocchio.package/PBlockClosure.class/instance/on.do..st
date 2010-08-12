@@ -7,7 +7,7 @@ on: errorClass do: aBlock
 			PException handler: escape.
 			return escape: self value ].
 		PException handler: previousExceptionHandler.
-		(error isKindOf: errorClass) ifTrue:  [ self warn: ( 'Got it' ). ^ aBlock value: error ].
+		(error isKindOf: errorClass) ifTrue:  [ ^ aBlock value: error ].
 		previousExceptionHandler escape: error
 	].
 	PException handler: previousExceptionHandler.
