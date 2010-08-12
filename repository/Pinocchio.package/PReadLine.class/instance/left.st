@@ -1,3 +1,3 @@
 actions
 left
-	^ buffer previous
+	buffer previous ifTrue: [ output left ].

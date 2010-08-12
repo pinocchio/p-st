@@ -1,3 +1,3 @@
 actions
 tab
-	self write: $ 
+	output space

@@ -1,3 +1,3 @@
-coloring
+escaping
 escape
 	outStream << Character escape

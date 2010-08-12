@@ -6,12 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"client",
 		"input",
 		"output",
 		"buffer",
-		"mode",
-		"read",
-		"escape" ],
+		"vterm",
+		"ready" ],
 	"name" : "PReadLine",
 	"pools" : [
 		 ],

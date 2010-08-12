@@ -1,3 +1,2 @@
 actions
 previousScreen
-	^ false

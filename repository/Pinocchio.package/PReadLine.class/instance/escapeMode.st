@@ -1,3 +1,0 @@
-modeswitching
-escapeMode
-	mode := escape

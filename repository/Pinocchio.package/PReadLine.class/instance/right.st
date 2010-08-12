@@ -1,3 +1,3 @@
 actions
 right
-	^ buffer next
+	buffer next ifTrue: [ output right ]

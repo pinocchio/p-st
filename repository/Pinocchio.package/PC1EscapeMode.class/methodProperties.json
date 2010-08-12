@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"handle:" : "ToonVerwaest 8/12/2010 15:25",
-		"initialize" : "ToonVerwaest 8/12/2010 15:26",
-		"readline:" : "ToonVerwaest 8/12/2010 14:46",
-		"write:" : "ToonVerwaest 8/12/2010 16:15" } }
+		"initialize" : "ToonVerwaest 8/12/2010 19:49",
+		"readCharacter" : "ToonVerwaest 8/12/2010 19:50",
+		"readline:" : "ToonVerwaest 8/12/2010 19:51" } }

@@ -1,3 +1,4 @@
-coloring
+removing
 backspace
-	outStream << Character backspace
+	outStream << Character backspace.
+	self deleteCharacter 

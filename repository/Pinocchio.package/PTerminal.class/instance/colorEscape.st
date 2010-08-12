@@ -1,4 +1,4 @@
-coloring
+escaping
 colorEscape
 	self csiEscape.
 	underline ifTrue: [ outStream << '4;' ]. 

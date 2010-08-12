@@ -1,5 +1,4 @@
 actions
 deleteRight
 	self next.
-	self deleteLeft.
-	^ false
+	self deleteLeft

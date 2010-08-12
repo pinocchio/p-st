@@ -1,3 +1,0 @@
-modeswitching
-readMode
-	mode := read
