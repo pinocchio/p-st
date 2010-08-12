@@ -1,4 +1,4 @@
-primitives
+read-write
 receiveInto: aString 
 	
 	[ self primReadyToReceive ] whileFalse: [

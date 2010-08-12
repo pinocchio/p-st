@@ -1,4 +1,4 @@
-primitives
+testing
 isConnected
 self checkConnected .
 ^ connected

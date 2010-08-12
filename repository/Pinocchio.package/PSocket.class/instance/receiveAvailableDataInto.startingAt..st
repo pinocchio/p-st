@@ -1,4 +1,4 @@
-primitives
+adapter
 receiveAvailableDataInto: aBuffer startingAt: pos
 	| data size |
 	

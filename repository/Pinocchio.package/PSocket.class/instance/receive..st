@@ -1,4 +1,4 @@
-primitives
+read-write
 receive: max 
 
 	[ self primReadyToReceive ] whileFalse: [

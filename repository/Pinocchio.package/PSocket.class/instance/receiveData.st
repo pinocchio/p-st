@@ -1,4 +1,4 @@
-primitives
+adapter
 receiveData
 	| buffer |
 	buffer := String new: 8000.

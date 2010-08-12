@@ -1,4 +1,4 @@
-primitives
+read-write
 receive
 	| aString size |
 	aString := String new: 200.

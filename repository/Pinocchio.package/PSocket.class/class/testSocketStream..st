@@ -19,7 +19,7 @@ testSocketStream: aPort
 					self warn: ('Received ', data , ', handle=', conn hash ).
 					self warn: ( 'Received ', data size, ' bytes' , ', handle=', conn hash ).
 					conn write: ( 'Received ', data size, ' bytes' ).
-					data := conn receive.
+					data := stream nextAllInBuffer.
 				].
 			] 
 			on: ConnectionClosed 
