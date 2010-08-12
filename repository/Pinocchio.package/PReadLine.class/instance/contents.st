@@ -1,0 +1,3 @@
+accessing
+contents
+	^ buffer asString

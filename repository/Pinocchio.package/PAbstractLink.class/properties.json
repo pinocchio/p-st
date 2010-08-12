@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Shell-ReadLine",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PAbstractLink",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

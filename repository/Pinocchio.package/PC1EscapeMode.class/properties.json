@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Shell-ReadLine",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"modes" ],
+	"name" : "PC1EscapeMode",
+	"pools" : [
+		 ],
+	"super" : "PAbstractReadMode",
+	"type" : "normal" }

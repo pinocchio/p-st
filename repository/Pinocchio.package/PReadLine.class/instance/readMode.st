@@ -1,0 +1,3 @@
+modeswitching
+readMode
+	mode := read

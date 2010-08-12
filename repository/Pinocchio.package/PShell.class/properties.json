@@ -10,8 +10,7 @@
 		"output",
 		"error",
 		"exceptions",
-		"scope",
-		"inspector" ],
+		"scope" ],
 	"name" : "PShell",
 	"pools" : [
 		 ],

@@ -1,8 +1,10 @@
 interpretation
 shell
+	| inspector readline |
 	inspector := PStreamInspector on: output.
-	^ true whileTrue:[ 
+	readline := PReadLine from: input to: output.
+	^ true whileTrue: [ 
 			self displayPrompt.
-			inspector inspect: (self interpret: input readLine). 
+			inspector inspect: (self interpret: readline readLine). 
 			output lf.
 		]

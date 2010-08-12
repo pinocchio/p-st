@@ -1,0 +1,19 @@
+{
+	"category" : "Pinocchio-Shell-ReadLine",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"input",
+		"output",
+		"buffer",
+		"mode",
+		"read",
+		"escape" ],
+	"name" : "PReadLine",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }
