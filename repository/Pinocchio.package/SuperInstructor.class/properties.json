@@ -1,7 +1,9 @@
 {
 	"category" : "Pinocchio-Bridge",
 	"classinstvars" : [
-		"instance" ],
+		"instance",
+		"enabled",
+		"void" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
