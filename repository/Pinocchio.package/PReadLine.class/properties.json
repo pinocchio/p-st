@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"client",
 		"input",
 		"output",
 		"buffer",

@@ -2,6 +2,5 @@ reading
 readLine
 	| char |
 	buffer clear.
-	[ (char := input read) ~~ PCharacter lf ] whileTrue: [ mode handle: char ].
-	self newline.
+	[ (mode handle: input read) ~~ #done ] whileTrue.
 	^ self contents
