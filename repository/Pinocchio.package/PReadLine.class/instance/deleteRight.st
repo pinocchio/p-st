@@ -1,4 +1,6 @@
-actions
+escapecodes
 deleteRight
-	self next.
-	self deleteLeft
+	buffer atEnd ifFalse: [
+		buffer next.
+		buffer remove.
+		output deleteCharacter ]

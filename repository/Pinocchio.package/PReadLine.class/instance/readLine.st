@@ -1,4 +1,4 @@
-actions
+accessing
 readLine
 	buffer clear.
 	ready := false.

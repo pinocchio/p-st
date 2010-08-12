@@ -4,4 +4,6 @@ readCharacter
 	character := readline readCharacter.
 	(actions
 		at: character asInteger
-		ifAbsent: [ ^ readline write: character ]) value
+		ifAbsent: [
+			"self warn: character asInteger."
+			^ readline write: character ]) value

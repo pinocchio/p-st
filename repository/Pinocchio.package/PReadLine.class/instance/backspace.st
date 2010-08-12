@@ -1,0 +1,3 @@
+escapecodes
+backspace
+	self deleteRight

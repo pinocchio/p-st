@@ -21,3 +21,5 @@ initialize
 	actions at: $Q put: [ readline f2 ].
 	actions at: $R put: [ readline f3 ].
 	actions at: $S put: [ readline f4 ].
+	actions at: $H put: [ readline home ].
+	actions at: $F put: [ readline end ].

@@ -10,6 +10,6 @@ readCharacter
 			memo := memo * 10 + (character asInteger - $0 asInteger) ].
 		^ character = $~
 			ifTrue: [ self accept: memo ]
-			ifFalse: [ readline inputError ]].
+			ifFalse: [ character asInteger inputError ]].
 	
 	self accept: character
