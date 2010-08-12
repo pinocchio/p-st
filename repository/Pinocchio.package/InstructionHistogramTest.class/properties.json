@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Bridge",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"count",
+		"histogram" ],
+	"name" : "InstructionHistogramTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

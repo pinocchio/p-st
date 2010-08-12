@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"from:to:for:" : "ToonVerwaest 8/12/2010 18:21" },
+		"from:to:" : "ToonVerwaest 8/12/2010 09:53" },
 	"instance" : {
 		"<<" : "ToonVerwaest 8/12/2010 16:15",
 		"contents" : "ToonVerwaest 8/12/2010 10:32",
@@ -30,16 +30,15 @@
 		"f8" : "ToonVerwaest 8/12/2010 16:12",
 		"f9" : "ToonVerwaest 8/12/2010 16:12",
 		"find" : "ToonVerwaest 8/12/2010 16:13",
-		"from:to:for:" : "ToonVerwaest 8/12/2010 18:21",
+		"from:to:" : "ToonVerwaest 8/12/2010 14:29",
 		"here" : "ToonVerwaest 8/12/2010 16:44",
 		"insert" : "ToonVerwaest 8/12/2010 16:12",
 		"left" : "ToonVerwaest 8/12/2010 17:58",
-		"linefeed" : "ToonVerwaest 8/12/2010 18:35",
 		"mode:" : "ToonVerwaest 8/12/2010 14:31",
-		"newLine" : "ToonVerwaest 8/12/2010 18:24",
+		"newline" : "ToonVerwaest 8/12/2010 17:20",
 		"nextScreen" : "ToonVerwaest 8/12/2010 16:12",
 		"previousScreen" : "ToonVerwaest 8/12/2010 16:12",
-		"readLine" : "ToonVerwaest 8/12/2010 18:23",
+		"readLine" : "ToonVerwaest 8/12/2010 16:57",
 		"readMode" : "ToonVerwaest 8/12/2010 10:51",
 		"remove" : "ToonVerwaest 8/12/2010 16:44",
 		"right" : "ToonVerwaest 8/12/2010 17:57",
