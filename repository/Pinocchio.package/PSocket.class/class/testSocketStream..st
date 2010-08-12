@@ -23,7 +23,7 @@ testSocketStream: aPort
 				].
 			] 
 			on: ConnectionClosed 
-			do: [ :error | self warn: 'Error: Network Connection closed' ].
+			do: [ :error | self warn: 'Error: Network Connection closed'. self warn: ('Status: ', conn isConnected ). ].
 			
 			self warn:  ('Will now close connection, handle=', conn hash ).
 			conn closeAndDestroy: 0.

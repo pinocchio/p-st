@@ -20,12 +20,12 @@ primStatus
 	
 	if( sval < 0)
 	{
-		 fwprintf(stderr, L"Select returned %d %d",sval,errno);
+		fwprintf(stderr, L"Select returned %d %d",sval,errno);
 		ret_val = -1;
 	}
 	if(sval == 0)
 	{
-		 fwprintf(stderr, L"Select timed out.");
+		fwprintf(stderr, L"Select timed out.");
 		ret_val = 0;
 	}
 	else if(sval > 0)
