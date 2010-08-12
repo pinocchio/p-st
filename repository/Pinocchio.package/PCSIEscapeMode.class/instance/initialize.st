@@ -30,6 +30,3 @@ initialize
 	actions at: 32 put: [ readline f18 ].
 	actions at: 33 put: [ readline f19 ].
 	actions at: 34 put: [ readline f20 ].
-	
-
-	

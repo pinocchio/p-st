@@ -1,6 +1,5 @@
 escapecodes
 deleteRight
-	buffer atEnd ifFalse: [
-		buffer next.
+	buffer next ifTrue: [
 		buffer remove.
 		output deleteCharacter ]
