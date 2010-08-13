@@ -1,5 +1,5 @@
 {
-	"category" : "Pinocchio-Kernel-String",
+	"category" : "Pinocchio-Type",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -10,5 +10,5 @@
 	"name" : "PString",
 	"pools" : [
 		 ],
-	"super" : "ArrayedCollection",
+	"super" : "PObject",
 	"type" : "normal" }

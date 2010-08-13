@@ -1,12 +1,12 @@
 {
-	"category" : "Pinocchio-Smalltalk-AST",
+	"category" : "Pinocchio-ST",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"sourceObject" ],
 	"name" : "ASTNode",
 	"pools" : [
 		 ],

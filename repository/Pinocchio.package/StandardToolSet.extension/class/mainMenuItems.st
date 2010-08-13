@@ -5,6 +5,7 @@ mainMenuItems
 	^ #(#('Class Browser' #openClassBrowser) #('Workspace' #openWorkspace) #('Test Runner' #openTestRunner) #('Monticello Browser' #openMonticelloBrowser) #('File Browser' #openFileList) #('Process Browser' #openProcessBrowser) 
 	#- 
 	#('Pinocchio Browser' #openPinocchioBrowser) 
+	#('Pinocchio Export Changed' #pinocchioExportChanges) 
 	#('Pinocchio Export All' #pinocchioExportAll)
 	#-
 	#('Pinocchio Upgrade' #pinocchioUpgrade)

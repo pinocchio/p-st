@@ -1,3 +1,0 @@
-escapecodes
-carriageReturn
-	self linefeed

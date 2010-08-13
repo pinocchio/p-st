@@ -1,0 +1,4 @@
+testing
+isByteString
+	<preventExport>
+	^ false

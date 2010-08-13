@@ -1,0 +1,3 @@
+testing
+dataAvailable
+^ self primReadyToReceive

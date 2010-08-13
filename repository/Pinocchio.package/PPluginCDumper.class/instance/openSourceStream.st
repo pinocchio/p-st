@@ -1,3 +1,5 @@
 sourceCreation
 openSourceStream
-	^ NewlineStandardFileStream forceNewFileNamed: (pluginSourcePath, '.c').
+	| streamPath |
+	stream := NewlineStandardFileStream forceNewFileNamed: (pluginSourcePath, '.c').
+	self writeAutoGenFileHeader.

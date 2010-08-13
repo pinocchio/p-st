@@ -1,3 +1,0 @@
-testing
-atEnd
-	^ current == end

@@ -1,4 +1,4 @@
-exceptions
+accessing
 on: errorClass do: aBlock
 	| previousExceptionHandler result |
 	previousExceptionHandler := PException handler.

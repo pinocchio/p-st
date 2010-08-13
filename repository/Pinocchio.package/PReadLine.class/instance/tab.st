@@ -1,3 +1,0 @@
-actions
-tab
-	output space

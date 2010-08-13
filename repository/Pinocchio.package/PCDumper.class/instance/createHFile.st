@@ -1,21 +1,17 @@
 exporting
 createHFile
-	| guardName fileStream |
-	stream := PIndentableWriteStream on: (String new: 10000).
+	| guardName |
+	stream := self createStream: '/lib/lib.h'.
 	guardName := 'PINOCCHIO_LIB'.
 	self startGuard: guardName.
 	self include: 'pinocchio.h'.
 	stream << 'extern void init_lib();'; lf; lf.
 	self comment: 'GLOBALS ============================================='.
-	self exportGlobalsForHFile.
+	globals do: [ :global | 
+			stream << 'extern ' << global ctype << ' '<< (self idFor: global) << ';'; lf ].
 	stream lf.
 	self comment: 'INCLUDES ============================================='.
 	sortedClasses do: [ :pclass | 
-		self include: ('lib/class/', 
-						(pclass package fullName copyReplaceAll: '.' with: '/'), '/' , 
-						pclass name asString , '.h') ].
+		self include: 'lib/class/' , pclass name asString , '.h' ].
 	self endGuard: guardName.
-	
-	fileStream := self createStream: '/lib/lib.h'.
-	fileStream << stream.
-	fileStream close.
+	stream close

@@ -2,7 +2,7 @@ visitor
 visitInternalInstanceVariable: aPInternalInstanceVariable
 	self halt.
 	id at: aPInternalInstanceVariable ifAbsent: [ 
-			self addGlobal: aPInternalInstanceVariable.
+			globals add: aPInternalInstanceVariable.
 			id at: aPInternalInstanceVariable put: 'intinstvar_' , currentClass name asString , '_' , aPInternalInstanceVariable name. ].
 	self putRaw: aPInternalInstanceVariable
 		with: [ :s| 

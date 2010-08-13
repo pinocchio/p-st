@@ -1,4 +1,4 @@
-primitives
+connect-listen
 accept
 
 	[ self primReadyToAccept ] whileFalse: [

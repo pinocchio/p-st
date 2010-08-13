@@ -17,6 +17,6 @@ exportWithProgress: restrictionSet
 				value ifNotNil: [
 					bar value: ((value min: 1) * 1000) rounded.
 				].
-				(Delay forMilliseconds: 50) wait 
+				(Delay forMilliseconds: 40) wait 
 			] ] 
 	] fork.

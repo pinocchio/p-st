@@ -1,3 +1,0 @@
-escapecodes
-delete
-	self deleteLeft

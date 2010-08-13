@@ -1,9 +1,9 @@
-primitives
+read-write
 receive
-
-	[ self primReadyToReceive ] whileFalse: [
-		"self warn: 'waiting to receive'."
-		PThread current primYield.
-	].
-	self warn: 'received'.
-	^ self primReceive.
+	| aString size |
+	aString := String new: 200.
+	size := self receiveInto: aString .
+	self warn: ( 'Size returned -> ', size).
+	^ aString copyFrom: 1 to: size.
+	"^ self receive: 8000."
+	

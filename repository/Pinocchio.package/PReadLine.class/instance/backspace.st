@@ -1,3 +1,0 @@
-escapecodes
-backspace
-	self deleteRight

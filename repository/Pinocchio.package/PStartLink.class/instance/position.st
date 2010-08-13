@@ -1,3 +1,0 @@
-accessing
-position
-	^ 1
