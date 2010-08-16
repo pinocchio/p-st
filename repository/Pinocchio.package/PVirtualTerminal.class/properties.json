@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Shell-ReadLine",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"input",
+		"read" ],
+	"name" : "PVirtualTerminal",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

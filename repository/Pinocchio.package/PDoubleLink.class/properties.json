@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Shell-ReadLine",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value",
+		"previous" ],
+	"name" : "PDoubleLink",
+	"pools" : [
+		 ],
+	"super" : "PStartLink",
+	"type" : "normal" }

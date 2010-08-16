@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Testing",
+	"classinstvars" : [
+		"current" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"description" ],
+	"name" : "PTestResource",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

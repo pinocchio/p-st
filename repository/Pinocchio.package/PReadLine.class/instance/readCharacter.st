@@ -1,0 +1,3 @@
+reading
+readCharacter
+	^ input read

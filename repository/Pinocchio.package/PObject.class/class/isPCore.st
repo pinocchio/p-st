@@ -1,4 +1,0 @@
-*Pinocchio
-isPCore
-	<preventExport>
-	^ false

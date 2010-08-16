@@ -1,0 +1,18 @@
+{
+	"category" : "Pinocchio-Shell",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"input",
+		"output",
+		"error",
+		"exceptions",
+		"scope" ],
+	"name" : "PShell",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

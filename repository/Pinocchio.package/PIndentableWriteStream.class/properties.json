@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Collection-Stream",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"indentionString",
+		"indent" ],
+	"name" : "PIndentableWriteStream",
+	"pools" : [
+		 ],
+	"super" : "PWriteStream",
+	"type" : "normal" }

@@ -4,6 +4,6 @@ compileBlock: aBlock
 	
 	self visitStatements: aBlock.
 	self insertBlockReturn: aBlock.
-	aBlock threaded: (self compileNatively: (PThreadedCode newFrom: code)).
 	
+	aBlock threaded: (self compileNatively: (PThreadedCode newFrom: code)).
 	self popScope.

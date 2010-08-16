@@ -4,6 +4,8 @@
 	"instance" : {
 		"=" : "ToonVerwaest 4/1/2010 15:45",
 		"accept:" : "ToonVerwaest 3/25/2010 12:39",
+		"assign:on:" : "ToonVerwaest 8/8/2010 12:00",
 		"constant" : "ToonVerwaest 3/25/2010 12:39",
 		"constant:" : "ToonVerwaest 3/25/2010 12:39",
-		"ctype" : "CamilloBruni 6/9/2010 16:04" } }
+		"ctype" : "CamilloBruni 6/9/2010 16:04",
+		"printOn:" : "ToonVerwaest 8/6/2010 19:56" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "Pinocchio-Bridge",
+	"classinstvars" : [
+		"instance",
+		"enabled",
+		"void" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"histogram" ],
+	"name" : "SuperInstructor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

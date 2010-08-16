@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Inspector",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"indent",
+		"stream" ],
+	"name" : "PStreamInspector",
+	"pools" : [
+		 ],
+	"super" : "PInspector",
+	"type" : "normal" }
