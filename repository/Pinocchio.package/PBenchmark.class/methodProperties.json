@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"run" : "CamilloBruni 8/14/2010 22:52",
+		"run:" : "CamilloBruni 8/14/2010 23:08" },
+	"instance" : {
+		"average" : "CamilloBruni 8/14/2010 23:16",
+		"benchmark" : "CamilloBruni 8/14/2010 22:57",
+		"currentMillis" : "CamilloBruni 8/14/2010 23:12",
+		"initialize" : "CamilloBruni 8/14/2010 22:54",
+		"lastResult" : "CamilloBruni 8/14/2010 23:13",
+		"printOn:" : "CamilloBruni 8/14/2010 23:44",
+		"probeCount" : "CamilloBruni 8/14/2010 23:03",
+		"probeCount:" : "CamilloBruni 8/14/2010 23:03",
+		"probes" : "CamilloBruni 8/14/2010 23:03",
+		"run" : "CamilloBruni 8/14/2010 23:16",
+		"runProbe" : "CamilloBruni 8/14/2010 23:16",
+		"significantDigits" : "CamilloBruni 8/14/2010 23:41",
+		"stdev" : "CamilloBruni 8/14/2010 23:16" } }

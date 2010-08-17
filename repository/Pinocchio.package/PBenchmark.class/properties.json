@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Benchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"probeCount",
+		"probes" ],
+	"name" : "PBenchmark",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

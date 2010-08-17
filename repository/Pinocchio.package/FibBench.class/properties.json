@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Benchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FibBench",
+	"pools" : [
+		 ],
+	"super" : "PBenchmark",
+	"type" : "normal" }
