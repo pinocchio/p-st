@@ -1,3 +1,2 @@
 inserting
 tab
-	output space
