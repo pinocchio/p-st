@@ -4,8 +4,7 @@ repaint
 	output normal.
 	col := text column.
 	line := text line.
-	" the newly inserted character isn't painted yet "
-	col - 1 timesRepeat: [ output left ].
+	col timesRepeat: [ output left ].
 	" there is always 1 line "
 	line - 1 timesRepeat: [ output up ].
 	

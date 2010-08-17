@@ -1,3 +1,3 @@
-as yet unclassified
+navigating
 right
 	^ self currentLine next

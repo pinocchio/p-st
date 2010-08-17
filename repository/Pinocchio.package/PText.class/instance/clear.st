@@ -1,4 +1,4 @@
-as yet unclassified
+removing
 clear
 	lines clear.
 	self addLine

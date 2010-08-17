@@ -4,8 +4,6 @@ write: character
 	text add: character.
 	oldParses := parses.
 	parses := self parses.
-	oldParses
-		ifTrue: [ parses ifFalse: [ output errorColor ] ]
-		ifFalse: [ parses ifTrue: [ ^ self repaint ]].
-
-	output << character
+	(oldParses and: [ parses not ]) ifTrue: [ output errorColor ].
+	output << character.
+	(parses and: [ oldParses not ]) ifTrue: [ self repaint ]

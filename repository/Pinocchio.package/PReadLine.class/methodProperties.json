@@ -4,12 +4,13 @@
 	"instance" : {
 		"acknowledge" : "ToonVerwaest 8/12/2010 22:47",
 		"alt:" : "CamilloBruni 8/17/2010 11:18",
-		"backspace" : "ToonVerwaest 8/17/2010 13:58",
+		"backspace" : "ToonVerwaest 8/17/2010 14:13",
 		"bell" : "ToonVerwaest 8/12/2010 22:47",
 		"carriageReturn" : "ToonVerwaest 8/14/2010 16:50",
+		"checkRepaint" : "ToonVerwaest 8/17/2010 14:11",
 		"clear" : "ToonVerwaest 8/17/2010 13:41",
 		"csiEscape" : "ToonVerwaest 8/12/2010 17:08",
-		"delete" : "ToonVerwaest 8/17/2010 13:58",
+		"delete" : "ToonVerwaest 8/17/2010 14:13",
 		"down" : "ToonVerwaest 8/17/2010 13:50",
 		"end" : "ToonVerwaest 8/12/2010 22:31",
 		"endOfText" : "ToonVerwaest 8/12/2010 22:47",
@@ -52,7 +53,7 @@
 		"readLine" : "ToonVerwaest 8/17/2010 13:54",
 		"ready" : "ToonVerwaest 8/17/2010 13:53",
 		"remove" : "ToonVerwaest 8/17/2010 13:59",
-		"repaint" : "ToonVerwaest 8/17/2010 14:03",
+		"repaint" : "ToonVerwaest 8/17/2010 14:24",
 		"right" : "ToonVerwaest 8/17/2010 13:47",
 		"select" : "ToonVerwaest 8/12/2010 19:56",
 		"shiftIn" : "ToonVerwaest 8/12/2010 22:48",
@@ -62,4 +63,4 @@
 		"tab" : "ToonVerwaest 8/12/2010 19:59",
 		"up" : "ToonVerwaest 8/17/2010 13:48",
 		"verticalTab" : "ToonVerwaest 8/12/2010 22:48",
-		"write:" : "ToonVerwaest 8/17/2010 14:01" } }
+		"write:" : "ToonVerwaest 8/17/2010 14:12" } }

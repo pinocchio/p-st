@@ -1,3 +1,3 @@
-as yet unclassified
+removing
 deleteLeft
 	^ self currentLine remove
