@@ -11,8 +11,6 @@
 		"output",
 		"vterm",
 		"ready",
-		"stream",
-		"parses",
 		"text" ],
 	"name" : "PReadLine",
 	"pools" : [

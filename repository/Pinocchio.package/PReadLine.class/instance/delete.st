@@ -1,4 +1,5 @@
 removing
 delete
 	text deleteLeft ifTrue: [
-		output backspace ]
+		output backspace.
+		self repaint ]

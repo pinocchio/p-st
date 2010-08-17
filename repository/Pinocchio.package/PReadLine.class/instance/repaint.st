@@ -14,5 +14,5 @@ repaint
 	
 	(text lines - line) timesRepeat: [ output up ].
 	col timesRepeat: [ output right ].
-	text line: line.
-	text column: col.
+
+	self parsesUntil ifNotNil: [ :position | self errorAt: position ]

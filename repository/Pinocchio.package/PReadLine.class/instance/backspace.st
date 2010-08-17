@@ -1,4 +1,5 @@
 removing
 backspace
 	text deleteRight ifTrue: [
-		output deleteCharacter ]
+		output deleteCharacter.
+		self repaint ]
