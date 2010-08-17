@@ -6,15 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client",
-		"input",
-		"output",
-		"vterm",
-		"ready",
-		"stream",
-		"parses",
-		"text" ],
-	"name" : "PReadLine",
+		"lines",
+		"stream" ],
+	"name" : "PText",
 	"pools" : [
 		 ],
 	"super" : "PObject",

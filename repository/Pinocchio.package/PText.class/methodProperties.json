@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:" : "ToonVerwaest 8/17/2010 13:50",
+		"addLine" : "ToonVerwaest 8/17/2010 13:40",
+		"clear" : "ToonVerwaest 8/17/2010 14:00",
+		"column" : "ToonVerwaest 8/17/2010 13:42",
+		"column:" : "ToonVerwaest 8/17/2010 13:46",
+		"contents" : "ToonVerwaest 8/17/2010 13:54",
+		"currentLine" : "ToonVerwaest 8/17/2010 13:42",
+		"deleteLeft" : "ToonVerwaest 8/17/2010 13:43",
+		"deleteRight" : "ToonVerwaest 8/17/2010 13:44",
+		"distanceToBottom" : "ToonVerwaest 8/17/2010 13:51",
+		"do:" : "ToonVerwaest 8/17/2010 13:52",
+		"do:separatedBy:" : "ToonVerwaest 8/17/2010 13:53",
+		"down" : "ToonVerwaest 8/17/2010 13:50",
+		"initialize" : "ToonVerwaest 8/17/2010 14:00",
+		"left" : "ToonVerwaest 8/17/2010 13:47",
+		"line" : "ToonVerwaest 8/17/2010 13:43",
+		"lines" : "ToonVerwaest 8/17/2010 14:04",
+		"right" : "ToonVerwaest 8/17/2010 13:47",
+		"up" : "ToonVerwaest 8/17/2010 13:49" } }

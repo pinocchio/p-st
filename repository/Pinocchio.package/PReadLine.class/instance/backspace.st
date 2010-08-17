@@ -1,3 +1,4 @@
 removing
 backspace
-	self deleteRight
+	text deleteRight ifTrue: [
+		output deleteCharacter ]

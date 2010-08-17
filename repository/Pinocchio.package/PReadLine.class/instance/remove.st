@@ -1,3 +1,3 @@
 removing
 remove
-	self deleteRight
+	self backspace

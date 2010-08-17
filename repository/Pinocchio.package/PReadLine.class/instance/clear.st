@@ -1,5 +1,5 @@
 private
 clear
 	ready := false.
-	buffer clear.
-	self addLine
+	parses := true.
+	text clear.

@@ -1,3 +1,4 @@
 removing
 delete
-	self deleteLeft
+	text deleteLeft ifTrue: [
+		output backspace ]

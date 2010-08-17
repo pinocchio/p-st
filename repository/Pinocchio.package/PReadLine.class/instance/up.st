@@ -1,8 +1,8 @@
 navigating
 up
-	| position |
-	position := self currentLine position.
-	self previousLine ifTrue: [
-		self currentLine position: position.
+	| col |
+	col := text column.
+	text up ifTrue: [
+		text column: col.
 		output up.
-		(position - self currentLine position) timesRepeat: [ output left ]].
+		(col - text column) timesRepeat: [ output left ]].

@@ -1,3 +1,0 @@
-private
-currentLine
-	^ buffer value

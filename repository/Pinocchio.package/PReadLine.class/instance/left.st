@@ -1,3 +1,3 @@
 navigating
 left
-	self currentLine previous ifTrue: [ output left ].
+	text left ifTrue: [ output left ].

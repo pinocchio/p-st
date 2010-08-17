@@ -1,5 +1,5 @@
 private
 ready
 	ready := true.
-	self distanceToBottom timesRepeat: [ self down ].
+	text distanceToBottom timesRepeat: [ output down ].
 	output lf.

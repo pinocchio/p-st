@@ -1,3 +1,0 @@
-private
-nextLine
-	^ buffer next
