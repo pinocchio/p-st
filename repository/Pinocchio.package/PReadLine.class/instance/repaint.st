@@ -13,4 +13,6 @@ repaint
 		l size timesRepeat: [ output left ]] separatedBy: [ output down ].
 	
 	(text lines - line) timesRepeat: [ output up ].
-	col timesRepeat: [ output right ]
+	col timesRepeat: [ output right ].
+	text line: line.
+	text column: col.
