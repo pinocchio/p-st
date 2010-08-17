@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-IO-Term",
+	"classinstvars" : [
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cache" ],
+	"name" : "PTermcap",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

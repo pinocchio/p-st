@@ -1,0 +1,3 @@
+private
+currentLine
+	^ buffer value

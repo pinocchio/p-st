@@ -1,5 +1,4 @@
 accessing
 write: character
-	buffer add: character.
-	buffer atEnd ifFalse: [ ^ output insert: character ].
+	self currentLine add: character.
 	output << character

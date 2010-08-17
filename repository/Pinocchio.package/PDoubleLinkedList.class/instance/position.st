@@ -1,3 +1,3 @@
 accessing
 position
-	^ current position
+	^ position

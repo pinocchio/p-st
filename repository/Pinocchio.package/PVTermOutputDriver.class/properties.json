@@ -1,0 +1,21 @@
+{
+	"category" : "Pinocchio-IO-Term",
+	"classinstvars" : [
+		"stdoutTerminalInstance",
+		"stderrTerminalInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"termcap",
+		"outStream",
+		"currentBackground",
+		"currentColor",
+		"light",
+		"blink",
+		"shouldEcho" ],
+	"name" : "PVTermOutputDriver",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

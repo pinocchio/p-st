@@ -1,5 +1,6 @@
-accessing
+navigating
 next
-	current == end ifTrue: [ ^ false ].
+	self atEnd ifTrue: [ ^ false ].
 	current := current next.
+	position := position + 1.
 	^ true.

@@ -1,3 +1,0 @@
-coloring
-bold
-	bold := true.

@@ -1,3 +1,4 @@
-accessing
+navigating
 end
-	current := end
+	current := end previous.
+	position := size

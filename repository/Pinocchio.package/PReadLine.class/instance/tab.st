@@ -1,3 +1,3 @@
-actions
+inserting
 tab
 	output space

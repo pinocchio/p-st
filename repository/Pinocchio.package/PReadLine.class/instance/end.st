@@ -1,2 +1,2 @@
-actions
+navigating
 end

@@ -1,3 +1,3 @@
 shelling
 displayPrompt
-	PTerminal stdout << 'pidb> '
+	PVTermOutputDriver stdout << 'pidb> '

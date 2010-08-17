@@ -1,3 +1,0 @@
-reading
-readCharacter
-	^ input read

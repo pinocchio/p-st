@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"instance" : "ToonVerwaest 8/16/2010 14:49",
+		"pinitialize" : "ToonVerwaest 8/16/2010 14:49" },
+	"instance" : {
+		"at:" : "ToonVerwaest 8/16/2010 14:38",
+		"at:ifAbsent:" : "ToonVerwaest 8/16/2010 14:44",
+		"environ" : "ToonVerwaest 8/16/2010 14:41",
+		"environment" : "ToonVerwaest 8/16/2010 14:37",
+		"initialize" : "ToonVerwaest 8/16/2010 14:38",
+		"loadEnvironment" : "ToonVerwaest 8/16/2010 14:37" } }

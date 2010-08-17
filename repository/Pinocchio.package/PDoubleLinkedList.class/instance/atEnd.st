@@ -1,3 +1,3 @@
 testing
 atEnd
-	^ current == end
+	^ current next == end

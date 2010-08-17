@@ -1,3 +1,4 @@
-accessing
+navigating
 start
-	current := start next
+	current := start.
+	position := 0.

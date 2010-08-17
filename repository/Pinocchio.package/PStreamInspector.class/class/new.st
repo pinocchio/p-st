@@ -1,3 +1,3 @@
 instance creation
 new
-	^ self on: PTerminal stdout
+	^ self on: PVTermOutputDriver stdout

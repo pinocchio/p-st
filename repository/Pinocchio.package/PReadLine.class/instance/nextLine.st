@@ -1,0 +1,3 @@
+private
+nextLine
+	^ buffer next

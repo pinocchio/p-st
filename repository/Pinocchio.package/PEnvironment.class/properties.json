@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-IO",
+	"classinstvars" : [
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bindings" ],
+	"name" : "PEnvironment",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

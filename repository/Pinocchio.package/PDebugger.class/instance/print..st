@@ -1,3 +1,3 @@
 shelling
 print: msg
-	self indent. (PTerminal stderr) << msg; lf.
+	self indent. (PVTermOutputDriver stderr) << msg; lf.

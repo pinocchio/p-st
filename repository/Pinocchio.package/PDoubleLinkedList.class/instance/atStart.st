@@ -1,0 +1,3 @@
+testing
+atStart
+	^ current == start

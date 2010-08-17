@@ -9,7 +9,8 @@
 		"size",
 		"start",
 		"end",
-		"current" ],
+		"current",
+		"position" ],
 	"name" : "PDoubleLinkedList",
 	"pools" : [
 		 ],

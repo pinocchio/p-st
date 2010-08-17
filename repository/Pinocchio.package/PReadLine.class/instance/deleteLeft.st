@@ -1,4 +1,4 @@
-escapecodes
+removing
 deleteLeft
-	buffer remove ifTrue: [
+	self currentLine remove ifTrue: [
 		output backspace ]

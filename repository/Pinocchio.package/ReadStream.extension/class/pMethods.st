@@ -1,5 +1,5 @@
 *Pinocchio
 pMethods
 	<preventExport>
-	self == ReadStream ifTrue: [^{#next.}].
+	self == ReadStream ifTrue: [^{#next. #upToEnd}].
 	^ super pMethods

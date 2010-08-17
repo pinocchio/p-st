@@ -1,5 +1,6 @@
-accessing
+navigating
 previous
-	current previous == start ifTrue: [ ^ false ].
+	self atStart ifTrue: [ ^ false ].
 	current := current previous.
+	position := position - 1.
 	^ true.

@@ -1,3 +1,3 @@
-actions
+navigating
 left
-	buffer previous ifTrue: [ output left ].
+	self currentLine previous ifTrue: [ output left ].

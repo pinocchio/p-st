@@ -38,10 +38,12 @@ exportBasicClasses
 		add: PDebugger;
 		add: PParallelDebugger;
 		add: PMainInterpreter;
-		add: PTerminal;
+		add: PVTermOutputDriver;
 		add: PTests;
 		add: PCLITestRunner;
 		add: PPexMatcher;
+		add: PTermcap;
+		add: PEnvironment;
 		add: PSocket;
 		add: PWriteStream;
 		"add: PSmallIntTest;"

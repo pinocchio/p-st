@@ -1,3 +1,3 @@
-actions
+navigating
 right
-	buffer next ifTrue: [ output right ]
+	self currentLine next ifTrue: [ output right ]

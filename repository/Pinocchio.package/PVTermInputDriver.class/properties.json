@@ -1,0 +1,17 @@
+{
+	"category" : "Pinocchio-IO-Term",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"readline",
+		"normal",
+		"csi",
+		"ss3" ],
+	"name" : "PVTermInputDriver",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

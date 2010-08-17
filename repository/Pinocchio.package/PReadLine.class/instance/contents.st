@@ -1,3 +1,6 @@
 accessing
 contents
-	^ buffer asString
+	stream reset.
+	buffer do: [ :line |
+		line do: [ :c | stream << c ]].
+	^ stream contents

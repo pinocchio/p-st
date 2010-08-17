@@ -1,7 +1,8 @@
 accessing
 remove
-	current previous == start ifTrue: [ ^ false ]. 
+	self atStart ifTrue: [ ^ false ]. 
 	size := size - 1.
-	current previous: current previous previous.
-	current previous next: current.
+	current previous next: current next.
+	current next previous: current previous.
+	current := current previous.
 	^ true

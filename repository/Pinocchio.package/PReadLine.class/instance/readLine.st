@@ -1,6 +1,5 @@
 accessing
 readLine
-	buffer clear.
-	ready := false.
-	[ ready ] whileFalse: [ vterm readCharacter ].
-	^ buffer asString
+	self clear.
+	[ ready ] whileFalse: [ vterm read ].
+	^ self contents

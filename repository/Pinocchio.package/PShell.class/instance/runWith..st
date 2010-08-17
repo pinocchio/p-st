@@ -3,6 +3,6 @@ runWith: anInterpreter
 	scope := PDictionary new.
 	exceptions := OrderedCollection new.
 	input := PFile stdin.
-	output := PTerminal stdout.
-	error := PTerminal stderr.
+	output := PVTermOutputDriver stdout.
+	error := PVTermOutputDriver stderr.
 	self shell.

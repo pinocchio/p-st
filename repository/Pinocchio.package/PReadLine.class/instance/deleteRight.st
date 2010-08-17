@@ -1,5 +1,5 @@
-escapecodes
+removing
 deleteRight
-	buffer next ifTrue: [
-		buffer remove.
+	self currentLine next ifTrue: [
+		self currentLine remove.
 		output deleteCharacter ]

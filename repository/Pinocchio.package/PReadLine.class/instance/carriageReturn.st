@@ -1,3 +1,3 @@
-escapecodes
+inserting
 carriageReturn
-	self linefeed
+	self lf
