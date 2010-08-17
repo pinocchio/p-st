@@ -1,0 +1,3 @@
+matching
+omitMatch: input
+	^ true
