@@ -2,7 +2,6 @@ visitor
 visitMethod: aMethod
 	| body method selector methodClosure |
 	currentMethod := aMethod.
-	currentInfo := self createPInfo.
 	self pushScope.
 	scope declareAll: aMethod message parameters.
 	scope declareAll: aMethod temporaries.
@@ -15,7 +14,7 @@ visitMethod: aMethod
 		params: (self acceptOnCollection: aMethod message parameters) asArray
 		locals: (self acceptOnCollection: aMethod temporaries) asArray;
 		annotations: (self acceptOnCollection: aMethod annotations) asArray;
-		info: self currentInfo.
+		info: self createPInfo.
 	methodClosure := (PMethodClosure new)
 		code: method;
 		host: pinocchioClass;

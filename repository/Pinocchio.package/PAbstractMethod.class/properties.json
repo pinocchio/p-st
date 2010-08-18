@@ -9,7 +9,8 @@
 		"params",
 		"locals",
 		"package",
-		"annotations" ],
+		"annotations",
+		"info" ],
 	"name" : "PAbstractMethod",
 	"pools" : [
 		 ],
