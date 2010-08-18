@@ -1,6 +1,5 @@
 private
 moveFailure: direction
 	failure ifNotNil: [
-		failure + direction > text position
-			ifTrue: [
-				failure := failure + direction ]]
+		(text onLineBefore: failure + direction)
+			ifTrue: [ failure := failure + direction ]]

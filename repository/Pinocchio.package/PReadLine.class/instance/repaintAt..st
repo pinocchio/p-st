@@ -7,5 +7,5 @@ repaintAt: position
 	self right: (text column - col - 1).
 	self up: (line - text line).
 	" this character got deleted or is a lf "
-	text currentLine atStart ifTrue: [ output right. ^ self ]. 
+	text currentLine size = 0 ifTrue: [ output right. ^ self ]. 
 	output overwrite: text currentCharacter
