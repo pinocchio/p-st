@@ -2,6 +2,7 @@
 	"class" : {
 		"pMethods" : "ToonVerwaest 6/26/2010 01:46" },
 	"instance" : {
+		"add:" : "ToonVerwaest 8/18/2010 20:08",
 		"asArray" : "ToonVerwaest 7/29/2010 12:43",
 		"asOrderedCollection" : "ToonVerwaest 7/29/2010 12:44",
 		"asString" : "ToonVerwaest 7/29/2010 12:43",
