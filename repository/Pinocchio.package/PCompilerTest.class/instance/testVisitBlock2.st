@@ -1,6 +1,7 @@
 running
 testVisitBlock2
 	| emptyblock variable result send |
+	parser := scparser block.
 	variable := ASTVariable new name: #element.
 	result := self ast: '[:element || a b | true ifTrue: [ a] ifFalse: [b]]'.
 	result class should = PBlock.

@@ -1,19 +1,13 @@
 SystemOrganization addCategory: #Pinocchio!
 SystemOrganization addCategory: #'Pinocchio-Alias'!
-SystemOrganization addCategory: #'Pinocchio-AST'!
 SystemOrganization addCategory: #'Pinocchio-Bridge'!
 SystemOrganization addCategory: #'Pinocchio-Bridge-Test'!
-SystemOrganization addCategory: #'Pinocchio-Class'!
-SystemOrganization addCategory: #'Pinocchio-Class-Layout'!
 SystemOrganization addCategory: #'Pinocchio-Collection'!
 SystemOrganization addCategory: #'Pinocchio-Collection-Stream'!
-SystemOrganization addCategory: #'Pinocchio-Exception'!
 SystemOrganization addCategory: #'Pinocchio-Inspector'!
 SystemOrganization addCategory: #'Pinocchio-IO'!
 SystemOrganization addCategory: #'Pinocchio-IO-Term'!
 SystemOrganization addCategory: #'Pinocchio-Interpretation'!
-SystemOrganization addCategory: #'Pinocchio-Number'!
-SystemOrganization addCategory: #'Pinocchio-Object'!
 SystemOrganization addCategory: #'Pinocchio-Organization'!
 SystemOrganization addCategory: #'Pinocchio-Plugin'!
 SystemOrganization addCategory: #'Pinocchio-Relationship'!
@@ -25,7 +19,6 @@ SystemOrganization addCategory: #'Pinocchio-Smalltalk-AST'!
 SystemOrganization addCategory: #'Pinocchio-Smalltalk-Compiler'!
 SystemOrganization addCategory: #'Pinocchio-Smalltalk-Parser'!
 SystemOrganization addCategory: #'Pinocchio-Smalltalk-Threading'!
-SystemOrganization addCategory: #'Pinocchio-String'!
 SystemOrganization addCategory: #'Pinocchio-Testing'!
 SystemOrganization addCategory: #'Pinocchio-Kernel-Object'!
 SystemOrganization addCategory: #'Pinocchio-Kernel-AST'!
@@ -36,5 +29,4 @@ SystemOrganization addCategory: #'Pinocchio-Kernel-Number'!
 SystemOrganization addCategory: #'Pinocchio-Kernel-Threading'!
 SystemOrganization addCategory: #'Pinocchio-Kernel-Layout'!
 SystemOrganization addCategory: #'Pinocchio-Chronology'!
-SystemOrganization addCategory: #'Pinocchio-Compiler'!
 SystemOrganization addCategory: #'Pinocchio-Benchmark'!

@@ -1,12 +1,14 @@
 {
-	"category" : "Pinocchio-Compiler",
+	"category" : "Pinocchio-Smalltalk-Compiler",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"parser",
+		"scparser",
+		"visitor" ],
 	"name" : "PCompilerTest",
 	"pools" : [
 		 ],
