@@ -3,7 +3,8 @@ interpret: code
 	^ [ self perform: (self compile: code) selector ] 
 		on: Object 
 		do: [ :ex |
-			PFile stderr red.
+			PVTermOutputDriver stderr red.
 			ex warnOn: PFile stderr.
-			PFile stderr clear.
+			PVTermOutputDriver stderr normal.
+			PFile stderr lf.
 			PVoid ].
