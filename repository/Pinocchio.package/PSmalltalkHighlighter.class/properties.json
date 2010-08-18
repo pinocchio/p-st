@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Smalltalk-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PSmalltalkHighlighter",
+	"pools" : [
+		 ],
+	"super" : "PSmalltalkGrammar",
+	"type" : "normal" }

@@ -1,3 +1,3 @@
 compiling
 parse: aString
-	^ self parser fullmatch: aString
+	^ self parser parseMethod: aString

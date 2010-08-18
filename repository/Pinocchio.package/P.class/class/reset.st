@@ -2,5 +2,5 @@ as yet unclassified
 reset
 	PClassLinker initialize.
 	PSymbol clearSymbolCache.
-	SCParser reset.
+	PSmalltalkParser reset.
 	PRootScope clearGlobals.

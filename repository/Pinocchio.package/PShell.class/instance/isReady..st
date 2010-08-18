@@ -1,7 +1,6 @@
 testing
 isReady: code
-	[ SCParser instance statements end match:
-		(PEGStringScanner on: code separator: SCParser instance separator) ]
+	[ PSmalltalkGrammar instance parseStatements: code ]
 		on: PEGParsingFailure
 		do: [ :ex | ^ ex input atEnd not ].
 	^ true

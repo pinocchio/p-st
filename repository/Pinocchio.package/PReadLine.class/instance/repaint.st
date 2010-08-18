@@ -5,8 +5,8 @@ repaint
 		col := text column.
 		line := text line.
 		failure ifNotNil: [
-			failure = (newpos + 1)
-				ifFalse: [ self repaintAt: failure ]].
+			failure = (newpos + 1) ifTrue: [ ^ self ].
+			self repaintAt: failure ].
 		
 		failure := newpos + 1.
 		output errorColor.

@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Smalltalk-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parsers" ],
+	"name" : "PAbstractGrammar",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

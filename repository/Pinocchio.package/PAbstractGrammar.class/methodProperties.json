@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"doesNotUnderstand:" : "ToonVerwaest 8/18/2010 13:33",
+		"initialize" : "ToonVerwaest 8/18/2010 13:33",
+		"initializeSeparator" : "ToonVerwaest 8/18/2010 13:35",
+		"match:to:" : "ToonVerwaest 8/18/2010 13:34",
+		"parsers" : "ToonVerwaest 8/18/2010 13:33" } }

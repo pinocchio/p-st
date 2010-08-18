@@ -1,4 +1,4 @@
 running
 setUp
-	scparser := SCParser new.
+	scparser := PSmalltalkParser new.
 	parser := scparser expression

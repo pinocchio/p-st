@@ -1,3 +1,3 @@
 accessing
 parser
-	^ SCParser instance
+	^ PSmalltalkParser instance

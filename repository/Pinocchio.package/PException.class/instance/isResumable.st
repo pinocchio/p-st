@@ -1,0 +1,4 @@
+PharoIntegration
+isResumable 
+	<preventExport>
+	^ false

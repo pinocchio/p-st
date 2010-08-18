@@ -1,3 +1,3 @@
 tests
 setUp
-	scparser := SCParser new
+	scparser := PSmalltalkParser new

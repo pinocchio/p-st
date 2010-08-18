@@ -11,5 +11,3 @@ testAssignmentExpressions
 				at: 3 put: 'c';
 				yourself).
 	string position should = 15.
-	string := PEGStringScanner on: ''.
-	(parser match: string) should not be isNil
