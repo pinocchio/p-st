@@ -8,4 +8,4 @@ testUnarySelector
 	result selector printString should = 'abcd'.
 	string position should = 4.
 	string := PEGStringScanner on: 'abcd: bla'.
-	(parser match: string) should be isNil.
+	[ parser match: string] should signal: PEGParsingFailure

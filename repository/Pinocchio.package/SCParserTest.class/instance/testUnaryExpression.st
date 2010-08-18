@@ -15,4 +15,4 @@ testUnaryExpression
 	result receiver name should = 'abc'.
 	string position should = 12.
 	string := PEGStringScanner on: 'abc'.
-	(parser match: string) should be isNil
+	[ parser match: string ] should signal: PEGParsingFailure

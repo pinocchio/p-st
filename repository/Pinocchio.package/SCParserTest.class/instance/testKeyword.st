@@ -6,4 +6,4 @@ testKeyword
 	(parser match: string) should = 'abcd:'.
 	string position should = 5.
 	string := PEGStringScanner on: 'abcd '.
-	(parser match: string) should be isNil
+	[ parser match: string ] should signal: PEGParsingFailure

@@ -3,7 +3,7 @@ testSubExpression
 	| parser string result |
 	parser := scparser subExpression.
 	string := PEGStringScanner on: 'a:= b :=    c:= 2+4 abc: 1 def: 2+2 ghi: 3 b '.
-	(parser match: string) should be isNil.
+	[ parser match: string] should signal: PEGParsingFailure.
 	string := PEGStringScanner on: 'a:= b :=    c:= 2+4 abc: 1 def: 2+2 ghi: 3 b. '.
 	result := parser match: string.
 	result class should = ASTAssignmentExpression.

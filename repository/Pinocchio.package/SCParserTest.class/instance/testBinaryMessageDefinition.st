@@ -10,7 +10,7 @@ testBinaryMessageDefinition
 	result parameter name asString should = 'a'.
 	string position should = 4.
 	string := PEGStringScanner on: '|= a'.
-	(parser match: string) should be isNil.
+	[ parser match: string ] should signal: PEGParsingFailure.
 	string := PEGStringScanner on: '-= abc d'.
 	result := parser match: string.
 	result class should = ASTBinaryMessageDefinition.

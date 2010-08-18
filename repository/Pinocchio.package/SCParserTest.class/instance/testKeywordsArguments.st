@@ -10,7 +10,7 @@ testKeywordsArguments
 	result parameters first should = (ASTVariable new name: 'ab').
 	string position should = 8.
 	string := PEGStringScanner on: 'bla a'.
-	(parser match: string) should be isNil.
+	[ parser match: string ] should signal: PEGParsingFailure.
 	string := PEGStringScanner on: 'test: d bla: c boe'.
 	result := parser match: string.
 	result class should = ASTKeywordMessageDefinition.

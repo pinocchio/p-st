@@ -19,4 +19,4 @@ testCharacter
 	string position should = 1.
 	string := PEGStringScanner on: ''''.
 	(parser match: string) should be isNil.
-	string position should = 0
+	string position should = 1

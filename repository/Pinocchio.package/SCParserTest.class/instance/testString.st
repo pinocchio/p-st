@@ -3,7 +3,7 @@ testString
 	| parser string |
 	parser := scparser string.
 	string := PEGStringScanner on: ''.
-	(parser match: string) should be isNil.
+	[ parser match: string ] should signal: PEGParsingFailure.
 	string position should = 0.
 	string := PEGStringScanner on: '''abc'''.
 	(parser match: string) should = 'abc'.
