@@ -1,8 +1,7 @@
 basic-block
 initializeBraceExpression
-	^ PEGMultiParser
+	^ PEGParser
 		named: 'BRACE-EXPRESSION'
 		parsing: '{' asPEG omit
-					& self subExpression times
-					<& self expression
+					& self statements
 					<& '}' asPEG omit

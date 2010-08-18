@@ -1,6 +1,6 @@
 initialization
 initializeBraceExpression
 	^ super initializeBraceExpression
-		semantics: [ :result | 
+		semantics: [ :result |
 			ASTBraceExpression new
-				expressions: result asArray ]
+				expressions: result ]
