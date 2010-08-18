@@ -1,3 +1,3 @@
 visitor
 visitArray: anArray
-	self error: 'Not yet supported. Feel free to implement it here!'
+	self error: 'Literal arrays are not yet supported by the compiler. Patches welcome!'
