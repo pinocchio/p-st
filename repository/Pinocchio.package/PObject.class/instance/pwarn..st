@@ -1,4 +1,6 @@
 error handling
 pwarn: msg
 	<renameExport: #warn:>
-	(PVTermOutputDriver stderr) red: msg; lf
+	PVTermOutputDriver stderr
+		red: msg;
+		lf

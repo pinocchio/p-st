@@ -1,5 +1,6 @@
 error handling
-perror: msg
+perror: message
 	<renameExport: #error:>
-	self warn: msg.
-	self halt
+	^ PError new
+		message: message;
+		signal

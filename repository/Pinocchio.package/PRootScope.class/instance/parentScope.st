@@ -1,3 +1,3 @@
 accessing
 parentScope
-	self error: 'RootScope no parent! is here.'
+	self error: 'RootScope has no parent!'
