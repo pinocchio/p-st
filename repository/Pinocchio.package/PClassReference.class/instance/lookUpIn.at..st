@@ -1,4 +1,8 @@
 accessing
-lookUpIn: aCollection at: index
+lookupIn: aCollection at: index
 	index > aCollection size
-		ifFalse: [ ^ self error: 'classes are not nested.' ]	"^ self."
+		ifFalse: [ ^ PNestedClassException new
+							path: aCollection;
+							index: index;
+							signal ]
+	"^ self."
