@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"message" ],
-	"name" : "PCompilationFailure",
+		"target",
+		"method" ],
+	"name" : "PCompilerException",
 	"pools" : [
 		 ],
-	"super" : "PCompilerException",
+	"super" : "PException",
 	"type" : "normal" }

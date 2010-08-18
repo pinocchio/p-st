@@ -2,7 +2,11 @@ visitor
 visitVariable: anASTVariable
 	(scope lookup: anASTVariable) ifNotNil: [ :value | ^ value ].
 	anASTVariable name first isUppercase
-		ifFalse: [ self error: 'Lookup failed. Undefined Variable: ''' , anASTVariable name , '''' ].
+		ifFalse: [ ^ PUndefinedVariable new
+						target: pinocchioClass;
+						method: currentMethod; 
+						variable: anASTVariable;
+						signal ].
 	^ self scope
 		declare: anASTVariable
 		as: ((pinocchioClass package findName: anASTVariable name)
