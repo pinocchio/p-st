@@ -1,18 +1,23 @@
 private
 repaint
 	| col line |
-	output normal.
-	col := text column.
-	line := text line.
-	col timesRepeat: [ output left ].
-	" there is always 1 line "
-	line - 1 timesRepeat: [ output up ].
+	self parsesUntil ifNotNil: [ :newpos |
+		col := text column.
+		line := text line.
+		failure ifNotNil: [
+			failure = (newpos + 1)
+				ifFalse: [ self repaintAt: failure ]].
+		
+		failure := newpos + 1.
+		output errorColor.
+		self repaintAt: failure.
+		self moveToLine: line column: col.
+		^ output normal ].
 	
-	text do: [ :l |
-		l do: [ :char | output overwrite: char ].
-		l size timesRepeat: [ output left ]] separatedBy: [ output down ].
+	failure ifNotNil: [
+		col := text column.
+		line := text line.
+		self repaintAt: failure.
+		self moveToLine: line column: col ].
 	
-	(text lines - line) timesRepeat: [ output up ].
-	col timesRepeat: [ output right ].
-
-	self parsesUntil ifNotNil: [ :position | self errorAt: position ]
+	failure := nil

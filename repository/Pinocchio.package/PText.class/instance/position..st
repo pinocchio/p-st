@@ -5,7 +5,8 @@ position: value
 	lines start.
 	[ lines next ] whileTrue: [
 		l := lines value.
-		pos < l size ifTrue: [
-			^ l position: pos + 1 ].
+		pos <= l size ifTrue: [
+			^ l position: pos ].
 		pos := pos - (l size) - 1 ].
-	self indexOutOfBounds: pos
+	pos = 0 ifTrue: [ ^ l end ].
+	self indexOutOfBounds: value

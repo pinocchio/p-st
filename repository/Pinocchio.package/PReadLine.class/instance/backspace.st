@@ -2,4 +2,5 @@ removing
 backspace
 	text deleteRight ifTrue: [
 		output deleteCharacter.
-		self repaint ]
+		self moveFailure: -1.
+		self repaint.]

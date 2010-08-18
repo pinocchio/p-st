@@ -11,7 +11,8 @@
 		"output",
 		"vterm",
 		"ready",
-		"text" ],
+		"text",
+		"failure" ],
 	"name" : "PReadLine",
 	"pools" : [
 		 ],
