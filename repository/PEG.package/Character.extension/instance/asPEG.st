@@ -1,3 +1,3 @@
 *PEG
 asPEG
-	^ self asString asPEG
+	^ PEGCharacterTerminal on: self
