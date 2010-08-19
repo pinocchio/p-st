@@ -5,6 +5,7 @@ memoizeMatch: parser
 	result := bucket at: parser ifAbsent: [
 		(parser parseOn: self)
 			ifTrue: [
+				longestMatch := longestMatch max: position.
 				bucket at: parser put: position@(stack peek).
 				^ true ]
 			ifFalse: [

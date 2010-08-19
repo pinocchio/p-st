@@ -1,3 +1,3 @@
 matching
 omitMatch: input
-	^ input scan: stringValue
+	^ input scan: string

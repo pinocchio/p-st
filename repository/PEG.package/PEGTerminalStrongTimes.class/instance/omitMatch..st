@@ -1,4 +1,4 @@
 matching
 omitMatch: input
-	[ input scan: stringValue ] whileTrue.
+	[ input scan: string ] whileTrue.
 	^ true

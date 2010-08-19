@@ -1,4 +1,4 @@
 matching
 parseOn: input
-	[ input scanPush: stringValue ] whileTrue.
+	[ input scanPush: string ] whileTrue.
 	^ true
