@@ -1,3 +1,3 @@
 matching
 parseOn: input
-	^ input scanPushCharacter: string
+	^ input scanCharacter: string
