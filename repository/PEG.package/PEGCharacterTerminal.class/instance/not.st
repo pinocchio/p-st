@@ -1,3 +1,3 @@
 initialization
 not
-	^ PEGNotTerminal on: string
+	^ PEGNotTerminal on: string asCharacter
