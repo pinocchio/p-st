@@ -2,4 +2,4 @@ variable
 initializePrimaryVariable
 	^ PEGMultiParser
 		named: 'PRIMARY-VARIABLE'
-		parsing: self identifier && ('.' asPEG omit && self identifier) strongTimes
+		parsing: self identifier && ('.' asPEG && self identifier) strongTimes

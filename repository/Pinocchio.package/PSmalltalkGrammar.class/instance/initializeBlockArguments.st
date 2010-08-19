@@ -2,4 +2,4 @@ block
 initializeBlockArguments
 	^ PEGMultiParser
 		named: 'BLOCK-ARGUMENTS'
-		parsing: (':' asPEG omit & self identifier) plus
+		parsing: (':' asPEG & self identifier) plus

@@ -2,6 +2,6 @@ basic-block
 initializeBraceExpression
 	^ PEGParser
 		named: 'BRACE-EXPRESSION'
-		parsing: '{' asPEG omit
+		parsing: '{' asPEG
 					& self statements
-					<& '}' asPEG omit
+					<& '}'

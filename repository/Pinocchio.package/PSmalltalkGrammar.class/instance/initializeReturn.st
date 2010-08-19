@@ -2,4 +2,4 @@ basic-block
 initializeReturn
 	^ PEGParser
 		named: 'RETURN'
-		parsing: '^' asPEG omit & self expression <& '.' asPEG optional omit
+		parsing: '^' asPEG & self expression <& '.' asPEG optional omit

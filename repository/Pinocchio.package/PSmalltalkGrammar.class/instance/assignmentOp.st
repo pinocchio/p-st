@@ -1,3 +1,3 @@
 assignment
 assignmentOp
-	^ (':=' asPEG | '_') omit
+	^ ':=' asPEG omit | '_'
