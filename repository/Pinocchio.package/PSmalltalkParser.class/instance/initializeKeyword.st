@@ -1,4 +1,4 @@
 initialization
 initializeKeyword
 	^ super initializeKeyword
-		semantics: [ :result | result add: $:. result asString ]
+		semantics: [ :result | result asString ]
