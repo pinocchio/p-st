@@ -8,7 +8,8 @@
 	"instvars" : [
 		"separator",
 		"cache",
-		"stack" ],
+		"stack",
+		"longestMatch" ],
 	"name" : "PEGStringScanner",
 	"pools" : [
 		 ],
