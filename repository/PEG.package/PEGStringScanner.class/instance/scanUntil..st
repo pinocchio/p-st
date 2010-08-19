@@ -1,6 +1,4 @@
 matching
 scanUntil: char
-	position + 1 to: collection size do: [ :index |
-		char = (collection at: index) ifTrue: [ position := index - 1. ^ true ]
-	].
-	position := collection size
+	position := collection indexOf: char startingAt: position + 1 ifAbsent: [ collection size + 1 ].
+	position := position - 1

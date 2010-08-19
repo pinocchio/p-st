@@ -1,5 +1,5 @@
 initialization
 initialize
-	size := 100.
+	size := 128.
 	array := Array new: size.
-	position := 0.
+	position := 0
