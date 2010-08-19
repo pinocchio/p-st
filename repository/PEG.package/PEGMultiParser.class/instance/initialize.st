@@ -1,4 +1,4 @@
 initialization
 initialize
 	separator := self class separator.
-	semantics := [ :result | result asArray ]
+	semantics := [ :result | ]
