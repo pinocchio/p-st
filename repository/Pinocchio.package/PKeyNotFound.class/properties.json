@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Collection",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dictionary",
+		"key" ],
+	"name" : "PKeyNotFound",
+	"pools" : [
+		 ],
+	"super" : "PException",
+	"type" : "normal" }

@@ -1,3 +1,6 @@
 error handling
 errorKeyNotFound: aKey
-	self error: 'Key "' , aKey asString , '" not found.'.
+	^ PKeyNotFound new
+		key: aKey;
+		dictionary: self;
+		signal
