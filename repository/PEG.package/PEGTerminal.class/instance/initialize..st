@@ -1,3 +1,3 @@
 initialization
-initialize: aString
-	string := aString
+initialize: aTerminal
+	terminal := aTerminal

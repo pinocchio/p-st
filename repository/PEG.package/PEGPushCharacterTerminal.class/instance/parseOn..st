@@ -1,3 +1,3 @@
 matching
 parseOn: input
-	^ input scanPushCharacter: string
+	^ input scanPushCharacter: terminal

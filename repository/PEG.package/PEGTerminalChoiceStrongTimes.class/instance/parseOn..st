@@ -1,4 +1,4 @@
 matching
 parseOn: input
-	input pushAllIn: string.
+	input pushAllIn: terminal.
 	^ true

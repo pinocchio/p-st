@@ -1,3 +1,3 @@
 initialization
 consume
-	^ PEGPushCharacterTerminal on: string
+	^ PEGPushCharacterTerminal on: terminal

@@ -1,3 +1,3 @@
 matching
 omitMatch: input
-	^ input scan: string
+	^ input scan: terminal

@@ -1,4 +1,4 @@
 matching
 omitMatch: input
-	input scanAllIn: string.
+	input scanAllIn: terminal.
 	^ true
