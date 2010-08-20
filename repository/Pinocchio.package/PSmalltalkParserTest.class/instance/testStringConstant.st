@@ -1,7 +1,7 @@
 tests
 testStringConstant
 	| parser string result |
-	parser := scparser stringConstant.
+	parser := pparser stringConstant.
 	string := PEGStringScanner on: '''abc'''.
 	result := parser match: string.
 	result class should = ASTString.

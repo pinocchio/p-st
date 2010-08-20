@@ -1,7 +1,7 @@
 running
 testVisitMethodMultipleArgs
 	| ast |
-	parser := scparser method.
+	parser := pparser method.
 	ast := self ast: 'doIt: a withA: b withB: c withC: d' , String cr , ' a + 2.'.
 	ast class should = PMethodClosure.
 	ast := ast code.	"ast selector asSymbol should = #doIt:withA:withB:withC:."

@@ -1,7 +1,7 @@
 tests
 testMethod4
 	| parser string result |
-	parser := scparser method.
+	parser := pparser method.
 	string := 'withA: a withB: b withC: c
 		a := b > c.
 		a ifTrue: [^ b]

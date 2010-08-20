@@ -1,7 +1,7 @@
 tests
 testArray
 	| parser string result |
-	parser := scparser array.
+	parser := pparser array.
 	string := PEGStringScanner on: '()'.
 	result := parser match: string.
 	result class should = ASTArray.

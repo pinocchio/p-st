@@ -3,7 +3,7 @@ testMethod2
 	" We just allow fully MessageExpressions in our annotations. Semantic checker will catch this (probably :)) "
 
 	| parser string result |
-	parser := scparser method.
+	parser := pparser method.
 	string := 'a: b c: d
 			<abc: 1 "bla"def: (2+2) ghi: (3 b)>
 			<a: 4> "test"

@@ -3,7 +3,7 @@ testParseTestMethods
 	<preventExport>
 	<temps: 6 annotations: 1 statements: 3>
 	| parser string result code annotations annotation |
-	parser := scparser method.
+	parser := pparser method.
 	self class methodDict keys
 		do:
 			[ :key | 
@@ -11,7 +11,7 @@ testParseTestMethods
 				show: key;
 				cr.
 			code := self class sourceCodeAt: key.
-			string := PEGStringScanner on: code separator: scparser separator.
+			string := PEGStringScanner on: code separator: pparser separator.
 			result := parser match: string.
 			result class should = ASTMethod.
 			annotations := result annotations

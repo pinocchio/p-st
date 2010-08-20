@@ -1,7 +1,7 @@
 tests
 testReturn
 	| parser string result |
-	parser := scparser return.
+	parser := pparser return.
 	string := PEGStringScanner on: '^ a:= b :=    c:= 2+4 abc: 1 def: 2+2 ghi: 3 b '.
 	result := parser match: string.
 	result class should = ASTReturnExpression.

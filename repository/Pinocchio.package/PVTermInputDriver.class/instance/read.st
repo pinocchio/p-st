@@ -2,9 +2,9 @@ reading
 read
 	" C0 Control (Escape) mode "
 	| character action |
-	character := readline read.
+	character := input read.
 	action :=
 		normal
 			at: character asInteger
-			ifAbsent: [ ^ readline write: character ].
+			ifAbsent: [ ^ handler write: character ].
 	action value

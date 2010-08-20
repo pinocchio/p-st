@@ -2,7 +2,7 @@ running
 testVisitPathNegativeTest
 	<preventExport>
 	| result pclass root type classReference |
-	parser := scparser variableName.
+	parser := pparser variableName.
 	pclass := PClass new.
 	root := PRootPackage new.
 	type := root ensurePackageNamed: 'IO'.

@@ -1,7 +1,7 @@
 running
 testVisitBlock
 	| emptyblock variable result |
-	parser := scparser block.
+	parser := pparser block.
 	emptyblock := (ASTBlock new)
 		statements: (Array new: 0);
 		parameters: (Array new: 0);

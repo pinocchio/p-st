@@ -1,7 +1,7 @@
 tests
 testBracketAssignExpression1
 	| parser string result1 result2 arg result3 |
-	parser := scparser expression.
+	parser := pparser expression.
 	string := PEGStringScanner on: 'self dict at: 1 put: 1 '.
 	result1 := parser match: string.
 	

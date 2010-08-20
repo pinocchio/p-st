@@ -1,7 +1,7 @@
 tests
 testCapitalIdentifier
 	| parser string |
-	parser := scparser capitalIdentifier.
+	parser := pparser capitalIdentifier.
 	string := PEGStringScanner on: 'Abcd '.
 	(parser match: string) should = 'Abcd'.
 	string position should = 4.

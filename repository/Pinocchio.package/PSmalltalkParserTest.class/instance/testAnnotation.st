@@ -2,7 +2,7 @@ tests
 testAnnotation
 	| parser string result arg |
 	" We just allow fully MessageExpressions in our annotations. Semantic checker will catch this (probably :)) "
-	parser := scparser annotations.
+	parser := pparser annotations.
 	string := PEGStringScanner on: '<abc: 1 def: (2 + 3) ghi: (3 b)>'.
 	result := parser match: string.
 	result size should = 1.

@@ -1,7 +1,7 @@
 tests
 testMessageExpression
 	| parser string result |
-	parser := scparser messageExpression.
+	parser := pparser messageExpression.
 	string := PEGStringScanner on: 'super+4'.
 	result := parser match: string.
 	result class should = ASTBinaryExpression.

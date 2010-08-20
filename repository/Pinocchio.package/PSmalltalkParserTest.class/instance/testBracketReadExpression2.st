@@ -1,7 +1,7 @@
 tests
 testBracketReadExpression2
 	| parser string result1 result2 arg result3 result4 result5 result31 |
-	parser := scparser expression.
+	parser := pparser expression.
 	string := PEGStringScanner on: 'a at: (b at: 2)'.
 	result1 := parser match: string.
 	

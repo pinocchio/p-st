@@ -1,7 +1,7 @@
 tests
 testCascadedMessageExpression
 	| parser string result expression |
-	parser := scparser cascadedMessageExpression.
+	parser := pparser cascadedMessageExpression.
 	string := PEGStringScanner on: '2+4; x: 3 b; d: 3 c: 4; x '.
 	result := parser match: string.
 	result class should = ASTMessageCascadeExpression.

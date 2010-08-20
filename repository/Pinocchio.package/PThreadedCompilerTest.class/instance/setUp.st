@@ -1,4 +1,4 @@
 running
 setUp
 	super setUp.
-	parser := scparser method.
+	parser := pparser method.

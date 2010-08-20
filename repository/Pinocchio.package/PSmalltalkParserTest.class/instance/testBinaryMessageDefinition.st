@@ -1,7 +1,7 @@
 tests
 testBinaryMessageDefinition
 	| parser string result |
-	parser := scparser binaryMessageDefinition.
+	parser := pparser binaryMessageDefinition.
 	string := PEGStringScanner on: '+= a'.
 	result := parser match: string.
 	result class should = ASTBinaryMessageDefinition.

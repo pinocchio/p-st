@@ -1,7 +1,7 @@
 tests
 testCharacterConstant
 	| parser string result |
-	parser := scparser characterConstant.
+	parser := pparser characterConstant.
 	string := PEGStringScanner on: 'a'.
 	[ parser match: string ] should signal: PEGParsingFailure.
 	string position should = 0.

@@ -1,7 +1,7 @@
 tests
 testTemporaries
 	| parser string result |
-	parser := scparser temporaries.
+	parser := pparser temporaries.
 	string := PEGStringScanner on: '|a b c|'.
 	result := parser match: string.
 	result collect: #yourself.

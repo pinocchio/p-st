@@ -1,7 +1,7 @@
 tests
 testKeywordsArguments
 	| parser string result |
-	parser := scparser keywordsArguments.
+	parser := pparser keywordsArguments.
 	string := PEGStringScanner on: 'test: ab'.
 	result := parser match: string.
 	result class should = ASTKeywordMessageDefinition.

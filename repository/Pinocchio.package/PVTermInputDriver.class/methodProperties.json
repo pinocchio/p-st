@@ -2,14 +2,15 @@
 	"class" : {
 		"named:" : "ToonVerwaest 8/12/2010 14:45" },
 	"instance" : {
-		"continueReadCSINumber:" : "ToonVerwaest 8/13/2010 15:42",
+		"continueReadCSINumber:" : "ToonVerwaest 8/20/2010 14:19",
 		"fail:in:" : "ToonVerwaest 8/13/2010 16:26",
+		"handler:" : "ToonVerwaest 8/20/2010 14:15",
 		"initialize" : "ToonVerwaest 8/13/2010 16:23",
-		"initializeCSI:" : "CamilloBruni 8/17/2010 11:22",
-		"initializeNormal:" : "ToonVerwaest 8/14/2010 16:50",
-		"initializeSS3:" : "ToonVerwaest 8/13/2010 15:26",
-		"read" : "CamilloBruni 8/17/2010 11:18",
-		"readC1" : "ToonVerwaest 8/13/2010 19:11",
-		"readCSI" : "ToonVerwaest 8/13/2010 15:44",
-		"readSS3" : "ToonVerwaest 8/13/2010 16:25",
-		"readline:" : "ToonVerwaest 8/12/2010 15:35" } }
+		"initializeCSI:" : "ToonVerwaest 8/20/2010 14:16",
+		"initializeNormal:" : "ToonVerwaest 8/20/2010 14:17",
+		"initializeSS3:" : "ToonVerwaest 8/20/2010 14:17",
+		"input:" : "ToonVerwaest 8/20/2010 14:15",
+		"read" : "ToonVerwaest 8/20/2010 14:16",
+		"readC1" : "ToonVerwaest 8/20/2010 14:16",
+		"readCSI" : "ToonVerwaest 8/20/2010 14:16",
+		"readSS3" : "ToonVerwaest 8/20/2010 14:16" } }

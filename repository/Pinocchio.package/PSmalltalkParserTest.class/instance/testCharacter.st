@@ -1,7 +1,7 @@
 tests
 testCharacter
 	| parser string |
-	parser := scparser character.
+	parser := pparser character.
 	string := PEGStringScanner on: '--'.
 	(parser match: string) should = $-.
 	string position should = 1.

@@ -1,7 +1,7 @@
 running
 testVisitMethodWithReturn2
 	| ast block return body send |
-	parser := scparser method.
+	parser := pparser method.
 	ast := self ast: 'doIt' , String cr , '|a b c|' , String cr , ' a := b+c. ^ self foo: a bar: b baz: c.'.
 	ast class should = PMethodClosure.
 	ast := ast code.

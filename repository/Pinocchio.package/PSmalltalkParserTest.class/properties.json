@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"scparser" ],
+		"pparser" ],
 	"name" : "PSmalltalkParserTest",
 	"pools" : [
 		 ],

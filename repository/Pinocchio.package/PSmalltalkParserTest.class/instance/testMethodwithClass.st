@@ -1,7 +1,7 @@
 tests
 testMethodwithClass
 	| parser string result |
-	parser := scparser method.
+	parser := pparser method.
 	string := 'withA: a
 		IO.File stdout writeAll: a
 	'.

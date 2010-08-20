@@ -7,12 +7,11 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"client",
-		"input",
 		"output",
-		"vterm",
 		"ready",
 		"text",
-		"failure" ],
+		"failure",
+		"vterm" ],
 	"name" : "PReadLine",
 	"pools" : [
 		 ],

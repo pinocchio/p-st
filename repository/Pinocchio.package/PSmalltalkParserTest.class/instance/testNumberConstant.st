@@ -1,7 +1,7 @@
 tests
 testNumberConstant
 	| parser string result |
-	parser := scparser numberConstant.
+	parser := pparser numberConstant.
 	string := '71742 8'.
 	result := parser match: (PEGStringScanner on: string).
 	result class should = ASTNumber.

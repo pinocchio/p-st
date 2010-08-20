@@ -1,7 +1,7 @@
 tests
 testLiteral
 	| parser string result |
-	parser := scparser literal.
+	parser := pparser literal.
 	string := PEGStringScanner on: '3'.
 	result := parser match: string.
 	result class should = ASTNumber.

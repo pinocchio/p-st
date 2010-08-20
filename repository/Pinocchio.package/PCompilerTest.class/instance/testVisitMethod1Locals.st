@@ -1,7 +1,7 @@
 running
 testVisitMethod1Locals
 	| ast |
-	parser := scparser method.
+	parser := pparser method.
 	ast := self ast: 'doIt' , String cr , '|a|' , String cr , ' a + 2.'.
 	ast class should = PMethodClosure.
 	ast := ast code.

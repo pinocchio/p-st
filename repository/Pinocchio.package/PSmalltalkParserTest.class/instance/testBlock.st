@@ -1,7 +1,7 @@
 tests
 testBlock
 	| parser string result |
-	parser := scparser block.
+	parser := pparser block.
 	string := PEGStringScanner on: '[]'.
 	result := parser match: string.
 	result class should = ASTBlock.

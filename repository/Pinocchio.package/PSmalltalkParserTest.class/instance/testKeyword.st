@@ -1,7 +1,7 @@
 tests
 testKeyword
 	| parser string |
-	parser := scparser keyword.
+	parser := pparser keyword.
 	string := PEGStringScanner on: 'abcd: '.
 	(parser match: string) should = 'abcd:'.
 	string position should = 5.

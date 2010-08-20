@@ -1,7 +1,7 @@
 tests
 testExpression
 	| parser string result |
-	parser := scparser expression.
+	parser := pparser expression.
 	string := PEGStringScanner on: 'a:= b :=    c:= 2+4 abc: 1 def: 2+2 ghi: 3 b '.
 	result := parser match: string.
 	result class should = ASTAssignmentExpression.

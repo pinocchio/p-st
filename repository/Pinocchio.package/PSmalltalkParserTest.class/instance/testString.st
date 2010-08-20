@@ -1,7 +1,7 @@
 tests
 testString
 	| parser string |
-	parser := scparser string.
+	parser := pparser string.
 	string := PEGStringScanner on: ''.
 	[ parser match: string ] should signal: PEGParsingFailure.
 	string position should = 0.

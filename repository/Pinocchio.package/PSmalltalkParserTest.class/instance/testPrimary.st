@@ -1,7 +1,7 @@
 tests
 testPrimary
 	| parser string result |
-	parser := scparser primary.	" primary variable"
+	parser := pparser primary.	" primary variable"
 	string := PEGStringScanner on: 'abc '.
 	result := parser match: string.
 	result class should = ASTVariable.

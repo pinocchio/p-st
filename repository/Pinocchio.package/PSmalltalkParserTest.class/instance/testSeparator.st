@@ -1,7 +1,7 @@
 tests
 testSeparator
 	| parser string |
-	parser := scparser separator.
+	parser := pparser separator.
 	string := PEGStringScanner on: '"Test"'.
 	(parser match: string) should not be isNil.
 	string position should = 6.

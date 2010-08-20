@@ -1,7 +1,7 @@
 tests
 testVariable
 	| parser string result |
-	parser := scparser primaryVariable.
+	parser := pparser primaryVariable.
 	string := PEGStringScanner on: 'a'.
 	result := parser match: string.
 	result should beKindOf: ASTVariable.

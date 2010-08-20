@@ -1,7 +1,7 @@
 running
 testVisitMethodWithReturnSimpleCall
 	| ast return body send |
-	parser := scparser method.
+	parser := pparser method.
 	ast := self ast: 'doIt' , String cr , ' ^ self foo'.
 	ast class should = PMethodClosure.
 	ast := ast code.

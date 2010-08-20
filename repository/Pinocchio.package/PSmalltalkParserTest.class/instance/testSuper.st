@@ -1,11 +1,11 @@
 tests
 testSuper
 	| parser string message return |
-	parser := scparser messageExpression.
+	parser := pparser messageExpression.
 	string := PEGStringScanner on: 'super do: this and: that'.
 	message := parser match: string.
 	message receiver class should = ASTSuper.
-	parser := scparser return.
+	parser := pparser return.
 	string := PEGStringScanner on: '^ super do: this and: that'.
 	return := parser match: string.
 	return class should = ASTReturnExpression.

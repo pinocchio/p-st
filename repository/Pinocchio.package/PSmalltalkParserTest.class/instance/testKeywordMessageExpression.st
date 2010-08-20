@@ -1,7 +1,7 @@
 tests
 testKeywordMessageExpression
 	| parser string result arg |
-	parser := scparser keywordMessageExpression.
+	parser := pparser keywordMessageExpression.
 	string := PEGStringScanner on: 'abc: 1 def: 2+2 ghi: 3 b '.
 	result := parser match: string.
 	result class should = ASTMessageExpression.

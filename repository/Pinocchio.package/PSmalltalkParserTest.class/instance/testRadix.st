@@ -1,7 +1,7 @@
 tests
 testRadix
 	| parser string result |
-	parser := scparser radix.
+	parser := pparser radix.
 	string := '10r4'.
 	result := parser parse: string.
 	result class should = ASTNumber.

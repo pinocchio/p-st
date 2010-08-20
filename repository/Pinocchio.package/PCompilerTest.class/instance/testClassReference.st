@@ -1,7 +1,7 @@
 running
 testClassReference
 	| ast pclass root type classReference |
-	parser := scparser method.
+	parser := pparser method.
 	pclass := PClass new.
 	root := PRootPackage new.
 	type := root ensurePackageNamed: 'Type'.

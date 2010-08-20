@@ -1,7 +1,7 @@
 running
 testVisitMethodWithDirectReturn2
 	| ast block return returningBlock |
-	parser := scparser method.
+	parser := pparser method.
 	ast := self
 		ast:
 			'doIt' , String cr , '|a|' , String cr

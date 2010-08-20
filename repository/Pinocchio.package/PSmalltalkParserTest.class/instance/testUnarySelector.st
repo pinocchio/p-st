@@ -1,7 +1,7 @@
 tests
 testUnarySelector
 	| parser string result |
-	parser := scparser unarySelector.
+	parser := pparser unarySelector.
 	string := PEGStringScanner on: 'abcd bla'.
 	result := parser match: string.
 	result class should = ASTUnarySelector.

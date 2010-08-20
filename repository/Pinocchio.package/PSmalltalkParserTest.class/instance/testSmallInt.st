@@ -1,7 +1,7 @@
 tests
 testSmallInt
 	| parser string result |
-	parser := scparser number.
+	parser := pparser number.
 	result := parser parse: '0'.
 	result class should = ASTNumber.
 	result number should be: '0'.

@@ -1,7 +1,7 @@
 tests
 testBinaryExpression2
 	| string result parser |
-	parser := scparser binaryObjectDescription.
+	parser := pparser binaryObjectDescription.
 	string := PEGStringScanner on: 'a <<<<<<<< ghi <= c <= d '.
 	result := parser match: string.
 	result class should = ASTBinaryExpression.

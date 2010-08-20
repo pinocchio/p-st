@@ -1,7 +1,7 @@
 running
 testVisitMethod1Arg
 	| ast |
-	parser := scparser method.
+	parser := pparser method.
 	ast := self ast: 'doIt: a' , String cr , ' a + 2.'.
 	ast class should = PMethodClosure.
 	ast := ast code.	"ast selector asSymbol should = #doIt:."

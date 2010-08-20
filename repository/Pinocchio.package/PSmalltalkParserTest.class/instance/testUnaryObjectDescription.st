@@ -1,7 +1,7 @@
 tests
 testUnaryObjectDescription
 	| parser string result |
-	parser := scparser unaryObjectDescription.	" unary expression "
+	parser := pparser unaryObjectDescription.	" unary expression "
 	string := PEGStringScanner on: 'abc def ghi '.
 	result := parser match: string.
 	result class should = ASTUnaryExpression.

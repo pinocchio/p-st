@@ -1,7 +1,7 @@
 tests
 testIdentifier
 	| parser string |
-	parser := scparser identifier.
+	parser := pparser identifier.
 	string := PEGStringScanner on: 'abcd '.
 	(parser match: string) should = 'abcd'.
 	string position should = 4.

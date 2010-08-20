@@ -1,7 +1,7 @@
 tests
 testSymbolKeywords
 	| parser string |
-	parser := scparser symbolKeywords.
+	parser := pparser symbolKeywords.
 	string := PEGStringScanner on: 'abcd:def: '.
 	(parser match: string) should = 'abcd:def:'.
 	string position should = 9.

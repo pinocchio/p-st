@@ -1,8 +1,8 @@
 running
 testVisitMethodWithIntermediateReturn
 	| ast block return returningBlock send callecBody pclass root type classReference |
-	parser := scparser method.
-	parser := scparser method.
+	parser := pparser method.
+	parser := pparser method.
 	pclass := PClass new.
 	root := PRootPackage new.
 	type := root ensurePackageNamed: 'Type'.

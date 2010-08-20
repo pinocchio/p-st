@@ -1,7 +1,7 @@
 running
 testVisitMethodWithDirectReturn
 	| ast block return returningBlock |
-	parser := scparser method.
+	parser := pparser method.
 	ast := self ast: 'doIt' , String cr , ' ^ true.'.
 	ast class should = PMethodClosure.
 	ast := ast code.

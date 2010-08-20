@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"readline",
+		"input",
+		"handler",
 		"normal",
 		"csi",
 		"ss3" ],

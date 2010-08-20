@@ -1,7 +1,7 @@
 running
 testVisitBinaryMethod
 	| ast |
-	parser := scparser method.
+	parser := pparser method.
 	ast := self
 		ast:
 			'= other 

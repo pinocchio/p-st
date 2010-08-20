@@ -2,7 +2,7 @@ reading
 continueReadCSINumber: v
 	| value character |
 	value := v.
-	[ $0 <= (character := readline read) and: [ character <= $9 ]]
+	[ $0 <= (character := input read) and: [ character <= $9 ]]
 		whileTrue: [
 			value := value * 10 + (character asInteger - $0 asInteger ) ].
 	character = $~ ifFalse: [ self fail: character in: 'Control Sequence Introducer (number end)' ].

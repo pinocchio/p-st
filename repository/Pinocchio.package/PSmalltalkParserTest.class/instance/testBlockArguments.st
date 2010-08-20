@@ -1,7 +1,7 @@
 tests
 testBlockArguments
 	| string result var parser |
-	parser := scparser blockArguments.
+	parser := pparser blockArguments.
 	string := PEGStringScanner on: ':abcd :def'.
 	result := parser match: string.
 	string position should = 10.

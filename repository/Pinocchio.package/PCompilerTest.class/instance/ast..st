@@ -1,3 +1,3 @@
 running
 ast: string
-	^ visitor visit: (scparser match: string to: parser)
+	^ visitor visit: (pparser match: string to: parser)

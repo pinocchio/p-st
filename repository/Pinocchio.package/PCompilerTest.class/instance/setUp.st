@@ -1,4 +1,4 @@
 running
 setUp
-	scparser := PSmalltalkParser new.
+	pparser := PSmalltalkParser new.
 	visitor := PCompiler new.

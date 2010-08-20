@@ -1,7 +1,7 @@
 tests
 testAssignmentExpressions
 	| parser string |
-	parser := scparser assignmentExpressions.
+	parser := pparser assignmentExpressions.
 	string := PEGStringScanner on: 'a :=  b:= c := d'.
 	((parser match: string) collect: #name) asArray should
 		=

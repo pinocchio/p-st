@@ -2,7 +2,7 @@ reading
 readCSI
 	" Control Sequence Introducer mode "
 	| code character action |
-	character := readline read.
+	character := input read.
 	action := ($0 <= character and: [ character <= $9 ])
 		ifTrue: [ self continueReadCSINumber: character asInteger - $0 asInteger ]
 		ifFalse: [
