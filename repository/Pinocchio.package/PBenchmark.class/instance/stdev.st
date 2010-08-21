@@ -1,3 +1,3 @@
 accessing
-stdev 
-	^ self probes stdev
+stdev
+	^ self stdevSquared sqrt

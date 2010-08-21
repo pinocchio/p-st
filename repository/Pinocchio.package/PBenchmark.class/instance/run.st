@@ -1,3 +1,5 @@
-as yet unclassified
+running
 run
-	self probeCount timesRepeat: [ self runProbe. ].
+	self reset.
+	self runAll.
+	

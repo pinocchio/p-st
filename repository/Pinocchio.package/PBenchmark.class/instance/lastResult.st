@@ -1,3 +1,3 @@
 accessing
 lastResult
-	^ self probes last
+	^ self runs last

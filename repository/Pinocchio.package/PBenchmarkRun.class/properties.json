@@ -6,8 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"runs" ],
-	"name" : "PBenchmark",
+		"probes",
+		"target",
+		"selector",
+		"name" ],
+	"name" : "PBenchmarkRun",
 	"pools" : [
 		 ],
 	"super" : "PAbstractBenchmark",

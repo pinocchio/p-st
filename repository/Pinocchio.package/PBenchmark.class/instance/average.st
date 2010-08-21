@@ -1,3 +1,3 @@
 accessing
-average 
-	^ self probes average
+average
+	^ self sum / runs size asFloat

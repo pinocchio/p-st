@@ -1,5 +1,6 @@
 SystemOrganization addCategory: #Pinocchio!
 SystemOrganization addCategory: #'Pinocchio-Alias'!
+SystemOrganization addCategory: #'Pinocchio-Benchmark'!
 SystemOrganization addCategory: #'Pinocchio-Bridge'!
 SystemOrganization addCategory: #'Pinocchio-Bridge-Test'!
 SystemOrganization addCategory: #'Pinocchio-Collection'!
@@ -29,4 +30,3 @@ SystemOrganization addCategory: #'Pinocchio-Kernel-Number'!
 SystemOrganization addCategory: #'Pinocchio-Kernel-Threading'!
 SystemOrganization addCategory: #'Pinocchio-Kernel-Layout'!
 SystemOrganization addCategory: #'Pinocchio-Chronology'!
-SystemOrganization addCategory: #'Pinocchio-Benchmark'!

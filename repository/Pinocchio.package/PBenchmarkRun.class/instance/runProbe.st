@@ -1,8 +1,8 @@
-as yet unclassified
+running
 runProbe
 	| time |
 	time := self currentMillis.
-	self benchmark.
+	target perform: selector.
 	time := (self currentMillis) - time.
 	time := (time / probeCount asFloat).
 	probes add: time.

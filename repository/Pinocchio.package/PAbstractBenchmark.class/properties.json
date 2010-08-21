@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"runs" ],
-	"name" : "PBenchmark",
+		"probeCount" ],
+	"name" : "PAbstractBenchmark",
 	"pools" : [
 		 ],
-	"super" : "PAbstractBenchmark",
+	"super" : "Object",
 	"type" : "normal" }

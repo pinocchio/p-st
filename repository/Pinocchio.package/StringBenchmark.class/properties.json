@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"runs" ],
-	"name" : "PBenchmark",
+		 ],
+	"name" : "StringBenchmark",
 	"pools" : [
 		 ],
-	"super" : "PAbstractBenchmark",
+	"super" : "PBenchmark",
 	"type" : "normal" }
