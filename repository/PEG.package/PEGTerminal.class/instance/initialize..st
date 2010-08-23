@@ -1,3 +1,4 @@
 initialization
 initialize: aTerminal
-	terminal := aTerminal
+	terminal := aTerminal.
+	aTerminal isNil ifTrue: [ self halt.].
