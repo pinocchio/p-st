@@ -1,0 +1,3 @@
+hashing
+hash
+	^ self identityHash

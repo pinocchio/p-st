@@ -1,3 +1,3 @@
 printing
 warnOn: aStream
-	^ self printOn: aStream
+	self printOn: aStream.

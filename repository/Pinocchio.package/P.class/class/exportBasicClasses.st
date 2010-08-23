@@ -46,6 +46,7 @@ exportBasicClasses
 		add: PEnvironment;
 		add: PSocket;
 		add: PWriteStream;
-		"add: PSmallIntTest;"
+		add: PSetTest;
+		add: PSmallIntTest;
 		"add: PACContextInterpreter;"
 		yourself

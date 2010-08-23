@@ -7,6 +7,7 @@ pMethods
 				#addAll:.
 				#isEmpty.
 				#hasReturnExpression.
+				#asOrderedCollection.
 				#anySatisfy:.
 				#allSatisfy:.
 				#includes:.

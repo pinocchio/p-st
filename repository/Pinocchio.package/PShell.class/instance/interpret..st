@@ -4,7 +4,9 @@ interpret: code
 		on: Object 
 		do: [ :ex | 
 			self exceptions add: ex.
-			error red.
+			error yellow.
+			ex printStacktraceOn: error.
+			error lf; red.
 			ex warnOn: error.
 			error clear.
 			PVoid ].

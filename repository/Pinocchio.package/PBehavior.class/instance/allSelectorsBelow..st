@@ -1,0 +1,10 @@
+accessing method dictionary
+allSelectorsBelow: topClass 
+	| coll |
+	coll := PIdentitySet new.
+	self withAllSuperclassesDo: [:aClass | 
+			aClass = topClass
+				ifTrue: [^ coll ]
+				ifFalse: [aClass selectorsDo: [ :sel | coll add: sel ]]].
+	^ coll
+	
