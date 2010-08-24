@@ -9,6 +9,6 @@ lookupSelector: selector
 	[lookupClass == nil]
 		whileFalse: 
 			[(lookupClass includesSelector: selector)
-				ifTrue: [^ lookupClass compiledMethodAt: selector].
+				ifTrue: [^ lookupClass methodDict at: selector].
 			lookupClass := lookupClass superclass].
 	^ nil

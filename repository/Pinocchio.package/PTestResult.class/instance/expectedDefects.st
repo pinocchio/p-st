@@ -1,3 +1,5 @@
 accessing
 expectedDefects
-	^ (errors, failures asOrderedCollection) select: [:each | each shouldPass not] 
+	| defects |
+	defects := (errors, OrderedCollection newFrom: failures).
+	^  defects select: [:each | each shouldPass not] 

@@ -12,6 +12,7 @@ pMethods
 				#at:.
 				#at:put:.
 				#collect:.
+				#select:.
 				#do:.
 				#grow.
 				#growSize.

@@ -2,13 +2,14 @@
 pMethods
 	<preventExport>
 	self == SequenceableCollection ifTrue: [
-		^{#first.
+		^{  #first.
 			#second.
 			#=.
 			#do:.
 			#from:to:do:.
 			#copyFrom:.
 			#copyFrom:to:.
+			#beginsWith:.
 			#doWithIndex:.
 			#hasEqualElements:.
 			#indexOf:.
@@ -24,5 +25,7 @@ pMethods
 			#copyWith:.
 			#do:separatedBy:.
 			#collect:.
+			#select:.
+			#writeStream.
 			#last. }].
 	^ super pMethods

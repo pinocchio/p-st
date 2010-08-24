@@ -1,4 +1,4 @@
 iterating
 packagesDo: aBlock
 	aBlock value: self.
-	members valuesDo: [ :element | element packagesDo: aBlock ]
+	members do: [ :element | element packagesDo: aBlock ]

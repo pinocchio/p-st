@@ -1,3 +1,3 @@
 iterating
 packagesDo: aBlock
-	members valuesDo: [ :element | element packagesDo: aBlock ]
+	members do: [ :element | element packagesDo: aBlock ]

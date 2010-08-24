@@ -1,3 +1,3 @@
 *Pinocchio
 run
-	self suite run
+	^ self suite run

@@ -2,6 +2,6 @@
 allTestSelectors
 	| selectors |
 	selectors := OrderedCollection newFrom: self allSelectors.
-	^selectors select: [:each | 
-		('test*' match: each) and: [each numArgs isZero]]
+	^ selectors select: [:each | 
+		(each beginsWith: 'test') and: [(each includes: $:) not]]
 			

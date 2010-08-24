@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"addTestsFor:toSuite:" : "CamilloBruni 7/19/2010 11:53",
-		"allTestSelectors" : "CamilloBruni 8/23/2010 22:47",
+		"allTestSelectors" : "CamilloBruni 8/23/2010 23:16",
 		"coverage" : "CamilloBruni 7/19/2010 13:00",
 		"coverageAsString" : "CamilloBruni 7/19/2010 13:01",
 		"coverageForClass:" : "CamilloBruni 7/19/2010 13:01",
@@ -15,12 +15,15 @@
 		"localCoveragePercentage" : "CamilloBruni 7/19/2010 13:01",
 		"newTestDictionary" : "CamilloBruni 8/9/2010 11:40",
 		"pClassMethods" : "ToonVerwaest 8/3/2010 14:15",
-		"pMethods" : "ToonVerwaest 8/3/2010 12:24",
+		"pMethods" : "CamilloBruni 8/24/2010 12:09",
 		"packageNamesUnderTest" : "CamilloBruni 7/19/2010 13:01",
 		"pnewTestDictionary" : "CamilloBruni 8/9/2010 11:40",
 		"resources" : "CamilloBruni 7/19/2010 11:55",
-		"run" : "CamilloBruni 8/23/2010 15:00",
-		"shouldGenerateLastStoredRunMethod" : "CamilloBruni 7/19/2010 13:02" },
+		"run" : "CamilloBruni 8/24/2010 12:11",
+		"shouldGenerateLastStoredRunMethod" : "CamilloBruni 7/19/2010 13:02",
+		"testSelectors" : "CamilloBruni 8/24/2010 13:08" },
 	"instance" : {
+		"cleanUpInstanceVariables" : "CamilloBruni 8/24/2010 12:06",
+		"pcleanUpInstanceVariables" : "CamilloBruni 8/24/2010 12:06",
 		"ppreventRun:" : "CamilloBruni 3/30/2010 15:14",
 		"preventRun:" : "CamilloBruni 3/30/2010 15:13" } }

@@ -1,5 +1,7 @@
 {
 	"class" : {
+		"pClassMethods" : "CamilloBruni 8/24/2010 12:22",
+		"pMethods" : "CamilloBruni 8/24/2010 12:21",
 		"shouldInheritSelectors" : "ToonVerwaest 3/25/2010 12:44" },
 	"instance" : {
 		"setUp" : "ToonVerwaest 8/4/2010 09:30",
