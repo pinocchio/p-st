@@ -1,4 +1,4 @@
-as yet unclassified
+exporting
 pinocchioName
 	<preventExport>
 	^ self name

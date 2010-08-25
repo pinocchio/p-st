@@ -1,3 +1,3 @@
 basic-block
 initializeSubExpression
-	^ self expression & '.'
+	^ self expression & '.' | '.'
