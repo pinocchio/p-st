@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"benchFib30" : "CamilloBruni 8/21/2010 14:40",
+		"benchSieve8000" : "CamilloBruni 8/21/2010 15:04",
+		"sieve:" : "CamilloBruni 8/21/2010 15:10" } }

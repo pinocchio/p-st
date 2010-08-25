@@ -1,0 +1,14 @@
+{
+	"category" : "PBenchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"probeCount" ],
+	"name" : "PAbstractBenchmark",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "PBenchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SmallDictionaryBenchmark",
+	"pools" : [
+		 ],
+	"super" : "AbstractDictionaryBenchmark",
+	"type" : "normal" }

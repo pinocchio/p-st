@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"benchAdd" : "CamilloBruni 8/25/2010 16:51",
+		"benchAddExisting" : "CamilloBruni 8/25/2010 16:55",
+		"benchAddNew" : "CamilloBruni 8/25/2010 16:56",
+		"benchIncludes" : "CamilloBruni 8/25/2010 16:52",
+		"benchRemove" : "CamilloBruni 8/25/2010 17:02",
+		"set" : "CamilloBruni 8/25/2010 16:50",
+		"set:" : "CamilloBruni 8/25/2010 16:50",
+		"setSize" : "CamilloBruni 8/25/2010 16:50",
+		"setSize:" : "CamilloBruni 8/25/2010 16:50",
+		"setUp" : "CamilloBruni 8/25/2010 16:51",
+		"tearDown" : "CamilloBruni 8/25/2010 16:49" } }

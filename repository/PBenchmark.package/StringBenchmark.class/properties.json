@@ -1,0 +1,14 @@
+{
+	"category" : "PBenchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "StringBenchmark",
+	"pools" : [
+		 ],
+	"super" : "PBenchmark",
+	"type" : "normal" }

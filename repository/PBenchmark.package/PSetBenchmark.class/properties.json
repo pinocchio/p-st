@@ -1,0 +1,14 @@
+{
+	"category" : "PBenchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PSetBenchmark",
+	"pools" : [
+		 ],
+	"super" : "AbstractSetBenchmark",
+	"type" : "normal" }

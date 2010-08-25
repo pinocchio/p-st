@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"benchAtIfAbsentPut" : "CamilloBruni 8/25/2010 16:25",
+		"benchAtPut" : "CamilloBruni 8/25/2010 16:19",
+		"benchAtPutExisting" : "CamilloBruni 8/25/2010 16:19",
+		"benchAtPutNew" : "CamilloBruni 8/25/2010 16:38",
+		"benchDo" : "CamilloBruni 8/25/2010 16:22",
+		"benchIncludes" : "CamilloBruni 8/25/2010 16:46",
+		"benchIncludesKey" : "CamilloBruni 8/25/2010 16:18",
+		"benchKeysAndValuesDo" : "CamilloBruni 8/25/2010 16:24",
+		"benchRemoveKey" : "CamilloBruni 8/25/2010 17:04",
+		"dict" : "CamilloBruni 8/25/2010 16:27",
+		"dict:" : "CamilloBruni 8/25/2010 16:27",
+		"dictSize" : "CamilloBruni 8/25/2010 16:27",
+		"dictSize:" : "CamilloBruni 8/25/2010 16:27",
+		"setUp" : "CamilloBruni 8/25/2010 17:10",
+		"tearDown" : "CamilloBruni 8/23/2010 13:32" } }

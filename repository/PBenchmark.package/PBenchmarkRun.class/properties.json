@@ -1,0 +1,17 @@
+{
+	"category" : "PBenchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"probes",
+		"target",
+		"selector",
+		"name" ],
+	"name" : "PBenchmarkRun",
+	"pools" : [
+		 ],
+	"super" : "PAbstractBenchmark",
+	"type" : "normal" }
