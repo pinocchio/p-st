@@ -1,0 +1,16 @@
+{
+	"category" : "Pinocchio-Temporal",
+	"classinstvars" : [
+		"monthNames",
+		"dayNames",
+		"daysInMonth" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PDate",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

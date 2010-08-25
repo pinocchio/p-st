@@ -1,6 +1,6 @@
 extracting
 extract
-	progress := 0.
+	progress := 0. 
 	todo addAll: P exportBasicClasses.
 	[ todo isEmpty ] whileFalse: [ self transformNext ].
 	(pcompiler rootScope decls anySatisfy: [ :each | each pclass isNil ]) should be false.

@@ -48,5 +48,6 @@ exportBasicClasses
 		add: PWriteStream;
 		add: PSetTest;
 		add: PSmallIntTest;
+		add: PTime;
 		"add: PACContextInterpreter;"
 		yourself

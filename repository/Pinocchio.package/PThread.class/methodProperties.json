@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"current" : "ewe 7/21/2010 13:34",
-		"for:" : "ewe 7/21/2010 13:58",
+		"for:" : "ewe 8/23/2010 15:08",
 		"new:" : "ewe 7/21/2010 14:07",
 		"pTypeName" : "ToonVerwaest 7/12/2010 14:36",
 		"pinitialize" : "ewe 7/21/2010 13:44",
@@ -11,8 +11,10 @@
 		"yield:" : "ewe 7/21/2010 14:48" },
 	"instance" : {
 		"evaluate:" : "ewe 7/21/2010 14:01",
+		"name:" : "ewe 8/19/2010 16:08",
 		"primYield" : "ewe 7/26/2010 12:04",
 		"resume" : "ewe 7/21/2010 14:47",
+		"resumeSafe" : "ewe 8/23/2010 15:05",
 		"sleep" : "ewe 7/22/2010 14:31",
 		"sleep:" : "ewe 7/22/2010 14:31",
 		"terminate" : "ewe 7/21/2010 14:48",

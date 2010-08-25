@@ -1,0 +1,21 @@
+{
+	"category" : "Pinocchio-WebClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"process",
+		"stream",
+		"frameType",
+		"frameData",
+		"messageBlock",
+		"errorBlock",
+		"closeBlock" ],
+	"name" : "PWebSocket",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

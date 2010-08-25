@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Temporal",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PDateAndTime",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

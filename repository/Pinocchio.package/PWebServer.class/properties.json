@@ -1,0 +1,28 @@
+{
+	"category" : "Pinocchio-WebClient-Core",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"listenerSocket",
+		"listenerProcess",
+		"interface",
+		"port",
+		"mutex",
+		"connections",
+		"entryPoints",
+		"vault",
+		"logAction",
+		"nonceCache",
+		"sessions",
+		"serverString",
+		"errorHandler",
+		"accessLog",
+		"certName" ],
+	"name" : "PWebServer",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
 *Pinocchio
 pTypeName 
-	<prevenExport>
+	<preventExport>
 	^ self pinocchioName.

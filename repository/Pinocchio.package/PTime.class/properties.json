@@ -1,0 +1,18 @@
+{
+	"category" : "Pinocchio-Temporal",
+	"classinstvars" : [
+		"nanosInSecond",
+		"secondsInHour",
+		"secondsInDay",
+		"secondsInMinute",
+		"nanosInMillisecond" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"seconds" ],
+	"name" : "PTime",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

@@ -1,7 +1,8 @@
 extracting
 transformClass: sclass
 	| aPinocchioClass |
-	aPinocchioClass := sclass asPClass.
+	
+	aPinocchioClass := sclass asPClass. 
 	done at: aPinocchioClass name ifPresent: [ :present | ^ present ].
 	self haltIf: (pcompiler rootScope isKindOf: PRootScope) not.
 	
@@ -9,6 +10,9 @@ transformClass: sclass
 	classASTs at: aPinocchioClass name asSymbol put: aPinocchioClass.
 	aPinocchioClass package: (self ensurePackageFor: aPinocchioClass).
 	self declareClassReference: (self ensureClassReferenceFor: aPinocchioClass) as: aPinocchioClass name asSymbol.
+	
+	Transcript show: aPinocchioClass name asSymbol; cr.
+	
 	"(aPinocchioClass package at: aPinocchioClass name) should not isNil.
 	(aPinocchioClass package at: aPinocchioClass name) pclass should not isNil."
 	

@@ -1,4 +1,4 @@
 *Pinocchio
 pMethods 
-	<prevenExport>
+	<preventExport>
 	^ #all
