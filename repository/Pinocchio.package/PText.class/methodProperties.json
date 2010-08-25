@@ -16,7 +16,10 @@
 		"do:" : "ToonVerwaest 8/17/2010 13:52",
 		"do:separatedBy:" : "ToonVerwaest 8/17/2010 13:53",
 		"down" : "ToonVerwaest 8/17/2010 13:50",
+		"end" : "CamilloBruni 8/25/2010 14:52",
+		"endOfLine" : "CamilloBruni 8/25/2010 14:31",
 		"initialize" : "ToonVerwaest 8/17/2010 14:00",
+		"lastColumns" : "CamilloBruni 8/25/2010 15:21",
 		"left" : "ToonVerwaest 8/17/2010 13:47",
 		"line" : "ToonVerwaest 8/17/2010 13:43",
 		"line:" : "ToonVerwaest 8/17/2010 14:49",
@@ -25,4 +28,6 @@
 		"position" : "ToonVerwaest 8/17/2010 21:59",
 		"position:" : "ToonVerwaest 8/18/2010 10:48",
 		"right" : "ToonVerwaest 8/17/2010 13:47",
+		"start" : "CamilloBruni 8/25/2010 14:52",
+		"startOfLine" : "CamilloBruni 8/25/2010 14:30",
 		"up" : "ToonVerwaest 8/17/2010 13:49" } }
