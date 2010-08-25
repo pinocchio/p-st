@@ -1,2 +1,3 @@
 navigating
 nextScreen
+	self endOfText.

@@ -1,2 +1,3 @@
 navigating
 previousScreen
+	self startOfText.
