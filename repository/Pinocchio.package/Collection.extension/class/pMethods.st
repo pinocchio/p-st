@@ -5,6 +5,8 @@ pMethods
 		ifTrue:
 			[^{#inject:into:.
 				#addAll:.
+				#detect:.
+				#detect:ifNone:.
 				#isEmpty.
 				#hasReturnExpression.
 				#asOrderedCollection.

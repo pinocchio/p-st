@@ -1,0 +1,3 @@
+accessing
+secondsInMinute
+	^ 60

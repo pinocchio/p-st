@@ -2,10 +2,23 @@
 	"class" : {
 		"dateAndTimeFromSeconds:" : "ewe 8/25/2010 12:08",
 		"dateAndTimeNow" : "ewe 8/23/2010 16:12",
-		"fromSeconds:" : "ewe 8/25/2010 12:16",
+		"fromSeconds:" : "DavidGurtner 8/25/2010 15:35",
 		"now" : "ewe 8/25/2010 12:11",
-		"pinitialize" : "ewe 8/25/2010 11:06",
-		"primSecondsClock" : "ewe 8/25/2010 11:29",
+		"pinitialize" : "DavidGurtner 8/25/2010 14:57",
+		"primSecondsClock" : "DavidGurtner 8/25/2010 15:19",
+		"seconds:" : "DavidGurtner 8/25/2010 15:34",
 		"totalSeconds" : "ewe 8/25/2010 11:02" },
 	"instance" : {
-		 } }
+		"asDateAndTime" : "DavidGurtner 8/25/2010 15:28",
+		"asDuration" : "DavidGurtner 8/25/2010 15:35",
+		"hour" : "DavidGurtner 8/25/2010 16:44",
+		"hour24" : "DavidGurtner 8/25/2010 16:44",
+		"hours" : "DavidGurtner 8/25/2010 16:50",
+		"minute" : "DavidGurtner 8/25/2010 16:44",
+		"minutes" : "DavidGurtner 8/25/2010 16:50",
+		"print24:showSeconds:on:" : "DavidGurtner 8/25/2010 17:31",
+		"printOn:" : "DavidGurtner 8/25/2010 16:49",
+		"second" : "DavidGurtner 8/25/2010 16:44",
+		"seconds" : "DavidGurtner 8/25/2010 16:50",
+		"ticks" : "DavidGurtner 8/25/2010 14:52",
+		"ticks:" : "DavidGurtner 8/25/2010 14:51" } }

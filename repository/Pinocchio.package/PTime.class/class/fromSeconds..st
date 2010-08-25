@@ -1,5 +1,4 @@
-as yet unclassified
+smalltalk-80
 fromSeconds: seconds
-	"Answer a Time from midnight."
-
-	^ self basicNew ticks: (PDuration seconds: seconds) ticks
+	
+	^ self seconds: seconds

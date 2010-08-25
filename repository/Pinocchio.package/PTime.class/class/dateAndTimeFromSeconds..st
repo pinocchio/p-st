@@ -1,4 +1,4 @@
-as yet unclassified
+smalltalk-80
 dateAndTimeFromSeconds: secondCount
  
  	^ Array

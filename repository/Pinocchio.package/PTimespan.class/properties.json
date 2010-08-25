@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Chronology",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"start",
+		"duration" ],
+	"name" : "PTimespan",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

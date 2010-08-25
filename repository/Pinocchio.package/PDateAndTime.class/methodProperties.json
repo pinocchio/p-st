@@ -1,5 +1,18 @@
 {
 	"class" : {
-		 },
+		"julianDayNumber:" : "DavidGurtner 8/25/2010 15:50",
+		"localOffset" : "DavidGurtner 8/25/2010 16:14",
+		"localTimeZone" : "DavidGurtner 8/25/2010 16:15" },
 	"instance" : {
-		 } }
+		"+" : "DavidGurtner 8/25/2010 15:31",
+		"asDateAndTime" : "DavidGurtner 8/25/2010 15:27",
+		"asDuration" : "DavidGurtner 8/25/2010 15:33",
+		"dayMonthYearDo:" : "DavidGurtner 8/25/2010 17:21",
+		"normalize:ticks:base:" : "DavidGurtner 8/25/2010 15:44",
+		"printHMSOn:" : "DavidGurtner 8/25/2010 17:19",
+		"printOn:" : "DavidGurtner 8/25/2010 16:55",
+		"printOn:withLeadingSpace:" : "DavidGurtner 8/25/2010 17:24",
+		"printYMDOn:" : "DavidGurtner 8/25/2010 17:19",
+		"printYMDOn:withLeadingSpace:" : "DavidGurtner 8/25/2010 17:23",
+		"ticks" : "DavidGurtner 8/25/2010 15:32",
+		"ticks:offset:" : "DavidGurtner 8/25/2010 15:45" } }

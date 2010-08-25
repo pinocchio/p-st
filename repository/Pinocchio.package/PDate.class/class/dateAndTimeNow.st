@@ -1,4 +1,4 @@
-smalltalk-80
+simple queries
 dateAndTimeNow
 	"Answer an Array whose with Date today and Time now."
 

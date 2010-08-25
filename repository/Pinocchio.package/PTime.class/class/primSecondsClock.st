@@ -1,6 +1,6 @@
 primitives
 primSecondsClock
-	<pPrimitive: #primSecondsClock plugin: #'Temporal.Time' code: '
+	<pPrimitive: #primSecondsClock plugin: #'Chronology.Time' code: '
     long seconds;
 
     seconds = (long)time(NULL);

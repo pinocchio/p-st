@@ -18,5 +18,5 @@
 	"name" : "PChronologyConstants",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PObject",
 	"type" : "normal" }

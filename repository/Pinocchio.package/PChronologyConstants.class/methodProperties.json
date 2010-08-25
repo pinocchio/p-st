@@ -1,5 +1,14 @@
 {
 	"class" : {
-		"initialize" : "CamilloBruni 8/9/2010 11:52" },
+		"dayNames" : "DavidGurtner 8/25/2010 14:45",
+		"daysInMonth" : "DavidGurtner 8/25/2010 14:45",
+		"monthNames" : "DavidGurtner 8/25/2010 14:45",
+		"nanosInMillisecond" : "DavidGurtner 8/25/2010 14:45",
+		"nanosInSecond" : "DavidGurtner 8/25/2010 14:45",
+		"pinitialize" : "DavidGurtner 8/25/2010 15:51",
+		"secondsInDay" : "DavidGurtner 8/25/2010 14:45",
+		"secondsInHour" : "DavidGurtner 8/25/2010 14:45",
+		"secondsInMinute" : "DavidGurtner 8/25/2010 14:45",
+		"squeakEpoch" : "DavidGurtner 8/25/2010 14:45" },
 	"instance" : {
 		 } }

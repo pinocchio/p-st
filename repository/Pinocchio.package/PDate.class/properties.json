@@ -1,9 +1,7 @@
 {
-	"category" : "Pinocchio-Temporal",
+	"category" : "Pinocchio-Chronology",
 	"classinstvars" : [
-		"monthNames",
-		"dayNames",
-		"daysInMonth" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +10,5 @@
 	"name" : "PDate",
 	"pools" : [
 		 ],
-	"super" : "PObject",
+	"super" : "PTimespan",
 	"type" : "normal" }

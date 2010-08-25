@@ -49,5 +49,11 @@ exportBasicClasses
 		add: PSetTest;
 		add: PSmallIntTest;
 		add: PTime;
+		add: PTimespan;
+		add: PDate;
+		add: PDateAndTime;
+		add: PDuration;
+"		add: PWebSocket;
+		add: PWebServer;"
 		"add: PACContextInterpreter;"
 		yourself

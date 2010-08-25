@@ -1,5 +1,20 @@
 {
 	"class" : {
-		 },
+		"days:" : "DavidGurtner 8/25/2010 15:48",
+		"hours:" : "DavidGurtner 8/25/2010 16:27",
+		"minutes:" : "DavidGurtner 8/25/2010 16:28",
+		"seconds:" : "DavidGurtner 8/25/2010 14:39",
+		"zero" : "DavidGurtner 8/25/2010 15:46" },
 	"instance" : {
-		 } }
+		"=" : "DavidGurtner 8/25/2010 17:37",
+		"asDuration" : "DavidGurtner 8/25/2010 15:36",
+		"days" : "DavidGurtner 8/25/2010 15:45",
+		"hours" : "DavidGurtner 8/25/2010 16:42",
+		"minutes" : "DavidGurtner 8/25/2010 17:42",
+		"negated" : "DavidGurtner 8/25/2010 17:28",
+		"negative" : "DavidGurtner 8/25/2010 17:27",
+		"positive" : "DavidGurtner 8/25/2010 17:28",
+		"printOn:" : "DavidGurtner 8/25/2010 17:07",
+		"seconds" : "DavidGurtner 8/25/2010 16:53",
+		"seconds:" : "DavidGurtner 8/25/2010 14:40",
+		"ticks" : "DavidGurtner 8/25/2010 14:42" } }

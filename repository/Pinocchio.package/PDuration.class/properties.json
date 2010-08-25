@@ -1,12 +1,12 @@
 {
-	"category" : "Pinocchio-Temporal",
+	"category" : "Pinocchio-Chronology",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"seconds" ],
 	"name" : "PDuration",
 	"pools" : [
 		 ],

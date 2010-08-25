@@ -1,0 +1,16 @@
+{
+	"category" : "Pinocchio-Chronology",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"offset",
+		"abbreviation",
+		"name" ],
+	"name" : "PTimeZone",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

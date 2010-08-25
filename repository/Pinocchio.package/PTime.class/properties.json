@@ -1,11 +1,7 @@
 {
-	"category" : "Pinocchio-Temporal",
+	"category" : "Pinocchio-Chronology",
 	"classinstvars" : [
-		"nanosInSecond",
-		"secondsInHour",
-		"secondsInDay",
-		"secondsInMinute",
-		"nanosInMillisecond" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

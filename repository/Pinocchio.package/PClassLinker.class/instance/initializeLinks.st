@@ -18,6 +18,11 @@ initializeLinks
 	self link: True to: PTrue.
 	self link: False to: PFalse.
 	self link: WriteStream to: PWriteStream.
+	self link: Time to: PTime.
+	self link: Timespan to: PTimespan.
+	self link: Date to: PDate.
+	self link: DateAndTime to: PDateAndTime.
+	self link: Duration to: PDuration.
 	
 	(self pInternalClassFrom: PDictBucket) declareClass: false.
 	

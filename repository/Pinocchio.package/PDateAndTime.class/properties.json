@@ -1,12 +1,14 @@
 {
-	"category" : "Pinocchio-Temporal",
+	"category" : "Pinocchio-Chronology",
 	"classinstvars" : [
-		 ],
+		"localTimeZone" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"seconds",
+		"offset",
+		"jdn" ],
 	"name" : "PDateAndTime",
 	"pools" : [
 		 ],
