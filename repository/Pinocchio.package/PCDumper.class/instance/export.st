@@ -14,5 +14,4 @@ export
 	self createHFile.
 	
 	"self createAutoCompletionFile."
-
 	self exportPlugins.
