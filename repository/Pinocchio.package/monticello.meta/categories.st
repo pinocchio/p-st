@@ -1,7 +1,6 @@
 SystemOrganization addCategory: #Pinocchio!
 SystemOrganization addCategory: #'Pinocchio-Alias'!
 SystemOrganization addCategory: #'Pinocchio-AST'!
-SystemOrganization addCategory: #'Pinocchio-Benchmark'!
 SystemOrganization addCategory: #'Pinocchio-Bridge'!
 SystemOrganization addCategory: #'Pinocchio-Bridge-Test'!
 SystemOrganization addCategory: #'Pinocchio-Chronology'!

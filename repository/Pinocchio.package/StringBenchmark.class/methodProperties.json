@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"benchAllocation" : "CamilloBruni 8/21/2010 15:39",
-		"benchConcatenation1" : "CamilloBruni 8/21/2010 15:37",
-		"benchConcatenation2" : "CamilloBruni 8/21/2010 15:37",
-		"benchConcatenation5" : "CamilloBruni 8/21/2010 15:38",
-		"benchIndexOf" : "CamilloBruni 8/21/2010 15:50" } }
