@@ -15,6 +15,7 @@ pMethods
 			#indexOf:.
 			#indexOf:ifAbsent:.
 			#indexOf:startingAt:ifAbsent:.
+			#middle.
 			#replaceFrom:to:with:startingAt:.
 			#reverse.
 			#reversed.
@@ -27,5 +28,6 @@ pMethods
 			#collect:.
 			#select:.
 			#writeStream.
+			#with:do:.
 			#last. }].
 	^ super pMethods

@@ -5,7 +5,7 @@
 		"fromSeconds:" : "DavidGurtner 8/25/2010 15:35",
 		"now" : "ewe 8/25/2010 12:11",
 		"pinitialize" : "DavidGurtner 8/25/2010 14:57",
-		"primSecondsClock" : "DavidGurtner 8/25/2010 15:19",
+		"primSecondsClock" : "DavidGurtner 8/26/2010 17:12",
 		"seconds:" : "DavidGurtner 8/25/2010 15:34",
 		"totalSeconds" : "ewe 8/25/2010 11:02" },
 	"instance" : {
@@ -16,6 +16,8 @@
 		"hours" : "DavidGurtner 8/25/2010 16:50",
 		"minute" : "DavidGurtner 8/25/2010 16:44",
 		"minutes" : "DavidGurtner 8/25/2010 16:50",
+		"print24" : "DavidGurtner 8/26/2010 18:46",
+		"print24:on:" : "DavidGurtner 8/26/2010 18:46",
 		"print24:showSeconds:on:" : "DavidGurtner 8/25/2010 17:31",
 		"printOn:" : "DavidGurtner 8/25/2010 16:49",
 		"second" : "DavidGurtner 8/25/2010 16:44",

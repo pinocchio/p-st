@@ -1,4 +1,4 @@
 extended protocol
 minutes: aNumber
 
-	^ self seconds: aNumber * ChronologyConstants secondsInMinute
+	^ self seconds: aNumber * PChronologyConstants secondsInMinute

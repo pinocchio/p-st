@@ -6,6 +6,6 @@ ansi protocol
  	^ self == comparand
  		ifTrue: [true]
  		ifFalse: 
- 			[self class = comparand class 
- 				ifTrue: [self seconds = comparand seconds]
- 				ifFalse: [false] ]
+ 			[self class = comparand class
+ 				ifTrue: [self asSeconds = comparand asSeconds]
+ 				ifFalse: [false]]

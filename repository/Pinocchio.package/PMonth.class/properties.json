@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Chronology",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PMonth",
+	"pools" : [
+		 ],
+	"super" : "PTimespan",
+	"type" : "normal" }

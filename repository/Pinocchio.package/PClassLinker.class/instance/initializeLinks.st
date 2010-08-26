@@ -21,6 +21,7 @@ initializeLinks
 	self link: Time to: PTime.
 	self link: Timespan to: PTimespan.
 	self link: Date to: PDate.
+	self link: Month to: PMonth.
 	self link: DateAndTime to: PDateAndTime.
 	self link: Duration to: PDuration.
 	

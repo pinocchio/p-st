@@ -51,6 +51,7 @@ exportBasicClasses
 		add: PTime;
 		add: PTimespan;
 		add: PDate;
+		add: PMonth;
 		add: PDateAndTime;
 		add: PDuration;
 "		add: PWebSocket;

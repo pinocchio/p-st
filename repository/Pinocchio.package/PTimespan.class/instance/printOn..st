@@ -1,9 +1,8 @@
 private
 printOn: aStream 
 
-	aStream 
-		<< $(;
-		<< start;
-		<< $D;
-		<< duration;
-		<< $).
+	aStream << $(.
+	start printOn: aStream.
+	aStream << $D.
+	duration printOn: aStream.
+	aStream << $).

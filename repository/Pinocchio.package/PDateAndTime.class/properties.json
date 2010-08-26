@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"jdn",
 		"seconds",
-		"offset",
-		"jdn" ],
+		"offset" ],
 	"name" : "PDateAndTime",
 	"pools" : [
 		 ],
