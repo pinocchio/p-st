@@ -13,6 +13,7 @@ exportBasicClasses
 		add: PString;
 		add: PSymbol;
 		add: PSmallInt;
+		add: PFloat;
 		add: PBlockClosure;
 		add: PContinue;
 		add: PCharacter;
@@ -24,6 +25,7 @@ exportBasicClasses
 		add: PArrayLayout;
 		add: PIntLayout;
 		add: PWordsLayout;
+		add: PFloatLayout;
 		add: PCharacterLayout;
 		add: PPlugin;
 		add: PWriteFile;
@@ -54,6 +56,7 @@ exportBasicClasses
 		add: PMonth;
 		add: PDateAndTime;
 		add: PDuration;
+		add: PDictionaryBenchmark;
 "		add: PWebSocket;
 		add: PWebServer;"
 		"add: PACContextInterpreter;"

@@ -5,5 +5,6 @@ initializeLayoutLinks
 	(self pInternalClassFrom: PIntLayout) declareClass: false.
 	(self pInternalClassFrom: PObjectLayout) declareClass: false.
 	(self pInternalClassFrom: PWordsLayout) declareClass: false.
+	(self pInternalClassFrom: PFloatLayout) declareClass: false.
 	
 	(self pInternalClassFrom: PBytesLayout).

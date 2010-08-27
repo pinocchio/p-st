@@ -1,4 +1,5 @@
 visiting
 visitSTSmallInt: aSmallint
-	uidCounter := uidCounter + 1.
-	^ ('int_', aSmallint asString) copyReplaceAll: #- with: #n .
+	aSmallint < 0  ifTrue: [ 
+		^ ('int_n', aSmallint negated asString)].
+	^ ('int_', aSmallint asString).

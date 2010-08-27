@@ -1,4 +1,4 @@
 *Pinocchio
 asPObject
 	<preventExport>
-	^ PSmallInt new int: self
+	^ PFloat new float: self.

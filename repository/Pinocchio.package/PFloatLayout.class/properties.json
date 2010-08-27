@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Kernel-Layout",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PFloatLayout",
+	"pools" : [
+		 ],
+	"super" : "PLayout",
+	"type" : "normal" }

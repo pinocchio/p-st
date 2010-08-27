@@ -40,6 +40,7 @@
 		"visitBoolean:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitBraceExpression:" : "ToonVerwaest 8/18/2010 20:55",
 		"visitCharacter:" : "ToonVerwaest 3/25/2010 12:39",
+		"visitFloat:" : "CamilloBruni 8/27/2010 21:15",
 		"visitKeywordAnnotation:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitKeywordMessageDefinition:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitKeywordSelector:" : "ToonVerwaest 3/25/2010 12:39",
