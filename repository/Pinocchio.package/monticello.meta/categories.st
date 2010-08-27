@@ -36,7 +36,6 @@ SystemOrganization addCategory: #'Pinocchio-Smalltalk-Compiler'!
 SystemOrganization addCategory: #'Pinocchio-Smalltalk-Parser'!
 SystemOrganization addCategory: #'Pinocchio-Smalltalk-Threading'!
 SystemOrganization addCategory: #'Pinocchio-ST'!
-SystemOrganization addCategory: #'Pinocchio-Temporal'!
 SystemOrganization addCategory: #'Pinocchio-Testing'!
 SystemOrganization addCategory: #'Pinocchio-Type'!
 SystemOrganization addCategory: #'Pinocchio-WebClient-Core'!
