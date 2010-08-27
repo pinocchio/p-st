@@ -1,3 +1,3 @@
 running
 setUp
-	self dictSize: 100.
+	self dictSize: 10000.
