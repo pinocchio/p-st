@@ -1,3 +1,3 @@
 as yet unclassified
-benchFib30
-	30 fib
+benchFib26
+	26 fib

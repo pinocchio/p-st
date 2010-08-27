@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"numbers" ],
-	"name" : "NumberBenchmark",
+		 ],
+	"name" : "FractionBenchmark",
 	"pools" : [
 		 ],
-	"super" : "PBenchmark",
+	"super" : "NumberBenchmark",
 	"type" : "normal" }

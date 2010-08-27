@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"pClassMethods" : "CamilloBruni 8/27/2010 17:42",
+		"pMethods" : "CamilloBruni 8/27/2010 17:42" },
 	"instance" : {
 		"absdev" : "CamilloBruni 8/21/2010 15:24",
 		"currentMillis" : "CamilloBruni 8/21/2010 15:24",
