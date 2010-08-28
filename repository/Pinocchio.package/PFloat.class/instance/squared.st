@@ -1,0 +1,3 @@
+arithmetic
+squared
+	^ self * self.

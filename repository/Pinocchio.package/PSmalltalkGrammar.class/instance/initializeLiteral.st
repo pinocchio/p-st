@@ -1,6 +1,6 @@
 literal
 initializeLiteral
-	^ self float | self numberConstant
+	^ self numberConstant
 		| self symbolConstant
 		<= self characterConstant
 		<= self stringConstant

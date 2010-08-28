@@ -33,7 +33,7 @@ primStatus
 		 fwprintf(stderr, L"Select shows %d as return val.",sval);
 	}
 	
-	return( wrap_int(ret_val) );
+	^wrap_int(ret_val);
 	'>
 	
 	self pinocchioPrimitiveFailed.

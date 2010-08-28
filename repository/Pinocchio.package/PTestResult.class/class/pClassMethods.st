@@ -1,6 +1,6 @@
 *Pinocchio
 pClassMethods
 	<preventExport>
-	self == TestResult
+	self == PTestResult
 		ifTrue: [ ^ #all ].
 	^ super pClassMethods

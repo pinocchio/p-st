@@ -27,6 +27,7 @@ pMethods
 			#do:separatedBy:.
 			#collect:.
 			#select:.
+			#pselect:.
 			#writeStream.
 			#with:do:.
 			#last. }].

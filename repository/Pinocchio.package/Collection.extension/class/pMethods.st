@@ -17,5 +17,10 @@ pMethods
 				#errorNotFound:.
 				#reject:.
 				#select:.
-				#collect:.}].
+				#collect:.
+				#stdev.
+				#anyOne.
+				#average.
+				#emptyCheck.
+				#sum}].
 	^ super pMethods

@@ -10,4 +10,5 @@ pMethods
 		#performTest.
 		#tearDown.
 		#cleanUpInstanceVariables.
+		#pcleanUpInstanceVariables.
 		}
