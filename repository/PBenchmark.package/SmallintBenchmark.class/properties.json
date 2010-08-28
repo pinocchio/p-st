@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SmallintBenchmark",
+	"name" : "SmallIntBenchmark",
 	"pools" : [
 		 ],
 	"super" : "NumberBenchmark",

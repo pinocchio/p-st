@@ -4,12 +4,12 @@
 	"instance" : {
 		"benchAdd" : "CamilloBruni 8/27/2010 17:26",
 		"benchAddFloat" : "CamilloBruni 8/27/2010 17:37",
-		"benchAddFraction" : "CamilloBruni 8/27/2010 17:38",
+		"benchAddFraction" : "CamilloBruni 8/28/2010 16:39",
 		"benchAddInteger" : "CamilloBruni 8/27/2010 17:37",
 		"benchDivide" : "CamilloBruni 8/27/2010 17:26",
 		"benchSubtract" : "CamilloBruni 8/27/2010 17:26",
 		"benchTimes" : "CamilloBruni 8/27/2010 17:25",
 		"benchTimesFloat" : "CamilloBruni 8/27/2010 17:34",
-		"benchTimesFraction" : "CamilloBruni 8/27/2010 17:35",
+		"benchTimesFraction" : "CamilloBruni 8/28/2010 16:39",
 		"benchTimesInteger" : "CamilloBruni 8/27/2010 17:34",
 		"setUp" : "CamilloBruni 8/27/2010 17:33" } }

@@ -1,3 +1,3 @@
 as yet unclassified
 benchInstanciation
-	10000 timesRepeat: [ Object new ].
+	100 timesRepeat: [ Object new ].
