@@ -1,7 +1,7 @@
 *Pinocchio
 stdev
 	| avg sample sum |
-	avg := self average.
+	avg := self average asFloat.
 	"see comment in self sum"
 	sample := self anyOne.
 	sum := self inject: sample into: [:accum :each | accum + (each - avg) squared].

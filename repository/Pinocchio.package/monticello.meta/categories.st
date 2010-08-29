@@ -8,8 +8,6 @@ SystemOrganization addCategory: #'Pinocchio-Class'!
 SystemOrganization addCategory: #'Pinocchio-Class-Layout'!
 SystemOrganization addCategory: #'Pinocchio-Collection'!
 SystemOrganization addCategory: #'Pinocchio-Collection-Stream'!
-SystemOrganization addCategory: #'Pinocchio-Compiler'!
-SystemOrganization addCategory: #'Pinocchio-Compiler-Threaded'!
 SystemOrganization addCategory: #'Pinocchio-Exception'!
 SystemOrganization addCategory: #'Pinocchio-Inspector'!
 SystemOrganization addCategory: #'Pinocchio-IO'!

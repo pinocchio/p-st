@@ -11,7 +11,7 @@ compileSendToDo: aSend
 	self compileBlock: aBlock.
 	self append: #'send_to_do_' with: aBlock.
 	self append: #'continue_to_do_'.
-	self append: #'zap'.
+	self append: #'zap1'.
 	self append: #'jump_back2'.
 	
 	self code add: aSend.
