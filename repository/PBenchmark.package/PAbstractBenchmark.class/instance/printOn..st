@@ -3,7 +3,7 @@ printOn: aStream
 	| significantDigits quantum total stdev totalSignificantDigits|
 	"only print significant "
 	significantDigits := self significantDigits.
-	quantum := 1/10 raisedTo: significantDigits.
+	quantum := (1/10 asFloat) raisedTo: significantDigits.
 	"round to significantDigits"
 	stdev := self stdev roundTo: quantum.
 	total := (self total roundTo: quantum) asString.

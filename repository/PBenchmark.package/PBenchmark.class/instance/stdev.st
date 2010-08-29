@@ -1,3 +1,3 @@
 accessing
 stdev
-	^ self stdevSquared sqrt
+	^ self stdevSquared sqrt asFloat
