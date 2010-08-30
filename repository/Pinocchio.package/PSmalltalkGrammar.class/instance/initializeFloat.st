@@ -1,5 +1,5 @@
 literal
 initializeFloat
-	^ PEGParser
+	^ PEGMultiParser
 		named: 'FLOAT'
-		parsing: self floatFormat
+		parsing: self numberFormat & '.' <& self decimalDigit strongPlus

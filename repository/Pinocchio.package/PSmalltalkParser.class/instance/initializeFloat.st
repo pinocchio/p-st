@@ -2,5 +2,6 @@ initialization
 initializeFloat
 	^ super initializeFloat
 		semantics: [ :result | 
-			(ASTFloat new)
-				number: result ].
+			ASTFloat new
+				high: result removeFirst;
+				low: result asString ].

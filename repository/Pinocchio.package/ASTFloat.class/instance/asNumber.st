@@ -1,3 +1,3 @@
 accessing
 asNumber
-	^ self number asNumber
+	^ high asNumber + (low asNumber / (10 asFloat raisedTo: (low size)))

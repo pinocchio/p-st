@@ -1,3 +1,5 @@
 printing
 printOn: aStream
-	^ aStream << self number
+	high printOn: aStream.
+	aStream << $..
+	low printOn: aStream
