@@ -21,7 +21,6 @@ SystemOrganization addCategory: #'Pinocchio-Kernel-Number'!
 SystemOrganization addCategory: #'Pinocchio-Kernel-Object'!
 SystemOrganization addCategory: #'Pinocchio-Kernel-String'!
 SystemOrganization addCategory: #'Pinocchio-Kernel-Threading'!
-SystemOrganization addCategory: #'Pinocchio-Number'!
 SystemOrganization addCategory: #'Pinocchio-Organization'!
 SystemOrganization addCategory: #'Pinocchio-Plugin'!
 SystemOrganization addCategory: #'Pinocchio-Relationship'!
@@ -34,6 +33,5 @@ SystemOrganization addCategory: #'Pinocchio-Smalltalk-Compiler'!
 SystemOrganization addCategory: #'Pinocchio-Smalltalk-Parser'!
 SystemOrganization addCategory: #'Pinocchio-Smalltalk-Threading'!
 SystemOrganization addCategory: #'Pinocchio-Testing'!
-SystemOrganization addCategory: #'Pinocchio-Type'!
 SystemOrganization addCategory: #'Pinocchio-WebClient-Core'!
 SystemOrganization addCategory: #'Pinocchio-Concurrency'!
