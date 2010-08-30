@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Concurrency",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lock" ],
+	"name" : "PSemaphore",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

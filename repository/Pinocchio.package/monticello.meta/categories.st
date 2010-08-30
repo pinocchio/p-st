@@ -36,3 +36,4 @@ SystemOrganization addCategory: #'Pinocchio-Smalltalk-Threading'!
 SystemOrganization addCategory: #'Pinocchio-Testing'!
 SystemOrganization addCategory: #'Pinocchio-Type'!
 SystemOrganization addCategory: #'Pinocchio-WebClient-Core'!
+SystemOrganization addCategory: #'Pinocchio-Concurrency'!

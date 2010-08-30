@@ -27,6 +27,8 @@ initializeLinks
 	self link: DateAndTime to: PDateAndTime.
 	self link: Duration to: PDuration.
 	
+	self link: Semaphore to: PSemaphore.
+	
 	(self pInternalClassFrom: PDictBucket) declareClass: false.
 	
 	self initializeLayoutLinks.

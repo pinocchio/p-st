@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Concurrency",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value" ],
+	"name" : "PAtomicBoolean",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

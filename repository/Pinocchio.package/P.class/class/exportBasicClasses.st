@@ -61,6 +61,8 @@ exportBasicClasses
 		add: FloatBenchmark;
 		add: StringBenchmark;
 		add: GeneralBenchmark;
+		add: PAtomicBoolean;
+		add: PSemaphore;
 "		add: PWebSocket;
 		add: PWebServer;"
 		"add: PACContextInterpreter;"

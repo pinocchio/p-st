@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"pinitialize" : "ewe 8/30/2010 11:59" },
+	"instance" : {
+		"initialize" : "ewe 8/30/2010 12:03",
+		"testAndSet" : "ewe 8/30/2010 14:44",
+		"value" : "ewe 8/30/2010 12:09",
+		"value:" : "ewe 8/30/2010 12:13" } }
