@@ -1,3 +1,3 @@
 private
-addLine: aLine
+titleStream
 	self subclassResponsibility

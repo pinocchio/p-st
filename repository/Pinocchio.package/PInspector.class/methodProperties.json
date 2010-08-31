@@ -2,9 +2,8 @@
 	"class" : {
 		"inspect:" : "ToonVerwaest 8/6/2010 17:05" },
 	"instance" : {
-		"addLine:" : "ToonVerwaest 3/30/2010 22:04",
-		"inspect:" : "ToonVerwaest 8/9/2010 13:53",
-		"inspectChild:" : "ToonVerwaest 4/6/2010 15:14",
-		"inspectChildren:" : "ToonVerwaest 3/30/2010 22:06",
-		"shallowInspect:" : "ToonVerwaest 8/7/2010 10:46",
-		"title:" : "ToonVerwaest 8/6/2010 16:29" } }
+		"child:value:" : "ToonVerwaest 8/31/2010 14:23",
+		"inspect:" : "ToonVerwaest 8/31/2010 14:23",
+		"inspectChildren:" : "ToonVerwaest 8/31/2010 14:24",
+		"shallowInspect:on:" : "ToonVerwaest 8/31/2010 14:29",
+		"titleStream" : "ToonVerwaest 8/31/2010 14:04" } }

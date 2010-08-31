@@ -1,3 +1,3 @@
 private
-title: aTitle
+child: label value: value
 	self subclassResponsibility

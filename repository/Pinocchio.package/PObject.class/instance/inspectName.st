@@ -1,3 +1,0 @@
-inspecting
-inspectName
-	^ self printString

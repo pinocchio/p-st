@@ -3,11 +3,7 @@
 		"new" : "ToonVerwaest 8/13/2010 15:22",
 		"on:" : "ToonVerwaest 8/6/2010 19:15" },
 	"instance" : {
-		"addLine:" : "ToonVerwaest 8/6/2010 16:58",
-		"decreaseIndent" : "ToonVerwaest 3/25/2010 14:49",
-		"increaseIndent" : "ToonVerwaest 3/25/2010 14:49",
-		"indent" : "ToonVerwaest 8/6/2010 19:11",
-		"initialize" : "ToonVerwaest 8/6/2010 19:13",
-		"inspectChildren:" : "ToonVerwaest 3/30/2010 22:07",
-		"on:" : "ToonVerwaest 8/6/2010 19:13",
-		"title:" : "ToonVerwaest 8/6/2010 16:59" } }
+		"child:value:" : "ToonVerwaest 8/31/2010 14:39",
+		"inspectChildren:" : "ToonVerwaest 8/31/2010 14:39",
+		"on:" : "ToonVerwaest 8/31/2010 14:39",
+		"titleStream" : "ToonVerwaest 8/31/2010 14:05" } }

@@ -23,7 +23,7 @@ pMethods
 				#reset.
 				#reverseDo:.
 				#reversed.
-				#inspectChildren.
+				#inspectChildrenOn:.
 				#setCollection:.
 				#size.}].
 	^ super pMethods
