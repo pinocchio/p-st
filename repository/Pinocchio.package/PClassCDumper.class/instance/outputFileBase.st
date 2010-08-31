@@ -1,3 +1,7 @@
 exporting
 outputFileBase
-	^ 'lib/class/', (currentClass package fullName copyReplaceAll: '.' with: '/'), '/'.
+	^ String streamContents: [ :s |
+		s << 'lib/class/'.
+		currentClass
+			pathDo: [ :segment | s << segment shortName ]
+			separatedBy: [ s << $/ ]]

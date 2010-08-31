@@ -1,3 +1,3 @@
 accessing
 packageMembers
-^ members select: [ :each | each isKindOf: PRootPackage ].
+	^ self select: [ :each | each isKindOf: PRootPackage ].

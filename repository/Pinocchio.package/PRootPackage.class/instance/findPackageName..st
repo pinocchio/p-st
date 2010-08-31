@@ -1,5 +1,4 @@
 accessing
 findPackageName: aName
-	self packageName = aName
-		ifTrue: [ ^ self ].
+	self shortName = aName ifTrue: [ ^ self ].
 	^ nil

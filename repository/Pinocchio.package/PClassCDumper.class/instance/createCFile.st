@@ -11,6 +11,6 @@ createCFile
 	self exportClassMethods.
 	stream << layout.
 	self createFooter.
-	fileStream := self createStream: '/', self outputFileBase, currentClass name asString , '.c'.
+	fileStream := self createStream: '/', self outputFileBase, '.c'.
 	fileStream << stream.
 	fileStream close

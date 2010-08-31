@@ -11,9 +11,12 @@ createHFile
 	stream lf.
 	self comment: 'INCLUDES ============================================='.
 	sortedClasses do: [ :pclass | 
-		self include: ('lib/class/', 
-						(pclass package fullName copyReplaceAll: '.' with: '/'), '/' , 
-						pclass name asString , '.h') ].
+		stream << '#include <lib/class/'.
+		pclass
+			pathDo: [ :segment | stream << segment shortName ]
+			separatedBy: [ stream << $/ ].
+		stream << '.h>'.
+		stream lf ].
 	self endGuard: guardName.
 	
 	fileStream := self createStream: '/lib/lib.h'.

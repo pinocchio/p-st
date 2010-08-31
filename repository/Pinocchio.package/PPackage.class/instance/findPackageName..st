@@ -1,5 +1,5 @@
 accessing
 findPackageName: aName
-	self packageName = aName
+	name = aName
 		ifTrue: [ ^ self ].
 	^ parent findPackageName: aName

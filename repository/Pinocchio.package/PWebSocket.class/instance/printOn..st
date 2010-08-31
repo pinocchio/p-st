@@ -2,5 +2,5 @@ private
 printOn: aStream
 	"Print the receiver"
 
-	aStream nextPutAll: self class name.
-	aStream nextPutAll: '(', name, ')'.
+	aStream << self class name.
+	aStream << $( << name << $).

@@ -1,4 +1,4 @@
 visitor
 visitPackage: aPPackage
-	self visitCollection: aPPackage members.
+	self visitCollection: aPPackage.
 	self addGlobal: aPPackage

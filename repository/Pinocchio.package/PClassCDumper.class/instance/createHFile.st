@@ -15,6 +15,6 @@ createHFile
 	
 	self endGuard: guardName.
 	
-	fileStream := self createStream:  '/', self outputFileBase , currentClass name asString , '.h'.
+	fileStream := self createStream:  '/', self outputFileBase, '.h'.
 	fileStream << stream.
 	fileStream close

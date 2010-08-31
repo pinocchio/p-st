@@ -1,3 +1,3 @@
 inspecting
 inspectNameOn: aStream
-	self inspectLabelOn: aStream
+	self printOn: aStream

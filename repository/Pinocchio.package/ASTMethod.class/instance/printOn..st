@@ -1,6 +1,6 @@
 printing
 printOn: aStream
 	super printOn: aStream.
-	aStream << '('.
+	aStream << $(.
 	self message printOn: aStream.
-	^ aStream << ')'
+	^ aStream << $)

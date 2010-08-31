@@ -1,3 +1,3 @@
-as yet unclassified
+printing
 printOn: aStream
-	aStream << 'root'.
+	aStream << self shortName.

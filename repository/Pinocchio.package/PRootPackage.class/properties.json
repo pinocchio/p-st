@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"members" ],
+		 ],
 	"name" : "PRootPackage",
 	"pools" : [
 		 ],
-	"super" : "PObject",
+	"super" : "PDictionary",
 	"type" : "normal" }

@@ -6,7 +6,7 @@ createCFile
 	self include: 'lib/lib.h'.
 	
 	root packagesDo: [ :package | 
-		name := package packageName asPObject.
+		name := package shortName asPObject.
 		self addGlobal: name ].
 	self addGlobal: (PSymbol named: #ensureClassReferenceFor:).
 	self addGlobal: (PSymbol named: #'initialize').
@@ -36,7 +36,7 @@ createCFile
 		stream << 'init_' << pclass name asString << '_methods();'; lf ].
 	stream lf; << (self idFor: root); << ' = Eval_Send0((Optr)Organize_RootPackage_Class, SMB_new);'; lf.
 	root packagesDo: [ :package | 
-		name := package packageName asPObject.
+		name := package shortName asPObject.
 		name accept: self. " Force evaluation since we added it to the globals before. "
 		(stream << (self idFor: package) << ' = Eval_Send1((Optr)' << (self idFor: package parent) << ', SMB_ensurePackageNamed_, (Optr)'
 				<< (self idFor: name)) << ');'; lf ].

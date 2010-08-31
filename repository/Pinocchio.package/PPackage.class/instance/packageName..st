@@ -1,3 +1,3 @@
 accessing
-packageName: anObject
-	packageName := anObject asSymbol
+packageName: aName
+	name := aName asSymbol

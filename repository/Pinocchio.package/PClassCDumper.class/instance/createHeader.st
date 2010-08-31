@@ -1,6 +1,6 @@
 exporting
 createHeader
-	self include: self outputFileBase , currentClass name asString , '.h'.
+	self include: self outputFileBase, '.h'.
 	stream lf; lf.
 	self exportGlobalsForCFile.
 	stream lf.

@@ -1,3 +1,3 @@
 printing
 printOn: stream
-	stream << '#' << selector << ' (' << self size asString << ')' 
+	stream << $# << selector << ' (' << self size asString << $) 
