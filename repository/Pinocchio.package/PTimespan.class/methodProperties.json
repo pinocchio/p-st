@@ -1,8 +1,10 @@
 {
 	"class" : {
+		"current" : "DavidGurtner 9/1/2010 16:14",
 		"starting:" : "DavidGurtner 8/25/2010 15:25",
 		"starting:duration:" : "DavidGurtner 8/25/2010 15:25" },
 	"instance" : {
+		"asDate" : "DavidGurtner 9/1/2010 16:14",
 		"asDateAndTime" : "DavidGurtner 8/26/2010 15:45",
 		"asDuration" : "DavidGurtner 8/25/2010 15:36",
 		"duration" : "DavidGurtner 8/26/2010 15:47",

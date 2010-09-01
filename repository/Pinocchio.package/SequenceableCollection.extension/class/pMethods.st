@@ -9,6 +9,8 @@ pMethods
 			#from:to:do:.
 			#copyFrom:.
 			#copyFrom:to:.
+			#copyReplaceAll:with:.
+			#copyReplaceAll:with:asTokens:.
 			#beginsWith:.
 			#doWithIndex:.
 			#hasEqualElements:.

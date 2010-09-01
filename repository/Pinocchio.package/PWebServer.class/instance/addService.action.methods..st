@@ -8,5 +8,5 @@ addService: entryPoint action: aBlockOrMessage methods: methods
 	The list of methods describes what HTTP methods the given url supports."
 
 	mutex critical:[
-		entryPoints at: entryPoint asLowercase put: {methods. aBlockOrMessage}.
+		entryPoints at: entryPoint asLowercase put: (Array with: methods with: aBlockOrMessage).
 	].

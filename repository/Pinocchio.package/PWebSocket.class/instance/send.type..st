@@ -6,7 +6,7 @@ send: data type: type
 	stream nextPut: (Character value: type).
 	type < 128 ifTrue:[
 		"Frame type < 128: UTF-8 encoded text with 0xFF frame delimiter"
-		stream nextPutAll: data squeakToUtf8.
+		stream nextPutAll: data "squeakToUtf8".
 		stream nextPutAll: (Character value: 255).
 	] ifFalse:[ | prefix length |
 		"Frame type >= 128: Binary data with length prefix"

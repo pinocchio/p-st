@@ -28,6 +28,9 @@ initializeLinks
 	self link: Duration to: PDuration.
 	
 	self link: Semaphore to: PSemaphore.
+	self link: Mutex to: PMutex.
+	
+	self link: Text to: PText.
 	
 	(self pInternalClassFrom: PDictBucket) declareClass: false.
 	

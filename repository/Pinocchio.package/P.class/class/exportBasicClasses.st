@@ -56,13 +56,15 @@ exportBasicClasses
 		add: PMonth;
 		add: PDateAndTime;
 		add: PDuration;
-		add: PBDictionary;
-		add: PBSmallInt;
-		add: PBFloat;
-		add: PBString;
-		add: PBGeneral;
+"		add: PDictionaryBenchmark;
+		add: SmallIntBenchmark;
+		add: FloatBenchmark;
+		add: StringBenchmark;
+		add: GeneralBenchmark;"
 		add: PAtomicBoolean;
 		add: PSemaphore;
+		add: PReadLine;
+		add: PText;
 "		add: PWebSocket;
 		add: PWebServer;"
 		"add: PACContextInterpreter;"

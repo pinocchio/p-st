@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Concurrency",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"semaphore",
+		"owner" ],
+	"name" : "PMutex",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

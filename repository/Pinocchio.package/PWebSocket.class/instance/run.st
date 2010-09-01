@@ -7,7 +7,7 @@ run
 		"XXXX: Should this be moved into handleMessage:type: ???"
 		frameType = 255 ifTrue:[stream close. ^self].
 		self handleMessage: frameData type: frameType.
-	]] on: Error do:[:ex| self handleError: ex]] ensure:[
-		[stream socket destroy] on: Error do:[:ex|].
+	]] on: PError do:[:ex| self handleError: ex]] ensure:[
+		[stream socket destroy] on: PError do:[:ex|].
 		self handleClose.
 	].

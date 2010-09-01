@@ -9,6 +9,6 @@ reportInternalServerError: errReport label: errLabel request: aRequest
 		'</pre></body></html>'.
 
 	aRequest sendResponseCode: 500
-				content: errLog squeakToUtf8
+				content: errLog "squeakToUtf8"
 				type: 'text/plain; charset=utf-8'
 				close: true.

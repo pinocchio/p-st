@@ -1,0 +1,4 @@
+adapter
+remotePort
+
+	^ self primSocketRemotePort

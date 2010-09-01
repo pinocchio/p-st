@@ -5,16 +5,16 @@ example	"WebSocket example"
 	Each message sent by a client connection is broadcast to everyone."
 
 	| mutex sockets |
-	mutex := Mutex new.
+	mutex := PMutex new.
 	sockets := OrderedCollection new.
-	WebServer reset default listenOn: 8080.
+	PWebServer reset default listenOn: 8080.
 
-	WebServer default addService: '/' action:[:req|
+	PWebServer default addService: '/' action:[:req|
 		"Serves the main html chat page"
 		req send200Response: self examplePage contentType: 'text/html'.
 	].
 
-	WebServer default addService: '/broadcast' action:[:req| | ws |
+	PWebServer default addService: '/broadcast' action:[:req| | ws |
 		"Implements the WebSocket broadcaster"
 		ws := req asWebSocket.
 		ws timeout: 300. "5 minutes timeout"

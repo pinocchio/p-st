@@ -9,7 +9,7 @@ readMessage
 	frameType := byte asInteger.
 	frameType < 128 ifTrue:[
 		"Frame type < 128: UTF-8 encoded text with 0xFF frame delimiter"
-		frameData := (stream upTo: 255 asCharacter) utf8ToSqueak.
+		frameData := (stream upTo: 255 asCharacter) "utf8ToSqueak".
 	] ifFalse:[
 		"Frame type >= 128: Binary data with length prefix"
 		length := 0.

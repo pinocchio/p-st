@@ -7,7 +7,9 @@ runListener
 	[[[listenerSocket notNil and:[listenerSocket isValid]] whileTrue:[
 		"Waiting for five seconds means that WebServer will be
 		back up after roughly five seconds when the system restarts."
-		connectionSocket := listenerSocket waitForAcceptFor: 5.
+		"DG: not sure if we need this wait time part"
+		"connectionSocket := listenerSocket waitForAcceptFor: 5."
+		connectionSocket := listenerProcess accept.
 		"Fork this off since or else errors in acceptClient: kill the listener"
 		connectionSocket ifNotNil:[self asyncHandleConnectionFrom: connectionSocket].
 	]] ensure:[
@@ -19,7 +21,8 @@ runListener
 			listenerSocket destroy.
 			listenerProcess := nil.
 			"Wait a little before retrying"
-			(Delay forSeconds: 2) wait.
+			"DG: not sure if we need this wait time part"
+			"(Delay forSeconds: 2) wait."
 			^self listenOn: port interface: interface
 		].
-	]] on: Error do:[:ex| self log: ex].
+	]] on: PError do:[:ex| self log: ex].
