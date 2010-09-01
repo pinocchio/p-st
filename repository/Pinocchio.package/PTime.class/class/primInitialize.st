@@ -1,6 +1,6 @@
 initialize-release
 primInitialize
-	<pPrimitive: #primInitialize plugin: #'Chronology.Time' code: '
+	<pPrimitive: #initialize plugin: #'Chronology.Time' code: '
 	gettimeofday(&start_timeval, NULL);
 	'>
-	self pinocchioPrimitiveFailed.
+	self pinocchioPrimitiveFailed

@@ -56,11 +56,11 @@ exportBasicClasses
 		add: PMonth;
 		add: PDateAndTime;
 		add: PDuration;
-		add: PDictionaryBenchmark;
-		add: SmallIntBenchmark;
-		add: FloatBenchmark;
-		add: StringBenchmark;
-		add: GeneralBenchmark;
+		add: PBDictionary;
+		add: PBSmallInt;
+		add: PBFloat;
+		add: PBString;
+		add: PBGeneral;
 		add: PAtomicBoolean;
 		add: PSemaphore;
 "		add: PWebSocket;
