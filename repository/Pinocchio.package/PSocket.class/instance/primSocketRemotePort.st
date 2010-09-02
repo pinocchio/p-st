@@ -1,13 +1,15 @@
 primitives
 primSocketRemotePort
 	<pPrimitive: #primSocketRemotePort plugin: #'IO.Socket' code:'
-	struct sockaddr_in saddr;
+    struct sockaddr_in sin;
+    socklen_t addrlen;
 
     /* --- TCP --- */
-    if (getpeername(unwrap_int(${handle}), (struct sockaddr *)&saddr, sizeof(saddr))
-        || (AF_INET != saddr.sin_family)) {
+    addrlen = sizeof(sin);
+    if (getpeername(unwrap_int(${handle}), (struct sockaddr *)&sin,  &addrlen)
+        || (AF_INET != sin.sin_family)) {
         ^wrap_int(0);
     }
-    ^wrap_int(ntohs(saddr.sin_port));
+    ^wrap_int(ntohs(sin.sin_port));
 	'>
 	self pinocchioPrimitiveFailed.

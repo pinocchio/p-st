@@ -1,5 +1,5 @@
 initialize-destroy
 destroy
 	"TODO: review if this is correct"
-	"handle := nil."
+	handle := nil.
 	connected := false.

@@ -11,4 +11,3 @@ testSocketStream: aPort
 			self value: conn.					
 		] fork.
 	].
-	sock primClose.

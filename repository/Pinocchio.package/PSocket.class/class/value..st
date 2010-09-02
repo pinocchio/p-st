@@ -3,6 +3,9 @@ value: conn
 
 	| stream data |
 	
+	self warn: conn remotePort.
+	self warn: conn remoteAddress.
+	
 	stream := PSocketStream on: conn.
 			
 	[
