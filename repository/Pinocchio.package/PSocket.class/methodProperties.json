@@ -7,6 +7,8 @@
 		"testOn:" : "ewe 8/2/2010 16:28",
 		"testServer:" : "ewe 8/3/2010 15:02",
 		"testSocketStream:" : "ewe 9/2/2010 11:33",
+		"testWebSocket2:" : "ewe 9/2/2010 16:12",
+		"testWebSocket:" : "ewe 9/2/2010 14:19",
 		"value:" : "ewe 9/2/2010 13:30" },
 	"instance" : {
 		"accept" : "ewe 7/26/2010 13:34",
@@ -45,7 +47,7 @@
 		"receiveDataTimeout:into:startingAt:" : "ewe 8/3/2010 15:34",
 		"receiveInto:" : "ewe 8/12/2010 12:34",
 		"receiveSomeDataInto:startingAt:" : "ewe 8/3/2010 15:34",
-		"remoteAddress" : "DavidGurtner 9/1/2010 15:50",
+		"remoteAddress" : "ewe 9/2/2010 15:04",
 		"remotePort" : "DavidGurtner 9/1/2010 15:51",
 		"sendData:count:" : "ewe 8/3/2010 15:35",
 		"statusString" : "DavidGurtner 9/1/2010 16:41",

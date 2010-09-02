@@ -65,7 +65,7 @@ exportBasicClasses
 		add: PSemaphore;
 		add: PReadLine;
 		add: PText;
-"		add: PWebSocket;
-		add: PWebServer;"
+		add: PWebSocket;
+"		add: PWebServer;"
 		"add: PACContextInterpreter;"
 		yourself

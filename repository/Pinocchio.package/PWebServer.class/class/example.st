@@ -19,19 +19,19 @@ example	"WebSocket example"
 		ws := req asWebSocket.
 		ws timeout: 300. "5 minutes timeout"
 	
-		PFile stdout lf; write: 'New ', ws.
+		PFile stdout lf; writeAll: 'New ', ws.
 
 		ws onMessage:[:data|
 			mutex critical:[sockets do:[:s| s send: data]].
 		].
 		ws onClose:[
-			PFile stdout lf; write: 'Closing ', ws.
+			PFile stdout lf; writeAll: 'Closing ', ws.
 			mutex critical:[sockets remove: ws ifAbsent:[]].
 		].
 		ws onError:[:ex|
-			PFile stdout lf; write: ws.
-			PFile stdout lf; write: ex description.
-			PFile stdout lf; write: ex signalerContext longStack.
+			PFile stdout lf; writeAll: ws.
+			PFile stdout lf; writeAll: ex description.
+			PFile stdout lf; writeAll: ex signalerContext longStack.
 		].
 		mutex critical:[sockets add: ws].
 

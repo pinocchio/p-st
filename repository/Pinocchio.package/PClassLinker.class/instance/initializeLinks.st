@@ -30,6 +30,9 @@ initializeLinks
 	self link: Semaphore to: PSemaphore.
 	self link: Mutex to: PMutex.
 	
+	self link: WebSocket to: PWebSocket.
+"	self link: WebServer to: PWebServer."
+	
 	self link: Text to: PText.
 	
 	(self pInternalClassFrom: PDictBucket) declareClass: false.
