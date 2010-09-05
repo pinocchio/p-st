@@ -8,6 +8,8 @@ SystemOrganization addCategory: #'Pinocchio-Class'!
 SystemOrganization addCategory: #'Pinocchio-Class-Layout'!
 SystemOrganization addCategory: #'Pinocchio-Collection'!
 SystemOrganization addCategory: #'Pinocchio-Collection-Stream'!
+SystemOrganization addCategory: #'Pinocchio-Collection-Benchmark'!
+SystemOrganization addCategory: #'Pinocchio-Concurrency'!
 SystemOrganization addCategory: #'Pinocchio-Exception'!
 SystemOrganization addCategory: #'Pinocchio-Inspector'!
 SystemOrganization addCategory: #'Pinocchio-IO'!
@@ -34,4 +36,3 @@ SystemOrganization addCategory: #'Pinocchio-Smalltalk-Parser'!
 SystemOrganization addCategory: #'Pinocchio-Smalltalk-Threading'!
 SystemOrganization addCategory: #'Pinocchio-Testing'!
 SystemOrganization addCategory: #'Pinocchio-WebClient-Core'!
-SystemOrganization addCategory: #'Pinocchio-Concurrency'!

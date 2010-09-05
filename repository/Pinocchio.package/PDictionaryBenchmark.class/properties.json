@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Collection-Benchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PDictionaryBenchmark",
+	"pools" : [
+		 ],
+	"super" : "AbstractDictionaryBenchmark",
+	"type" : "normal" }
