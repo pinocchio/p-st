@@ -4,8 +4,11 @@
 		"pMethods" : "CamilloBruni 8/27/2010 17:42" },
 	"instance" : {
 		"absdev" : "CamilloBruni 8/21/2010 15:24",
-		"currentMillis" : "CamilloBruni 8/21/2010 15:24",
-		"printOn:" : "CamilloBruni 8/28/2010 20:28",
+		"confidenceVariance" : "CamilloBruni 9/3/2010 10:44",
+		"currentMillis" : "CamilloBruni 9/5/2010 22:35",
+		"gaussianConfidenceFactor" : "CamilloBruni 9/3/2010 10:44",
+		"printOn:" : "CamilloBruni 9/5/2010 22:35",
 		"probeCount" : "CamilloBruni 8/21/2010 15:24",
 		"probeCount:" : "CamilloBruni 8/21/2010 15:24",
-		"significantDigits" : "CamilloBruni 8/28/2010 18:23" } }
+		"significantDigits" : "CamilloBruni 9/3/2010 10:44",
+		"studentsTConfidenceFactor" : "CamilloBruni 9/3/2010 10:44" } }

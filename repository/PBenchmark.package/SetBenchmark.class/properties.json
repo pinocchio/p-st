@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "STSetBenchmark",
+	"name" : "SetBenchmark",
 	"pools" : [
 		 ],
 	"super" : "AbstractSetBenchmark",

@@ -1,3 +1,3 @@
 as yet unclassified
 currentMillis
-	^ Time primMillisecondClock
+	^ Time millisecondClockValue

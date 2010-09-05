@@ -1,3 +1,3 @@
 running
 reset
-	runs := PDictionary new.
+	runs := Dictionary new.

@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "PIdentitySetBenchmark",
+	"name" : "DictionaryBenchmark",
 	"pools" : [
 		 ],
-	"super" : "AbstractSetBenchmark",
+	"super" : "AbstractDictionaryBenchmark",
 	"type" : "normal" }
