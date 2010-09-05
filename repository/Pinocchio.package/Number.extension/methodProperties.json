@@ -3,4 +3,8 @@
 		 },
 	"instance" : {
 		"%" : "CamilloBruni 8/25/2010 16:13",
-		"fib" : "ToonVerwaest 8/5/2010 12:53" } }
+		"erf" : "CamilloBruni 9/3/2010 11:07",
+		"erfc" : "CamilloBruni 9/3/2010 11:06",
+		"fib" : "ToonVerwaest 8/5/2010 12:53",
+		"gammaln" : "CamilloBruni 9/4/2010 08:39",
+		"lbetai:with:with:" : "CamilloBruni 9/3/2010 11:11" } }
