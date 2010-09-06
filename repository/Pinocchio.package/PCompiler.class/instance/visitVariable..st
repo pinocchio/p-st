@@ -10,5 +10,5 @@ visitVariable: anASTVariable
 	^ self scope
 		declare: anASTVariable
 		as: (pinocchioClass package
-					findName: anASTVariable name
+					findName: anASTVariable name asSymbol
 					ifAbsent: [ self world ensureClassReference: anASTVariable name ]) asNode

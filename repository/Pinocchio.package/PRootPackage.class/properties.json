@@ -10,5 +10,5 @@
 	"name" : "PRootPackage",
 	"pools" : [
 		 ],
-	"super" : "PDictionary",
+	"super" : "PIdentityDictionary",
 	"type" : "normal" }

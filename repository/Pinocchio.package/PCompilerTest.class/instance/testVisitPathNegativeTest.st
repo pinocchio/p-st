@@ -5,7 +5,7 @@ testVisitPathNegativeTest
 	parser := pparser variableName.
 	pclass := PClass new.
 	root := PRootPackage new.
-	type := root ensurePackageNamed: 'IO'.
+	type := root ensurePackageNamed: #IO.
 	classReference := type ensureClassReference: #Object.
 	classReference ensurePinocchioClass: pclass.
 	pclass package: type.

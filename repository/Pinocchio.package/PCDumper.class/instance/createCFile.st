@@ -1,6 +1,6 @@
 exporting
 createCFile
-	| codeStream new name namedin ensureClass ensurePackage initialize fileStream |
+	|  codeStream name fileStream |
 	codeStream := stream.
 	stream := PIndentableWriteStream on: (String new: 10000).
 	self include: 'lib/lib.h'.

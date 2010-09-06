@@ -3,5 +3,5 @@ ensurePath: aCollection
 	| package |
 	package := self.
 	aCollection do: [ :segment | 
-		package := package ensurePackageNamed: segment asSymbol ].
+		package := package ensurePackageNamed: segment ].
 	^ package

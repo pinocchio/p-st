@@ -5,7 +5,7 @@ testVisitMethodWithIntermediateReturn
 	parser := pparser method.
 	pclass := PClass new.
 	root := PRootPackage new.
-	type := root ensurePackageNamed: 'Type'.
+	type := root ensurePackageNamed: #Type.
 	classReference := type ensureClassReference: #PCallec.
 	classReference ensurePinocchioClass: pclass.
 	pclass package: type.
