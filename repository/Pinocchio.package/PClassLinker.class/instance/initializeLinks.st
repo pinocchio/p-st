@@ -6,6 +6,7 @@ initializeLinks
 	(self link: Metaclass to: PMetaclass uid: #metaclass) declareClass: false.
 	(self linkAll: {Behavior. ClassDescription} to: PBehavior) uid: #behavior; declareClass: false.
 	(self link: Dictionary to: PDictionary) declareClass: false.
+	(self link: IdentityDictionary to: PIdentityDictionary) declareClass: false.
 	(self link: Array to: PArray) declareClass: false.
 	(self link: SmallInteger to: PSmallInt) customLayout: true; declareClass: false.
 	(self link: Float to: PFloat) customLayout: true.

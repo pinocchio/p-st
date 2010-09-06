@@ -27,6 +27,7 @@ exportBasicClasses
 		add: PWordsLayout;
 		add: PFloatLayout;
 		add: PCharacterLayout;
+		add: PMethodDictionary;
 		add: PPlugin;
 		add: PWriteFile;
 		add: PReadFile;
