@@ -62,6 +62,10 @@ exportBasicClasses
 		add: PReadLine;
 		add: PText;
 		add: PWebSocket;
+		"Benchmarks"
+		add: PBDictionary;
+		add: PBIdentitySet;
+		add: PBSet;
 "		add: PWebServer;"
 		"add: PACContextInterpreter;"
 		yourself
