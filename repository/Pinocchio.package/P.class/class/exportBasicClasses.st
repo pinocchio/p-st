@@ -57,11 +57,6 @@ exportBasicClasses
 		add: PMonth;
 		add: PDateAndTime;
 		add: PDuration;
-"		add: PDictionaryBenchmark;
-		add: SmallIntBenchmark;
-		add: FloatBenchmark;
-		add: StringBenchmark;
-		add: GeneralBenchmark;"
 		add: PAtomicBoolean;
 		add: PSemaphore;
 		add: PReadLine;

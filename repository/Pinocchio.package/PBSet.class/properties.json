@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Collection-Benchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PBSet",
+	"pools" : [
+		 ],
+	"super" : "PBAbstractSet",
+	"type" : "normal" }
