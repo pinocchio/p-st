@@ -2,14 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"benchAdd" : "CamilloBruni 8/25/2010 16:51",
-		"benchAddExisting" : "CamilloBruni 8/25/2010 16:55",
-		"benchAddNew" : "CamilloBruni 8/25/2010 16:56",
-		"benchIncludes" : "CamilloBruni 8/25/2010 16:52",
-		"benchRemove" : "CamilloBruni 8/25/2010 17:02",
+		"benchAdd" : "CamilloBruni 9/6/2010 11:51",
+		"benchAddExisting" : "CamilloBruni 9/6/2010 11:51",
+		"benchAddNew" : "CamilloBruni 9/6/2010 11:51",
+		"benchIncludes" : "CamilloBruni 9/6/2010 11:51",
+		"benchRemove" : "CamilloBruni 9/6/2010 11:52",
 		"set" : "CamilloBruni 8/25/2010 16:50",
 		"set:" : "CamilloBruni 8/25/2010 16:50",
 		"setSize" : "CamilloBruni 8/25/2010 16:50",
 		"setSize:" : "CamilloBruni 8/25/2010 16:50",
 		"setUp" : "CamilloBruni 8/25/2010 16:51",
-		"tearDown" : "CamilloBruni 8/25/2010 16:49" } }
+		"tearDown" : "CamilloBruni 8/25/2010 16:49",
+		"value:" : "CamilloBruni 9/6/2010 11:52" } }

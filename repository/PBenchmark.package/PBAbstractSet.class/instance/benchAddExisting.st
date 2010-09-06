@@ -1,4 +1,5 @@
-as yet unclassified
+benchmark
 benchAddExisting
-	1 to: set size do: [ :i| set add: i ].
-	1 to: set size do: [ :i| set add: i ].
+	2 timesRepeat: [
+		1 to: set size do: [ :i| 
+			set add: (self value: i) ]].

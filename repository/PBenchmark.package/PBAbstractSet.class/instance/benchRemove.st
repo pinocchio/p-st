@@ -1,3 +1,4 @@
-as yet unclassified
+benchmark
 benchRemove
-	1 to: set size by: 90 do: [ :i| set remove: i ].
+	1 to: set size by: 90 do: [ :i| 
+		set remove: (self value: i) ].

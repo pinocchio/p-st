@@ -1,4 +1,4 @@
-as yet unclassified
+benchmarks
 benchAtPutNew
 	dict size to: dict size * 5 do: [ :i|
-		dict at: i put: i].
+		dict at: (self key: i) ifAbsentPut: (self value: i)].

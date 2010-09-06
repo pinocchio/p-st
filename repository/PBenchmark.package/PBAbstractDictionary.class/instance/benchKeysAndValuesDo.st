@@ -1,8 +1,4 @@
-as yet unclassified
+benchmarks
 benchKeysAndValuesDo
-	|sum|
-	sum := 0.
-	dict keysAndValuesDo: [ :key :i| sum := key + i].
-	dict keysAndValuesDo: [ :key :i| sum := key + i].
-	dict keysAndValuesDo: [ :key :i| sum := key + i].
-	dict keysAndValuesDo: [ :key :i| sum := key + i].
+	4 timesRepeat: [
+		dict keysAndValuesDo: [ :k :v| ]].

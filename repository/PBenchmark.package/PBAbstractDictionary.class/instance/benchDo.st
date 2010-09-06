@@ -1,8 +1,4 @@
-as yet unclassified
+benchmarks
 benchDo
-	|sum|
-	sum := 0.
-	dict do: [ :i| sum := i].
-	dict do: [ :i| sum := i].
-	dict do: [ :i| sum := i].
-	dict do: [ :i| sum := i].
+	4 timesRepeat: [
+		dict do: [ :i| ]].
