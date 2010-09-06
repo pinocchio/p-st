@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Kernel-Class",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PMethodDictionary",
+	"pools" : [
+		 ],
+	"super" : "PIdentityDictionary",
+	"type" : "normal" }

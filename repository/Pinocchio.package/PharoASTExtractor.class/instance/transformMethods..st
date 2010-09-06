@@ -1,7 +1,7 @@
 extracting
 transformMethods: stMethods
 	| methodDict methods astMethod |
-	methodDict := PDictionary new.
+	methodDict := PMethodDictionary new.
 	stMethods do: [ :method | 
 			astMethod := self transformMethod: method getSource.
 			methodDict at: (pcompiler selectorFor: astMethod was: method selector) 

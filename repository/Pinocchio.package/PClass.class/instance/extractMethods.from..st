@@ -7,7 +7,7 @@ extractMethods: descriptor from: host
 	descriptor = #all ifTrue: [ ^ host methodDict copy].
 	descriptor isSymbol 
 		ifTrue: [ methodsDescriptor := host organization listAtCategoryNamed: methodsDescriptor ].
-	methodDict := PDictionary new.
+	methodDict := PMethodDictionary new.
 	methodsDescriptor collect: [:selector| 
 			methodDict at: selector put: (host methodDict at: selector) ].
 	^ methodDict.

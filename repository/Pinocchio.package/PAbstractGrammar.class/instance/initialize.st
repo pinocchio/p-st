@@ -1,3 +1,3 @@
 initialization
 initialize
-	parsers := PDictionary new.
+	parsers := PIdentityDictionary new.
