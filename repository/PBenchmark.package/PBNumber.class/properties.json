@@ -1,0 +1,14 @@
+{
+	"category" : "PBenchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"numbers" ],
+	"name" : "PBNumber",
+	"pools" : [
+		 ],
+	"super" : "PBenchmarkSuite",
+	"type" : "normal" }

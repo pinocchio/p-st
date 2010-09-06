@@ -1,0 +1,15 @@
+{
+	"category" : "PBenchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dict",
+		"dictSize" ],
+	"name" : "PBAbstractDictionary",
+	"pools" : [
+		 ],
+	"super" : "PBenchmarkSuite",
+	"type" : "normal" }

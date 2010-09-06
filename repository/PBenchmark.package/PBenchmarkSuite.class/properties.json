@@ -1,0 +1,14 @@
+{
+	"category" : "PBenchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"runs" ],
+	"name" : "PBenchmarkSuite",
+	"pools" : [
+		 ],
+	"super" : "PAbstractBenchmark",
+	"type" : "normal" }

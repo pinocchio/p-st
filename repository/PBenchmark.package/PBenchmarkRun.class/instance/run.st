@@ -1,3 +1,3 @@
 running
 run
-	self probeCount timesRepeat: [ self runProbe. ].
+	self probeCount timesRepeat: [ self runProbe ].

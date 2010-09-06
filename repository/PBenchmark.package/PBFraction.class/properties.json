@@ -1,0 +1,14 @@
+{
+	"category" : "PBenchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PBFraction",
+	"pools" : [
+		 ],
+	"super" : "PBNumber",
+	"type" : "normal" }

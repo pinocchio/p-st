@@ -1,4 +1,4 @@
-as yet unclassified
+printing
 printOn: aStream
-	aStream << (self name isNil ifFalse: [ self name ] ifTrue: [ self selector ]).
+	self inspectLabelOn: aStream.
 	^ super printOn: aStream.
