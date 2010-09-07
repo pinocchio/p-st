@@ -1,8 +1,7 @@
 {
 	"class" : {
-		"newWith:" : "ToonVerwaest 8/3/2010 21:24",
-		"newWith:exporting:uid:" : "ToonVerwaest 8/4/2010 11:39",
-		"newWith:uid:" : "CamilloBruni 7/27/2010 09:17" },
+		"newWith:" : "ToonVerwaest 9/7/2010 11:51",
+		"newWith:exporting:" : "ToonVerwaest 9/7/2010 13:09" },
 	"instance" : {
 		"accept:" : "CamilloBruni 7/27/2010 15:39",
 		"createPMetaclass" : "ToonVerwaest 8/3/2010 11:43",
@@ -18,6 +17,4 @@
 		"pInstVarNames" : "ToonVerwaest 8/5/2010 19:35",
 		"pclass" : "ToonVerwaest 8/3/2010 11:43",
 		"pclass:" : "ToonVerwaest 8/3/2010 11:43",
-		"splitCategory" : "ToonVerwaest 8/3/2010 11:44",
-		"uid" : "ToonVerwaest 8/3/2010 11:44",
-		"uid:" : "ToonVerwaest 8/3/2010 11:44" } }
+		"splitCategory" : "ToonVerwaest 8/3/2010 11:44" } }

@@ -1,4 +1,5 @@
 as yet unclassified
 uidFor: aPClass
-	| pinocchioPackage |
-	^ (self pinocchioNameFor: aPClass), '_Class'.
+	^ classNames
+		at: aPClass
+		ifAbsentPut: [ (self typeNameFor: aPClass) asSymbol ]

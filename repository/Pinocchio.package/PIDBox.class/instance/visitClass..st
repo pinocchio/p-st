@@ -1,3 +1,3 @@
 visiting
 visitClass: aClass
-	^ aClass sclass pClassName
+	^ PClassLinker uidFor: aClass

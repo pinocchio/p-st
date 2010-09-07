@@ -1,3 +1,0 @@
-pharo-exporter
-uid
-	^ uid

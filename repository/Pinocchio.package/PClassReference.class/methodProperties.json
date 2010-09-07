@@ -1,8 +1,7 @@
 {
 	"class" : {
 		"in:" : "ToonVerwaest 8/3/2010 21:02",
-		"new" : "ToonVerwaest 8/3/2010 21:08",
-		"pTypeName" : "CamilloBruni 6/8/2010 18:55" },
+		"new" : "ToonVerwaest 8/3/2010 21:08" },
 	"instance" : {
 		"accept:" : "ToonVerwaest 3/25/2010 12:39",
 		"asNode" : "ToonVerwaest 5/8/2010 01:27",
@@ -12,5 +11,4 @@
 		"package" : "ToonVerwaest 3/25/2010 12:39",
 		"package:" : "ToonVerwaest 3/25/2010 12:39",
 		"packagesDo:" : "ToonVerwaest 5/20/2010 20:18",
-		"pclass" : "ToonVerwaest 3/25/2010 12:39",
-		"uid" : "ToonVerwaest 3/25/2010 12:39" } }
+		"pclass" : "ToonVerwaest 3/25/2010 12:39" } }

@@ -1,9 +1,9 @@
 {
 	"class" : {
 		"clearGlobals" : "ToonVerwaest 3/25/2010 12:44",
-		"globalDefinition" : "CamilloBruni 7/27/2010 10:01",
+		"globalDefinition" : "ToonVerwaest 9/7/2010 11:57",
 		"initialize" : "ToonVerwaest 3/25/2010 12:44",
-		"initializeGlobals" : "CamilloBruni 7/27/2010 10:01",
+		"initializeGlobals" : "ToonVerwaest 9/7/2010 11:58",
 		"lookup:" : "ToonVerwaest 3/25/2010 12:44",
 		"lookupNamed:" : "ToonVerwaest 8/6/2010 19:44",
 		"lookupNamed:ifAbsent:" : "ToonVerwaest 8/6/2010 19:43",

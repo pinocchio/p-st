@@ -5,5 +5,4 @@ initialize
 	done := PIdentityDictionary new.
 	todo := PIdentitySet new.
 	pcompiler := PCompiler new.
-	pcompiler world: self.
-	classASTs := PDictionary new
+	pcompiler world: self

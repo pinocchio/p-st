@@ -1,6 +1,6 @@
 pharo-exporting
 newWith: cls
 	<preventExport>
-	^ (self new)
+	^ self new
 		sclass: cls;
 		name: cls pinocchioName

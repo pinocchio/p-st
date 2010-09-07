@@ -1,6 +1,6 @@
 visiting
 rawSymbolIdFor: aSymbol
-	| replacements uid |
+	| uid |
 	"Generate a nice symbol name"
 	uid := aSymbol asString.
 	uid := uid copyReplaceAll: '_' with: '__'.

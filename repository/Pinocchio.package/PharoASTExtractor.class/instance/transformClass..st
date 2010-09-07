@@ -7,7 +7,6 @@ transformClass: sclass
 	self haltIf: (pcompiler rootScope isKindOf: PRootScope) not.
 	
 	done at: aPinocchioClass name put: aPinocchioClass.
-	classASTs at: aPinocchioClass name asSymbol put: aPinocchioClass.
 	aPinocchioClass package: (self ensurePackageFor: aPinocchioClass).
 	self declareClassReference: (self ensureClassReferenceFor: aPinocchioClass) as: aPinocchioClass name asSymbol.
 	

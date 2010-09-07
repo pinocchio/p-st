@@ -31,7 +31,7 @@ exportBasicClasses
 		add: PPlugin;
 		add: PWriteFile;
 		add: PReadFile;
-		add: PUIntSlot;
+		add: PUintSlot;
 		add: PSlot;
 		add: PPointerSlot;
 		add: PProcess;

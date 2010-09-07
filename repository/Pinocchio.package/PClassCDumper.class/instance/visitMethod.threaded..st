@@ -17,7 +17,7 @@ visitMethod: aPMethod threaded: aBool
 	self visitCollection: aPMethod.
 	
 	self createSized: aPMethod with: [ :s|
-			 s << 'new_' << aPMethod class pTypeName
+			 s << 'new_' << aPMethod ctype
 				<< '_with(' << (self idFor: params) << ', '
 					 	<< (self idFor: locals) << ', '
 						<< (self idFor: annotations) << ', '

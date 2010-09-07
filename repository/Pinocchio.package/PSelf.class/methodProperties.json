@@ -2,11 +2,9 @@
 	"class" : {
 		"initialize" : "CamilloBruni 7/27/2010 11:43",
 		"instance" : "ToonVerwaest 5/19/2010 16:33",
-		"new" : "CamilloBruni 6/8/2010 13:56",
-		"pTypeName" : "CamilloBruni 6/8/2010 09:55" },
+		"new" : "CamilloBruni 6/8/2010 13:56" },
 	"instance" : {
 		"=" : "ToonVerwaest 4/1/2010 15:46",
 		"accept:" : "ToonVerwaest 3/25/2010 12:44",
 		"ctype" : "CamilloBruni 6/9/2010 16:05",
-		"info:" : "ToonVerwaest 3/25/2010 12:44",
-		"uid" : "CamilloBruni 6/8/2010 10:06" } }
+		"info:" : "ToonVerwaest 3/25/2010 12:44" } }

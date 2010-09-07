@@ -1,3 +1,3 @@
 visiting
 visitInternalConstant: aConst
-	^ aConst uid
+	^ aConst constant printString, '_Const'

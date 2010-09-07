@@ -9,7 +9,6 @@
 		"todo",
 		"done",
 		"root",
-		"classASTs",
 		"progress",
 		"pcompiler" ],
 	"name" : "PharoASTExtractor",
