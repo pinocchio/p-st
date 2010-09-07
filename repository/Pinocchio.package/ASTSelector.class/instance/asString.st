@@ -1,3 +1,3 @@
 converting
 asString
-	^ self selector asString
+	^ selector asString

@@ -1,4 +1,4 @@
 initialization
 initializeSymbolConstant
 	^ super initializeSymbolConstant
-		semantics: [ :result | ASTSymbol new symbol: result ]
+		semantics: [ :result | ASTSymbol named: result ]

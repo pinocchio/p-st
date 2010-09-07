@@ -28,5 +28,5 @@ testAnnotation
 	result size should = 1.
 	result := result first.
 	result class should = ASTKeywordAnnotation.
-	result selectorSymbol should = #temps:annotations:statements:.
+	result selectorSymbol should == #temps:annotations:statements:.
 	string atEnd should be true

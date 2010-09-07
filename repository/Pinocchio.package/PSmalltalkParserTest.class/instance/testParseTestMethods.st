@@ -15,7 +15,7 @@ testParseTestMethods
 			result := parser match: string.
 			result class should = ASTMethod.
 			annotations := result annotations
-				select: [ :ann | ann class = ASTKeywordAnnotation and: [ ann selectorSymbol = #temps:annotations:statements: ] ].
+				select: [ :ann | ann class = ASTKeywordAnnotation and: [ ann selectorSymbol == #temps:annotations:statements: ] ].
 			annotations size = 1
 				ifTrue:
 					[ annotation := annotations first.

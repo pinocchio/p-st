@@ -1,3 +1,3 @@
 printing
 printOn: aStream
-	aStream << self number
+	aStream << base << 'r' << number

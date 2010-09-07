@@ -10,5 +10,5 @@ initializeKeywordMessageExpression
 				keywords at: i put: (parts at: i * 2 - 1).
 				arguments at: i put: (parts at: i * 2) ].
 			(ASTMessageExpression new)
-				selector: (ASTKeywordSelector new keywords: keywords);
+				keywords: keywords;
 				arguments: arguments ]

@@ -1,3 +1,3 @@
 accessing
 selectorSymbol
-	^ self symbol
+	^ symbol

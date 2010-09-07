@@ -1,4 +1,4 @@
 as yet unclassified
 = other 
-	super  = other ifFalse: [^ false].
-	^ self selector = other selector
+	super = other ifFalse: [^ false].
+	^ selector = other selector

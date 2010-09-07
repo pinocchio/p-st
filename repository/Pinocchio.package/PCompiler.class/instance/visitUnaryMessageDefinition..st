@@ -1,3 +1,3 @@
 visitor
 visitUnaryMessageDefinition: anASTUnaryMessageDefinition
-	^ anASTUnaryMessageDefinition selectorSymbol
+	^ anASTUnaryMessageDefinition selector

@@ -1,3 +1,3 @@
 accessing
 keywords: anObject
-	selector := String newFromAll: anObject
+	selector := (String newFromAll: anObject) asSymbol

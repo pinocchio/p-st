@@ -11,5 +11,5 @@ visitMessageCascadeExpression: anASTMessageCascadeExpression
 	send := (ASTMessageExpression new)
 		receiver: block;
 		arguments: (Array with: anASTMessageCascadeExpression receiver);
-		selector: (ASTKeywordSelector new selector: #value:).
+		selector: #value:.
 	^ self visit: send

@@ -6,6 +6,6 @@ initializeBinaryExpression
 			2 to: parts size by: 2 do: [ :i |
 				result := (ASTBinaryExpression new)
 					receiver: result;
-					selector: (ASTBinarySelector new selector: (self createSymbol: (parts at: i)));
+					selector: (parts at: i);
 					argument: (parts at: i + 1). ].
 				result ]

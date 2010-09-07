@@ -1,3 +1,3 @@
 testing
 annotatedWith: selector
-	^ self annotations anySatisfy: [ :annotation | annotation selectorSymbol = selector ]
+	^ self annotations anySatisfy: [ :annotation | annotation selector == selector ]

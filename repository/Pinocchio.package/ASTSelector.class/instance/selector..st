@@ -1,5 +1,3 @@
 accessing
 selector: anObject
-	| sym |
-	selector := anObject.
-	sym := selector asSymbol
+	selector := anObject asSymbol
