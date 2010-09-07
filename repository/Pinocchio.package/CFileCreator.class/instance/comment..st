@@ -1,4 +1,4 @@
 convenience
 comment: aString
-	stream << '// ' << aString asString << '. '.
+	stream << '// ' << aString << '. '.
 	stream lf

@@ -8,5 +8,5 @@ initializeBracketIndexExpression
 			keywords := isAssignment ifFalse: [ Array with: #at: ] ifTrue: [ Array with: #at: with: #put:].
 			arguments := isAssignment ifFalse: [ Array with: parts first] ifTrue: [ Array with: parts first with: optionalAssignment result].
 			(ASTMessageExpression new)
-				selector: (ASTKeywordSelector new keywords: keywords);
+				keywords: keywords;
 				arguments: arguments ]

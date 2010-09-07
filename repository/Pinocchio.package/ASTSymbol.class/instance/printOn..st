@@ -1,3 +1,3 @@
 printing
 printOn: stream
-	stream << self asString
+	stream << symbol

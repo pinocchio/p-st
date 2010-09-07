@@ -33,7 +33,7 @@ createCFile
 	self visitSymbol: (PSymbol named: #'ensurePackageNamed:').
 	
 	sortedClasses do: [ :pclass | 
-		stream << 'init_' << pclass name asString << '_methods();'; lf ].
+		stream << 'init_' << pclass name << '_methods();'; lf ].
 	stream lf; << (self idFor: root); << ' = Eval_Send0((Optr)Organization_RootPackage_Class, SMB_new);'; lf.
 	root packagesDo: [ :package | 
 		name := package shortName asPObject.

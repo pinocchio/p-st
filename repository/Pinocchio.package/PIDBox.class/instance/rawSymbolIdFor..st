@@ -2,8 +2,7 @@ visiting
 rawSymbolIdFor: aSymbol
 	| uid |
 	"Generate a nice symbol name"
-	uid := aSymbol asString.
-	uid := uid copyReplaceAll: '_' with: '__'.
+	uid := aSymbol asString copyReplaceAll: '_' with: '__'.
 	uid := uid replaceAll: $: with: $_.
 	uid := uid replaceAll: $. with: $-.
 	knownSymbolNames do: [ :pair|

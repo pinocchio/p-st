@@ -1,3 +1,3 @@
 printing
 printOn: aStream
-	aStream << 'Slot(' << name asString << $)
+	aStream << 'Slot(' << name << $)

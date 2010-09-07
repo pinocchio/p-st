@@ -5,8 +5,7 @@ testKeywordExpression
 	string := PEGStringScanner on: '2+4 abc: 1 def: 2+2 ghi: 3 b '.
 	result := parser match: string.
 	result class should = ASTMessageExpression.
-	result selectorSymbol should = #abc:def:ghi:.
-	result selector class should = ASTKeywordSelector.
+	result selector should be: #abc:def:ghi:.
 	result selector printString should = 'abc:def:ghi:'.
 	arg := result arguments first.
 	arg class should = ASTNumber.

@@ -6,13 +6,13 @@
 		"with:" : "CamilloBruni 7/27/2010 00:33" },
 	"instance" : {
 		"createCFile" : "ToonVerwaest 8/31/2010 16:03",
-		"createFooter" : "CamilloBruni 8/9/2010 13:57",
-		"createHFile" : "ToonVerwaest 8/31/2010 16:03",
+		"createFooter" : "ToonVerwaest 9/7/2010 15:56",
+		"createHFile" : "ToonVerwaest 9/7/2010 15:56",
 		"createHeader" : "ToonVerwaest 8/31/2010 16:03",
 		"createMethodSourceStringFor:" : "ToonVerwaest 5/20/2010 20:30",
 		"export:" : "CamilloBruni 7/28/2010 01:13",
 		"exportClassMethods" : "CamilloBruni 7/28/2010 01:13",
-		"exportLayout" : "ToonVerwaest 8/10/2010 13:36",
+		"exportLayout" : "ToonVerwaest 9/7/2010 15:57",
 		"exportMethods" : "ToonVerwaest 5/20/2010 20:35",
 		"hasVisited:" : "CamilloBruni 7/27/2010 13:36",
 		"initialize" : "ToonVerwaest 3/25/2010 12:39",
@@ -24,7 +24,7 @@
 		"visitAssign:" : "CamilloBruni 7/26/2010 23:35",
 		"visitBlock:" : "CamilloBruni 7/26/2010 23:35",
 		"visitBoolean:" : "ToonVerwaest 3/25/2010 12:39",
-		"visitCharacter:" : "CamilloBruni 7/26/2010 23:35",
+		"visitCharacter:" : "ToonVerwaest 9/7/2010 15:57",
 		"visitClassReference:" : "CamilloBruni 8/10/2010 13:56",
 		"visitFunctionPointer:" : "CamilloBruni 8/9/2010 17:58",
 		"visitInfo:" : "CamilloBruni 7/26/2010 23:36",
@@ -41,5 +41,5 @@
 		"visitRootPackage:" : "CamilloBruni 8/9/2010 17:57",
 		"visitSelf:" : "ToonVerwaest 3/25/2010 12:39",
 		"visitSuper:" : "CamilloBruni 7/26/2010 23:38",
-		"visitSymbol:" : "CamilloBruni 8/12/2010 17:29",
-		"visitVariable:" : "CamilloBruni 7/26/2010 23:38" } }
+		"visitSymbol:" : "ToonVerwaest 9/7/2010 15:58",
+		"visitVariable:" : "ToonVerwaest 9/7/2010 15:58" } }

@@ -5,14 +5,14 @@
 		"addGlobal:" : "CamilloBruni 8/9/2010 22:31",
 		"assign:to:" : "CamilloBruni 7/26/2010 23:25",
 		"createAutoCompletionFile" : "ToonVerwaest 9/6/2010 15:11",
-		"createCFile" : "ToonVerwaest 9/7/2010 14:29",
+		"createCFile" : "ToonVerwaest 9/7/2010 15:54",
 		"createClass:" : "ToonVerwaest 8/10/2010 14:33",
 		"createHFile" : "ToonVerwaest 8/31/2010 16:10",
 		"createInternalClass:" : "CamilloBruni 8/1/2010 23:23",
 		"createSized:with:" : "CamilloBruni 7/26/2010 23:40",
 		"currentClass:" : "CamilloBruni 7/28/2010 01:12",
 		"declare:to:type:" : "CamilloBruni 7/26/2010 23:29",
-		"declareClass:" : "CamilloBruni 8/9/2010 17:52",
+		"declareClass:" : "ToonVerwaest 9/7/2010 16:05",
 		"declareClassReference:" : "CamilloBruni 7/26/2010 23:29",
 		"export" : "CamilloBruni 8/25/2010 13:53",
 		"export:" : "ToonVerwaest 8/3/2010 21:20",
@@ -59,4 +59,4 @@
 		"visitSlot:" : "CamilloBruni 8/9/2010 22:31",
 		"visitSmallInt:" : "CamilloBruni 7/27/2010 13:37",
 		"visitString:" : "CamilloBruni 7/26/2010 23:33",
-		"visitSymbol:" : "CamilloBruni 8/12/2010 17:27" } }
+		"visitSymbol:" : "ToonVerwaest 9/7/2010 15:55" } }
