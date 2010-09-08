@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"at:" : "CamilloBruni 9/8/2010 12:00",
+		"at:ifAbsent:" : "CamilloBruni 9/8/2010 12:00",
+		"at:ifAbsentPut:" : "CamilloBruni 9/8/2010 12:00",
+		"at:put:" : "CamilloBruni 9/8/2010 11:58",
+		"do:" : "CamilloBruni 9/8/2010 12:00",
+		"includes:" : "CamilloBruni 9/8/2010 12:00",
+		"includesKey:" : "CamilloBruni 9/8/2010 12:00",
+		"keysAndValuesDo:" : "CamilloBruni 9/8/2010 11:59",
+		"removeKey:" : "CamilloBruni 9/8/2010 12:00",
+		"setUp" : "CamilloBruni 9/8/2010 11:57",
+		"size" : "CamilloBruni 9/8/2010 11:59" } }

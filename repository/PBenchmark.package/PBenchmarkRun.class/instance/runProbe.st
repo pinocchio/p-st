@@ -7,6 +7,5 @@ runProbe
 	time := (self currentMillis) - time.
 	target tearDown.
 	
-	time := (time / probeCount asFloat).
-	probes add: time.
+	probes add: (time / 1000.0).
 	^ time.

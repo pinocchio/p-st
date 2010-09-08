@@ -1,3 +1,3 @@
 running
 initialize
-	runs := PDictionary new
+	runs := Dictionary new
