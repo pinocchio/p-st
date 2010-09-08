@@ -1,5 +1,6 @@
 private
 at: key put: anObject
+	<pPrimitive: #at:put: plugin: #'Collection.IdentityDictionary'>
 	| bucketIndex bucket |
 	linear ifTrue: [ ^ self inFirstBucketAt: key put: anObject ].
 		

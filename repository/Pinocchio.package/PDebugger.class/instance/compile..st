@@ -1,5 +1,5 @@
 shelling
 compile: code
 	| method |
-	method := 'method' , Character lf asString , code.
+	method := 'method', String lf, code.
 	^ nil class compile: method

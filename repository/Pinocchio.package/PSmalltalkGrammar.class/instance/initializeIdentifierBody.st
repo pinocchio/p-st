@@ -1,3 +1,6 @@
 variable
 initializeIdentifierBody
-	^ self letter && (self letter | self decimalDigit <= '!?' asPEGChoice) strongTimes
+	^ self letter &&
+		(self lowercase | self uppercase
+		<= self decimalDigit
+		<= '!?' asPEGChoice) strongTimes
