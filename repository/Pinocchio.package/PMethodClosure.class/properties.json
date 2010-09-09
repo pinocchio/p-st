@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"info",
 		"selector",
 		"host" ],
 	"name" : "PMethodClosure",
