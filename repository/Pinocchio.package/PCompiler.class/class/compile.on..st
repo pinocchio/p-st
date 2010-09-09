@@ -1,5 +1,5 @@
 compiling
 compile: aString on: aClass
-	^ (self new)
+	^ self new
 		pclass: aClass;
 		compile: aString

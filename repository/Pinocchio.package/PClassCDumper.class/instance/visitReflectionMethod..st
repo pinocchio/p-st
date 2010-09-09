@@ -1,3 +1,3 @@
 visitor
 visitReflectionMethod: aPMethod
-	^ self visitMethod: aPMethod threaded: false
+	^ self visitMethod: aPMethod

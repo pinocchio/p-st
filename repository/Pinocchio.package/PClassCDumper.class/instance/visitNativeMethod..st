@@ -1,3 +1,3 @@
 visitor
 visitNativeMethod: aPMethod
-	^ self visitMethod: aPMethod threaded: false
+	^ self visitMethod: aPMethod

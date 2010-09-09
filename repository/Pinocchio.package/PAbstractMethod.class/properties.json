@@ -10,7 +10,8 @@
 		"locals",
 		"package",
 		"annotations",
-		"info" ],
+		"info",
+		"threaded" ],
 	"name" : "PAbstractMethod",
 	"pools" : [
 		 ],
