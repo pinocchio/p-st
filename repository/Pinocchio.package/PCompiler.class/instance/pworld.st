@@ -1,4 +1,4 @@
 accessing
 pworld
 	<renameExport: #world>
-	^ pinocchioClass package root
+	^ pinocchioClass package

@@ -1,3 +1,0 @@
-visitor
-visitKeywordMessageDefinition: anASTKeywordMessageDefinition
-	^ anASTKeywordMessageDefinition selector

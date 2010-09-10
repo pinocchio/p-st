@@ -5,13 +5,13 @@ createReturningMethodBodyFor: aMethod
 	body := aMethod statements.
 	body last isReturnExpression
 		ifFalse: [ body add: ASTSelf new ]
-		ifTrue:
-			[ body at: body size put: body last expression.
+		ifTrue: [
+			body at: body size put: body last expression.
 			body hasReturnExpression
 				ifFalse: [ ^ (self acceptOnCollection: body) asArray ] ].	"Now wrap all in a callec"
 	callec := (PSend new: 1)
 		receiver: ((self world ensurePackageNamed: #Runtime)
-						ensureClassReference: #Continue);
+							ensureClassReference: #Continue);
 		message: #on:;
 		at: 1 put: (self createCallecBodyFor: aMethod);
 		yourself.

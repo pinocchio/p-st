@@ -15,7 +15,7 @@ visitMethod: aMethod
 		locals: (self acceptOnCollection: aMethod temporaries) asArray;
 		annotations: (self acceptOnCollection: aMethod annotations) asArray;
 		info: self createPInfo.
-	methodClosure := (PMethodClosure new)
+	methodClosure := PMethodClosure new
 		code: method;
 		host: pinocchioClass;
 		selector: selector.

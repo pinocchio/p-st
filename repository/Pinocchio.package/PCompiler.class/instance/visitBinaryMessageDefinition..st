@@ -1,3 +1,0 @@
-visitor
-visitBinaryMessageDefinition: anASTBinaryMessageDefinition
-	^ anASTBinaryMessageDefinition selector

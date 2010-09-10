@@ -1,3 +1,0 @@
-visitor
-visitUnaryMessageDefinition: anASTUnaryMessageDefinition
-	^ anASTUnaryMessageDefinition selector

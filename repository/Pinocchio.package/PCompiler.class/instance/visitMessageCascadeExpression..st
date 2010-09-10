@@ -5,10 +5,10 @@ visitMessageCascadeExpression: anASTMessageCascadeExpression
 	| receiver block send |
 	receiver := ASTVariable new name: #'_receiver_'.
 	anASTMessageCascadeExpression cascades do: [ :message | message receiver: receiver ].
-	block := (ASTBlock new)
+	block := ASTBlock new
 		parameters: (Array with: receiver);
 		statements: anASTMessageCascadeExpression cascades.
-	send := (ASTMessageExpression new)
+	send := ASTMessageExpression new
 		receiver: block;
 		arguments: (Array with: anASTMessageCascadeExpression receiver);
 		selector: #value:.
