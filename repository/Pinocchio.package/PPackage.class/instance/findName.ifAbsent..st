@@ -1,6 +1,8 @@
 accessing
 findName: aName ifAbsent: block
-	self at: aName ifPresent: [ :value | ^ value ].
-	name = aName
-		ifTrue: [ ^ self ].
+	| returnBlock |
+	returnBlock := [ :value | ^ value ].
+	name == aName ifTrue: [ ^ self ].
+	self at: aName ifPresent: returnBlock.
+	imports at: aName ifPresent: returnBlock.
 	^ parent findName: aName ifAbsent: block
