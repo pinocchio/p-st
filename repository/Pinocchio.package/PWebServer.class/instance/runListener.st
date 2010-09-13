@@ -4,12 +4,12 @@ runListener
 	Accepts incoming connections and handles them asynchronously"
 
 	| connectionSocket |
-	[[[listenerSocket isNotNil and:[listenerSocket isValid]] whileTrue:[
+	[[[listenerSocket notNil and:[listenerSocket isValid]] whileTrue:[
 		"Waiting for five seconds means that WebServer will be
 		back up after roughly five seconds when the system restarts."
 		"DG: not sure if we need this wait time part"
 		"connectionSocket := listenerSocket waitForAcceptFor: 5."
-		connectionSocket := listenerSocket accept.
+		connectionSocket := listenerProcess accept.
 		"Fork this off since or else errors in acceptClient: kill the listener"
 		connectionSocket ifNotNil:[self asyncHandleConnectionFrom: connectionSocket].
 	]] ensure:[
@@ -25,4 +25,4 @@ runListener
 			"(Delay forSeconds: 2) wait."
 			^self listenOn: port interface: interface
 		].
-	]] on: PError do:[:ex| ex signal].
+	]] on: PError do:[:ex| self log: ex].

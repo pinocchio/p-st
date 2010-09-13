@@ -3,6 +3,6 @@ newRequest
 	"Answer a new request.
 	Subclasses should override this method to use a different request class."
 
-	^(PWebRequest new)
+	^(WebRequest new)
 		server: self;
 		yourself

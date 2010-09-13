@@ -5,15 +5,14 @@ listenOn: aPort interface: anInterface backlogSize: backlog
 	| ipString |
 	interface := anInterface.
 	port := aPort.
-	ipString := interface ifNil:['*'] ifNotNil:[ interface asString
-		"String streamContents:[:s| interface do:[:b| s print: b] separatedBy:[s nextPut:$.]]"].
-	self log: 'Listener starting (interface: ', ipString, ' port: ', port, ')'.
-	listenerSocket := PSocket newTCP.
+	ipString := interface ifNil:['*'] ifNotNil:[
+		String streamContents:[:s| interface do:[:b| s print: b] separatedBy:[s nextPut:$.]]].
+	self log: 'listener starting (interface: ', ipString, ' port: ', port asString, ')'.
+	listenerSocket := Socket newTCP.
 	interface 
 		ifNil:[listenerSocket listenOn: port backlogSize: backlog]
 		ifNotNil:[listenerSocket listenOn: port backlogSize: backlog interface: interface].
-	"DG: somehow our socket is not doing this correctly."
-	"listenerSocket isWaitingForConnection ifFalse:[
-		self error: 'Failed to listen (interface: ', interface, ' port: ', aPort,')'.
-	]."
+	listenerSocket isWaitingForConnection ifFalse:[
+		self error: 'Failed to listen(interface: ', interface printString, ' port: ', aPort printString,' )'.
+	].
 	self startListener.

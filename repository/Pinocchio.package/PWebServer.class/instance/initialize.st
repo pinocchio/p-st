@@ -8,4 +8,4 @@ initialize
 	vault := Dictionary new.
 	nonceCache := Dictionary new.
 	sessions := Dictionary new.
-	self logAction:[:aString| PFile stdout lf; writeAll: aString].
+	self logAction:[:aString| PFile stdout lf; write: aString].

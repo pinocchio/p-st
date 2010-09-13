@@ -1,6 +1,6 @@
 sending
 invokeReflectionMethod: aClosure on: receiver message: aMessage
-	| annotation selector metamessage result |
+	| annotation selector |
 	annotation := aClosure annotationAt: #pinocchioReflective:.
 	selector := annotation at: 1.
 	(self respondsTo: selector) ifTrue: [

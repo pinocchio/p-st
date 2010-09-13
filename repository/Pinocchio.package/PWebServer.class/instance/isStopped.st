@@ -2,4 +2,4 @@ testing
 isStopped
 	"Is the server still running?"
 
-	^listenerProcess == nil
+	^listenerProcess == nil or:[listenerProcess isTerminated]

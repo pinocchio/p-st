@@ -15,25 +15,17 @@ upToAll: aStringOrByteArray
 	A totally non greedy variant would search on every loop."
 
 	| index sz result lastRecentlyRead searchedSoFar |
-	self warn: 'SocketStream>>upToAll:'.
 	sz := aStringOrByteArray size.
-	self warn: 'SocketStream>>upToAll: sz is ', sz.
 	searchedSoFar := 0.
 	lastRecentlyRead := 0.
 	index := 0.
-	self warn: 'SocketStream>>upToAll: temps initialized'.
 	[self atEnd not and: [
 		((lastRecentlyRead = 0 and: [self isInBufferEmpty not]) or: [self inBufferSize > 100000]) ifTrue: [
-			self warn: 'SocketStream>>upToAll: we need to read data'.
 			"Data begins at lastRead + 1, we add searchedSoFar as offset and backs up sz - 1
 			so that we can catch any borderline hits."
-			"DG: that backing up the sz part seems like a bad idea. changed - sz + 2 into + 1"
 			index := inBuffer indexOfSubCollection: aStringOrByteArray
-						startingAt: lastRead + searchedSoFar + 1.
-			self warn: 'SocketStream>>upToAll: searched for a bit.'.
+						startingAt: lastRead + searchedSoFar - sz + 2.
 			searchedSoFar := self inBufferSize.
-			self warn: 'SocketStream>>upToAll: this far we searched until'.
-			self warn: searchedSoFar.
 			(index > 0 and: [(index + sz) > inNextToWrite]) ifTrue: [
 				"Oops, hit partially or completely in dead buffer area.
 				This is probably due to old data, so we ignore it.

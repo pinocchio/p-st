@@ -31,8 +31,8 @@ exportBasicClasses
 		add: PPlugin;
 		add: PWriteFile;
 		add: PReadFile;
-		add: PSlot;
 		add: PUintSlot;
+		add: PSlot;
 		add: PPointerSlot;
 		add: PProcess;
 		add: PAssertionFailure;
@@ -49,7 +49,6 @@ exportBasicClasses
 		add: PEnvironment;
 		add: PSocket;
 		add: PWriteStream;
-		add: PReadStream;
 		add: PSetTest;
 		add: PSmallIntTest;
 		add: PTime;
@@ -62,18 +61,11 @@ exportBasicClasses
 		add: PSemaphore;
 		add: PReadLine;
 		add: PText;
+		add: PWebSocket;
 		"Benchmarks"
 		add: PBDictionary;
 		add: PBIdentitySet;
 		add: PBSet;
-		"WebClient"
-		add: PWebSocket;
-		add: PWebServer;
-		add: PWebUtils;
-		add: PWebMessage;
-		add: PWebRequest;
-		add: PWebResponse;
-		add: PLookupKey;
-		add: PAssociation;
+"		add: PWebServer;"
 		"add: PACContextInterpreter;"
 		yourself

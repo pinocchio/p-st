@@ -10,13 +10,11 @@
 		"pglobalDefinition" : "CamilloBruni 6/8/2010 13:55",
 		"pinitializeGlobals" : "ToonVerwaest 3/25/2010 12:44" },
 	"instance" : {
-		"declare:" : "ToonVerwaest 3/25/2010 13:56",
-		"declare:as:" : "CamilloBruni 7/19/2010 14:26",
-		"declareAll:" : "ToonVerwaest 3/25/2010 12:44",
-		"decls" : "ToonVerwaest 3/25/2010 12:44",
-		"decls:" : "ToonVerwaest 3/25/2010 12:44",
+		"declare:" : "ToonVerwaest 9/13/2010 16:13",
+		"declare:as:" : "ToonVerwaest 9/13/2010 16:14",
+		"declareAll:" : "ToonVerwaest 9/13/2010 16:13",
 		"depth" : "ToonVerwaest 3/25/2010 12:44",
-		"initialize" : "ToonVerwaest 3/25/2010 12:44",
+		"initialize" : "ToonVerwaest 9/13/2010 16:08",
 		"isRootScope" : "ToonVerwaest 3/25/2010 12:44",
-		"lookup:" : "ToonVerwaest 3/25/2010 12:44",
+		"lookup:" : "ToonVerwaest 9/13/2010 16:08",
 		"parentScope" : "ToonVerwaest 8/18/2010 19:11" } }

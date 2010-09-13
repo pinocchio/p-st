@@ -1,6 +1,6 @@
 declarations
-declare: anASTVariable as: value
-	decls at: anASTVariable name ifAbsent: [ 
-		decls at: anASTVariable name put: value.
+declare: name as: value
+	declarations at: name ifAbsent: [ 
+		declarations at: name put: value.
 		^ value ].
-	self error: 'Double declaration for: ' , anASTVariable name
+	self error: 'Double declaration for: ' , name

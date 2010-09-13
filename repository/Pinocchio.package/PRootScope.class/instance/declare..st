@@ -1,3 +1,3 @@
 declarations
 declare: anASTVariable
-	^ self declare: anASTVariable as: (anASTVariable asVariableAt: self)
+	^ self declare: anASTVariable name as: (anASTVariable asVariableAt: self)

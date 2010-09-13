@@ -3,37 +3,21 @@ pMethods
 	<preventExport>
 	self == SequenceableCollection ifTrue: [
 		^{  #first.
-			#first:.
 			#second.
-			#third.
 			#=.
 			#do:.
 			#from:to:do:.
-			#allButFirst:.
-			#copyAfter:.
-			#copyEmpty.
 			#copyFrom:.
 			#copyFrom:to:.
 			#copyReplaceAll:with:.
 			#copyReplaceAll:with:asTokens:.
-			#copyUpTo:.
-			#copyUpToLast:.
-			#copyWith:.
 			#beginsWith:.
 			#doWithIndex:.
-			#findFirst:.
-			#findLast:.
 			#hasEqualElements:.
 			#indexOf:.
 			#indexOf:ifAbsent:.
 			#indexOf:startingAt:ifAbsent:.
-			#indexOfSubCollection:startingAt:.
-			#indexOfSubCollection:startingAt:ifAbsent:.
-			#last.
-			#lastIndexOf:ifAbsent:.
-			#lastIndexOf:startingAt:ifAbsent:.
 			#middle.
-			#readStream.
 			#replaceFrom:to:with:startingAt:.
 			#reverse.
 			#reversed.
@@ -41,10 +25,12 @@ pMethods
 			#withIndexDo:.
 			#joinUsing:.
 			#split:.
+			#copyWith:.
 			#do:separatedBy:.
 			#collect:.
 			#select:.
 			#pselect:.
 			#writeStream.
-			#with:do:. }].
+			#with:do:.
+			#last. }].
 	^ super pMethods

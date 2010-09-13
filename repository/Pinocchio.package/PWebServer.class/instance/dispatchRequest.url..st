@@ -38,4 +38,8 @@ dispatchRequest: request url: dispatchUrl
 		].
 
 	^[self invokeAction: (action at: 2) request: request] 
-		on: PError do:[:ex| ex signal]
+		on: Error do:[:ex|
+			errorHandler 
+				ifNil:[self handleError: ex request: request]
+				ifNotNil:[errorHandler value: ex value: request]
+		].

@@ -8,6 +8,6 @@ run
 		frameType = 255 ifTrue:[stream close. ^self].
 		self handleMessage: frameData type: frameType.
 	]] on: PError do:[:ex| self handleError: ex]] ensure:[
-		[stream socket destroy] on: PError do:[:ex| ex signal].
+		[stream socket destroy] on: PError do:[:ex|].
 		self handleClose.
 	].
