@@ -8,6 +8,7 @@ pMethods
 				#detect:.
 				#detect:ifNone:.
 				#isEmpty.
+				#ifNotEmpty:.
 				#hasReturnExpression.
 				#asOrderedCollection.
 				#anySatisfy:.
@@ -22,5 +23,6 @@ pMethods
 				#anyOne.
 				#average.
 				#emptyCheck.
+				#notEmpty.
 				#sum}].
 	^ super pMethods

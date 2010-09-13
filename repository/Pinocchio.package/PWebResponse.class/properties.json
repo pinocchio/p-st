@@ -1,0 +1,17 @@
+{
+	"category" : "Pinocchio-WebClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"request",
+		"status",
+		"code",
+		"url" ],
+	"name" : "PWebResponse",
+	"pools" : [
+		 ],
+	"super" : "PWebMessage",
+	"type" : "normal" }

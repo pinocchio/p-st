@@ -30,12 +30,14 @@ testWebSocket2: aPort
 			].	
 			
 			web onError: [ :error :ws | 
-				self warn: 'Error: Network Connection closed'. self warn: ('Status: ', conn isConnected ). ].
+				self warn: 'Error: Network Connection closed'.
+				conn destroy.
+				self warn: ('Connected: ', conn isConnected ). ].
 			
 			web onClose: [ :ws | 
-				self warn:  ('Will now close connection, handle=', conn hash ).
+				self warn:  ('Will now try to close connection').
 				conn closeAndDestroy: 0.
-				self warn: ('Status ', conn isConnected ). ].	
+				self warn: ('Connected: ', conn isConnected ). ].	
 				
 			web run.
 			 

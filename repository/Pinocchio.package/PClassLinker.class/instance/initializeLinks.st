@@ -20,6 +20,7 @@ initializeLinks
 	self link: True to: PTrue.
 	self link: False to: PFalse.
 	self link: WriteStream to: PWriteStream.
+	self link: ReadStream to: PReadStream.
 	
 	self link: Time to: PTime.
 	self link: Timespan to: PTimespan.
@@ -31,7 +32,17 @@ initializeLinks
 	self link: Semaphore to: PSemaphore.
 	self link: Mutex to: PMutex.
 	
+	self link: WebSocket to: PWebSocket.
+	self link: WebServer to: PWebServer.
+	self link: WebUtils to: PWebUtils.
+	self link: WebMessage to: PWebMessage.
+	self link: WebRequest to: PWebRequest.
+	self link: WebResponse to: PWebResponse.
+	
 	self link: Text to: PText.
+	self link: IdentitySet to: PIdentitySet.
+
+	self link: SocketStream to: PSocketStream.
 	
 	(self pInternalClassFrom: PDictBucket) declareClass: false.
 	

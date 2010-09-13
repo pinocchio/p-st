@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-WebClient-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PWebUtils",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

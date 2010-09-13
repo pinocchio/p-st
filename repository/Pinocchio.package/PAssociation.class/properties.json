@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Collection-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value" ],
+	"name" : "PAssociation",
+	"pools" : [
+		 ],
+	"super" : "PLookupKey",
+	"type" : "normal" }
