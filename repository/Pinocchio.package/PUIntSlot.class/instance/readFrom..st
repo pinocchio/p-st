@@ -1,4 +1,4 @@
 interpreting
 readFrom: anObject
-	<pPrimitive: #readFrom: plugin: #'Slot.UIntSlot'>
+	<pPrimitive: #readFrom: plugin: #'Slot.UintSlot'>
 	self pinocchioPrimitiveFailed
