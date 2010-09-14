@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"cr" : "ToonVerwaest 3/25/2010 12:44",
+		"crlf" : "DavidGurtner 9/6/2010 16:27",
 		"lf" : "ToonVerwaest 3/25/2010 12:44",
 		"newFromAll:" : "ToonVerwaest 6/26/2010 01:41",
 		"pClassMethods" : "ToonVerwaest 8/9/2010 11:07",
@@ -27,6 +28,8 @@
 		"contains:at:" : "ToonVerwaest 8/19/2010 17:00",
 		"copy" : "ToonVerwaest 8/9/2010 11:18",
 		"ctype" : "CamilloBruni 6/9/2010 16:04",
+		"findDelimiters:startingAt:" : "DavidGurtner 9/9/2010 18:41",
+		"findTokens:" : "DavidGurtner 9/9/2010 18:41",
 		"indexOf:startingAt:" : "ewe 9/2/2010 15:34",
 		"isByteString" : "ToonVerwaest 5/6/2010 20:25",
 		"isPString" : "ToonVerwaest 3/25/2010 12:44",
@@ -42,5 +45,7 @@
 		"psize" : "CamilloBruni 4/5/2010 15:56",
 		"putOn:" : "ToonVerwaest 8/6/2010 18:18",
 		"replaceFrom:to:with:startingAt:" : "ewe 8/4/2010 14:44",
+		"skipDelimiters:startingAt:" : "DavidGurtner 9/9/2010 18:41",
 		"string" : "ToonVerwaest 3/25/2010 12:44",
-		"string:" : "ToonVerwaest 3/25/2010 12:44" } }
+		"string:" : "ToonVerwaest 3/25/2010 12:44",
+		"withBlanksTrimmed" : "DavidGurtner 9/9/2010 19:30" } }

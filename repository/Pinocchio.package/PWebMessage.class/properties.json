@@ -1,0 +1,17 @@
+{
+	"category" : "Pinocchio-WebClient-Core",
+	"classinstvars" : [
+		"statusCodes" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream",
+		"protocol",
+		"headers",
+		"content" ],
+	"name" : "PWebMessage",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

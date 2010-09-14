@@ -6,6 +6,7 @@ adjustInBuffer: bytesRead
 	data can be found."
 
 	| old |
+	self warn: 'SocketStream>>adjustInBuffer:'.
 	bytesRead = 0 ifTrue: [^inNextToWrite].
 	old := inNextToWrite.
 	inNextToWrite := inNextToWrite + bytesRead.

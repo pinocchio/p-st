@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Kernel-Exception",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PNetworkError",
+	"pools" : [
+		 ],
+	"super" : "PError",
+	"type" : "normal" }

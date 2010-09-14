@@ -6,12 +6,14 @@ handleConnectionFrom: aSocket
 	Since we've been forked already it's okay to block."
 	[
 		certName ifNil:["Regular request"
-			stream := SocketStream on: aSocket.
+			stream := PSocketStream on: aSocket.
 		] ifNotNil:["SSL/TLS"
-			| ssl |
+		"DG: no support for SSL in Pinocchio"
+			self error: 'No support for SSL in Pinocchio'.
+		"	| ssl |
 			ssl := Smalltalk at: #SqueakSSL ifAbsent:[self error: 'SqueakSSL not installed'].
 			stream := ssl secureSocketStream on: aSocket.
-			[stream sslAccept: certName] on: Error do:[^stream destroy].
+			[stream sslAccept: certName] on: Error do:[^stream destroy]."
 		].
 
 		[aSocket isConnected] whileTrue:[
@@ -22,18 +24,17 @@ handleConnectionFrom: aSocket
 			from parsing the input is treated as a 400 bad request."
 
 			stream peek ifNil:[^aSocket destroy].
+			self warn: 'WebServer>>handleConnectionFrom:: peek successful'.
 			request := self newRequest.
-			[request readFrom: stream] on: Error do:[:ex| 
-				(ex isKindOf: NetworkError) ifFalse:[
-					[request send400Response] on: Error do:[ :ignore | ].
-				].
+			self warn: 'WebServer>>handleConnectionFrom:: request created'.
+			[request readFrom: stream] on: PError do:[:ex| 
+			"DG: reenable once support PNetworkError is there"
+				"(ex isKindOf: PNetworkError) ifFalse:[
+					[request send400Response] on: PError do:[ :ignore | ].
+				]."
 				^aSocket destroy].
 
+			self warn: 'WebServer>>handleConnectionFrom:: request read in successfully'.
 			self dispatchRequest: request.
 		].
-	] on: Error do:[:ex|
-		(ex isKindOf: NetworkError) ifFalse:[
-			self log: 'Error in request handling: ', ex description.
-			self log: (self errorReportFor: ex).
-		].
-	].
+	] on: PError do:[:ex|"(ex isKindOf: PNetworkError) ifFalse:[" ex signal"]"].

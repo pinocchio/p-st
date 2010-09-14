@@ -1,3 +1,3 @@
 interpreting
 fork
-	PThread for: self
+	^PThread for: self

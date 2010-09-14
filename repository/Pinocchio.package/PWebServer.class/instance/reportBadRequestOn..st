@@ -10,4 +10,4 @@ reportBadRequestOn: aSocket
 			'Content-Type:	text/html; charset=utf-8', String crlf,
 			'Connection: close', String crlf,
 			'Content-Length: ', message size asString, String crlf,
-			String crlf, message] on: Error do:[].
+			String crlf, message] on: PError do:[].

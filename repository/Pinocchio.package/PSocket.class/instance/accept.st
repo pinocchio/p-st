@@ -6,5 +6,5 @@ accept
 		self warn: PThread threads size."
 		PThread current primYield.
 	].
-	self warn: 'aceepted!'.
+	self warn: 'accepted!'.
 	^ self primAccept.

@@ -1,3 +1,3 @@
 visiting
 visitCollection: aCollection
-	aCollection do: [ :each | each accept: self ]
+	aCollection keysAndValuesDo: [ :name :each | each accept: self ]

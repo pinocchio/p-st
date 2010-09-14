@@ -20,6 +20,8 @@ initializeLinks
 	self link: True to: PTrue.
 	self link: False to: PFalse.
 	self link: WriteStream to: PWriteStream.
+	self link: ReadStream to: PReadStream.
+	self link: IdentitySet to: PIdentitySet.
 	
 	self link: Time to: PTime.
 	self link: Timespan to: PTimespan.
