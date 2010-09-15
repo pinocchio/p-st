@@ -1,4 +1,3 @@
 natives
 swapInvokeNativeOn: receiver message: message
-	self halt.
-	self warn: 'Swapping!'
+	self warn: 'Swapping in swapInvokeNativeOn:message:'
