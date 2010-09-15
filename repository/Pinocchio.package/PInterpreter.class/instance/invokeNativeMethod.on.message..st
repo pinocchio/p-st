@@ -1,7 +1,10 @@
-sending
+natives
 invokeNativeMethod: aClosure on: receiver message: aMessage
-	^ self invokeNativeMethod: aClosure on: receiver message: aMessage alternative: [
+	| old result |
+	old := self swapInvokeNative.
+	result := self invokeNativeMethod: aClosure on: receiver message: aMessage alternative: [
 			self invokeMethod: aClosure
 				on: receiver
-				message: aMessage
-		]
+				message: aMessage ].
+	old swapInvokeNative.
+	^ result

@@ -1,12 +1,14 @@
 application
 blockclosureValue: aBlockClosure message: aMessage
-	| block result |
+	| block result returnContext |
 	block := aBlockClosure code.
 	self assert: block params size = aMessage size.
 	block size = 0 ifTrue: [ ^ nil ].
+	
+	returnContext := context.
 	self blockContextFor: aBlockClosure message: aMessage.
 	
 	result := self interpretBlock: block.
 	
-	context := context returnContext.
+	context := returnContext.
 	^ result

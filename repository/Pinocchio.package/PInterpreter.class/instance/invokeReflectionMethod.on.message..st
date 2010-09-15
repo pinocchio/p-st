@@ -1,4 +1,4 @@
-sending
+natives
 invokeReflectionMethod: aClosure on: receiver message: aMessage
 	| annotation selector |
 	annotation := aClosure annotationAt: #pinocchioReflective:.
