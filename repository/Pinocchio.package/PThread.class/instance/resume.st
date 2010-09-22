@@ -1,4 +1,4 @@
-as yet unclassified
+handling
 resume
 	<pPrimitive: #resume plugin: #'Runtime.Thread'>
 	^ self primitiveFailed.

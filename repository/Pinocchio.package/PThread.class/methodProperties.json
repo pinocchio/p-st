@@ -1,20 +1,22 @@
 {
 	"class" : {
 		"current" : "ewe 7/21/2010 13:34",
-		"for:" : "ewe 8/23/2010 15:08",
+		"for:" : "ToonVerwaest 9/20/2010 15:22",
 		"new:" : "ewe 7/21/2010 14:07",
 		"pinitialize" : "ewe 7/21/2010 13:44",
 		"removeThread:" : "ewe 7/21/2010 13:51",
-		"resumeNext" : "ewe 7/26/2010 13:36",
+		"resumeNext" : "ToonVerwaest 9/20/2010 16:24",
 		"threads" : "ewe 7/19/2010 16:06",
 		"yield:" : "ewe 7/21/2010 14:48" },
 	"instance" : {
 		"evaluate:" : "ewe 7/21/2010 14:01",
 		"name:" : "ewe 8/19/2010 16:08",
+		"nextInterpreter:" : "ToonVerwaest 9/21/2010 11:16",
 		"primYield" : "ewe 7/26/2010 12:04",
 		"resume" : "ewe 7/21/2010 14:47",
-		"resumeSafe" : "ewe 8/23/2010 15:05",
+		"resumeSafe" : "ToonVerwaest 9/20/2010 16:25",
 		"sleep" : "ewe 7/22/2010 14:31",
 		"sleep:" : "ewe 7/22/2010 14:31",
+		"storage" : "ToonVerwaest 9/20/2010 15:19",
 		"terminate" : "ewe 7/21/2010 14:48",
 		"yield" : "CamilloBruni 7/27/2010 22:07" } }

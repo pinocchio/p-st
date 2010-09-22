@@ -1,3 +1,3 @@
 assigning
-assignUnsintSlot: anSlot to: value
-	^ anSlot assign: value on: self currentSelf
+assignUnsintSlot: aSlot to: value
+	^ aSlot assign: value on: self currentSelf

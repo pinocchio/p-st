@@ -1,3 +1,3 @@
 interpreting
-visitSlot: anSlot
-	^ anSlot readFrom: self currentSelf
+visitSlot: aSlot
+	^ aSlot readFrom: self currentSelf

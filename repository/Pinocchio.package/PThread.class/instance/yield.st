@@ -1,3 +1,3 @@
-as yet unclassified
+process state change
 yield
 	^ PThread yield: self.

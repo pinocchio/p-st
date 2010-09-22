@@ -1,3 +1,3 @@
 assigning
-assignSlot: anSlot to: value
-	^ anSlot assign: value on: self currentSelf
+assignSlot: aSlot to: value
+	^ aSlot assign: value on: self currentSelf

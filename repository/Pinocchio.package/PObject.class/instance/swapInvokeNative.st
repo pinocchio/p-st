@@ -1,4 +1,4 @@
 interpretation
 swapInvokeNative
 	<pinocchioReflective: #swapInvokeNativeOn:message:>
-	"self pinocchioReflectiveFailed"
+	PThread current nextInterpreter: self

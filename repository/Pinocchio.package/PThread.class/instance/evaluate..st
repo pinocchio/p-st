@@ -1,4 +1,4 @@
-as yet unclassified
+private
 evaluate: block
 	block value.
 	self terminate

@@ -2,15 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"asAliased" : "ToonVerwaest 4/6/2010 17:16",
-		"captured" : "ToonVerwaest 4/6/2010 16:40",
-		"captured:" : "ToonVerwaest 4/6/2010 16:40",
+		"asAliased" : "ToonVerwaest 9/22/2010 13:30",
 		"closure" : "ToonVerwaest 3/25/2010 12:39",
 		"closure:" : "ToonVerwaest 3/25/2010 12:39",
 		"freeze" : "CamilloBruni 8/23/2010 16:53",
 		"homeContext" : "ToonVerwaest 3/25/2010 12:39",
 		"homeContext:" : "ToonVerwaest 3/25/2010 12:39",
-		"initialize" : "ToonVerwaest 8/23/2010 23:04",
+		"initialize" : "ToonVerwaest 9/22/2010 13:30",
 		"lookupAt:in:" : "ToonVerwaest 3/25/2010 12:39",
 		"printStacktraceOn:" : "CamilloBruni 8/23/2010 16:59",
 		"returnContext" : "ToonVerwaest 3/25/2010 12:39",
