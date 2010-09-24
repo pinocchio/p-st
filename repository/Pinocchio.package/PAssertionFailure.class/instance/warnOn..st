@@ -1,3 +1,4 @@
 printing
 warnOn: aStream
-	aStream << 'Assertion failed: ' << message
+	aStream << 'Assertion failed'.
+	message ifNotNil: [ aStream << ': ' << message ]

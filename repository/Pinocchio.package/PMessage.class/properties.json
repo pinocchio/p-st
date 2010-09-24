@@ -10,5 +10,5 @@
 	"name" : "PMessage",
 	"pools" : [
 		 ],
-	"super" : "PObject",
+	"super" : "ArrayedCollection",
 	"type" : "variable" }

@@ -7,9 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"value",
+		"fail",
 		"bool" ],
 	"name" : "PPexMatcher",
 	"pools" : [
 		 ],
-	"super" : "PObject",
+	"super" : "PException",
 	"type" : "normal" }

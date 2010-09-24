@@ -1,4 +1,3 @@
 pinocchio-export
 assert: bool
-	^ bool
-		ifFalse: [ self fail ]
+	^ bool ifFalse: [ PAssertionFailure new signal ]
