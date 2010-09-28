@@ -1,4 +1,4 @@
 arithmetic
 sqrt
-	<pPrimitive: #sqrt plugin: #'Type.Float'>
+	<pPrimitive: #sqrt plugin: #'Number.Float'>
 	self pinocchioPrimitiveFailed

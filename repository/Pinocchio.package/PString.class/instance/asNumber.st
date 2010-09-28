@@ -1,4 +1,4 @@
 converting
 asNumber
-	<pPrimitive: #asNumber plugin: #'Type.String'>
+	<pPrimitive: #asNumber plugin: #'String.String'>
 	self pinocchioPrimitiveFailed

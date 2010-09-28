@@ -1,4 +1,4 @@
 converting
 asCharacter
-	<pPrimitive: #asCharacter plugin: #'Type.SmallInt'>
+	<pPrimitive: #asCharacter plugin: #'Number.SmallInt'>
 	^ super asCharacter

@@ -1,5 +1,5 @@
 converting
 pasString
 	<renameExport: #asString>
-	<pPrimitive: #asString plugin: #'Type.Symbol'>
+	<pPrimitive: #asString plugin: #'String.Symbol'>
 	^ self species newFrom: self

@@ -1,4 +1,4 @@
 comparing
 hash
-	<pPrimitive: #hash plugin: #'Type.Float'>
+	<pPrimitive: #hash plugin: #'Number.Float'>
 	self pinocchioPrimitiveFailed

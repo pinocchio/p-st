@@ -1,4 +1,4 @@
 converting
 asString
-	<pPrimitive: #asString plugin: #'Type.Float'>
+	<pPrimitive: #asString plugin: #'Number.Float'>
 	self pinocchioPrimitiveFailed

@@ -1,4 +1,4 @@
 arithmetic
 log
-	<pPrimitive: #log plugin: #'Type.Float'>
+	<pPrimitive: #log plugin: #'Number.Float'>
 	self pinocchioPrimitiveFailed

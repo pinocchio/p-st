@@ -1,5 +1,5 @@
 accessing
 phash
 	<renameExport: #hash>
-	<pPrimitive: #hash plugin: #'Type.Symbol'>
+	<pPrimitive: #hash plugin: #'String.Symbol'>
 	self pinocchioPrimitiveFailed

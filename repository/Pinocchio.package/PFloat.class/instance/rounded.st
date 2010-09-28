@@ -1,4 +1,4 @@
 arithmetic
 rounded
-	<pPrimitive: #rounded plugin: #'Type.Float'>
+	<pPrimitive: #rounded plugin: #'Number.Float'>
 	self pinocchioPrimitiveFailed

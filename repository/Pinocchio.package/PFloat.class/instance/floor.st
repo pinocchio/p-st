@@ -1,4 +1,4 @@
 arithmetic
 floor
-	<pPrimitive: #floor plugin: #'Type.Float'>
+	<pPrimitive: #floor plugin: #'Number.Float'>
 	self pinocchioPrimitiveFailed

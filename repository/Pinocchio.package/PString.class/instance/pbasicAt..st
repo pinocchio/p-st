@@ -1,5 +1,5 @@
 accessing
 pbasicAt: index
 	<renameExport: #basicAt:>
-	<pPrimitive: #basicAt: plugin: #'Type.Symbol'>
+	<pPrimitive: #basicAt: plugin: #'String.Symbol'>
 	self pinocchioPrimitiveFailed

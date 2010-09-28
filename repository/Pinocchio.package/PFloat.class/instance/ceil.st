@@ -1,4 +1,4 @@
 arithmetic
 ceil
-	<pPrimitive: #ceil plugin: #'Type.Float'>
+	<pPrimitive: #ceil plugin: #'Number.Float'>
 	self pinocchioPrimitiveFailed

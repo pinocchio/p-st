@@ -1,5 +1,5 @@
 accessing
 psize
 	<renameExport: #size>
-	<pPrimitive: #size plugin: #'Type.Symbol'>
+	<pPrimitive: #size plugin: #'String.Symbol'>
 	self pinocchioPrimitiveFailed

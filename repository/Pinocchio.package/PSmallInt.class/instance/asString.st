@@ -1,4 +1,4 @@
 converting
 asString
-	<pPrimitive: #asString plugin: #'Type.SmallInt'>
+	<pPrimitive: #asString plugin: #'Number.SmallInt'>
 	^ super asString

@@ -1,5 +1,5 @@
 comparing
 pequal: other
 	<renameExport: #'='>
-	<pPrimitive: #= plugin: #'Type.Symbol'>
+	<pPrimitive: #= plugin: #'String.Symbol'>
 	self pinocchioPrimitiveFailed
