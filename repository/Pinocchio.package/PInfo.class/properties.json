@@ -7,7 +7,6 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"sourceFile",
-		"name",
 		"line",
 		"column" ],
 	"name" : "PInfo",
