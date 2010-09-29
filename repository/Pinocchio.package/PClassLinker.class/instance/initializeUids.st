@@ -62,6 +62,7 @@ initializeUids
 	PSuper.
 	PInfo.
 	PConstant.
+	PMethodDictionary.
 	PRecursiveDoesNotUnderstand.
 	}
 	do: [ :cls |

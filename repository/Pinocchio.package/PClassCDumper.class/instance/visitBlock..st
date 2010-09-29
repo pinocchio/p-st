@@ -6,7 +6,7 @@ visitBlock: aPinocchioBlock
 	threaded :=  aPinocchioBlock threaded asPObject.
 	self visit: params.
 	self visit: locals.
-	self visit: (self preprocessThreadedArray: threaded).
+	self visit: threaded.
 	self visitCollection: aPinocchioBlock.
 	self createSized: aPinocchioBlock with: [ :s| 
 			s << 'new_Block_with(' << (self idFor: params) << ', '

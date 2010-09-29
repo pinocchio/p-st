@@ -14,6 +14,7 @@ initializeLinks
 	(self linkAll: {Symbol. ByteSymbol. WideSymbol} to: PSymbol) customLayout: true; declareClass: false.
 	(self link: Character to: PCharacter) customLayout: true.
 	(self pInternalClassFrom: PSlot) declareClass: false.
+	(self pInternalClassFrom: PMethodDictionary) declareClass: false.
 	self link: UndefinedObject to: PNil. 
 	self link: Set to: PSet.
 	self link: Boolean to: PBoolean.

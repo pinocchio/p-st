@@ -10,7 +10,7 @@ visitMethod: aPMethod
 	self visit: params.
 	self visit: locals.
 	self visit: annotations.
-	self visit: (self preprocessThreadedArray: threaded).
+	self visit: threaded.
 	self visitCollection: aPMethod.
 	
 	self createSized: aPMethod with: [ :s|
