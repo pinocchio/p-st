@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 ctype
 	<preventExport>
 	self class == PThreadedCode ifTrue: [ ^ #Array ].

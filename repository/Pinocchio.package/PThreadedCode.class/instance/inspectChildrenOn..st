@@ -1,0 +1,2 @@
+inspecting
+inspectChildrenOn: inspector
