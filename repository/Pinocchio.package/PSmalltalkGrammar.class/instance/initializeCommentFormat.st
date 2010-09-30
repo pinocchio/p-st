@@ -1,7 +1,7 @@
 separator
 initializeCommentFormat
 	| commentBorder |
-	commentBorder := '"' asPEG.
+	commentBorder := '"' asParser.
 	^ commentBorder
 		&& commentBorder not consume strongTimes
 		<& commentBorder

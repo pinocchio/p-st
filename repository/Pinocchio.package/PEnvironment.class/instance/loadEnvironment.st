@@ -5,7 +5,7 @@ loadEnvironment
 	bindings := PDictionary new.
 	parser := PEGMultiParser 
 		named: 'ENTRY'
-		parsing: (($= asPEG not consume) strongTimes && $= && [ :scanner | scanner upToEnd ])
+		parsing: (($= asParser not consume) strongTimes && $= && [ :scanner | scanner upToEnd ])
 		semantics: [ :nv |
 			value := nv removeLast.
 			bindings at: nv asSymbol put: value ].

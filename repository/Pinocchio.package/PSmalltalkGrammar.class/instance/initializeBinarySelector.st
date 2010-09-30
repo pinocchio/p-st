@@ -2,6 +2,6 @@ selector
 initializeBinarySelector
 	^ PEGMultiParser
 		named: 'BINARY-SELECTOR'
-		parsing: (self specialCharacter | '-' asPEG consume)
+		parsing: (self specialCharacter | '-' asParser consume)
 					&& self specialCharacter strongTimes
-					| ('|' asPEG consume)
+					| ('|' asParser consume)

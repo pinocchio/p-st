@@ -2,7 +2,7 @@ expression
 injectCascadedMessageExpression
 	^ self cascadedMessageExpression
 		<= (self messageExpression
-			& (';' asPEG
+			& (';' asParser
 				& (self keywordMessageExpression
 					| self binaryMessageExpression
 					<= self unaryMessageExpression)) plus)

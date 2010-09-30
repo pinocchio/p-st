@@ -40,7 +40,7 @@ exportBasicClasses
 		add: PUndefinedClassReference;
 		add: PDebugger;
 		add: PParallelDebugger;
-		add: PMainInterpreter;
+		add: PMain;
 		add: PVTermOutputDriver;
 		add: PTests;
 		add: PPexMatcher;

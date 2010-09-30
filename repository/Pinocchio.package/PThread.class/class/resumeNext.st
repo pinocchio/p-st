@@ -1,4 +1,4 @@
 as yet unclassified
 resumeNext
-	threads isEmpty ifTrue: [ PMainInterpreter quit ].
+	threads isEmpty ifTrue: [ PMain quit ].
 	threads removeLast resume

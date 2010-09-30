@@ -1,3 +1,3 @@
 converting
-asPEG
+asParser
 	^ PEGCharacterTerminal on: self

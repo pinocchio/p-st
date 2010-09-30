@@ -2,4 +2,4 @@ selector
 initializeKeyword
 	^ PEGMultiParser
 		named: 'KEYWORD'
-		parsing: self identifierBody && (':' asPEG consume)
+		parsing: self identifierBody && (':' asParser consume)

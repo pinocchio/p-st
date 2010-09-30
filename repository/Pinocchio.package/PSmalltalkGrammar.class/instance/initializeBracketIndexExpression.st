@@ -2,7 +2,7 @@ expression
 initializeBracketIndexExpression
 	^ PEGMultiParser
 		named: 'BRACKET-INDEX-EXPRESSION'
-		parsing: '[' asPEG
+		parsing: '[' asParser
 					& self expression
 					<& ']'
 					<& ( self assignmentOp & self expression ) optional

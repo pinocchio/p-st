@@ -2,6 +2,6 @@ annotations
 initializeAnnotations
 	^ PEGMultiParser
 		named: 'ANNOTATIONS'
-		parsing: ('<' asPEG
+		parsing: ('<' asParser
 					& (self keywordAnnotation | self unaryAnnotation)
 					<& '>') times

@@ -2,4 +2,4 @@ literal
 initializeSymbolConstant
 	^ PEGParser
 		named: 'SYMBOL-CONSTANT'
-		parsing: '#' asPEG plus && self symbol
+		parsing: '#' asParser plus && self symbol

@@ -2,4 +2,4 @@ literal
 initializeCharacterConstant
 	^ PEGParser
 		named: 'CHARACTER-CONSTANT'
-		parsing: '$' asPEG && self character
+		parsing: '$' asParser && self character
