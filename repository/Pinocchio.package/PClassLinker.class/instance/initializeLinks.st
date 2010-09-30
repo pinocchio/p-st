@@ -23,6 +23,8 @@ initializeLinks
 	self link: WriteStream to: PWriteStream.
 	self link: ReadStream to: PReadStream.
 	self link: IdentitySet to: PIdentitySet.
+	self link: Exception to: PException.
+	self link: Error to: PError.
 	
 	self link: Time to: PTime.
 	self link: Timespan to: PTimespan.

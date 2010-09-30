@@ -2,11 +2,11 @@ exporting
 createHFile
 	| guardName fileStream |
 	stream := PIndentableWriteStream on: (String new: 500).
-	guardName := 'PINOCCHIO_LIB_' , currentClass name asUppercase.
+	guardName := 'PINOCCHIO_LIB_' , currentClass pharoName asUppercase.
 	self startGuard: guardName.
 	self include: 'pinocchio.h'.
-	stream << 'extern void init_' << currentClass name << '_methods();'; lf; lf.
-	stream << 'extern void init_' << currentClass name << '_layout();'; lf; lf.
+	stream << 'extern void init_' << currentClass pharoName << '_methods();'; lf; lf.
+	stream << 'extern void init_' << currentClass pharoName << '_layout();'; lf; lf.
 	self include: 'lib/lib.h'.
 	
 	stream lf.

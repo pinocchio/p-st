@@ -1,7 +1,7 @@
 as yet unclassified
-pinocchioNameFor: aPClass on: s
+pinocchioNameFor: aClass on: s
 	| name |
-	name := aPClass name.
+	name := aClass name.
 	name withIndexDo: [ :letter :index |
 		letter isUppercase ifFalse: [
 			index = 1 ifTrue: [ ^ s << name ].

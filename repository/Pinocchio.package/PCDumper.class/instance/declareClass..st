@@ -1,3 +1,3 @@
 convenience
 declareClass: aPClass
-	stream << 'init_' << aPClass name << '_layout();'; lf.
+	stream << 'init_' << aPClass pharoName << '_layout();'; lf.

@@ -43,7 +43,6 @@ exportBasicClasses
 		add: PMainInterpreter;
 		add: PVTermOutputDriver;
 		add: PTests;
-		add: PCLITestRunner;
 		add: PPexMatcher;
 		add: PTermcap;
 		add: PEnvironment;

@@ -5,4 +5,4 @@ comparing
 	<preventExport>
 	(otherClass isKindOf: self class)
 		ifFalse: [ ^ false ].
-	^ self name = otherClass name
+	^ self pharoName = otherClass pharoName
