@@ -1,3 +1,3 @@
 *PEG
-asPEG
+asParser
 	^ PEGBlock on: self

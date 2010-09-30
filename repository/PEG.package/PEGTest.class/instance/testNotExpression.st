@@ -11,13 +11,13 @@ testNotExpression
 	string := PEGStringScanner on: ''.
 	(exp match: string) should be isNil.
 	string := PEGStringScanner on: 'test'.
-	exp3 := 'x' asPEG not omit.
+	exp3 := 'x' asParser not omit.
 	(exp3 match: string) should not be isNil.
 	string position should = 0.
-	exp3 := 'x' asPEG not consume.
+	exp3 := 'x' asParser not consume.
 	(exp3 match: string) should = $t.
 	string position should = 1.
 	string := PEGStringScanner on: ''.
-	exp3 := 'x' asPEG not.
+	exp3 := 'x' asParser not.
 	(exp3 match: string) should not be isNil.
 	string position should = 0

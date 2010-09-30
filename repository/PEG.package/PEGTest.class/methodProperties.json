@@ -5,7 +5,7 @@
 		"setUp" : "ToonVerwaest 3/25/2010 12:44",
 		"testExpression" : "ToonVerwaest 7/29/2010 11:25",
 		"testMemoizeEquals" : "ToonVerwaest 7/27/2010 12:06",
-		"testNotExpression" : "ToonVerwaest 7/29/2010 11:14",
+		"testNotExpression" : "ToonVerwaest 9/30/2010 15:08",
 		"testOneOrMoreExpression" : "ToonVerwaest 3/25/2010 12:44",
 		"testOptionalExpression" : "ToonVerwaest 7/29/2010 11:25",
 		"testOrderedChoiceExpression" : "ToonVerwaest 3/25/2010 12:44",
@@ -13,6 +13,6 @@
 		"testResultEquals" : "ToonVerwaest 7/27/2010 12:06",
 		"testSeparator" : "ToonVerwaest 3/25/2010 12:44",
 		"testSequenceExpression" : "ToonVerwaest 3/25/2010 12:44",
-		"testSequenceOmit" : "ToonVerwaest 7/29/2010 11:26",
-		"testSingleCharacterParse" : "ToonVerwaest 7/29/2010 11:26",
+		"testSequenceOmit" : "ToonVerwaest 9/30/2010 15:08",
+		"testSingleCharacterParse" : "ToonVerwaest 9/30/2010 15:08",
 		"testZeroOrMoreExpression" : "ToonVerwaest 3/25/2010 12:44" } }

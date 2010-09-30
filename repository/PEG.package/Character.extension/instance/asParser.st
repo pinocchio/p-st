@@ -1,3 +1,3 @@
 *PEG
-asPEG
+asParser
 	^ PEGCharacterTerminal on: self

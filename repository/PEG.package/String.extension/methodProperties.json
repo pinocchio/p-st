@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"asPEG" : "ToonVerwaest 8/19/2010 17:10",
 		"asPEGChoice" : "ToonVerwaest 7/29/2010 23:17",
 		"asPEGRange" : "ToonVerwaest 3/25/2010 12:44",
+		"asParser" : "ToonVerwaest 9/30/2010 15:08",
 		"contains:at:" : "ToonVerwaest 8/19/2010 16:58" } }

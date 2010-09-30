@@ -1,5 +1,5 @@
 converting
-asPEG
+asParser
 	" ^ self "
 
 	
