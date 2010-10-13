@@ -6,6 +6,6 @@ pMethods
 			[^{#x.
 				#y.
 				#=.
-				#printString.
+				#printOn:.
 				#setX:setY:.}].
 	^ super pMethods

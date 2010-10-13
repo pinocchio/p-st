@@ -1,6 +1,6 @@
 accessing
 exportBasicClasses
-	^ (OrderedCollection new)
+	^ OrderedCollection new
 		add: Object;
 		add: Behavior;
 		add: PThread;
@@ -38,8 +38,6 @@ exportBasicClasses
 		add: PAssertionFailure;
 		add: PRecursiveDoesNotUnderstand;
 		add: PUndefinedClassReference;
-		add: PDebugger;
-		add: PParallelDebugger;
 		add: PMain;
 		add: PVTermOutputDriver;
 		add: PTests;
@@ -61,6 +59,11 @@ exportBasicClasses
 		add: PSemaphore;
 		add: PReadLine;
 		add: PText;
+		"Debuggers"
+		add: PDebugger;
+		add: PParallelDebugger;
+		add: PAliasInterpreter;
+		add: PAliasInterpreterTest;
 		"Benchmarks"
 		add: PBDictionary;
 		add: PBIdentitySet;

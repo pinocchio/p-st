@@ -1,5 +1,3 @@
 aliasing
 alias: anObject in: aContext
-	^ PAllocationAlias new
-		value: anObject;
-		context: aContext
+	^ self basicAlias: anObject in: aContext

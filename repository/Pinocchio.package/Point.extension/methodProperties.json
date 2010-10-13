@@ -1,6 +1,6 @@
 {
 	"class" : {
 		"pClassMethods" : "ToonVerwaest 8/3/2010 14:14",
-		"pMethods" : "ToonVerwaest 8/3/2010 12:20" },
+		"pMethods" : "ToonVerwaest 10/13/2010 17:53" },
 	"instance" : {
-		"printString" : "ToonVerwaest 4/1/2010 17:44" } }
+		"printOn:" : "ToonVerwaest 10/13/2010 17:52" } }
