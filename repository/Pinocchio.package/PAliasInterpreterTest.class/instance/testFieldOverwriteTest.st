@@ -19,7 +19,7 @@ testFieldOverwriteTest
 	
 	result := result a.
 	result value should be: 20.
-
+	
 	result predecessor should beKindOf: PFieldWriteAlias.
 	result predecessor value should be: 10.
 	result predecessor predecessor should beKindOf: PAllocationAlias.

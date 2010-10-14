@@ -10,5 +10,5 @@
 	"name" : "PAliasInterpreterTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "PTestCase",
 	"type" : "normal" }
