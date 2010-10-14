@@ -2,4 +2,4 @@ as yet unclassified
 defaultStepBlock
 	^ [ :receiver :class :aMessage :action | 
 		tally := tally + 1.
-		self step: action ]
+		action value ]
