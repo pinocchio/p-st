@@ -6,6 +6,6 @@ shell
 	^ true whileTrue: [
 			self displayPrompt.
 			result := self interpret: readline readLine.
-			inspector inspect: result.
-			output lf.
-		]
+			result == PVoid ifFalse: [
+				inspector inspect: result.
+				output lf ]]

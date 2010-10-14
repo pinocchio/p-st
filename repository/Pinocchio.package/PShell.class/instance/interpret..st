@@ -1,5 +1,6 @@
 interpretation
 interpret: code
+	code = '' ifTrue: [ ^ PVoid ].
 	^ [ self perform: (self compile: code) selector ] 
 		on: Object 
 		do: [ :ex | 
