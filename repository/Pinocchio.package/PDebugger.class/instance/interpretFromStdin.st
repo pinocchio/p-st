@@ -1,3 +1,5 @@
-shelling
+shell
 interpretFromStdin
-	^ self interpretLine: PFile stdin readLine
+	| readline |
+	readline := PReadLine from: PFile stdin to: PVTermOutputDriver stderr for: self.
+	^ self interpretLine: readline readLine. 

@@ -14,7 +14,7 @@ debugShellWithAction: action
 			^ result ].
 	input = 'i'
 		ifTrue:
-			[ PStreamInspector inspect: self currentSelf. ^ self debugShellWithAction: action ].
+			[ self currentSelf inspect. PVTermOutputDriver stdout lf. ^ self debugShellWithAction: action ].
 	input = 'j'
 		ifTrue:
 			[ stepBlock := self skipBlock: 2. ^ action value ]

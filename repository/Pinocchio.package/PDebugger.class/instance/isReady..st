@@ -1,0 +1,3 @@
+shell
+isReady: code
+	^ true

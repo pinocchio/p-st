@@ -1,4 +1,4 @@
-shelling
+shell
 compile: code
 	| method |
 	method := 'method', String lf, code.

@@ -1,4 +1,4 @@
-shelling
+shell
 shell
 	escapeShell := [ :input | ^ input ].
 	true whileTrue: [ 
