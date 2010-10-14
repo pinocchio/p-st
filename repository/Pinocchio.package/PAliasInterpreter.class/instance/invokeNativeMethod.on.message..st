@@ -7,6 +7,7 @@ invokeNativeMethod: aClosure on: receiver message: aMessage
 	context := PNativeMethodContext new
 					receiver: receiver;
 					message: aMessage;
+					closure: aClosure;
 					returnContext: context.
 	result := super invokeNativeMethod: aClosure on: (receiver value) message: unwrappedMessage alternative: [
 		context := context returnContext.
