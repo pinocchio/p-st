@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Demo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name" ],
+	"name" : "PPerson",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

@@ -7,6 +7,7 @@ SystemOrganization addCategory: #'Pinocchio-Collection'!
 SystemOrganization addCategory: #'Pinocchio-Collection-Stream'!
 SystemOrganization addCategory: #'Pinocchio-Collection-Benchmark'!
 SystemOrganization addCategory: #'Pinocchio-Concurrency'!
+SystemOrganization addCategory: #'Pinocchio-Demo'!
 SystemOrganization addCategory: #'Pinocchio-Inspector'!
 SystemOrganization addCategory: #'Pinocchio-IO'!
 SystemOrganization addCategory: #'Pinocchio-IO-Term'!

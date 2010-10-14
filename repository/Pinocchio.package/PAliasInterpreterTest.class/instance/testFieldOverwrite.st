@@ -1,5 +1,5 @@
 running
-testFieldOverwriteTest
+testFieldOverwrite
 	| result |
 	result := PAliasInterpreter interpret: [ |c|
 		c := ChildClassTestClass new.
@@ -11,7 +11,7 @@ testFieldOverwriteTest
 	result should beKindOf: PReturnAlias.
 	result value should beKindOf: ChildClassTestClass.
 	result context should beKindOf: PBlockContext.
-	result context homeContext closure selector should be: #testFieldOverwriteTest.
+	result context homeContext closure selector should be: #testFieldOverwrite.
 	
 	result := result value.
 	result a should beKindOf: PFieldWriteAlias.

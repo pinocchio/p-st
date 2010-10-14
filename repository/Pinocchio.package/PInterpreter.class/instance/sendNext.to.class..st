@@ -1,4 +1,4 @@
-sending
+natives
 sendNext: message to: receiver class: cls
 	| msg result |
 	result := nextInterpreter
@@ -13,4 +13,3 @@ sendNext: message to: receiver class: cls
 		self send: msg to: next ].
 	self swapInvokeNative. 
 	^ result.
-	

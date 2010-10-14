@@ -64,6 +64,7 @@ exportBasicClasses
 		add: PParallelDebugger;
 		add: PAliasInterpreter;
 		add: PAliasInterpreterTest;
+		add: PPerson;
 		"Benchmarks"
 		add: PBDictionary;
 		add: PBIdentitySet;

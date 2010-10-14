@@ -1,5 +1,5 @@
 running
-testFieldWriteTest
+testFieldWrite
 	| result |
 	result := PAliasInterpreter interpret: [ |c|
 		c := ChildClassTestClass new.
@@ -10,7 +10,7 @@ testFieldWriteTest
 	result should beKindOf: PReturnAlias.
 	result value should beKindOf: ChildClassTestClass.
 	result context should beKindOf: PBlockContext.
-	result context homeContext closure selector should be: #testFieldWriteTest.
+	result context homeContext closure selector should be: #testFieldWrite.
 	
 	result := result value.
 	result a should beKindOf: PFieldWriteAlias.
