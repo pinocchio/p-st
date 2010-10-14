@@ -4,8 +4,7 @@ send: message to: receiver class: class for: send
 		checkStep: receiver
 		class: class
 		message: message
-		do:
-			[ super
+		do: [ super
 				send: message
 				to: receiver
 				class: class
