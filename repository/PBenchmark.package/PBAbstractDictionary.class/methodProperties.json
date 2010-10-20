@@ -1,13 +1,13 @@
 {
 	"class" : {
-		 },
+		"baseBenchmark" : "CamilloBruni 10/20/2010 11:04" },
 	"instance" : {
-		"benchAtIfAbsentPut" : "CamilloBruni 9/6/2010 11:43",
-		"benchAtPut" : "CamilloBruni 9/6/2010 11:43",
-		"benchAtPutExisting" : "CamilloBruni 9/6/2010 11:43",
-		"benchAtPutNew" : "CamilloBruni 9/6/2010 11:43",
+		"benchAtIfAbsentPut" : "CamilloBruni 10/19/2010 10:10",
+		"benchAtPut" : "CamilloBruni 10/19/2010 10:10",
+		"benchAtPutExisting" : "CamilloBruni 10/19/2010 10:10",
+		"benchAtPutNew" : "CamilloBruni 10/19/2010 10:10",
 		"benchDo" : "CamilloBruni 9/6/2010 11:48",
-		"benchIncludes" : "CamilloBruni 9/6/2010 11:44",
+		"benchIncludes" : "CamilloBruni 10/19/2010 10:11",
 		"benchIncludesKey" : "CamilloBruni 9/6/2010 11:44",
 		"benchKeysAndValuesDo" : "CamilloBruni 9/6/2010 11:48",
 		"benchRemoveKey" : "CamilloBruni 9/6/2010 11:47",
@@ -16,6 +16,6 @@
 		"dictSize" : "CamilloBruni 8/25/2010 16:27",
 		"dictSize:" : "CamilloBruni 8/25/2010 16:27",
 		"key:" : "CamilloBruni 9/6/2010 11:49",
-		"setUp" : "CamilloBruni 8/27/2010 16:39",
+		"setUp" : "CamilloBruni 10/20/2010 10:59",
 		"tearDown" : "CamilloBruni 8/23/2010 13:32",
 		"value:" : "CamilloBruni 9/6/2010 11:49" } }

@@ -9,7 +9,8 @@
 		"probes",
 		"target",
 		"selector",
-		"name" ],
+		"name",
+		"base" ],
 	"name" : "PBenchmarkRun",
 	"pools" : [
 		 ],

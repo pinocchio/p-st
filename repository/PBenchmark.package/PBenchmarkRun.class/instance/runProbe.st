@@ -1,11 +1,11 @@
 running
 runProbe
 	| time |
-	target setUp.
+	self setUpProbe.
 	time := self currentMillis.
 	target perform: selector.
 	time := (self currentMillis) - time.
-	target tearDown.
+	self tearDownProbe.
 	
 	probes add: (time / 1000.0).
 	^ time.

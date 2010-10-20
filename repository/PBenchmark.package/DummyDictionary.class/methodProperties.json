@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"new:" : "CamilloBruni 10/20/2010 11:01" },
+	"instance" : {
+		"at:ifAbsentPut:" : "CamilloBruni 10/20/2010 11:01",
+		"do:" : "CamilloBruni 10/20/2010 11:03",
+		"initialize" : "CamilloBruni 10/20/2010 11:02",
+		"keysAndValuesDo:" : "CamilloBruni 10/20/2010 11:01",
+		"removeKey:" : "CamilloBruni 10/20/2010 11:03",
+		"size" : "CamilloBruni 10/20/2010 11:02",
+		"size:" : "CamilloBruni 10/20/2010 11:02" } }

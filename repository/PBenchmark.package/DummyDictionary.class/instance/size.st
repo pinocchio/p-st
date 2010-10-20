@@ -1,3 +1,3 @@
 as yet unclassified
 size
-	^ dictSize
+	^ size

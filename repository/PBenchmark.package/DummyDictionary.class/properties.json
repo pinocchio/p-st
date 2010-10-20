@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "PBDictionaryGround",
+		"size" ],
+	"name" : "DummyDictionary",
 	"pools" : [
 		 ],
-	"super" : "PBAbstractDictionary",
+	"super" : "Object",
 	"type" : "normal" }
