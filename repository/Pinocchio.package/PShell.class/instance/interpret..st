@@ -9,5 +9,5 @@ interpret: code
 			ex printStacktraceOn: error.
 			error lf; red.
 			ex warnOn: error.
-			error clear.
+			error clear; lf.
 			PVoid ].
