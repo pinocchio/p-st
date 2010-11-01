@@ -2,8 +2,8 @@ SystemOrganization addCategory: #Pinocchio!
 SystemOrganization addCategory: #'Pinocchio-Alias'!
 SystemOrganization addCategory: #'Pinocchio-Bridge'!
 SystemOrganization addCategory: #'Pinocchio-Bridge-Test'!
-SystemOrganization addCategory: #'Pinocchio-Chronology'!
 SystemOrganization addCategory: #'Pinocchio-Collection'!
+SystemOrganization addCategory: #'Pinocchio-Chronology'!
 SystemOrganization addCategory: #'Pinocchio-Collection-Stream'!
 SystemOrganization addCategory: #'Pinocchio-Collection-Benchmark'!
 SystemOrganization addCategory: #'Pinocchio-Concurrency'!

@@ -1,6 +1,6 @@
 exporting
 createFooter
-	stream << 'void init_' << currentClass pharoName << '_methods() {'; indent; lf.
+	stream << 'void init_' << currentClass pharoFullName << '_methods() {'; indent; lf.
 	currentClass methods do:[ :method |
 		stream <<  'init_' << (self idFor: method selector) << '();'; lf ].
 	currentClass pmetaclass methods do:[ :method |

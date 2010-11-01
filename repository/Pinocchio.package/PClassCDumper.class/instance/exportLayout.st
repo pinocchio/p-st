@@ -3,7 +3,7 @@ exportLayout
 	| oldStream layoutStream |
 	oldStream := stream.
 	stream := layoutStream := PIndentableWriteStream on: (String new: 1000).
-	stream << 'void init_' << currentClass pharoName << '_layout() {'; indent; lf.
+	stream << 'void init_' << currentClass pharoFullName << '_layout() {'; indent; lf.
 	
 	self createClass: currentClass.
 	

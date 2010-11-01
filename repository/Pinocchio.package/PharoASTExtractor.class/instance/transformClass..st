@@ -10,7 +10,7 @@ transformClass: sclass
 	aPinocchioClass package: (self ensurePackageFor: aPinocchioClass).
 	self declareClassReference: (self ensureClassReferenceFor: aPinocchioClass) as: aPinocchioClass pharoName.
 	
-	Transcript show: aPinocchioClass pharoName asSymbol; cr.
+	"Transcript show: aPinocchioClass pharoName asSymbol; cr."
 	
 	"(aPinocchioClass package at: aPinocchioClass name) should not isNil.
 	(aPinocchioClass package at: aPinocchioClass name) pclass should not isNil."

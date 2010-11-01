@@ -1,5 +1,6 @@
 visiting
 currentClassName
-	(currentClass isKindOf: PMetaclass) ifTrue: [ 
-			currentClass name, '_class'].
-	^ currentClass name.
+	| id |
+	id := self rawClassIdFor: currentClass.
+	(currentClass isKindOf: PMetaclass) ifFalse: [ ^ id ].
+	^ id, '_class'

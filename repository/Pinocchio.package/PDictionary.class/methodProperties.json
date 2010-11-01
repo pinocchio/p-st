@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"removeNatives" : "CamilloBruni 11/1/2010 10:12" },
 	"instance" : {
 		"addAll:" : "ToonVerwaest 8/4/2010 09:54",
 		"at:" : "ToonVerwaest 8/20/2010 12:08",
