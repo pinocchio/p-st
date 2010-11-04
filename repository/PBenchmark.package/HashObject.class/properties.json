@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dict",
-		"dictSize",
-		"keyBlock",
-		"valueBlock" ],
-	"name" : "PBAbstractDictionary",
+		 ],
+	"name" : "HashObject",
 	"pools" : [
 		 ],
-	"super" : "PBenchmarkSuite",
+	"super" : "Object",
 	"type" : "normal" }

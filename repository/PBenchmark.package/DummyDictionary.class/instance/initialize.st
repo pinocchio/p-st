@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 initialize
 	size := 0
