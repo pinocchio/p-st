@@ -1,3 +1,3 @@
 running
 run
-	^ self run: 30
+	^ self run: 10
