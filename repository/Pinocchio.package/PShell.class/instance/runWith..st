@@ -2,6 +2,7 @@ initialize-release
 runWith: anInterpreter
 	scope := PDictionary new.
 	exceptions := OrderedCollection new.
+	history := OrderedCollection new.
 	input := PFile stdin.
 	output := PVTermOutputDriver stdout.
 	error := PVTermOutputDriver stderr.

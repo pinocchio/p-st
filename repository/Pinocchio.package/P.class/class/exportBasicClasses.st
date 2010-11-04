@@ -70,6 +70,7 @@ exportBasicClasses
 		add: PBDictionary;
 		add: PBIdentitySet;
 		add: PBSet;
+		add: PBSmalltalkParser;
 		"WebClient"
 		add: PWebSocket;
 		add: PWebServer;

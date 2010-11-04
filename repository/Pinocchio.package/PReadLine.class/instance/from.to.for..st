@@ -1,6 +1,6 @@
 initialize-release
 from: in to: out for: c
-	text := PText new.
+	text := PHistoryText new.
 	vterm := PVTermInputDriver new
 					input: in;
 					handler: self.

@@ -1,0 +1,19 @@
+{
+	"category" : "Pinocchio-Collection-Benchmark",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stResults",
+		"pResults",
+		"sResults",
+		"stBenchmark",
+		"pBenchmark",
+		"sBenchmark" ],
+	"name" : "MultiDictBenchmark",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

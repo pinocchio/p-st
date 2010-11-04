@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Shell-ReadLine",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"history" ],
+	"name" : "PHistoryText",
+	"pools" : [
+		 ],
+	"super" : "PText",
+	"type" : "normal" }
