@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Smalltalk-Parser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methodParser",
+		"parser" ],
+	"name" : "PParserBenchmark",
+	"pools" : [
+		 ],
+	"super" : "PBenchmarkSuite",
+	"type" : "normal" }

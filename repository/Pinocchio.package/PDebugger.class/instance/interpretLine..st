@@ -4,4 +4,4 @@ interpretLine: code
 		ifTrue: [ ^ escapeShell value: code ].
 	code = ''
 		ifTrue: [ ^ escapeShell value: 's' ].
-	^ nil perform: (self compile: code) selector
+	^ self perform: (self compile: code) selector
