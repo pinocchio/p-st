@@ -9,4 +9,6 @@ benchMediumMethod
 	internalConstantCode at: 0 put: #push0.
 	internalConstantCode at: 1 put: #push1.
 	internalConstantCode at: 2 put: #push2.'.
-	1000 timesRepeat: [ methodParser match: string].
+	1000 timesRepeat: [ 
+		methodParser match: string.
+		string reset.].

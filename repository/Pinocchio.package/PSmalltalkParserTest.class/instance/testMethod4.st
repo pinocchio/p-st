@@ -5,8 +5,7 @@ testMethod4
 	string := 'withA: a withB: b withC: c
 		a := b > c.
 		a ifTrue: [^ b]
-		  ifFalse: [^ c]
-	'.
+		  ifFalse: [^ c]'.
 	result := parser parse: string.
 	result hasReturnExpression should be true.
 	result class should = ASTMethod.

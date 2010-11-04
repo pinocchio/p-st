@@ -59,6 +59,7 @@ exportBasicClasses
 		add: PSemaphore;
 		add: PReadLine;
 		add: PText;
+		add: PSmalltalkParserTest;
 		"Debuggers"
 		add: PDebugger;
 		add: PParallelDebugger;
@@ -70,7 +71,7 @@ exportBasicClasses
 		add: PBDictionary;
 		add: PBIdentitySet;
 		add: PBSet;
-		add: PBSmalltalkParser;
+		add: PParserBenchmark;
 		"WebClient"
 		add: PWebSocket;
 		add: PWebServer;

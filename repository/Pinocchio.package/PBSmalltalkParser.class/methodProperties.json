@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"benchLongMethod" : "CamilloBruni 11/2/2010 21:44",
-		"benchMethod" : "CamilloBruni 11/2/2010 19:32",
-		"setUp" : "CamilloBruni 11/2/2010 19:29",
-		"tearDown" : "CamilloBruni 11/2/2010 19:29" } }

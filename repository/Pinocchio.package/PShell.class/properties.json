@@ -10,7 +10,8 @@
 		"output",
 		"error",
 		"exceptions",
-		"scope" ],
+		"scope",
+		"history" ],
 	"name" : "PShell",
 	"pools" : [
 		 ],
