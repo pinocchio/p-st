@@ -2,7 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"benchLongMethod" : "CamilloBruni 11/4/2010 21:38",
-		"benchMediumMethod" : "CamilloBruni 11/4/2010 21:38",
-		"benchSmallMethod" : "CamilloBruni 11/4/2010 21:38",
+		"benchAnnotation" : "CamilloBruni 11/4/2010 21:50",
+		"benchBlock" : "CamilloBruni 11/4/2010 21:50",
+		"benchBlockWithArg" : "CamilloBruni 11/4/2010 21:50",
+		"benchBlockWithArgAndBody" : "CamilloBruni 11/4/2010 21:50",
+		"benchLongMethod" : "CamilloBruni 11/4/2010 21:49",
+		"benchMediumMethod" : "CamilloBruni 11/4/2010 21:49",
+		"benchSmallMethod" : "CamilloBruni 11/4/2010 21:49",
+		"benchString" : "CamilloBruni 11/4/2010 21:49",
+		"benchStringNumbers" : "CamilloBruni 11/4/2010 21:49",
+		"benchSymbol" : "CamilloBruni 11/4/2010 21:49",
+		"repetitionCount" : "CamilloBruni 11/4/2010 21:50",
 		"setUp" : "CamilloBruni 11/4/2010 09:42" } }

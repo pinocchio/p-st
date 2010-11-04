@@ -1,8 +1,8 @@
 as yet unclassified
-benchSmallMethod
+benchBlock
 	| string |
 	string := PEGStringScanner on: 'a
-	^ self'.
+		^ []'.
 	self repetitionCount timesRepeat: [ 
 		methodParser match: string.
 		string reset].

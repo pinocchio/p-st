@@ -27,6 +27,6 @@ benchLongMethod
 					(self bucketWithRoomAt: bucketIndex) newKey: key value: (bucket at: c + 1).
 					bucket removeAt: c ] ]
 	'.
-	1000 timesRepeat: [ 
+	self repetitionCount timesRepeat: [ 
 		methodParser parse: string.
 		string reset].
