@@ -5,3 +5,4 @@ baseBenchmark
 	inst := PBAbstractDictionary new.
 	inst keyBlock: self keyBlock.
 	inst valueBlock: self valueBlock.
+	^ inst

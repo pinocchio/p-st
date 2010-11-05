@@ -2,5 +2,6 @@ running
 run
 	self reset.
 	self runAll.
-	self runBaseBenchmark
+	self runBaseBenchmark.
+	self warn: 'ended run'
 	
