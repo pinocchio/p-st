@@ -72,6 +72,7 @@ exportBasicClasses
 		add: PBIdentitySet;
 		add: PBSet;
 		add: PParserBenchmark;
+		add: PBFib;
 		"WebClient"
 		add: PWebSocket;
 		add: PWebServer;
