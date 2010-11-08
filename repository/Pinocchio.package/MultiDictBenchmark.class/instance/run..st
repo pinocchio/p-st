@@ -3,4 +3,4 @@ run: selector
 	stResults at: selector put: Dictionary new.
 	pResults at: selector put: Dictionary new.
 	
-	#( 10 25 50 100 250 500 1000 2500 5000 10000) do: [ :size| self run: selector dictSize: size].
+	self sizes do: [ :size| self run: selector dictSize: size].
