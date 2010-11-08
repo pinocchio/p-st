@@ -8,4 +8,5 @@ run: selector
 		name: (self benchmarkNameForSelector: selector).
 	run run.
 	runs at: selector put: run.
+	^ run
 	

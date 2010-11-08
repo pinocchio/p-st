@@ -1,5 +1,5 @@
 printing
 printOn: aStream
 	self inspectLabelOn: aStream.
-	aStream nextPut: $ .
+	aStream << ' '.
 	^ super printOn: aStream.
