@@ -1,8 +1,8 @@
 as yet unclassified
 run: selector dictSize: size
 	| result |
-	Transcript show: ('', selector, ' ', size asString).
-	stBenchmark dictSize: size.
+	useStDict ifTrue: [
+		self runSelector: selector dictSize: size benchmark: stBenchmark results: stResults.].
 	result := stBenchmark run: selector.
 	(stResults at: selector) at: size put: result.
 	

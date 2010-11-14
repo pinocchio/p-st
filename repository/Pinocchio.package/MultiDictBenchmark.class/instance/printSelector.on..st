@@ -4,4 +4,5 @@ printSelector: selector on: aStream
 	self sizes do: [ :size| aStream << size asString; tab; tab].
 	aStream lf.
 	self printResults: pResults selector: selector named: #Pinocchio on: aStream.
-	self printResults: stResults selector: selector named: #Smalltalk on: aStream.
+	useStDict ifTrue: [
+		self printResults: stResults selector: selector named: #Smalltalk on: aStream.].

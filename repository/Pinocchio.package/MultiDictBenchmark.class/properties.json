@@ -12,6 +12,9 @@
 		"stBenchmark",
 		"pBenchmark",
 		"sBenchmark" ],
+		"probeCount",
+		"keyBlock",
+		"useStDict" ],
 	"name" : "MultiDictBenchmark",
 	"pools" : [
 		 ],

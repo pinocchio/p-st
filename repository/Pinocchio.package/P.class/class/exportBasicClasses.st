@@ -73,6 +73,7 @@ exportBasicClasses
 		add: PBSet;
 		add: PParserBenchmark;
 		add: PBFib;
+		add: MultiDictBenchmark;
 		"WebClient"
 		add: PWebSocket;
 		add: PWebServer;
