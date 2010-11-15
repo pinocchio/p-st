@@ -74,6 +74,7 @@ exportBasicClasses
 		add: PParserBenchmark;
 		add: PBFib;
 		add: MultiDictBenchmark;
+		add: HashObject;
 		"WebClient"
 		add: PWebSocket;
 		add: PWebServer;
