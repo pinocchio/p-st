@@ -1,0 +1,18 @@
+{
+	"category" : "Pinocchio-Number-Random",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"x",
+		"y",
+		"z",
+		"v",
+		"w" ],
+	"name" : "XORShiftRandom",
+	"pools" : [
+		 ],
+	"super" : "PRandom",
+	"type" : "normal" }

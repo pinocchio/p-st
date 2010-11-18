@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Number-Random",
+	"classinstvars" : [
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PRandom",
+	"pools" : [
+		 ],
+	"super" : "PObject",
+	"type" : "normal" }

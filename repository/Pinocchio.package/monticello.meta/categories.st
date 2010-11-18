@@ -20,6 +20,7 @@ SystemOrganization addCategory: #'Pinocchio-Kernel-Number'!
 SystemOrganization addCategory: #'Pinocchio-Kernel-Object'!
 SystemOrganization addCategory: #'Pinocchio-Kernel-String'!
 SystemOrganization addCategory: #'Pinocchio-Kernel-Threading'!
+SystemOrganization addCategory: #'Pinocchio-Number-Random'!
 SystemOrganization addCategory: #'Pinocchio-Organization'!
 SystemOrganization addCategory: #'Pinocchio-Plugin'!
 SystemOrganization addCategory: #'Pinocchio-Relationship'!
