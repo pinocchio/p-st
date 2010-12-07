@@ -4,8 +4,9 @@ SystemOrganization addCategory: #'Pinocchio-Bridge'!
 SystemOrganization addCategory: #'Pinocchio-Bridge-Test'!
 SystemOrganization addCategory: #'Pinocchio-Collection'!
 SystemOrganization addCategory: #'Pinocchio-Chronology'!
-SystemOrganization addCategory: #'Pinocchio-Collection-Stream'!
 SystemOrganization addCategory: #'Pinocchio-Collection-Benchmark'!
+SystemOrganization addCategory: #'Pinocchio-Collection-Stream'!
+SystemOrganization addCategory: #'Pinocchio-Collection-Support'!
 SystemOrganization addCategory: #'Pinocchio-Concurrency'!
 SystemOrganization addCategory: #'Pinocchio-Demo'!
 SystemOrganization addCategory: #'Pinocchio-Inspector'!
@@ -34,4 +35,3 @@ SystemOrganization addCategory: #'Pinocchio-Smalltalk-Parser'!
 SystemOrganization addCategory: #'Pinocchio-Smalltalk-Threading'!
 SystemOrganization addCategory: #'Pinocchio-Testing'!
 SystemOrganization addCategory: #'Pinocchio-WebClient-Core'!
-SystemOrganization addCategory: #'Pinocchio-Collection-Support'!

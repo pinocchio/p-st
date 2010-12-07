@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Number-Random",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currentIndex",
+		"samples" ],
+	"name" : "HammersleySequence",
+	"pools" : [
+		 ],
+	"super" : "PrimeSequence",
+	"type" : "normal" }

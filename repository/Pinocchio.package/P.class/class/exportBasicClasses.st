@@ -14,6 +14,7 @@ exportBasicClasses
 		add: PSymbol;
 		add: PSmallInt;
 		add: PFloat;
+		add: HammersleySequence;
 		add: PBlockClosure;
 		add: PContinue;
 		add: PCharacter;
@@ -60,6 +61,7 @@ exportBasicClasses
 		add: PReadLine;
 		add: PText;
 		add: PSmalltalkParserTest;
+		add: XORShiftRandom;
 		"Debuggers"
 		add: PDebugger;
 		add: PParallelDebugger;

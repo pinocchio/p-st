@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Kernel-Exception",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"argument" ],
+	"name" : "PInvalidArgument",
+	"pools" : [
+		 ],
+	"super" : "PException",
+	"type" : "normal" }

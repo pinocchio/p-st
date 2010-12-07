@@ -1,0 +1,15 @@
+{
+	"category" : "Pinocchio-Number-Random",
+	"classinstvars" : [
+		"prime" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"prime",
+		"size" ],
+	"name" : "PrimeSequence",
+	"pools" : [
+		 ],
+	"super" : "PRandom",
+	"type" : "normal" }

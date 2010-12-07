@@ -14,7 +14,9 @@
 		"sBenchmark" ],
 		"probeCount",
 		"keyBlock",
-		"useStDict" ],
+		"useStDict",
+		"randomized",
+		"keyBlockGenerator" ],
 	"name" : "MultiDictBenchmark",
 	"pools" : [
 		 ],
