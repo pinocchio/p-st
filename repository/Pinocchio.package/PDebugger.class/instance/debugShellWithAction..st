@@ -5,16 +5,13 @@ debugShellWithAction: action
 	input = 's'
 		ifTrue: [ ^ action value ].
 	input = 'o'
-		ifTrue:
-			[ | oldBlock result |
-			oldBlock := stepBlock.
-			stepBlock := self skipStepBlock.
-			result := action value.
-			stepBlock := oldBlock.
-			^ result ].
+		ifTrue: [ ^ self skipWith: action ].
 	input = 'i'
-		ifTrue:
-			[ self currentSelf inspect. PVTermOutputDriver stdout lf. ^ self debugShellWithAction: action ].
+		ifTrue: [ 
+			self currentSelf inspect. 
+			PVTermOutputDriver stdout lf. 
+			^ self debugShellWithAction: action ].
 	input = 'j'
-		ifTrue:
-			[ stepBlock := self skipBlock: 2. ^ action value ]
+		ifTrue:[ 
+			stepBlock := self skipBlock: 2. 
+			^ action value ].

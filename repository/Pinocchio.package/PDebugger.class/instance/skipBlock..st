@@ -1,4 +1,4 @@
-debugging
+stepping
 skipBlock: count
     |skips previousBlock|
     skips := 0.

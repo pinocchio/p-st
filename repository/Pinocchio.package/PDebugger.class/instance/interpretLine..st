@@ -1,7 +1,10 @@
 shell
 interpretLine: code
-	(code = 's' or: [ code = 'o' or: [ code = 'i' or: [ code = 'j']]])
-		ifTrue: [ ^ escapeShell value: code ].
+	| value |
+	(self validCommands includes: code) 
+		ifTrue: [
+			lastCommand := code.
+			^ escapeShell value: code].
 	code = ''
-		ifTrue: [ ^ escapeShell value: 's' ].
-	^ self perform: (self compile: code) selector
+		ifTrue: [ ^ escapeShell value: lastCommand ].
+	^ self interpret: code.

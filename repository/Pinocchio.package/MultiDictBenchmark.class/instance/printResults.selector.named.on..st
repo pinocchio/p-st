@@ -1,9 +1,9 @@
 printing
 printResults: results selector: selector named: name on: aStream
-	| runs run |
+	| runs |
 	aStream << name; tab.
-	runs := (results at: selector).
+	runs := (results at: selector ifAbsent: [ ^ self ]).
 	self sizes do: [ :size|
-		run := runs at: size.
-		aStream << run average; tab; << run stdev; tab.].
+		runs at: size ifPresent: [ :run|
+			aStream << run average; tab; << run stdev; tab.]].
 	aStream lf; lf.

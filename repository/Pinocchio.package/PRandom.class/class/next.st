@@ -1,3 +1,3 @@
 as yet unclassified
 next
-	^ self instance next.
+	^ self instance next

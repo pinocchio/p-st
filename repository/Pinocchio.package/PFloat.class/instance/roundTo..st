@@ -1,4 +1,4 @@
-arithmetic
+converting
 roundTo: quantum 
 	"Answer the nearest number that is a multiple of quantum."
 

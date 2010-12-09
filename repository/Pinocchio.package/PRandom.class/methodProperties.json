@@ -1,11 +1,12 @@
 {
 	"class" : {
 		"instance" : "CamilloBruni 11/18/2010 14:48",
-		"next" : "CamilloBruni 11/18/2010 14:48",
+		"next" : "CamilloBruni 12/7/2010 20:37",
+		"nextInt:" : "CamilloBruni 12/7/2010 20:37",
 		"randomArray:" : "CamilloBruni 12/7/2010 16:01",
 		"reset" : "CamilloBruni 11/18/2010 14:49" },
 	"instance" : {
-		"initialize" : "CamilloBruni 11/18/2010 14:31",
-		"next" : "CamilloBruni 12/7/2010 15:02",
-		"nextInt:" : "CamilloBruni 12/7/2010 15:31",
-		"seed:" : "CamilloBruni 11/18/2010 14:25" } }
+		"initialize" : "CamilloBruni 12/7/2010 20:36",
+		"next" : "CamilloBruni 12/7/2010 20:37",
+		"nextInt:" : "CamilloBruni 12/7/2010 17:51",
+		"seed:" : "CamilloBruni 12/7/2010 20:36" } }

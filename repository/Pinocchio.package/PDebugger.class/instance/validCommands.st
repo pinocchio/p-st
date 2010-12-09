@@ -1,0 +1,3 @@
+shell
+validCommands
+	^ 'soij' asArray 

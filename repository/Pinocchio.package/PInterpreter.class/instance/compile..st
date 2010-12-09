@@ -1,4 +1,4 @@
-interpretation
+shell
 compile: code
 	| methodString method |
 	methodString := 'DoIt ^[', Character lf asString, code, '] value'.

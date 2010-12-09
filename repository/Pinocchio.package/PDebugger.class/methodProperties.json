@@ -2,14 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"compile:" : "CamilloBruni 11/3/2010 21:45",
-		"debugShellWithAction:" : "ToonVerwaest 10/14/2010 06:52",
+		"classSetStepBlock:" : "CamilloBruni 12/8/2010 17:26",
+		"classStepBlock:" : "CamilloBruni 12/8/2010 17:25",
+		"debugShellWithAction:" : "CamilloBruni 12/8/2010 17:14",
 		"defaultStepBlock" : "DavidGurtner 4/28/2010 13:27",
 		"displayPrompt" : "ToonVerwaest 8/13/2010 15:22",
 		"executeAction:" : "DavidGurtner 4/28/2010 14:05",
 		"indent" : "ToonVerwaest 8/13/2010 15:22",
+		"initialize" : "CamilloBruni 12/8/2010 20:34",
 		"interpretFromStdin" : "ToonVerwaest 10/14/2010 06:43",
-		"interpretLine:" : "CamilloBruni 11/3/2010 21:45",
+		"interpretLine:" : "CamilloBruni 12/8/2010 20:36",
 		"isReady:" : "ToonVerwaest 10/14/2010 06:45",
 		"parsesUntil:" : "ToonVerwaest 10/14/2010 06:46",
 		"perror:" : "ToonVerwaest 8/6/2010 16:55",
@@ -17,4 +19,6 @@
 		"printStacktrace" : "DavidGurtner 3/26/2010 00:00",
 		"shell" : "CamilloBruni 3/29/2010 13:58",
 		"skipBlock:" : "DavidGurtner 4/28/2010 14:32",
-		"skipStepBlock" : "DavidGurtner 4/28/2010 13:45" } }
+		"skipStepBlock" : "DavidGurtner 4/28/2010 13:45",
+		"skipWith:" : "CamilloBruni 12/8/2010 17:14",
+		"validCommands" : "CamilloBruni 12/8/2010 20:33" } }

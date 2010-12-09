@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"escapeShell" ],
+		"escapeShell",
+		"lastCommand" ],
 	"name" : "PDebugger",
 	"pools" : [
 		 ],
