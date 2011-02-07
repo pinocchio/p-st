@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"stderr" : "ToonVerwaest 8/16/2010 14:47",
-		"stdout" : "ToonVerwaest 8/16/2010 14:47" },
+		"stdout" : "CamilloBruni 2/7/2011 14:28",
+		"with:" : "CamilloBruni 2/7/2011 14:29" },
 	"instance" : {
 		"<<" : "ToonVerwaest 8/17/2010 11:42",
 		"backspace" : "ToonVerwaest 8/12/2010 21:55",
@@ -13,6 +14,7 @@
 		"bold" : "ToonVerwaest 8/16/2010 15:59",
 		"clear" : "CamilloBruni 6/1/2010 00:06",
 		"clearFromBeginning" : "ToonVerwaest 8/16/2010 16:37",
+		"clearScreen" : "CamilloBruni 2/7/2011 16:13",
 		"clearToEnd" : "ToonVerwaest 8/16/2010 16:37",
 		"color:" : "CamilloBruni 5/31/2010 23:57",
 		"colorEscape" : "ToonVerwaest 8/16/2010 16:23",

@@ -1,6 +1,5 @@
 accessing
 stdout
 	stdoutTerminalInstance ifNil: [
-		stdoutTerminalInstance := PVTermOutputDriver new.
-		stdoutTerminalInstance outStream: PFile stdout ].
+		stdoutTerminalInstance := PVTermOutputDriver with: PFile stdout ].
 	^ stdoutTerminalInstance.

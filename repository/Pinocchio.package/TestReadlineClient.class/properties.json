@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Shell-ReadLine-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parseHistory" ],
+	"name" : "TestReadlineClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

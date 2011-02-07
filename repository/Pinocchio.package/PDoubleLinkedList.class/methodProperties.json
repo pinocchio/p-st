@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"add:" : "ToonVerwaest 8/17/2010 10:31",
+		"at:" : "CamilloBruni 2/7/2011 16:44",
 		"atEnd" : "ToonVerwaest 8/13/2010 11:22",
 		"atStart" : "ToonVerwaest 8/13/2010 11:38",
 		"clear" : "ToonVerwaest 8/17/2010 10:31",
@@ -11,6 +12,7 @@
 		"end" : "ToonVerwaest 8/17/2010 10:19",
 		"first" : "CamilloBruni 8/25/2010 15:15",
 		"initialize" : "ToonVerwaest 8/12/2010 10:48",
+		"inject:into:" : "CamilloBruni 2/7/2011 16:19",
 		"last" : "CamilloBruni 8/25/2010 15:15",
 		"next" : "ToonVerwaest 8/17/2010 10:18",
 		"position" : "ToonVerwaest 8/17/2010 10:20",

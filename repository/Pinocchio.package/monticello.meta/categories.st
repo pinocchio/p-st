@@ -28,6 +28,7 @@ SystemOrganization addCategory: #'Pinocchio-Relationship'!
 SystemOrganization addCategory: #'Pinocchio-Runtime'!
 SystemOrganization addCategory: #'Pinocchio-Shell'!
 SystemOrganization addCategory: #'Pinocchio-Shell-ReadLine'!
+SystemOrganization addCategory: #'Pinocchio-Shell-ReadLine-Test'!
 SystemOrganization addCategory: #'Pinocchio-Slot'!
 SystemOrganization addCategory: #'Pinocchio-Smalltalk-AST'!
 SystemOrganization addCategory: #'Pinocchio-Smalltalk-Compiler'!

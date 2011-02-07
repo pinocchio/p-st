@@ -1,15 +1,18 @@
 {
 	"class" : {
 		"instance" : "ToonVerwaest 8/16/2010 14:48",
-		"pinitialize" : "ToonVerwaest 8/16/2010 14:49" },
+		"pinitialize" : "CamilloBruni 2/7/2011 15:20",
+		"reset" : "CamilloBruni 2/7/2011 15:21" },
 	"instance" : {
-		"flush" : "ToonVerwaest 8/17/2010 10:45",
-		"getent:" : "ToonVerwaest 8/16/2010 13:20",
+		"flush" : "CamilloBruni 2/7/2011 15:15",
+		"getent:" : "CamilloBruni 2/7/2011 15:15",
 		"getflag:" : "ToonVerwaest 8/16/2010 15:25",
 		"getnum:" : "ToonVerwaest 8/16/2010 13:31",
 		"getstr:" : "ToonVerwaest 11/5/2010 17:52",
-		"initialize" : "ToonVerwaest 8/17/2010 10:41",
+		"initialize" : "CamilloBruni 2/7/2011 17:14",
 		"parm:in:" : "ToonVerwaest 8/16/2010 16:33",
 		"parm:parm:in:" : "ToonVerwaest 8/16/2010 16:33",
+		"pgetent:" : "CamilloBruni 2/7/2011 14:36",
+		"pinitialize" : "CamilloBruni 2/7/2011 15:00",
 		"reset" : "ToonVerwaest 8/16/2010 15:00",
 		"tgetstr:" : "ToonVerwaest 8/17/2010 10:38" } }

@@ -1,3 +1,3 @@
 escapecodes
 deleteToEndOfLine
-	text deleteToEndOfLine ifTrue: [ output clearToEnd].
+	text deleteToEndOfLine ifTrue: [output clearToEnd].
