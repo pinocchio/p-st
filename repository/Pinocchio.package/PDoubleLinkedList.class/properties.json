@@ -14,5 +14,5 @@
 	"name" : "PDoubleLinkedList",
 	"pools" : [
 		 ],
-	"super" : "PObject",
+	"super" : "Collection",
 	"type" : "normal" }

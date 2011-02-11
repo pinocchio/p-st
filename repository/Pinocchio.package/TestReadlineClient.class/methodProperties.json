@@ -3,7 +3,11 @@
 		 },
 	"instance" : {
 		"continueLine" : "CamilloBruni 2/7/2011 16:55",
+		"historyNext" : "CamilloBruni 2/8/2011 15:50",
+		"historyPrevious" : "CamilloBruni 2/8/2011 15:49",
+		"historyPush:" : "CamilloBruni 2/8/2011 16:30",
 		"initialize" : "CamilloBruni 2/7/2011 15:23",
+		"isReady" : "CamilloBruni 2/8/2011 16:28",
 		"isReady:" : "CamilloBruni 2/7/2011 14:26",
 		"parsesUntil:" : "CamilloBruni 2/7/2011 15:30",
-		"reset" : "CamilloBruni 2/7/2011 14:25" } }
+		"reset" : "CamilloBruni 2/8/2011 15:49" } }

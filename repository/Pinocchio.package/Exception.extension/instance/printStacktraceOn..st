@@ -1,0 +1,3 @@
+*Pinocchio
+printStacktraceOn: stream
+	<preventExport>

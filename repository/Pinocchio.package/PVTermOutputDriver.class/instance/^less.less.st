@@ -1,5 +1,5 @@
 writing
 << aString
-	self insertMode.
+	"self insertMode."
 	outStream << aString.
-	self endInsertMode.
+	"self endInsertMode."

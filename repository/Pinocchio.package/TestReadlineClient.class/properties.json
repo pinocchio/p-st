@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parseHistory" ],
+		"parseHistory",
+		"history" ],
 	"name" : "TestReadlineClient",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PObject",
 	"type" : "normal" }

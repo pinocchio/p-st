@@ -1,14 +1,14 @@
 {
-	"category" : "Pinocchio-Shell-ReadLine",
+	"category" : "Pinocchio-IO-Term",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"history" ],
-	"name" : "PHistoryText",
+		 ],
+	"name" : "STVTermInputDriver",
 	"pools" : [
 		 ],
-	"super" : "PText",
+	"super" : "PVTermInputDriver",
 	"type" : "normal" }

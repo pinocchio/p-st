@@ -42,6 +42,7 @@ exportBasicClasses
 		add: PMain;
 		add: PVTermOutputDriver;
 		add: PTests;
+		add: PDoubleLinkedList;
 		add: PPexMatcher;
 		add: PTermcap;
 		add: PEnvironment;
@@ -59,6 +60,8 @@ exportBasicClasses
 		add: PAtomicBoolean;
 		add: PSemaphore;
 		add: PReadLine;
+		add: TestReadlineClient;
+		add: PHistoryReadLine;
 		add: PText;
 		add: PSmalltalkParserTest;
 		add: XORShiftRandom;

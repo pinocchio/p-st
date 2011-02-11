@@ -1,3 +1,3 @@
-printing
+readline
 continueLine
 	output << '| '.

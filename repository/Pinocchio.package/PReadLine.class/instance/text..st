@@ -1,5 +1,6 @@
 inserting
 text: aText
+	"replace the current text and repaint the screen"
 	|line min updatedLines pos |
 	self startOfText.
 	updatedLines := aText lines + 1.
@@ -20,3 +21,4 @@ text: aText
 	text := aText.
 	self up: (updatedLines - text line).
 	self right: (text column).
+	self repaint.

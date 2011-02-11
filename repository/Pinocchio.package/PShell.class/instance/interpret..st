@@ -2,8 +2,7 @@ interpretation
 interpret: code
 	| value |
 	code = '' ifTrue: [ ^ PVoid ].
-	^ [ value := self perform: (self compile: code) selector.
-		history add: code. 
+	^ [ value := self evaluate: code. 
 		value.] 
 		on: Object 
 		do: [ :ex | 

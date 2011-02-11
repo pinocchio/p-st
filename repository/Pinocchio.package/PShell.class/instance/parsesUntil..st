@@ -1,4 +1,4 @@
-testing
+readline
 parsesUntil: code
 	[ PSmalltalkGrammar instance parseStatements: code ]
 		on: PEGParsingFailure

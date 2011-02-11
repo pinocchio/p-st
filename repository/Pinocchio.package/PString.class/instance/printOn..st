@@ -1,3 +1,3 @@
 printing
 printOn: stream
-	 ^ stream << '''' << self << ''''
+	 stream << '''' << self << ''''

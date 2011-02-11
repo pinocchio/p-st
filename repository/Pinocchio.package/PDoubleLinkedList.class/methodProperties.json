@@ -1,8 +1,8 @@
 {
 	"class" : {
-		 },
+		"pMethods" : "CamilloBruni 2/10/2011 14:26" },
 	"instance" : {
-		"add:" : "ToonVerwaest 8/17/2010 10:31",
+		"add:" : "CamilloBruni 2/10/2011 13:43",
 		"at:" : "CamilloBruni 2/7/2011 16:44",
 		"atEnd" : "ToonVerwaest 8/13/2010 11:22",
 		"atStart" : "ToonVerwaest 8/13/2010 11:38",

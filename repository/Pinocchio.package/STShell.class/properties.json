@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-Shell",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"readline" ],
+	"name" : "STShell",
+	"pools" : [
+		 ],
+	"super" : "PShell",
+	"type" : "normal" }

@@ -6,6 +6,8 @@ pMethods
 			[^{#inject:into:.
 				#addAll:.
 				#detect:.
+				#pprintOn:.
+				#putOn:.
 				#detect:ifNone:.
 				#isEmpty.
 				#ifNotEmpty:.
@@ -24,5 +26,6 @@ pMethods
 				#average.
 				#emptyCheck.
 				#notEmpty.
-				#sum}].
+				#sum.
+				#do:separatedBy:}].
 	^ super pMethods

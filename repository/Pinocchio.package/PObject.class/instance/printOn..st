@@ -1,3 +1,3 @@
 printing
 printOn: aStream
-	^ aStream << self class name
+	aStream << self class name

@@ -1,0 +1,14 @@
+{
+	"category" : "Pinocchio-IO-Term",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "STVTermOutputDriver",
+	"pools" : [
+		 ],
+	"super" : "PVTermOutputDriver",
+	"type" : "normal" }
