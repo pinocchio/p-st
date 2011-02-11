@@ -3,12 +3,17 @@ text: aText
 	"replace the current text and repaint the screen"
 	|line min updatedLines pos |
 	self startOfText.
+	"this is not always needed"
+	3 timesRepeat: [output left].
+	output clearToEnd.
+	client displayPrompt.
 	updatedLines := aText lines + 1.
 	pos := aText position.
 	"overwrite existing lines"
 	1 to: aText lines do: [ :index|
 		"clear the current line"
 		output clearToEnd.
+		index = 1 ifFalse: [client continueLine].
 		line := aText lineAt: index.
 		line do: [ :char|
 			output << char].

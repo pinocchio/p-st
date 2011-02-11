@@ -1,4 +1,7 @@
 as yet unclassified
 down
+	| nextText |
 	text onLastLine ifFalse: [ ^ super down ].
-	client historyNext ifNotNilDo: [ :txt| self text: txt].
+	nextText := client historyNext.
+	nextText = text ifTrue: [ ^ self ].
+	nextText ifNotNilDo: [ :txt| self text: txt].
