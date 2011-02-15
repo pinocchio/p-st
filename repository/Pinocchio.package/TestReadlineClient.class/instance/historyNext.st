@@ -1,3 +1,5 @@
 as yet unclassified
 historyNext
-	^ history next
+	history isEmpty ifTrue: [ ^ nil].
+	history next.
+	^ history value.

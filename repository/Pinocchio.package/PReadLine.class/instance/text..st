@@ -24,6 +24,8 @@ text: aText
 			aText lines to: text lines do: [:index| 
 				output deleteLine]].
 	text := aText.
+	"this is not always needed"
+	2 timesRepeat: [output right].
 	self up: (updatedLines - text line).
 	self right: (text column).
 	self repaint.

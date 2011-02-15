@@ -1,0 +1,3 @@
+realine
+displayPrompt
+	^ '$: '
