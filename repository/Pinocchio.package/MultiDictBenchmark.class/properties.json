@@ -11,7 +11,7 @@
 		"sResults",
 		"stBenchmark",
 		"pBenchmark",
-		"sBenchmark" ],
+		"sBenchmark",
 		"probeCount",
 		"keyBlock",
 		"useStDict",
